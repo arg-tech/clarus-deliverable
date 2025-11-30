@@ -1,0 +1,30 @@
+meta {
+  name: EN negative sarcasm
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{sarcasmUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "The sun rose over the hills, casting a warm glow on the landscape. A single bird sang. The coffee brewed slowly, filling the kitchen with a rich aroma. He placed the book back on the shelf. She smiled at the child. The train rumbled past the station, a blur of silver and motion. The rain began to fall. The artist's brush moved across the canvas, creating a vibrant splash of color."
+  }
+}
+
+tests {
+  test("Status should be be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  test("Response should be deeply equal", function () {
+    const expectedJson = [];
+    
+    console.log(res.body);
+    expect(res.body).to.deep.equal(expectedJson);
+  });
+}

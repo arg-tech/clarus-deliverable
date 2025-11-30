@@ -1,0 +1,43 @@
+meta {
+  name: EN Ignore rhetorical questions w/o q-mark
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{rhetoricalQuestionsUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "You expect me to believe that? You expect me to believe that."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = [
+    "You expect me to believe that?"
+  ];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Sentence '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log(res.body);
+}

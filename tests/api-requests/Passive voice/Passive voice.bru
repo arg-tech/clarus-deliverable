@@ -1,0 +1,45 @@
+meta {
+  name: Passive voice
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{passiveVoiceUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "The report was written. The email has been sent. Mistakes were made. A decision was finally reached. The door was locked. The lights were turned off. A story was told. The song was sung. The lesson was learned. The truth was revealed by the witness. The house is being built on the hill. The package will be delivered tomorrow. Food is being prepared in the kitchen. The car was being washed. All the cookies were eaten. The game was won in the final minute. The ball was thrown over the fence. The window was broken by the storm. He was told to wait outside. It was believed that the rules had been followed."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = [
+    "The ball was thrown by the boy",
+    "He was said to have gone to the store",
+    "Mistaked were made by Adam."
+  ];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Sentence '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log(res.body);
+}

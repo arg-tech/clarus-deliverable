@@ -1,0 +1,42 @@
+meta {
+  name: FI Dysphemisms
+  type: http
+  seq: 18
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "Tilanne muuttui verilöylyksi ja teurastamoksi. Se oli helvetti täynnä kurjia rottia ja loisia. Paska tilanne ja sairaalloinen käytös.",
+    "language": "fi"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["verilöylyksi", "teurastamoksi", "helvetti", "kurjia", "rottia", "loisia", "paska", "sairaalloinen"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}

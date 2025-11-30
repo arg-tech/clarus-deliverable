@@ -1,0 +1,41 @@
+{
+  "war_or_conflict": [
+    "pommipuhe",
+    "ristiretki",
+    "jahdata",
+    "taistelukenttä",
+    "sotavyöhyke"
+  ],
+  "disaster_or_catastrophe": [
+    "myrsky",
+    "painajainen",
+    "vallankumous",
+    "hyökyaalto",
+    "katastrofi",
+    "kataklysmi",
+    "tuhota",
+    "tuhoaminen",
+    "purkautua",
+    "romahtaa",
+    "helvetti",
+    "romahdus",
+    "täydellinen myrsky",
+    "sataa",
+    "seisminen muutos",
+    "murskata",
+    "shokkiaalto",
+    "tsunami",
+    "vulkaaninen"
+  ],
+  "social_or_cultural_critique": [
+    "korruptoitunut",
+    "myrkyllinen kulttuuri",
+    "kiistamyrsky"
+  ],
+  "rapid_change_or_escalation": [
+    "sytyttää",
+    "nousta pilviin",
+    "iskeä",
+    "myrsky"
+  ]
+}

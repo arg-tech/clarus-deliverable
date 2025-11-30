@@ -1,0 +1,41 @@
+services:
+  gateway:
+    working_dir: /app
+    volumes:
+      - ./gateway:/app
+    # todo: cannot run multiple debugpy services with the same port
+    # ports:
+    #   - "5678:5678"
+    command: >
+        uv run --with debugpy python -m debugpy --listen 0.0.0.0:5678 -m uvicorn main:app --host 0.0.0.0 --reload --app-dir /app
+  rule-based-service:
+    # todo: Investigate if it can work with fastapi CLI
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--reload", "--app-dir", "/app"]
+    working_dir: /app
+    volumes:
+      - ./services/rule-based-service:/app
+  passive-voice-service:
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--reload", "--app-dir", "/app"]
+    working_dir: /app
+    volumes:
+      - ./services/passive-voice-service:/app
+  rhetorical-questions-service:
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--reload", "--app-dir", "/app"]
+    working_dir: /app
+    volumes:
+      - ./services/rhetorical-questions-service:/app
+      - /app/.venv
+  sarcasm-service:
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--reload", "--app-dir", "/app"]
+    working_dir: /app
+    volumes:
+      - ./services/sarcasm-service:/app
+  llm-caller-service:
+    working_dir: /app
+    volumes:
+      - ./services/llm-caller-service:/app
+    ports:
+      - "5678:5678"
+      - "7028:8000"
+    command: >
+        uv run --with debugpy python -m debugpy --listen 0.0.0.0:5678 -m uvicorn main:app --host 0.0.0.0 --reload --app-dir /app

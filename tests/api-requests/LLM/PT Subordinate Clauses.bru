@@ -1,0 +1,57 @@
+meta {
+  name: PT Subordinate Clauses
+  type: http
+  seq: 30
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_subordinate_clauses
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "O novo trimestre começou com força, quando a equipe de vendas revelou seus últimos números. A iniciativa inovadora 'Project Nexus' claramente valeu a pena, impulsionando um aumento de 30% nas aquisições de novos clientes. Embora alguns críticos inicialmente duvidassem do cronograma ambicioso do programa, os resultados falam por si, provando que velocidade e estratégia podem coexistir. O departamento de marketing, em particular, foi elogiado por suas campanhas criativas de alcance que ressoaram profundamente com o público-alvo. Eles conseguiram transformar leads mornos em defensores apaixonados da marca. A equipe de desenvolvimento de produtos não ficou para trás, apresentando um novo gadget altamente antecipado. O protótipo, elegante e intuitivo, foi um grande sucesso com o grupo focal. Apesar de haver alguns pequenos problemas durante a fase inicial de testes, a experiência perfeita do usuário final ofuscou quaisquer problemas anteriores. O chefe de engenharia explicou o processo meticuloso de correção de bugs e otimização que foi necessário para aperfeiçoar o dispositivo. Estava claro que o trabalho duro deles havia valido a pena, pois cada participante queria saber quando poderia fazer pré-encomenda. Enquanto isso, o departamento de recursos humanos compartilhou sua história de sucesso sobre satisfação dos funcionários. Eles haviam implementado um novo horário de trabalho flexível que recebeu feedback extremamente positivo. Ainda que a transição inicialmente tenha causado alguns desafios logísticos para os gerentes de departamento, o subsequente aumento na produtividade e no moral justificou completamente a mudança. Os dados mostraram uma queda significativa na rotatividade de funcionários e um aumento na satisfação no trabalho auto-relatada. Este sucesso demonstrou que focar no bem-estar dos funcionários pode se traduzir diretamente em ganhos de negócio."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = [
+    "Embora alguns críticos inicialmente duvidassem do cronograma ambicioso do programa, os resultados falam por si, provando que velocidade e estratégia podem coexistir.",
+    "Apesar de haver alguns pequenos problemas durante a fase inicial de testes, a experiência perfeita do usuário final ofuscou quaisquer problemas anteriores.",
+    "Ainda que a transição inicialmente tenha causado alguns desafios logísticos para os gerentes de departamento, o subsequente aumento na produtividade e no moral justificou completamente a mudança."
+  ];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

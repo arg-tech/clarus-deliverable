@@ -1,0 +1,111 @@
+{
+  "war_or_conflict": [
+    [
+      "pommi"
+    ],
+    [
+      "risti",
+      "ristiretki"
+    ],
+    [
+      "jahdata"
+    ],
+    [
+      "taistelukenttä",
+      "taistelu"
+    ],
+    [
+      "sota"
+    ]
+  ],
+  "disaster_or_catastrophe": [
+    [
+      "myrsky"
+    ],
+    [
+      "painajainen"
+    ],
+    [
+      "vallankumous",
+      "valta"
+    ],
+    [
+      "hyöky",
+      "hyökyaalto"
+    ],
+    [
+      "katastrofi"
+    ],
+    [
+      "kataklysmi"
+    ],
+    [
+      "tuhota"
+    ],
+    [
+      "tuhota",
+      "tuhoaminen"
+    ],
+    [
+      "purka",
+      "purkautua"
+    ],
+    [
+      "romahtaa"
+    ],
+    [
+      "helvetti"
+    ],
+    [
+      "romahdus"
+    ],
+    [
+      "täydellinen myrsky"
+    ],
+    [
+      "sataa",
+      "sata"
+    ],
+    [
+      "seisminen muutos"
+    ],
+    [
+      "murskata"
+    ],
+    [
+      "shokki"
+    ],
+    [
+      "tsunami"
+    ],
+    [
+      "vulkaaninen"
+    ]
+  ],
+  "social_or_cultural_critique": [
+    [
+      "korruptoitua",
+      "korruptoitunut"
+    ],
+    [
+      "myrkyllinen kulttuuri"
+    ],
+    [
+      "kiista"
+    ]
+  ],
+  "rapid_change_or_escalation": [
+    [
+      "sytyttää"
+    ],
+    [
+      "nousta pilvi"
+    ],
+    [
+      "iskeä"
+    ],
+    [
+      "myrsky"
+    ]
+  ]
+}

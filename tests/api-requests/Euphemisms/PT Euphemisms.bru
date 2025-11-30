@@ -1,0 +1,42 @@
+meta {
+  name: PT Euphemisms
+  type: http
+  seq: 16
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "A empresa está passando por reestruturação e otimização de recursos. O funcionário faleceu e partiu desta para melhor. Houve desligamentos e demissões voluntárias como parte da reorganização interna.",
+    "language": "pt"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["reestruturação", "otimização de recursos", "faleceu", "partiu", "partiu desta para melhor", "desligamentos", "demissões voluntárias", "reorganização interna", "parte"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}

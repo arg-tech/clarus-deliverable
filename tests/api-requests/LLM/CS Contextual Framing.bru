@@ -1,0 +1,61 @@
+meta {
+  name: CS Contextual Framing
+  type: http
+  seq: 21
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_contextual_framing
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Vzhledem k násilnické historii podezřelého byl střet nevyhnutelný. Po několika loupežích v oblasti je jasné, že čtvrť se stává nebezpečnou. Ve světle jeho závislosti na drogách nelze důvěřovat výpovědi obžalovaného. S takovou chudou výchovou neměl obžalovaný nikdy šanci stát se poctivým občanem. Vzhledem k hospodářské recesi mnoho lidí bojuje o přežití. Po prozkoumání předchozích zločinů obžalovaného se tento zločin hodí do jeho ustáleného vzorce. Z historie domácího násilí můžeme vidět, že tento vztah byl toxický od začátku. Počasí bylo slunečné ten den. Obžalovaný dorazil k soudu včas. Soudce pečlivě prozkoumal důkazy. Soudní proces začal přesně. Advokáti předložili své argumenty. Porota naslouchala pozorně. Rozhodnutí bylo odloženo. Případ byl složitý. Zákony byly správně aplikovány. Spravedlnost zvítězila. Svědci vypovídali pod přísahou. Soudní síň byla plná. Policie provedla vyšetřování. Obhájce požádal o odročení. Státní zástupce předložil důkazy. Soud trval několik hodin. Rozsudek byl vynesen spravedlivě. Den byl teplý. Lidé čekali venku. Dokumenty byly archivovány. Soudní systém funguje efektivně."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedSentences = [
+    "Vzhledem k násilnické historii podezřelého byl střet nevyhnutelný.",
+    "Po několika loupežích v oblasti je jasné, že čtvrť se stává nebezpečnou.",
+    "Ve světle jeho závislosti na drogách nelze důvěřovat výpovědi obžalovaného.",
+    "S takovou chudou výchovou neměl obžalovaný nikdy šanci stát se poctivým občanem.",
+    "Vzhledem k hospodářské recesi mnoho lidí bojuje o přežití.",
+    "Po prozkoumání předchozích zločinů obžalovaného se tento zločin hodí do jeho ustáleného vzorce.",
+    "Z historie domácího násilí můžeme vidět, že tento vztah byl toxický od začátku."
+  ];
+  
+  expectedSentences.forEach(sentence => {
+    test(`Sentence '${sentence}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === sentence);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected sentences should be returned", function () {
+    const actualSentences = res.body.map(item => item.detected_phrase);
+    const unexpectedSentences = actualSentences.filter(s => !expectedSentences.includes(s));
+    console.log("Unexpected sentences: ", unexpectedSentences);
+    expect(unexpectedSentences).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

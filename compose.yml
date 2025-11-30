@@ -1,0 +1,90 @@
+services:
+  web:
+    build: ./web
+    container_name: clarus-bias-checker_web
+    ports:
+      - "7020:80"
+    restart: unless-stopped
+  gateway:
+    build: ./gateway
+    container_name: clarus-bias-checker_gateway
+    ports:
+      - "7021:8000"
+    restart: unless-stopped
+    environment:
+      - RULE_BASED_SERVICE_URL=http://rule-based-service:8000
+      - PASSIVE_VOICE_SERVICE_URL=http://passive-voice-service:8000
+      - RHETORICAL_QUESTIONS_SERVICE_URL=http://rhetorical-questions-service:8000
+      - SARCASM_SERVICE_URL=http://sarcasm-service:8000
+      - SENTIMENT_SERVICE_URL=http://sentiment-service:8000
+      - LLM_CALLER_SERVICE_URL=http://llm-caller-service:8000
+  rule-based-service:
+    build: ./services/rule-based-service
+    container_name: clarus-bias-checker_rule-based-service
+    ports:
+      - "7022:8000"
+    restart: unless-stopped
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+  passive-voice-service:
+    build: ./services/passive-voice-service
+    container_name: clarus-bias-checker_passive-voice-service
+    ports:
+      - "7023:8000"
+    restart: unless-stopped
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - huggingface_cache:/root/.cache/huggingface
+  rhetorical-questions-service:
+    build: ./services/rhetorical-questions-service
+    container_name: clarus-bias-checker_rhetorical-questions-service
+    ports:
+      - "7024:8000"
+    restart: unless-stopped
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - huggingface_cache:/root/.cache/huggingface
+  sarcasm-service:
+    build: ./services/sarcasm-service
+    container_name: clarus-bias-checker_sarcasm-service
+    ports:
+      - "7025:8000"
+    restart: unless-stopped
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - huggingface_cache:/root/.cache/huggingface
+  sentiment-service:
+    build: ./services/sentiment-service
+    container_name: clarus-bias-checker_sentiment-service
+    ports:
+      - "7026:8000"
+    restart: unless-stopped
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - huggingface_cache:/root/.cache/huggingface
+  llm-caller-service:
+    build: ./services/llm-caller-service
+    container_name: clarus-bias-checker_llm-caller-service
+    ports:
+      - "7028:8000"
+    restart: unless-stopped
+    environment:
+      - LLM_URL=http://vllm-1.amfws.arg.tech
+    secrets:
+      - source: llm_api_key
+        target: LLM_API_KEY.txt
+      - source: gemini_api_key
+        target: GEMINI_API_KEY.txt
+
+volumes:
+  huggingface_cache:
+
+secrets:
+  llm_api_key:
+    file: .secrets/LLM_API_KEY.txt
+  gemini_api_key:
+    file: .secrets/GEMINI_API_KEY.txt

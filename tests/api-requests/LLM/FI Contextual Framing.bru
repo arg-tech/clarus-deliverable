@@ -1,0 +1,65 @@
+meta {
+  name: FI Contextual Framing
+  type: http
+  seq: 19
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_contextual_framing
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Epäillyn väkivaltaisen historian vuoksi yhteenotto oli väistämätön. Useiden ryöstöjen jälkeen alueella on selvää, että naapurusto muuttuu vaaralliseksi. Hänen huumeriippuvuutensa valossa syytetyn todistus ei ole luotettava. Tällaisella puutteellisella kasvatuksella syytetyllä ei ollut koskaan mahdollisuutta tulla lailliseksi kansalaiseksi. Ottaen huomioon taloudellisen taantuman monet ihmiset kamppailevat toimeentulon kanssa. Syytetyn aiempien rikosten tarkastelun jälkeen tämä rikos sopii hänen vakiintuneeseen kaavaansa. Kotiväkivallan historiasta voimme nähdä, että tämä suhde oli myrkyllinen alusta alkaen. Katsoen epäillyn antisosiaalisia sosiaalisen median julkaisuja hänen väkivaltaiset tekonsa olivat ennustettavissa. Työttömänä lukion päättäneenä epäilty sopii profiiliin tälle rikokselle. Naapurustossa, joka tunnetaan jengitoiminnasta, todistajat ovat ymmärrettävästi haluttomia puhumaan. Epäillyn maahanmuuttajastatuksen vuoksi kulttuuriset väärinkäsitykset johtivat todennäköisesti tähän rikkomukseen. Sää oli aurinkoinen sinä päivänä. Syytetty saapui oikeuteen ajoissa. Tuomari tarkasti todisteet huolellisesti."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedSentences = [
+    "Epäillyn väkivaltaisen historian vuoksi yhteenotto oli väistämätön.",
+    "Useiden ryöstöjen jälkeen alueella on selvää, että naapurusto muuttuu vaaralliseksi.",
+    "Hänen huumeriippuvuutensa valossa syytetyn todistus ei ole luotettava.",
+    "Tällaisella puutteellisella kasvatuksella syytetyllä ei ollut koskaan mahdollisuutta tulla lailliseksi kansalaiseksi.",
+    "Ottaen huomioon taloudellisen taantuman monet ihmiset kamppailevat toimeentulon kanssa.",
+    "Syytetyn aiempien rikosten tarkastelun jälkeen tämä rikos sopii hänen vakiintuneeseen kaavaansa.",
+    "Kotiväkivallan historiasta voimme nähdä, että tämä suhde oli myrkyllinen alusta alkaen.",
+    "Katsoen epäillyn antisosiaalisia sosiaalisen median julkaisuja hänen väkivaltaiset tekonsa olivat ennustettavissa.",
+    "Työttömänä lukion päättäneenä epäilty sopii profiiliin tälle rikokselle.",
+    "Naapurustossa, joka tunnetaan jengitoiminnasta, todistajat ovat ymmärrettävästi haluttomia puhumaan.",
+    "Epäillyn maahanmuuttajastatuksen vuoksi kulttuuriset väärinkäsitykset johtivat todennäköisesti tähän rikkomukseen."
+  ];
+  
+  expectedSentences.forEach(sentence => {
+    test(`Sentence '${sentence}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === sentence);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected sentences should be returned", function () {
+    const actualSentences = res.body.map(item => item.detected_phrase);
+    const unexpectedSentences = actualSentences.filter(s => !expectedSentences.includes(s));
+    console.log("Unexpected sentences: ", unexpectedSentences);
+    expect(unexpectedSentences).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

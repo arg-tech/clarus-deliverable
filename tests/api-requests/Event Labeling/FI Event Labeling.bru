@@ -1,0 +1,42 @@
+meta {
+  name: FI Event Labeling
+  type: http
+  seq: 27
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "Mellakat johtivat ryöstöihin ja vandalismiin. Kapinalliset järjestivät kansannousun. Terroristien sabotaasi aiheutti kaaoksen ja anarkian.",
+    "language": "fi"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+
+  const expectedPhrases = ["mellakat", "ryöstöihin", "vandalismiin", "kansannousun", "terroristien", "sabotaasi", "kaaoksen", "anarkian"];
+
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+
+  console.log('Body:', res.body);
+}

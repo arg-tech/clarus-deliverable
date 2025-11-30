@@ -1,0 +1,53 @@
+meta {
+  name: FI Intensifying Adverbs
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "Suomen luonto on äärimmäisen kaunista, erityisesti syksyllä kun lehdet ovat uskomattoman värikkäitä. Järvet ovat tavattoman kirkkaita ja metsät järkyttävän vihreät. Tunnen oloni täysin rauhalliseksi tässä mahdottoman kauniissa ympäristössä.",
+    "language": "fi"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = [
+    "äärimmäisen",
+    "uskomattoman",
+    "tavattoman",
+    "järkyttävän",
+    "täysin",
+    "mahdottoman",
+    "kirkkaita",
+    "kaunista",
+    "kauniissa",
+    "rauhalliseksi"
+  ];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log(res.body);
+}

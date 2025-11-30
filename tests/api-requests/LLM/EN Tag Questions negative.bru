@@ -1,0 +1,50 @@
+meta {
+  name: EN Tag Questions negative
+  type: http
+  seq: 9
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_tag_questions
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "When I got to the scene, it was clear someone had broken in — the back door was totally messed up and it looked like the suspect used a screwdriver or something sharp. There were fingerprints everywhere, so I took a bunch of pictures (hopefully they turn out ok). I think the suspect probably panicked because there was glass all over the floor and a chair knocked over. The house owner was really upset and kept saying they knew who did it — honestly, I think they’re probably right. I found some fibers on the floor that didn’t look like they belonged to the house carpet — they were dark blue or black, maybe from jeans or a jacket. I also saw some footprints but didn’t have the right powder or anything to lift them (I’ll learn that soon). I took a few photos anyway, though they’re kind of blurry because my camera battery was low. I’m pretty sure the shoes were nike because of the pattern, but I’ll have to double-check online. The security camera footage was super blurry, but I could kind of see someone in a hoodie. They looked suspicious and moved like they knew what they were doing. The break-in happened around 2 or 3 a.M., I think. I’m pretty confident it was the same person the homeowner suspects, but I’ll wait until someone with more experience confirms it. This is my first full report, so I hope I did everything right. ",
+    "model_to_use": "gemini"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["isn't it?", "didn't she?", "isn't it?"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}

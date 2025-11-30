@@ -1,0 +1,53 @@
+meta {
+  name: EN Oversimplified Comparisons
+  type: http
+  seq: 22
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_oversimplified_comparison
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Frank was a bull in a china shop when it came to his new job, clumsily breaking protocol and creating chaos. Like a fish out of water, he struggled to adapt to the corporate culture, his attempts at collaboration falling flat. His manager, a snake in the grass, seemed to be secretly undermining his efforts, poisoning the team's morale with subtle criticisms. The project, a ticking time bomb, was on the verge of exploding, its complex issues brushed aside in the rush to meet the deadline."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["bull in a china shop", "fish out of water", "snake in the grass", "ticking time bomb"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

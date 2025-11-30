@@ -1,0 +1,47 @@
+meta {
+  name: Italics boldface
+  type: http
+  seq: 7
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "placeholder",
+    "richText": "<p>Normal text but <strong>bold1</strong><br><em>italic1</em><br><strong><em>bold3</em></strong></p><p></p><p></p><p></p><p><u>underline1</u></p><p><strong><u>bold2 and underline2</u></strong></p><p><strong>Bold3 <u>partly3</u> underlined3</strong></p>"
+  }
+}
+
+tests {
+  test("Status should be be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedResults = [
+    { phrase: "bold1", start: 16, end: 21 },
+    { phrase: "bold3", start: 30, end: 35 },
+    { phrase: "bold2 and underline2", start: 55, end: 75 },
+    { phrase: "Bold3 partly3 underlined3", start: 77, end: 102 },
+    { phrase: "italic1", start: 22, end: 29 },
+    { phrase: "bold3", start: 30, end: 35 },
+    { phrase: "underline1", start: 43, end: 53 },
+    { phrase: "bold2 and underline2", start: 55, end: 75 },
+    { phrase: "partly3", start: 83, end: 90 }
+  ];
+  
+  expectedResults.forEach(({ phrase, start, end }) => {
+    test(`Phrase '${phrase}' should be detected with correct character positions`, function () {
+      const found = res.body.find(item => item.detected_phrase === phrase && 
+                                           item.character_positions.start === start &&
+                                           item.character_positions.end === end);
+      expect(found, `Expected phrase '${phrase}' with positions ${start}-${end}`).to.exist;
+    });
+  });
+  
+  console.log(res.body);
+}

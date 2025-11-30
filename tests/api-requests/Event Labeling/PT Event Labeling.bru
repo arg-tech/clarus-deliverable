@@ -1,0 +1,42 @@
+meta {
+  name: PT Event Labeling
+  type: http
+  seq: 28
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "Os tumultos resultaram em saqueadores e vandalismo. Os insurgentes organizaram uma rebelião. O terrorismo e sabotagem causaram caos e anarquia.",
+    "language": "pt"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+
+  const expectedPhrases = ["tumultos", "saqueadores", "vandalismo", "insurgentes", "rebelião", "terrorismo", "sabotagem", "caos", "anarquia"];
+
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+
+  console.log('Body:', res.body);
+}

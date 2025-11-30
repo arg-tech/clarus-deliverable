@@ -1,0 +1,53 @@
+meta {
+  name: FI Tag Questions
+  type: http
+  seq: 10
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_tag_questions
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Tarinaan oli niin paljon epäjohdonmukaisuuksia; se oli lähes naurettavaa. On selvää, että he valehtelivat, eikö niin? Jopa satunnainen tarkkailija voisi nähdä selkeät aukot heidän kuvauksessaan siitä, mitä tapahtui. Kun huomautimme eroista, henkilö tuli hyvin puolustuskannalle. Hän reagoi hyvin aggressiivisesti, eikö hän? Hänen purkauksensa vahvisti kaikki epäilyksemme. Tiesimme mitä tapahtui koko ajan. Se on juuri sitä mitä odotimme, vai mitä? Kaikki mitä olemme tähän mennessä nähneet on seurannut ennustettua kaavaa. Voimme vihdoin edetä täydellä ymmärryksellä tilanteesta."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["eikö niin?", "eikö hän?", "vai mitä?"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

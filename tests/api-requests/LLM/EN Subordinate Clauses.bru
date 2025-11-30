@@ -1,0 +1,53 @@
+meta {
+  name: EN Subordinate Clauses
+  type: http
+  seq: 27
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_subordinate_clauses
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "The new quarter started with a bang, as the sales team unveiled their latest numbers. The innovative 'Project Nexus' initiative had clearly paid off, driving a 30% increase in new customer acquisitions. While some critics initially doubted the program's ambitious timeline, the results speak for themselves, proving that speed and strategy can coexist. The marketing department, in particular, was praised for its creative outreach campaigns that resonated deeply with the target demographic. They'd managed to turn lukewarm leads into passionate advocates for the brand. The product development team was not to be outdone, presenting a highly anticipated new gadget. The prototype, sleek and intuitive, was a huge hit with the focus group. Even though there were a few minor glitches during the initial testing phase, the seamless final user experience overshadowed any previous issues. The head of engineering explained the meticulous process of bug fixing and optimization that went into perfecting the device. It was clear their hard work had paid off, as every attendee wanted to know when they could pre-order. Meanwhile, the human resources department shared their success story on employee satisfaction. They'd implemented a new flexible work schedule that had been met with overwhelmingly positive feedback. Although the transition had initially caused some logistical challenges for department managers, the subsequent increase in productivity and morale justified the change completely. The data showed a significant drop in employee turnover and a rise in self-reported job satisfaction. This success demonstrated that a focus on employee well-being can directly translate into business gains."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["While some critics", "Even though there were", "Although the transition"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

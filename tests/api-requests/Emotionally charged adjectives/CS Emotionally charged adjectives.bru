@@ -1,0 +1,41 @@
+meta {
+  name: CS Emotionally charged adjectives
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "Tento den je úžasný! Počasí je fantastické a nádherné. Krajina vypadá krásně ale někdy také děsivě a hrozně v noci.",
+    "language": "cs"
+  }
+}
+
+tests {
+  test("Status should be be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["úžasný", "fantastické", "nádherné", "krásně", "děsivě", "hrozně"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}

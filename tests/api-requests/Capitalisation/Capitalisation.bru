@@ -1,0 +1,40 @@
+meta {
+  name: Capitalisation
+  type: http
+  seq: 6
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "Normal Capital EXCESSIVE and now MULTIPLE WORDS",
+    "richText": ""
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedResults = [
+    { phrase: "EXCESSIVE", start: 15, end: 24 },
+    { phrase: "MULTIPLE WORDS", start: 33, end: 47 }
+  ];
+  
+  expectedResults.forEach(({ phrase, start, end }) => {
+    test(`Phrase '${phrase}' should be detected with correct character positions`, function () {
+      const found = res.body.find(item => item.detected_phrase === phrase && 
+                                           item.character_positions.start === start &&
+                                           item.character_positions.end === end);
+      expect(found, `Expected phrase '${phrase}' with positions ${start}-${end}`).to.exist;
+    });
+  });
+  
+  console.log(res.body);
+}

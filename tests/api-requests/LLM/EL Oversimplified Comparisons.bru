@@ -1,0 +1,53 @@
+meta {
+  name: EL Oversimplified Comparisons
+  type: http
+  seq: 23
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_oversimplified_comparison
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Ο Φρανκ ήταν σαν ταύρος σε ένα μαγαζί με πορσελάνες όταν επρόκειτο για τη νέα του δουλειά, παραβιάζοντας αδέξια το πρωτόκολλο και δημιουργώντας χάος. Σαν ψάρι έξω από το νερό, πάλευε να προσαρμοστεί στην εταιρική κουλτούρα, με τις προσπάθειές του για συνεργασία να αποτυγχάνουν. Ο διευθυντής του, σαν φίδι στο γρασίδι, φαινόταν να υπονομεύει κρυφά τις προσπάθειές του, δηλητηριάζοντας το ηθικό της ομάδας με ανεπαίσθητες επικρίσεις. Το έργο, μια ωρολογιακή βόμβα που χτυπούσε, ήταν στα πρόθυρα της έκρηξης, με τα πολύπλοκα ζητήματά του να παραμερίζονται στη βιασύνη για την τήρηση της προθεσμίας."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["σαν ταύρος σε ένα μαγαζί με πορσελάνες", "σαν ψάρι έξω από το νερό", "σαν φίδι στο γρασίδι", "μια ωρολογιακή βόμβα που χτυπούσε"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

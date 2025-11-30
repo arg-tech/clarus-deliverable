@@ -1,0 +1,57 @@
+meta {
+  name: CS Subordinate Clauses
+  type: http
+  seq: 31
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_subordinate_clauses
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Nové čtvrtletí začalo s velkou silou, když prodejní tým odhalil svá nejnovější čísla. Inovativní iniciativa 'Project Nexus' se jasně vyplatila, vedoucí k 30% nárůstu v získávání nových zákazníků. Ačkoli někteří kritici zpočátku pochybovali o ambiciózním časovém plánu programu, výsledky mluví samy za sebe, dokazující, že rychlost a strategie mohou koexistovat. Marketingové oddělení, zejména, bylo chváleno za své kreativní kampaně oslovení, které hluboce rezonovaly s cílovou demografií. Podařilo se jim proměnit vlažné potenciální zákazníky v vášnivé zastánce značky. Tým vývoje produktů nezůstal pozadu, představující vysoce očekávaný nový gadget. Prototyp, elegantní a intuitivní, byl obrovský hit u fokusové skupiny. Přestože během počáteční fáze testování bylo několik malých problémů, bezproblémová konečná uživatelská zkušenost zastínila jakékoli předchozí problémy. Vedoucí inženýr vysvětlil pečlivý proces opravy chyb a optimalizace, který byl potřebný k dokončení zařízení. Bylo jasné, že jejich tvrdá práce se vyplatila, protože každý účastník chtěl vědět, kdy mohou předobjednat. Mezitím oddělení lidských zdrojů sdílelo svůj příběh úspěchu o spokojenosti zaměstnanců. Zavedli nový flexibilní pracovní rozvrh, který získal převážně pozitivní zpětnou vazbu. Ačkoli přechod zpočátku způsobil některé logistické výzvy pro manažery oddělení, následný nárůst produktivity a morálky změnu zcela ospravedlnil. Data ukázala významný pokles v obratu zaměstnanců a nárůst v sebehlášené spokojenosti s prací. Tento úspěch ukázal, že zaměření na blaho zaměstnanců se může přímo promítnout do obchodních zisků."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = [
+    "Ačkoli někteří kritici zpočátku pochybovali o ambiciózním časovém plánu programu, výsledky mluví samy za sebe, dokazující, že rychlost a strategie mohou koexistovat.",
+    "Přestože během počáteční fáze testování bylo několik malých problémů, bezproblémová konečná uživatelská zkušenost zastínila jakékoli předchozí problémy.",
+    "Ačkoli přechod zpočátku způsobil některé logistické výzvy pro manažery oddělení, následný nárůst produktivity a morálky změnu zcela ospravedlnil."
+  ];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

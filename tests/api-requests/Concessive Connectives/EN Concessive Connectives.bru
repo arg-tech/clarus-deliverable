@@ -1,0 +1,48 @@
+meta {
+  name: EN Concessive Connectives
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "The alibi was verified, however, suspicions remain about the timing. The witness identified the suspect, although lighting was not good. The evidence was inconclusive, yet the circumstantial evidence is strong. No weapon was found, nevertheless, the suspect had opportunity. The defendant has no record, still, this behavior raises concerns.",
+    "language": "en"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = [
+    "however",
+    "although",
+    "yet",
+    "nevertheless",
+    "still"
+  ];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log(res.body);
+}

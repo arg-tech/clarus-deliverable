@@ -1,0 +1,47 @@
+meta {
+  name: CS Overgeneralizations
+  type: http
+  seq: 36
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "Podezřelý vždy odpovídá agresivně na výslechy. Svědci z této čtvrti nikdy plně nespolupracují. Všechny důkazy ukazují na vinu obžalovaného. Členové gangu neustále chrání své vlastní.",
+    "language": "cs"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = [
+    "vždy",
+    "nikdy",
+    "všechny",
+    "gangu"
+  ];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log(res.body);
+}

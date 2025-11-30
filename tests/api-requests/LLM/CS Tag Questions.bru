@@ -1,0 +1,53 @@
+meta {
+  name: CS Tag Questions
+  type: http
+  seq: 12
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_tag_questions
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Zapomněl jsi klíče, že ne? V jejich příběhu bylo tolik nesrovnalostí; bylo to téměř směšné. Je zřejmé, že lhali, že ano? Dokonce i náhodný pozorovatel mohl vidět jasné díry v jejich účtu toho, co se stalo. Když jsme poukázali na nesrovnalosti, jednotlivec se stal velmi defenzivním. Reagovala velmi agresivně, že ano? Její výbuch potvrdil všechna naše podezření. Věděli jsme, co se děje celou dobu. To je přesně to, co jsme očekávali, že ano? Všechno, co jsme dosud viděli, následovalo předpokládaný vzorec. Můžeme konečně pokračovat s úplným pochopením situace."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["že ano?", "že ano?", "že ano?"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

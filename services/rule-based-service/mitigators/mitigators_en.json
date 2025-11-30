@@ -1,0 +1,109 @@
+{
+  "Degree_Modifiers": [
+    "somewhat",
+    "slightly",
+    "a little",
+    "a bit",
+    "fairly",
+    "relatively",
+    "moderately",
+    "reasonably",
+    "mildly",
+    "minimally",
+    "marginally",
+    "hardly",
+    "scarcely",
+    "barely",
+    "to a degree",
+    "to some extent",
+    "to a limited extent"
+  ],
+  "Approximators": [
+    "almost",
+    "nearly",
+    "virtually",
+    "practically",
+    "roughly",
+    "approximately",
+    "give or take",
+    "more or less"
+  ],
+  "Hedges_Softening": [
+    "kind of",
+    "sort of",
+    "in a way",
+    "in some respects",
+    "as it were",
+    "so to speak",
+    "loosely speaking",
+    "not exactly",
+    "after a fashion",
+    "arguably"
+  ],
+  "Limiters": [
+    "partially",
+    "in part",
+    "for the most part",
+    "up to a point",
+    "not entirely",
+    "not completely",
+    "not wholly",
+    "only just"
+  ],
+  "Tendency_Mitigators": [
+    "tend to",
+    "inclined to",
+    "likely to",
+    "seem to",
+    "seems that",
+    "appear to",
+    "appears that",
+    "more likely than not"
+  ],
+  "Minimizers": [
+    "just",
+    "merely",
+    "only",
+    "nothing more than",
+    "no more than",
+    "at most",
+    "at best",
+    "little more than"
+  ],
+  "Modal_Verbs": [
+    "might",
+    "may",
+    "could",
+    "can",
+    "would",
+    "should"
+  ],
+  "Modal_Adverbs": [
+    "possibly",
+    "probably",
+    "perhaps",
+    "potentially",
+    "maybe",
+    "conceivably",
+    "presumably",
+    "apparently",
+    "ostensibly",
+    "supposedly",
+    "arguably",
+    "seemingly",
+    "may have",
+    "seems to suggest"
+  ],
+  "Politeness_Mitigators": [
+    "if you don't mind",
+    "if possible",
+    "when convenient",
+    "if that's okay",
+    "hopefully",
+    "with respect",
+    "if I may",
+    "I think",
+    "I guess",
+    "I suppose"
+  ]
+}

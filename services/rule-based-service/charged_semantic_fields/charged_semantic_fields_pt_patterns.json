@@ -1,0 +1,41 @@
+{
+  "war_or_conflict": [
+    "\\b(bomba|bombas)\\b",
+    "\\b(cruzada|cruzadas)\\b",
+    "\\b(caçar|caçando|caçado|caçada|caçados|caçadas|caço|caças|caça|caçamos|caçais|caçam|cacei|caçaste|caçou|caçámos|caçastes|caçaram|caçava|caçavas|caçávamos|caçáveis|caçavam|caçarei|caçarás|caçará|caçaremos|caçareis|caçarão)\\b",
+    "(?<!\\w)(campo|campos)\\s+de\\s+(batalha|batalhas)(?!\\w)",
+    "(?<!\\w)(zona|zonas)\\s+de\\s+(guerra|guerras)(?!\\w)"
+  ],
+  "disaster_or_catastrophe": [
+    "\\b(tempestade|tempestades)\\b",
+    "\\b(pesadelo|pesadelos)\\b",
+    "\\b(revolução|revoluções)\\b",
+    "\\b(maremoto|maremotos)\\b",
+    "\\b(catástrofe|catástrofes)\\b",
+    "\\b(cataclismo|cataclismos)\\b",
+    "\\b(dizimar|dizimando|dizimado|dizimada|dizimados|dizimadas|dizimo|dizimas|dizima|dizimamos|dizimais|dizimam|dizimei|dizimaste|dizimou|dizimámos|dizimastes|dizimaram|dizimava|dizimavas|dizimávamos|dizimáveis|dizimavam|dizimarei|dizimarás|dizimará|dizimaremos|dizimareis|dizimarão)\\b",
+    "\\b(devastação|devastações)\\b",
+    "\\b(irrompo|irrompes|irrompe|irrompemos|irrompeis|irrompem|irrompi|irrompeste|irrompeu|irrompemos|irrompestes|irromperam|irrompia|irrompias|irrompíamos|irrompíeis|irrompiam|irrompera|irromperas|irrompêramos|irrompêreis|irromperam|irromperei|irromperás|irromperá|irromperemos|irrompereis|irromperão|irrompido|irrompida|irrompidos|irrompidas|irrompendo|irromper)\\b",
+    "\\b(implodir|implodo|implodes|implode|implodimos|implodis|implodem|implodi|implodiste|implodiu|implodimos|implodistes|implodiram|implodia|implodias|implodíamos|implodíeis|implodiam|implodira|implodiras|implodíramos|implodíreis|implodiram|implodirei|implodirás|implodirá|implodiremos|implodireis|implodirão|implodiria|implodirias|implodiríamos|implodiríeis|implodiriam|imploda|implodas|implodamos|implodais|implodam|implodisse|implodisses|implodíssemos|implodísseis|implodissem|implodindo|implodido|implodida|implodidos|implodidas)\\b",
+    "\\b(inferno|infernos)\\b",
+    "\\b(colapso|colapsos)\\b",
+    "(?<!\\w)(tempestade|tempestades)\\s+(perfeito|perfeita|perfeitos|perfeitas)(?!\\w)",
+    "\\b(chover|chovendo|chovido|chove|choveu|chovia|choverá)\\b",
+    "(?<!\\w)mudança(s)?\\s+(sísmica|sísmicas|sísmico|sísmicos)(?!\\w)",
+    "\\b(despedaçar|despedaçando|despedaçado|despedaçada|despedaçados|despedaçadas|despedaça|despedaçam|despedace|despedaço|despedaças|despedaçamos|despedaceis|despedaçava|despedaçavam|despedacei|despedaçou|despedaçaram|despedaçaria|despedaçariam|despedaçarei|despedaçará|despedaçaremos|despedaçariam|despedaçaste|despedaçastes|despedaçámos|despedaçáreis|despedaçáramos|despedaçáreis|despedaçásseis|despedaçasses|despedaçasse|despedaçássemos|despedaçásseis|despedaçassem)\\b",
+    "(?<!\\w)(onda|ondas)\\s+de\\s+(choque|choques)(?!\\w)",
+    "\\b(tsunami|tsunamis)\\b",
+    "\\b(vulcânico|vulcânica|vulcânicos|vulcânicas)\\b"
+  ],
+  "social_or_cultural_critique": [
+    "\\b(corrupto|corrupta|corruptos|corruptas)\\b",
+    "(?<!\\w)(cultura|culturas)\\s+(tóxico|tóxica|tóxicos|tóxicas)(?!\\w)",
+    "(?<!\\w)(tempestade|tempestades)\\s+de\\s+(controvérsia|controvérsias)(?!\\w)"
+  ],
+  "rapid_change_or_escalation": [
+    "\\b(inflamo|inflamas|inflama|inflamamos|inflamai|inflamam|inflamei|inflamaste|inflamou|inflamámos|inflamastes|inflamaram|inflamava|inflamavas|inflamávamos|inflamáveis|inflamavam|inflamara|inflamaras|inflamáramos|inflamáreis|inflamaram|inflamarei|inflamarás|inflamará|inflamaremos|inflamareis|inflamarão|inflame|inflames|inflamemos|inflameis|inflamem|inflamasse|inflamasses|inflamássemos|inflamásseis|inflamassem|inflamar|inflamares|inflamarmos|inflamardes|inflamarem|inflamado|inflamada|inflamados|inflamadas|inflamando)\\b",
+    "\\b(disparar|disparado|disparada|disparados|disparadas|disparando|disparo|disparas|dispara|disparamos|disparais|disparam|disparei|disparaste|disparou|disparamos|disparastes|dispararam|disparava|disparavas|disparávamos|disparáveis|disparavam|disparara|dispararas|disparáramos|disparáreis|dispararam|dispararei|dispararás|disparará|dispararemos|disparareis|dispararão)\\b",
+    "\\b(bater|batendo|batido|batida|batidos|batidas|bato|bates|bate|batemos|bateis|batem|bati|bateste|bateu|batemos|batestes|bateram|batia|batias|batíamos|batíeis|batiam|baterei|baterás|baterá|bateremos|batereis|baterão)\\b",
+    "\\b(tempestade|tempestades)\\b"
+  ]
+}

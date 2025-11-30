@@ -1,0 +1,41 @@
+{
+  "war_or_conflict": [
+    "bomba",
+    "křížová výprava",
+    "lovit",
+    "bojiště",
+    "válečná zóna"
+  ],
+  "disaster_or_catastrophe": [
+    "bouře",
+    "noční můra",
+    "revoluce",
+    "přílivová vlna",
+    "katastrofa",
+    "kataklyzma",
+    "decimovat",
+    "devastace",
+    "vybuchnout",
+    "implodovat",
+    "peklo",
+    "kolaps",
+    "dokonalá bouře",
+    "pršet",
+    "seismický posun",
+    "rozbít",
+    "rázová vlna",
+    "tsunami",
+    "vulkanický"
+  ],
+  "social_or_cultural_critique": [
+    "zkorumpovaný",
+    "toxická kultura",
+    "bouře kontroverzí"
+  ],
+  "rapid_change_or_escalation": [
+    "zapálit",
+    "vyletět",
+    "praštit",
+    "bouře"
+  ]
+}

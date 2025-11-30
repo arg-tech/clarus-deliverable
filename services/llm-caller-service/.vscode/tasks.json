@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Dev Container",
+            "type": "shell",
+            "command": "docker compose -f ../../compose.yml -f ../../compose.dev.yml up -d llm-caller-service",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

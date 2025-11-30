@@ -1,0 +1,53 @@
+meta {
+  name: CS Oversimplified Comparisons
+  type: http
+  seq: 26
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_oversimplified_comparison
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Frank byl jako býk v porcelánu, pokud šlo o jeho novou práci, neohrabaně porušoval protokol a vytvářel chaos. Jako ryba na suchu bojoval s adaptací na firemní kulturu, jeho pokusy o spolupráci selhaly. Jeho manažer, had v trávě, vypadal, že tajně podkopává jeho úsilí, otravuje týmovou morálku jemnými kritikami. Projekt, tikající bomba, byl na pokraji exploze, jeho složité problémy byly odsunuty stranou v spěchu splnit termín."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["býk v porcelánu", "ryba na suchu", "had v trávě", "tikající bomba"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

@@ -1,0 +1,41 @@
+{
+  "war_or_conflict": [
+    "bombshell(s)?",
+    "crusade(s|d|ing|r)?",
+    "hunt(s|ed|ing)? down|hunted down",
+    "battleground(s)?",
+    "war zone(s)?"
+  ],
+  "disaster_or_catastrophe": [
+    "firestorm(s)?",
+    "nightmare(s)?",
+    "revolution(s|ary|aries)?",
+    "tidal wave(s)?",
+    "catastrophe(s)?",
+    "cataclysm(s)?",
+    "decimate(s|d|ing|ion|ions)?|decimated",
+    "devastation(s)?",
+    "erupt(s|ed|ing|ion|ions)?|erupted",
+    "implode(s|d|ing|ion|ions)?|imploded",
+    "inferno(s)?",
+    "meltdown(s)?",
+    "perfect storm(s)?",
+    "rain(s|ed|ing)? down|rained down",
+    "seismic shift(s)?",
+    "shatter(s|ed|ing|ing)?|shattered",
+    "shockwave(s)?",
+    "tsunami(s)?",
+    "volcanic(s|ally)?"
+  ],
+  "social_or_cultural_critique": [
+    "corrupt(s|ed|ing|ion|ions|ive|ives)?",
+    "toxic culture(s)?",
+    "storm(s)? of controversy"
+  ],
+  "rapid_change_or_escalation": [
+    "ignite(s|d|ing|ion|ions)?|ignited",
+    "skyrocket(s|ed|ing)?|skyrocketed",
+    "slam(s|med|ming)?|slammed",
+    "tempest(s)?"
+  ]
+}

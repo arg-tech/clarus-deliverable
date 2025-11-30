@@ -1,0 +1,395 @@
+{
+  "Degree_Modifiers": [
+    [
+      "jokin verta",
+      "jokin verran"
+    ],
+    [
+      "hieman"
+    ],
+    [
+      "vähän",
+      "vähä"
+    ],
+    [
+      "pikkainen"
+    ],
+    [
+      "melko"
+    ],
+    [
+      "suhteellinen"
+    ],
+    [
+      "kohtuullinen"
+    ],
+    [
+      "kohtalainen"
+    ],
+    [
+      "lievästi"
+    ],
+    [
+      "minimaalinen"
+    ],
+    [
+      "marginaalinen"
+    ],
+    [
+      "tuskin",
+      "tuska"
+    ],
+    [
+      "hädin tuskin",
+      "hätä tuska",
+      "hätä tuskin",
+      "hädin tuska"
+    ],
+    [
+      "juuria ja juuri",
+      "juuria ja juuria",
+      "juuri ja juuria",
+      "juuri ja juuri"
+    ],
+    [
+      "jokin määrä",
+      "jossain määrä"
+    ],
+    [
+      "tietty määrä"
+    ],
+    [
+      "rajoitetusti"
+    ]
+  ],
+  "Approximators": [
+    [
+      "melkein"
+    ],
+    [
+      "lähes"
+    ],
+    [
+      "käytäntö"
+    ],
+    [
+      "periaate",
+      "peri-",
+      "periaatteessa"
+    ],
+    [
+      "karkeasti"
+    ],
+    [
+      "suunnilleen"
+    ],
+    [
+      "noin",
+      "noki",
+      "nuo"
+    ],
+    [
+      "plus miinus"
+    ],
+    [
+      "enemmän tai vähemmän",
+      "enempi tai vähemmän",
+      "enempi tai vähä",
+      "enemmän tai vähä",
+      "enemmän tai vähempi",
+      "enempi tai vähempi"
+    ]
+  ],
+  "Hedges_Softening": [
+    [
+      "tavalla",
+      "tapa",
+      "tavallaan"
+    ],
+    [
+      "jolla tapa",
+      "jokin tavata",
+      "joka tapa",
+      "joka tavata",
+      "jolla tavata",
+      "jokin tapa"
+    ],
+    [
+      "jossain mieli",
+      "jokin mieli"
+    ],
+    [
+      "tietty suhde"
+    ],
+    [
+      "ne sanotusti",
+      "niin sanotusti"
+    ],
+    [
+      "ikään kuin",
+      "ikään kui",
+      "ikä kuin",
+      "ikä kuu",
+      "ikä kui",
+      "iätä kui",
+      "iätä kuu",
+      "iätä kuin",
+      "ikään kuu"
+    ],
+    [
+      "väljästi sanoa",
+      "väljästi sanottu"
+    ],
+    [
+      "ei tarkka ottaa",
+      "ei tarkalleen ottaa"
+    ],
+    [
+      "jossakin mieli",
+      "jokin mieli",
+      "joka mieli"
+    ],
+    [
+      "kiista"
+    ]
+  ],
+  "Limiters": [
+    [
+      "osittain"
+    ],
+    [
+      "osa",
+      "osaksi"
+    ],
+    [
+      "suuri osaksi",
+      "suuri osa"
+    ],
+    [
+      "tietty piste asti"
+    ],
+    [
+      "ei täysi",
+      "ei täysin"
+    ],
+    [
+      "ei kokonaan",
+      "ei koko"
+    ],
+    [
+      "ei täydellisesti"
+    ],
+    [
+      "vai juuria ja juuria",
+      "vain juuria ja juuria",
+      "vai juuri ja juuri",
+      "vain juuri ja juuri",
+      "vain juuri ja juuria",
+      "vai juuria ja juuri",
+      "vai juuri ja juuria",
+      "vain juuria ja juuri"
+    ]
+  ],
+  "Tendency_Mitigators": [
+    [
+      "yleensä"
+    ],
+    [
+      "tavallisesti",
+      "tavallinen"
+    ],
+    [
+      "taipua",
+      "taipuvainen"
+    ],
+    [
+      "altis"
+    ],
+    [
+      "todennäköisesti"
+    ],
+    [
+      "näyttää se että"
+    ],
+    [
+      "vaikuttaa se että"
+    ],
+    [
+      "tuntua että"
+    ],
+    [
+      "todennäköinen kui ei",
+      "todennäköinen kuin ei",
+      "todennäköisemmin kuin ei",
+      "todennäköisemmin kuu ei",
+      "todennäköisemmin kui ei",
+      "todennäköinen kuu ei"
+    ]
+  ],
+  "Minimizers": [
+    [
+      "vain",
+      "vai"
+    ],
+    [
+      "ainoastaan",
+      "ainoa"
+    ],
+    [
+      "pelkkä",
+      "pelkästään"
+    ],
+    [
+      "ei muuttaa kuin",
+      "ei muuttaa kui",
+      "ei muuttaa kuu",
+      "ei muu kui",
+      "ei muu kuu",
+      "ei muu kuin"
+    ],
+    [
+      "ei enempää kuin",
+      "ei enempää kuu",
+      "ei enempää kui"
+    ],
+    [
+      "korkea",
+      "korkeintaan"
+    ],
+    [
+      "parhain",
+      "hyvä",
+      "parhaimmillaan"
+    ],
+    [
+      "vähä enemmän kuu",
+      "vähän enempi kuu",
+      "vähän enempi kui",
+      "vähä enempi kuin",
+      "vähän enemmän kuin",
+      "vähä enempi kui",
+      "vähä enemmän kui",
+      "vähän enemmän kui",
+      "vähän enemmän kuu",
+      "vähä enemmän kuin",
+      "vähän enempi kuin",
+      "vähä enempi kuu"
+    ]
+  ],
+  "Modal_Verbs": [
+    [
+      "voi",
+      "voida"
+    ],
+    [
+      "saattaa"
+    ],
+    [
+      "ehkä"
+    ],
+    [
+      "mahdollisesti",
+      "mahdollinen"
+    ],
+    [
+      "kenties"
+    ],
+    [
+      "pitää"
+    ],
+    [
+      "tulla"
+    ]
+  ],
+  "Modal_Adverbs": [
+    [
+      "mahdollisesti",
+      "mahdollinen"
+    ],
+    [
+      "todennäköisesti"
+    ],
+    [
+      "ehkä"
+    ],
+    [
+      "kenties"
+    ],
+    [
+      "luultavasti"
+    ],
+    [
+      "käsittää"
+    ],
+    [
+      "oletettavasti"
+    ],
+    [
+      "ilmeisesti"
+    ],
+    [
+      "näennäisesti"
+    ],
+    [
+      "väitetysti"
+    ],
+    [
+      "kiista"
+    ],
+    [
+      "näyttää se"
+    ],
+    [
+      "saattaa olla"
+    ],
+    [
+      "näyttää viitata",
+      "näyttää viittaava"
+    ]
+  ],
+  "Politeness_Mitigators": [
+    [
+      "jos se sopia"
+    ],
+    [
+      "jos mahdollistaa",
+      "jos mahdollinen"
+    ],
+    [
+      "kun sopia"
+    ],
+    [
+      "jos se olla okei"
+    ],
+    [
+      "toivottavasti"
+    ],
+    [
+      "kunnioitus"
+    ],
+    [
+      "jos saada sanoa"
+    ],
+    [
+      "mieli",
+      "mielestä"
+    ],
+    [
+      "luulla"
+    ],
+    [
+      "olettaa"
+    ],
+    [
+      "arvella"
+    ],
+    [
+      "usko",
+      "uskoa"
+    ],
+    [
+      "tuntua minä",
+      "tuntua min"
+    ]
+  ]
+}

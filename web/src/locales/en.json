@@ -1,0 +1,234 @@
+{
+  "translation": {
+    "app": {
+      "title": "Bias Checker"
+    },
+    "languages": {
+      "en": "English",
+      "el": "Greek",
+      "fi": "Finnish",
+      "pt": "Portuguese",
+      "cs": "Czech",
+      "label": "Language:"
+    },
+    "model": {
+      "local": "Local",
+      "remote": "Remote",
+      "label": "Model:",
+      "remoteWarning": "Remote models may send your data to external API providers"
+    },
+    "editor": {
+      "toolbar": {
+        "bold": "Bold",
+        "italic": "Italic",
+        "underline": "Underline"
+      },
+      "languageInfo": "Language will be automatically detected (supports English, Greek, Finnish, Portuguese, and Czech)",
+      "detectedLanguage": "Detected language: {{language}}",
+      "modelUsed": "Model used: {{model}}",
+      "modelUsedFallback": "Model used: {{model}} (remote model unavailable due to high load)",
+      "analyze": "Analyze",
+      "analyzing": "Analyzing...",
+      "clear": "Clear"
+    },
+    "biasIndicators": {
+      "title": "Bias Indicators",
+      "noResults": "No bias indicators found. Analyze text to see results.",
+      "analyzing": "Analyzing text...",
+      "detectedPhrase": "Detected phrase",
+      "outdated": "Outdated",
+      "popup": {
+        "detectedPhrase": "Detected phrase:",
+        "whyThisMatters": "Why this matters:",
+        "suggestedImprovement": "💡 Suggested improvement:"
+      },
+      "cards": {
+        "overgeneralizations": {
+          "title": "Overgeneralizations",
+          "explanation": "The term '{{phrase}}' is an overgeneralization that leaves no room for exceptions and may present oversimplified conclusions.",
+          "suggestedFix": "Consider using more nuanced language that allows for exceptions and individual variations."
+        },
+        "absoluteTerms": {
+          "title": "Absolute Terms",
+          "explanation": "The term '{{phrase}}' is an absolute term that may close off debate and present information as indisputable.",
+          "suggestedFix": "Consider using more nuanced language to allow for alternative perspectives."
+        },
+        "capitalisation": {
+          "title": "Excessive Capitalisation",
+          "explanation": "Writing in all caps may imbue extra significance.",
+          "suggestedFix": "If the phrase is not an acronym, consider using standard capitalization."
+        },
+        "chargedSemanticFields": {
+          "title": "Charged Semantic Fields",
+          "explanation": "The term '{{phrase}}' is a borrowed phrase from a field with strong connotations that may influence the reader's perception.",
+          "suggestedFix": "Avoid using words from charged semantic fields to maintain neutrality."
+        },
+        "concessiveConnectives": {
+          "title": "Concessive Connectives",
+          "explanation": "The connective '{{phrase}}' may be used to downplay counterarguments by acknowledging them while still maintaining the main point.",
+          "suggestedFix": "Consider presenting counterarguments more neutrally or giving them equal weight."
+        },
+        "dysphemisms": {
+          "title": "Dysphemisms",
+          "explanation": "The phrase '{{phrase}}' is a dysphemism that may convey a negative or derogatory connotation.",
+          "suggestedFix": "Use neutral or positive language to avoid derogatory implications."
+        },
+        "ellipses": {
+          "title": "Ellipsis Usage",
+          "explanation": "The ellipsis may suggest hesitation or suggest hidden meaning.",
+          "suggestedFix": "Review if any hidden meaning should be clarified."
+        },
+        "emotionallyChargedAdjectives": {
+          "title": "Emotionally Charged Adjectives",
+          "explanation": "The adjective '{{phrase}}' is emotionally charged and may influence the reader's perception.",
+          "suggestedFix": "Consider using more neutral language to describe the subject."
+        },
+        "euphemisms": {
+          "title": "Euphemisms",
+          "explanation": "The phrase '{{phrase}}' is a euphemism that may soften or obscure the true meaning.",
+          "suggestedFix": "Use direct and clear language to convey the intended meaning."
+        },
+        "eventLabeling": {
+          "title": "Event Labeling",
+          "explanation": "The phrase '{{phrase}}' may carry biased connotations in labeling events.",
+          "suggestedFix": "Use neutral terms to describe events."
+        },
+        "exclamationQuestionMarks": {
+          "title": "Overuse of Punctuation",
+          "explanation": "The repetition ('{{phrase}}') may provoke an emotional response.",
+          "suggestedFix": "Try to use only one exclamation or question mark."
+        },
+        "framingByTime": {
+          "title": "Framing By Time",
+          "explanation": "The phrase '{{phrase}}' frames the event in terms of time, potentially implying relevance or obsolescence.",
+          "suggestedFix": "Use neutral language that does not emphasize temporal framing unless necessary."
+        },
+        "historicallyDerogatoryTerms": {
+          "title": "Historically Derogatory Terms/Slurs",
+          "explanation": "The phrase '{{phrase}}' is considered historically derogatory or a slur.",
+          "suggestedFix": "Use a more respectful term."
+        },
+        "intensifyingAdverbs": {
+          "title": "Intensifying Adverbs",
+          "explanation": "The adverb '{{phrase}}' may be intensifying and therefore overly exaggerate qualities.",
+          "suggestedFix": "Consider using a less charged adverb or not using the adverb at all."
+        },
+        "italicsBoldface": {
+          "title": "Formatting Bias",
+          "explanation": "The text '{{phrase}}' is styled.",
+          "suggestedFix": "Consider removing the formatting or using it more sparingly."
+        },
+        "mitigators": {
+          "title": "Mitigator",
+          "explanation": "The mitigator '{{phrase}}' can downplay the seriousness or importance of the subject.",
+          "suggestedFix": "Remove the mitigator and simply state the fact."
+        },
+        "oversimplifiedGroupLabels": {
+          "title": "Oversimplified Group Labels",
+          "explanation": "The term '{{phrase}}' oversimplifies or stereotypes a group of people.",
+          "suggestedFix": "Use more specific and respectful language to describe individuals or groups."
+        },
+        "passiveVoice": {
+          "title": "Passive Voice",
+          "explanation": "This sentence uses passive voice (confidence: {{confidence}})",
+          "suggestedFix": "Consider using active voice for clearer, more direct communication"
+        },
+        "rhetoricalQuestion": {
+          "title": "Rhetorical Question",
+          "explanation": "This may be a rhetorical question (confidence: {{confidence}})",
+          "suggestedFix": "Reconsider whether the point can be made more directly."
+        },
+        "sarcasm": {
+          "title": "Sarcasm",
+          "explanation": "This sentence may be sarcastic (confidence: {{confidence}})",
+          "suggestedFix": "Rephrase this sentence to convey your intended meaning without the sarcastic tone."
+        },
+        "oversimplifiedComparison": {
+          "title": "Oversimplified Comparison",
+          "explanation": "This phrase could contain an oversimplified comparison that ignores important nuances.",
+          "suggestedFix": "Try using more direct and specific language to convey the intended meaning."
+        },
+        "referentialAmbiguity": {
+          "title": "Referential Ambiguity",
+          "explanation": "This phrase uses vague references that can signal bias.",
+          "suggestedFix": "Replace vague pronouns with specific terms to clarify the subject."
+        },
+        "subordinateClauses": {
+          "title": "Subordinate Clauses",
+          "explanation": "This sentence contains a subordinate clause that diminishes the main clause.",
+          "suggestedFix": "State the main idea clearly without downplaying it with a subordinate clause."
+        },
+        "doubleEntendres": {
+          "title": "Double Entendres",
+          "explanation": "This sentence uses a double entendre that could have a biased meaning.",
+          "suggestedFix": "Use clear and unambiguous language to avoid potential misinterpretations."
+        },
+        "tagQuestions": {
+          "title": "Tag Questions",
+          "explanation": "This sentence uses a tag question that can imply agreement and nudge the reader.",
+          "suggestedFix": "Remove the tag question to avoid implying agreement."
+        },
+        "contextualFraming": {
+          "title": "Contextual Framing",
+          "explanation": "This sentence uses contextual framing that biases the narrative by presenting premises as justifying conclusions.",
+          "suggestedFix": "Rephrase to present facts objectively without framing them to justify conclusions."
+        }
+      }
+    },
+    "sentiment": {
+      "title": "Sentiment Analysis",
+      "noResults": "Sentiment analysis is not supported for this language.",
+      "analyzing": "Analyzing text...",
+      "showDetails": "Show Details",
+      "hideDetails": "Hide Details",
+      "sentenceDetails": "Sentence-by-sentence analysis",
+      "sentence": "Sentence {{number}}",
+      "confidence": "confidence",
+      "sentimentInsight": "Sentiment Insight",
+      "conclusions": {
+        "positiveTrajectory": "The sentiment becomes more positive over the course of the text. This suggests a buildup toward a positive conclusion or a resolution of earlier negativity.",
+        "negativeTrajectory": "The sentiment becomes more negative over the course of the text. This could influence the reader's perception by softening the impact of negative information presented later.",
+        "veryPositive": "The overall sentiment is very positive. This could indicate a lack of critical perspective.",
+        "veryNegative": "The overall sentiment is very negative. This suggests a lack of including other perspectives.",
+        "leansPositive": "The overall sentiment leans positive. Consider balancing with more neutral or critical viewpoints.",
+        "leansNegative": "The overall sentiment leans negative. Consider incorporating more positive perspectives.",
+        "balanced": "The overall sentiment is well balanced.",
+        "noIssues": "There were no significant issues with sentiment detected."
+      },
+      "labels": {
+        "-2": "Very Negative",
+        "-1": "Negative",
+        "0": "Neutral",
+        "1": "Positive",
+        "2": "Very Positive"
+      }
+    },
+    "error": {
+      "title": "Error:"
+    },
+    "lexicon": {
+      "title": "Lexicon Terms",
+      "usageExample": "Usage Example",
+      "outdated": "Outdated",
+      "analyzing": "Analyzing lexicon terms...",
+      "noResults": "No lexicon terms found",
+      "popup": {
+        "title": "Lexicon Term",
+        "detectedPhrase": "Detected lexicon phrase:",
+        "usageExample": "Usage example:"
+      }
+    },
+    "loading": {
+      "editor": "Loading editor..."
+    },
+    "loadingPhrases": {
+      "analyzingBias": "Analyzing bias indicators...",
+      "checkingLLM": "Checking for LLM patterns...",
+      "evaluatingSentiment": "Evaluating sentiment...",
+      "analyzingEntities": "Analyzing named entities...",
+      "analyzingStructure": "Analyzing text structure...",
+      "lookingForDisparity": "Looking for sentiment disparity...",
+      "lookingForPatterns": "Looking for common bias patterns..."
+    }
+  }
+}

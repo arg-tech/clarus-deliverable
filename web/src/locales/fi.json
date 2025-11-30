@@ -1,0 +1,234 @@
+{
+  "translation": {
+    "app": {
+      "title": "Harhantunnistustyökalu"
+    },
+    "languages": {
+      "en": "Englanti",
+      "el": "Kreikka",
+      "fi": "Suomi",
+      "pt": "Portugali",
+      "cs": "Tšekki",
+      "label": "Kieli:"
+    },
+    "model": {
+      "local": "Paikallinen",
+      "remote": "Etä",
+      "label": "Malli:",
+      "remoteWarning": "Etämallit voivat lähettää tietosi ulkopuolisille API-palveluntarjoajille"
+    },
+    "editor": {
+      "toolbar": {
+        "bold": "Lihavoitu",
+        "italic": "Kursivoitu",
+        "underline": "Alleviivattu"
+      },
+      "languageInfo": "Kieli tunnistetaan automaattisesti (tukee englantia, kreikkaa, suomea, portugalia ja tshekkiä)",
+      "detectedLanguage": "Tunnistettu kieli: {{language}}",
+      "modelUsed": "Käytetty malli: {{model}}",
+      "modelUsedFallback": "Käytetty malli: {{model}} (etämalli ei ole saatavilla korkean kuormituksen vuoksi)",
+      "analyze": "Analysoi",
+      "analyzing": "Analysoidaan...",
+      "clear": "Tyhjennä"
+    },
+    "biasIndicators": {
+      "title": "Ennakkoluulojen indikaattorit",
+      "noResults": "Ennakkoluulojen indikaattoreita ei löytynyt. Analysoi teksti nähdäksesi tulokset.",
+      "analyzing": "Analysoidaan tekstiä...",
+      "detectedPhrase": "Havaittu lause",
+      "outdated": "Vanhentunut",
+      "popup": {
+        "detectedPhrase": "Havaittu lause:",
+        "whyThisMatters": "Miksi tällä on väliä:",
+        "suggestedImprovement": "💡 Ehdotettu parannus:"
+      },
+      "cards": {
+        "overgeneralizations": {
+          "title": "Liiallinen yleistäminen",
+          "explanation": "Termi '{{phrase}}' on liiallinen yleistys, joka ei jätä tilaa poikkeuksille ja voi esittää yksinkertaistettuja johtopäätöksiä.",
+          "suggestedFix": "Harkitse vivahteikkaamman kielen käyttöä, joka sallii poikkeukset ja yksilölliset vaihtelut."
+        },
+        "absoluteTerms": {
+          "title": "Absoluuttiset termit",
+          "explanation": "Termi '{{phrase}}' on absoluuttinen termi, joka voi sulkea keskustelun ja esittää tiedot kiistattomina.",
+          "suggestedFix": "Harkitse vivahteikkaamman kielen käyttöä vaihtoehtoisten näkökulmien sallimiseksi."
+        },
+        "capitalisation": {
+          "title": "Liiallinen isojen kirjainten käyttö",
+          "explanation": "Isoilla kirjaimilla kirjoittaminen voi antaa lisämerkitystä.",
+          "suggestedFix": "Jos lause ei ole lyhenne, harkitse tavallisen isokokoisten kirjainten käyttöä."
+        },
+        "chargedSemanticFields": {
+          "title": "Latautuneet semanttiset kentät",
+          "explanation": "Termi '{{phrase}}' on lainattu ilmaus alueelta, jolla on vahvoja konnotaatioita, jotka voivat vaikuttaa lukijan käsitykseen.",
+          "suggestedFix": "Vältä sanojen käyttöä latautuneista semanttisista kentistä neutraaliuden säilyttämiseksi."
+        },
+        "concessiveConnectives": {
+          "title": "Myönteiset konnektiivit",
+          "explanation": "Konnektiivi '{{phrase}}' voidaan käyttää vähättelemään vasta-argumentteja tunnustamalla ne samalla kun säilytetään pääkohta.",
+          "suggestedFix": "Harkitse vasta-argumenttien esittämistä neutraalimmin tai antamalla niille yhtä suuri painoarvo."
+        },
+        "dysphemisms": {
+          "title": "Dysfemismit",
+          "explanation": "Lause '{{phrase}}' on dysfemismi, joka voi välittää negatiivisen tai halventavan konnotaation.",
+          "suggestedFix": "Käytä neutraalia tai positiivista kieltä halventavien vihjeiden välttämiseksi."
+        },
+        "ellipses": {
+          "title": "Kolmen pisteen käyttö",
+          "explanation": "Kolme pistettä voi vihjata epäröintiin tai piilotettuun merkitykseen.",
+          "suggestedFix": "Tarkista, pitäisikö jokin piilotettu merkitys selventää."
+        },
+        "emotionallyChargedAdjectives": {
+          "title": "Emotionaalisesti latautuneet adjektiivit",
+          "explanation": "Adjektiivi '{{phrase}}' on emotionaalisesti latautunut ja voi vaikuttaa lukijan käsitykseen.",
+          "suggestedFix": "Harkitse neutraalimman kielen käyttöä aiheen kuvaamiseen."
+        },
+        "euphemisms": {
+          "title": "Eufemismit",
+          "explanation": "Lause '{{phrase}}' on eufemismi, joka voi pehmentää tai hämärtää todellisen merkityksen.",
+          "suggestedFix": "Käytä suoraa ja selkeää kieltä tarkoitetun merkityksen välittämiseksi."
+        },
+        "eventLabeling": {
+          "title": "Tapahtumien leimaaminen",
+          "explanation": "Lause '{{phrase}}' voi sisältää ennakkoluuloisia konnotaatioita tapahtumien leimaamisessa.",
+          "suggestedFix": "Käytä neutraaleja termejä tapahtumien kuvaamiseen."
+        },
+        "exclamationQuestionMarks": {
+          "title": "Liiallinen välimerkkien käyttö",
+          "explanation": "Toisto ('{{phrase}}') voi herättää emotionaalisen reaktion.",
+          "suggestedFix": "Yritä käyttää vain yhtä huuto- tai kysymysmerkkiä."
+        },
+        "framingByTime": {
+          "title": "Ajallinen kehystäminen",
+          "explanation": "Lause '{{phrase}}' kehystää tapahtuman ajan suhteen, mikä voi vihjata merkityksellisyyttä tai vanhentuneutta.",
+          "suggestedFix": "Käytä neutraalia kieltä, joka ei korosta ajallista kehystämistä, ellei se ole välttämätöntä."
+        },
+        "historicallyDerogatoryTerms": {
+          "title": "Historiallisesti halventavat termit/loukkaukset",
+          "explanation": "Lausetta '{{phrase}}' pidetään historiallisesti halventavana tai loukkauksena.",
+          "suggestedFix": "Käytä kunnioittavampaa termiä."
+        },
+        "intensifyingAdverbs": {
+          "title": "Tehostavat adverbit",
+          "explanation": "Adverbi '{{phrase}}' voi olla tehostava ja siksi liioitella ominaisuuksia.",
+          "suggestedFix": "Harkitse vähemmän latautuneen adverbin käyttöä tai adverbin poisjättämistä kokonaan."
+        },
+        "italicsBoldface": {
+          "title": "Muotoilun ennakkoluulo",
+          "explanation": "Teksti '{{phrase}}' on muotoiltu.",
+          "suggestedFix": "Harkitse muotoilun poistamista tai käytä sitä niukemmin."
+        },
+        "mitigators": {
+          "title": "Lieventäjät",
+          "explanation": "Lieventäjä '{{phrase}}' voi vähätellä aiheen vakavuutta tai tärkeyttä.",
+          "suggestedFix": "Poista lieventäjä ja ilmoita vain tosiasia."
+        },
+        "oversimplifiedGroupLabels": {
+          "title": "Yksinkertaistetut ryhmäleimat",
+          "explanation": "Termi '{{phrase}}' yksinkertaistaa liikaa tai stereotypisoi ihmisryhmää.",
+          "suggestedFix": "Käytä tarkempaa ja kunnioittavampaa kieltä yksilöiden tai ryhmien kuvaamiseen."
+        },
+        "passiveVoice": {
+          "title": "Passiivi",
+          "explanation": "Tämä lause käyttää passiivia (luottamus: {{confidence}})",
+          "suggestedFix": "Harkitse aktiivin käyttöä selkeämpään, suoraviivaisempaan viestintään"
+        },
+        "rhetoricalQuestion": {
+          "title": "Retorinen kysymys",
+          "explanation": "Tämä voi olla retorinen kysymys (luottamus: {{confidence}})",
+          "suggestedFix": "Harkitse, voidaanko pointti esittää suoremmin."
+        },
+        "sarcasm": {
+          "title": "Sarkasmi",
+          "explanation": "Tämä lause voi olla sarkastinen (luottamus: {{confidence}})",
+          "suggestedFix": "Muotoile tämä lause uudelleen välittääksesi tarkoituksesi ilman sarkastista sävyä."
+        },
+        "oversimplifiedComparison": {
+          "title": "Yksinkertaistettu vertailu",
+          "explanation": "Tämä lause voi sisältää yksinkertaistetun vertailun, joka jättää huomiotta tärkeitä vivahteita.",
+          "suggestedFix": "Yritä käyttää suorempaa ja tarkempaa kieltä tarkoituksesi välittämiseksi."
+        },
+        "referentialAmbiguity": {
+          "title": "Viitteellinen epäselvyys",
+          "explanation": "Tämä lause käyttää epämääräisiä viitteitä, jotka voivat viitata ennakkoluuloon.",
+          "suggestedFix": "Korvaa epämääräiset pronominit tarkemmilla termeillä aiheen selventämiseksi."
+        },
+        "subordinateClauses": {
+          "title": "Sivulauseet",
+          "explanation": "Tämä lause sisältää sivulauseen, joka vähentää päälausetta.",
+          "suggestedFix": "Ilmaise pääajatus selkeästi vähättelemättä sitä sivulauseella."
+        },
+        "doubleEntendres": {
+          "title": "Kaksimieliset ilmaisut",
+          "explanation": "Tämä lause käyttää kaksimielistä ilmaisua, jolla voi olla ennakkoluuloinen merkitys.",
+          "suggestedFix": "Käytä selkeää ja yksiselitteistä kieltä mahdollisten väärintulkintojen välttämiseksi."
+        },
+        "tagQuestions": {
+          "title": "Liitekysymykset",
+          "explanation": "Tämä lause käyttää liitekysymystä, joka voi vihjata yksimielisyyttä ja ohjata lukijaa.",
+          "suggestedFix": "Poista liitekysymys välttääksesi yksimielisyyden vihjaamista."
+        },
+        "contextualFraming": {
+          "title": "Kontekstuaalinen kehystäminen",
+          "explanation": "Tämä lause käyttää kontekstuaalista kehystämistä, joka vääristää narratiivia esittämällä oletukset johtopäätösten perusteluna.",
+          "suggestedFix": "Muotoile uudelleen esittääksesi tosiasiat objektiivisesti kehystämättä niitä johtopäätösten perusteluksi."
+        }
+      }
+    },
+    "sentiment": {
+      "title": "Tunneanalyysi",
+      "noResults": "Tämän kielen tunnesisällön analyysiä ei tueta.",
+      "analyzing": "Analysoidaan tekstiä...",
+      "showDetails": "Näytä tiedot",
+      "hideDetails": "Piilota tiedot",
+      "sentenceDetails": "Lause lauseelta analyysi",
+      "sentence": "Lause {{number}}",
+      "confidence": "luottamus",
+      "sentimentInsight": "Tunneoivallus",
+      "conclusions": {
+        "positiveTrajectory": "Tunne muuttuu positiivisemmaksi tekstin kuluessa. Tämä viittaa positiivisen johtopäätöksen rakentamiseen tai aiemman negatiivisuuden ratkaisuun.",
+        "negativeTrajectory": "Tunne muuttuu negatiivisemmaksi tekstin kuluessa. Tämä voi vaikuttaa lukijan käsitykseen pehmentämällä myöhemmin esitettävien negatiivisten tietojen vaikutusta.",
+        "veryPositive": "Kokonaistunne on erittäin positiivinen. Tämä voi viitata kriittisen näkökulman puutteeseen.",
+        "veryNegative": "Kokonaistunne on erittäin negatiivinen. Tämä viittaa muiden näkökulmien sisällyttämisen puutteeseen.",
+        "leansPositive": "Kokonaistunne kallistuu positiiviseen. Harkitse tasapainottamista neutraaleimmilla tai kriittisimmillä näkökulmilla.",
+        "leansNegative": "Kokonaistunne kallistuu negatiiviseen. Harkitse positiivisempien näkökulmien sisällyttämistä.",
+        "balanced": "Kokonaistunne on hyvin tasapainoinen.",
+        "noIssues": "Tunteessa ei havaittu merkittäviä ongelmia."
+      },
+      "labels": {
+        "-2": "Hyvin negatiivinen",
+        "-1": "Negatiivinen",
+        "0": "Neutraali",
+        "1": "Positiivinen",
+        "2": "Hyvin positiivinen"
+      }
+    },
+    "error": {
+      "title": "Virhe:"
+    },
+    "lexicon": {
+      "title": "Sanastotermit",
+      "usageExample": "Käyttöesimerkki",
+      "outdated": "Vanhentunut",
+      "analyzing": "Analysoidaan sanastotermejä...",
+      "noResults": "Sanastotermejä ei löytynyt",
+      "popup": {
+        "title": "Sanastotermi",
+        "detectedPhrase": "Havaittu sanastolauseke:",
+        "usageExample": "Käyttöesimerkki:"
+      }
+    },
+    "loading": {
+      "editor": "Ladataan editoria..."
+    },
+    "loadingPhrases": {
+      "analyzingBias": "Analysoidaan harhan indikaattoreita...",
+      "checkingLLM": "Tarkistetaan LLM-malleja...",
+      "evaluatingSentiment": "Arvioidaan tunnetta...",
+      "analyzingEntities": "Analysoidaan nimettyjä entiteettejä...",
+      "analyzingStructure": "Analysoidaan tekstin rakennetta...",
+      "lookingForDisparity": "Etsitään tunteiden eroja...",
+      "lookingForPatterns": "Etsitään yleisiä harhan malleja..."
+    }
+  }
+}

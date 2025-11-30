@@ -1,0 +1,757 @@
+[
+  {
+    "word_regex": "EXIF",
+    "usage_example": "In cases where a suspect is believed to have taken indecent photographs of children, seizure of devices capable of taking digital photos could be useful not only for the data they store, but also to link these devices to previously identified indecent photographs by the examination of digital metadata (EXIF data). (procedural/instructive)",
+    "definition": "EXIF (Exchangeable Image File Format) is a standardized metadata format embedded within digital image and audio files that records technical information about how, when, and where the file was created."
+  },
+  {
+    "word_regex": "Digital data",
+    "usage_example": "This refers to the use of a locked down, centrally configured off-the-shelf tool for the capture and preservation of digital data by frontline personnel, which is traditionally referred to as a kiosk. (legislative)",
+    "definition": "Digital data constitutes potential evidence that must be identified, preserved, collected, and analysed according to strict procedural standards. Digital data ranges from user files and communications to system-generated information and metadata embedded within files."
+  },
+  {
+    "word_regex": "Digital investigation(s)?",
+    "usage_example": "A quality framework is also being developed for non-forensic aspects of digital investigations including triage technologies within the same timescale. (procedural/instructive)",
+    "definition": "Digital investigation is the systematic process of detecting, examining, and analysing digital evidence from electronic devices and systems to support the detection and prosecution of crimes, investigation of incidents, and development of intelligence capabilities."
+  },
+  {
+    "word_regex": "Hard disk|hard drives|HDD",
+    "usage_example": "For example, the average hard disk is now larger than 200 gigabytes and this, if printed out on A4 paper, would be 10,000,000 pages long. (procedural/instructive)",
+    "definition": "A hard disk or hard disk drive (HDD) is a physical data storage device that stores user files, system data, and application information, typically found internally within desktop computers, laptops, and other digital devices. These two terms are used interchangeably with the term ‘hard drive’."
+  },
+  {
+    "word_regex": "Operating system|OS",
+    "usage_example": "If replacement software (e.g. an operating system or application software) is implemented, the forensic unit shall ensure that procedures are established to retain access to any critical data reliant on the software that has been replaced. (legislative)",
+    "definition": "An operating system (OS) is the fundamental software that manages and controls a computer or digital device's hardware and software resources, processes and stores data, enables user interaction, and serves as a critical source of digital evidence by generating logs and metadata that record user actions and system events."
+  },
+  {
+    "word_regex": "Database(s)?",
+    "usage_example": "Where the method relies on reference collections or databases, the nature, access and their availability should be described.  (legislative)",
+    "definition": "A database is a structured collection of information, typically in electronic format, that organizes and stores data in a systematic manner to enable searching, comparison, identification, and retrieval of records for investigative and evidential purposes."
+  },
+  {
+    "word_regex": "Encrypted",
+    "usage_example": "This is especially important if the suspect is a technically knowledgeable user who may be using encryption, as there may be no way to retrieve evidence stored in encrypted volumes once the power is lost. (procedural/instructive)",
+    "definition": "Encrypted refers to data, files, devices, communications, or storage media that have been transformed using cryptographic algorithms into an unreadable format that cannot be accessed, interpreted, or retrieved without the appropriate key, password, or cryptographic method."
+  },
+  {
+    "word_regex": "Digital evidence",
+    "usage_example": "Appropriately, this procedure will be used to hand over digital evidence to the forensic IT specialist to perform other forensic technical tasks, if they have not collected them himself. (legislative)",
+    "definition": "Digital evidence is information or data, stored or transmitted in digital form, that can be used to establish facts in criminal investigations or legal proceedings. It encompasses all forms of electronically stored information recovered from digital devices, systems, communications, and storage media."
+  },
+  {
+    "word_regex": "Extract",
+    "usage_example": "When extracting data from a file system viewer, it is important to know exactly how it will interpret the file system being viewed. (procedural/instructive)",
+    "definition": "Extract means to retrieve, recover, or obtain specific data, information, or images from digital devices, storage media, or systems, making the data accessible and usable for investigative, analytical, or evidential purposes."
+  },
+  {
+    "word_regex": "Brute force",
+    "usage_example": "An investigator may also try to crack the encryption or access the account by brute force.  (procedural/instructive)",
+    "definition": "Brute force is a cryptographic method that attempts to crack encryption or access password-protected accounts by systematically generating and testing all possible keys or password combinations."
+  },
+  {
+    "word_regex": "Virtual private network|VPN",
+    "usage_example": "The cyber security and resilience focus broadly covers the following areas: network access control - controlling access and identify threat across wired, wireless and VPN network. (procedural/instructive)",
+    "definition": "Virtual Private Network (VPN) is communications software that creates secure, encrypted connections over networks, enabling individual users or companies to transmit data privately by establishing virtual connections between equipment or systems. In digital forensics, VPNs represent dual-use technology that serves both as legitimate corporate and personal privacy infrastructure and as a potential tool for concealing criminal activity."
+  },
+  {
+    "word_regex": "Cloud storage",
+    "usage_example": "The data held within the cloud storage account is not held on a user's device unless the user downloads it or makes it available to view offline (a copy is then saved to the device). (procedural/instructive)",
+    "definition": "Cloud storage is a type of data storage system where data is stored remotely on servers in an online environment, typically owned and managed by a hosting company, accessible from multiple devices by users through account credentials (username and password), rather than being stored locally on the user's physical device."
+  },
+  {
+    "word_regex": "Cloud",
+    "usage_example": "The primary reason why all UK police forces have introduced digital triage devices is  because of the proliferation of electronic devices and media within society, the complexities of digital convergence and cloud computing, and related to this the consequence of  investigative opportunities outstripping the current capacity of digital forensics analysts and  investigators. (procedural/instructive)",
+    "definition": "Cloud refers to online access to shared computing resources, such as remote data storage, processing services, and applications, hosted on servers accessible via the internet from multiple devices rather than being stored or processed locally on a user's physical device."
+  },
+  {
+    "word_regex": "Digital forensics",
+    "usage_example": "We will dramatically extend the use of digital evidence in policing, with it becoming commonplace for digital forensics to be gathered from a full range of sources and devices. (procedural/instructive)",
+    "definition": "Digital forensics encompasses the recovery, examination, and interpretation of data from computers, mobile phones, networks, and other digital storage media for use in criminal investigations and legal proceedings."
+  },
+  {
+    "word_regex": "Cybercrime(s)?",
+    "usage_example": "The breakneck speed, scale and constantly evolving nature at which many cybercrimes now occur mean that it has never been more important for us to acquire systems and adopt processes that will enable us to sort through much more data, at pace, and respond effectively. (procedural/instructive)",
+    "definition": "Cybercrime involves criminal activities facilitated by digital technology and computer systems, such as fraud and ransomware attacks."
+  },
+  {
+    "word_regex": "Digital storage",
+    "usage_example": "When manipulating devices and digital storage or communication media that contain digital information, nothing must be changed, whether the hardware, software or any digital data contained therein. (procedural/instructive)",
+    "definition": "Digital storage refer to devices or media on which digital data can be recorded, stored, and retrieved for potential use as evidence. Digital storage encompasses both physical storage devices and components, as well as remotely stored electronic data."
+  },
+  {
+    "word_regex": "Metadata",
+    "usage_example": "Appropriate hardware is required to extract the maximum amount of information in terms of image quality, audio tracks and associated metadata. (procedural/instructive)",
+    "definition": "Metadata are data that provide information about the data, describing its characteristics, properties, context, and structure. In digital forensics, metadata serves as evidence for understanding the origin, history, and attributes of digital files and systems."
+  },
+  {
+    "word_regex": "Software",
+    "usage_example": "The recommended method for copying a website is to visit the site and record the relevant pages using video capture software so there is a visible representation of how they look when visited at the time. (procedural/instructive)",
+    "definition": "Software refers to the non-physical component of computing and electronic systems, encompassing programs, applications, operating systems, and code that control and enable the functionality of digital devices and equipment. Software can be used for forensic analysis, data processing, and evidence extraction."
+  },
+  {
+    "word_regex": "Hardware",
+    "usage_example": "The ‘anti-malware system’ shall cover all compatible computers and hardware, unless specified operational requirements dictate otherwise. (procedural/instructive)",
+    "definition": "Hardware is the physical equipment and components of computing and electronic systems, such as computers, peripherals, storage devices, and all tangible electronic equipment used in digital systems."
+  },
+  {
+    "word_regex": "Internet address",
+    "usage_example": "Where an incident is reported which involves the use of chat the person taking the report needs to ascertain  what method of chat was being used, i.e. what is the name of the website hosting the chat and its full Internet address, or what program is being used.",
+    "definition": "Internet address is the full location identifier of a website, service, or resource on the internet, providing identifying information about online locations, such as websites hosting communications platforms or other internet-based services."
+  },
+  {
+    "word_regex": "PDF|Portable document format",
+    "usage_example": "Should any discrepancy be identified between different formats in which the code is published then this should be considered an error and the published PDF version of the code should be considered the definitive version. (procedural/instructive)",
+    "definition": "PDF (Portable Document Format) is a file format used for presenting and exchanging forensic documents reliably, independent of software, hardware, or operating system."
+  },
+  {
+    "word_regex": "Password(s)?",
+    "usage_example": "The system should be designed to protect the password in transit and at rest using appropriate encryption and hashing techniques. (legislative)",
+    "definition": "A password is a keyword, security code, or secret authentication credential used as a security measure by systems and applications to control access to devices, accounts, data, or protected resources. Passwords serve to verify user identity and restrict unauthorised access to digital systems and information."
+  },
+  {
+    "word_regex": "Forensic laboratory",
+    "usage_example": "All equipment used within a forensic laboratory will have a limited effective lifespan, which may be measured in weeks, months or years. (procedural/instructive)",
+    "definition": "Forensic laboratory is a specialized facility equipped with forensic tools and equipment for conducting forensic examinations, analyses, and investigations of evidence."
+  },
+  {
+    "word_regex": "Forensic analysis",
+    "usage_example": "There will always be occasions when a locally approved forensic tool is not capable of providing a specific function which is required to complete a forensic analysis. (procedural/instructive)",
+    "definition": "Forensic analysis is the extraction, systematic processing, examination, and interpretation of evidence using scientific methods and specialised equipment to extract, evaluate, and present findings for investigative or legal purposes."
+  },
+  {
+    "word_regex": "USB stick",
+    "usage_example": "A USB stick is generally most convenient, as the output of the tools can be written back to the stick. (procedural/instructive)",
+    "definition": "A USB stick is a removable storage medium commonly used in digital forensic practice as a transport medium for data or to run information capture tools."
+  },
+  {
+    "word_regex": "Image",
+    "usage_example": "If practitioners are required undertake an enhancement task when an image is of too poor quality, it should be clearly marked as being potentially unreliable as evidence. (legislative)",
+    "definition": "An image is a digital photograph, video frame, and other pictorial content subject to forensic examination, including image capture, image processing, image enhancement, and image comparison."
+  },
+  {
+    "word_regex": "Cyberattack|Cyber-attack",
+    "usage_example": "We have a responsibility to protect the service we provide from both cyber-attack and systemic vulnerabilities. (procedural/instructive)",
+    "definition": "Cyberattack is a type of crime directed against computer systems, networks, or digital infrastructure with the intent to compromise, disrupt, or damage digital services and data."
+  },
+  {
+    "word_regex": "Digital media",
+    "usage_example": "There are many different types of digital media and end-user devices, which may be encountered  during a search of a crime scene, all of which have the potential to hold data which may be of value  to the investigation. (procedural/instructive)",
+    "definition": "Digital media are various types of electronic storage devices and systems that contain digitally stored data and may be encountered during forensic investigations. Digital media include items such as CDs, DVDs, flash memory cards, cameras, closed-circuit television (CCTV) systems, and video surveillance systems (VSS)."
+  },
+  {
+    "word_regex": "JPG|Joint Photographic Experts Group",
+    "usage_example": "Pictures - Gallery (png, jpg…)",
+    "definition": "JPG (Joint Photographic Experts Group) is a common digital image file format and compression method that may be encountered during forensic examination of images."
+  },
+  {
+    "word_regex": "Hash|Hashing",
+    "usage_example": "The system should be designed to protect the password in transit and at rest using appropriate encryption and hashing techniques. (legislative)",
+    "definition": "Hashing is a cryptographic technique used to create digital fingerprints, known as hash values, which serve to verify the integrity and authenticity of digital evidence. Hash values are calculated for both original media and forensic images to ensure that copies remain completely unaltered; if the hash values are identical, the copies are certified to be exact duplicates."
+  },
+  {
+    "word_regex": "Computer",
+    "usage_example": "On computers, the connection ports for peripherals (mouse, keyboard, monitor, etc.) and the connection ports for any digital storage medium must be sealed. (procedural/instructive)",
+    "definition": "A computer includes desktop and laptop PCs and may encompass systems with embedded firmware that process, store, or transmit data or digital evidence."
+  },
+  {
+    "word_regex": "Memory cards",
+    "usage_example": "Data held in mobile telephones can be stored in a number of places, including the SIM card, internal handset storage, or additional removable memory cards. (procedural/instructive)",
+    "definition": "Memory cards are removable digital storage media and used to store digital information such as images, sound, video, and other data that may be seized as evidence."
+  },
+  {
+    "word_regex": "Digital fingerprint",
+    "usage_example": "Digital fingerprints, known as hash values, were calculated for both the originals and the forensic images. (procedural/instructive)",
+    "definition": "A digital fingerprint is a unique hash value that serves as an identifier for the verification of digital data."
+  },
+  {
+    "word_regex": "Extraction",
+    "usage_example": "It is important to ensure that an appropriately comprehensive and accurate extraction of data from the digital device in question is achieved, whilst maintaining the integrity of the evidential chain. (procedural/instructive)",
+    "definition": "Extraction is the process of recovering and obtaining data or material from digital devices, storage media, or systems for forensic examination."
+  },
+  {
+    "word_regex": "Device(s)?",
+    "usage_example": "Processing data can take a long time, and increases in data storage and in the number of devices associated with crimes have led to increased pressure on forensic services. (procedural/instructive)",
+    "definition": "A device encompasses a wide range of digital equipment including computers, mobile phones, smartphones, tablets, laptops, USB sticks, digital cameras, satellite navigation systems, smart devices, gaming consoles, storage media, and other devices, which may be seized as evidence during forensic investigations."
+  },
+  {
+    "word_regex": "Digital information",
+    "usage_example": "All those involved in preservation and collection must have adequate training in the area of preservation and collection of equipment and means of supporting digital information. (procedural/instructive)",
+    "definition": "Digital information is all forms of electronic data that may be preserved as digital evidence, including data stored on tangible media, communications transmitted through networks, telephone records, computer log files, and other electronically recorded material."
+  },
+  {
+    "word_regex": "Cyber",
+    "usage_example": "Online theft of a bank card or bank account details was the type of cyber fraud and computer misuse reported by most victims (74%). (procedural/instructive)",
+    "definition": "Cyber is a term relating to computer systems, networks, digital technology, and the online environment in which digital crimes and security threats occur."
+  },
+  {
+    "word_regex": "Authentication",
+    "usage_example": "Users with administrative rights shall use multi-factor authentication (such as second factor or two-factor authentication. (legislative)",
+    "definition": "Authentication is the process of verifying the identity of users, the validity of data, or the integrity of digital evidence."
+  },
+  {
+    "word_regex": "Application",
+    "usage_example": "These devices often store search history and the applications used on them and as such can provide evidential value in certain enquires. (procedural/instructive)",
+    "definition": "Applications refer to both system-level software (such as operating systems) and other programs that process, store, or communicate data. Application also refers to the act of implementing forensic methods, techniques, or processes."
+  },
+  {
+    "word_regex": "Airplane mode",
+    "usage_example": "Security permitting, set a phone on Airplane Mode. (procedural/instructive)",
+    "definition": "Airplane mode is a device setting that disables wireless communication functions, preventing the device from obtaining a signal to access networks. Airplane mode is used as a technique to preserve the integrity of digital evidence on mobile devices."
+  },
+  {
+    "word_regex": "Serial number",
+    "usage_example": "A unique serial number is to be issued for each interview and entered on the disc register and DVD security seal / label. (procedural/instructive)",
+    "definition": "Serial number is a unique identifier assigned to physical items, equipment, or recorded events to enable specific identification and tracking."
+  },
+  {
+    "word_regex": "GPS|Global Positioning System",
+    "usage_example": "Data sources include smart phones, WiFi routers, GPS equipment, CCTV, building access recorders, smart  TVs, games consoles and fitness watches. (procedural/instructive)",
+    "definition": "GPS is a satellite-based navigation system that provides location data and positioning information, recording geographical coordinates and temporal data that can be recovered and analysed during forensic examinations."
+  },
+  {
+    "word_regex": "Desktop",
+    "usage_example": "Our people will be provided with integrated policing systems where they can enter, re-use and search data from either a mobile or desktop device. (procedural/instructive)",
+    "definition": "A desktop is a stationary computer system, typically consisting of a monitor, processing unit, and peripherals, used for computing tasks and data storage."
+  },
+  {
+    "word_regex": "Verify|Verifying",
+    "usage_example": "Separate provisions shall be issued on the disclosure of information for the purpose of verifying the reliability of a person applying for or operating in security-sensitive duties. (legislative)",
+    "definition": "Verifying is the process of confirming, establishing, or checking the accuracy, authenticity, or lawfulness of evidence, documents, or procedures through systematic examination methods."
+  },
+  {
+    "word_regex": "Storage",
+    "usage_example": "On computers, the connection ports for peripherals (mouse, keyboard, monitor, etc.) and the connection ports for any digital storage medium must be sealed. (procedural/instructive)",
+    "definition": "Storage is the retention and preservation of digital data, physical evidence, or information in designated locations or media under controlled conditions to maintain integrity, security, and accessibility throughout the investigative process."
+  },
+  {
+    "word_regex": "Video",
+    "usage_example": "Forensic units may be required to carry out authenticity analysis to examine the provenance or integrity of the video material. (legislative)",
+    "definition": "Video refers to moving images recorded in either digital or analogue format that capture visual information over time, often accompanied by audio, and which may serve as evidence in forensic investigations."
+  },
+  {
+    "word_regex": "Data storage",
+    "usage_example": "Processing data can take a long time and increases in data storage and in the number of devices associated with crimes have led to increased pressure on forensic services. (procedural/instructive)",
+    "definition": "Data storage is the retention and recording of digital information on physical media, devices, or remote systems from which information can be extracted, retrieved, and processed for forensic examination."
+  },
+  {
+    "word_regex": "Forensic copy",
+    "usage_example": "Examination of an Evidence or Virtual Forensic Copy (Forensic Image) (procedural/instructive)",
+    "definition": "Forensic copy is a duplicate of digital evidence created through controlled forensic procedures to preserve the original data for examination and analysis."
+  },
+  {
+    "word_regex": "Forensic",
+    "usage_example": "The Director of the Institute of Criminalistics shall establish an expert committee to prepare a review expert report to review the expert report or expert statement submitted by the section of forensic technology and expertise or the Institute of Criminalistics. (legislative)",
+    "definition": "Forensic refers to the systematic, documented, and scientifically rigorous examination of digital devices and evidence as well as the application of scientific methods, techniques, and procedures to criminal investigations and legal proceedings for investigation, or presentation of evidence. It also describes professional practitioners and bodies in the field of digital forensics."
+  },
+  {
+    "word_regex": "Store|Stored",
+    "usage_example": "Video footage should be extracted in its native format in order to maintain image quality and be stored as a master copy to be available for any future forensic examination/analysis. (legislative)",
+    "definition": "Store (stored) refers to the act of retaining digital data on devices and media or maintaining physical evidence and records in secure locations for preservation, future access, or processing of evidence."
+  },
+  {
+    "word_regex": "Secure evidence",
+    "usage_example": "The purpose of the initial evidence gathering stage is to secure evidence, not only of offences in relation to production, possession and distribution of such images but also information relating to the subject’s lifestyle, access and interaction with children and use and knowledge of technology. (procedural/instructive)",
+    "definition": "To secure evidence encompasses the collection, documentation, and preserving of both physical items and digital data relevant to an investigation."
+  },
+  {
+    "word_regex": "IP address",
+    "usage_example": "When any user accesses the Internet, they are allocated a unique address known as an IP address and their Internet Service Provider (ISP) keeps logs of the times and dates and the identity of the user allocated any IP address. (procedural/instructive)",
+    "definition": "IP (Internet Protocol) address is a unique numerical address assigned to a device connected to a network or the internet, allowing it to be located and identified."
+  },
+  {
+    "word_regex": "Timestamp",
+    "usage_example": "Timestamps might be a network timestamp relating to the point when information is received by centralised network storage, and not at the earlier point of digitization in the camera. (procedural/instructive)",
+    "definition": "A timestamp is a recorded marker indicating the specific date and time when a digital event occurred, data was created, modified, accessed, or transmitted."
+  },
+  {
+    "word_regex": "CPU|Central processing unit",
+    "usage_example": "Central Processing Units (CPUs) are generally stored as 2 voltage levels that are abstractly referenced as binary data (‘0’s and ‘1’s). (procedural/instructive)",
+    "definition": "A CPU (Central Processing Unit) is the primary component of a computer that performs computational operations and executes instructions."
+  },
+  {
+    "word_regex": "Copy",
+    "usage_example": "The data held within the cloud storage account is not held on a user's device unless the user downloads it or makes it available to view offline (a copy is then saved to the device). (procedural/instructive)",
+    "definition": "A copy is a reproduction or duplicate of original data, documents, evidence, or records, created for purposes of examination, analysis, preservation, distribution, or retention. In digital forensics, a copy refers to both the act of reproducing digital data and the resulting reproduction itself."
+  },
+  {
+    "word_regex": "Digital device",
+    "usage_example": "It is important to ensure that an appropriately comprehensive and accurate extraction of data from the digital device in question is achieved, whilst maintaining the integrity of the evidential chain. (procedural/instructive)",
+    "definition": "A digital device refers to any electronic device that can receive, store, process, or send digital information and may contain evidence for criminal investigations or incidents."
+  },
+  {
+    "word_regex": "Image enhancement",
+    "usage_example": "Forensic units shall be clear on the purpose of any image enhancement that is to be carried out and anticipate any data losses that may occur as a side effect. (procedural/instructive)",
+    "definition": "Image enhancement is a transformation of an image that seeks to increase its quality, clarity, or interpretability for forensic examination purposes."
+  },
+  {
+    "word_regex": "TCP|IP|Transmission Control Protocol/Internet Protocol",
+    "usage_example": "Interconnected Network. The set of global computer networks linked together using the TCP/IP protocol. (procedural/instructive)",
+    "definition": "TCP (Transmission Control Protocol) is a transport layer protocol responsible for reliable data transmission. IP (Internet Protocol) is a network layer protocol that handles addressing and routing of data packets. They work together to enable reliable end-to-end communication across networks"
+  },
+  {
+    "word_regex": "Motherboard",
+    "usage_example": "The effect of data transmission errors within a system can be reduced by using Error Code Correction (ECC) memory; or equivalents and ensuring that the memory they purchase is guaranteed to be compatible with the motherboard. (procedural/instructive)",
+    "definition": "A motherboard is the main circuit board within a computer's main unit that houses and connects the central processing unit (CPU), memory, expansion cards, and other critical system components."
+  },
+  {
+    "word_regex": "Delete",
+    "usage_example": "If agreement is withdrawn after the extraction of information has taken place, it may not be possible to delete the data or return the device as it could form a crucial part of the evidence in the case. (procedural/instructive)",
+    "definition": "To delete is to remove or erase data so that it can no longer be accessed. In digital forensics, deletion refers to both intentional removal of electronic data and automated system processes that alter or eliminate stored information."
+  },
+  {
+    "word_regex": "Protocols",
+    "usage_example": "It is intended that the Digital Evidence in Criminal Procedure Manual constitutes a tool that allows formalising and standardizing procedures that, in addition to guarantee the quality of the service provided, should also allow the standardization of action protocols and the formalisation of processes. (procedural/instructive)",
+    "definition": "Protocols are established procedures or standards that govern operations, communications, or interactions within forensic practice or organisational frameworks."
+  },
+  {
+    "word_regex": "Disk",
+    "usage_example": "Do not place labels directly onto floppy disks or CDs/DVDs. (procedural/instructive)",
+    "definition": "A disk is a data storage medium used to store and retrieve digital information, encompassing both magnetic rotating storage devices (hard disk drives) and other storage formats."
+  },
+  {
+    "word_regex": "Optical disc",
+    "usage_example": "Use proof tape on the openings of boxes or envelopes containing optical discs and other loose objects. (procedural/instructive)",
+    "definition": "An optical disc is a flat, circular storage medium that uses optical (laser) technology to read and write data, including CDs (compact discs) and DVDs (digital versatile discs)."
+  },
+  {
+    "word_regex": "Webpage",
+    "usage_example": "Where it is not possible to reproduce the item as it would have originally been viewed, for example, when a webpage is retrieved some time after the original page was accessed,  this must also be clearly stated in the report. (procedural/instructive)",
+    "definition": "A webpage is a resource accessible on the World Wide Web that displays content through a web browser, which represents dynamic digital evidence that may change over time, requiring careful documentation of when and how they were accessed and preserved."
+  },
+  {
+    "word_regex": "Personal computer|PC",
+    "usage_example": "Traditionally, digital forensics mainly involved extracting data from PCs and laptops. (procedural/instructive)",
+    "definition": "A personal computer is a general-purpose computer designed for individual use, typically consisting of a desktop or laptop system that enables connection and activity on networks and performs various computing tasks. PCs are common sources of digital evidence and platforms for forensic examination tools."
+  },
+  {
+    "word_regex": "Forensic process",
+    "usage_example": "The areas addressed are the acquisition and analysis of digital systems, including all aspects of the forensic process from before seizure to final report production and archiving. (procedural/instructive)",
+    "definition": "Forensic process refers to the systematic series of procedures, methods, and stages involved in the collection, examination, analysis, and reporting of evidence for investigative or legal purposes."
+  },
+  {
+    "word_regex": "Evidence recovery",
+    "usage_example": "When carrying out any evidence recovery it is essential that an audit trail of all activity carried out by the investigator is recorded in a log. (procedural/instructive)",
+    "definition": "Evidence recovery is the systematic process of locating, extracting, collecting, and preserving physical or digital evidence from crime scenes, devices, or other sources for forensic examination and analysis."
+  },
+  {
+    "word_regex": "Expert report",
+    "usage_example": "The Director of the Institute of Criminalistics shall establish an expert committee to prepare a review expert report to review the expert report or expert statement submitted by the section of forensic technology and expertise or the Institute of Criminalistics. (legislative)",
+    "definition": "An expert report is a formal written document prepared by a qualified expert or expert institute following the completion of a forensic examination, presenting technical findings, analysis, and professional opinions based on specialised knowledge and investigative procedures."
+  },
+  {
+    "word_regex": "Machine learning",
+    "usage_example": "Behavioural detection, data analytics and machine learning will allow us, with partners, to swiftly identify triggers and patterns. (procedural/instructive)",
+    "definition": "Machine learning is a subset of artificial intelligence involving computational algorithms and systems that can learn from data, identify patterns, and make decisions or predictions on large volumes of digital evidence."
+  },
+  {
+    "word_regex": "Examiner",
+    "usage_example": "Whilst an initial report may be relatively brief, the examiner should be in a position to produce a full technical report should one later be required. (procedural/instructive)",
+    "definition": "An examiner is a trained and competent professional responsible for conducting forensic examinations, analysing evidence, and producing findings and reports based on specialized knowledge and technical expertise."
+  },
+  {
+    "word_regex": "Examination",
+    "usage_example": "Taking digital devices for examination by agreement with the owner/user will only ever be applicable to victims and witnesses. (procedural/instructive)",
+    "definition": "Examination is the systematic and detailed analysis of items, devices, or materials to identify, document, extract, and interpret evidence for investigative or legal purposes."
+  },
+  {
+    "word_regex": "CCTV|Closed-circuit television",
+    "usage_example": "Transforming video from CCTV sources often requires spatial and temporal re-sampling, which leads to a loss of information that may be important in subsequent processing and interpretation. (legislative)",
+    "definition": "CCTV (Closed-circuit television) is a video surveillance system consisting of cameras, recording devices, and playback equipment that captures and stores visual recordings of specific locations or areas for security, monitoring, or evidential purposes."
+  },
+  {
+    "word_regex": "Chat",
+    "usage_example": "Where an incident is reported which involves the use of chat the person taking the report needs to ascertain what method of chat was being used, i.e. what is the name of the website hosting the chat and its full Internet address, or what program is being used. (procedural/instructive)",
+    "definition": "Chat refers to real-time text-based communication between users over the internet or telecommunications networks, enabling interactive conversations through various digital platforms and applications."
+  },
+  {
+    "word_regex": "Biometric data",
+    "usage_example": "The processing of workers' biometric data is only considered legitimate for attendance control and access control to the employer's facilities, and it must be ensured that only representations of biometric data are used and that the respective collection process does not allow for the reversibility of said data. (legislative)",
+    "definition": "Biometric data are personal data resulting from specific technical processing, relating to the physical, physiological, or behavioural characteristics of a person, which allow or confirm the unique identification of that individual, such as facial recognition data."
+  },
+  {
+    "word_regex": "Data protection",
+    "usage_example": "The controller ensures that the data protection officer is involved, appropriately and in a timely manner, in all issues related to the protection of personal data. (legislative)",
+    "definition": "Data protection refers to the legal framework, principles, and practices governing the lawful collection, processing, storage, retention, and disposal of personal data to safeguard individual privacy rights and ensure responsible handling of information."
+  },
+  {
+    "word_regex": "Identification system",
+    "usage_example": "Competency assessment shall include manual and/or computer-based comparisons and the use of any automated fingerprint identification system (AFIS). (procedural/instructive)",
+    "definition": "Identification system is an automated or computer-based system that compares, analyses, and matches biometric or other identifying characteristics to establishing identity or associations for investigative and evidentiary purposes."
+  },
+  {
+    "word_regex": "NTFS|New Technology File System",
+    "usage_example": "- know how to act in line with basic digital forensic procedures in NTFS and other file systems",
+    "definition": "NTFS (New Technology File System) is the primary file system used by Windows operating systems for organising, storing, and managing files and directories on devices."
+  },
+  {
+    "word_regex": "Network address",
+    "usage_example": "The obtaining of base station data refers to the obtaining of information on the network address and terminal end devices of persons who have logged in or who are logging on to a telecommunications system through a certain base station. (legislative)",
+    "definition": "A network address is an identifier for locating devices, users, and communications within network infrastructures."
+  },
+  {
+    "word_regex": "Code",
+    "usage_example": "If these materials are not available and deactivation is not possible due to an access code or malfunction of the device, remove the SIM card(s), if present. (procedural/instructive)",
+    "definition": "A code refers to a password or an identifier used to control access to systems, devices, data, or protected resources, such as an access code. A code also refers to a formal document issued by regulatory or authoritative bodies that sets out requirements, standards, and procedures for conducting forensic activities to ensures quality, reliability, and legal compliance, such as codes of practice."
+  },
+  {
+    "word_regex": "Decode|Decoding",
+    "usage_example": "The prosecutor shall not bring charges for a violation of the secrecy of communications, an aggravated violation of the secrecy of communications, interference with an information system, unlawful access to an information system or an offence involving a protection decoding system, unless the injured party reports the offence for prosecution or unless the perpetrator committed the offence while in the service of a public postal or telecommunications institution or unless a  very important public interest requires that charges be brought. (legislative)",
+    "definition": "Decoding is the process of converting encoded, encrypted, or protected information into readable or usable form by reversing the encoding or encryption mechanism."
+  },
+  {
+    "word_regex": "Storage devices",
+    "usage_example": "Pay close attention to small digital storage devices, such as external discs or USB memory sticks, as well as generic digital storage devices such as cameras. (procedural/instructive)",
+    "definition": "Storage devices are physical equipment or media used to record, retain, and retrieve digital data, ranging from internal computer components to external and removable media."
+  },
+  {
+    "word_regex": "Blockchain",
+    "usage_example": "Most, but not all, cryptocurrencies use blockchain technology. (procedural/instructive)",
+    "definition": "Blockchain is a system that records and shows every past transaction in a chronological, permanent, and publicly verifiable manner."
+  },
+  {
+    "word_regex": "Encryption",
+    "usage_example": "To date, the optional encryption on most computers and mobiles can be activated by the user. (procedural/instructive)",
+    "definition": "Encryption is a technique used by businesses, governments and individuals for encoding personal or commercially sensitive digital files using an encryption key or algorithm. In end-to-end encryption, only the sender and receiver can decrypt and receive digital information."
+  },
+  {
+    "word_regex": "After First Unlock|AFU",
+    "usage_example": "After that, I demonstrated for example how one can conclude whether the device is in the AFU or BFU state. (research data)",
+    "definition": "After First Unlock is a state where a device has been found actively running and unlocked."
+  },
+  {
+    "word_regex": "Full extraction",
+    "usage_example": "So, in this particular situation, it would be normal for them not to know exactly what they wanted, they would ask us for a full extraction and we would return a full extraction. (research data)",
+    "definition": "Full extraction is a process of full data recovery from a digital device (a bit-for-bit copy of the entire storage system) which often precedes a more in-depth forensic examination."
+  },
+  {
+    "word_regex": "Forensic tools",
+    "usage_example": "For this type of collection, specific forensic tools must be used, and it should preferably be carried out by personnel familiar with this type of device or with specific training. (procedural/instructive)",
+    "definition": "Forensic tools refer to commercial and non-commercial hardware or software used to extract, preserve or interpret (digital) forensic evidence for use in legal proceedings."
+  },
+  {
+    "word_regex": "Digital forensic",
+    "usage_example": "Analyte Substance to be identified or measured; in digital forensic science it may be taken to include data as the focus of the analysis. (legislative)",
+    "definition": "Digital forensic means referring to the scientific extraction, preservation or interpretation of digital evidence for use in legal proceedings."
+  },
+  {
+    "word_regex": "Faraday bag",
+    "usage_example": "Once we put the power bank in, we closed the faraday bag, it's not the best but better than turning the power off completely and then losing some other ability to access it. (research data)",
+    "definition": "A Faraday bag is a specialised container made from layers of metallic fabric in which a live device can be placed to block incoming and outgoing communications."
+  },
+  {
+    "word_regex": "Live forensics",
+    "usage_example": "And, it should be noted that in live forensics it is not always possible to know upfront which approach will yield the best results. (procedural/instructive)",
+    "definition": "Live forensics refers to the branch of digital forensic investigation which performs extraction, preservation and interpretation of digital evidence from a device which is actively running."
+  },
+  {
+    "word_regex": "SIM card",
+    "usage_example": "Mobile telephones and tablets can store evidential data directly to their internal memory, on the SIM card, to removable media cards, or to cloud storage services. (procedural/instructive)",
+    "definition": "A SIM card is a removable smart card type printed circuit used in mobile phone devices to identify, control and store data from cellular networks. It securely stores the International Mobile Subscriber Identity (IMSI) and authentication key used to identify and authenticate a subscriber on mobile telephony devices."
+  },
+  {
+    "word_regex": "Log files",
+    "usage_example": "I had to find my own way to locate the log files and indeed they were on the laptop. (Research data)",
+    "definition": "Log files are files that a system writes to record significant events. They include information such as when a user logs onto a system, the hardware used with a system (such as printers, removable storage devices), data about network connections, and other system activities. Log files can be used to assist in identifying offending IP addresses that were logged at the time of an attack, as well as for investigating various security incidents and system events."
+  },
+  {
+    "word_regex": "IMEI|International Mobile Equipment Identity",
+    "usage_example": "Where a mobile telephone has been recovered as either found property or is suspected as stolen, the IMEI number should be identified and recovered. (procedural/instructive)",
+    "definition": "An International Mobile Equipment Identity (IMEI) is a unique fifteen digit serial number which allows the investigator to identify the manufacturer and serial number of the model of a mobile phone."
+  },
+  {
+    "word_regex": "Personal data",
+    "usage_example": "Article 5 of the GDPR prescribes the principles relating to the general processing of personal data. (procedural/instructive)",
+    "definition": "Information relating to an identified or identifiable natural person (i.e. 'data subject). These include addresses, contacts, codes etc."
+  },
+  {
+    "word_regex": "Logs",
+    "usage_example": "There is usually an option for a user to save chat logs but more often than not the default setting is for logs not to be saved. (procedural/instructive)",
+    "definition": "Log files, or event logs, are files that a system writes to record significant events. These include information such as when a user logs onto the system, the hardware used with the system (such as printers or removable storage), and data about network connections."
+  },
+  {
+    "word_regex": "Digital forensic report",
+    "usage_example": "The reason for this meeting was to discuss the digital forensic report as the evidence contained within the report is crucial as it corroborates the intelligence received. (research data)",
+    "definition": "A digital forensic report is a formal document that presents the findings, methodologies, and conclusions from a digital forensic investigation. It details what digital evidence was collected, how it was analysed, and what relevant information was discovered from computers, mobile devices, networks, or other digital sources."
+  },
+  {
+    "word_regex": "Forensic investigation",
+    "usage_example": "Each police department has a forensic investigation centre subordinate to the commanding officer, which can operate at one or more locations. (procedural/instructive)",
+    "definition": "A forensic investigation is a systematic process of identifying, preserving, analysing, and documenting digital evidence to determine what happened during a security incident, crime, or other event of interest."
+  },
+  {
+    "word_regex": "Laptop",
+    "usage_example": "Be aware that some laptop computers may power on by opening the lid. (procedural/instructive)",
+    "definition": "A laptop is a portable personal computer with an integrated display, keyboard, and pointing device, capable of operating on battery power or AC connection. It is distinguished from desktop computers by its portability and integrated components, from tablets by its attached physical keyboard, and from smartphones by its larger form and full operating system designed for general-purpose computing tasks."
+  },
+  {
+    "word_regex": "Format",
+    "usage_example": "Video footage should be extracted in its native format in order to maintain image quality and be stored as a master copy to be available for any future forensic examination/analysis. (legislative)",
+    "definition": "A format refers to the specific structure, encoding, or organization of digital data that determines how information is stored and interpreted. Any media produced whereby original data has been converted to a different format during a forensic examination should be conspicuously marked or uniquely identifiable."
+  },
+  {
+    "word_regex": "Artificial intelligence|AI",
+    "usage_example": "Today I had a long discussion with a fellow digital evidence examiner about integrating artificial intelligence (AI) into digital evidence analysis processes. (research data)",
+    "definition": "Artificial intelligence (AI) refers to the use of machine learning algorithms and automated reasoning systems. They may be integrated in digital forensic analysis processes, such as automated image and text categorisation."
+  },
+  {
+    "word_regex": "Forensic examination",
+    "usage_example": "The packaging for samples or items shall preserve the integrity of the material for forensic examination and minimise the risk of loss, degradation or contamination. (legislative)",
+    "definition": "A forensic examination, within digital forensics, refers to the detailed, technical analysis phase of a forensic investigation where digital evidence is systematically inspected to extract relevant information for use in legal proceedings."
+  },
+  {
+    "word_regex": "Restart",
+    "usage_example": "In this case, when speaking about technical matters, I used idioms: \"the status of the device is good\", \"restart\". \"security code\", \"cracking\". (research data)",
+    "definition": "Restart refers to the process of shutting down and reinitializing a computer system\\'s operating system and hardware components. A restart is forensically significant because it clears volatile memory (RAM) that may contain encryption keys, running processes, network connections, and other ephemeral evidence. Right: N/A"
+  },
+  {
+    "word_regex": "Internet",
+    "usage_example": "Computers connected to the internet communicate with each other using the Internet Protocol (IP). (procedural/instructive)",
+    "definition": "The term internet is a contraction of the terms 'Interconnected Network' and refers to the set of global computer networks linked together using the TCP/IP protocol. In digital forensics, the internet is significant as both a source of evidence (connection records, browsing history, communications, cloud-stored data) and a medium through which crimes are committed or investigated.. Right: protocol"
+  },
+  {
+    "word_regex": "Upload",
+    "usage_example": "Every team would have to have one chief to upload information into the central system. (research data)",
+    "definition": "Upload refers to the process of transferring data, files, or audio-visual media (such as video, emergency calls, or recorded interviews) from a local device to a remote location such as a central system, cloud storage (such as iCloud), or digital asset/evidence management system. Right: files"
+  },
+  {
+    "word_regex": "ISO [International Organisation for Standardisation]",
+    "usage_example": "Subject to the provisions below, forensic units shall demonstrate compliance with the Code by having accreditation for the FSAs they undertake to an appropriate ISO standard, with the schedule of accreditation including the Code. (legislative)",
+    "definition": "The ISO (International Organisation for Standardisation) is the largest publisher of quality standards in the world. These standards are critical for regulating business practices and quality standards. ISO has published 23,037 standards and has members in 162 countries, and 788 technical bodies for standard development. Right: standard"
+  },
+  {
+    "word_regex": "SD card",
+    "usage_example": "The inquiry was regarding recovering data from an SD card that had been corrupted. (research data)",
+    "definition": "An SD card (or Secure Digital card) is a removable flash memory storage device commonly found in cameras, phones, tablets, and other portable devices that serves as a source of digital evidence. Right: N/A"
+  },
+  {
+    "word_regex": "Digital material",
+    "usage_example": "For example, it might be reasonable to examine digital material by using software research tools (legislative).",
+    "definition": "Digital material refers to any data, information, or content stored in electronic or digital form that may be relevant to a digital forensic investigation."
+  },
+  {
+    "word_regex": "SSD",
+    "usage_example": "Additional care must be taken when analysing data from systems (e.g. SSD) that may automatically duplicate data as part of storage and processing algorithms, which have no bearing on actual user activity. (procedural/instructive)",
+    "definition": "An SSD (or Solid State Drive) refers to a data storage device that uses flash memory to store data electronically, without moving mechanical parts, in contrast to traditional hard disk drives that store data on electromagnetic layers."
+  },
+  {
+    "word_regex": "USB",
+    "usage_example": "Procedures for management of removable storage media used by the forensic unit to transfer data (such as memory cards, USB drives, optical media) shall include controls related to issue and their use. (legislative)",
+    "definition": "A USB (or Universal Serial Bus) refers to a standardized interface for connecting external devices (such as thumb drives, memory sticks, external hard drives, digital cameras, memory cards, and CD/DVD writers) to peripheral devices, such as computers, laptops, mobile phones, and other digital devices for data transfer and storage."
+  },
+  {
+    "word_regex": "Instant messaging",
+    "usage_example": "Communication was done by phone, email and instant messaging (research data).",
+    "definition": "Instant messaging refers to real-time text-based digital communication conducted through messaging applications or secure communication systems. In digital forensics, instant messaging is significant as it generates logs, chat histories, and message content (including text, images, videos, and media files) that can be recovered from devices, social networks, forums, chat rooms, and communication systems as evidence of interactions between individuals during investigations."
+  },
+  {
+    "word_regex": "Digital",
+    "usage_example": "These values form a foundation on which our duties within digital forensics are carried out. (legislative)",
+    "definition": "Digital refers to electronic data, devices, technologies, and systems that store, process, or transmit information in binary format, as opposed to physical or analogue forms. In digital forensics, the term includes digital evidence found on storage media devices, digital forensic analysis and examinations, digital forensic laboratories and infrastructure, and the broader digital world of technologies, networks, and devices."
+  },
+  {
+    "word_regex": "Retrieve",
+    "usage_example": "Where records are distributed across different systems and/or locations, the forensic unit shall have a procedure to be able to retrieve and collate records required for reporting cases. (legislative)",
+    "definition": "Retrieve means the process of recovering, extracting, or accessing digital data or evidence from storage media, systems, or networks during a forensic investigation."
+  },
+  {
+    "word_regex": "Communications",
+    "usage_example": "All communications must be accurately recorded within the enquiry update sections of the crime report or SIO policy file. (procedural)",
+    "definition": "Communications are electronic exchanges of information between parties, including emails, messages, calls, and other forms of digital correspondence that may serve as evidence in digital forensic investigations."
+  },
+  {
+    "word_regex": "Media",
+    "usage_example": "You're going to find a phone number and even if you don't find the name, a social media profile will help you go further with the investigation. (research data)",
+    "definition": "Media primarily refers to devices or materials used for storing, recording, or transmitting digital information, including digital storage media (hard drives, CDs/DVDs, flash memory cards, floppy disks, optical discs, USB devices) and media files (images and videos)."
+  },
+  {
+    "word_regex": "Wireless network",
+    "usage_example": "Please note that some devices may be connected to a wireless network: (procedural/instructive)",
+    "definition": "A wireless network is a network infrastructure that enables devices to connect and communicate without physical cables, using wireless protocols such as Wi-Fi, Bluetooth, or infrared."
+  },
+  {
+    "word_regex": "File system",
+    "usage_example": "When extracting data from a file system viewer, it is important to know exactly how it will interpret the file system being viewed. (procedural/instructive)",
+    "definition": "A file system is a structure that relates to any physical and virtual volume (including databases and container files) that can be used to store user and system files. In digital forensics, the ability of a forensic tool to interpret available file systems is generally fundamental to the success of determining both the construction of all files contained within it."
+  },
+  {
+    "word_regex": "Read-only",
+    "usage_example": "However, only digital evidence held on the authorised read-only data carries made by the Intelligence Gathering Unit is admissible for the trial before court. (research data).",
+    "definition": "Read-only refers to a state or mode in which data can be viewed or copied but cannot be modified or deleted."
+  },
+  {
+    "word_regex": "Overwrite",
+    "usage_example": "There are also differences in what application performs the time writes (not all applications overwrite all time stamps). (research data)",
+    "definition": "Overwrite means the process of replacing existing data with new data on a storage medium and may destroy original evidence."
+  },
+  {
+    "word_regex": "Internet protocol",
+    "usage_example": "Computers connected to the internet communicate with each other using the Internet Protocol (IP). (procedural/instructive)",
+    "definition": "Internet protocol (or IP) refers to a communication protocol that uses data switching to transmit information over networks."
+  },
+  {
+    "word_regex": "Virtual machine",
+    "usage_example": "Usually, the hard disk of a virtual machine is contained in a single file, but a virtual machine can have multiple disks, just like the physical one. (research data).",
+    "definition": "A virtual machine is a software-based emulation of a computer system that operates within a host environment. A virtual machine is usually contained in a single file but can have multiple disks just like a physical one."
+  },
+  {
+    "word_regex": "Log in",
+    "usage_example": "I basically got a document, a step-by-step on how you can actually log in and tag things for evidence. (research data).",
+    "definition": "A log in is the authentication event when a user accesses a system or application, generating records that document user activity, access times, and account usage patterns relevant to digital forensic investigations."
+  },
+  {
+    "word_regex": "Storage media",
+    "usage_example": "Before packaging, check that the temperature of the computer, peripherals and digital storage media is not too high. (procedural/instructive)",
+    "definition": "Storage media are physical devices or materials used to store digital data, comprising both standalone storage devices, components, remotely stored electronic data (such as cloud storage) accessed via a submitted/seized device."
+  },
+  {
+    "word_regex": "Software application",
+    "usage_example": "Today, I spoke with another department within my agency in relation to the software application used to view downloads of digital evidence. (research data)",
+    "definition": "A software application is a computer program designed to perform specific tasks or functions. In digital forensics, software applications are significant as they serve as specialised tools used by departments and agencies for data communication, evidence viewing, system protection, and other investigative tasks."
+  },
+  {
+    "word_regex": "Files",
+    "usage_example": "Appropriate to the associated FSA, the procedure and policies should ensure that where key information is extracted from pictorial image files, the original images are retained and linked with the captured data, including relevant digital metadata (legislative)",
+    "definition": "Files refer to a structured set of personal data accessible according to specific criteria, centralised, decentralised or distributed functionally or geographically."
+  },
+  {
+    "word_regex": "Text messages",
+    "usage_example": "Victim hands over phone to officers to examine -- often for low-level offences and enables officers to note content of text messages and/or to enable screenshots to be emailed to Police thereby allowing victim to retain phone. (procedural/instructive)",
+    "definition": "Text messages are short electronic messages sent between mobile devices or applications, providing records of communications, timestamps, and contact information valuable in digital forensic investigations."
+  },
+  {
+    "word_regex": "Network",
+    "usage_example": "We must always consider the possibility of the existence of a computer network. (procedural/instructive)",
+    "definition": "A network is an interconnected system of computers and devices that communicate and share resources. It is often used as an abbreviation for Internet, with many still referring to Usenet and cyberspace as a whole as \"the network\"."
+  },
+  {
+    "word_regex": "Program",
+    "usage_example": "Whoever illegally reproduces, discloses or communicates to the public a computer program protected by law will be published with imprisonment up to 3 years or a fine. (legislative).",
+    "definition": "A program is a set of instructions executed by a computer to perform specific operations, such as instant messengers (such as Windows Live Messenger), email programs (such as Outlook, Windows Mail), or IRC programs."
+  },
+  {
+    "word_regex": "Digital forensic gateway",
+    "usage_example": "The Digital Forensic Gateway is the receiving facility for all examination request forms where triage and quality control functions are conducted. (procedural/instructive)",
+    "definition": "A digital forensic gateway is the receiving facility where staff or supervisors will authorise examination of digital devices and confirm that reasonable grounds, necessity and proportionality exist for examination of the item."
+  },
+  {
+    "word_regex": "User",
+    "usage_example": "Can each computer be associated with an individual user? (procedural/instructive)",
+    "definition": "A user refers to anyone who uses a computer, application or online service. A user's activities, account information, and access patterns are documented in system logs."
+  },
+  {
+    "word_regex": "Mobile phone|cell phone",
+    "usage_example": "While officers may have a legislative right to seize and examine a mobile phone, it does not automatically give you the right to access the owner’s data (procedural/instructive)",
+    "definition": "A mobile phone is a portable telecommunications device that stores communications, location data, applications, and user information, serving as a critical source of evidence in digital forensic investigations."
+  },
+  {
+    "word_regex": "ISP [Internet Service Provider]",
+    "usage_example": "This will allow the ISP to check their records and identify which subscriber was assigned that specific IP address at that given time. (procedural/instructive)",
+    "definition": "An ISP (Internet Service Provider or Internet Access Provider) is a company that provides internet connectivity to users and keeps logs of the times, dates and identity of the user allocated any IP address."
+  },
+  {
+    "word_regex": "Social network",
+    "usage_example": "Social Network Sites – Establish the use of Social Networking, Online Communities, Online Storage and other Cloud Services by witnesses and suspects. (procedural/instructive)",
+    "definition": "A social network is an online platform (such as Instagram or Facebook) that enables users to create profiles, share content, and interact with others, generating extensive digital footprints including posts, messages, and connection data valuable for digital forensic investigations."
+  },
+  {
+    "word_regex": "Remote access",
+    "usage_example": "The problem here is the difference between a home server with a local admin and a large external server room with remote access. (research data)",
+    "definition": "Remote access is the ability to connect to and control computer systems, namely devices with wireless access capability, from a remote location, via the internal network or external network access (i.e. the internet)."
+  },
+  {
+    "word_regex": "Forensic acquisition",
+    "usage_example": "It is therefore, extremely important that laboratories carefully consider the quality of the Power Supply Units (PSUs) they use both for their forensic machines and any forensic acquisition units. (procedural/instructive)",
+    "definition": "Forensic acquisition is the systematic process of creating a forensically sound copy or image of digital evidence that preserves the original data and maintains its integrity for analysis and legal proceedings."
+  },
+  {
+    "word_regex": "Virus",
+    "usage_example": "If that was going to leave a virus or something on his computer that was undesirable. (research data)",
+    "definition": "A virus is malicious software that self-replicates and infect computer systems by attaching itself to legitimate files or programs, spreading from one computer to another and potentially damaging, modifying, or extracting data."
+  },
+  {
+    "word_regex": "Archived",
+    "usage_example": "The original report is archived in the unit under whose number the report was recorded. (procedural/instructive)",
+    "definition": "Archived refers to the process whereby data or files are securely stored in a compressed or preserved state in conditions to prevent damage or minimise deterioration and indexed so as to facilitate orderly storage and retrieval."
+  },
+  {
+    "word_regex": "Screenshot",
+    "usage_example": "In the absence of this information being available, preservation of one or more screenshot images may provide a basis for identification of the version used. (legislative).",
+    "definition": "A screenshot is a captured image of a device's display at a specific moment in time, used to document digital evidence, preserve volatile information, or demonstrate the state of a system during a digital forensic investigation."
+  },
+  {
+    "word_regex": "Forensic service",
+    "usage_example": "Where the services of commercial forensic service providers are required by law enforcement, it is important to select external consulting witnesses/forensic practitioners carefully. (procedural/instructive)",
+    "definition": "A forensic service refers to professional offerings provided by forensic laboratories or specialists that include evidence examination, analysis, reporting, and expert testimony to support legal and investigative processes (such as the Scottish Police Authority)."
+  },
+  {
+    "word_regex": "Tool",
+    "usage_example": "Any proposed change shall be risk assessed at the method level as even a patch in a software tool may adversely affect the operation of a second tool or process using its output e.g. giving a plausible but incorrect time stamp. (legislative)",
+    "definition": "A tool is software or hardware equipment used by forensic examiners to acquire, analyse, process, or preserve digital evidence, ranging from specialized forensic programs (such as MSAB XRY) to network traffic analysis tools and triage software."
+  },
+  {
+    "word_regex": "Technical methods",
+    "usage_example": "investigating the place where crimes were committed, carrying out contemplation and exploitation of traces and exhibits, using modern scientific technology of equipment and the application of scientific and technical methods (legislative)",
+    "definition": "Technical methods are systematic procedures and techniques employed by forensic practitioners to examine digital evidence, encompassing acquisition, preservation, analysis, and documentation processes."
+  },
+  {
+    "word_regex": "Emails",
+    "usage_example": "The forensic unit shall have procedures for filtering or blocking phishing e-mails or messages before they reach users. (legislative)",
+    "definition": "Emails are electronic mail messages that contain communication content, attachments, and metadata that can establish timelines, relationships, and intent in digital forensic investigations."
+  },
+  {
+    "word_regex": "Forensic methods",
+    "usage_example": "A person’s movement can be restricted in order to prevent the person from obtaining information that shall be kept secret by virtue of the law, such as tactical, technical and forensic methods of the police, or in order to secure isolation of the scene or target of investigation (procedural/instructive)",
+    "definition": "Forensic methods are established scientific procedures and methodologies used to collect, preserve, analyse, and present digital evidence for use in legal proceedings."
+  },
+  {
+    "word_regex": "Forensic techniques",
+    "usage_example": "Users’ data and activity records are less likely to be held locally on devices, thus a device may not yield evidence, even if forensic techniques are used. (procedural/instructive)",
+    "definition": "Forensic techniques are specific approaches and practices employed within forensic investigations to extract, recover, analyse and interpret digital evidence for use in legal proceedings."
+  },
+  {
+    "word_regex": "Connectivity",
+    "usage_example": "The pace of digital technological change and digital connectivity continues to accelerate and grow, now reaching into almost every part of daily life. (procedural/instructive).",
+    "definition": "Connectivity refers to the state or capability of devices and systems to establish network connections, providing forensic evidence through connection logs, network traffic, and communication patterns. Enhanced connectivity, while offering opportunities, also presents risks and new vulnerabilities for individuals, communities and organisations."
+  },
+  {
+    "word_regex": "Network forensics",
+    "usage_example": "Network forensics and volatile data collection. (procedural/instructive)",
+    "definition": "Network forensics is a specialised branch of digital forensics focused on monitoring, capturing, and analysing network traffic and events to investigate security incidents, intrusions, and cybercrimes."
+  },
+  {
+    "word_regex": "Cybercrime investigation",
+    "usage_example": "A new competency model will be required to enable the change in core activities to deliver the skills shifts needed to support cybercrime investigation in both specialist support areas and local policing. (procedural/instructive)",
+    "definition": "A cybercrime investigation refers to the process of examining, analysing, and prosecuting criminal offenses committed using computers, networks, digital devices, and the Internet, encompassing crimes such as hacking, fraud, data theft, malware distribution, online harassment, and other technology-facilitated offenses."
+  },
+  {
+    "word_regex": "Website",
+    "usage_example": "If there is a requirement to identify who has committed some activity on a website, for example where a fraud has been committed by purchasing goods from a website or by posting a message on a website, the likelihood is that the suspect may be traceable from logs on the site. (procedural/instructive)",
+    "definition": "A website is a collection of web pages accessible via the internet, which may contain relevant evidence including content, user interactions, server logs, and metadata important to investigations."
+  },
+  {
+    "word_regex": "Router",
+    "usage_example": "The modem may connect directly to a computer, or it may connect to a router. (procedural/instructive)",
+    "definition": "A router is a networking device that forwards information between computer networks. They are one of the bases for the functioning of the Internet network."
+  },
+  {
+    "word_regex": "Server",
+    "usage_example": "The laboratory should consider the location of the remote server, and be fully aware of the legal cross border constraints that may be a factor in accessing any data. (procedural/instructive)",
+    "definition": "A server designates the central computer of a network and its corresponding software (among other network operating systems)."
+  },
+  {
+    "word_regex": "Storage space",
+    "usage_example": "If I knew what they wanted to query I could narrow not just the device down but the artefacts as well, meaning I’m not wasting valuable storage space or processing time. (research data)",
+    "definition": "Storage space refers to the capacity available on storage media for saving digital data, relevant to forensics for understanding data volume, available space for recovery, and evidence of data deletion or manipulation."
+  },
+  {
+    "word_regex": "Multimedia",
+    "usage_example": "Specialist video multimedia, recovery, processing and analysis (legislative)",
+    "definition": "Multimedia is content that combines multiple forms of media including text, images, audio and video."
+  },
+  {
+    "word_regex": "Removable",
+    "usage_example": "If a device does not have a removable battery, then its SIM card should be removed instead. (procedural/instructive)",
+    "definition": "Removable refers to storage devices or media that can be easily disconnected from a computer system, such as USB drives and external hard drives, which are common sources of evidence in investigations."
+  }
+]

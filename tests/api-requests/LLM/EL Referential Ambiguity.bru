@@ -1,0 +1,53 @@
+meta {
+  name: EL Referential Ambiguity
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_referential_ambiguity
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Κοιτάζω έξω από το παράθυρο. Ο φίλος μου είναι κακός άνθρωπος. Αυτοί οι άνθρωποι με τους οποίους κάνει παρέα αποτελούν κακή επιρροή. Απλώς τον τραβούν προς τα κάτω. Η μαμά του είναι πολύ καλή. Όλοι ξέρουν πώς είναι. Δεν μπορείς να εμπιστευτείς τέτοιους ανθρώπους. Άνθρωποι σαν κι αυτούς απλώς δεν ακολουθούν το πρωτόκολλο."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["Αυτοί οι άνθρωποι με τους οποίους κάνει παρέα αποτελούν κακή επιρροή", "τέτοιους ανθρώπους", "Άνθρωποι σαν κι αυτούς"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

@@ -1,0 +1,53 @@
+meta {
+  name: FI Referential Ambiguity
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_referential_ambiguity
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Katson ulos ikkunasta. Ystäväni on huono ihminen. Ne ihmiset joiden kanssa hän viettää aikaa ovat huono vaikutus. He vetävät häntä vain alas. Hänen äitinsä on todella mukava. Kaikki tietävät millaisia he ovat. Et voi luottaa sellaisiin ihmisiin. Sellaiset ihmiset eivät vain noudata protokollaa."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["Ne ihmiset", "He", "sellaisiin ihmisiin", "Sellaiset ihmiset"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

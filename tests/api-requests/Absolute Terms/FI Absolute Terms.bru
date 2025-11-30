@@ -1,0 +1,48 @@
+meta {
+  name: FI Absolute Terms
+  type: http
+  seq: 30
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "Syytetty on selvästikin syyllinen todisteiden perusteella. Todistaja on ilmeisesti erehtyнyt ajoituksesta. Vastaaja tiesi ehdottomasti laittomasta toiminnasta. Todisteet osoittavat kiistatta että syytetty oli paikalla.",
+    "language": "fi"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = [
+    "selvästikin",
+    "ilmeisesti",
+    "ehdottomasti",
+    "kiistatta",
+    "laittomasta"
+  ];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log(res.body);
+}

@@ -1,0 +1,701 @@
+{
+  "euphemisms": [
+    [
+      "henkilöstö sopeuttaminen",
+      "henkilöstö sopeuttaa"
+    ],
+    [
+      "henkilöstö sopeuttaminen",
+      "henkilöstö sopeuttaa"
+    ],
+    [
+      "sopeuttaa",
+      "sopeuttaminen"
+    ],
+    [
+      "sopeuttaa",
+      "sopeuttaminen"
+    ],
+    [
+      "organisaatio tehostaa"
+    ],
+    [
+      "rakenteellinen uudistus"
+    ],
+    [
+      "rakenteellinen uudistus"
+    ],
+    [
+      "henkilöstö"
+    ],
+    [
+      "henkilöstö"
+    ],
+    [
+      "toiminta tehostaa"
+    ],
+    [
+      "tuotanto rationalisointi"
+    ],
+    [
+      "kustannus sopeuttaa",
+      "kustannus sopeuttaminen"
+    ],
+    [
+      "sairaalloinen tilata",
+      "sairaalloinen tila",
+      "sairaalloinen tilanne"
+    ],
+    [
+      "sairaalloinen tila",
+      "sairaalloinen tilanne"
+    ],
+    [
+      "epäonnistunut operaatio",
+      "epäonnistua operaatio"
+    ],
+    [
+      "epäonnistunut operaatio",
+      "epäonnistua operaatio"
+    ],
+    [
+      "ikääntyä henkilö",
+      "ikääntynyt henkilö"
+    ],
+    [
+      "ikääntyä henkilö",
+      "ikääntynyt henkilö"
+    ],
+    [
+      "vanhus"
+    ],
+    [
+      "vanhus"
+    ],
+    [
+      "seniori"
+    ],
+    [
+      "senior",
+      "seniori"
+    ],
+    [
+      "kokenut työ",
+      "kokea työntekijä",
+      "kokenut työntekijä",
+      "kokea työ"
+    ],
+    [
+      "kokenut työ",
+      "kokea työntekijä",
+      "kokenut työntekijä",
+      "kokea työ"
+    ],
+    [
+      "poisnukkunut"
+    ],
+    [
+      "poisnukkuu"
+    ],
+    [
+      "poisnukkua"
+    ],
+    [
+      "nukkua pois"
+    ],
+    [
+      "lähteä keskuudesta"
+    ],
+    [
+      "lähteä keskuudesta"
+    ],
+    [
+      "lähteä keskuudesta"
+    ],
+    [
+      "siirtyä ajastaa ikuisuus",
+      "siirtyä aika ikuisuus"
+    ],
+    [
+      "siirtyä ajastaa ikuisuus",
+      "siirtyä aika ikuisuus"
+    ],
+    [
+      "siirtyä ajastaa ikuisuus",
+      "siirtyä aika ikuisuus"
+    ],
+    [
+      "kutsuttu korkeampaan palvelus",
+      "kutsuttu korkeampaan palvelu",
+      "kutsua korkeampaan palvelu",
+      "kutsua korkeampaan palvelus"
+    ],
+    [
+      "kutsu korkeampaan palvelus",
+      "kutsua korkeampaan palvelu",
+      "kutsua korkeampaan palvelus",
+      "kutsu korkeampaan palvelu"
+    ],
+    [
+      "kutsu korkeampaan palvelus",
+      "kutsua korkeampaan palvelu",
+      "kutsua korkeampaan palvelus",
+      "kutsu korkeampaan palvelu"
+    ],
+    [
+      "irtisanoa",
+      "irtisanottu"
+    ],
+    [
+      "irtisanoa"
+    ],
+    [
+      "irtisanoa"
+    ],
+    [
+      "irtisanominen",
+      "irtisanoa"
+    ],
+    [
+      "työsuhde päättäminen",
+      "työsuhde päättää",
+      "työ päättäminen",
+      "työ päättää"
+    ],
+    [
+      "työsuhde päättäminen",
+      "työsuhde päättää",
+      "työ päättäminen",
+      "työ päättää"
+    ],
+    [
+      "lomauttaa",
+      "lomautettu"
+    ],
+    [
+      "lomautus"
+    ],
+    [
+      "lomautus"
+    ],
+    [
+      "lomauttaa"
+    ],
+    [
+      "määräaikainen lomautus"
+    ],
+    [
+      "määräaikainen lomautus"
+    ],
+    [
+      "työ purkaa",
+      "työ purkaminen",
+      "työsuhde purkaa",
+      "työsuhde purkaminen"
+    ],
+    [
+      "työ purkaa",
+      "työ purkaminen",
+      "työsuhde purkaa",
+      "työsuhde purkaminen"
+    ],
+    [
+      "henkilöstö"
+    ],
+    [
+      "henkilöstö"
+    ],
+    [
+      "työpaikka menetys",
+      "työ menetys"
+    ],
+    [
+      "työpaikka menetys",
+      "työ menetys"
+    ],
+    [
+      "uudelleenjärjestely",
+      "uudelleen-"
+    ],
+    [
+      "uudelleenjärjestely",
+      "uudelleen-"
+    ],
+    [
+      "organisaatio uudistaminen",
+      "organisaatio uudistaa"
+    ],
+    [
+      "toiminta keskittää",
+      "toiminta keskittäminen"
+    ],
+    [
+      "toiminto yhdistää",
+      "toiminta yhdistää",
+      "toiminto yhdistäminen",
+      "toiminta yhdistäminen"
+    ],
+    [
+      "tuottavuus parantaa",
+      "tuottavuus parantaminen",
+      "tuottavuus par"
+    ],
+    [
+      "kilpailu",
+      "kilpailukyky"
+    ],
+    [
+      "kilpailu",
+      "kilpailukyky"
+    ],
+    [
+      "kannattavuus parantaminen",
+      "kannattavuus parantaa",
+      "kannattavuus par"
+    ],
+    [
+      "taloudellinen sopeutus"
+    ],
+    [
+      "taloudellinen sopeutus"
+    ],
+    [
+      "budjetti"
+    ],
+    [
+      "kulu karsiminen",
+      "kulu karsia"
+    ],
+    [
+      "säästö",
+      "säästötoimi"
+    ],
+    [
+      "säästö",
+      "säästötoimi"
+    ],
+    [
+      "tehostaa"
+    ],
+    [
+      "tehostaa"
+    ],
+    [
+      "kapasiteetti sopeuttaminen",
+      "kapasiteetti sopeuttaa"
+    ],
+    [
+      "tuotanto sopeuttaminen",
+      "tuotanto sopeuttaa"
+    ],
+    [
+      "työvoima vähentäminen",
+      "työ vähentäminen",
+      "työvoima vähentää",
+      "työ vähentää"
+    ],
+    [
+      "henkilö vähentäminen",
+      "henkilö vähentää",
+      "henkilökunta vähentäminen",
+      "henkilökunta vähentää"
+    ],
+    [
+      "organisaatio keventää"
+    ],
+    [
+      "toiminta supistaa",
+      "toiminta supistaminen",
+      "toiminto supistaa",
+      "toiminto supistaminen"
+    ],
+    [
+      "palvelu uudelleenjärjestely",
+      "palvelu uudelleen-"
+    ],
+    [
+      "resurssit uudelleenkohdentaminen",
+      "resurssi uudelleenkohdentaminen"
+    ],
+    [
+      "toiminta muutos"
+    ],
+    [
+      "toiminta muutos"
+    ],
+    [
+      "strateginen uudelleen-"
+    ],
+    [
+      "liiketoiminta kehittää",
+      "liiketoiminta kehittäminen",
+      "liike kehittäminen",
+      "liike kehittää"
+    ],
+    [
+      "prosessi virtaviivaistaa"
+    ],
+    [
+      "työ muutos",
+      "työnkuva muutos"
+    ],
+    [
+      "työ muutos",
+      "työnkuva muutos"
+    ],
+    [
+      "vastuualue uudelleenjärjestely",
+      "vastuualue uudelleen-",
+      "vastuu uudelleenjärjestely",
+      "vastuu uudelleen-"
+    ],
+    [
+      "työtehtävä uudelleenjakaa",
+      "työ uudelleenjakaminen",
+      "työ uudelleenjakaa",
+      "työtehtävä uudelleenjakaminen",
+      "työ uudelleen-",
+      "työtehtävä uudelleen-"
+    ],
+    [
+      "toimenkuva päivittäminen",
+      "toimi päivittäminen",
+      "toimenkuva päivittää",
+      "toimi päivittää"
+    ],
+    [
+      "organisaatio kehittäminen",
+      "organisaatio kehittää"
+    ],
+    [
+      "muutos"
+    ],
+    [
+      "henkilöstö"
+    ],
+    [
+      "osata",
+      "osaaminen"
+    ],
+    [
+      "kompetenssi kehittää",
+      "kompetenssi kehittäminen"
+    ],
+    [
+      "urakehitys",
+      "ura"
+    ],
+    [
+      "ammatillinen kasvu"
+    ],
+    [
+      "työelämä siirtyä",
+      "työ siirtymä",
+      "työ siirtyä",
+      "työelämä siirtymä"
+    ],
+    [
+      "työelämä siirtyä",
+      "työ siirtymä",
+      "työ siirtyä",
+      "työelämä siirtymä"
+    ],
+    [
+      "ura",
+      "urasuunnittelu"
+    ],
+    [
+      "ammatillinen uudelleensuuntautuminen",
+      "ammatillinen uudelleen-"
+    ],
+    [
+      "työ joustavuus",
+      "työmarkkinat joustavuus"
+    ],
+    [
+      "työllistettävyys parantaa",
+      "työllistettävyys parantaminen",
+      "työllistettävyys par"
+    ],
+    [
+      "aktiivinen työ",
+      "aktiivinen työnhaku"
+    ],
+    [
+      "työvoima liikkuvuus",
+      "työ liikkuvuus"
+    ],
+    [
+      "ammatillinen liikkuvuus"
+    ],
+    [
+      "sisäinen liikkuvuus"
+    ],
+    [
+      "organisaatio sisäinen siirtymä",
+      "organisaatio sisäinen siirtyä"
+    ],
+    [
+      "tehtävä toteuttaa",
+      "tehtävä toteuttaminen"
+    ],
+    [
+      "osaaminen hyödyntää",
+      "osata hyödyntäminen",
+      "osata hyödyntää",
+      "osaaminen hyödyntäminen"
+    ],
+    [
+      "henkilöstö optimointi"
+    ],
+    [
+      "työ joustavuus",
+      "työaika joustavuus"
+    ],
+    [
+      "työ kehittäminen",
+      "työ kehittää",
+      "työmenetelmä kehittää",
+      "työmenetelmä kehittäminen"
+    ],
+    [
+      "prosessi automatisointi"
+    ],
+    [
+      "digitalisaation hyödyntää",
+      "digitalisaation hyödyntäminen"
+    ],
+    [
+      "teknologinen kehitys"
+    ],
+    [
+      "innovaatio"
+    ],
+    [
+      "tutkimus - ja kehitys",
+      "tutkimus - ja kehitystyö"
+    ],
+    [
+      "laatu kehittäminen",
+      "laatu kehittää"
+    ],
+    [
+      "asiakaspalvelu par",
+      "asiakas parantaminen",
+      "asiakaspalvelu parantaminen",
+      "asiakaspalvelu parantaa",
+      "asiakas par",
+      "asiakas parantaa"
+    ],
+    [
+      "asiakas kehittää",
+      "asiakas kehittäminen"
+    ],
+    [
+      "palvelu laatu nostaa",
+      "palvelu laatu nostaminen"
+    ],
+    [
+      "toiminta parantaminen",
+      "toiminta parantaa",
+      "toiminta par"
+    ],
+    [
+      "riskienhallinta kehittäminen",
+      "riski kehittää",
+      "riskienhallinta kehittää",
+      "riski kehittäminen"
+    ],
+    [
+      "turvallisuus parantaa",
+      "turvallisuus par",
+      "turvallisuus parantaminen"
+    ],
+    [
+      "ympäristö kehittää",
+      "ympäristö kehittäminen"
+    ],
+    [
+      "kestävä kehitys edistää",
+      "kestää kehitys edistäminen",
+      "kestävä kehitys edistäminen",
+      "kestää kehitys edistää"
+    ],
+    [
+      "yhteiskunta toteuttaminen",
+      "yhteis- toteuttaa",
+      "yhteis toteuttaa",
+      "yhteis- toteuttaminen",
+      "yhteiskunta toteuttaa",
+      "yhteis toteuttaminen"
+    ],
+    [
+      "sidosryhmä kehittää",
+      "sidos kehittäminen",
+      "sidosryhmä kehittäminen",
+      "sidos kehittää"
+    ],
+    [
+      "verkostoituminen edistää",
+      "verkostoitua edistää",
+      "verkostoituminen edistäminen",
+      "verkostoitua edistäminen"
+    ],
+    [
+      "kumppanuus syventää"
+    ],
+    [
+      "strateginen allianssi rakentaminen",
+      "strateginen allianssi rakentaa"
+    ],
+    [
+      "liiketoiminta uudistaminen",
+      "liike uudistaa",
+      "liike uudistaminen",
+      "liiketoiminta uudistaa"
+    ],
+    [
+      "arvo kehittää",
+      "arvo kehittäminen"
+    ],
+    [
+      "kannattavuus parantaminen",
+      "kannattavuus parantaa",
+      "kannattavuus par"
+    ],
+    [
+      "tuloksellisuus nostaa",
+      "tuloksellisuus nostaminen"
+    ],
+    [
+      "suorituskyky parantaa",
+      "suorituskyky par",
+      "suoritus parantaminen",
+      "suoritus parantaa",
+      "suorituskyky parantaminen",
+      "suoritus par"
+    ],
+    [
+      "tehokkuus lisätä",
+      "tehokkuus lisääminen"
+    ],
+    [
+      "vaikuttavuus parantaa",
+      "vaikuttavuus par",
+      "vaikuttavuus parantaminen"
+    ],
+    [
+      "laatu varmistaminen",
+      "laatu varmistaa"
+    ],
+    [
+      "jatkuva parantaa",
+      "jatkua parantaminen",
+      "jatkuva par",
+      "jatkuva parantaminen",
+      "jatkua par",
+      "jatkua parantaa"
+    ],
+    [
+      "kehittää",
+      "kehittäminen"
+    ],
+    [
+      "innovatiivisuus edistäminen",
+      "innovatiivisuus edistää"
+    ],
+    [
+      "luovuus hyödyntää",
+      "luovuus hyödyntäminen"
+    ],
+    [
+      "osata jakaminen",
+      "osaaminen jakaminen",
+      "osata jakaa",
+      "osaaminen jakaa"
+    ],
+    [
+      "tieto kehittäminen",
+      "tieto kehittää"
+    ],
+    [
+      "viestintä tehostaa"
+    ],
+    [
+      "vuorovaikutus parantaa",
+      "vuoro parantaa",
+      "vuorovaikutus parantaminen",
+      "vuorovaikutus par",
+      "vuoro parantaminen",
+      "vuoro par"
+    ],
+    [
+      "työyhteisö kehittää",
+      "työyhteisö kehittäminen",
+      "työ kehittäminen",
+      "työ kehittää"
+    ],
+    [
+      "tiimi edistäminen",
+      "tiimityö edistää",
+      "tiimi edistää",
+      "tiimityö edistäminen"
+    ],
+    [
+      "johtajuus kehittää",
+      "johtajuus kehittäminen"
+    ],
+    [
+      "esimies parantaa",
+      "esi par",
+      "esi parantaminen",
+      "esi- parantaa",
+      "esi parantaa",
+      "esimies parantaminen",
+      "esi- parantaminen",
+      "esi- par",
+      "esimies par"
+    ],
+    [
+      "henkilöstö hyvinvointi edistää",
+      "henkilöstö hyvinvointi edistäminen"
+    ],
+    [
+      "työ ja perhe yhteensovittaa",
+      "työ ja perhe yhteensovittaminen",
+      "työ ja perhe yhde"
+    ],
+    [
+      "työ parantaminen",
+      "työ par",
+      "työ parantaa"
+    ],
+    [
+      "jaksaminen tukeminen",
+      "jaksaminen tukea",
+      "jaksaa tukea",
+      "jaksaa tukeminen"
+    ],
+    [
+      "motivaatio ylläpitää"
+    ],
+    [
+      "sitoutuminen vahvistaa",
+      "sitoutua vahvistaminen",
+      "sitoutuminen vahvistaminen",
+      "sitoutua vahvistaa"
+    ],
+    [
+      "työ par",
+      "työviihtyvyys par",
+      "työviihtyvyys parantaa",
+      "työ parantaminen",
+      "työ parantaa",
+      "työviihtyvyys parantaminen"
+    ],
+    [
+      "työ kehittäminen",
+      "työ kehittää"
+    ]
+  ]
+}

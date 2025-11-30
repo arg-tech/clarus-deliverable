@@ -1,0 +1,53 @@
+meta {
+  name: CS Double Entendres
+  type: http
+  seq: 16
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_double_entendres
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Proces dosáhl kritického stadia a napětí v soudní síni bylo téměř nesnesitelné. Každý detail, každý pohled a každé slovo se zdály nést obrovskou váhu. Podezřelého alibi zemřelo při příjezdu, když bylo předloženo vyšetřovatelům. Porotci se nepohodlně pohnuli, když si uvědomili, jak málo podpory příběh skutečně má, a šeptání se rozšířilo po síni. Svědek vypověděl, že podezřelý vypadal vinný jako hřích. Prohlášení se ozvalo dramatickou silou, nechávajíc obranu zápasit s jeho efektem. Podezřelého chování na místě bylo úplně přehnané. Novináři zuřivě škrábali do svých poznámkových bloků, poznamenávajíce, jak takové akce pravděpodobně ovlivní veřejné mínění ještě před verdiktem. Důkazy ukazují, že podezřelý střílel skrz příběh oběti. Toto odhalení dopadlo jako kladivový úder, prořezávajíc obranou pečlivě sestavené argumenty. Obhájce se pokusil zmasakrovat důvěryhodnost svědka. Procházel soudní síní, zvyšoval hlas, často namítal a pokoušel se vrhat stíny pochybností všude, kde mohl, ačkoli porota vypadala stále méně přesvědčeně."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["zemřelo při příjezdu", "vinný jako hřích", "přehnané", "střílel skrz", "zmasakrovat"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

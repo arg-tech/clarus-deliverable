@@ -1,0 +1,53 @@
+meta {
+  name: EN Double Entendres
+  type: http
+  seq: 13
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_double_entendres
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "The trial had reached a critical stage, and the tension inside the courtroom was almost unbearable. Every detail, every glance, and every word seemed to carry enormous weight. The suspect's alibi was dead on arrival when presented to investigators. The jurors shifted uncomfortably as they realized how little support the story actually had, and whispers rippled through the gallery. The witness testified that the suspect looked guilty as sin. The statement echoed with dramatic force, leaving the defense scrambling to counter its effect. The suspect's behavior at the scene was completely over the top. Reporters scribbled furiously in their notepads, noting how such actions would likely sway public opinion even before the verdict was reached. The evidence shows the suspect shot through the victim's story. This revelation landed like a hammer blow, cutting through the defense's carefully constructed arguments. The defense attorney tried to butcher the witness's credibility. He paced the courtroom, raising his voice, objecting frequently, and attempting to cast shadows of doubt wherever possible, though the jury seemed increasingly unconvinced."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["dead on arrival", "guilty as sin", "over the top", "shot through", "butcher"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

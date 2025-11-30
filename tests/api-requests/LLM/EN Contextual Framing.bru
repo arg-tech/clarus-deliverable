@@ -1,0 +1,61 @@
+meta {
+  name: EN Contextual Framing
+  type: http
+  seq: 17
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_contextual_framing
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Given the suspect's history of violence, the confrontation was inevitable. After multiple robberies in the area, it's clear this neighborhood is becoming dangerous. In light of his drug addiction, the defendant's testimony cannot be trusted. With such a deprived upbringing, the defendant never had a chance to become law-abiding. Considering the economic downturn, many people are struggling to make ends meet. After reviewing the defendant's previous offenses, this crime fits his established pattern. From the domestic violence history, we can see this relationship was toxic from the start. Looking at the suspect's anti-social media posts, his violent actions were predictable. As an unemployed high school dropout, the suspect fits the profile for this crime. In a neighborhood known for gang activity, witnesses are understandably reluctant to speak. Given the suspect's immigrant status, cultural misunderstandings likely led to this violation. The weather was sunny that day. The defendant arrived at the courthouse on time. The judge reviewed the evidence carefully."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedSentences = [
+    "Given the suspect's history of violence, the confrontation was inevitable.",
+    "After multiple robberies in the area, it's clear this neighborhood is becoming dangerous.",
+    "In light of his drug addiction, the defendant's testimony cannot be trusted.",
+    "With such a deprived upbringing, the defendant never had a chance to become law-abiding.",
+    "Considering the economic downturn, many people are struggling to make ends meet.",
+    "After reviewing the defendant's previous offenses, this crime fits his established pattern.",
+    "From the domestic violence history, we can see this relationship was toxic from the start.",
+    "Looking at the suspect's anti-social media posts, his violent actions were predictable.",
+    "As an unemployed high school dropout, the suspect fits the profile for this crime.",
+    "In a neighborhood known for gang activity, witnesses are understandably reluctant to speak.",
+    "Given the suspect's immigrant status, cultural misunderstandings likely led to this violation."
+  ];
+  
+  expectedSentences.forEach(sentence => {
+    test(`Sentence '${sentence}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === sentence);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected sentences should be returned", function () {
+    const actualSentences = res.body.map(item => item.detected_phrase);
+    const unexpectedSentences = actualSentences.filter(s => !expectedSentences.includes(s));
+    console.log("Unexpected sentences: ", unexpectedSentences);
+    expect(unexpectedSentences).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}

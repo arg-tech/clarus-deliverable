@@ -1,0 +1,40 @@
+meta {
+  name: FI Oversimplified Group Labels
+  type: http
+  seq: 21
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "Suurten ikäluokkien ja millenniaalien kanssa työskenteleminen on vaikeaa. Lumihiutaleita ja suvakkeja vastaan taistellaan. Helsinkiläisten akateemikoiden mielipiteet ovat erilaisia kuin duunarien.",
+    "language": "fi"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["suurten ikäluokkien", "lumihiutaleita", "helsinkiläisten", "akateemikoiden", "duunarien", "suurten", "kuin"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });  
+}

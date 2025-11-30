@@ -1,0 +1,53 @@
+meta {
+  name: PT Double Entendres
+  type: http
+  seq: 15
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_double_entendres
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "O julgamento havia chegado a um estágio crítico, e a tensão dentro da sala de audiência era quase insuportável. Cada detalhe, cada olhar e cada palavra pareciam carregar um peso enorme. O álibi do suspeito morreu na chegada quando apresentado aos investigadores. Os jurados se moveram desconfortavelmente enquanto percebiam o quão pouco apoio a história realmente tinha, e sussurros se espalharam pela galeria. A testemunha testemunhou que o suspeito parecia culpado como o pecado. A declaração ecoou com força dramática, deixando a defesa lutando para contrabalançar seu efeito. O comportamento do suspeito no local foi completamente exagerado. Os repórteres rabiscavam furiosamente em seus blocos de notas, notando como tais ações provavelmente influenciariam a opinião pública mesmo antes do veredicto. As evidências mostram que o suspeito atirou através da história da vítima. Esta revelação caiu como um golpe de martelo, cortando através dos argumentos cuidadosamente construídos da defesa. O advogado de defesa tentou massacrar a credibilidade da testemunha. Ele caminhava pela sala de audiência, elevando sua voz, objetando frequentemente e tentando lançar sombras de dúvida onde quer que pudesse, embora o júri parecesse cada vez mais descrente."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["morreu na chegada", "culpado como o pecado", "exagerado", "atirou através", "massacrar"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

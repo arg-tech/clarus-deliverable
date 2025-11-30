@@ -1,0 +1,27 @@
+person,unique_sentences,mentions,pos,neg,neu,avg_compound
+Maria Papadopoulou,3,3,0,0,3,0.0
+John Lawrence,2,2,0,1,1,-0.1366
+Alexandros,1,1,0,1,0,-0.5719
+Andrew Chen,1,1,0,0,1,0.0
+Chloe Smith,1,1,0,1,0,-0.6705
+Dimitri,1,1,0,0,1,0.0
+Dimitris Sykas,1,1,0,1,0,-0.5719
+Eleni Kostopoulos,1,1,1,0,0,0.4019
+George,1,1,0,0,1,0.0
+Georgia Liakou,1,1,0,1,0,-0.4939
+Ibrahim al-Hassan,1,1,0,1,0,-0.4939
+Ioannis K. Vasileiou,1,1,0,0,1,0.0
+Katerina Pangalou,1,1,0,0,1,0.0
+Kostas Dimitriou's,1,1,0,0,1,0.0
+Luca Rossi,1,1,0,0,1,0.0
+Michael Johnson,1,1,0,1,0,-0.4588
+Nikolaos Pappas,1,1,0,1,0,-0.4019
+Nikos,1,1,0,1,0,-0.6705
+Omar El Said,1,1,0,0,1,0.0
+Peter van der Meer,1,1,1,0,0,0.34
+Priya Desai,1,1,0,0,1,0.0
+Sergeant James O'Connor,1,1,0,1,0,-0.4019
+Sofia N. Karapanou,1,1,1,0,0,0.34
+Yannis,1,1,0,1,0,-0.4588
+Zoe Kalogerakis,1,1,0,0,1,0.0
+Zvony Delas,1,1,0,0,1,0.0

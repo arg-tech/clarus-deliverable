@@ -1,0 +1,49 @@
+meta {
+  name: EN Tag Questions
+  type: http
+  seq: 8
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_tag_questions
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "There were so many inconsistencies in their story; it was almost laughable. It's obvious they were lying, isn't it? Even a casual observer could see the glaring holes in their account of what happened. When we pointed out the discrepancies, the individual became very defensive. She reacted very aggressively, didn't she? Her outburst confirmed all of our suspicions. We knew what was happening all along. That's exactly what we expected, isn't it? Everything we've seen so far has followed the predicted pattern. We can finally move forward with a full understanding of the situation."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["isn't it?", "didn't she?", "isn't it?"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}

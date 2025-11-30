@@ -1,0 +1,31 @@
+meta {
+  name: EN Analyze all
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_all
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "In the high-profile case of the embezzlement scandal at TechCorp, the defendant's actions were described as a wolf in sheep's clothing, completely ignoring the complex financial pressures that led to the fraud. Those people in the boardroom never seem to understand the real struggles of everyday workers, which only fuels more resentment. Although the evidence was overwhelming, the jury somehow reached a verdict that many saw as lenient. The investigation revealed that the suspect was no angel, having a history of shady dealings that raised eyebrows. Despite the company's losses amounting to millions, the CEO claimed it was just a minor setback in their overall growth. The defendant made a killing in the stock market right before the charges, which coincidentally timed with the alleged crimes. While the prosecution painted a grim picture, the defense argued that external factors played a larger role. Those individuals involved in the cover-up were never fully identified, leaving the public with more questions than answers. Even though the trial dragged on for months, the outcome felt rushed and unsatisfactory. The witness testified that the perpetrator was dying to escape justice, but the court proceedings continued unabated. Although the community demanded accountability, the final judgment seemed to downplay the severity of the offenses. Those folks at the top always seem to protect their own, regardless of the harm caused to others. The report noted that the victim was no saint either, implying a shared blame that many found unfair. Despite the clear intent to deceive, the sentence was surprisingly light. The accused was caught red-handed, but the media spun it as a mere misunderstanding. While the facts were laid out plainly, the narrative often shifted to sympathy for the defendant. Those people in power rarely face the consequences they deserve, perpetuating a cycle of inequality.",
+    "model_to_use": "local"
+  }
+}
+
+settings {
+  encodeUrl: false
+  timeout: 0
+}

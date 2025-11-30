@@ -1,0 +1,52 @@
+meta {
+  name: EN positive Sarcasm
+  type: http
+  seq: 6
+}
+
+post {
+  url: {{sarcasmUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "What an absolutely wonderful idea. I'm so glad we're doing this. This is the best thing ever. I love waiting in line. I've never been happier. You're a genius. I couldn't possibly be more excited. This is exactly what I wanted. I am so impressed. It's just perfect."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = [
+      "What an absolutely wonderful idea.",
+      "I'm so glad we're doing this.",
+      "This is the best thing ever.",
+      "I love waiting in line.",
+      "I've never been happier.",
+      "You're a genius.",
+      "I couldn't possibly be more excited.",
+      "This is exactly what I wanted.",
+      "I am so impressed.",
+      "It's just perfect."
+  ];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Sentence '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log(res.body);
+}

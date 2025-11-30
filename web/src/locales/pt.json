@@ -1,0 +1,234 @@
+{
+  "translation": {
+    "app": {
+      "title": "Verificador de Viés"
+    },
+    "languages": {
+      "en": "Inglês",
+      "el": "Grego",
+      "fi": "Finlandês",
+      "pt": "Português",
+      "cs": "Checo",
+      "label": "Idioma:"
+    },
+    "model": {
+      "local": "Local",
+      "remote": "Remoto",
+      "label": "Modelo:",
+      "remoteWarning": "Modelos remotos podem enviar os seus dados para fornecedores de API externos"
+    },
+    "editor": {
+      "toolbar": {
+        "bold": "Negrito",
+        "italic": "Itálico",
+        "underline": "Sublinhado"
+      },
+      "languageInfo": "O idioma será detectado automaticamente (suporta Inglês, Grego, Finlandês, Português e Tcheco)",
+      "detectedLanguage": "Idioma detectado: {{language}}",
+      "modelUsed": "Modelo usado: {{model}}",
+      "modelUsedFallback": "Modelo usado: {{model}} (modelo remoto indisponível devido à alta carga)",
+      "analyze": "Analisar",
+      "analyzing": "Analisando...",
+      "clear": "Limpar"
+    },
+    "biasIndicators": {
+      "title": "Indicadores de Viés",
+      "noResults": "Nenhum indicador de viés encontrado. Analise o texto para ver os resultados.",
+      "analyzing": "Analisando texto...",
+      "detectedPhrase": "Frase detectada",
+      "outdated": "Desatualizado",
+      "popup": {
+        "detectedPhrase": "Frase detectada:",
+        "whyThisMatters": "Porque é que isto importa:",
+        "suggestedImprovement": "💡 Melhoria sugerida:"
+      },
+      "cards": {
+        "overgeneralizations": {
+          "title": "Generalizações Excessivas",
+          "explanation": "O termo '{{phrase}}' é uma generalização excessiva que não deixa espaço para exceções e pode apresentar conclusões simplificadas.",
+          "suggestedFix": "Considere usar uma linguagem mais matizada que permita exceções e variações individuais."
+        },
+        "absoluteTerms": {
+          "title": "Termos Absolutos",
+          "explanation": "O termo '{{phrase}}' é um termo absoluto que pode fechar o debate e apresentar informações como indiscutíveis.",
+          "suggestedFix": "Considere usar uma linguagem mais matizada para permitir perspectivas alternativas."
+        },
+        "capitalisation": {
+          "title": "Uso Excessivo de Maiúsculas",
+          "explanation": "Escrever em letras maiúsculas pode conferir significado extra.",
+          "suggestedFix": "Se a frase não for um acrônimo, considere usar capitalização padrão."
+        },
+        "chargedSemanticFields": {
+          "title": "Campos Semânticos Carregados",
+          "explanation": "O termo '{{phrase}}' é uma frase emprestada de um campo com fortes conotações que pode influenciar a percepção do leitor.",
+          "suggestedFix": "Evite usar palavras de campos semânticos carregados para manter a neutralidade."
+        },
+        "concessiveConnectives": {
+          "title": "Conectivos Concessivos",
+          "explanation": "O conectivo '{{phrase}}' pode ser usado para minimizar contra-argumentos, reconhecendo-os enquanto ainda mantém o ponto principal.",
+          "suggestedFix": "Considere apresentar contra-argumentos de forma mais neutra ou dando-lhes peso igual."
+        },
+        "dysphemisms": {
+          "title": "Disfemismos",
+          "explanation": "A frase '{{phrase}}' é um disfemismo que pode transmitir uma conotação negativa ou depreciativa.",
+          "suggestedFix": "Use linguagem neutra ou positiva para evitar implicações depreciativas."
+        },
+        "ellipses": {
+          "title": "Uso de Reticências",
+          "explanation": "As reticências podem sugerir hesitação ou significado oculto.",
+          "suggestedFix": "Verifique se algum significado oculto deve ser esclarecido."
+        },
+        "emotionallyChargedAdjectives": {
+          "title": "Adjetivos Emocionalmente Carregados",
+          "explanation": "O adjetivo '{{phrase}}' é emocionalmente carregado e pode influenciar a percepção do leitor.",
+          "suggestedFix": "Considere usar linguagem mais neutra para descrever o assunto."
+        },
+        "euphemisms": {
+          "title": "Eufemismos",
+          "explanation": "A frase '{{phrase}}' é um eufemismo que pode suavizar ou obscurecer o verdadeiro significado.",
+          "suggestedFix": "Use linguagem direta e clara para transmitir o significado pretendido."
+        },
+        "eventLabeling": {
+          "title": "Rotulação de Eventos",
+          "explanation": "A frase '{{phrase}}' pode carregar conotações tendenciosas ao rotular eventos.",
+          "suggestedFix": "Use termos neutros para descrever eventos."
+        },
+        "exclamationQuestionMarks": {
+          "title": "Uso Excessivo de Pontuação",
+          "explanation": "A repetição ('{{phrase}}') pode provocar uma resposta emocional.",
+          "suggestedFix": "Tente usar apenas um ponto de exclamação ou interrogação."
+        },
+        "framingByTime": {
+          "title": "Enquadramento pelo Tempo",
+          "explanation": "A frase '{{phrase}}' enquadra o evento em termos de tempo, potencialmente implicando relevância ou obsolescência.",
+          "suggestedFix": "Use linguagem neutra que não enfatize o enquadramento temporal, a menos que seja necessário."
+        },
+        "historicallyDerogatoryTerms": {
+          "title": "Termos Historicamente Depreciativos/Insultos",
+          "explanation": "A frase '{{phrase}}' é considerada historicamente depreciativa ou um insulto.",
+          "suggestedFix": "Use um termo mais respeitoso."
+        },
+        "intensifyingAdverbs": {
+          "title": "Advérbios Intensificadores",
+          "explanation": "O advérbio '{{phrase}}' pode ser intensificador e, portanto, exagerar excessivamente as qualidades.",
+          "suggestedFix": "Considere usar um advérbio menos carregado ou não usar o advérbio."
+        },
+        "italicsBoldface": {
+          "title": "Viés de Formatação",
+          "explanation": "O texto '{{phrase}}' está estilizado.",
+          "suggestedFix": "Considere remover a formatação ou usá-la com mais moderação."
+        },
+        "mitigators": {
+          "title": "Atenuantes",
+          "explanation": "O atenuante '{{phrase}}' pode minimizar a seriedade ou importância do assunto.",
+          "suggestedFix": "Remova o atenuante e simplesmente declare o facto."
+        },
+        "oversimplifiedGroupLabels": {
+          "title": "Rótulos de Grupo Simplificados",
+          "explanation": "O termo '{{phrase}}' simplifica excessivamente ou estereotipa um grupo de pessoas.",
+          "suggestedFix": "Use linguagem mais específica e respeitosa para descrever indivíduos ou grupos."
+        },
+        "passiveVoice": {
+          "title": "Voz Passiva",
+          "explanation": "Esta frase usa voz passiva (confiança: {{confidence}})",
+          "suggestedFix": "Considere usar voz ativa para uma comunicação mais clara e direta"
+        },
+        "rhetoricalQuestion": {
+          "title": "Pergunta Retórica",
+          "explanation": "Esta pode ser uma pergunta retórica (confiança: {{confidence}})",
+          "suggestedFix": "Reconsidere se o ponto pode ser feito de forma mais direta."
+        },
+        "sarcasm": {
+          "title": "Sarcasmo",
+          "explanation": "Esta frase pode ser sarcástica (confiança: {{confidence}})",
+          "suggestedFix": "Reformule esta frase para transmitir o significado pretendido sem o tom sarcástico."
+        },
+        "oversimplifiedComparison": {
+          "title": "Comparação Simplificada",
+          "explanation": "Esta frase pode conter uma comparação simplificada que ignora nuances importantes.",
+          "suggestedFix": "Tente usar linguagem mais direta e específica para transmitir o significado pretendido."
+        },
+        "referentialAmbiguity": {
+          "title": "Ambiguidade Referencial",
+          "explanation": "Esta frase usa referências vagas que podem sinalizar viés.",
+          "suggestedFix": "Substitua pronomes vagos por termos específicos para esclarecer o assunto."
+        },
+        "subordinateClauses": {
+          "title": "Orações Subordinadas",
+          "explanation": "Esta frase contém uma oração subordinada que diminui a oração principal.",
+          "suggestedFix": "Declare a ideia principal claramente sem minimizá-la com uma oração subordinada."
+        },
+        "doubleEntendres": {
+          "title": "Duplos Sentidos",
+          "explanation": "Esta frase usa um duplo sentido que pode ter um significado tendencioso.",
+          "suggestedFix": "Use linguagem clara e inequívoca para evitar possíveis interpretações errôneas."
+        },
+        "tagQuestions": {
+          "title": "Perguntas de Confirmação",
+          "explanation": "Esta frase usa uma pergunta de confirmação que pode implicar concordância e influenciar o leitor.",
+          "suggestedFix": "Remova a pergunta de confirmação para evitar implicar concordância."
+        },
+        "contextualFraming": {
+          "title": "Enquadramento Contextual",
+          "explanation": "Esta frase usa enquadramento contextual que enviesa a narrativa ao apresentar premissas como justificativas para conclusões.",
+          "suggestedFix": "Reformule para apresentar os factos objetivamente sem enquadrá-los para justificar conclusões."
+        }
+      }
+    },
+    "sentiment": {
+      "title": "Análise de Sentimento",
+      "noResults": "A análise de sentimento não é suportada para este idioma.",
+      "analyzing": "Analisando texto...",
+      "showDetails": "Mostrar Detalhes",
+      "hideDetails": "Ocultar Detalhes",
+      "sentenceDetails": "Análise sentença por sentença",
+      "sentence": "Sentença {{number}}",
+      "confidence": "confiança",
+      "sentimentInsight": "Insight de Sentimento",
+      "conclusions": {
+        "positiveTrajectory": "O sentimento torna-se mais positivo ao longo do texto. Isto sugere uma construção em direção a uma conclusão positiva ou uma resolução da negatividade anterior.",
+        "negativeTrajectory": "O sentimento torna-se mais negativo ao longo do texto. Isto pode influenciar a percepção do leitor, suavizando o impacto das informações negativas apresentadas posteriormente.",
+        "veryPositive": "O sentimento geral é muito positivo. Isto pode indicar uma falta de perspectiva crítica.",
+        "veryNegative": "O sentimento geral é muito negativo. Isto sugere uma falta de inclusão de outras perspectivas.",
+        "leansPositive": "O sentimento geral tende para o positivo. Considere equilibrar com pontos de vista mais neutros ou críticos.",
+        "leansNegative": "O sentimento geral tende para o negativo. Considere incorporar perspectivas mais positivas.",
+        "balanced": "O sentimento geral está bem equilibrado.",
+        "noIssues": "Não foram detectados problemas significativos com o sentimento."
+      },
+      "labels": {
+        "-2": "Muito Negativo",
+        "-1": "Negativo",
+        "0": "Neutro",
+        "1": "Positivo",
+        "2": "Muito Positivo"
+      }
+    },
+    "error": {
+      "title": "Erro:"
+    },
+    "lexicon": {
+      "title": "Termos do Léxico",
+      "usageExample": "Exemplo de Uso",
+      "outdated": "Desatualizado",
+      "analyzing": "Analisando termos do léxico...",
+      "noResults": "Nenhum termo do léxico encontrado",
+      "popup": {
+        "title": "Termo do Léxico",
+        "detectedPhrase": "Frase do léxico detectada:",
+        "usageExample": "Exemplo de uso:"
+      }
+    },
+    "loading": {
+      "editor": "Carregando editor..."
+    },
+    "loadingPhrases": {
+      "analyzingBias": "Analisando indicadores de viés...",
+      "checkingLLM": "Verificando padrões de LLM...",
+      "evaluatingSentiment": "Avaliando sentimento...",
+      "analyzingEntities": "Analisando entidades nomeadas...",
+      "analyzingStructure": "Analisando a estrutura do texto...",
+      "lookingForDisparity": "Procurando por disparidade de sentimento...",
+      "lookingForPatterns": "Procurando por padrões comuns de viés..."
+    }
+  }
+}

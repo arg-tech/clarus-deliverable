@@ -1,0 +1,49 @@
+meta {
+  name: PT Overgeneralizations
+  type: http
+  seq: 35
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "O suspeito sempre responde agressivamente aos interrogatórios. Testemunhas deste bairro nunca cooperam totalmente. Todas as evidências apontam para a culpa do réu. Membros de gangue invariavelmente protegem os seus.",
+    "language": "pt"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = [
+    "sempre",
+    "nunca",
+    "todas",
+    "totalmente",
+    "invariavelmente",
+    "gangue"
+  ];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log(res.body);
+}

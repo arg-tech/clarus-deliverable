@@ -1,0 +1,234 @@
+{
+  "translation": {
+    "app": {
+      "title": "Analyzátor zaujatosti"
+    },
+    "languages": {
+      "en": "Angličtina",
+      "el": "Řečtina",
+      "fi": "Finština",
+      "pt": "Portugalština",
+      "cs": "Čeština",
+      "label": "Jazyk:"
+    },
+    "model": {
+      "local": "Lokální",
+      "remote": "Vzdálený",
+      "label": "Model:",
+      "remoteWarning": "Vzdálené modely mohou odesílat vaše data externím poskytovatelům API"
+    },
+    "editor": {
+      "toolbar": {
+        "bold": "Tučné",
+        "italic": "Kurzíva",
+        "underline": "Podtržené"
+      },
+      "languageInfo": "Jazyk bude automaticky detekován (podporuje angličtinu, řečtinu, finštinu, portugalštinu a češtinu)",
+      "detectedLanguage": "Detekovaný jazyk: {{language}}",
+      "modelUsed": "Použitý model: {{model}}",
+      "modelUsedFallback": "Použitý model: {{model}} (vzdálený model není k dispozici kvůli vysoké zátěži)",
+      "analyze": "Analyzovat",
+      "analyzing": "Analyzuji...",
+      "clear": "Vymazat"
+    },
+    "biasIndicators": {
+      "title": "Indikátory předpojatosti",
+      "noResults": "Nebyly nalezeny žádné indikátory předpojatosti. Analyzujte text, abyste viděli výsledky.",
+      "analyzing": "Analyzuji text...",
+      "detectedPhrase": "Detekovaná fráze",
+      "outdated": "Zastaralé",
+      "popup": {
+        "detectedPhrase": "Detekovaná fráze:",
+        "whyThisMatters": "Proč na tom záleží:",
+        "suggestedImprovement": "💡 Navrhované vylepšení:"
+      },
+      "cards": {
+        "overgeneralizations": {
+          "title": "Nadměrná zobecnění",
+          "explanation": "Termín '{{phrase}}' je nadměrné zobecnění, které nenechává prostor pro výjimky a může prezentovat zjednodušené závěry.",
+          "suggestedFix": "Zvažte použití nuancovanějšího jazyka, který umožňuje výjimky a individuální odchylky."
+        },
+        "absoluteTerms": {
+          "title": "Absolutní výrazy",
+          "explanation": "Termín '{{phrase}}' je absolutní výraz, který může uzavřít debatu a prezentovat informace jako nesporné.",
+          "suggestedFix": "Zvažte použití nuancovanějšího jazyka, který umožňuje alternativní perspektivy."
+        },
+        "capitalisation": {
+          "title": "Nadměrné použití velkých písmen",
+          "explanation": "Psaní velkými písmeny může dodat textu důraz.",
+          "suggestedFix": "Pokud se nejedná o zkratku, zvažte použití běžného psaní velkých a malých písmen."
+        },
+        "chargedSemanticFields": {
+          "title": "Citově zabarvené výrazy",
+          "explanation": "Termín '{{phrase}}' pochází z oblasti se silným citovým nábojem, což může ovlivnit vnímání čtenáře.",
+          "suggestedFix": "Pro zachování neutrality se vyhněte používání slov, která mají silný citový náboj."
+        },
+        "concessiveConnectives": {
+          "title": "Přípustkové spojky",
+          "explanation": "Spojka '{{phrase}}' může být použita k zlehčení protiargumentů tím, že je uznává, ale stále udržuje hlavní bod.",
+          "suggestedFix": "Zvažte prezentaci protiargumentů neutrálněji nebo jim dejte stejnou váhu."
+        },
+        "dysphemisms": {
+          "title": "Dysfemismy",
+          "explanation": "Fráze '{{phrase}}' je dysfemismus, který může vyjadřovat negativní nebo hanlivou konotaci.",
+          "suggestedFix": "Používejte neutrální nebo pozitivní jazyk, abyste se vyhnuli hanlivým konotacím."
+        },
+        "ellipses": {
+          "title": "Použití výpustek",
+          "explanation": "Výpustka může naznačovat váhání nebo skrytý význam.",
+          "suggestedFix": "Zkontrolujte, zda by měl být nějaký skrytý význam objasněn."
+        },
+        "emotionallyChargedAdjectives": {
+          "title": "Emocionálně zabarvená přídavná jména",
+          "explanation": "Přídavné jméno '{{phrase}}' je emocionálně zabarvené a může ovlivnit vnímání čtenáře.",
+          "suggestedFix": "Zvažte použití neutrálnějšího jazyka pro popis předmětu."
+        },
+        "euphemisms": {
+          "title": "Eufemismy",
+          "explanation": "Fráze '{{phrase}}' je eufemismus, který může zmírnit nebo zastřít skutečný význam.",
+          "suggestedFix": "Používejte přímý a jasný jazyk pro vyjádření zamýšleného významu."
+        },
+        "eventLabeling": {
+          "title": "Označování událostí",
+          "explanation": "Fráze '{{phrase}}' může nést zaujaté konotace při označování událostí.",
+          "suggestedFix": "Používejte neutrální výrazy pro popis událostí."
+        },
+        "exclamationQuestionMarks": {
+          "title": "Nadměrné použití interpunkce",
+          "explanation": "Opakování ('{{phrase}}') může vyvolat emocionální odezvu.",
+          "suggestedFix": "Snažte se používat pouze jeden vykřičník nebo otazník."
+        },
+        "framingByTime": {
+          "title": "Časové zasazení",
+          "explanation": "Fráze '{{phrase}}' zasazuje událost do určitého časového rámce, což může naznačovat její relevanci nebo zastaralost.",
+          "suggestedFix": "Používejte neutrální jazyk, který nezdůrazňuje časové zarámování, pokud není nezbytné."
+        },
+        "historicallyDerogatoryTerms": {
+          "title": "Historicky hanlivé výrazy/urážky",
+          "explanation": "Fráze '{{phrase}}' je považována za historicky hanlivou nebo za urážku.",
+          "suggestedFix": "Používejte uctivější výraz."
+        },
+        "intensifyingAdverbs": {
+          "title": "Zesilující příslovce",
+          "explanation": "Příslovce '{{phrase}}' může zesilovat a tím přehnaně zdůrazňovat určité vlastnosti.",
+          "suggestedFix": "Zvažte použití méně zabarveného příslovce nebo příslovce vůbec nepoužívejte."
+        },
+        "italicsBoldface": {
+          "title": "Zvýraznění formátováním",
+          "explanation": "Text '{{phrase}}' je formátován.",
+          "suggestedFix": "Zvažte odstranění formátování nebo jeho střídmější použití."
+        },
+        "mitigators": {
+          "title": "Zmírňující výrazy",
+          "explanation": "Zmírňující výraz '{{phrase}}' může zlehčovat závažnost nebo důležitost předmětu.",
+          "suggestedFix": "Odstraňte zmírňující výraz a jednoduše uveďte fakt."
+        },
+        "oversimplifiedGroupLabels": {
+          "title": "Zjednodušující skupinová označení",
+          "explanation": "Termín '{{phrase}}' zjednodušuje nebo stereotypizuje skupinu lidí.",
+          "suggestedFix": "Používejte konkrétnější a uctivější jazyk pro popis jednotlivců nebo skupin."
+        },
+        "passiveVoice": {
+          "title": "Trpný rod",
+          "explanation": "Tato věta používá trpný rod (spolehlivost: {{confidence}})",
+          "suggestedFix": "Zvažte použití činného rodu pro jasnější a přímější komunikaci"
+        },
+        "rhetoricalQuestion": {
+          "title": "Rétorická otázka",
+          "explanation": "Toto může být rétorická otázka (spolehlivost: {{confidence}})",
+          "suggestedFix": "Zvažte, zda lze myšlenku vyjádřit přímočařeji."
+        },
+        "sarcasm": {
+          "title": "Sarkasmus",
+          "explanation": "Tato věta může být sarkastická (spolehlivost: {{confidence}})",
+          "suggestedFix": "Přeformulujte tuto větu tak, aby vyjadřovala zamýšlený význam bez sarkastického tónu."
+        },
+        "oversimplifiedComparison": {
+          "title": "Zjednodušené srovnání",
+          "explanation": "Tato fráze může obsahovat zjednodušené srovnání, které ignoruje důležité nuance.",
+          "suggestedFix": "Zkuste použít přímější a konkrétnější jazyk pro vyjádření zamýšleného významu."
+        },
+        "referentialAmbiguity": {
+          "title": "Nejednoznačné odkazy",
+          "explanation": "Tato fráze používá vágní odkazy, které mohou signalizovat předpojatost.",
+          "suggestedFix": "Nahraďte vágní zájmena konkrétními výrazy pro větší srozumitelnost."
+        },
+        "subordinateClauses": {
+          "title": "Vedlejší věty",
+          "explanation": "Tato věta obsahuje vedlejší větu, která zlehčuje hlavní myšlenku.",
+          "suggestedFix": "Vyjádřete hlavní myšlenku jasně, aniž byste ji zlehčovali vedlejší větou."
+        },
+        "doubleEntendres": {
+          "title": "Dvojsmysly",
+          "explanation": "Tato věta je dvojsmyslná a může vést k zaujaté interpretaci.",
+          "suggestedFix": "Používejte jasný a jednoznačný jazyk, abyste se vyhnuli možným nesprávným interpretacím."
+        },
+        "tagQuestions": {
+          "title": "Tázací dovětky",
+          "explanation": "Tato věta používá tázací dovětek, který může naznačovat souhlas a popostrčit čtenáře.",
+          "suggestedFix": "Odstraňte tázací dovětek, abyste se vyhnuli naznačování souhlasu."
+        },
+        "contextualFraming": {
+          "title": "Zasazení do zaujatého kontextu",
+          "explanation": "Tato věta podává informaci v takovém kontextu, který záměrně vede k určitým závěrům.",
+          "suggestedFix": "Prezentujte fakta objektivně, aniž byste je zasazovali do kontextu, který by naznačoval určitý závěr."
+        }
+      }
+    },
+    "sentiment": {
+      "title": "Analýza sentimentu",
+      "noResults": "Analýza sentimentu není pro tento jazyk podporována.",
+      "analyzing": "Analyzuji text...",
+      "showDetails": "Zobrazit podrobnosti",
+      "hideDetails": "Skrýt podrobnosti",
+      "sentenceDetails": "Analýza věta po větě",
+      "sentence": "Věta {{number}}",
+      "confidence": "spolehlivost",
+      "sentimentInsight": "Přehled sentimentu",
+      "conclusions": {
+        "positiveTrajectory": "Sentiment se v průběhu textu stává pozitivnější. To naznačuje budování pozitivního závěru nebo řešení dřívější negativity.",
+        "negativeTrajectory": "Sentiment se v průběhu textu stává negativnější. To by mohlo ovlivnit vnímání čtenáře, protože negativní informace jsou prezentovány později a jejich dopad je zmírněn.",
+        "veryPositive": "Celkový sentiment je velmi pozitivní. To by mohlo naznačovat nedostatek kritické perspektivy.",
+        "veryNegative": "Celkový sentiment je velmi negativní. To naznačuje nedostatek zahrnutí jiných perspektiv.",
+        "leansPositive": "Celkový sentiment se kloní k pozitivnímu. Zvažte vyvážení neutrálnějšími nebo kritickými pohledy.",
+        "leansNegative": "Celkový sentiment se kloní k negativnímu. Zvažte začlenění pozitivnějších perspektiv.",
+        "balanced": "Celkový sentiment je dobře vyvážený.",
+        "noIssues": "Nebyly zjištěny žádné významné problémy se sentimentem."
+      },
+      "labels": {
+        "-2": "Velmi negativní",
+        "-1": "Negativní",
+        "0": "Neutrální",
+        "1": "Pozitivní",
+        "2": "Velmi pozitivní"
+      }
+    },
+    "error": {
+      "title": "Chyba:"
+    },
+    "lexicon": {
+      "title": "Termíny slovníku",
+      "usageExample": "Příklad použití",
+      "outdated": "Zastaralé",
+      "analyzing": "Analyzuji termíny slovníku...",
+      "noResults": "Nebyly nalezeny žádné termíny slovníku",
+      "popup": {
+        "title": "Termín slovníku",
+        "detectedPhrase": "Zjištěná fráze ze slovníku:",
+        "usageExample": "Příklad použití:"
+      }
+    },
+    "loading": {
+      "editor": "Načítám editor..."
+    },
+    "loadingPhrases": {
+      "analyzingBias": "Analyzuji indikátory předpojatosti...",
+      "checkingLLM": "Kontroluji vzory LLM...",
+      "evaluatingSentiment": "Vyhodnocuji sentiment...",
+      "analyzingEntities": "Analyzuji pojmenované entity...",
+      "analyzingStructure": "Analyzuji strukturu textu...",
+      "lookingForDisparity": "Hledám rozdíly v sentimentu...",
+      "lookingForPatterns": "Hledám běžné vzory předpojatosti..."
+    }
+  }
+}

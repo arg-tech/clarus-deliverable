@@ -1,0 +1,59 @@
+meta {
+  name: EN Lexicon
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{ruleBasedUrl}}/get-lexicon-terms
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "The forensic tools were used to perform a full extraction of the device. We placed the evidence in a faraday bag to prevent any remote access. The encryption on the device was enabled using AFU mode. The digital forensic team needed to access the SIM card and EXIF data from the photographs.",
+    "language": "en"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = [
+    "forensic tool",
+    "full extraction",
+    "faraday bag",
+    "encryption",
+    "AFU",
+    "digital forensic",
+    "SIM card",
+    "EXIF"
+  ];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.word?.toLowerCase() === phrase.toLowerCase());
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("Each detected phrase should have a usage example", function () {
+    res.body.forEach(item => {
+      expect(item.usage_example).to.exist;
+      expect(item.usage_example).to.not.be.empty;
+    });
+  });
+  
+  test("Each detected phrase should have character positions", function () {
+    res.body.forEach(item => {
+      expect(item.character_positions).to.exist;
+      expect(item.character_positions.start).to.be.a('number');
+      expect(item.character_positions.end).to.be.a('number');
+    });
+  });
+  
+  console.log(res.body);
+}

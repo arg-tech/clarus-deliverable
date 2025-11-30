@@ -1,0 +1,30 @@
+meta {
+  name: EN negative Rhetorical questions
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{rhetoricalQuestionsUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "What time is it right now in Dundee? Are you planning on going to the shop later, or have you already been? Did you finish reading that book I lent you last week? Should we order pizza for dinner, or do you fancy something else? Where exactly did you put my keys this morning, I can't find them anywhere? When do you think your brother will arrive for his visit? How many spoonfuls of sugar do you take in your coffee? Do you remember what we talked about regarding next month's meeting? Why is the sky looking so grey and overcast today? Which route are you taking to get to work tomorrow?"
+  }
+}
+
+tests {
+  test("Status should be be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  test("Response should be deeply equal", function () {
+    const expectedJson = [];
+    
+    console.log(res.body);
+    expect(res.body).to.deep.equal(expectedJson);
+  });
+}

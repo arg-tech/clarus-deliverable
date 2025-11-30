@@ -1,0 +1,65 @@
+meta {
+  name: PT Contextual Framing
+  type: http
+  seq: 20
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_contextual_framing
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Dado o histórico de violência do suspeito, o confronto era inevitável. Após vários assaltos na área, está claro que o bairro está se tornando perigoso. À luz do vício em drogas dele, o depoimento do réu não pode ser confiável. Com tal criação carente, o réu nunca teve chance de se tornar um cidadão honesto. Considerando a recessão econômica, muitas pessoas estão lutando para sobreviver. Após revisar os crimes anteriores do réu, este crime se encaixa no padrão estabelecido dele. Do histórico de violência doméstica, podemos ver que este relacionamento era tóxico desde o início. Olhando para as postagens anti-sociais do suspeito nas redes sociais, suas ações violentas eram previsíveis. Como desempregado formado no ensino médio, o suspeito se encaixa no perfil para este crime. Em um bairro conhecido por atividade de gangues, as testemunhas são compreensivelmente relutantes em falar. Dado o status de imigrante do suspeito, mal-entendidos culturais provavelmente levaram a esta violação. O tempo estava ensolarado naquele dia. O réu chegou ao tribunal na hora. O juiz examinou as evidências cuidadosamente. A audiência começou pontualmente. Os advogados apresentaram seus argumentos. O júri ouviu atentamente. A decisão foi adiada. O caso foi complexo. As leis foram aplicadas corretamente. A justiça prevaleceu."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedSentences = [
+    "Dado o histórico de violência do suspeito, o confronto era inevitável.",
+    "Após vários assaltos na área, está claro que o bairro está se tornando perigoso.",
+    "À luz do vício em drogas dele, o depoimento do réu não pode ser confiável.",
+    "Com tal criação carente, o réu nunca teve chance de se tornar um cidadão honesto.",
+    "Considerando a recessão econômica, muitas pessoas estão lutando para sobreviver.",
+    "Após revisar os crimes anteriores do réu, este crime se encaixa no padrão estabelecido dele.",
+    "Do histórico de violência doméstica, podemos ver que este relacionamento era tóxico desde o início.",
+    "Olhando para as postagens anti-sociais do suspeito nas redes sociais, suas ações violentas eram previsíveis.",
+    "Como desempregado formado no ensino médio, o suspeito se encaixa no perfil para este crime.",
+    "Em um bairro conhecido por atividade de gangues, as testemunhas são compreensivelmente relutantes em falar.",
+    "Dado o status de imigrante do suspeito, mal-entendidos culturais provavelmente levaram a esta violação."
+  ];
+  
+  expectedSentences.forEach(sentence => {
+    test(`Sentence '${sentence}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === sentence);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected sentences should be returned", function () {
+    const actualSentences = res.body.map(item => item.detected_phrase);
+    const unexpectedSentences = actualSentences.filter(s => !expectedSentences.includes(s));
+    console.log("Unexpected sentences: ", unexpectedSentences);
+    expect(unexpectedSentences).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

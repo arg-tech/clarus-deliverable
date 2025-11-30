@@ -1,0 +1,51 @@
+meta {
+  name: PT Intensifying Adverbs
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "O Brasil é um país extremamente diverso, com paisagens incrivelmente variadas. A Amazônia é absurdamente vasta e tremendamente importante para o planeta. As praias são imensamente belas e as montanhas brutalmente impressionantes.",
+    "language": "pt"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = [
+    "extremamente",
+    "incrivelmente",
+    "absurdamente",
+    "tremendamente",
+    "imensamente",
+    "brutalmente",
+    "impressionantes",
+    "país"
+  ];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log(res.body);
+}

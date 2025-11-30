@@ -1,0 +1,57 @@
+meta {
+  name: FI Subordinate Clauses
+  type: http
+  seq: 29
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_subordinate_clauses
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Uusi vuosineljännes alkoi räväkästi, kun myyntitiimi paljasti uusimmat lukunsa. Innovaatiohanke 'Project Nexus' oli selvästi tuottanut hedelmää, johtamalla 30% nousuun uusien asiakkaiden hankinnassa. Vaikka jotkut kriitikot aluksi epäilivät ohjelman kunnianhimoista aikataulua, tulokset puhuvat puolestaan, todistaen että nopeus ja strategia voivat olla rinnakkain. Markkinointiosasto erityisesti kiitettiin luovista ulottuvuuskampanjoista, jotka resonoi syvästi kohdeyleisön kanssa. He onnistuivat muuttamaan lauheat liidit intohimoisiksi brändin puolestapuhujiksi. Tuotekehitystiimi ei jäänyt jälkeen, esitellen erittäin odotetun uuden gadgetin. Prototyyppi, siro ja intuitiivinen, oli valtava hitti fokusryhmässä. Vaikka alkuperäisessä testausvaiheessa oli muutamia pieniä ongelmia, saumaton lopullinen käyttökokemus varjosti kaikki aiemmat ongelmat. Pääinsinööri selitti huolellisen virheenkorjaus- ja optimointiprosessin, joka meni laitteen viimeistelyyn. Oli selvää, että heidän kovatyönsä oli tuottanut hedelmää, sillä jokainen osallistuja halusi tietää milloin he voivat ennakkotilata. Samaan aikaan henkilöstöosasto jakoi menestystarinansa työntekijöiden tyytyväisyydestä. He olivat ottaneet käyttöön uuden joustavan työaikataulun, joka oli saanut ylivoimaisesti positiivista palautetta. Vaikka siirtymä oli aluksi aiheuttanut joitakin logistisia haasteita osastopäälliköille, seuraava tuottavuuden ja moraalin nousu oikeutti muutoksen täysin. Tiedot osoittivat merkittävän laskun työntekijöiden vaihtuvuudessa ja nousun itseilmoitetussa työtyytyväisyydessä. Tämä menestys osoitti, että työntekijöiden hyvinvointiin keskittyminen voi suoraan kääntyä liiketoimintahyödyiksi."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = [
+    "Vaikka jotkut kriitikot aluksi epäilivät ohjelman kunnianhimoista aikataulua, tulokset puhuvat puolestaan, todistaen että nopeus ja strategia voivat olla rinnakkain.",
+    "Vaikka alkuperäisessä testausvaiheessa oli muutamia pieniä ongelmia, saumaton lopullinen käyttökokemus varjosti kaikki aiemmat ongelmat.",
+    "Vaikka siirtymä oli aluksi aiheuttanut joitakin logistisia haasteita osastopäälliköille, seuraava tuottavuuden ja moraalin nousu oikeutti muutoksen täysin."
+  ];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

@@ -1,0 +1,43 @@
+meta {
+  name: EL Emotionally charged adjectives
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "Σήμερα το πρωί, ο καιρός ήταν απίστευτος, με τον ήλιο να λάμπει θαυμάσια στον καταγάλανο ουρανό. Πήγαμε μια βόλτα στην παραλία και η θέα ήταν καταπληκτική, πραγματικά υπέροχη. Ήταν μια εξαιρετική μέρα για να περάσουμε χρόνο έξω και να απολαύσουμε τη φύση.",
+    "language": "el"
+  }
+}
+
+tests {
+  test("Status should be be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["απίστευτος", "θαυμάσια", "πραγματικά", "καταπληκτική", "υπέροχη", "εξαιρετική"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+    
+  console.log(res.body);
+  
+}

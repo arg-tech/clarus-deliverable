@@ -1,0 +1,58 @@
+person,sentence,sent_start_char,sent_end_char,compound,label
+Maria Papadopoulou,"Officer Maria Papadopoulou interviewed Dimitris at the station regarding the incident.
+",0,87,0.0,neu
+John Lawrence,"The victim, John Lawrence, stated that he saw a man named Marko Petrov leaving the scene.
+",87,177,-0.2732,neg
+Eleni Kostopoulos,"Witness Eleni Kostopoulos reported hearing Anna-Maria Georgiou shout for help.
+",177,256,0.4019,pos
+Sergeant James O'Connor,"Sergeant James O'Connor detained Nikolaos Pappas near Syntagma Square.
+",256,327,-0.4019,neg
+Nikolaos Pappas,"Sergeant James O'Connor detained Nikolaos Pappas near Syntagma Square.
+",256,327,-0.4019,neg
+Zoe Kalogerakis,"According to Dr. Zoe Kalogerakis, the injuries were consistent with a fall.
+",327,403,0.0,neu
+Peter van der Meer,"Security guard Peter van der Meer identified Sofia N. Karapanou in the lineup.
+",403,482,0.34,pos
+Sofia N. Karapanou,"Security guard Peter van der Meer identified Sofia N. Karapanou in the lineup.
+",403,482,0.34,pos
+Ibrahim al-Hassan,"Detective Ibrahim al-Hassan contacted Ms. Georgia Liakou about the stolen phone.
+",482,563,-0.4939,neg
+Georgia Liakou,"Detective Ibrahim al-Hassan contacted Ms. Georgia Liakou about the stolen phone.
+",482,563,-0.4939,neg
+Priya Desai,"CCTV footage shows Priya Desai handing the wallet back to George.
+",563,629,0.0,neu
+George,"CCTV footage shows Priya Desai handing the wallet back to George.
+",563,629,0.0,neu
+Dimitris Sykas,"The complainant, Dimitris Sykas, said Alexandros ""Alex"" Papageorgiou threatened him.
+",629,714,-0.5719,neg
+Alexandros,"The complainant, Dimitris Sykas, said Alexandros ""Alex"" Papageorgiou threatened him.
+",629,714,-0.5719,neg
+Luca Rossi,"Officer Luca Rossi and Officer Maria Papadopoulou responded at 22:15.
+",714,784,0.0,neu
+Maria Papadopoulou,"Officer Luca Rossi and Officer Maria Papadopoulou responded at 22:15.
+",714,784,0.0,neu
+Ioannis K. Vasileiou,"Neighbor Jean-Luc Martin stated that he last saw Ioannis K. Vasileiou at 18:30.
+",784,864,0.0,neu
+Chloe Smith,"When questioned, the suspect, Chloe Smith, denied knowing Nikos.
+",864,929,-0.6705,neg
+Nikos,"When questioned, the suspect, Chloe Smith, denied knowing Nikos.
+",864,929,-0.6705,neg
+Kostas Dimitriou's,"Prosecutor Helena Papandreou authorized the search of Kostas Dimitriou's apartment.
+",929,1013,0.0,neu
+Omar El Said,"Taxi driver Omar El Said dropped off a passenger called Dimitri at Victoria Station.
+",1013,1098,0.0,neu
+Dimitri,"Taxi driver Omar El Said dropped off a passenger called Dimitri at Victoria Station.
+",1013,1098,0.0,neu
+Yannis,"Yannis and Eleni reported that Michael Johnson forced entry through the back door.
+",1098,1181,-0.4588,neg
+Michael Johnson,"Yannis and Eleni reported that Michael Johnson forced entry through the back door.
+",1098,1181,-0.4588,neg
+Katerina Pangalou,"Katerina Pangalou told Officer Andrew Chen that Stavros didn't have a key.
+",1181,1256,0.0,neu
+Andrew Chen,"Katerina Pangalou told Officer Andrew Chen that Stavros didn't have a key.
+",1181,1256,0.0,neu
+Zvony Delas,"Mr. Zvony Delas emailed Detective John Lawrence the video from his phone.
+",1256,1330,0.0,neu
+John Lawrence,"Mr. Zvony Delas emailed Detective John Lawrence the video from his phone.
+",1256,1330,0.0,neu
+Maria Papadopoulou,"According to Ms. Maria Papadopoulou, Panagiotis Karamanlis left before police arrived.",1330,1416,0.0,neu

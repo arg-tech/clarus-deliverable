@@ -1,0 +1,53 @@
+meta {
+  name: EL Tag Questions
+  type: http
+  seq: 9
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_tag_questions
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Υπήρχαν τόσες πολλές ασυνέπειες στην ιστορία τους· ήταν σχεδόν γελοίο. Είναι προφανές ότι έλεγαν ψέματα, δεν είναι; Ακόμη και ένας περιστασιακός παρατηρητής θα μπορούσε να δει τις προφανείς τρύπες στην περιγραφή τους για το τι συνέβη. Όταν επισημάναμε τις διαφορές, το άτομο έγινε πολύ αμυντικό. Αντέδρασε πολύ επιθετικά, δεν αντέδρασε; Η έκρηξή της επιβεβαίωσε όλες τις υποψίες μας. Ξέραμε τι συνέβαινε από την αρχή. Αυτό είναι ακριβώς αυτό που περιμέναμε, δεν είναι; Όλα όσα έχουμε δει μέχρι τώρα ακολουθούν το προβλεπόμενο μοτίβο. Μπορούμε επιτέλους να προχωρήσουμε με πλήρη κατανόηση της κατάστασης."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["δεν είναι;", "δεν αντέδρασε;", "δεν είναι;"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

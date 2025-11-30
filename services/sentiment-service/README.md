@@ -1,0 +1,1 @@
+Requires around 742MiB of GPU memory (plus inference overhead)

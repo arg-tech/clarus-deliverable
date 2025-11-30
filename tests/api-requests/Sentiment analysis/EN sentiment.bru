@@ -1,0 +1,17 @@
+meta {
+  name: EN sentiment
+  type: http
+  seq: 6
+}
+
+post {
+  url: {{sentimentUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "I'm so glad I got to spend time with you. The customer service was absolutely outstanding. She has such a warm and inviting personality. This book is a masterpiece; I couldn't put it down. What a beautiful day to be outside! The food at that restaurant was simply divine. Their new album is a breath of fresh air. I'm incredibly proud of everything you've accomplished. Working with this team has been a genuinely rewarding experience. The movie's ending was both surprising and deeply moving. This product is a complete disappointment. I was so frustrated with the lack of communication. The service was slow and the staff seemed unhelpful. I regret ever getting involved in this project. The movie's plot was confusing and the acting was terrible. What a waste of time and money. The weather has been miserable all week. I'm so exhausted and burnt out from all this work. This report is full of errors and is completely useless. The concert was overly loud and the sound quality was horrible."
+  }
+}

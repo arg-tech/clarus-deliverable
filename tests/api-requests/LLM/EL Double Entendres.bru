@@ -1,0 +1,56 @@
+meta {
+  name: EL Double Entendres
+  type: http
+  seq: 14
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_double_entendres
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Η δίκη είχε φτάσει σε κρίσιμο σημείο, και η ένταση μέσα στην αίθουσα ήταν σχεδόν αφόρητη. Κάθε λεπτομέρεια, κάθε ματιά και κάθε λέξη φαινόταν να έχει τεράστιο βάρος. Το άλλοθι του υπόπτου έπεσε στο κενό όταν παρουσιάστηκε στους ερευνητές. Οι ένορκοι μετακινήθηκαν άβολα καθώς συνειδητοποίησαν πόσο λίγη υποστήριξη είχε πραγματικά η ιστορία, και ψίθυροι διαδόθηκαν στην αίθουσα. Ο μάρτυρας κατέθεσε ότι ο ύποπτος έδειχνε ένοχος σαν διάβολο. Η δήλωση αντήχησε με δραματική δύναμη, αφήνοντας την υπεράσπιση να παλεύει να την αντιμετωπίσει. Η συμπεριφορά του υπόπτου στο σημείο ήταν εντελώς υπερβολική. Οι δημοσιογράφοι έγραφαν πυρετωδώς στα σημειωματάριά τους, σημειώνοντας πώς τέτοιες ενέργειες θα μπορούσαν να επηρεάσουν τη δημόσια γνώμη ακόμη και πριν από την ετυμηγορία. Τα στοιχεία δείχνουν ότι ο ύποπτος πέρασε μέσα από την ιστορία του θύματος. Αυτή η αποκάλυψη έπεσε σαν σφυρί, κόβοντας μέσα από τα προσεκτικά κατασκευασμένα επιχειρήματα της υπεράσπισης. Ο δικηγόρος της υπεράσπισης προσπάθησε να σφάξει την αξιοπιστία του μάρτυρα. Περιπατούσε στην αίθουσα, υψώνοντας τη φωνή του, αντιρρώντας συχνά και προσπαθώντας να ρίξει σκιές αμφιβολίας όπου μπορούσε, αν και η ένορκη επιτροπή φαινόταν όλο και πιο απιστευτική."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = [
+    "έδειχνε ένοχος σαν διάβολο",
+    "σφάξει την αξιοπιστία"
+  ];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

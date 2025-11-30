@@ -1,0 +1,41 @@
+{
+  "war_or_conflict": [
+    "bomba",
+    "cruzada",
+    "caçar",
+    "campo de batalha",
+    "zona de guerra"
+  ],
+  "disaster_or_catastrophe": [
+    "tempestade",
+    "pesadelo",
+    "revolução",
+    "maremoto",
+    "catástrofe",
+    "cataclismo",
+    "dizimar",
+    "devastação",
+    "irromper",
+    "implodir",
+    "inferno",
+    "colapso",
+    "tempestade perfeita",
+    "chover",
+    "mudança sísmica",
+    "despedaçar",
+    "onda de choque",
+    "tsunami",
+    "vulcânico"
+  ],
+  "social_or_cultural_critique": [
+    "corrupto",
+    "cultura tóxica",
+    "tempestade de controvérsia"
+  ],
+  "rapid_change_or_escalation": [
+    "inflamar",
+    "disparar",
+    "bater",
+    "tempestade"
+  ]
+}

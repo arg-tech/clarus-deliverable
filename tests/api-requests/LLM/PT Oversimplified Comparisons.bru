@@ -1,0 +1,53 @@
+meta {
+  name: PT Oversimplified Comparisons
+  type: http
+  seq: 25
+}
+
+post {
+  url: {{llmCallerUrl}}/analyze_oversimplified_comparison
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{vllmApiKey}}
+}
+
+body:json {
+  {
+    "text": "Frank era um touro em loja de porcelanas quando se tratava do seu novo emprego, quebrando desajeitadamente o protocolo e criando caos. Como um peixe fora d'água, ele lutava para se adaptar à cultura corporativa, suas tentativas de colaboração fracassando. Seu gerente, uma cobra na grama, parecia estar secretamente minando seus esforços, envenenando o moral da equipe com críticas sutis. O projeto, uma bomba-relógio, estava à beira de explodir, seus problemas complexos sendo ignorados na pressa para cumprir o prazo."
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["touro em loja de porcelanas", "peixe fora d'água", "cobra na grama", "bomba-relógio"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase.includes(phrase));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.some(ep => p.includes(ep)));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
+
+settings {
+  encodeUrl: false
+}

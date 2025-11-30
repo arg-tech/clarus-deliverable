@@ -1,0 +1,42 @@
+meta {
+  name: CS Euphemisms
+  type: http
+  seq: 17
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "Společnost provádí restrukturalizaci a personální změny. Zaměstnanec odešel mezi anděly a přešel na věčnost. Došlo k propouštění a ukončení pracovního poměru v rámci reorganizace týmu.",
+    "language": "cs"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["restrukturalizaci", "personální změny", "odešel mezi anděly", "přešel na věčnost", "propouštění", "ukončení pracovního poměru", "reorganizace týmu"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}

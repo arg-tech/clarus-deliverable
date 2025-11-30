@@ -1,0 +1,42 @@
+meta {
+  name: FI Euphemisms
+  type: http
+  seq: 15
+}
+
+post {
+  url: {{ruleBasedUrl}}/analyse
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "Yritys toteuttaa henkilöstön sopeuttamista ja organisaation tehostamista. Työntekijä poisnukkui ja siirtyi ajasta ikuisuuteen. Henkilöstövähennykset ja lomautukset ovat osa uudelleenjärjestelyä.",
+    "language": "fi"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = ["henkilöstön sopeuttamista", "organisaation tehostamista", "poisnukkui", "siirtyi ajasta ikuisuuteen", "henkilöstövähennykset", "lomautukset", "uudelleenjärjestelyä", "sopeuttamista", "osa"];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.detected_phrase === phrase);
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("No unexpected phrases should be returned", function () {
+    const actualPhrases = res.body.map(item => item.detected_phrase);
+    const unexpectedPhrases = actualPhrases.filter(p => !expectedPhrases.includes(p));
+    console.log("Unexpected phrases: ", unexpectedPhrases);
+    expect(unexpectedPhrases).to.be.empty;
+  });
+  
+  console.log('Body:', res.body);
+}
