@@ -73,7 +73,9 @@ services:
       - "7028:8000"
     restart: unless-stopped
     environment:
-      - LLM_URL=http://vllm-1.amfws.arg.tech
+      - LLM_URL=http://host.docker.internal:7060
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     secrets:
       - source: llm_api_key
         target: LLM_API_KEY.txt

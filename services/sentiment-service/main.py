@@ -31,7 +31,7 @@ async def analyse_text(request: AnalyseRequest) -> list[SentimentAnalysisResult]
     Endpoint to run analysis on the text.
     """
     try:
-        logger.info(f"Received text for analysis: {request.text}")
+        logger.info(f"Received text for analysis: {len(request.text.split())} words, language={request.language}")
 
         if request.language != "en" and request.language != "pt":
             logger.warning(f"Unsupported language '{request.language}'")
@@ -57,7 +57,7 @@ async def analyse_text(request: AnalyseRequest) -> list[SentimentAnalysisResult]
                 )
             )
             
-            logger.info(f"Processed sentence: {sentence} ⇒ {label} (p={prob:.2%}) [processing time: {(time.time() - start_time):.4f}s]")
+            logger.info(f"Processed sentence: {len(sentence.split())} words ⇒ {label} (p={prob:.2%}) [processing time: {(time.time() - start_time):.4f}s]")
         
         return results
     except Exception as e:
