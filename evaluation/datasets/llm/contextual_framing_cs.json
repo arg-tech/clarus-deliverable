@@ -1,0 +1,358 @@
+{
+  "indicator": "contextual_framing",
+  "language": "cs",
+  "samples": [
+    {
+      "text": "Vzhledem k jeho extremistickým názorům na sociálních sítích, bylo jen otázkou času, kdy se dopustí nějakého násilného činu. Obžalovaný, který se dříve vyjadřoval o nutnosti změny systému za každou cenu, se nyní hájí nevinností. Po sérii protestů a demonstrací, které organizoval, je jeho role v útoku na radnici naprosto zřejmá. Město bylo ten den klidné. Policie situaci monitorovala z povzdálí. S ohledem na jeho kriminální minulost a sklony k násilí je nepravděpodobné, že by se polepšil. Dívka byla v době incidentu na procházce. Proto je třeba přísně potrestat všechny, kdo se na útoku podíleli, aby se podobné události neopakovaly. Soudce se při svém rozhodování řídil pouze fakty. Ve světle rostoucího počtu extremistických skupin je nutné zpřísnit legislativu. Nyní, když jsou k dispozici nové důkazy, je jeho vina téměř nevyvratitelná.",
+      "expected": [
+        "Vzhledem k jeho extremistickým názorům na sociálních sítích, bylo jen otázkou času, kdy se dopustí nějakého násilného činu.",
+        "Po sérii protestů a demonstrací, které organizoval, je jeho role v útoku na radnici naprosto zřejmá.",
+        "S ohledem na jeho kriminální minulost a sklony k násilí je nepravděpodobné, že by se polepšil.",
+        "Proto je třeba přísně potrestat všechny, kdo se na útoku podíleli, aby se podobné události neopakovaly.",
+        "Ve světle rostoucího počtu extremistických skupin je nutné zpřísnit legislativu.",
+        "Nyní, když jsou k dispozici nové důkazy, je jeho vina téměř nevyvratitelná."
+      ]
+    },
+    {
+      "text": "Vzhledem k poklesu zisku společnosti se propouštění jeví jako nevyhnutelné. S ohledem na jeho dlouholeté zkušenosti ve vedení firmy se očekává, že bude schopen situaci stabilizovat. Po oznámení nových ekonomických opatření se trhy otřásly. Po zhodnocení dopadu inflace na kupní sílu obyvatelstva je zřejmé, že vláda bude muset přijmout další opatření. Státní rozpočet je v deficitu. Ve světle korupčních skandálů minulých let je důvěra veřejnosti v politiky velmi nízká. Ministr financí se k situaci odmítl vyjádřit. Proto je třeba zajistit transparentní hospodaření s veřejnými prostředky. Vláda usiluje o vyrovnaný rozpočet. Jelikoz se situace nelepší, je nutné provést hluboké strukturální reformy. Po deseti letech zanedbávání investic do infrastruktury je zřejmé, že se situace musí změnit.",
+      "expected": [
+        "Vzhledem k poklesu zisku společnosti se propouštění jeví jako nevyhnutelné.",
+        "S ohledem na jeho dlouholeté zkušenosti ve vedení firmy se očekává, že bude schopen situaci stabilizovat.",
+        "Po zhodnocení dopadu inflace na kupní sílu obyvatelstva je zřejmé, že vláda bude muset přijmout další opatření.",
+        "Ve světle korupčních skandálů minulých let je důvěra veřejnosti v politiky velmi nízká.",
+        "Proto je třeba zajistit transparentní hospodaření s veřejnými prostředky.",
+        "Jelikoz se situace nelepší, je nutné provést hluboké strukturální reformy.",
+        "Po deseti letech zanedbávání investic do infrastruktury je zřejmé, že se situace musí změnit."
+      ]
+    },
+    {
+      "text": "Vzhledem k jeho mládí a nedostatku zkušeností je nepravděpodobné, že by uspěl v tak náročné pozici. S ohledem na jeho sociální původ je jasné, že nikdy nepochopí problémy běžných lidí. Po zveřejnění informací o jeho majetkových poměrech se jeho image v očích veřejnosti značně poškodila. Jeho program je příliš radikální. Proto je třeba se obávat jeho nástupu k moci. Podle posledních průzkumů veřejného mínění si polepšil. Ve světle jeho kontroverzních výroků je otázkou, zda je vůbec schopen vést dialog s opozicí. Je to mladý a ambiciózní politik. Po desítkách let vlády jedné strany je změna nutná. Vzhledem k jeho vazbám na kontroverzní podnikatele je nepravděpodobné, že bude hájit zájmy občanů.",
+      "expected": [
+        "Vzhledem k jeho mládí a nedostatku zkušeností je nepravděpodobné, že by uspěl v tak náročné pozici.",
+        "S ohledem na jeho sociální původ je jasné, že nikdy nepochopí problémy běžných lidí.",
+        "Po zveřejnění informací o jeho majetkových poměrech se jeho image v očích veřejnosti značně poškodila.",
+        "Proto je třeba se obávat jeho nástupu k moci.",
+        "Ve světle jeho kontroverzních výroků je otázkou, zda je vůbec schopen vést dialog s opozicí.",
+        "Vzhledem k jeho vazbám na kontroverzní podnikatele je nepravděpodobné, že bude hájit zájmy občanů."
+      ]
+    },
+    {
+      "text": "Vzhledem k jeho nízkému věku a zkušenostem, je jasné, že nedokáže vést tým efektivně. Po sérii chyb a špatných rozhodnutí je jasné, že není vhodný pro tuto pozici. S ohledem na jeho minulost, kdy se dopustil řady podvodů, mu nelze důvěřovat. Po tom, co jsme slyšeli od ostatních kolegů, je jasné, že se neumí chovat profesionálně. Je důležité si uvědomit, že každý si zaslouží druhou šanci. Ve světle nových obvinění je však jeho pozice neudržitelná. Proto, by měl odstoupit co nejdříve, aby nepoškodil pověst firmy. Novináři kladli nepříjemné otázky. Jelikož to není poprvé, co se dopustil přešlapu, vedení firmy by ho mělo propustit. Nové vedení se snaží zlepšit image firmy.",
+      "expected": [
+        "Vzhledem k jeho nízkému věku a zkušenostem, je jasné, že nedokáže vést tým efektivně.",
+        "Po sérii chyb a špatných rozhodnutí je jasné, že není vhodný pro tuto pozici.",
+        "S ohledem na jeho minulost, kdy se dopustil řady podvodů, mu nelze důvěřovat.",
+        "Po tom, co jsme slyšeli od ostatních kolegů, je jasné, že se neumí chovat profesionálně.",
+        "Ve světle nových obvinění je však jeho pozice neudržitelná.",
+        "Proto, by měl odstoupit co nejdříve, aby nepoškodil pověst firmy.",
+        "Jelikož to není poprvé, co se dopustil přešlapu, vedení firmy by ho mělo propustit."
+      ]
+    },
+    {
+      "text": "Vzhledem k jeho problémové minulosti s drogami a alkoholem, není překvapivé, že se dopustil tohoto zločinu. Po sérii krádeží v okolí se obyvatelé cítí ohroženi. Jelikož se v minulosti dopustil násilných činů, je jasné, že je hrozbou pro společnost. S ohledem na jeho nízké vzdělání a nezaměstnanost je nepravděpodobné, že se dokáže integrovat do společnosti. Policisté zasahovali rychle. Ve světle těchto faktů je nutné ho přísně potrestat, aby se podobné činy neopakovaly. Proto je důležité, aby si odpykal trest ve vězení, aby se ochránila společnost. Měl modré tričko. Po opakovaných upozorněních, že se dopouští výtržnictví, je jeho chování neakceptovatelné. Soudce si poznamenával poznámky.",
+      "expected": [
+        "Vzhledem k jeho problémové minulosti s drogami a alkoholem, není překvapivé, že se dopustil tohoto zločinu.",
+        "Jelikož se v minulosti dopustil násilných činů, je jasné, že je hrozbou pro společnost.",
+        "S ohledem na jeho nízké vzdělání a nezaměstnanost je nepravděpodobné, že se dokáže integrovat do společnosti.",
+        "Ve světle těchto faktů je nutné ho přísně potrestat, aby se podobné činy neopakovaly.",
+        "Proto je důležité, aby si odpykal trest ve vězení, aby se ochránila společnost.",
+        "Po opakovaných upozorněních, že se dopouští výtržnictví, je jeho chování neakceptovatelné."
+      ]
+    },
+    {
+      "text": "Vzhledem k neustálému nárůstu cen energií je zřejmé, že dopad na chudé domácnosti bude devastující. S ohledem na neefektivní sociální systém je pravděpodobné, že se mnoho lidí ocitne pod hranicí chudoby. Po zprávách o korupci v sociálních službách klesla důvěra občanů v pomoc od státu. Město se připravuje na zimu. Tudíž, v kombinaci s klesajícími teplotami, situace nabývá katastrofických rozměrů. Lidé si stěžují na neúnosné životní náklady. Ve světle rostoucí nezaměstnanosti a nedostatku příležitostí pro mladé lidi se množí projevy nespokojenosti. Proto by vláda měla okamžitě jednat a přijmout konkrétní opatření na pomoc nejzranitelnějším skupinám obyvatelstva. Opoziční politici kritizují vládní politiku. Jelikož vláda nedokáže situaci zvládnout, je nutné ji odvolat a vyhlásit předčasné volby.",
+      "expected": [
+        "Vzhledem k neustálému nárůstu cen energií je zřejmé, že dopad na chudé domácnosti bude devastující.",
+        "S ohledem na neefektivní sociální systém je pravděpodobné, že se mnoho lidí ocitne pod hranicí chudoby.",
+        "Po zprávách o korupci v sociálních službách klesla důvěra občanů v pomoc od státu.",
+        "Tudíž, v kombinaci s klesajícími teplotami, situace nabývá katastrofických rozměrů.",
+        "Ve světle rostoucí nezaměstnanosti a nedostatku příležitostí pro mladé lidi se množí projevy nespokojenosti.",
+        "Proto by vláda měla okamžitě jednat a přijmout konkrétní opatření na pomoc nejzranitelnějším skupinám obyvatelstva.",
+        "Jelikož vláda nedokáže situaci zvládnout, je nutné ji odvolat a vyhlásit předčasné volby."
+      ]
+    },
+    {
+      "text": "Vzhledem k jeho dřívějším projevům xenofobie a rasismu, je jasné, že motiv jeho činu byl rasově motivovaný. Po sérii útoků na menšiny v okolí se obavy místních obyvatel stupňují. Jelikož je známo, že se stýká s radikálními skupinami, je jeho podíl na organizaci útoku téměř jistý. S ohledem na jeho nenávistné komentáře na sociálních sítích, je překvapivé, že nebyl dříve vyšetřován. Policisté shromažďují důkazy. Ve světle těchto událostí je nutné zpřísnit legislativu proti projevům nenávisti. Proto je třeba se postavit proti jakékoli formě rasismu a xenofobie a chránit menšiny v naší společnosti. Místní komunita se semkla. Jelikož se podobné útoky v minulosti opakovaly, je nutné posílit ochranu ohrožených skupin. Soudní řízení bude veřejné.",
+      "expected": [
+        "Vzhledem k jeho dřívějším projevům xenofobie a rasismu, je jasné, že motiv jeho činu byl rasově motivovaný.",
+        "Jelikož je známo, že se stýká s radikálními skupinami, je jeho podíl na organizaci útoku téměř jistý.",
+        "S ohledem na jeho nenávistné komentáře na sociálních sítích, je překvapivé, že nebyl dříve vyšetřován.",
+        "Ve světle těchto událostí je nutné zpřísnit legislativu proti projevům nenávisti.",
+        "Proto je třeba se postavit proti jakékoli formě rasismu a xenofobie a chránit menšiny v naší společnosti.",
+        "Jelikož se podobné útoky v minulosti opakovaly, je nutné posílit ochranu ohrožených skupin."
+      ]
+    },
+    {
+      "text": "Vzhledem k jeho hráčské vášni a dluhům je zřejmé, že zpronevěřil peníze společnosti. Po sérii sázek s vysokými částkami se jeho finanční situace rapidně zhoršovala. Jelikož byl pod velkým tlakem ze strany věřitelů, je zpronevěra logickým vyústěním situace. S ohledem na jeho přístup k práci a ignorování pravidel je překvapivé, že se to nestalo dříve. Společnost se snaží minimalizovat škody. Ve světle zjištěných skutečností bude propuštěn a čelí trestnímu stíhání. Proto je důležité, aby byl spravedlivě potrestán za své činy. Zaměstnanci jsou šokováni. Jelikož se nejedná o ojedinělý případ, společnost zpřísní interní kontrolu. Policie vyšetřuje případ.",
+      "expected": [
+        "Vzhledem k jeho hráčské vášni a dluhům je zřejmé, že zpronevěřil peníze společnosti.",
+        "Po sérii sázek s vysokými částkami se jeho finanční situace rapidně zhoršovala.",
+        "Jelikož byl pod velkým tlakem ze strany věřitelů, je zpronevěra logickým vyústěním situace.",
+        "S ohledem na jeho přístup k práci a ignorování pravidel je překvapivé, že se to nestalo dříve.",
+        "Ve světle zjištěných skutečností bude propuštěn a čelí trestnímu stíhání.",
+        "Proto je důležité, aby byl spravedlivě potrestán za své činy.",
+        "Jelikož se nejedná o ojedinělý případ, společnost zpřísní interní kontrolu."
+      ]
+    },
+    {
+      "text": "Vzhledem k jeho agresivnímu chování na hřišti a neustálým provokacím, je jasné, že si zaslouží červenou kartu. Po sérii faulů a urážek vůči rozhodčímu je jeho vyloučení nevyhnutelné. Jelikož se jedná o opakovaný problém, měl by dostat vyšší trest. S ohledem na jeho pověst problémového hráče, je překvapivé, že ho trenér nasadil do zápasu. Fanoušci bouřlivě protestují. Ve světle jeho chování je zřejmé, že poškozuje pověst klubu. Proto by měl být potrestán a zvážit ukončení kariéry. Hráči se snaží uklidnit situaci. Jelikož se jedná o klíčového hráče, jeho vyloučení negativně ovlivní výkon týmu. Zápas je velmi napínavý.",
+      "expected": [
+        "Vzhledem k jeho agresivnímu chování na hřišti a neustálým provokacím, je jasné, že si zaslouží červenou kartu.",
+        "Po sérii faulů a urážek vůči rozhodčímu je jeho vyloučení nevyhnutelné.",
+        "Jelikož se jedná o opakovaný problém, měl by dostat vyšší trest.",
+        "S ohledem na jeho pověst problémového hráče, je překvapivé, že ho trenér nasadil do zápasu.",
+        "Ve světle jeho chování je zřejmé, že poškozuje pověst klubu.",
+        "Proto by měl být potrestán a zvážit ukončení kariéry.",
+        "Jelikož se jedná o klíčového hráče, jeho vyloučení negativně ovlivní výkon týmu."
+      ]
+    },
+    {
+      "text": "Vzhledem k přetrvávajícímu suchu a nedostatku vody, je jasné, že úroda bude letos velmi slabá. Po sérii horkých dnů bez deště se situace zemědělců stává kritickou. Jelikož vláda nedostatečně podporuje zemědělství, je pokles úrody nevyhnutelný. S ohledem na globální klimatické změny a rostoucí sucho je nutné přijmout nová opatření. Lidé se obávají o budoucnost. Ve světle těchto okolností je nutné zajistit dotace pro zemědělce a podpořit zavlažovací systémy. Proto je důležité, aby vláda rychle jednala a zabránila krizi v zemědělství. Ceny potravin rostou. Jelikož se situace nelepší, hrozí nedostatek potravin a inflace. Ministr zemědělství jedná s odborníky.",
+      "expected": [
+        "Vzhledem k přetrvávajícímu suchu a nedostatku vody, je jasné, že úroda bude letos velmi slabá.",
+        "Po sérii horkých dnů bez deště se situace zemědělců stává kritickou.",
+        "Jelikož vláda nedostatečně podporuje zemědělství, je pokles úrody nevyhnutelný.",
+        "S ohledem na globální klimatické změny a rostoucí sucho je nutné přijmout nová opatření.",
+        "Ve světle těchto okolností je nutné zajistit dotace pro zemědělce a podpořit zavlažovací systémy.",
+        "Proto je důležité, aby vláda rychle jednala a zabránila krizi v zemědělství.",
+        "Jelikož se situace nelepší, hrozí nedostatek potravin a inflace."
+      ]
+    },
+    {
+      "text": "Vzhledem k neochote svedku vypovidat, je pripad stale zahalen tajemstvim. Místní obyvatelé se shodují, že se v okolí pohybuje podezřelá osoba. S ohledem na jeho predchozi tresty, se jeho vina zda byt jista. Nyní, kdyz se ukazalo, ze alibi obzalovaneho je falesne, se pripad obratil v jeho neprospech. Po letech poctivé práce se pan Novák rozhodl odejít do důchodu. Soudce nařídil psychologické vyšetření obžalovaného. Jelikož obžalovaný nemá stálé bydliště, nelze vyloučit útěk do zahraničí. Po prozkoumani kamerovych zaznamu je jasne, ze obzalovany byl v case spachani zlocinu na miste cinu. Soudni proces bude pokracovat pristi tyden. Proto soud rozhodl o prodloužení vazby obžalovaného.",
+      "expected": [
+        "Vzhledem k neochote svedku vypovidat, je pripad stale zahalen tajemstvim.",
+        "S ohledem na jeho predchozi tresty, se jeho vina zda byt jista.",
+        "Nyní, kdyz se ukazalo, ze alibi obzalovaneho je falesne, se pripad obratil v jeho neprospech.",
+        "Jelikož obžalovaný nemá stálé bydliště, nelze vyloučit útěk do zahraničí.",
+        "Po prozkoumani kamerovych zaznamu je jasne, ze obzalovany byl v case spachani zlocinu na miste cinu."
+      ]
+    },
+    {
+      "text": "S ohledem na klesajici preference volicu se ocekava zmena ve vedeni politicke strany. Kandidat slibil snizeni dani. Protoze jsou obcane nespokojeni s aktualni vladou, opozice nabira na sile. Ve svetle skandalu kolem financovani kampane je duveryhodnost kandidata otresena. Volebni stab se snazi mobilizovat volice. Nyni, kdyz se objevily nove dukazy o korupci, je budoucnost vladni koalice nejista. Vzhledem k tomu, ze se jedna o zkusenou politicku, jeji rozhodnuti o kandidature neprekvapuje. Nekteri politologove spekuluji o predcasnych volbach. Navzdory silne podpore v mestech je kandidatovi vycitano, ze se malo venuje venkovu. Nasledkem toho je jeho volebni vysledek nejasny.",
+      "expected": [
+        "S ohledem na klesajici preference volicu se ocekava zmena ve vedeni politicke strany.",
+        "Protoze jsou obcane nespokojeni s aktualni vladou, opozice nabira na sile.",
+        "Ve svetle skandalu kolem financovani kampane je duveryhodnost kandidata otresena.",
+        "Nyni, kdyz se objevily nove dukazy o korupci, je budoucnost vladni koalice nejista.",
+        "Vzhledem k tomu, ze se jedna o zkusenou politicku, jeji rozhodnuti o kandidature neprekvapuje.",
+        "Nasledkem toho je jeho volebni vysledek nejasny."
+      ]
+    },
+    {
+      "text": "Po zverejneni financnich vysledku spolecnosti akcie vyrazne klesly. V dusledku spatne investice do nove technologie firma zaznamenala vyrazne ztraty. Vzhledem k rustoucimu zadluzeni firmy je budoucnost spolecnosti nejista. Zamestnanci se obavaji propousteni. Protoze vlada zavedla nova danova opatreni, zisk spolecnosti se snizil. Ve svetle rostouci konkurence na trhu je tezke udrzet si pozici. Pri takovych podminkach je tezke udrzet firmu v cernych cislech. Spolecnost hleda nove investory. Nyni, kdyz se objevila krize, se vedení snaží najít úsporná opatření.",
+      "expected": [
+        "V dusledku spatne investice do nove technologie firma zaznamenala vyrazne ztraty.",
+        "Vzhledem k rustoucimu zadluzeni firmy je budoucnost spolecnosti nejista.",
+        "Protoze vlada zavedla nova danova opatreni, zisk spolecnosti se snizil.",
+        "Ve svetle rostouci konkurence na trhu je tezke udrzet si pozici.",
+        "Pri takovych podminkach je tezke udrzet firmu v cernych cislech.",
+        "Nyni, kdyz se objevila krize, se vedení snaží najít úsporná opatření."
+      ]
+    },
+    {
+      "text": "Vzhledem k jeho problematické minulosti se mu jen těžko věří. Po letech strávených ve vězení se snaží začlenit zpět do společnosti. Ve světle jeho násilných činů je strach obyvatel pochopitelný. Po propuštění z vězení se dopustil dalšího trestného činu. Zpravy o nasilnych utocich se objevuji casteji. Proto je verejnost k nemu skepticka. Pri pohledu na jeho tetovani a piercingy se zdá být nebezpečný. Nyni, kdyz nema praci a bydleni, je pravdepodobnost recidivy vysoka. Mnoho lidi ho odsuzuje. Vzhledem k tomu, ze nikoho nezna, je socializace velmi obtizna.",
+      "expected": [
+        "Vzhledem k jeho problematické minulosti se mu jen těžko věří.",
+        "Ve světle jeho násilných činů je strach obyvatel pochopitelný.",
+        "Proto je verejnost k nemu skepticka.",
+        "Pri pohledu na jeho tetovani a piercingy se zdá být nebezpečný.",
+        "Nyni, kdyz nema praci a bydleni, je pravdepodobnost recidivy vysoka.",
+        "Vzhledem k tomu, ze nikoho nezna, je socializace velmi obtizna."
+      ]
+    },
+    {
+      "text": "Vzhledem k jeho nizkemu IQ neni schopen provadet slozite operace. Po absolvovani zakladni skoly je jeho dalsi vzdelani omezeno. Ve svetle jeho nemoci je prace v dolech pro nej nemozna. Pri takovem handicapu je tezke najit zamestnani. Mnoho lidi se ho snazi podporit. Jelikoz nema rodinu, stat se o nej musi postarat. Vzhledem k nedostatku financnich prostredku je jeho zivot velmi tezky. Nyni, kdyz je invalidni, je zavisly na pomoci druhych. Zije v male vesnici. Kvuli memu postizeni jsem nemohl studovat na vysoke skole.",
+      "expected": [
+        "Vzhledem k jeho nizkemu IQ neni schopen provadet slozite operace.",
+        "Ve svetle jeho nemoci je prace v dolech pro nej nemozna.",
+        "Pri takovem handicapu je tezke najit zamestnani.",
+        "Jelikoz nema rodinu, stat se o nej musi postarat.",
+        "Vzhledem k nedostatku financnich prostredku je jeho zivot velmi tezky.",
+        "Nyni, kdyz je invalidni, je zavisly na pomoci druhych."
+      ]
+    },
+    {
+      "text": "Vzhledem k jeho rasovemu puvodu je automaticky povazovan za podezreleho. Po prichodu do noveho mesta se setkal s diskriminaci. Ve svetle jeho jine kultury je pro neho tezke se integrovat. Jelikoz nerozumi jazyku, ma problemy s komunikaci. Pri takovych okolnostech je tezke si najit pratele. Mnoho lidi mu chce pomoci. Vzhledem k tomu, ze pochazi z chude zeme, je jeho zivot velmi obtizny. Nyni, kdyz zije v cizine, se musi potykat s mnoha problemy. Nasledkem toho se citi osamely.",
+      "expected": [
+        "Vzhledem k jeho rasovemu puvodu je automaticky povazovan za podezreleho.",
+        "Ve svetle jeho jine kultury je pro neho tezke se integrovat.",
+        "Jelikoz nerozumi jazyku, ma problemy s komunikaci.",
+        "Pri takovych okolnostech je tezke si najit pratele.",
+        "Vzhledem k tomu, ze pochazi z chude zeme, je jeho zivot velmi obtizny.",
+        "Nyni, kdyz zije v cizine, se musi potykat s mnoha problemy.",
+        "Nasledkem toho se citi osamely."
+      ]
+    },
+    {
+      "text": "Majíc na paměti jeho předchozí prohřešky, není překvapivé, že se k činu opět uchýlil. Město se pomalu probouzí do nového dne. Vycházeje z jeho agresivního chování, bylo jen otázkou času, kdy někoho napadne. S ohledem na jeho finanční problémy, je motiv k loupeži zřejmý. Svědci incidentu tvrdí, že viděli prchat podezřelou osobu. Po zhlédnutí záznamů z kamer, je zřejmé, že se na místě činu pohyboval. Nyní, když má problémy s alkoholem, jeho chování je nepředvídatelné. Proto se mu raději vyhýbám.",
+      "expected": [
+        "Majíc na paměti jeho předchozí prohřešky, není překvapivé, že se k činu opět uchýlil.",
+        "Vycházeje z jeho agresivního chování, bylo jen otázkou času, kdy někoho napadne.",
+        "S ohledem na jeho finanční problémy, je motiv k loupeži zřejmý.",
+        "Po zhlédnutí záznamů z kamer, je zřejmé, že se na místě činu pohyboval.",
+        "Nyní, když má problémy s alkoholem, jeho chování je nepředvídatelné."
+      ]
+    },
+    {
+      "text": "S ohledem na jeho mladý věk je úžasné, jak je talentovaný. Po vyhrání několika soutěží je jasné, že má velký potenciál. Má skvělé výkony. Ve světle jeho tvrdé práce a odhodlání je úspěch zasloužený. Jelikož trénuje každý den, jeho pokrok je rychlý. Proto se očekává, že se stane světovým šampionem. Pri pohledu na jeho skromné začátky, je jeho kariéra obdivuhodná. Nyní, když má podporu rodiny a přátel, nic mu nebrání v dalším růstu. Jeho trenér ho velmi chválí.",
+      "expected": [
+        "S ohledem na jeho mladý věk je úžasné, jak je talentovaný.",
+        "Po vyhrání několika soutěží je jasné, že má velký potenciál.",
+        "Ve světle jeho tvrdé práce a odhodlání je úspěch zasloužený.",
+        "Jelikož trénuje každý den, jeho pokrok je rychlý.",
+        "Proto se očekává, že se stane světovým šampionem.",
+        "Pri pohledu na jeho skromné začátky, je jeho kariéra obdivuhodná."
+      ]
+    },
+    {
+      "text": "Ve světle nové legislativy je mnoho lidí nejistých ohledně svých práv. Po ratifikaci smlouvy se očekává zvýšený obchod mezi oběma zeměmi. Vzhledem k jeho kontroverzním názorům je často terčem kritiky. Jeho projev byl velmi silny. Jelikoz nikdy nepracoval, nema zadne uspory. Proto se ocitl v tezké životní situaci. Po ztrátě zaměstnání se snaží najít nové. Ve svetle jeho predchoziho uspesneho podnikani se ocakava, ze sa mu podari znova. Nyni, kdyz se ekonomika zotavuje, ma vetsi sance. Odbornici se shoduji, ze nas cekaji lepsi zitrky.",
+      "expected": [
+        "Ve světle nové legislativy je mnoho lidí nejistých ohledně svých práv.",
+        "Po ratifikaci smlouvy se očekává zvýšený obchod mezi oběma zeměmi.",
+        "Vzhledem k jeho kontroverzním názorům je často terčem kritiky.",
+        "Jelikoz nikdy nepracoval, nema zadne uspory.",
+        "Proto se ocitl v tezké životní situaci.",
+        "Ve svetle jeho predchoziho uspesneho podnikani se ocakava, ze sa mu podari znova."
+      ]
+    },
+    {
+      "text": "S ohledem na narůstající počet případů kyberšikany je nutné zpřísnit online bezpečnost. Po medializaci případu se případem začala zabývat policie. Mnoho mladistvych zije na internetu. Ve svetle jeho problemu s drogami, se rodina rozhodla pro odvykaci kur. Pri takovychto problemech je obtizne se sam vylizat. Nyni, kdyz je v odvykacim zarizeni, je v rukou odborniku. Jelikoz se v minulosti dopustil kradezi, je velmi podezrivy. V dusledku jeho kriminalni minulosti, je mu odeprena zadost o pas. Mnoho lidi ho odsoudilo. Ve svetle jeho snahy se zmenit, se mu nekteri snazi pomoct.",
+      "expected": [
+        "S ohledem na narůstající počet případů kyberšikany je nutné zpřísnit online bezpečnost.",
+        "Ve svetle jeho problemu s drogami, se rodina rozhodla pro odvykaci kur.",
+        "Nyni, kdyz je v odvykacim zarizeni, je v rukou odborniku.",
+        "Jelikoz se v minulosti dopustil kradezi, je velmi podezrivy.",
+        "V dusledku jeho kriminalni minulosti, je mu odeprena zadost o pas.",
+        "Ve svetle jeho snahy se zmenit, se mu nekteri snazi pomoct."
+      ]
+    },
+    {
+      "text": "Vzhledem k dlouhodobym problemum s financovanim skolstvi je pokles kvality vzdelavani nevyhnutelny. Ministerstvo slibovalo reformy, ale skutky stale chybi. Ucitelé jsou pretezovani a platy nedostatecne. Po zverejneni nove zpravy o stavu skolstvi je jasne, ze se situace zhorsuje. S ohledem na nizkou motivaci studentu a nedostatek podpory rodicu se vysledky v testech stale zhoršuji. V dusledku toho se snizuje konkurenceschopnost zeme. Je třeba si uvědomit, že se jedná o komplexní problém, který vyžaduje komplexní řešení. Kdyz uz se nic nedela, budoucnost je nejista. Vychazejic z predchozich zkusenosti s reformami, i tato zrejme selze. Venku je hezky den. Zitra bude prset.",
+      "expected": [
+        "Vzhledem k dlouhodobym problemum s financovanim skolstvi je pokles kvality vzdelavani nevyhnutelny.",
+        "Po zverejneni nove zpravy o stavu skolstvi je jasne, ze se situace zhorsuje.",
+        "S ohledem na nizkou motivaci studentu a nedostatek podpory rodicu se vysledky v testech stale zhoršuji.",
+        "V dusledku toho se snizuje konkurenceschopnost zeme.",
+        "Kdyz uz se nic nedela, budoucnost je nejista.",
+        "Vychazejic z predchozich zkusenosti s reformami, i tato zrejme selze."
+      ]
+    },
+    {
+      "text": "Po nedavnych teroristickych utocich je zrejme, ze prisna bezpecnostni opatreni jsou nezbytna. Vzhledem k otevrenym hranicim je zeme zranitelna. V dusledku toho je nutne posilit ochranu hranic a zprisnit kontroly. Jelikoz se mezi uprchliky mohou skryvat teroriste, je třeba provadet dukladne prověrovani. S ohledem na rostouci pocet extremistickych skupin je třeba monitorovat radikalni ideology. Vzhledem k neucinnosti integracnich programu roste napeti ve spolecnosti. S ohledem na kulturní rozdíly je soužití obtížné. Po projevu predsedy vlády se verejnost rozdělila na dva tábory. Proto bude zavedeni navrhu zakona problematicke. Vcera jsem jedl obed. Venku svitilo slunce.",
+      "expected": [
+        "Po nedavnych teroristickych utocich je zrejme, ze prisna bezpecnostni opatreni jsou nezbytna.",
+        "Vzhledem k otevrenym hranicim je zeme zranitelna.",
+        "V dusledku toho je nutne posilit ochranu hranic a zprisnit kontroly.",
+        "Jelikoz se mezi uprchliky mohou skryvat teroriste, je třeba provadet dukladne prověrovani.",
+        "S ohledem na rostouci pocet extremistickych skupin je třeba monitorovat radikalni ideology.",
+        "Vzhledem k neucinnosti integracnich programu roste napeti ve spolecnosti.",
+        "S ohledem na kulturní rozdíly je soužití obtížné."
+      ]
+    },
+    {
+      "text": "Vzhledem k silnemu vlivu lobbingu na politicke rozhodovani je korupce v teto zemi nevyhnutelna. Po zverejneni noveho skandalu je jasne, ze politika a byznys jsou propletene. V dusledku toho je duvera verejnosti v politiky minimalni. Jelikoz politici slibuji reformy, ale skutky chybi, je situace beznadejna. S ohledem na nedostatek transparentnosti ve verejnych zakazkach se penize danovych poplatniku rozkradaji. Pri pohledu na majetkove priznani politiku je jasne, ze se obohacuji na ukor verejnosti. Na stole lezi kniha. Proto je treba zasadni zmena. Vzhledem k tomu, ze soudy jsou pomale, pachatele unikaji trestu.  S ohledem na medialni tlak jsou politici nuceni k nepopularnim rozhodnutim.",
+      "expected": [
+        "Vzhledem k silnemu vlivu lobbingu na politicke rozhodovani je korupce v teto zemi nevyhnutelna.",
+        "Po zverejneni noveho skandalu je jasne, ze politika a byznys jsou propletene.",
+        "V dusledku toho je duvera verejnosti v politiky minimalni.",
+        "Jelikoz politici slibuji reformy, ale skutky chybi, je situace beznadejna.",
+        "S ohledem na nedostatek transparentnosti ve verejnych zakazkach se penize danovych poplatniku rozkradaji.",
+        "Pri pohledu na majetkove priznani politiku je jasne, ze se obohacuji na ukor verejnosti.",
+        "Vzhledem k tomu, ze soudy jsou pomale, pachatele unikaji trestu."
+      ]
+    },
+    {
+      "text": "Po neuspesnem pokusu o prevrat je zrejme, ze opozice je slaba a rozdelena. Vzhledem k autoritarskemu stylu vladnuti je jakykoli odpor nemozny. V dusledku toho se zeme blizi k totalite. Jelikoz vladni media siri propagandu, je tezke ziskat objektivni informace. S ohledem na porusovani lidskych prav je zeme izolovana od mezinarodniho spolecenstvi. Vzhledem k ekonomickym problemum roste nespokojenost obyvatelstva. Pri pohledu na zmanipulovane volby je jasne, ze demokracie v teto zemi neexistuje. Obloha je modra. Prave zacalo prset. Kdyz uz se situace nezmeni, zeme bude znicena.",
+      "expected": [
+        "Po neuspesnem pokusu o prevrat je zrejme, ze opozice je slaba a rozdelena.",
+        "Vzhledem k autoritarskemu stylu vladnuti je jakykoli odpor nemozny.",
+        "V dusledku toho se zeme blizi k totalite.",
+        "Jelikoz vladni media siri propagandu, je tezke ziskat objektivni informace.",
+        "S ohledem na porusovani lidskych prav je zeme izolovana od mezinarodniho spolecenstvi.",
+        "Vzhledem k ekonomickym problemum roste nespokojenost obyvatelstva.",
+        "Pri pohledu na zmanipulovane volby je jasne, ze demokracie v teto zemi neexistuje.",
+        "Kdyz uz se situace nezmeni, zeme bude znicena."
+      ]
+    },
+    {
+      "text": "Vzhledem k rozsirene korupci ve fotbale je vysledek kazdeho zapasu pochybny. Po poslednim skandalu s uplacenymi rozhodcimi je zrejme, ze je treba zasadni reforma. V dusledku toho ztraci fotbal duveru fanousku. Jelikoz hraci simuluji a podvadeji, je sport zkazeny. S ohledem na agresivni chovani fanousku je navsteva zapasu nebezpecna. Kdyz uz se nic nezmeni, fotbal ztratí svou popularitu. Vcera jsem videl film. V dusledku spatnych treninku se hraci casto zranuji. Vzhledem k medialni kampani je jasne, ze se neco deje.",
+      "expected": [
+        "Vzhledem k rozsirene korupci ve fotbale je vysledek kazdeho zapasu pochybny.",
+        "Po poslednim skandalu s uplacenymi rozhodcimi je zrejme, ze je treba zasadni reforma.",
+        "V dusledku toho ztraci fotbal duveru fanousku.",
+        "Jelikoz hraci simuluji a podvadeji, je sport zkazeny.",
+        "S ohledem na agresivni chovani fanousku je navsteva zapasu nebezpecna.",
+        "Kdyz uz se nic nezmeni, fotbal ztratí svou popularitu.",
+        "V dusledku spatnych treninku se hraci casto zranuji.",
+        "Vzhledem k medialni kampani je jasne, ze se neco deje."
+      ]
+    },
+    {
+      "text": "S ohledem na narustajici pocet pripadu domaciho nasili, je zrejme, ze soucasny system ochrany obeti je nedostatecny. Po zverejneni statistiky je jasne, ze vetsina obeti se boji nasili nahlasit. V dusledku toho je treba posilit podporu obetem a zprisnit tresty pro pachatele. Jelikoz pachatele casto ziskavaji nizke tresty, domaci nasili se opakuje. Vzhledem k nedostatku financnich prostredku pro socialni sluzby se obetem nedostava adekvatni pomoci. Pri takovemto postoju spolecnosti k domacimu nasili nelze ocekavat, ze pocet pripadu klesne. Kdyz uz se deti stanou svedky domaciho nasili, nesou si trauma po zbytek zivota. Zitra pujdu behat. Po zkusenostech z detstvi se obeti obtizne zbavuji strachu. S ohledem na medialni kampan bude problem videt.",
+      "expected": [
+        "S ohledem na narustajici pocet pripadu domaciho nasili, je zrejme, ze soucasny system ochrany obeti je nedostatecny.",
+        "Po zverejneni statistiky je jasne, ze vetsina obeti se boji nasili nahlasit.",
+        "V dusledku toho je treba posilit podporu obetem a zprisnit tresty pro pachatele.",
+        "Jelikoz pachatele casto ziskavaji nizke tresty, domaci nasili se opakuje.",
+        "Vzhledem k nedostatku financnich prostredku pro socialni sluzby se obetem nedostava adekvatni pomoci.",
+        "Pri takovemto postoju spolecnosti k domacimu nasili nelze ocekavat, ze pocet pripadu klesne.",
+        "Kdyz uz se deti stanou svedky domaciho nasili, nesou si trauma po zbytek zivota.",
+        "Po zkusenostech z detstvi se obeti obtizne zbavuji strachu.",
+        "S ohledem na medialni kampan bude problem videt."
+      ]
+    },
+    {
+      "text": "Vzhledem k neustalemu rustu cen energii je nutne podporit obnovitelne zdroje. Po zverejneni nove studie o dopadu zmeny klimatu je jasne, ze je třeba jednat rychle. V dusledku toho je nutne investovat do vyvoje novych technologii. Jelikoz konvencni zdroje energie jsou vycerpatelne, budoucnost patri obnovitelnym zdrojum. S ohledem na negativni dopad spalovani fosilnich paliv na zivotni prostredi je treba prejit na cistší zdroje. Pri takovem zanedbavani zivotniho prostredi bude budoucnost lidstva ohrozena. Zitra pujdu do kina. Kdyz uz se nic nezmeni, ceka nas katastrofa. S ohledem na rostouci pocet ekologickych aktivistu je jasne, ze lide chteji zmenu.",
+      "expected": [
+        "Vzhledem k neustalemu rustu cen energii je nutne podporit obnovitelne zdroje.",
+        "Po zverejneni nove studie o dopadu zmeny klimatu je jasne, ze je třeba jednat rychle.",
+        "V dusledku toho je nutne investovat do vyvoje novych technologii.",
+        "Jelikoz konvencni zdroje energie jsou vycerpatelne, budoucnost patri obnovitelnym zdrojum.",
+        "S ohledem na negativni dopad spalovani fosilnich paliv na zivotni prostredi je treba prejit na cistší zdroje.",
+        "Pri takovem zanedbavani zivotniho prostredi bude budoucnost lidstva ohrozena.",
+        "Kdyz uz se nic nezmeni, ceka nas katastrofa.",
+        "S ohledem na rostouci pocet ekologickych aktivistu je jasne, ze lide chteji zmenu."
+      ]
+    },
+    {
+      "text": "Po zverejneni informaci o financnich problemech firmy je zrejme, ze je na pokraji bankrotu. Vzhledem k spatnemu vedeni firmy je jeji krach nevyhnutelny. V dusledku toho prijde mnoho lidi o praci. Jelikoz management firmy delal spatna rozhodnuti, situace je kriticka. S ohledem na pokles tržeb je firma nucena propoustet zamestnance. Pri takovemto pristupu managementu nemuze firma prezit. Venku prsi. Na konferenci zaznel zajimavy projev. Kdyz uz se nenajde investor, firma zanikne.",
+      "expected": [
+        "Po zverejneni informaci o financnich problemech firmy je zrejme, ze je na pokraji bankrotu.",
+        "Vzhledem k spatnemu vedeni firmy je jeji krach nevyhnutelny.",
+        "V dusledku toho prijde mnoho lidi o praci.",
+        "Jelikoz management firmy delal spatna rozhodnuti, situace je kriticka.",
+        "S ohledem na pokles tržeb je firma nucena propoustet zamestnance.",
+        "Pri takovemto pristupu managementu nemuze firma prezit.",
+        "Kdyz uz se nenajde investor, firma zanikne."
+      ]
+    },
+    {
+      "text": "Vzhledem k dramatickemu nárůstu kybernetických útoků na kritickou infrastrukturu, je zřejmé, že současná opatření nejsou dostatečná. Po odhalení zranitelnosti v systému národní energetické sítě je jasné, že jsme v ohrožení. V důsledku toho je nezbytné urychleně investovat do kybernetické bezpečnosti. Jelikoz státní instituce jsou často cílem útoků, je třeba posílit jejich obranyschopnost. S ohledem na rostoucí sofistikovanost hackerů je třeba neustále aktualizovat bezpečnostní protokoly. Kdyz uz se nezavedou účinná opatření, může dojít k paralyzování chodu země.  Dneska je krásné počasí. Po analýze rizik je nutné přehodnotit stávající strategii. S ohledem na mezinárodní spolupráci je třeba sdílet informace o hrozbách.",
+      "expected": [
+        "Vzhledem k dramatickemu nárůstu kybernetických útoků na kritickou infrastrukturu, je zřejmé, že současná opatření nejsou dostatečná.",
+        "Po odhalení zranitelnosti v systému národní energetické sítě je jasné, že jsme v ohrožení.",
+        "V důsledku toho je nezbytné urychleně investovat do kybernetické bezpečnosti.",
+        "Jelikoz státní instituce jsou často cílem útoků, je třeba posílit jejich obranyschopnost.",
+        "S ohledem na rostoucí sofistikovanost hackerů je třeba neustále aktualizovat bezpečnostní protokoly.",
+        "Kdyz uz se nezavedou účinná opatření, může dojít k paralyzování chodu země.",
+        "Po analýze rizik je nutné přehodnotit stávající strategii.",
+        "S ohledem na mezinárodní spolupráci je třeba sdílet informace o hrozbách."
+      ]
+    },
+    {
+      "text": "Vzhledem k dlouhodobe neudrzitelnosti statniho duchodoveho systemu, je nevyhnutelne zvyseni veku odchodu do duchodu. Po prozkoumani demografickych trendu je jasne, ze pocet pracujicich se snizuje a pocet duchodcu zvysuje. V dusledku toho bude statni rozpocet zatizen obrovskymi vydaji. Jelikoz soucasny system je zalozen na prubeznem financovani, je ohrozen kolapsem. S ohledem na nizkou porodnost a prodluzovani lidskeho veku je treba provest zasadni reformy. Pri takovem postoji politiku, kteri se boji nepopularnich opatreni, dojde ke krachu systemu. Dneska jsem uvaril obed. Kdyz uz se neprovedou reformy, budou muset mladi lide platit na duchody vice. Po predchozich negativnich zkusenostech s reformami, je verejnost skepticka. S ohledem na medialni spekulace je verejnost znepokojena.",
+      "expected": [
+        "Vzhledem k dlouhodobe neudrzitelnosti statniho duchodoveho systemu, je nevyhnutelne zvyseni veku odchodu do duchodu.",
+        "Po prozkoumani demografickych trendu je jasne, ze pocet pracujicich se snizuje a pocet duchodcu zvysuje.",
+        "V dusledku toho bude statni rozpocet zatizen obrovskymi vydaji.",
+        "Jelikoz soucasny system je zalozen na prubeznem financovani, je ohrozen kolapsem.",
+        "S ohledem na nizkou porodnost a prodluzovani lidskeho veku je treba provest zasadni reformy.",
+        "Pri takovem postoji politiku, kteri se boji nepopularnich opatreni, dojde ke krachu systemu.",
+        "Kdyz uz se neprovedou reformy, budou muset mladi lide platit na duchody vice.",
+        "Po predchozich negativnich zkusenostech s reformami, je verejnost skepticka.",
+        "S ohledem na medialni spekulace je verejnost znepokojena."
+      ]
+    }
+  ]
+}

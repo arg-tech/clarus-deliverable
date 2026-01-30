@@ -1,0 +1,354 @@
+{
+  "indicator": "contextual_framing",
+  "language": "fi",
+  "samples": [
+    {
+      "text": "Tapauksen vakavuuden vuoksi tuomari päätti pitää syytetyn edelleen vangittuna. Ottaen huomioon aiemmat väkivaltaiset teot, oli selvää, että syytetty muodosti vakavan uhan yhteiskunnalle. Hänen päihderiippuvuutensa vuoksi, syytetyn kyky toimia järkevästi oli heikentynyt. Siksi todistajanlausunto oli ristiriitainen. Syytetty itse oli hiljaa koko oikeudenkäynnin ajan. Puolustuksen näkökulmasta, syytetty oli vain väärässä paikassa väärään aikaan. Hänen taloudellisten vaikeuksiensa valossa, oli ymmärrettävää, että syytetty turvautui epätoivoisiin toimenpiteisiin. Poliisi suoritti perusteellisen tutkinnan rikospaikalla. Loppujen lopuksi, syytetty tuomittiin useista rikoksista. Tämä antaa signaalin siitä, että oikeus toteutuu. Ottaen huomioon kaikki todisteet, tuomio oli oikea.",
+      "expected": [
+        "Tapauksen vakavuuden vuoksi tuomari päätti pitää syytetyn edelleen vangittuna.",
+        "Ottaen huomioon aiemmat väkivaltaiset teot, oli selvää, että syytetty muodosti vakavan uhan yhteiskunnalle.",
+        "Hänen päihderiippuvuutensa vuoksi, syytetyn kyky toimia järkevästi oli heikentynyt.",
+        "Hänen taloudellisten vaikeuksiensa valossa, oli ymmärrettävää, että syytetty turvautui epätoivoisiin toimenpiteisiin.",
+        "Ottaen huomioon kaikki todisteet, tuomio oli oikea."
+      ]
+    },
+    {
+      "text": "Hallituksen epäonnistuneen talouspolitiikan vuoksi työttömyys on kasvanut ennätyslukemiin. Koska korruptio on laajalle levinnyttä, kansalaisten luottamus poliitikkoihin on heikentynyt. Tällaisella vastuuttomalla rahankäytöllä maa ajautuu väistämättä syvempään velkakriisiin. Oppositio on vaatinut pääministerin eroa. Ottaen huomioon hallituksen kyvyttömyyden ratkaista ongelmia, ennenaikaiset vaalit ovat todennäköiset. Kansalaisjärjestöt ovat ilmaisseet huolensa ihmisoikeuksien tilanteesta. Maan rajat ovat edelleen auki pakolaisille. Näin ollen sosiaaliturvajärjestelmä on ylikuormittunut. Asiantuntijoiden mukaan talouskasvu on hidastunut entisestään. Kansan tyytymättömyyden vuoksi protestit ovat lisääntyneet eri puolilla maata. Kansainvälinen yhteisö on ilmaissut huolensa tilanteesta. Koska hallitus ei ole onnistunut uudistuksissa, maan tulevaisuus näyttää epävarmalta.",
+      "expected": [
+        "Hallituksen epäonnistuneen talouspolitiikan vuoksi työttömyys on kasvanut ennätyslukemiin.",
+        "Koska korruptio on laajalle levinnyttä, kansalaisten luottamus poliitikkoihin on heikentynyt.",
+        "Tällaisella vastuuttomalla rahankäytöllä maa ajautuu väistämättä syvempään velkakriisiin.",
+        "Ottaen huomioon hallituksen kyvyttömyyden ratkaista ongelmia, ennenaikaiset vaalit ovat todennäköiset.",
+        "Näin ollen sosiaaliturvajärjestelmä on ylikuormittunut.",
+        "Kansan tyytymättömyyden vuoksi protestit ovat lisääntyneet eri puolilla maata.",
+        "Koska hallitus ei ole onnistunut uudistuksissa, maan tulevaisuus näyttää epävarmalta."
+      ]
+    },
+    {
+      "text": "Joukkueen heikon puolustuksen vuoksi tappio oli odotettavissa. Ottaen huomioon valmentajan umpimähkäiset ratkaisut, joukkueen suorituskyky on heikentynyt merkittävästi. Seuran taloudellisten ongelmien valossa, pelaajien moraali on laskenut. Pelaajat ovat pettyneitä joukkueeseen. Tällaisella huonolla johtamisella joukkue ei tule koskaan saavuttamaan menestystä. Fanit ovat turhautuneita. Ottaen huomioon vastustajan vahvuuden, ottelu oli alusta alkaen vaikea. Lopulta joukkue hävisi ottelun murskaluvuin. Tästä huolimatta, jotkut pelaajat antoivat kaikkensa. Joukkueen huonon suorituksen takia valmentajaa syytetään epäonnistumisesta. Katsellessa joukkueen historiaa, menestys ei ole koskaan ollut taattua. Näin ollen joukkueen tulevaisuus näyttää synkältä.",
+      "expected": [
+        "Joukkueen heikon puolustuksen vuoksi tappio oli odotettavissa.",
+        "Ottaen huomioon valmentajan umpimähkäiset ratkaisut, joukkueen suorituskyky on heikentynyt merkittävästi.",
+        "Seuran taloudellisten ongelmien valossa, pelaajien moraali on laskenut.",
+        "Tällaisella huonolla johtamisella joukkue ei tule koskaan saavuttamaan menestystä.",
+        "Ottaen huomioon vastustajan vahvuuden, ottelu oli alusta alkaen vaikea.",
+        "Joukkueen huonon suorituksen takia valmentajaa syytetään epäonnistumisesta.",
+        "Katsellessa joukkueen historiaa, menestys ei ole koskaan ollut taattua.",
+        "Näin ollen joukkueen tulevaisuus näyttää synkältä."
+      ]
+    },
+    {
+      "text": "Yrityksen huonon maineen vuoksi asiakkaat ovat alkaneet karttaa sen tuotteita. Koska johto on epäpätevä, työntekijöiden motivaatio on laskenut. Tällaisella lyhytnäköisellä strategialla yritys ajautuu väistämättä konkurssiin. Kilpailu alalla on kovaa. Ottaen huomioon taloudellisen taantuman, yrityksen tulos on heikentynyt. Työntekijät pelkäävät työpaikkansa puolesta. Tästä syystä työntekijät hakeutuvat uusiin töihin. Yrityksen osakekurssi on laskenut jyrkästi. Ottaen huomioon johdon huonot päätökset, yrityksen tulevaisuus näyttää epävarmalta. Yritys on yrittänyt parantaa tilannettaan, mutta tuloksetta. Kilpailijat ovat onnistuneet vakiinnuttamaan asemansa. Yrityksen menneisyyden perusteella sen on vaikea saada uusia asiakkaita. Siksi yrityksellä on edessään haastavat ajat.",
+      "expected": [
+        "Yrityksen huonon maineen vuoksi asiakkaat ovat alkaneet karttaa sen tuotteita.",
+        "Koska johto on epäpätevä, työntekijöiden motivaatio on laskenut.",
+        "Tällaisella lyhytnäköisellä strategialla yritys ajautuu väistämättä konkurssiin.",
+        "Ottaen huomioon taloudellisen taantuman, yrityksen tulos on heikentynyt.",
+        "Tästä syystä työntekijät hakeutuvat uusiin töihin.",
+        "Ottaen huomioon johdon huonot päätökset, yrityksen tulevaisuus näyttää epävarmalta.",
+        "Yrityksen menneisyyden perusteella sen on vaikea saada uusia asiakkaita.",
+        "Siksi yrityksellä on edessään haastavat ajat."
+      ]
+    },
+    {
+      "text": "Uuden lain vuoksi monet ihmiset ovat menettäneet työpaikkansa. Ottaen huomioon poliitikkojen epärehellisyyden, kansalaiset ovat menettäneet uskonsa järjestelmään. Tällaisella suvaitsemattomuudella yhteiskunta ajautuu kohti jakautumista. Ihmiset ovat pettyneitä poliitikkoihin. Katsoen uusia tutkimuksia, ilmastonmuutos on todellinen uhka. Monet ihmiset ovat huolissaan tulevaisuudesta. Epätasa-arvon vuoksi monet ihmiset kamppailevat toimeentulon kanssa. Näin ollen rikollisuus on lisääntynyt. Valtio tekee kaikkensa kansalaisten hyvinvoinnin eteen. Ottaen huomioon resurssien rajallisuuden, valtion on vaikea ratkaista kaikkia ongelmia. Elämän odotetaan olevan jatkuvaa kamppailua. Ihmisten kärsimyksen vuoksi on aika vaatia muutosta.",
+      "expected": [
+        "Uuden lain vuoksi monet ihmiset ovat menettäneet työpaikkansa.",
+        "Ottaen huomioon poliitikkojen epärehellisyyden, kansalaiset ovat menettäneet uskonsa järjestelmään.",
+        "Tällaisella suvaitsemattomuudella yhteiskunta ajautuu kohti jakautumista.",
+        "Katsoen uusia tutkimuksia, ilmastonmuutos on todellinen uhka.",
+        "Epätasa-arvon vuoksi monet ihmiset kamppailevat toimeentulon kanssa.",
+        "Näin ollen rikollisuus on lisääntynyt.",
+        "Ihmisten kärsimyksen vuoksi on aika vaatia muutosta."
+      ]
+    },
+    {
+      "text": "Syytetyn levottoman käytöksen vuoksi, todistajanlausunto vaikutti epäluotettavalta. Ottaen huomioon syytetyn taustan huumerikollisuudessa, syyllisyys vaikuttaa todennäköiseltä. Hänen aiempien valheittensa valossa, hänen puolustuksensa ontuu. Tällaisella itsepäisyydellä syytetty vaikeuttaa omaa tilannettaan. Poliisi jatkaa tutkimuksia. Raskauttavien todisteiden vuoksi syytetyn vapauttaminen on epätodennäköistä. Syytetyn raivoisan luonteen takia, uhri pelkäsi henkensä puolesta. Katsoen hänen sosiaalisen median päivityksiään, syytetyn motiivit ovat selvät. Epäiltynä hän sopii profiiliin, minkä vuoksi rikos paljastui niin nopeasti. Tuomari harkitsee todisteita. Maahanmuuttajataustansa takia, hän ei ymmärtänyt tekojensa seurauksia. Sää oli leuto. Näin ollen syytetty saanee ankarimman rangaistuksen.",
+      "expected": [
+        "Syytetyn levottoman käytöksen vuoksi, todistajanlausunto vaikutti epäluotettavalta.",
+        "Ottaen huomioon syytetyn taustan huumerikollisuudessa, syyllisyys vaikuttaa todennäköiseltä.",
+        "Hänen aiempien valheittensa valossa, hänen puolustuksensa ontuu.",
+        "Tällaisella itsepäisyydellä syytetty vaikeuttaa omaa tilannettaan.",
+        "Raskauttavien todisteiden vuoksi syytetyn vapauttaminen on epätodennäköistä.",
+        "Syytetyn raivoisan luonteen takia, uhri pelkäsi henkensä puolesta.",
+        "Katsoen hänen sosiaalisen median päivityksiään, syytetyn motiivit ovat selvät.",
+        "Epäiltynä hän sopii profiiliin, minkä vuoksi rikos paljastui niin nopeasti.",
+        "Maahanmuuttajataustansa takia, hän ei ymmärtänyt tekojensa seurauksia.",
+        "Näin ollen syytetty saanee ankarimman rangaistuksen."
+      ]
+    },
+    {
+      "text": "Pääministerin harhaanjohtavien puheiden vuoksi yleisö on menettänyt luottamuksensa politiikkaan. Ottaen huomioon edellisen hallituksen korruptioskandaalit, epäluottamus poliitikkoihin on ymmärrettävää. Hänen kyvyttömyytensä valossa johtaa maata, on selvää, että hänen aikansa on ohi. Vaalit ovat lähestymässä. Tällaisella epävakaudella talous ei voi kasvaa. Hänen välinpitämättömyytensä vuoksi köyhien ahdinkoon, pääministeri on menettänyt kansan tuen. Poliittisten virheiden takia, talous on luisunut syvempään kriisiin. Katsellessa viimeaikaisia mielipidemittauksia, pääministerin suosio on laskenut pohjalukemiin. Kokemustensa perusteella hän tietää, miten hallintoa tulisi johtaa. Näin ollen on epätodennäköistä, että hän voittaa seuraavat vaalit. Julkisuus on muuttunut epäluuloiseksi. Pääministerin on vaikea saavuttaa uusia tukijoita.",
+      "expected": [
+        "Pääministerin harhaanjohtavien puheiden vuoksi yleisö on menettänyt luottamuksensa politiikkaan.",
+        "Ottaen huomioon edellisen hallituksen korruptioskandaalit, epäluottamus poliitikkoihin on ymmärrettävää.",
+        "Hänen kyvyttömyytensä valossa johtaa maata, on selvää, että hänen aikansa on ohi.",
+        "Tällaisella epävakaudella talous ei voi kasvaa.",
+        "Hänen välinpitämättömyytensä vuoksi köyhien ahdinkoon, pääministeri on menettänyt kansan tuen.",
+        "Poliittisten virheiden takia, talous on luisunut syvempään kriisiin.",
+        "Katsellessa viimeaikaisia mielipidemittauksia, pääministerin suosio on laskenut pohjalukemiin.",
+        "Näin ollen on epätodennäköistä, että hän voittaa seuraavat vaalit."
+      ]
+    },
+    {
+      "text": "Seuraavan sukupolven kouluttamisen kannalta on tärkeää investoida nykyisiin resursseihin. Yliopiston rajallisen rahoituksen vuoksi oppilaiden määrä on pudonnut. Henkilökunnan rajallisen määrän perusteella ei voida taata laatua. Koska tutkimuksella ei ole tarpeeksi rahoitusta, professori ei voi täyttää vaatimuksiaan. Ottaen huomioon lukukausimaksun nousun, harvoilla on varaa korkeakoulutukseen. Koulutus on jokaisen ihmisen perusoikeus. Valtion tuen puutteen takia yliopisto vaatii lahjoituksia vanhemmiltaan. Katsellessa näitä ongelmia, meidän on pakko kysyä, onko yhteiskunnallamme varaa jättää nämä ongelmat huomiotta. Sää oli miellyttävä. Näiden ongelmien seurauksena opiskelija päättää lopettaa opiskelun. Siksi opiskelijoiden määrän lasku ei ole yllätys. Ottaen huomioon kaikki seikat, on tärkeää sijoittaa kouluun.",
+      "expected": [
+        "Yliopiston rajallisen rahoituksen vuoksi oppilaiden määrä on pudonnut.",
+        "Henkilökunnan rajallisen määrän perusteella ei voida taata laatua.",
+        "Koska tutkimuksella ei ole tarpeeksi rahoitusta, professori ei voi täyttää vaatimuksiaan.",
+        "Ottaen huomioon lukukausimaksun nousun, harvoilla on varaa korkeakoulutukseen.",
+        "Valtion tuen puutteen takia yliopisto vaatii lahjoituksia vanhemmiltaan.",
+        "Katsellessa näitä ongelmia, meidän on pakko kysyä, onko yhteiskunnallamme varaa jättää nämä ongelmat huomiotta.",
+        "Näiden ongelmien seurauksena opiskelija päättää lopettaa opiskelun.",
+        "Siksi opiskelijoiden määrän lasku ei ole yllätys."
+      ]
+    },
+    {
+      "text": "Maailmanlaajuisen pandemian vuoksi talous on supistunut ennennäkemättömällä tavalla. Koska rokotteita ei ole saatavilla kaikille, virus leviää edelleen nopeasti. Tällaisella epävarmuudella ihmiset ovat alkaneet säästää rahaa. Valtiot ympäri maailmaa kamppailevat viruksen kanssa. Olemassa olevan taloudellisen tuen valossa yhä useammat yritykset joutuvat konkurssiin. Ottaen huomioon työttömyyden kasvun, monien perheiden on vaikea selviytyä. Työpaikkoja ei ole riittävästi. Kansainvälisen tuen takia monet ihmiset ovat selvinneet pandemiasta. Katsellessa näitä vaikeuksia, on aika toimia yhdessä. Rokotteet ovat tehokkaita. Siksi yhteiskunnan on suojeltava kansalaisia rokottamalla heidät. Tämän vuoksi on tärkeää investoida rokotteisiin.",
+      "expected": [
+        "Maailmanlaajuisen pandemian vuoksi talous on supistunut ennennäkemättömällä tavalla.",
+        "Koska rokotteita ei ole saatavilla kaikille, virus leviää edelleen nopeasti.",
+        "Tällaisella epävarmuudella ihmiset ovat alkaneet säästää rahaa.",
+        "Olemassa olevan taloudellisen tuen valossa yhä useammat yritykset joutuvat konkurssiin.",
+        "Ottaen huomioon työttömyyden kasvun, monien perheiden on vaikea selviytyä.",
+        "Kansainvälisen tuen takia monet ihmiset ovat selvinneet pandemiasta.",
+        "Katsellessa näitä vaikeuksia, on aika toimia yhdessä.",
+        "Siksi yhteiskunnan on suojeltava kansalaisia rokottamalla heidät.",
+        "Tämän vuoksi on tärkeää investoida rokotteisiin."
+      ]
+    },
+    {
+      "text": "Uuden teknologian tultua markkinoille vanhat ammatit ovat vaarassa kadota. Koska automaatio lisääntyy, monien ihmisten on vaikea löytää töitä. Tällaisella nopealla muutoksella ihmisten on opittava uusia taitoja. Kouluissa pitäisi olla enemmän teknologiaan liittyviä kursseja. Olemassa olevien ongelmien vuoksi yhteiskunnan on helpompi edetä. Työpaikkoja on vähän. Ottaen huomioon tekoälyn kehityksen, monien ammattien tulevaisuus on epävarma. Yrityksillä menee hyvin. Tästä syystä ihmisten on oltava valmiita muutokseen. Katsellessa näitä ongelmia, on aika ryhtyä toimeen. Siksi on kehitettävä tukijärjestelmiä työttömille. Nykyisen teknologian vuoksi uusien ammattien perustaminen on mahdollista. Ottaen huomioon kaikki seikat on selvää, että meidän on sopeuduttava.",
+      "expected": [
+        "Uuden teknologian tultua markkinoille vanhat ammatit ovat vaarassa kadota.",
+        "Koska automaatio lisääntyy, monien ihmisten on vaikea löytää töitä.",
+        "Tällaisella nopealla muutoksella ihmisten on opittava uusia taitoja.",
+        "Olemassa olevien ongelmien vuoksi yhteiskunnan on helpompi edetä.",
+        "Ottaen huomioon tekoälyn kehityksen, monien ammattien tulevaisuus on epävarma.",
+        "Tästä syystä ihmisten on oltava valmiita muutokseen.",
+        "Katsellessa näitä ongelmia, on aika ryhtyä toimeen.",
+        "Siksi on kehitettävä tukijärjestelmiä työttömille.",
+        "Nykyisen teknologian vuoksi uusien ammattien perustaminen on mahdollista.",
+        "Ottaen huomioon kaikki seikat on selvää, että meidän on sopeuduttava."
+      ]
+    },
+    {
+      "text": "Syyttäjän esittämien todisteiden valossa syytetyn syyllisyys vaikuttaa kiistattomalta. Koska puolustus ei pystynyt esittämään uskottavaa alibia, tuomio oli väistämätön. Todistajalausuntojen ristiriitaisuuksista huolimatta, ne tukevat pääosin syyttäjän versiota tapahtumista. Ottaen huomioon uhrin vammalistan, väkivallan aste oli poikkeuksellinen. Tällaisilla aiemmilla väkivaltarikoksilla syytetty on selkeästi vaaraksi yhteiskunnalle. Syytetty oli pukeutunut tummaan pukuun oikeudenkäynnissä. Puolustusasianajaja yritti kyseenalaistaa uhrin motiiveja. Koska syytetty on kotoisin pahamaineiselta alueelta, hänen rikollinen polkunsa oli valitettavasti odotettavissa. Sää oli pilvinen koko oikeudenkäynnin ajan. Ottaen huomioon kaikki todisteet, tuomarilla oli helppo tehtävä langettaa tuomio.",
+      "expected": [
+        "Syyttäjän esittämien todisteiden valossa syytetyn syyllisyys vaikuttaa kiistattomalta.",
+        "Koska puolustus ei pystynyt esittämään uskottavaa alibia, tuomio oli väistämätön.",
+        "Ottaen huomioon uhrin vammalistan, väkivallan aste oli poikkeuksellinen.",
+        "Tällaisilla aiemmilla väkivaltarikoksilla syytetty on selkeästi vaaraksi yhteiskunnalle.",
+        "Koska syytetty on kotoisin pahamaineiselta alueelta, hänen rikollinen polkunsa oli valitettavasti odotettavissa."
+      ]
+    },
+    {
+      "text": "Pääministerin viimeaikaiset virheet valossa hänen asemansa on vakavasti heikentynyt. Koska hallitus on toistuvasti epäonnistunut uudistuksissa, kansalaisten luottamus on laskenut pohjalukemiin. Ottaen huomioon opposition vahvan suosion, hallitus ei voi enää jatkaa entiseen malliin. Tällaisella heikolla talouskasvulla on selvää, että maalla on edessä vaikeita aikoja. Koska pääministeri ei ole vastannut kysymyksiin, hänen uskottavuutensa on kyseenalaistettu. Pääministeri vastasi toimittajien kysymyksiin eduskunnassa. Puolueen kannatus on kasvanut tasaisesti viime kuukausina. Pääministerin nuoruuden vuoksi hänen kokemuksensa johtajana on kyseenalaistettu. Ottaen huomioon edellisten hallitusten epäonnistumiset, on selvää, että uusia ratkaisuja tarvitaan.",
+      "expected": [
+        "Pääministerin viimeaikaiset virheet valossa hänen asemansa on vakavasti heikentynyt.",
+        "Koska hallitus on toistuvasti epäonnistunut uudistuksissa, kansalaisten luottamus on laskenut pohjalukemiin.",
+        "Ottaen huomioon opposition vahvan suosion, hallitus ei voi enää jatkaa entiseen malliin.",
+        "Tällaisella heikolla talouskasvulla on selvää, että maalla on edessä vaikeita aikoja.",
+        "Koska pääministeri ei ole vastannut kysymyksiin, hänen uskottavuutensa on kyseenalaistettu.",
+        "Pääministerin nuoruuden vuoksi hänen kokemuksensa johtajana on kyseenalaistettu.",
+        "Ottaen huomioon edellisten hallitusten epäonnistumiset, on selvää, että uusia ratkaisuja tarvitaan."
+      ]
+    },
+    {
+      "text": "Yrityksen johdon heikon suunnittelun vuoksi konkurssi oli odotettavissa. Koska yritys ei ole investoinut uuteen teknologiaan, se on jäänyt kilpailijoiden jalkoihin. Ottaen huomioon taloudellisen epävarmuuden, yrityksen tulevaisuus näyttää epävarmalta. Tällaisella suurella velkataakalla yrityksellä ei ole mahdollisuuksia selviytyä. Koska toimitusjohtaja ei ole puuttunut ongelmiin, tilanne on pahentunut entisestään. Hallitus on myöntänyt yritykselle lisärahoitusta. Uusi toimitusjohtaja on nimitetty tehtäväänsä. Pääomistaja on poistanut osakkeensa pörssistä. Ottaen huomioon aikaisemmat epäonnistumiset, sijoittajat ovat menettäneet luottamuksensa yritykseen. Yrityksen osakekurssi on laskenut rajusti viime viikkoina. Yritys on tehnyt mittavia investointeja Kiinaan.",
+      "expected": [
+        "Yrityksen johdon heikon suunnittelun vuoksi konkurssi oli odotettavissa.",
+        "Koska yritys ei ole investoinut uuteen teknologiaan, se on jäänyt kilpailijoiden jalkoihin.",
+        "Ottaen huomioon taloudellisen epävarmuuden, yrityksen tulevaisuus näyttää epävarmalta.",
+        "Tällaisella suurella velkataakalla yrityksellä ei ole mahdollisuuksia selviytyä.",
+        "Koska toimitusjohtaja ei ole puuttunut ongelmiin, tilanne on pahentunut entisestään.",
+        "Ottaen huomioon aikaisemmat epäonnistumiset, sijoittajat ovat menettäneet luottamuksensa yritykseen."
+      ]
+    },
+    {
+      "text": "Oppositiojohtajan populististen lausuntojen takia monet ihmiset uskovat vääriä asioita. Koska media ei ole tarpeeksi kriittinen, väärät tiedot leviävät nopeasti. Ottaen huomioon äänestäjien alhaisen koulutustason, vaalitulokset olivat odotettavissa. Tällaisella voimakkaalla retoriikalla on selvää, että oppositio pyrkii manipuloimaan äänestäjiä. Koska hallitus ei ole pystynyt vastaamaan kritiikkiin, sen kannatus on laskenut. Seuraavat vaalit järjestetään ensi keväänä. Hallituksen toimet ovat saaneet laajaa kritiikkiä. Oppositiojohtaja on suosittu kansan keskuudessa. Ottaen huomioon populistiset lupaukset, on selvää, että oppositio pyrkii saamaan valtaa keinolla millä hyvänsä.",
+      "expected": [
+        "Oppositiojohtajan populististen lausuntojen takia monet ihmiset uskovat vääriä asioita.",
+        "Koska media ei ole tarpeeksi kriittinen, väärät tiedot leviävät nopeasti.",
+        "Ottaen huomioon äänestäjien alhaisen koulutustason, vaalitulokset olivat odotettavissa.",
+        "Tällaisella voimakkaalla retoriikalla on selvää, että oppositio pyrkii manipuloimaan äänestäjiä.",
+        "Koska hallitus ei ole pystynyt vastaamaan kritiikkiin, sen kannatus on laskenut.",
+        "Ottaen huomioon populistiset lupaukset, on selvää, että oppositio pyrkii saamaan valtaa keinolla millä hyvänsä."
+      ]
+    },
+    {
+      "text": "Nuorten syrjäytymisen takia rikollisuus on lisääntynyt kaupungissa. Koska kaupunki ei ole panostanut nuorisopalveluihin, tilanne on pahentunut entisestään. Ottaen huomioon asunnottomuuden kasvun, rikollisuuden lisääntyminen oli odotettavissa. Tällaisella suurella työttömyydellä on selvää, että ihmiset ovat valmiita tekemään mitä tahansa selviytyäkseen. Kaupunki on investoinut uuteen poliisiasemaan. Poliisi on lisännyt valvontaa kaupungissa. Ihmiset tuntevat olonsa turvattomaksi kaupungissa. Koska ongelmat ovat syvällä juurtuneita, tilanteen korjaaminen vie aikaa. Ottaen huomioon kaupungin historian, rikollisuuden vähentäminen on pitkäaikainen projekti.",
+      "expected": [
+        "Nuorten syrjäytymisen takia rikollisuus on lisääntynyt kaupungissa.",
+        "Koska kaupunki ei ole panostanut nuorisopalveluihin, tilanne on pahentunut entisestään.",
+        "Ottaen huomioon asunnottomuuden kasvun, rikollisuuden lisääntyminen oli odotettavissa.",
+        "Tällaisella suurella työttömyydellä on selvää, että ihmiset ovat valmiita tekemään mitä tahansa selviytyäkseen.",
+        "Koska ongelmat ovat syvällä juurtuneita, tilanteen korjaaminen vie aikaa.",
+        "Ottaen huomioon kaupungin historian, rikollisuuden vähentäminen on pitkäaikainen projekti."
+      ]
+    },
+    {
+      "text": "Koulutusjärjestelmän ongelmien vuoksi monilla nuorilla ei ole mahdollisuuksia menestyä. Koska opettajia on liian vähän ja resursseja ei ole tarpeeksi, oppilaat eivät saa riittävää opetusta. Ottaen huomioon oppilaiden erilaisten taustojen, opetuksen on oltava yksilöllisempää. Tällaisella epätasa-arvoisella koulutuksella on selvää, että monet oppilaat jäävät jälkeen. Opetusministeriö on julkaissut uuden opetussuunnitelman. Opettajat ovat huolissaan oppilaiden tulevaisuudesta. Koulut ovat alkaneet tarjota uusia kursseja. Koska ongelmat ovat monimutkaisia, koulutusjärjestelmän parantaminen vie aikaa. Ottaen huomioon koulutusjärjestelmän nykytilan, monien nuorten tulevaisuus on epävarma.",
+      "expected": [
+        "Koulutusjärjestelmän ongelmien vuoksi monilla nuorilla ei ole mahdollisuuksia menestyä.",
+        "Koska opettajia on liian vähän ja resursseja ei ole tarpeeksi, oppilaat eivät saa riittävää opetusta.",
+        "Ottaen huomioon oppilaiden erilaisten taustojen, opetuksen on oltava yksilöllisempää.",
+        "Tällaisella epätasa-arvoisella koulutuksella on selvää, että monet oppilaat jäävät jälkeen.",
+        "Koska ongelmat ovat monimutkaisia, koulutusjärjestelmän parantaminen vie aikaa.",
+        "Ottaen huomioon koulutusjärjestelmän nykytilan, monien nuorten tulevaisuus on epävarma."
+      ]
+    },
+    {
+      "text": "Urheilijan doping-menneisyyden takia hänen saavutuksensa ovat kyseenalaisia. Koska urheilija on aiemmin jäänyt kiinni dopingista, hänen tuloksiinsa ei voi luottaa. Ottaen huomioon hänen iän, hänen suorituksensa ovat epäilyttäviä. Tällaisella menneisyydellä hän ei saisi enää kilpailla. Urheilija on voittanut useita mestaruuksia. Urheilija on kiistänyt kaikki syytökset. Urheilijaa on syytetty dopingista useita kertoja. Koska doping on urheilussa vakava ongelma, urheilijoiden on oltava puhtaita. Ottaen huomioon urheilijan menneisyyden, hänen tulevaisuutensa on epävarma.",
+      "expected": [
+        "Urheilijan doping-menneisyyden takia hänen saavutuksensa ovat kyseenalaisia.",
+        "Koska urheilija on aiemmin jäänyt kiinni dopingista, hänen tuloksiinsa ei voi luottaa.",
+        "Ottaen huomioon hänen iän, hänen suorituksensa ovat epäilyttäviä.",
+        "Tällaisella menneisyydellä hän ei saisi enää kilpailla.",
+        "Koska doping on urheilussa vakava ongelma, urheilijoiden on oltava puhtaita.",
+        "Ottaen huomioon urheilijan menneisyyden, hänen tulevaisuutensa on epävarma."
+      ]
+    },
+    {
+      "text": "Ilmastonmuutoksen vakavuuden vuoksi on välttämätöntä ryhtyä toimiin välittömästi. Koska hallitukset eivät ole tehneet tarpeeksi, tilanne on pahenemassa. Ottaen huomioon fossiilisten polttoaineiden käytön, ilmaston lämpeneminen on väistämätöntä. Tällaisella toimimattomuudella on katastrofaaliset seuraukset. Tutkijat ovat varoittaneet ilmastonmuutoksesta jo vuosia. Hallitukset ovat sitoutuneet vähentämään päästöjä. Ihmisten on muutettava elämäntapojaan. Ottaen huomioon ilmastonmuutoksen vaikutukset, tulevaisuus näyttää synkältä.",
+      "expected": [
+        "Ilmastonmuutoksen vakavuuden vuoksi on välttämätöntä ryhtyä toimiin välittömästi.",
+        "Koska hallitukset eivät ole tehneet tarpeeksi, tilanne on pahenemassa.",
+        "Ottaen huomioon fossiilisten polttoaineiden käytön, ilmaston lämpeneminen on väistämätöntä.",
+        "Tällaisella toimimattomuudella on katastrofaaliset seuraukset.",
+        "Ottaen huomioon ilmastonmuutoksen vaikutukset, tulevaisuus näyttää synkältä."
+      ]
+    },
+    {
+      "text": "Sosiaalisessa mediassa leviävän vihapuheen vuoksi monet ihmiset kokevat ahdistusta. Koska some-alustat eivät valvo sisältöä riittävästi, vihapuhe pääsee leviämään vapaasti. Ottaen huomioon ihmisten erilaiset taustat, on selvää, että vihapuhe aiheuttaa vahinkoa. Tällaisella suvaitsemattomuudella on vakavat seuraukset. Sosiaalisen median yhtiöt ovat sitoutuneet torjumaan vihapuhetta. Ihmiset ovat huolissaan vihapuheen vaikutuksista. Sosiaalinen media on tehnyt ilmoituksen uudesta toimintatavasta. Ottaen huomioon vihapuheen levinneisyyden, sen torjuminen on välttämätöntä.",
+      "expected": [
+        "Sosiaalisessa mediassa leviävän vihapuheen vuoksi monet ihmiset kokevat ahdistusta.",
+        "Koska some-alustat eivät valvo sisältöä riittävästi, vihapuhe pääsee leviämään vapaasti.",
+        "Ottaen huomioon ihmisten erilaiset taustat, on selvää, että vihapuhe aiheuttaa vahinkoa.",
+        "Tällaisella suvaitsemattomuudella on vakavat seuraukset.",
+        "Ottaen huomioon vihapuheen levinneisyyden, sen torjuminen on välttämätöntä."
+      ]
+    },
+    {
+      "text": "Terveydenhuollon resurssien puutteen takia monet ihmiset eivät saa riittävää hoitoa. Koska hallitus ei ole investoinut terveydenhuoltoon, tilanne on heikentynyt. Ottaen huomioon väestön ikääntymisen, terveydenhuollon tarve kasvaa jatkuvasti. Tällaisella resurssipulalla on vakavat seuraukset. Terveydenhuollon työntekijät ovat ylityöllistettyjä. Ihmiset ovat huolissaan terveydenhuollon tulevaisuudesta. Monet hoitajat ovat päättäneet lähteä maasta. Koska ongelmat ovat monimutkaisia, terveydenhuollon parantaminen vie aikaa. Ottaen huomioon terveydenhuollon nykytilan, monien ihmisten terveys on vaarassa.",
+      "expected": [
+        "Terveydenhuollon resurssien puutteen takia monet ihmiset eivät saa riittävää hoitoa.",
+        "Koska hallitus ei ole investoinut terveydenhuoltoon, tilanne on heikentynyt.",
+        "Ottaen huomioon väestön ikääntymisen, terveydenhuollon tarve kasvaa jatkuvasti.",
+        "Tällaisella resurssipulalla on vakavat seuraukset.",
+        "Koska ongelmat ovat monimutkaisia, terveydenhuollon parantaminen vie aikaa.",
+        "Ottaen huomioon terveydenhuollon nykytilan, monien ihmisten terveys on vaarassa."
+      ]
+    },
+    {
+      "text": "Uuden lain myötä, joka rajoittaa mielenosoituksia, kansalaisoikeusjärjestöt ovat ilmaisseet huolensa sananvapauden kaventumisesta. Poliitikkojen retoriikka on kiristynyt entisestään. Hallituksen kyvyttömyys puuttua ilmastonmuutokseen on johtanut nuorten aktivoitumiseen. Ottaen huomioon maan taloudellisen tilanteen, on selvää, että uusia säästötoimia tarvitaan. Työttömyyden pitkittyessä yhä useampi ihminen on ajautunut köyhyysrajan alapuolelle. Sijoittajien luottamuksen horjuessa pörssikurssit ovat laskeneet jyrkästi. Tutkimusten perusteella on ilmeistä, että sosiaalinen media on lisännyt polarisaatiota yhteiskunnassa. Viimeaikaiset tapahtumat ovat herättäneet kysymyksiä median roolista. Koronaviruksen takia monet yritykset ovat joutuneet lomauttamaan työntekijöitään. Tämän takia talouden elpyminen on hidastunut. Poliisi tutkii tapausta edelleen.",
+      "expected": [
+        "Uuden lain myötä, joka rajoittaa mielenosoituksia, kansalaisoikeusjärjestöt ovat ilmaisseet huolensa sananvapauden kaventumisesta.",
+        "Hallituksen kyvyttömyys puuttua ilmastonmuutokseen on johtanut nuorten aktivoitumiseen.",
+        "Ottaen huomioon maan taloudellisen tilanteen, on selvää, että uusia säästötoimia tarvitaan.",
+        "Työttömyyden pitkittyessä yhä useampi ihminen on ajautunut köyhyysrajan alapuolelle.",
+        "Tutkimusten perusteella on ilmeistä, että sosiaalinen media on lisännyt polarisaatiota yhteiskunnassa."
+      ]
+    },
+    {
+      "text": "Kansanedustaja Virtasen kohutun some-kirjoituksen vuoksi hänen poliittinen tulevaisuutensa näyttää epävarmalta. Koska puoluejohto ei ole vielä ottanut asiaan kantaa, spekulaatiot hänen asemastaan jatkuvat. Väitetyn lahjusrikoksen jälkeen rakennusliike Mäkinen Oy on joutunut kovan julkisuuden ristitulen kohteeksi. Viranomaisten aloitettua esitutkinnan, yrityksen osakekurssi on romahtanut. Ottaen huomioon pääministerin aiemmat lausunnot, on odotettavissa, että hallitus esittää uusia toimenpiteitä työllisyyden parantamiseksi. Uusien sääntöjen takia monien pienten yritysten on vaikea kilpailla markkinoilla. Hänen nuoruutensa vuoksi hän ei ole pätevä toimimaan johtajana. Sää on tänään kaunis. Aurinko paistaa ja tuuli on heikko. Lämpötila on noin 20 astetta.",
+      "expected": [
+        "Kansanedustaja Virtasen kohutun some-kirjoituksen vuoksi hänen poliittinen tulevaisuutensa näyttää epävarmalta.",
+        "Koska puoluejohto ei ole vielä ottanut asiaan kantaa, spekulaatiot hänen asemastaan jatkuvat.",
+        "Väitetyn lahjusrikoksen jälkeen rakennusliike Mäkinen Oy on joutunut kovan julkisuuden ristitulen kohteeksi.",
+        "Viranomaisten aloitettua esitutkinnan, yrityksen osakekurssi on romahtanut.",
+        "Ottaen huomioon pääministerin aiemmat lausunnot, on odotettavissa, että hallitus esittää uusia toimenpiteitä työllisyyden parantamiseksi."
+      ]
+    },
+    {
+      "text": "Koska kaupunginvaltuusto ei ole suostunut lisärahoitukseen, kulttuurikeskus joutuu supistamaan toimintaansa. Nuorisotyöttömyyden jatkuessa on selvää, että tarvitsemme tehokkaampia työllistämistoimia. Epäillyn rikollisen taustan valossa hänen syyllisyytensä vaikuttaa todennäköiseltä. Tällaisella rikostaustalla miehellä ei olisi pitänyt olla asetta. Koska hän on tunnettu valehtelija, hänen lausuntonsa ovat epäluotettavia. Pääministeri saapui kokoukseen myöhässä. Koska hänen aikataulunsa on tiukka, myöhästyminen oli ymmärrettävää. Ottaen huomioon yleisen mielipiteen, on selvää, että kansanäänestys on välttämätön. Nyt kun asia on tutkittu, pääsemme eteenpäin.",
+      "expected": [
+        "Koska kaupunginvaltuusto ei ole suostunut lisärahoitukseen, kulttuurikeskus joutuu supistamaan toimintaansa.",
+        "Nuorisotyöttömyyden jatkuessa on selvää, että tarvitsemme tehokkaampia työllistämistoimia.",
+        "Epäillyn rikollisen taustan valossa hänen syyllisyytensä vaikuttaa todennäköiseltä.",
+        "Tällaisella rikostaustalla miehellä ei olisi pitänyt olla asetta.",
+        "Koska hän on tunnettu valehtelija, hänen lausuntonsa ovat epäluotettavia.",
+        "Ottaen huomioon yleisen mielipiteen, on selvää, että kansanäänestys on välttämätön."
+      ]
+    },
+    {
+      "text": "Tutkimus osoittaa, että ilmastonmuutos on kiihtymässä, siksi on väistämätöntä, että meidän on ryhdyttävä nopeampiin toimiin. Ottaen huomioon hallituksen aikaisemmat epäonnistumiset, on vaikea uskoa sen uusiin lupauksiin. Näin ollen hallitus ei ole luotettava. Sää on ollut viime aikoina epävakaa. Koska yhtiö on jättänyt maksamatta velkojaan, sen konkurssi on lähellä. Näin ollen sen työntekijät menettävät työpaikkansa. Syytetyn väkivaltaisen luonteen vuoksi, tuomioistuimen tulisi harkita hänelle annettavan rangaistuksen pituutta. Syytetyn menneisyyden takia, ei ole yllättävää, että hän on jälleen syytettynä. Oikeudenkäynti on viivästynyt useaan otteeseen.",
+      "expected": [
+        "Tutkimus osoittaa, että ilmastonmuutos on kiihtymässä, siksi on väistämätöntä, että meidän on ryhdyttävä nopeampiin toimiin.",
+        "Ottaen huomioon hallituksen aikaisemmat epäonnistumiset, on vaikea uskoa sen uusiin lupauksiin.",
+        "Näin ollen hallitus ei ole luotettava.",
+        "Koska yhtiö on jättänyt maksamatta velkojaan, sen konkurssi on lähellä.",
+        "Näin ollen sen työntekijät menettävät työpaikkansa.",
+        "Syytetyn väkivaltaisen luonteen vuoksi, tuomioistuimen tulisi harkita hänelle annettavan rangaistuksen pituutta.",
+        "Syytetyn menneisyyden takia, ei ole yllättävää, että hän on jälleen syytettynä."
+      ]
+    },
+    {
+      "text": "Ottelun tulos oli odotettavissa, koska vastustajan joukkue oli huomattavasti vahvempi. Ottaen huomioon hänen menestyksekkään uransa, on selvää, että hänellä on hyvät mahdollisuudet saada ylennys. Hänen kokemuksensa perusteella hänen pitäisi olla johtajana. Syytetyn heikon puolustuksen takia hänen tuomionsa on selviö. Hänen lapsuuden kokemuksiensa vuoksi hän on herkkä ihmisten tunteille. Monet työntekijät ovat tyytymättömiä palkkoihinsa. Oikeudenkäynti alkaa ensi viikolla. Ottaen huomioon yrityksen taloudelliset vaikeudet, on selvää, että työntekijöitä on lomautettava. Näin ollen yritys voi selviytyä.",
+      "expected": [
+        "Ottelun tulos oli odotettavissa, koska vastustajan joukkue oli huomattavasti vahvempi.",
+        "Ottaen huomioon hänen menestyksekkään uransa, on selvää, että hänellä on hyvät mahdollisuudet saada ylennys.",
+        "Hänen kokemuksensa perusteella hänen pitäisi olla johtajana.",
+        "Syytetyn heikon puolustuksen takia hänen tuomionsa on selviö.",
+        "Hänen lapsuuden kokemuksiensa vuoksi hän on herkkä ihmisten tunteille.",
+        "Ottaen huomioon yrityksen taloudelliset vaikeudet, on selvää, että työntekijöitä on lomautettava."
+      ]
+    },
+    {
+      "text": "Koska verotulot ovat laskeneet, hallituksen on supistettava palveluita. Suuren velkataakan vuoksi valtion on toteutettava säästötoimia. Uusien sääntöjen johdosta monien yritysten on vaikea kilpailla. Uusien ympäristösäännösten takia teollisuuden päästöt vähenevät. Kaupungin asukkaiden vähentyessä palvelut vähenevät. Sää on pilvinen tänään. Sateen mahdollisuus on suuri. Koska inflaatio on korkea, ihmisten ostovoima heikkenee. Ihmiset ovat yhä köyhempiä.",
+      "expected": [
+        "Koska verotulot ovat laskeneet, hallituksen on supistettava palveluita.",
+        "Suuren velkataakan vuoksi valtion on toteutettava säästötoimia.",
+        "Uusien sääntöjen johdosta monien yritysten on vaikea kilpailla.",
+        "Uusien ympäristösäännösten takia teollisuuden päästöt vähenevät.",
+        "Kaupungin asukkaiden vähentyessä palvelut vähenevät.",
+        "Koska inflaatio on korkea, ihmisten ostovoima heikkenee."
+      ]
+    },
+    {
+      "text": "Ottelun menetyksen johdosta valmentaja erotettiin tehtävästään. Näin ollen joukkue tarvitsee uuden valmentajan. Koska hän on ollut syytettynä petoksesta, hänen pitäisi olla vankilassa. Tästä johtuen syytetty odottaa vankilaa. Ottaen huomioon hänen aikaisemmat rikkeensä, häntä ei pitäisi päästää vapaaksi. Sää on ollut viime päivinä lämmin ja aurinkoinen. Aurinkolasit on hyvä muistaa. Ottaen huomioon yrityksen heikon taloudellisen tilanteen, sen konkurssi on todennäköinen. Siksi monet ihmiset ovat työttömiä.",
+      "expected": [
+        "Ottelun menetyksen johdosta valmentaja erotettiin tehtävästään.",
+        "Näin ollen joukkue tarvitsee uuden valmentajan.",
+        "Koska hän on ollut syytettynä petoksesta, hänen pitäisi olla vankilassa.",
+        "Tästä johtuen syytetty odottaa vankilaa.",
+        "Ottaen huomioon hänen aikaisemmat rikkeensä, häntä ei pitäisi päästää vapaaksi.",
+        "Ottaen huomioon yrityksen heikon taloudellisen tilanteen, sen konkurssi on todennäköinen.",
+        "Siksi monet ihmiset ovat työttömiä."
+      ]
+    },
+    {
+      "text": "Koska hänet on todettu syylliseksi rikokseen, hän joutuu vankilaan. Näin ollen hänen elämänsä muuttuu. Kaupunginvaltuusto on hyväksynyt uuden kaavan. Koska hän on lahjakas muusikko, hänestä tulee kuuluisa. Tästä johtuen hänestä pidetään. Urheiluseura on voittanut mestaruuden. Syytetyn aikaisempien tekojen johdosta oletamme, että hän on syyllinen. Poliisi tutkii edelleen tapausta.",
+      "expected": [
+        "Koska hänet on todettu syylliseksi rikokseen, hän joutuu vankilaan.",
+        "Näin ollen hänen elämänsä muuttuu.",
+        "Koska hän on lahjakas muusikko, hänestä tulee kuuluisa.",
+        "Tästä johtuen hänestä pidetään.",
+        "Syytetyn aikaisempien tekojen johdosta oletamme, että hän on syyllinen."
+      ]
+    },
+    {
+      "text": "Koska lapsi kasvoi väkivaltaisessa ympäristössä, hänestä tulee aggressiivinen aikuinen. Tästä johtuen hänen käytöksensä muuttuu. Konsertti on ensi viikolla. Ottaen huomioon opettajien lakon, oppilaat eivät pysty käymään koulua. Tämän takia ihmiset ovat tyytymättömiä. Koska hän on opiskellut ahkerasti, hän tulee menestymään kokeissa. Hänen aikaisemman kokemuksensa valossa hän suoriutuu hyvin työssään. Tästä johtuen yrityksestä tulee vahvempi.",
+      "expected": [
+        "Koska lapsi kasvoi väkivaltaisessa ympäristössä, hänestä tulee aggressiivinen aikuinen.",
+        "Tästä johtuen hänen käytöksensä muuttuu.",
+        "Ottaen huomioon opettajien lakon, oppilaat eivät pysty käymään koulua.",
+        "Tämän takia ihmiset ovat tyytymättömiä.",
+        "Koska hän on opiskellut ahkerasti, hän tulee menestymään kokeissa.",
+        "Hänen aikaisemman kokemuksensa valossa hän suoriutuu hyvin työssään.",
+        "Tästä johtuen yrityksestä tulee vahvempi."
+      ]
+    },
+    {
+      "text": "Pääministerin epäonnistuneen ulostulon takia luottamus häneen on horjunut kansalaisten keskuudessa. Nyt kun kriisi on syvenemässä, on selvää, että tarvitaan uusia toimia. Ottaen huomioon kaupungin taloudellisen tilanteen, on välttämätöntä, että nostamme veroja. Uusien tietojen valossa tapaus saa uuden käänteen. Koska verotulot ovat laskeneet, valtion on vaikeampi rahoittaa palveluita. Vastaajan menneisyyden vuoksi hänen syyllisyytensä on ilmeinen. Oikeudenkäynti kestää useita päiviä.",
+      "expected": [
+        "Pääministerin epäonnistuneen ulostulon takia luottamus häneen on horjunut kansalaisten keskuudessa.",
+        "Nyt kun kriisi on syvenemässä, on selvää, että tarvitaan uusia toimia.",
+        "Ottaen huomioon kaupungin taloudellisen tilanteen, on välttämätöntä, että nostamme veroja.",
+        "Uusien tietojen valossa tapaus saa uuden käänteen.",
+        "Koska verotulot ovat laskeneet, valtion on vaikeampi rahoittaa palveluita.",
+        "Vastaajan menneisyyden vuoksi hänen syyllisyytensä on ilmeinen."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+[project]
+name = "sentiment-service"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "transformers[torch]==4.51.0",
+    "fastapi[standard]==0.115.14",
+]

@@ -1,0 +1,241 @@
+{
+  "indicator": "tag_questions",
+  "language": "en",
+  "samples": [
+    {
+      "text": "The prosecution presented a compelling case, highlighting the defendant's suspicious behavior leading up to the incident. He was clearly trying to evade law enforcement, wasn't he? The evidence pointed overwhelmingly to his guilt. Witnesses testified to seeing him at the scene. The defense's arguments seemed weak in comparison. They were grasping at straws, weren't they? The jury appeared unconvinced by their attempts to create reasonable doubt. It was an open-and-shut case, correct? Ultimately, justice prevailed, and the right verdict was delivered. This outcome should serve as a warning to others who contemplate similar actions.",
+      "expected": [
+        "wasn't he?",
+        "weren't they?",
+        "correct?"
+      ]
+    },
+    {
+      "text": "The senator's speech was filled with promises of economic prosperity. He spoke with great confidence, outlining his plans for job creation and tax reform. He's a real visionary, don't you think? Many in the audience were visibly moved by his words. His policies are the only way forward, aren't they? Critics, however, have raised concerns about the feasibility of his proposals. They say his plans are unrealistic. He knows what's best for the country, right? Only time will tell if his vision will become a reality.",
+      "expected": [
+        "don't you think?",
+        "aren't they?",
+        "right?"
+      ]
+    },
+    {
+      "text": "The company's profits soared this quarter, exceeding all expectations. Their innovative products have revolutionized the market. It's a brilliant strategy, isn't it? Competitors are struggling to keep up with their success. The CEO's leadership has been instrumental in driving growth. She deserves a lot of credit, don't you agree? Some analysts predict continued success for the company. This is the start of their market dominance, see what I mean? This is all thanks to their innovative products.",
+      "expected": [
+        "isn't it?",
+        "don't you agree?",
+        "see what I mean?"
+      ]
+    },
+    {
+      "text": "The article described the devastating effects of the new policy on the working class. It unfairly burdens those least able to afford it, doesn't it? Many families are struggling to make ends meet. The policy makers are out of touch with reality. They simply don't understand the consequences of their actions, do they? This policy will certainly have negative repercussions. The government is failing its people, isn't it?",
+      "expected": [
+        "doesn't it?",
+        "do they?",
+        "isn't it?"
+      ]
+    },
+    {
+      "text": "The home team dominated the game from start to finish. Their offense was unstoppable, and their defense was impenetrable. They're clearly the best team in the league, aren't they? The crowd was ecstatic, cheering every play. The coach's strategy proved to be masterful. He's a genius, don't you think? This victory solidifies their chances of winning the championship. They'll definitely win, right?",
+      "expected": [
+        "aren't they?",
+        "don't you think?",
+        "right?"
+      ]
+    },
+    {
+      "text": "The evidence presented in the trial was circumstantial at best, relying heavily on assumptions rather than concrete facts. The police jumped to conclusions, didn't they? The defendant maintained his innocence throughout the proceedings. The prosecution's case was flimsy, relying on speculation and innuendo. The jury's verdict was a miscarriage of justice. He's a victim of a flawed system, isn't he? This case is a travesty.",
+      "expected": [
+        "didn't they?",
+        "isn't he?"
+      ]
+    },
+    {
+      "text": "The politician's controversial statements sparked outrage across the political spectrum. He's deliberately trying to divide the country, isn't he? Many people condemned his remarks as divisive and inflammatory. His words are harmful and irresponsible. He should be held accountable for his actions, don't you think? His supporters, however, defended his right to free speech. He is misunderstood, right?",
+      "expected": [
+        "isn't he?",
+        "don't you think?",
+        "right?"
+      ]
+    },
+    {
+      "text": "The investigation uncovered widespread corruption within the agency. Officials were accepting bribes and engaging in illegal activities. It's a shocking betrayal of public trust, isn't it? The public demands accountability and justice. The perpetrators must be brought to justice. They think they can get away with anything, don't they? This behavior is unacceptable.",
+      "expected": [
+        "isn't it?",
+        "don't they?"
+      ]
+    },
+    {
+      "text": "The new study confirms the link between social media and mental health issues. Excessive use of social media can lead to anxiety and depression. It's harming our society, isn't it? The findings highlight the importance of responsible social media usage. Parents need to monitor their children's online activity. This is a very serious problem, don't you think? We need to take action to protect our mental well-being.",
+      "expected": [
+        "isn't it?",
+        "don't you think?"
+      ]
+    },
+    {
+      "text": "The defendant showed no remorse for his actions. He was cold and calculating throughout the trial. He's clearly a sociopath, isn't he? The victim's family was devastated by the verdict. They sought justice for their loved one. He deserves to be punished to the fullest extent of the law. It's the only fair thing to do, correct? Society must be protected from dangerous individuals.",
+      "expected": [
+        "isn't he?",
+        "correct?"
+      ]
+    },
+    {
+      "text": "The defendant's testimony was riddled with inconsistencies, wasn't it? He claimed to be at home, but several witnesses placed him near the scene of the crime. The prosecution presented compelling evidence against him, and his alibi seemed increasingly flimsy. It's clear he's trying to deceive the jury, isn't it? The judge reminded the jury to consider all the evidence before reaching a verdict. The defense attorney's attempts to discredit the witnesses were largely unsuccessful. This is a clear case of guilt, don't you think? Justice must be served.",
+      "expected": [
+        "wasn't it?",
+        "isn't it?",
+        "don't you think?"
+      ]
+    },
+    {
+      "text": "The new economic policy is a disaster waiting to happen. Critics argue that it favors the wealthy at the expense of the poor and middle class. The proposed tax cuts will only benefit the top 1%, won't they? The government insists that the policy will stimulate economic growth, but evidence suggests otherwise. The unemployment rate remains stubbornly high, and inflation is on the rise. It's just another example of failed trickle-down economics, isn't it? We need a policy that benefits everyone, don't you agree?",
+      "expected": [
+        "won't they?",
+        "isn't it?",
+        "don't you agree?"
+      ]
+    },
+    {
+      "text": "The mayor's speech was full of empty promises. He vowed to improve public education, reduce crime, and create jobs, but he offered no concrete plans to achieve these goals. His administration has been plagued by scandal and corruption. He's just trying to distract us from the real issues, isn't he? The city's infrastructure is crumbling, and the schools are underfunded. He is failing the city, isn't he? The citizens deserve better leadership.",
+      "expected": [
+        "isn't he?",
+        "isn't he?"
+      ]
+    },
+    {
+      "text": "The team played poorly, and they don't deserve to win, do they? Their defense was weak, and their offense was even worse. The coach made some questionable decisions, and the players seemed uninspired. It's the worst performance of the year, wouldn't you say? The fans are disappointed, and the critics are already writing them off. They are going to lose in the playoffs, aren't they? They need to make some serious changes if they want to have any chance of success.",
+      "expected": [
+        "do they?",
+        "wouldn't you say?",
+        "aren't they?"
+      ]
+    },
+    {
+      "text": "The proposed development project will destroy the local environment. The developers claim that it will create jobs and boost the economy, but the environmental impact assessment tells a different story. The destruction of the wetlands will harm wildlife, won't it? The community has voiced strong opposition to the project. The developers are just motivated by greed, aren't they? We must protect our natural resources for future generations.",
+      "expected": [
+        "won't it?",
+        "aren't they?"
+      ]
+    },
+    {
+      "text": "The article clearly distorted the truth, didn't it? It presented only one side of the story and ignored crucial facts. The author relied on biased sources and made several unsubstantiated claims. It's just propaganda, isn't it? The publication has a history of spreading misinformation. It's irresponsible journalism, don't you think? Readers deserve to have the full picture.",
+      "expected": [
+        "didn't it?",
+        "isn't it?",
+        "don't you think?"
+      ]
+    },
+    {
+      "text": "The witness appeared nervous and evasive, didn't she? Her testimony was inconsistent with her previous statements, and she avoided eye contact with the jury. The prosecutor questioned her aggressively, and she became increasingly flustered. She's hiding something, isn't she? The judge warned her about the consequences of perjury. She will face charges, won't she?",
+      "expected": [
+        "didn't she?",
+        "isn't she?",
+        "won't she?"
+      ]
+    },
+    {
+      "text": "The company's financial reports were misleading, weren't they? They overstated their profits and concealed their debts. The CEO made false statements to investors and regulators. He committed fraud, didn't he? The shareholders lost millions of dollars as a result of the company's actions. He's going to prison, isn't he? Justice will come to those harmed by this.",
+      "expected": [
+        "weren't they?",
+        "didn't he?",
+        "isn't he?"
+      ]
+    },
+    {
+      "text": "The politician's speech was divisive and hateful, wasn't it? He attacked his opponents personally and made several inflammatory remarks. His words incited violence and hatred. He should be ashamed, shouldn't he? The media has widely criticized his remarks. He's going to lose the next election, isn't he? Let us hope this is the last we hear from them.",
+      "expected": [
+        "wasn't it?",
+        "shouldn't he?",
+        "isn't he?"
+      ]
+    },
+    {
+      "text": "The new law is unconstitutional, isn't it? It violates fundamental rights and freedoms. The government is overreaching its authority. They are taking away liberties, aren't they? Civil rights groups are planning to challenge the law in court. It will be overturned, won't it? The people will not stand for it.",
+      "expected": [
+        "isn't it?",
+        "aren't they?",
+        "won't it?"
+      ]
+    },
+    {
+      "text": "The city council's decision to approve the new development project has sparked considerable controversy. Opponents argue that the project will exacerbate traffic congestion and strain local resources. It's a terrible idea that benefits only a few wealthy developers, isn't it? They've clearly ignored the concerns of the community, haven't they? The mayor claims the project will bring jobs and stimulate the economy, but that's just empty rhetoric. The mayor is obviously prioritizing personal gain over public welfare, don't you think? This whole process has been a sham from the beginning. The council is acting in bad faith, you know? We should fight this at every turn.",
+      "expected": [
+        "isn't it?",
+        "haven't they?",
+        "don't you think?",
+        "you know?"
+      ]
+    },
+    {
+      "text": "The prosecution presented a compelling case, detailing the defendant's movements leading up to the crime. The evidence pointed overwhelmingly to his guilt. He was clearly at the scene, wasn't he? Eyewitness accounts corroborated the prosecution's timeline. The defense attorney tried to cast doubt on the witnesses' credibility, but their stories aligned too perfectly. The jury should see through that, shouldn't they? The defendant has shown no remorse and continues to deny any involvement. He's playing games, isn't he? This is a clear-cut case, and justice must be served.",
+      "expected": [
+        "wasn't he?",
+        "shouldn't they?",
+        "isn't he?"
+      ]
+    },
+    {
+      "text": "The company's latest earnings report revealed a significant decline in profits. Investors are understandably concerned about the company's future prospects. The CEO's explanation was vague and unconvincing. He's clearly hiding something, isn't he? Analysts predict further losses in the coming quarters. The company's stock price has plummeted, and many shareholders are selling off their shares. This is all a sign of deeper problems, isn't it? He's ruined the company, hasn't he? The board needs to take decisive action to restore confidence.",
+      "expected": [
+        "isn't he?",
+        "isn't it?",
+        "hasn't he?"
+      ]
+    },
+    {
+      "text": "The senator's speech was filled with empty promises and partisan rhetoric. He claims to be a champion of the working class, but his voting record tells a different story. He's just saying what people want to hear, isn't he? His policies consistently favor the wealthy and powerful. He's out of touch with the needs of ordinary citizens, you know? His entire political career has been based on deception. He's part of the problem, isn't he? We need real change, and he's not the one to deliver it.",
+      "expected": [
+        "isn't he?",
+        "you know?",
+        "isn't he?"
+      ]
+    },
+    {
+      "text": "The local football team suffered another embarrassing defeat. The coach's tactics were questionable, and the players seemed unmotivated. They just didn't seem to care, did they? Fans are calling for the coach's resignation. The team's performance has been abysmal all season. Something must be done, right? The team owner needs to make a change. This team needs new leadership, don't you think? The losing streak continues.",
+      "expected": [
+        "did they?",
+        "right?",
+        "don't you think?"
+      ]
+    },
+    {
+      "text": "The government's new education policy has been widely criticized by teachers and parents. The policy emphasizes standardized testing and reduces funding for arts and music programs. They're stifling creativity and innovation, aren't they? Experts warn that this will harm students' overall development. It's a recipe for disaster, isn't it? The policy completely disregards the unique needs of individual learners. The education minister isn't listening, is she? This policy should be scrapped immediately.",
+      "expected": [
+        "aren't they?",
+        "isn't it?",
+        "is she?"
+      ]
+    },
+    {
+      "text": "The suspect in the art heist case has been apprehended. Authorities say he has a long criminal record. He's probably guilty, right? The stolen paintings are worth millions of dollars. The thief acted alone, didn't he? The investigation is ongoing and officials are still piecing together the events. He'll be behind bars for a long time, won't he? Justice will prevail.",
+      "expected": [
+        "right?",
+        "didn't he?",
+        "won't he?"
+      ]
+    },
+    {
+      "text": "The environmental report detailed the extent of the damage caused by the oil spill. The company responsible has a history of negligence. They knew this would happen, didn't they? The local ecosystem is destroyed and wildlife is suffering. This disaster was completely avoidable, wasn't it? The CEO doesn't care about the environment, does he? Stricter regulations are needed.",
+      "expected": [
+        "didn't they?",
+        "wasn't it?",
+        "does he?"
+      ]
+    },
+    {
+      "text": "The candidate's performance in the debate was lackluster. He stumbled over his words and failed to articulate his policy positions clearly. He lost the debate, didn't he? His opponent seized the opportunity to attack his record. He's not ready to be president, is he? The media coverage has been overwhelmingly negative. His campaign is over, isn't it? He should drop out now.",
+      "expected": [
+        "didn't he?",
+        "is he?",
+        "isn't it?"
+      ]
+    },
+    {
+      "text": "The judge's ruling in the case was controversial. Many believe that it was biased and unfair. He was protecting someone, wasn't he? The evidence presented should have led to a different outcome. That was a miscarriage of justice, wasn't it? The public's faith in the judicial system is at stake. The judge is corrupt, isn't he? This decision should be appealed.",
+      "expected": [
+        "wasn't he?",
+        "wasn't it?",
+        "isn't he?"
+      ]
+    }
+  ]
+}

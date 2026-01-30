@@ -1,0 +1,243 @@
+{
+  "indicator": "double_entendres",
+  "language": "en",
+  "samples": [
+    {
+      "text": "The mayoral candidate entered the debate with a clear strategy, aiming to bury his opponent's arguments under a mountain of facts and figures. He spent weeks crafting his responses, preparing for every possible attack. The mayor's record on job creation was already dead on arrival, given the recent factory closures. Several economic experts predicted a grim outlook. The candidate accused the mayor of having skeletons in his closet, hinting at past financial irregularities. These allegations sent shockwaves through the audience. He also claimed the mayor was simply dying to push through unpopular policies before the next election. The mayor's team countered, accusing the candidate of distorting the truth to gain political points. Both sides were clearly playing hardball as the election drew near, but the candidate's attacks resonated with some voters.",
+      "expected": [
+        "bury",
+        "dead on arrival",
+        "skeletons in his closet",
+        "dying to",
+        "playing hardball"
+      ]
+    },
+    {
+      "text": "The tech startup promised a revolutionary new product, claiming it would disrupt the entire industry. They had secured millions in funding, creating a massive buzz around their launch. However, some insiders suspected the CEO was no angel, pointing to a history of questionable business practices. The company's marketing campaign turned out to be over the top, with exaggerated claims and misleading visuals. They tried to sweeten the deal, offering discounts and incentives. When the product finally launched, it was clear that the company had cooked the books, inflating their user numbers to attract more investors. This revelation sent the stock price plummeting. The CEO then decided to throw his partners under the bus in an attempt to deflect some of the blame. Some analysts suggest that he should have been more careful from the start.",
+      "expected": [
+        "no angel",
+        "over the top",
+        "sweeten the deal",
+        "cooked the books",
+        "throw his partners under the bus"
+      ]
+    },
+    {
+      "text": "The defense attorney argued that his client was merely in the wrong place at the wrong time. The prosecution countered, presenting evidence that painted a different picture. The investigator claims the victim was asking for it, due to a public argument just days before. The detective's tone was notably dismissive and insensitive. The prosecutor suggested that the defendant's actions were premeditated, claiming he had been dying to confront the victim for weeks. The jury listened intently as the evidence was presented, their faces betraying little emotion. The defense attempted to paint the victim as no angel, citing past encounters with law enforcement. The defense attorney tried to muddy the waters. Despite the attorney's efforts, the evidence against his client was mounting. The defendant was ultimately found guilty on all counts.",
+      "expected": [
+        "asking for it",
+        "dying to",
+        "no angel",
+        "muddy the waters"
+      ]
+    },
+    {
+      "text": "The senator's speech was met with mixed reactions. While some praised his vision for the future, others criticized his policies as unrealistic and harmful. Political analysts claimed that the senator was really dying to please a specific subset of the electorate. He's always been known as a political opportunist. He attempted to bury the details of his past scandals by speaking about new policies. Many voters felt he had skeletons in his closet, citing his involvement in several controversial deals. The senator also accused his opponents of playing dirty in an effort to undermine his campaign. The media questioned him about his connections to corporate lobbyists, which made him uncomfortable. Ultimately, the senator's fate rested in the hands of the voters. He'll have to be more careful from now on.",
+      "expected": [
+        "dying to",
+        "bury",
+        "skeletons in his closet",
+        "playing dirty"
+      ]
+    },
+    {
+      "text": "The football team's coach was under immense pressure after a string of disappointing losses. Some sports analysts questioned whether he was up to the task of leading the team. Following the game, many fans felt that the coach was trying to bury the truth, giving vague excuses for the performance. The coach claimed that several players were no angels, which stirred conflict in the locker room. Despite his efforts, the team continued to struggle. The general manager stated that the new quarterback was dying to make a good impression. While that's true, the new quaterback was not ready to play. Sources confirmed that the quarterback was not the problem. The coach's job was clearly on the line. The team owner did not look happy.",
+      "expected": [
+        "bury",
+        "no angels",
+        "dying to"
+      ]
+    },
+    {
+      "text": "The investigative journalist dug deep into the story, determined to uncover the truth, no matter how painful it might be. Sources said the CEO was no angel, and he had a dark past he was trying to hide. They were dying to cover up a massive fraud. The journalist knew there was more to the story than what was being reported. It became clear that the company had been cooking the books for years. The journalist managed to piece together the puzzle, revealing a complex web of deceit and corruption. The revelations sent shockwaves through the business world. The story showed the CEO trying to bury any record of his illicit activities. The journalist knew he had a moral duty to expose the truth to the public.",
+      "expected": [
+        "no angel",
+        "dying to",
+        "cooking the books",
+        "bury"
+      ]
+    },
+    {
+      "text": "The new law was designed to address income inequality and provide opportunities for marginalized communities. Supporters argued that it would level the playing field and create a more just society. However, critics claimed that the law was a disaster waiting to happen. They asserted that it would stifle economic growth and lead to unintended consequences. One critic complained that the bill was designed to butcher existing industries. The law's supporters were dying to get it passed. Some felt the bill was written to benefit select groups, with no care to how it affects others. The debate over the law raged on, with both sides digging in their heels. The law did not address the root causes of inequality.",
+      "expected": [
+        "butcher",
+        "dying to"
+      ]
+    },
+    {
+      "text": "The company's annual report painted a rosy picture of financial success. But some investors suspected that the CEO was trying to bury some losses. The report claimed record profits and unprecedented growth. However, a closer examination revealed some troubling details. Analysts suspected that the company was trying to muddy the waters, obscuring the true state of affairs. The CEO knew his job was on the line if the truth came out. There was a rumor that his previous boss was no angel. The CEO wanted to make a killing and then disappear. The investors are growing suspicious of his actions. Ultimately, the truth was bound to come out.",
+      "expected": [
+        "bury",
+        "muddy the waters",
+        "no angel",
+        "make a killing"
+      ]
+    },
+    {
+      "text": "The suspect's alibi was weak from the start. Police investigators felt he was trying to muddy the waters. The suspect claimed he was at home sleeping at the time of the crime, but witnesses placed him near the scene. He wanted to bury the knife used in the murder to avoid detection. It looked like he was dying to pin the blame on someone else. The detective had seen similar cases before. The victim was no angel. The detective's interrogation techniques were relentless. Eventually, the suspect confessed to the crime. The suspect was going away for a long time.",
+      "expected": [
+        "muddy the waters",
+        "bury",
+        "dying to",
+        "no angel"
+      ]
+    },
+    {
+      "text": "The politician’s campaign was in full swing, filled with promises and accusations. Her opponent attempted to bury her chances by bringing up details of past scandals. She maintained a composed demeanor while dodging tough questions from reporters. She wanted to sweeten the deal for her voters, promising everything they wanted. Her team suggested that her main opponent was no angel. The news outlets suggested that both candidates were trying to cook the books, exaggerating their accomplishments and minimizing their failures. The candidate's political future was uncertain. The election was less than a month away. She made sure to appeal to voters across the political spectrum. She hopes that she will win big.",
+      "expected": [
+        "bury",
+        "sweeten the deal",
+        "no angel",
+        "cook the books"
+      ]
+    },
+    {
+      "text": "The tech CEO's testimony was eagerly anticipated by investors and the media. He had a reputation for being a ruthless competitor, often willing to do whatever it takes to win. He claimed that his company had clean hands in the recent data breach scandal, insisting that they had followed all industry best practices. However, internal documents suggested that they were trying to sweep it under the rug. Analysts speculated that his company was dying to avoid regulatory oversight. Despite the CEO's claims, many customers felt betrayed by the company's negligence. It was also revealed that the company was carrying a lot of skeletons in the closet regarding previous data breaches. The details were slowly revealed, leading to a gradual decline in the company's stock value. He assured everyone they were operating ethically and responsibly, despite the growing chorus of criticism.",
+      "expected": [
+        "clean hands",
+        "sweep it under the rug",
+        "dying to avoid",
+        "skeletons in the closet"
+      ]
+    },
+    {
+      "text": "The police investigation into the art heist took several unexpected turns. Initially, the detectives focused on known art thieves, but the evidence kept leading them down blind alleys. A new informant claimed that the museum director was no angel and may have been involved in the planning of the crime. The media jumped on the story, eager to expose any hint of corruption. They made a killing selling the story. The detectives worked around the clock trying to locate the stolen paintings. The thief likely thought he could just walk away with the paintings and live happily ever after. One detective noted that, based on evidence at the scene, the thief wanted to butcher the security guard in order to get into the museum. The paintings were eventually recovered in a warehouse outside the city.",
+      "expected": [
+        "no angel",
+        "made a killing",
+        "butcher",
+        "blind alleys"
+      ]
+    },
+    {
+      "text": "The athlete was accused of using performance-enhancing drugs, a charge that threatened to derail his career. He vehemently denied the allegations, claiming he had always played by the rules. His supporters rallied around him, insisting that he was a role model for young athletes. However, some reporters were determined to dig up dirt and expose any hypocrisy. He was dying to prove his innocence to the world. The athlete stated that his body was a temple, indicating his devotion to health. The investigation revealed that he was not as clean as he professed, with evidence suggesting he had indeed used banned substances. Many people felt that he was dying to deceive people. The consequences of the scandal were severe, including a ban from competition and the loss of endorsements. The athlete struggled to cope with the fallout, as his reputation was tarnished beyond repair.",
+      "expected": [
+        "dig up dirt",
+        "dying to prove",
+        "not as clean",
+        "dying to deceive"
+      ]
+    },
+    {
+      "text": "The city council meeting was filled with heated debate over the proposed budget cuts. Council members argued over which services should be prioritized and which should be reduced. One councilwoman accused her opponents of trying to bury the evidence of their past mismanagement. She pointed to several instances of wasteful spending and lack of oversight. The mayor, however, defended the budget, claiming it was necessary to balance the city's finances. He insisted that everyone would have to make sacrifices to get the city back on track. The issue was that the past city administration shot through all of the funds. The cuts, however, were dead on arrival. The meeting ended without a resolution, leaving the city's future uncertain.",
+      "expected": [
+        "bury the evidence",
+        "shot through",
+        "dead on arrival"
+      ]
+    },
+    {
+      "text": "The small town was rocked by a series of mysterious disappearances. The sheriff's department launched a full-scale investigation, but leads were scarce. Some residents whispered that the missing people had simply run away, while others suspected foul play. A local reporter started digging for the truth, determined to uncover what was really happening. The investigation suggested that the sheriff was no angel, as he was covering something up. As the search intensified, tensions within the community reached a boiling point. People began to point fingers and accuse each other of being involved. One resident claimed to know that there were skeletons in the closet regarding the missing persons. The reporter worked tirelessly to uncover the truth, determined to bring justice to the victims.",
+      "expected": [
+        "no angel",
+        "skeletons in the closet",
+        "digging"
+      ]
+    },
+    {
+      "text": "The company's stock price plummeted after the announcement of disappointing quarterly earnings. Investors panicked, selling off their shares in droves. Analysts warned that the company was in serious trouble and might not be able to recover. The CEO tried to reassure investors, claiming that the company was simply going through a temporary rough patch. He claimed that they had clean hands during the earnings season. Competitors, however, saw an opportunity to capitalize on the company's misfortune. They began to aggressively target the company's customers and poach its employees. The CEO was likely dying to increase revenue in order to stop the bleeding. The situation looked grim for the company, as it faced mounting financial pressure and growing competition.",
+      "expected": [
+        "clean hands",
+        "dying to increase",
+        "bleeding"
+      ]
+    },
+    {
+      "text": "The political debate between the two candidates was a tense and often bitter affair. They clashed over a wide range of issues, including healthcare, education, and the economy. Each candidate accused the other of distorting the truth and misleading voters. The debate was supposed to clean up some of the candidates' positions. One candidate claimed that his opponent was simply trying to throw him under the bus to gain an advantage. The other candidate countered by accusing his opponent of being out of touch with the concerns of ordinary Americans. The media scrutinized every word and gesture, looking for any sign of weakness or vulnerability. Many voters felt that both candidates were simply trying to appeal to their base, rather than addressing the real issues facing the country.",
+      "expected": [
+        "clean up",
+        "throw him under the bus"
+      ]
+    },
+    {
+      "text": "The court case centered on the claim that the company was using unethical methods for their benefit. The plaintiff's lawyers built their strategy on the fact that the company had skeletons in the closet. During the trial the defense attorney tried to butcher the testimonies of the prosecution. The CEO of the company made a killing off the backs of the employees. The company thought they were in the clear, but they were dying to not have the scandal revealed. The judge and jury came to the conclusion that the company had acted criminally.",
+      "expected": [
+        "skeletons in the closet",
+        "butcher",
+        "made a killing",
+        "dying to"
+      ]
+    },
+    {
+      "text": "The mayor's response to the crisis was met with widespread criticism. Residents felt that he was not doing enough to address the needs of the community. He tried to bury the evidence of a previous administration's wrongdoings to deflect the blame from his own leadership. Critics said he was a wolf in sheep's clothing. His supporters defended him, claiming that he was doing the best he could under difficult circumstances. Public opinion polls showed that his approval rating had plummeted to a record low. Many people felt that he was no angel, and that he was more concerned with his own political survival than with the well-being of the city. The situation remained tense, as the city struggled to recover from the crisis.",
+      "expected": [
+        "bury the evidence",
+        "no angel"
+      ]
+    },
+    {
+      "text": "The CEO's handling of the merger was a complete disaster. The company was bleeding money, and morale was at an all-time low. The board decided to clean house, hoping to revitalize the organization. During the investigation, it was revealed that the CEO had been feathering his own nest, diverting funds for personal gain. He later tried to bury the hatchet with the ousted employees. The shareholders were outraged by his blatant disregard for their interests. The financial analysts believed he had made a killing by selling his shares at just the right time. His actions left a stain on the company's reputation, one that would take years to overcome. The press hounded him relentlessly, eager to uncover every detail of the scandal.",
+      "expected": [
+        "clean house",
+        "feathering his own nest",
+        "bury the hatchet",
+        "made a killing",
+        "stain"
+      ]
+    },
+    {
+      "text": "The defense attorney knew she had a tough case. Her client, accused of embezzlement, was guilty as sin. She had to play her cards carefully to mitigate the damage. The prosecution was determined to hang him out to dry, presenting a mountain of incriminating evidence. The lawyer scrambled to butcher the prosecution's witnesses during cross examination. The client had tried to whitewash his financial records. Despite her best efforts, the jury seemed unconvinced. The media coverage was overwhelmingly negative. The community watched with bated breath as the trial unfolded. The judge cautioned the jury against letting public opinion influence their decision.",
+      "expected": [
+        "guilty as sin",
+        "hang him out to dry",
+        "butcher",
+        "whitewash"
+      ]
+    },
+    {
+      "text": "The political campaign was becoming increasingly heated. The candidates were locked in a bitter battle for votes. One candidate accused the other of having skeletons in the closet. The other candidate tried to bury his opponent with promises of prosperity. Both sides were willing to get down and dirty. The election was expected to be close. Recent polling data revealed the public's growing distrust of both parties. Voter turnout was predicted to be high. The media was fueling the flames, constantly highlighting the candidates' negative qualities. Observers noted that the negative campaign tactics seemed to be working effectively.",
+      "expected": [
+        "skeletons in the closet",
+        "bury his opponent",
+        "get down and dirty"
+      ]
+    },
+    {
+      "text": "The athlete's career was on the line after the scandal. The allegations of doping threatened to tarnish his legacy. He was determined to clear his name and reclaim his reputation. The sports commission decided to bury the matter after an internal review. The athlete's coach knew he was no angel, but still supported him. He was fighting tooth and nail to prove his innocence. His fans remained divided, some believing in his innocence, others feeling betrayed. The press had a field day with the story, dissecting every detail. Ultimately, the athlete was vindicated, but the shadow of doubt lingered.",
+      "expected": [
+        "bury the matter",
+        "no angel",
+        "fighting tooth and nail",
+        "had a field day"
+      ]
+    },
+    {
+      "text": "The small town was rocked by a shocking crime. The investigation quickly zeroed in on a prime suspect. Detectives revealed the suspect was dying to tell his side of the story. The evidence slowly began to point towards a dark truth. The investigators were determined to leave no stone unturned. The suspect's lawyer tried to bury the scandal, arguing that the accusations were unfounded. The community was divided, some convinced of the suspect's guilt, others believing in his innocence. The trial promised to be a spectacle, drawing national attention. The victim's family sought justice, demanding accountability.",
+      "expected": [
+        "dying to",
+        "bury the scandal"
+      ]
+    },
+    {
+      "text": "The tech company's new product launch was highly anticipated. The marketing team promised it would be a game-changer. However, behind the scenes, things were in disarray. The engineers were burning the midnight oil to fix last-minute bugs. Insiders revealed that the CEO was riding roughshod over the development team. The initial reviews were mixed, with some praising the innovation and others criticizing the glitches. Competitors were dying to see the product fail. The company's stock price fluctuated wildly. Analysts predicted a turbulent few months ahead. The company worked to clean up the damage. ",
+      "expected": [
+        "riding roughshod",
+        "dying to",
+        "clean up the damage"
+      ]
+    },
+    {
+      "text": "The actress's divorce was splashed across the tabloids. She accused her ex-husband of being a wolf in sheep's clothing. He retaliated by claiming she was trying to bury the past. Sources close to the couple revealed a history of infidelity and financial disputes. The media was having a field day with the story. Both parties were eager to present their side of the story to the public. The divorce proceedings were expected to be messy and drawn-out. The actress's career suffered as a result of the scandal. Her ex-husband maintained his innocence, denying all allegations.",
+      "expected": [
+        "wolf in sheep's clothing",
+        "bury the past",
+        "having a field day"
+      ]
+    },
+    {
+      "text": "The charity organization was under scrutiny for its financial practices. Whistleblowers alleged that the executives were feathering their own nests. The investigation revealed a pattern of excessive spending and mismanagement. Donors were outraged to learn how little of their money actually reached the intended recipients. The board vowed to clean house and implement stricter controls. The scandal threatened to cripple the organization's ability to raise funds. The executives attempted to bury the story, claiming the allegations were politically motivated. The public demanded accountability and transparency. The organization's reputation was tarnished.",
+      "expected": [
+        "feathering their own nests",
+        "clean house",
+        "bury the story"
+      ]
+    },
+    {
+      "text": "The debate over climate change continues to rage. Scientists warn of dire consequences if action is not taken. Politicians are divided on the best course of action. One side argues for drastic measures, while the other advocates for a more gradual approach. Activists are dying to see real change. Critics on both sides accuse each other of burying their heads in the sand. The issue is complex and multifaceted. There are many factors to consider. The world watches with a mixture of hope and apprehension. The consequences of inaction could be devastating.",
+      "expected": [
+        "dying to",
+        "burying their heads in the sand"
+      ]
+    }
+  ]
+}

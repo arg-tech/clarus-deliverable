@@ -1,20 +1,28 @@
 #!/usr/bin/env python
 """
-Train a passive/active‑voice classifier on top of Qwen3‑Embedding‑4B
+Train a passive/active‑voice classifier on top of Qwen3‑Embedding‑0.6B
 
 Usage
 -----
+# From TSV (two columns: passive | active sentence pairs):
 python train_qwen_voice_classifier.py \
-       --tsv data/magna_carta.tsv \
+       --input data/voice_pairs.tsv \
        --out_head models/voice_head.joblib \
-       --csv data/voice_dataset.csv         # optional, just to keep a flat copy
+       --out_csv data/voice_dataset.csv \
+       --frac 0.3
+
+# From CSV (columns: sentence, label, label_id):
+python train_qwen_voice_classifier.py \
+       --input data/voice_dataset.csv \
+       --out_head models/voice_head.joblib \
+       --frac 0.3
 """
 import argparse, joblib, os, pandas as pd, torch
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sentence_transformers import SentenceTransformer
 
-EMBED_MODEL = "Qwen/Qwen3-Embedding-0.6B"      # 2560‑d vectors :contentReference[oaicite:0]{index=0}
+EMBED_MODEL = "Qwen/Qwen3-Embedding-0.6B"
 LABEL2ID     = {"passive": 0, "active": 1}
 
 def load_tsv(tsv_path: str, *, frac: float = 0.01, seed: int = 42) -> pd.DataFrame:
@@ -36,15 +44,12 @@ def load_tsv(tsv_path: str, *, frac: float = 0.01, seed: int = 42) -> pd.DataFra
     -------
     pd.DataFrame with columns: sentence, label, label_id
     """
-    # ❶ read the full two-column file
     df_pairs = pd.read_csv(tsv_path, sep="\t", header=None,
                            names=["passive", "active"])
 
-    # ❷ subsample *pairs* so class balance is preserved
     if 0.0 < frac < 1.0:
         df_pairs = df_pairs.sample(frac=frac, random_state=seed)
 
-    # ❸ explode into one sentence per row
     long_df = pd.concat(
         [
             df_pairs["passive"].to_frame("sentence").assign(label="passive"),
@@ -56,6 +61,51 @@ def load_tsv(tsv_path: str, *, frac: float = 0.01, seed: int = 42) -> pd.DataFra
     return long_df
 
 
+def load_csv(csv_path: str, *, frac: float = 1.0, seed: int = 42) -> pd.DataFrame:
+    """
+    Read a CSV with columns: sentence, label, label_id (long format).
+
+    Parameters
+    ----------
+    csv_path : str
+        Path to the CSV file.
+    frac : float, default 1.0
+        Fraction of rows to keep. Sampling is stratified by label.
+    seed : int, default 42
+        RNG seed for reproducibility.
+
+    Returns
+    -------
+    pd.DataFrame with columns: sentence, label, label_id
+    """
+    df = pd.read_csv(csv_path)
+
+    if 0.0 < frac < 1.0:
+        df = df.groupby("label", group_keys=False).apply(
+            lambda x: x.sample(frac=frac, random_state=seed)
+        ).reset_index(drop=True)
+
+    if "label_id" not in df.columns:
+        df["label_id"] = df["label"].map(LABEL2ID)
+
+    return df
+
+
+def load_input(input_path: str, *, frac: float = 1.0, seed: int = 42) -> pd.DataFrame:
+    """
+    Auto-detect input format and load data.
+
+    - .tsv files: two-column format (passive | active pairs)
+    - .csv files: long format (sentence, label, label_id)
+    """
+    if input_path.endswith(".tsv"):
+        return load_tsv(input_path, frac=frac, seed=seed)
+    elif input_path.endswith(".csv"):
+        return load_csv(input_path, frac=frac, seed=seed)
+    else:
+        raise ValueError(f"Unsupported file format: {input_path}. Use .tsv or .csv")
+
+
 def embed_sentences(model: SentenceTransformer, sentences, batch_size=32):
     """Return a tensor of shape (n, hidden_size)."""
     return model.encode(list(sentences), batch_size=batch_size, convert_to_tensor=True)
@@ -63,10 +113,13 @@ def embed_sentences(model: SentenceTransformer, sentences, batch_size=32):
 def main(args):
     os.makedirs(os.path.dirname(args.out_head), exist_ok=True)
 
-    # 1. TSV → long dataframe -------------------------------------------------
-    df = load_tsv(args.tsv, frac=args.frac)
-    if args.csv:
-        df.to_csv(args.csv, index=False)
+    # 1. Load data (TSV or CSV) ------------------------------------------------
+    df = load_input(args.input, frac=args.frac)
+    print(f"📊  Loaded {len(df)} samples ({df['label'].value_counts().to_dict()})")
+
+    if args.out_csv:
+        df.to_csv(args.out_csv, index=False)
+        print(f"💾  Saved dataset to {args.out_csv}")
 
     # 2. Embeddings ------------------------------------------------------------
     print("⏳  Loading Qwen3‑Embedding-0.6B …")
@@ -98,10 +151,11 @@ def main(args):
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
-    p.add_argument("--tsv", required=True, help="Input TSV with passive|active columns")
-    p.add_argument("--out_head", required=True, help="Path to save scikit‑learn head")
-    p.add_argument("--csv", help="Optional flat CSV (one sentence per row)")
-    p.add_argument("--frac", type=float, default=0.01,
-                   help="Fraction of TSV rows to keep (0 < frac ≤ 1).")
+    p.add_argument("--input", required=True,
+                   help="Input file: .tsv (passive|active pairs) or .csv (sentence,label,label_id)")
+    p.add_argument("--out_head", required=True, help="Path to save scikit-learn head")
+    p.add_argument("--out_csv", help="Optional: save processed dataset as CSV")
+    p.add_argument("--frac", type=float, default=1.0,
+                   help="Fraction of rows to keep (0 < frac ≤ 1). Default: 1.0")
 
     main(p.parse_args())

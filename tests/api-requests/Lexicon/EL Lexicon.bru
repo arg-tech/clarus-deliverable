@@ -1,0 +1,59 @@
+meta {
+  name: EL Lexicon
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{ruleBasedUrl}}/get-lexicon-terms
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "Τα εγκληματολογικά εργαλεία χρησιμοποιήθηκαν για την πλήρη εξαγωγή δεδομένων από τη συσκευή. Τοποθετήσαμε τα στοιχεία σε σακούλα Faraday για να αποτρέψουμε οποιαδήποτε απομακρυσμένη πρόσβαση. Η κρυπτογράφηση στη συσκευή ήταν ενεργοποιημένη. Η ομάδα ψηφιακή εγκληματολογία χρειαζόταν πρόσβαση στην κάρτα SIM και στα δεδομένα EXIF - Μορφή αρχείου εικόνας με δυνατότητα ανταλλαγής από τις φωτογραφίες. Ο σκληρός δίσκος περιείχε ευαίσθητα ψηφιακά δεδομένα.",
+    "language": "el"
+  }
+}
+
+tests {
+  test("Status should be 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  const expectedPhrases = [
+    "εγκληματολογικά",
+    "εξαγωγή",
+    "κρυπτογράφηση",
+    "ψηφιακή εγκληματολογία",
+    "sim",
+    "exif",
+    "σκληρός δίσκος",
+    "ψηφιακά δεδομένα"
+  ];
+  
+  expectedPhrases.forEach(phrase => {
+    test(`Phrase '${phrase}' should be detected`, function () {
+      const found = res.body.some(item => item.word?.toLowerCase().includes(phrase.toLowerCase()));
+      expect(found).to.be.true;
+    });
+  });
+  
+  test("Each detected phrase should have a usage example", function () {
+    res.body.forEach(item => {
+      expect(item.usage_example).to.exist;
+      // Usage example can be empty if not available in source data
+    });
+  });
+  
+  test("Each detected phrase should have character positions", function () {
+    res.body.forEach(item => {
+      expect(item.character_positions).to.exist;
+      expect(item.character_positions.start).to.be.a('number');
+      expect(item.character_positions.end).to.be.a('number');
+    });
+  });
+  
+  console.log(res.body);
+}

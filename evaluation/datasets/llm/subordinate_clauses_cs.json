@@ -1,0 +1,223 @@
+{
+  "indicator": "subordinate_clauses",
+  "language": "cs",
+  "samples": [
+    {
+      "text": "Policie včera provedla razii v sídle kontroverzní investiční skupiny, což vyvolalo vlnu spekulací. Zasah byl součástí rozsáhlého vyšetřování údajných daňových úniků a praní špinavých peněz. Detektivové zabavili velké množství dokumentů a výpočetní techniky. I když vedení společnosti tvrdí, že s policií plně spolupracuje, pověst firmy utrpěla značnou škodu. Mluvčí policie potvrdil, že zadrženo bylo několik osob, ale odmítl sdělit další podrobnosti. Vyšetřování je teprve v počáteční fázi a potrvá několik týdnů. Ackoli se objevily spekulace o zapojení vysokých politických představitelů, policie tyto informace nepotvrdila. Tato kauza vrhá stín na celou investiční branži. Je však třeba zdůraznit, že většina firem v oboru pracuje poctivě a transparentně. Prestobe probihajici vysetrovani vrha stin na podnikatelske prostredi, nelze prehlednout ze podobne kauzy podkopavaji duveru investoru i obcanu v pravni stat. Sice dosud nebylo nikomu nic prokazano, medialni obraz firmy je znacne poskvrnen.",
+      "expected": [
+        "I když vedení společnosti tvrdí, že s policií plně spolupracuje, pověst firmy utrpěla značnou škodu.",
+        "Ackoli se objevily spekulace o zapojení vysokých politických představitelů, policie tyto informace nepotvrdila.",
+        "Prestobe probihajici vysetrovani vrha stin na podnikatelske prostredi, nelze prehlednout ze podobne kauzy podkopavaji duveru investoru i obcanu v pravni stat."
+      ]
+    },
+    {
+      "text": "Ministr vnitra čelí v posledních dnech silné kritice kvůli svému postoji k migrační krizi. Opozice ho obviňuje z nečinnosti a nedostatečné ochrany státních hranic. Ministr se brání tím, že dělá vše, co je v jeho silách, s ohledem na omezené zdroje a mezinárodní závazky. Poukazuje na to, že počet nelegálních překročení hranic se v posledních měsících snížil. I kdyz je pravda, ze nektere kroky byly podniknuty, realny dopad na bezpecnost obcanu je minimalni. Kritici ovsem poukazuji na to, ze prave diky slabemu zabezpeceni hranic mame v republice tolik migrantu. Upozorňují na rostoucí napětí v některých regionech a obavy z nárůstu kriminality. Vláda ale slibuje, že situaci bude i nadále monitorovat a přijme případná další opatření. Ackoli ministr vnitra slibuje rychla reseni, realita je takova, ze situace se neustale zhorsuje a on pouze zlehcuje problem. Ministr vnitra zduraznuje, ze situace je pod kontrolou a obavy jsou zbytecne.",
+      "expected": [
+        "I kdyz je pravda, ze nektere kroky byly podniknuty, realny dopad na bezpecnost obcanu je minimalni.",
+        "Ackoli ministr vnitra slibuje rychla reseni, realita je takova, ze situace se neustale zhorsuje a on pouze zlehcuje problem."
+      ]
+    },
+    {
+      "text": "Včerejší fotbalové utkání mezi Spartou a Slavií skončilo remízou 1:1. Zápas byl plný emocí a kontroverzních momentů. Sparta sice dominovala v prvním poločase, ale nedokázala své šance proměnit. Slavia se naopak zlepšila po přestávce a dokázala vyrovnat. Fanoušci obou táborů vytvořili bouřlivou atmosféru na stadionu. I kdyz se Sparta snazila, nedokazala Slaviho obranu prekonat. Někteří diváci se dopustili výtržností a na hřišti se objevily světlice. Policie musela zasáhnout a několik osob zadržet. Trenér Sparty po zápase prohlásil, že je s výkonem svého týmu spokojen, i když ho mrzí ztráta dvou bodů. Navzdory remize Sparta zustava v cele tabulky. Prestobe na hristi byla snaha videt krasny fotbal, zavirani hrace a prilisna defenziva obou tymu nedovolily divakum uzit si hru.",
+      "expected": [
+        "I kdyz se Sparta snazila, nedokazala Slaviho obranu prekonat.",
+        "Prestobe na hristi byla snaha videt krasny fotbal, zavirani hrace a prilisna defenziva obou tymu nedovolily divakum uzit si hru."
+      ]
+    },
+    {
+      "text": "Nová studie ukazuje, že používání mobilních telefonů před spaním negativně ovlivňuje kvalitu spánku. Modré světlo vyzařované displeji narušuje produkci melatoninu, hormonu regulujícího spánek. Lidé, kteří si před spaním prohlížejí sociální sítě nebo hrají hry, mají problémy s usínáním a častěji se budí během noci. Odborníci doporučují, aby se lidé alespoň hodinu před spaním vyhýbali používání mobilních telefonů a jiných elektronických zařízení. I kdyz se to zda tezke, zkuste si pred spanim precist knihu. Doporučují také vytvořit si pravidelný spánkový režim a dbát na správnou hygienu spánku. Někteří lidé si stěžují na bolesti hlavy a očí. Prestobe by pouzivani mobilnich telefonu mohlo byt omezeno, lide se ho nevzdaji. Je důležité si uvědomit rizika spojená s používáním mobilních telefonů před spaním a přijmout opatření k ochraně svého zdraví. Existuje mnoho dostupnych aplikaci, ktere mohou pomoci omezit modre svetlo. Ackoli pouzivani nocniho rezimu telefon snizi mnozstvi modreho svetla, neeliminuji ho uplne. Zkuste pred spanim praktiky, ktere vas uklidni.",
+      "expected": [
+        "Prestobe by pouzivani mobilnich telefonu mohlo byt omezeno, lide se ho nevzdaji.",
+        "Ackoli pouzivani nocniho rezimu telefon snizi mnozstvi modreho svetla, neeliminuji ho uplne."
+      ]
+    },
+    {
+      "text": "Vláda představila návrh zákona o podpoře obnovitelných zdrojů energie. Cílem je snížit závislost na fosilních palivech a snížit emise skleníkových plynů. Návrh zákona počítá s daňovými úlevami a dotacemi pro firmy a domácnosti, které investují do solárních panelů, větrných elektráren a dalších obnovitelných zdrojů. Opozice návrh zákona kritizuje a tvrdí, že je příliš nákladný a neefektivní. I kdyz ma vlada dobre umysly, neni mozne, aby vsechny domácnosti ihned presly na obnovitelne zdroje. Poukazuje na to, že daňové úlevy a dotace budou zatěžovat státní rozpočet a zvyšovat daně pro občany. Zastánci zákona naopak argumentují tím, že investice do obnovitelných zdrojů se z dlouhodobého hlediska vyplatí a přinesou úspory energie a snížení znečištění životního prostředí. Je dulezite hledat udrzitelna reseni. Ackoli opozice poukazuje na navyseni statniho rozpoctu, podporovani obnovitelnych zdroju je pro budoucnost statu klicove.",
+      "expected": [
+        "Ackoli opozice poukazuje na navyseni statniho rozpoctu, podporovani obnovitelnych zdroju je pro budoucnost statu klicove."
+      ]
+    },
+    {
+      "text": "Situace v nemocnicích je nadále kritická. Počet pacientů s koronavirem neklesá a nemocnice jsou přetížené. Personál je vyčerpaný a chybí volná lůžka. Vláda zvažuje zpřísnění protiepidemických opatření. I kdyz jsou opatreni neprijemna, pomohou snizit nakazu v republice. Lidé by měli dodržovat pravidla a chránit sebe i ostatní. Někteří lidé ale opatření ignorují a odmítají se očkovat. Protestují proti nošení roušek a omezení pohybu. Je důležité, abychom se sjednotili a společně bojovali proti pandemii. Zdravotnici delaji maximum, co mohou. Prestobe ne vzdy s usmevem a vlidnym slovem, chapeme, ze jsou pretizeni. Musime se vzajemne podporovat. Bohuzel, straseni a stres v TV tomu nepridavaji.",
+      "expected": [
+        "I kdyz jsou opatreni neprijemna, pomohou snizit nakazu v republice.",
+        "Prestobe ne vzdy s usmevem a vlidnym slovem, chapeme, ze jsou pretizeni."
+      ]
+    },
+    {
+      "text": "Včera proběhla v Praze demonstrace proti vládní politice. Demonstranti protestovali proti zvyšování daní, inflaci a nezaměstnanosti. Kritizovali vládu za korupci a klientelismus. Požadovali demisi premiéra a předčasné volby. Na demonstraci se sešlo několik tisíc lidí. Policie zasáhla proti demonstrantům, kteří se pokusili proniknout do budovy parlamentu. Několik osob bylo zadrženo. Ackoli byla demonstrace hlasita, neprinutila vladu k jednani. Někteří demonstranti házeli kameny a petardy. Je potreba nechat lidi vyjadrit svuj nazor. I kdyz se demonstranti snazili, jejich hlas nebyl vyslysen. Nektere politicke subjekty se snazily na demonstraci zviditelnit.",
+      "expected": [
+        "Ackoli byla demonstrace hlasita, neprinutila vladu k jednani.",
+        "I kdyz se demonstranti snazili, jejich hlas nebyl vyslysen."
+      ]
+    },
+    {
+      "text": "Společnost oznámila propouštění zaměstnanců. Důvodem jsou ekonomické problémy a pokles tržeb. Společnost se potýká s konkurencí a klesající poptávkou po svých produktech. Propouštění se dotkne především administrativních pracovníků a dělníků. Vedení společnosti slibuje, že propouštěným zaměstnancům poskytne podporu při hledání nového zaměstnání. Odbory kritizují propouštění a požadují, aby společnost našla jiné řešení. I kdyz je situace neprijemna, propouštění je jediny zpusob, jak zachranit spolecnost. Společnost se snaží minimalizovat dopad propouštění na své zaměstnance. Sice se propousteni dotkne desitek zamestnancu, diky tomu vsak firma prezije a zachova svou cinnost pro budoucnost. Ackoli je to smutne, nekdy je nutne udelat tezka rozhodnuti.",
+      "expected": [
+        "I kdyz je situace neprijemna, propouštění je jediny zpusob, jak zachranit spolecnost.",
+        "Sice se propousteni dotkne desitek zamestnancu, diky tomu vsak firma prezije a zachova svou cinnost pro budoucnost.",
+        "Ackoli je to smutne, nekdy je nutne udelat tezka rozhodnuti."
+      ]
+    },
+    {
+      "text": "Probíhá soudní proces s obžalovaným z vraždy. Obžalovaný se hájí tím, že je nevinný a že vraždu nespáchal. Prokurátor tvrdí, že má dostatek důkazů o vině obžalovaného. Soud vyslechl svědky a přezkoumal důkazy. Porota bude rozhodovat o vině nebo nevině obžalovaného. Ackoli obzalovany tvrdi, ze je nevinny, dukazy svedci o opaku. Rozsudek bude vyhlášen příští týden. Případ vzbudil velký zájem veřejnosti. I kdyz obhajoba tvrdi, ze policie nepracovala spravne, jsou dukazy jasne. Soud se snazi zjistit celou pravdu. Verejnost je rozdelena v nazorech na vinu obzalovaneho. Sice svedectvi nekterych svedku jsou nepresvedciva, celkovy obraz je jasny.",
+      "expected": [
+        "Ackoli obzalovany tvrdi, ze je nevinny, dukazy svedci o opaku.",
+        "I kdyz obhajoba tvrdi, ze policie nepracovala spravne, jsou dukazy jasne.",
+        "Sice svedectvi nekterych svedku jsou nepresvedciva, celkovy obraz je jasny."
+      ]
+    },
+    {
+      "text": "Prezident podepsal nový zákon o hazardních hrách. Zákon zpřísňuje regulaci hazardních her a zavádí nové daně pro provozovatele heren a kasin. Cílem je snížit negativní dopady hazardních her na společnost. Kritici zákona tvrdí, že omezuje svobodu podnikání a že povede k rozvoji nelegálního hazardu. Zastánci zákona naopak argumentují tím, že chrání zranitelné skupiny obyvatelstva před závislostí na hazardních hrách. I kdyz zakon prinasi omezeni, chrani hracu pred vznikem zavislosti. Zákon také zavádí registr hráčů, kteří si zakázali hrát hazardní hry. Ackoli se mnoha provozovatelum hazardnich her novy zakon nelibi, je zameren na ochranu obcanu. Je důležité, aby se zákon účinně vymáhal.",
+      "expected": [
+        "I kdyz zakon prinasi omezeni, chrani hracu pred vznikem zavislosti.",
+        "Ackoli se mnoha provozovatelum hazardnich her novy zakon nelibi, je zameren na ochranu obcanu."
+      ]
+    },
+    {
+      "text": "Vláda čelí kritice za své nedávné ekonomické reformy. Opozice tvrdí, že opatření poškodí malé podniky a zvýší nezaměstnanost. Ministr financí však trvá na tom, že reformy jsou nezbytné pro dlouhodobý růst. Ekonom Petr Novák uvedl, že dopady reforem budou smíšené. I když je pravda, že některé podniky mohou mít problémy, faktem je, že celkový dopad na ekonomiku bude pozitivní. Nové zákony údajně zjednoduší podnikání a přilákají zahraniční investice. Podle některých analytiků jsou reformy nedostatečné a vyžadují další kroky. Důchodci a studenti vyjadřují obavy ohledně inflace. Ackoli nekteri odbornici upozornuji na potencialni negativa, vetsina se shoduje, ze zmeny jsou krok spravnym smerem. Vláda plánuje informační kampaň k vysvětlení reforem veřejnosti. Vláda také slibuje kompenzační opatření pro nejvíce zasažené skupiny. Prestobe puvodni plan pocital s mene ambicioznimi cily, konecny navrh je pry vysledkem kompromisu mezi stranami. Odbory varují před sociálními nepokoji. Ministerstvo práce pracuje na nových programech rekvalifikace.",
+      "expected": [
+        "I když je pravda, že některé podniky mohou mít problémy, faktem je, že celkový dopad na ekonomiku bude pozitivní.",
+        "Ackoli nekteri odbornici upozornuji na potencialni negativa, vetsina se shoduje, ze zmeny jsou krok spravnym smerem.",
+        "Prestobe puvodni plan pocital s mene ambicioznimi cily, konecny navrh je pry vysledkem kompromisu mezi stranami."
+      ]
+    },
+    {
+      "text": "Policie vyšetřuje případ údajné korupce na radnici. Starosta je podezřelý z přijímání úplatků od stavebních firem. Opozice vyzývá k jeho rezignaci. Starosta obvinění popírá a tvrdí, že jde o politickou kampaň. Místní podnikatel Jan Svoboda byl zatčen v souvislosti s případem. Sice Svoboda popira veskere zlociny, ale policie disponuje silnymi dukazy proti nemu. Policie prohledala jeho kanceláře a dům. Soud rozhodl o jeho vazbě. Obyvatelé města jsou rozděleni v názoru na starostu. Nekteri ho podporuji, jini mu neveri. Investigativní novinářka Eva Dvořáková se případu věnuje již několik měsíců. Tvrdí, že má důkazy o systematické korupci. Navzdory tomu, ze doposud nebyly zverejneny zadne konkretni dukazy, popularita starosty klesa. Prokuratura slibuje rychlé a transparentní vyšetření. Soudní proces bude pravděpodobně velmi sledovaný. Místní politici se obávají dopadu případu na nadcházející volby.",
+      "expected": [
+        "Sice Svoboda popira veskere zlociny, ale policie disponuje silnymi dukazy proti nemu.",
+        "Navzdory tomu, ze doposud nebyly zverejneny zadne konkretni dukazy, popularita starosty klesa."
+      ]
+    },
+    {
+      "text": "Fotbalový klub Sparta Praha čelí kritice za své výkony v letošní sezóně. Fanoušci jsou nespokojeni s hrou týmu a požadují změny. Trenér se brání a tvrdí, že tým potřebuje čas. Kapitán týmu Petr Novotný vyzývá k trpělivosti. I kdyz tym prohral nekolik dulezitych zapasu, Novotny veri, ze se brzy vrati na spicku tabulky. Někteří hráči jsou zraněni a nemohou nastoupit. Klub má finanční problémy a musí šetřit. Majitel klubu slibuje nové investice do týmu. Do týmu by měli přijít noví hráči ze zahraničí. Sparta Praha je tradiční český klub s bohatou historií. Prestobe momentalni situace neni idealni, klub ma stale silnou fanouskovskou zakladnu. Klub má problémy s disciplínou hráčů. Někteří hráči se zapletli do skandálů mimo hřiště. Klub se snaží zlepšit image týmu a získat zpět důvěru fanoušků. Vedení klubu plánuje změny v tréninkovém procesu.",
+      "expected": [
+        "I kdyz tym prohral nekolik dulezitych zapasu, Novotny veri, ze se brzy vrati na spicku tabulky.",
+        "Prestobe momentalni situace neni idealni, klub ma stale silnou fanouskovskou zakladnu."
+      ]
+    },
+    {
+      "text": "Česká republika se potýká s rostoucím počtem případů domácího násilí. Oběti se často bojí nahlásit násilí policii. Organizace na ochranu práv žen vyzývají k větší podpoře obětem. Vláda slibuje zpřísnění trestů pro pachatele. Sociální pracovnice Anna Nováková se věnuje obětem domácího násilí již několik let. Tvrdí, že je potřeba více osvěty a prevence. Mnoho obětí nemá kam jít a nemá finanční prostředky. I kdyz existuji specializovana zarizeni pro obeti, jejich kapacita je omezena. Ministerstvo práce a sociálních věcí pracuje na nových programech podpory. Policie školí své příslušníky v oblasti domácího násilí. Odborníci se shodují, že je potřeba komplexní přístup k řešení tohoto problému. Trebaze pocet nahlasenych pripadu roste, realny pocet obeti je pravdepodobne mnohem vyssi. Občanská sdružení pořádají sbírky na pomoc obětem. Některé oběti se bojí o své děti.",
+      "expected": [
+        "I kdyz existuji specializovana zarizeni pro obeti, jejich kapacita je omezena.",
+        "Trebaze pocet nahlasenych pripadu roste, realny pocet obeti je pravdepodobne mnohem vyssi."
+      ]
+    },
+    {
+      "text": "Vláda plánuje výstavbu nové dálnice, která má spojit Prahu s Brnem. Ekologové protestují proti výstavbě, protože ohrožuje chráněné oblasti. Ministerstvo dopravy tvrdí, že dálnice je nezbytná pro rozvoj ekonomiky. Opozice kritizuje projekt kvůli vysokým nákladům. Investor Karel Dvořák získal zakázku na výstavbu dálnice. Ackoli jeho firma nema s podobnymi projekty zkusenosti, vyhral verejnou soutez. Dvořák slibuje, že dálnice bude postavena včas a kvalitně. Místní obyvatelé se obávají hluku a znečištění. Vláda slibuje kompenzační opatření pro dotčené obce. Investor musí dodržovat přísné ekologické normy. Ekologické organizace monitorují průběh výstavby. Soud řeší žalobu proti výstavbě dálnice. Soudní proces může výstavbu zdržet. Ministr dopravy trvá na tom, že výstavba bude pokračovat. Investice do dopravní infrastruktury je klíčová pro hospodářský růst.",
+      "expected": [
+        "Ackoli jeho firma nema s podobnymi projekty zkusenosti, vyhral verejnou soutez."
+      ]
+    },
+    {
+      "text": "Došlo k tragické dopravní nehodě, při které zemřeli dva lidé. Nehoda se stala na dálnici D1 u Brna. Policie vyšetřuje příčiny nehody. Podle prvních informací řidič osobního automobilu nedodržel bezpečnou vzdálenost. Hasiči museli vyprostit těla obětí z vraku vozidla. Dálnice byla několik hodin uzavřena. Doprava byla odkloněna po objízdných trasách. Svědci nehody byli v šoku. Psychologové poskytli pomoc rodinám obětí. Policie apeluje na řidiče, aby dodržovali dopravní předpisy. Alkohol za volant nepatří, varuje policie. Prestobe zpravy o ridicich pod vlivem alkoholu jsou stale caste. Ministr dopravy vyjádřil soustrast rodinám obětí. Vláda slibuje zpřísnění kontrol na silnicích. Dopravní experti upozorňují na nebezpečí mikrospánku.",
+      "expected": [
+        "Prestobe zpravy o ridicich pod vlivem alkoholu jsou stale caste."
+      ]
+    },
+    {
+      "text": "Česká národní banka zvýšila úrokové sazby. Důvodem je rostoucí inflace. Opozice kritizuje rozhodnutí banky. Ekonomové se shodují, že to zdraží hypotéky a úvěry. Lidé se obávají, že se zvýší splátky hypoték. Banky slibují, že budou klientům vycházet vstříc. I kdyz vyssi uroky mohou omezit inflaci, take zpomaluji ekonomicky rust. Podnikatelé se obávají poklesu investic. Vláda vyzývá banku, aby zvážila dopady rozhodnutí na ekonomiku. Inflace je problém, který trápí celou Evropu. Česká republika se snaží s inflací bojovat. Ministerstvo financí pracuje na nových opatřeních proti inflaci. Odbory varují před poklesem reálných mezd. Sociální demokraté navrhují zavedení stropů na ceny energií. Vláda jedná s odbory a zaměstnavateli o řešení situace.",
+      "expected": [
+        "I kdyz vyssi uroky mohou omezit inflaci, take zpomaluji ekonomicky rust."
+      ]
+    },
+    {
+      "text": "V ostře sledovaném soudním procesu byl odsouzen podnikatel Petr Kraus za daňové úniky. Kraus se hájil tím, že jednal v dobré víře a nevěděl o nezákonných praktikách. Soud mu však neuvěřil a uložil mu trest odnětí svobody na pět let. Obhajoba se proti rozsudku odvolala. Sice obhajoba argumentovala procesnimi chybami, odvolaci soud rozsudek potvrdil. Státní zástupce vyjádřil spokojenost s rozsudkem. Případ sledovala média s velkým zájmem. Odsouzený podnikatel se stal symbolem korupce a daňových úniků. Lidé volají po spravedlivém potrestání viníků. Soud zabavil Krausovi majetek v hodnotě několika milionů korun. Krausovi hrozí další obvinění v souvislosti s jinými kauzami. Jeho firma se potýká s finančními problémy. Zaměstnanci firmy se obávají o svá pracovní místa. Konkurenční firmy se snaží využít situace. Případ Petra Krause je varováním pro ostatní podnikatele.",
+      "expected": [
+        "Sice obhajoba argumentovala procesnimi chybami, odvolaci soud rozsudek potvrdil."
+      ]
+    },
+    {
+      "text": "Vláda schválila kontroverzní zákon o omezení kouření v restauracích. Zákon zakazuje kouření ve všech vnitřních prostorách restaurací a barů. Majitelé restaurací protestují proti zákonu. Tvrdí, že zákon poškodí jejich podnikání. Opozice kritizuje zákon jako zásah do osobní svobody. Ministr zdravotnictví trvá na tom, že zákon chrání zdraví občanů. Lékaři vítají zákon a podporují jeho zavedení. Kuřáci jsou nespokojeni s novým zákonem. I kdyz se ocekava snizeni poctu kuraku, majitele restauraci se obavaji ekonomickych dopadu. Nekuřáci nový zákon vítají. Hospodyňky se radují z toho, že se nebudou muset vracet domů načichlé kouřem. Vláda slibuje kompenzace pro majitele restaurací. Zákon vstoupí v platnost za několik měsíců. Očekávají se kontroly dodržování zákona. Policie bude pokutovat porušovatele zákona.",
+      "expected": [
+        "I kdyz se ocekava snizeni poctu kuraku, majitele restauraci se obavaji ekonomickych dopadu."
+      ]
+    },
+    {
+      "text": "V komunálních volbách zvítězilo hnutí ANO. Hnutí získalo nejvíce hlasů v Praze a v Brně. Předseda hnutí Andrej Babiš vyjádřil spokojenost s výsledkem voleb. Opozice je zklamána výsledkem voleb. Politologové se shodují, že výsledek voleb posiluje pozici hnutí ANO. Vláda slibuje spolupráci s novými zastupitelstvy. Volby provázela nízká volební účast. Lidé vyjádřili nespokojenost s politickou situací. Ne všichni voliči jsou spokojeni s výsledkem voleb. Ackoli hnutí ANO vyhralo, mnoho lidi poukazuje na jeho kontroverzni minulost. Opozice se snaží sjednotit a vytvořit silnou koalici. Budoucnost ukáže, zda se opozici podaří prosadit své zájmy. Koaliční jednání budou náročná. Města a obce čekají na nové vedení. Noví zastupitelé budou muset řešit řadu problémů. Lidé očekávají zlepšení kvality života ve městech a obcích.",
+      "expected": [
+        "Ackoli hnutí ANO vyhralo, mnoho lidi poukazuje na jeho kontroverzni minulost."
+      ]
+    },
+    {
+      "text": "Vláda představila nový balíček úsporných opatření. Opozice návrh ostře kritizuje, argumentujíc jeho dopadem na nízkopříjmové skupiny obyvatelstva. Ministryně financí zdůraznila nutnost konsolidace veřejných financí. I když je pravda, že některá opatření mohou krátkodobě bolet, faktem je, že dlouhodobě zajistí stabilitu ekonomiky. Kritici však poukazují na to, že navrhované škrty v sociálních dávkách povedou k prohloubení chudoby. Plán dále zahrnuje zvýšení DPH u některých položek a omezení investic do veřejné infrastruktury. Ackoli se vláda snaží prezentovat opatření jako nezbytné pro budoucí prosperitu, mnozí ekonomové varují před rizikem zpomalení ekonomického růstu. Mluvčí vlády zdůraznil, že balíček je kompromisem mezi nutností šetřit a snahou chránit ty nejzranitelnější. Navržená opatření vstoupí v platnost od ledna příštího roku. Prestobe probíhají intenzivní jednání s odbory a zaměstnavateli o kompenzačních mechanismech.",
+      "expected": [
+        "I když je pravda, že některá opatření mohou krátkodobě bolet, faktem je, že dlouhodobě zajistí stabilitu ekonomiky.",
+        "Ackoli se vláda snaží prezentovat opatření jako nezbytné pro budoucí prosperitu, mnozí ekonomové varují před rizikem zpomalení ekonomického růstu.",
+        "Prestobe probíhají intenzivní jednání s odbory a zaměstnavateli o kompenzačních mechanismech."
+      ]
+    },
+    {
+      "text": "Proběhlo další kolo jednání mezi zástupci zaměstnanců a vedením automobilky Škoda Auto. Předmětem sporu je výše mezd a pracovní podmínky. Odbory požadují navýšení platů o deset procent. Vedeni podniku argumentuje složitou situací na trhu. I kdyz vedení uznává, že životní náklady rostou, poukazuje na snižující se zisky společnosti v posledním období. Mluvčí odborů varoval před možností stávky, pokud nebude dosaženo dohody. Ackoli se jednání protáhla do pozdních nočních hodin, kompromis se nepodařilo nalézt. Vedení společnosti uvedlo, že je ochotno jednat dále, ale pouze v rámci realistických možností. Prestobe odbory zvažují vyhlášení stávkové pohotovosti. Příští kolo jednání je naplánováno na příští týden. Zaměstnanci jsou znepokojeni a očekávají spravedlivé řešení.",
+      "expected": [
+        "I kdyz vedení uznává, že životní náklady rostou, poukazuje na snižující se zisky společnosti v posledním období.",
+        "Ackoli se jednání protáhla do pozdních nočních hodin, kompromis se nepodařilo nalézt.",
+        "Prestobe odbory zvažují vyhlášení stávkové pohotovosti."
+      ]
+    },
+    {
+      "text": "V uplynulém týdnu se konalo mistrovství světa v atletice. Česká republika vyslala silnou výpravu. Největší pozornost se upírala k oštěpařce Barboře Špotákové. Špotáková nakonec obsadila až páté místo. Sice předvedla stabilní výkony, ale na medaili to nestačilo. Ackoli její výkony byly solidní, na medaili to nestačilo. Trenér vyjádřil spokojenost s jejím vystoupením. Prestobe byla zklamána, Špotáková se chce soustředit na přípravu na olympijské hry. Fanoušci vyjadřují podporu a věří v její budoucí úspěchy. Druhou medaili získal běžec Jakub Vadlejch, který skončil třetí. Česká atletika tak z mistrovství světa odjíždí se dvěma medailemi. Mistrovství světa bylo celkově úspěšné.",
+      "expected": [
+        "Ackoli její výkony byly solidní, na medaili to nestačilo.",
+        "Prestobe byla zklamána, Špotáková se chce soustředit na přípravu na olympijské hry.",
+        "Sice předvedla stabilní výkony, ale na medaili to nestačilo."
+      ]
+    },
+    {
+      "text": "Policie vyšetřuje případ korupce na radnici města Nová Lhota. Podle informací z vyšetřování měli někteří úředníci přijímat úplatky za přidělování městských zakázek. Starosta města popírá jakékoliv pochybení. I kdyz policie provedla razii na radnici, starosta tvrdí, že se jedná o politicky motivovanou akci. Opozice požaduje jeho rezignaci. Ackoli se vyšetřování nachází teprve v počáteční fázi, někteří zastupitelé již vyjádřili obavy z poškození dobrého jména města. Mluvčí policie potvrdila, že probíhá intenzivní vyšetřování. Prestobe jsou důkazy o korupci neprůkazné. V případě prokázání viny hrozí obviněným až deset let vězení. Celá kauza vzbudila v Nové Lhotě velký rozruch.",
+      "expected": [
+        "I kdyz policie provedla razii na radnici, starosta tvrdí, že se jedná o politicky motivovanou akci.",
+        "Ackoli se vyšetřování nachází teprve v počáteční fázi, někteří zastupitelé již vyjádřili obavy z poškození dobrého jména města.",
+        "Prestobe jsou důkazy o korupci neprůkazné."
+      ]
+    },
+    {
+      "text": "Vláda schválila návrh zákona o podpoře obnovitelných zdrojů energie. Cílem je snížit závislost České republiky na fosilních palivech. Ekologové návrh vítají. Ackoli zákon obsahuje řadu pozitivních prvků, někteří odborníci upozorňují na jeho nedostatky. Konkrétně jde o nedostatečnou podporu malých výrobců energie z obnovitelných zdrojů. Ministerstvo průmyslu a obchodu argumentuje tím, že prioritou je podpora velkých projektů, které mají největší dopad na snížení emisí skleníkových plynů. Prestobe zástupci nevládních organizací požadují, aby zákon zohledňoval i potřeby malých výrobců. Návrh zákona nyní poputuje do parlamentu. Očekává se bouřlivá debata. I když ministerstvo slibuje další úpravy, kritici se obávají, že změny nebudou dostatečné. Podpora obnovitelných zdrojů energie je klíčová pro dosažení klimatických cílů.",
+      "expected": [
+        "Ackoli zákon obsahuje řadu pozitivních prvků, někteří odborníci upozorňují na jeho nedostatky.",
+        "Prestobe zástupci nevládních organizací požadují, aby zákon zohledňoval i potřeby malých výrobců.",
+        "I když ministerstvo slibuje další úpravy, kritici se obávají, že změny nebudou dostatečné."
+      ]
+    },
+    {
+      "text": "Prezidentské volby se blíží a kandidáti stupňují své kampaně. Hlavními favority jsou Petr Pavel a Andrej Babiš. Průzkumy veřejného mínění naznačují těsný souboj. Ackoli se Babiš snaží oslovit voliče s populistickými sliby, jeho popularita v posledních týdnech klesá. Pavel se zaměřuje na prezentaci sebe jako státníka s mezinárodním rozhledem. Prestobe se Pavel snaží distancovat od minulosti, jeho spojení s komunistickým režimem mu někteří voliči vyčítají. Oba kandidáti se ostře střetávají v televizních debatách. Babiš Pavla obviňuje z nezkušenosti a Pavel Babiše z korupce. I když Babiš tvrdí, že je nevinný, kauzy z minulosti ho pronásledují. Volby rozhodnou o budoucím směřování země.",
+      "expected": [
+        "Ackoli se Babiš snaží oslovit voliče s populistickými sliby, jeho popularita v posledních týdnech klesá.",
+        "Prestobe se Pavel snaží distancovat od minulosti, jeho spojení s komunistickým režimem mu někteří voliči vyčítají.",
+        "I když Babiš tvrdí, že je nevinný, kauzy z minulosti ho pronásledují."
+      ]
+    },
+    {
+      "text": "Včera proběhlo zasedání městského zastupitelstva. Hlavním bodem programu bylo schvalování rozpočtu na příští rok. Opozice návrh rozpočtu ostře kritizovala. I když rozpočet obsahuje řadu investic do infrastruktury, opozice tvrdí, že je nedostatečně zaměřen na sociální oblast. Starosta města obhajoval rozpočet jako vyvážený a realistický. Prestobe opozice předložila několik pozměňovacích návrhů, většina z nich byla zamítnuta. Ackoli se diskutovalo o několika bodech, rozpočet byl nakonec schválen většinou hlasů. Někteří občané vyjádřili s rozpočtem nespokojenost. Tvrdí, že nedostatečně řeší problémy s parkováním a dopravou. Město se snaží reagovat na podněty občanů a hledá řešení.",
+      "expected": [
+        "I když rozpočet obsahuje řadu investic do infrastruktury, opozice tvrdí, že je nedostatečně zaměřen na sociální oblast.",
+        "Prestobe opozice předložila několik pozměňovacích návrhů, většina z nich byla zamítnuta.",
+        "Ackoli se diskutovalo o několika bodech, rozpočet byl nakonec schválen většinou hlasů."
+      ]
+    },
+    {
+      "text": "Ministerstvo zdravotnictví varuje před nárůstem případů chřipky. Doporučuje očkování a dodržování hygienických opatření. I když očkování nezaručuje stoprocentní ochranu, snižuje riziko vážných komplikací. Někteří lidé očkování odmítají. Argumentují tím, že má vedlejší účinky. Ministerstvo zdůrazňuje, že rizika očkování jsou minimální. Prestobe někteří lékaři doporučují i další preventivní opatření. Například dostatečný odpočinek a zdravou stravu. Ackoli se někteří lidé chřipce nevyhnou, mohou alespoň zmírnit její průběh. Důležité je také včasná léčba. Pokud se objeví příznaky chřipky, je vhodné navštívit lékaře. Odborníci varují před podceňováním chřipky.",
+      "expected": [
+        "I když očkování nezaručuje stoprocentní ochranu, snižuje riziko vážných komplikací.",
+        "Prestobe někteří lékaři doporučují i další preventivní opatření.",
+        "Ackoli se někteří lidé chřipce nevyhnou, mohou alespoň zmírnit její průběh."
+      ]
+    },
+    {
+      "text": "Soud pokračoval v projednávání případu údajného daňového úniku. Obžalovaným je podnikatel Jan Novák. Podle obžaloby se Novák dopustil daňového úniku ve výši několika milionů korun. Novák vinu popírá. I když obžaloba předložila řadu důkazů, Novák tvrdí, že se jedná o nedorozumění. Jeho obhájce zpochybňuje věrohodnost svědků. Prestobe soud vyslechl několik svědků. Jejich výpovědi se rozcházely. Ackoli soudní proces trvá již několik měsíců, rozsudek zatím nepadl. V případě prokázání viny hrozí Novákovi až deset let vězení. Celý případ sleduje s napětím veřejnost.",
+      "expected": [
+        "I když obžaloba předložila řadu důkazů, Novák tvrdí, že se jedná o nedorozumění.",
+        "Prestobe soud vyslechl několik svědků.",
+        "Ackoli soudní proces trvá již několik měsíců, rozsudek zatím nepadl."
+      ]
+    },
+    {
+      "text": "Praha se potýká s problémy s dopravou. Město je zahlceno automobily. Radnice se snaží situaci řešit. Zavádí nové tramvajové linky a buduje cyklostezky. I když nové linky pomáhají zlepšit dopravu, stále je potřeba investovat do infrastruktury. Kritici poukazují na to, že město nedostatečně podporuje veřejnou dopravu. Prestobe radnice plánuje výstavbu nových parkovacích domů. Ty by měly pomoci snížit počet aut v centru města. Ackoli se situace v posledních letech zlepšila, Praha stále patří mezi města s nejhorší dopravní situací v Evropě. Radnice slibuje, že bude v řešení dopravních problémů pokračovat. Cílem je zlepšit kvalitu života ve městě.",
+      "expected": [
+        "I když nové linky pomáhají zlepšit dopravu, stále je potřeba investovat do infrastruktury.",
+        "Prestobe radnice plánuje výstavbu nových parkovacích domů.",
+        "Ackoli se situace v posledních letech zlepšila, Praha stále patří mezi města s nejhorší dopravní situací v Evropě."
+      ]
+    }
+  ]
+}

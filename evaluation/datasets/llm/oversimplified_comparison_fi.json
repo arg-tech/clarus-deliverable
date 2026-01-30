@@ -1,0 +1,200 @@
+{
+  "indicator": "oversimplified_comparison",
+  "language": "fi",
+  "samples": [
+    {
+      "text": "Oikeudenkäynnissä todistaja osoittautui melkoiseksi käärmeeksi heinikossa, pyrkien kääntämään tuomarin pään ristiriitaisilla lausunnoillaan. Syytetty, kuin kala kuivalla maalla, yritti epätoivoisesti selittää tekojaan, mutta hänen selityksensä tuntuivat ontuvilta. Koko juttu alkoi näyttää yhä enemmän tikittävältä aikapommilta, jonka purkaminen vaatisi tarkkaa harkintaa ja aikaa. Puolustusasianajaja käyttäytyi kuin härkä posliinikaupassa, rikkoen prosessuaalisia sääntöjä ja provosoiden vastapuolta. Yleisö, tyypilliseen tapaan, seurasi tapahtumia hengitystään pidättäen.",
+      "expected": [
+        "käärmeeksi heinikossa",
+        "kala kuivalla maalla",
+        "tikittävältä aikapommilta",
+        "härkä posliinikaupassa"
+      ]
+    },
+    {
+      "text": "Poliitikon puhe oli täynnä tyhjiä lupauksia, hän oli kuin susi lammasten vaatteissa, peittäen todelliset aikeensa kauniilla sanoilla. Talouspolitiikka oli kuin tikittävä aikapommi, odottaen räjähtämistään seuraavaa kriisiä. Hänen vastustajansa oli pelkkä sammakko kaivossa, jolla ei ollut mitään käsitystä kansainvälisestä politiikasta. Lehdistö kuvasi häntä mustana lampaana, joka poikkeaa muista puolueen jäsenistä. Monet ajattelivat, että hän lopulta tuo sulan hattuunsa. Julkisuus vaikutti kampanjan etenemiseen merkittävästi.",
+      "expected": [
+        "susi lammasten vaatteissa",
+        "tikittävä aikapommi",
+        "sammakko kaivossa",
+        "mustana lampaana"
+      ]
+    },
+    {
+      "text": "Uusi yritysjohtaja tuli taloon kuin härkä posliinikaupassa, tekemällä suuria muutoksia ilman riittävää pohjatyötä. Vanhat työntekijät tunsivat olevansa kuin kaloja kuivalla maalla, eivätkä pystyneet sopeutumaan uusiin toimintatapoihin. Projektista oli muodostumassa tikittävä aikapommi, jonka aikataulu oli täysin epärealistinen. Hänen edeltäjänsä, vanha konkari, oli nyt kuin käärme heinikossa, kuiskien nurkan takana epäilystä uutta johtajaa kohtaan. Oli kuin kärpänen voiteessa, että yritys oli tehnyt niin nopeita muutoksia.",
+      "expected": [
+        "härkä posliinikaupassa",
+        "kaloja kuivalla maalla",
+        "tikittävä aikapommi",
+        "käärme heinikossa"
+      ]
+    },
+    {
+      "text": "Rikostutkinnassa todistaja osoittautui lopulta koiraksi seimessä, estäen tiettyjen seikkojen paljastumisen. Epäilty oli kuin kala kuivalla maalla, täysin ymmällään syytöksistä. Tutkinta oli kuin tikittävä aikapommi, aika oli loppumassa ja todisteita ei löytynyt tarpeeksi. Hänen asianajajansa vaikutti susi lammasten vaatteissa, yrittäen hämätä kaikkia osapuolia. Uutiset leviävät nopeasti sosiaalisessa mediassa.",
+      "expected": [
+        "koiraksi seimessä",
+        "kala kuivalla maalla",
+        "tikittävä aikapommi",
+        "susi lammasten vaatteissa"
+      ]
+    },
+    {
+      "text": "Yhteiskunnallisessa keskustelussa monet pitivät päättäjiä kuin sammakkoina kaivossa, jotka eivät ymmärtäneet tavallisten ihmisten elämää. Tilanne oli kuin tikittävä aikapommi, ongelmat kasautuivat kasautumistaan. Päätoimittaja kirjoitti pääkirjoituksen, jossa hän piti hallituksen päätöksiä kuin sutena lammasten vaatteissa, sillä ne aiheuttivat vain enemmän ongelmia. Hänen mielipiteensä poikkesivat muista kollegoista, mikä teki hänestä mustan lampaan toimituksessa. Keskustelu aiheutti laajan mielipideilmaston muutoksen.",
+      "expected": [
+        "sammakkoina kaivossa",
+        "tikittävä aikapommi",
+        "sutena lammasten vaatteissa",
+        "mustan lampaan"
+      ]
+    },
+    {
+      "text": "Urheilussa valmentaja oli kuin härkä posliinikaupassa, tehden impulsiivisia päätöksiä, jotka haittasivat joukkueen suoritusta. Pelaajat tunsivat itsensä kuin kaloiksi kuivalla maalla, eivätkä ymmärtäneet uutta pelitaktiikkaa. Siirtoikkunan lähestyessä sopimukset olivat kuin tikittävä aikapommi, odottaen toteutumistaan. Hänen kommenttinsa aiheutti kuitenkin kuin kärpänen voiteessa, että hän riitaantui avainpelaajan kanssa. Joukkueen kausi vaikuttaa synkältä.",
+      "expected": [
+        "härkä posliinikaupassa",
+        "kaloiksi kuivalla maalla",
+        "tikittävä aikapommi",
+        "kärpänen voiteessa"
+      ]
+    },
+    {
+      "text": "Vaalikampanjassa ehdokas osoittautui kuin koira seimessä, estäen kaikkia muita saamasta ääntä kuuluviin. Taloudellinen tilanne on kuin tikittävä aikapommi, sillä velka kasvaa jatkuvasti. Hän piti kilpailijaa pelkkänä sammakkona kaivossa, jolla ei ole kokemusta valtakunnan asioista. Hänestä tehtiin ikävästi musta lammas, kun hänen menneisyydestä kaivettiin esiin epämiellyttäviä asioita. Lopputulos oli ennustettavissa.",
+      "expected": [
+        "koira seimessä",
+        "tikittävä aikapommi",
+        "sammakkona kaivossa",
+        "musta lammas"
+      ]
+    },
+    {
+      "text": "Poliitikko osoittautui kuin koira seimessä, estäen uudistusten toteuttamisen. Hänen suunnitelmansa olivat kuin tikittävä aikapommi, joka voi aiheuttaa taloudellisen kriisin. Hänen vastustajansa oli pelkkä sammakko kaivossa, jolla ei ollut kokemusta kansainvälisistä suhteista. Mediassa hänet leimattiin mustaksi lampaaksi, joka poikkesi muista puolueen jäsenistä. Analyytikko totesi poliitikon saavan sulan hattuunsa, kun hän vie asioita eteenpäin.",
+      "expected": [
+        "koira seimessä",
+        "tikittävä aikapommi",
+        "sammakko kaivossa",
+        "mustaksi lampaaksi"
+      ]
+    },
+    {
+      "text": "Oikeudenkäynnissä syytetty käyttäytyi kuin härkä posliinikaupassa, kompuroivat todisteet ja aiheuttivat sekaannusta. Asianajaja oli kuin käärme heinikossa, piilossa ja odottaen iskemistä ristikuulustelussa. Todistajanlausunto oli kuin tikittävä aikapommi, uhkaava räjäyttää syytetyn alibin. Lopputulos oli selvä, mutta tuomaristo, kuin sammakko kaivossa, ei nähnyt todellista kuvaa. Syyttäjä yritti tuoda uusia todisteita, mutta vastapuolen asianajaja vastusti tarmokkaasti.",
+      "expected": [
+        "härkä posliinikaupassa",
+        "käärme heinikossa",
+        "tikittävä aikapommi",
+        "sammakko kaivossa"
+      ]
+    },
+    {
+      "text": "Yrityskauppa oli kuin susi lammasten vaatteissa, luvaten suurta voittoa mutta piilottaen todelliset riskit. Sijoittajat huomasivat pian olevansa kuin kala kuivalla maalla, kun markkinat romahtivat. Toimitusjohtaja, kuin irtonainen tykki, teki harkitsemattomia päätöksiä, jotka syvensivät kriisiä. Tuloksena oli konkurssi ja työttömyys. Kriitikot syyttivät johtoa ahneudesta ja huonosta hallinnosta.",
+      "expected": [
+        "susi lammasten vaatteissa",
+        "kala kuivalla maalla",
+        "irtonainen tykki"
+      ]
+    },
+    {
+      "text": "Kolumnisti kutsui syytettyä pelkäksi mustaksi lampaaksi yhteiskunnassa, joka on altis tekemään rikoksia, eikä huomioinut lainkaan syytetyn taustaa. Hänen analyysinsä oli kuin härkä posliinikaupassa, sivuuttaen monimutkaiset syyt. Tutkija esitti kritiikkiä siitä, miten media yksinkertaistaa rikosten syitä. Lopulta oikeus päätyi ratkaisuun, jonka voi katsoa korjaavan tilanteen, mutta mielipiteitä oli monia.",
+      "expected": [
+        "mustaksi lampaaksi",
+        "härkä posliinikaupassa"
+      ]
+    },
+    {
+      "text": "Uusi innovaatio oli kuin sulka hattuun yritykselle, mutta työntekijät kokivat sen ylimääräisenä taakkana. Tuotekehitys oli kuin tikittävä aikapommi, koska määräajat olivat liian tiukat. Johtaja, kuin käärme heinikossa, antoi ymmärtää tukevansa kehitystä, mutta viivästytti resursseja. Henkilöstöpäällikkö yritti ymmärtää työntekijöiden huolia. Kehitysprojekti päätyi katastrofiin resurssien puutteen vuoksi.",
+      "expected": [
+        "sulka hattuun",
+        "tikittävä aikapommi",
+        "käärme heinikossa"
+      ]
+    },
+    {
+      "text": "Talouden ennusteet olivat kuin kärpänen voiteessa muuten positiivisessa raportissa. Inflaatio on nyt kuin tikittävä aikapommi, uhkaamassa kuluttajien ostovoimaa. Pääekonomisti, kuin sammakko kaivossa, ei nähnyt laajempaa kuvaa. Monet analyytikot totesivat, että riski on suuri, mutta hallitus vakuutti tilanteen olevan hallinnassa. Kansalaisten luottamus talouteen on horjunut viime aikoina.",
+      "expected": [
+        "kärpänen voiteessa",
+        "tikittävä aikapommi",
+        "sammakko kaivossa"
+      ]
+    },
+    {
+      "text": "Uusi lakiesitys on kuin susi lammasten vaatteissa, väittäen suojelevansa kansalaisia, mutta rajoittaen heidän vapauksiaan. Kansanedustaja oli pelkkä irtonainen tykki eduskunnassa, esittäen provosoivia mielipiteitä. Hänen puheenvuoronsa aiheutti suurta närää. Mielenosoittajat kerääntyivät eduskuntatalon eteen vastustaakseen lakiesitystä, vaatien sen hyllyttämistä. Julkinen keskustelu aiheesta jatkuu vilkkaana.",
+      "expected": [
+        "susi lammasten vaatteissa",
+        "irtonainen tykki"
+      ]
+    },
+    {
+      "text": "Valmentaja kutsui nuorta urheilijaa pelkäksi mustaksi lampaaksi joukkueessa, vaikka hänellä oli potentiaalia. Pelaaja oli kuin kala kuivalla maalla, kun hänet laitettiin pelaamaan väärälle pelipaikalle. Hänen lahjakkuutensa ei päässyt oikeuksiinsa. Urheilutoimittaja kyseenalaisti valmentajan päätöksen. Joukkueen sisäinen ilmapiiri kiristyi valmentajan arvostelun jälkeen.",
+      "expected": [
+        "mustaksi lampaaksi",
+        "kala kuivalla maalla"
+      ]
+    },
+    {
+      "text": "Skandaali oli kuin tikittävä aikapommi yrityksen maineelle, odottaen räjähtämistä julkisuudessa. Toimitusjohtaja oli kuin käärme heinikossa, yrittäen salata tapahtuneen. Tilintarkastajat paljastivat petoksen, ja yrityksen osakekurssi romahti. Kriisiviestintä epäonnistui, ja yrityksen maine kärsi vakavasti. Lopulta johto joutui eroamaan tehtävistään.",
+      "expected": [
+        "tikittävä aikapommi",
+        "käärme heinikossa"
+      ]
+    },
+    {
+      "text": "Tutkija esitti, että sosiaalinen media on kuin tikittävä aikapommi, joka aiheuttaa riippuvuutta ja levittää valeuutisia. Käyttäjät ovat kuin sammakoita kaivossa, jotka eivät näe todellista maailmaa. Markkinointi sosiaalisessa mediassa on kuin koira seimessä, estäen kilpailijoiden pääsyä markkinoille. Monet nuoret viettävät tunteja päivittäin sosiaalisessa mediassa.",
+      "expected": [
+        "tikittävä aikapommi",
+        "sammakoita kaivossa",
+        "koira seimessä"
+      ]
+    },
+    {
+      "text": "Kaupunginvaltuuston kokouksessa tunnelma oli kireä. Valtuutetut kiistelivät kiivaasti uudesta kaavoitussuunnitelmasta. Yksi valtuutetuista totesi, että suunnitelma oli kuin tikittävä aikapommi, joka voi räjäyttää koko kaupungin talouden. Toinen valtuutettu lisäsi, että vastustajat käyttäytyivät kuin koira seimessä, estäen kaikkea kehitystä. He olivat kuin sammakko kaivossa, joka ei ymmärtänyt maailmaa kaivon ulkopuolella. Kokouksessa oli myös kannattajia, jotka ylistivät suunnitelmaa.",
+      "expected": [
+        "tikittävä aikapommi",
+        "koira seimessä",
+        "sammakko kaivossa"
+      ]
+    },
+    {
+      "text": "Pääministerin puhe oli täynnä vanhoja kliseitä. Hän toisti samoja lupauksia, joita oli kuultu jo vuosien ajan. Kriitikot totesivat, että pääministeri oli kuin rikkoutunut levy, joka jauhoi samaa virttä loputtomasti. Hän oli kuin kala kuivalla maalla, eikä ymmärtänyt tavallisten ihmisten huolia. Oikeistopuolueen edustaja syytti pääministeriä populismista.",
+      "expected": [
+        "rikkoutunut levy",
+        "kala kuivalla maalla"
+      ]
+    },
+    {
+      "text": "Oikeudenkäynnissä kuultiin todistajanlausuntoja, jotka olivat ristiriitaisia. Todistaja vaikutti hermostuneelta ja hänen vastauksensa olivat epämääräisiä. Syyttäjä kuvaili häntä pelkäksi irtonaiseksi tykiksi, joka voi räjäyttää koko jutun. Puolustusasianajaja yritti vakuuttaa tuomarin, että todistaja oli luotettava. Lopullinen tuomio julistetaan ensi viikolla.",
+      "expected": [
+        "irtonaiseksi tykiksi"
+      ]
+    },
+    {
+      "text": "Ulkoministerin vierailu naapurimaahan päättyi diplomaattiseen katastrofiin. Hänen lausuntonsa tulkittiin väärin ja ne aiheuttivat suurta paheksuntaa. Eräs kommentaattori totesi, että ministeri oli kuin käärme heinikossa, joka myrkytti suhteet maiden välillä. Hänen toimintansa oli tyypillistä ulkopolitiikan amatöörille. Tilanteen korjaaminen vie aikaa.",
+      "expected": [
+        "käärme heinikossa",
+        "tyypillistä ulkopolitiikan amatöörille"
+      ]
+    },
+    {
+      "text": "Oppositiopuolueen johtaja syytti hallitusta kyvyttömyydestä hoitaa taloutta. Hän väitti, että hallituksen toimet olivat kuin härkä posliinikaupassa, jotka vain pahensivat tilannetta. Hallituksen edustaja puolusti toimia sanomalla, että ne olivat välttämättömiä. Talouskasvu on hidastunut viime kuukausina.",
+      "expected": [
+        "härkä posliinikaupassa"
+      ]
+    },
+    {
+      "text": "Tutkinnanjohtaja kuvaili rikoksen tekijää sudeksi lammasten vaatteissa. Hän oli huijannut uhrejaan vuosien ajan. Tapaus oli monimutkainen ja sen selvittämiseen meni paljon aikaa. Lopulta tekijä saatiin kiinni ja hänet tuomittiin pitkään vankeusrangaistukseen.",
+      "expected": [
+        "sudeksi lammasten vaatteissa"
+      ]
+    },
+    {
+      "text": "Uuden verouudistuksen kritisoijat pitävät sitä tikittävänä aikapommina, joka uhkaa kotitalouksien taloutta. Pienituloisten asema on huolestuttava. Verouudistus tulee voimaan ensi vuoden alussa.",
+      "expected": [
+        "tikittävänä aikapommina"
+      ]
+    },
+    {
+      "text": "Vaaliväittelyssä ehdokkaat hyökkäsivät toistensa kimppuun. Yksi ehdokkaista käyttäytyi kuin koira seimessä, estäen toisia ehdokkaita esittämästä omia näkemyksiään. Hänen käytöksensä oli tyypillistä poliitikolle, joka on valmis tekemään mitä tahansa voittaakseen vaalit. Väittely oli kiihkeä ja tunteita herättävä.",
+      "expected": [
+        "koira seimessä",
+        "tyypillistä poliitikolle"
+      ]
+    }
+  ]
+}

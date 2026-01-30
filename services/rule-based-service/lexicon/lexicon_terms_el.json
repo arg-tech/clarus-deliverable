@@ -1,0 +1,772 @@
+[
+  {
+    "word_regex": "EXIF - Μορφή αρχείου εικόνας με δυνατότητα ανταλλαγής",
+    "usage_example": "Σε περιπτώσεις όπου υπάρχει υπόνοια ότι ένας ύποπτος έχει προβεί σε άσεμνες φωτογραφίσεις παιδιών, μπορεί να φανεί χρήσιμη η κατάσχεση συσκευών με δυνατότητα λήψης ψηφιακών φωτογραφιών. Χρήσιμη όχι μόνο για τα δεδομένα που είναι αποθηκευμένα σε αυτές, αλλά και για τη σύνδεση των συσκευών με προγενέστερα αναγνωρισμένες άσεμνες φωτογραφίες, μέσω της εξέτασης των ψηφιακών μεταδεδομένων (δεδομένα EXIF). (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "EXIF (Exchangeable Image File Format) is a standardized metadata format embedded within digital image and audio files that records technical information about how, when, and where the file was created."
+  },
+  {
+    "word_regex": "Ψηφιακά δεδομένα",
+    "usage_example": "Πρόκειται για τη χρήση ενός ασφαλούς, κεντρικά ρυθμιζόμενου, έτοιμου προς χρήση εργαλείου, με στόχο τη συλλογή και τη διαφύλαξη ψηφιακών δεδομένων από το προσωπικό που βρίσκεται στην πρώτη γραμμή. Το εργαλείο αυτό παραδοσιακά αναφέρεται ως περίπτερο-τερματικό αυτοεξυπηρέτησης. (νομοθετικό πλαίσιο)",
+    "definition": "Digital data constitutes potential evidence that must be identified, preserved, collected, and analysed according to strict procedural standards. Digital data ranges from user files and communications to system-generated information and metadata embedded within files."
+  },
+  {
+    "word_regex": "Ψηφιακή έρευνα|ψηφιακές έρευνες",
+    "usage_example": "Eντός του ίδιου χρονικού διαστήματος, αναπτύσσεται παράλληλα ένα περιβάλλον ελέγχου ποιότητας για μη εγκληματολογικές πτυχές, στο πλάισιο πάντα των ψηφιακών ερευνών, συμπεριλαμβανομένων και των τεχνολογιών διαλογής. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Digital investigation is the systematic process of detecting, examining, and analysing digital evidence from electronic devices and systems to support the detection and prosecution of crimes, investigation of incidents, and development of intelligence capabilities."
+  },
+  {
+    "word_regex": "Σκληρός δίσκος|σκληροί δίσκοι|HDD",
+    "usage_example": "Ο μέσος σκληρός δίσκος για παράδειγμα, έχει πλέον χωρητικότητα μεγαλύτερη από 200 gigabyte και, αν εκτυπωνόταν σε χαρτί Α4, θα είχε μήκος 10.000.000 σελίδες. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A hard disk or hard disk drive (HDD) is a physical data storage device that stores user files, system data, and application information, typically found internally within desktop computers, laptops, and other digital devices. These two terms are used interchangeably with the term ‘hard drive’."
+  },
+  {
+    "word_regex": "Λειτουργικό σύστημα - ΟS",
+    "usage_example": "Η μονάδα εγκληματολογικής έρευνας πρέπει να διασφαλίσει ότι έχουν οριστεί διαδικασίες για τη διατήρηση της πρόσβασης σε όλα τα ζωτικής σημασίας δεδομένα που εξαρτώνται από το λογισμικό που έχει αντικατασταθεί, σε περίπτωση που τεθεί σε εφαρμογή η διαδικασία αντικατάστασης λογισμικού (π.χ. ενός λειτουργικού συστήματος ή λογισμικού εφαρμογής). (νομοθετικό πλαίσιο)",
+    "definition": "An operating system (OS) is the fundamental software that manages and controls a computer or digital device's hardware and software resources, processes and stores data, enables user interaction, and serves as a critical source of digital evidence by generating logs and metadata that record user actions and system events."
+  },
+  {
+    "word_regex": "Βάση δεδομένων|βάσεις δεδομένων",
+    "usage_example": "Στην περίπτωση κατά την οποία η μέθοδος που εφαρμόζεται, βασίζεται σε συλλογές αναφοράς ή βάσεις δεδομένων, η φύση, η πρόσβαση και η διαθεσιμότητά των δεδομένων αυτών, θα πρέπει να περιγράφεται.  (νομοθετικό πλαίσιο)",
+    "definition": "A database is a structured collection of information, typically in electronic format, that organizes and stores data in a systematic manner to enable searching, comparison, identification, and retrieval of records for investigative and evidential purposes."
+  },
+  {
+    "word_regex": "Κρυπτογραφημένο",
+    "usage_example": "Το σημείο αυτό παρουσιάζει ιδιαίτερο ενδιαφέρον αν ο ύποπτος διαθέτει τεχνικές γνώσεις, καθώς τότε είναι σε θέση να χρησιμοποιήσει ενδεχομένως τη μέθοδο της κρυπτογράφησης, με αποτέλεσμα να μην υπάρχει τρόπος ανάκτησης των αποδεικτικών στοιχείων που είναι αποθηκευμένα σε κρυπτογραφημένου τομείς, μετά την διακοπή της τροφοδοσίας. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Encrypted refers to data, files, devices, communications, or storage media that have been transformed using cryptographic algorithms into an unreadable format that cannot be accessed, interpreted, or retrieved without the appropriate key, password, or cryptographic method."
+  },
+  {
+    "word_regex": "Ψηφιακά αποδεικτικά στοιχεία",
+    "usage_example": "Κανονικά, η διαδικασία αυτή θα πραγματοποιείται για να παραδοθούν τα ψηφιακά πειστήρια στον ειδικό ψηφιακής εγκληματολογίας, προκειμένου να εκτελέσει αυτός επιπλέον εγκληματολογικές τεχνικές διεργασίες, σε περίπτωση που τα πειστήρια δεν έχουν συλλεχθεί από τον ίδιο. (νομοθετικό πλαίσιο)",
+    "definition": "Digital evidence is information or data, stored or transmitted in digital form, that can be used to establish facts in criminal investigations or legal proceedings. It encompasses all forms of electronically stored information recovered from digital devices, systems, communications, and storage media."
+  },
+  {
+    "word_regex": "Εξάγω|εξαγωγή",
+    "usage_example": "Είναι σημαντικό να γνωρίζετε ακριβώς πώς θα γίνει η ερμηνεία ενός συστήματος αρχείων  που προβάλλεται, ειδικά  κατά την εξαγωγή δεδομένων από ένα πρόγραμμα προβολής τέτοιου συστήματος. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Extract means to retrieve, recover, or obtain specific data, information, or images from digital devices, storage media, or systems, making the data accessible and usable for investigative, analytical, or evidential purposes."
+  },
+  {
+    "word_regex": "Ωμή βία",
+    "usage_example": "Ένας ερευνητής μπορεί επίσης να προσπαθήσει να «σπάσει» την κρυπτογράφηση ή να αποκτήσει πρόσβαση στον λογαριασμό με τη μέθοδο της «ωμής βίας». (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Brute force is a cryptographic method that attempts to crack encryption or access password-protected accounts by systematically generating and testing all possible keys or password combinations."
+  },
+  {
+    "word_regex": "Εικονικό ιδιωτικό δίκτυο|VPN",
+    "usage_example": "Η έμφαση στην ασφάλεια στον κυβερνοχώρο και στην ανθεκτικότητα σε διαφορετικούς παράγοντες γενικότερα, συμπεριλαμβάνει τους ακόλουθους τομείς: έλεγχο πρόσβασης στο δίκτυο - έλεγχο πρόσβασης και αναγνώριση απειλών σε ενσύρματα, ασύρματα και VPN Εικονικά Ιδιωτικά Δίκτυα. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Virtual Private Network (VPN) is communications software that creates secure, encrypted connections over networks, enabling individual users or companies to transmit data privately by establishing virtual connections between equipment or systems. In digital forensics, VPNs represent dual-use technology that serves both as legitimate corporate and personal privacy infrastructure and as a potential tool for concealing criminal activity."
+  },
+  {
+    "word_regex": "Aποθηκευτικός χώρος στο cloud ή νέφος",
+    "usage_example": "Τα δεδομένα που βρίσκονται στον αποθηκευτικό χώρο στο cloud ή νέφος, δεν αποθηκεύονται στη συσκευή του χρήστη, εκτός εάν ο χρήστης τα κατεβάσει ή τα καταστήσει διαθέσιμα για προβολή εκτός σύνδεσης (στην περίπτωση αυτή, αποθηκεύεται ένα αντίγραφο στη συσκευή). (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Cloud storage is a type of data storage system where data is stored remotely on servers in an online environment, typically owned and managed by a hosting company, accessible from multiple devices by users through account credentials (username and password), rather than being stored locally on the user's physical device."
+  },
+  {
+    "word_regex": "Νέφος",
+    "usage_example": "Η ευρύτερη εξάπλωση των ηλεκτρονικών συσκευών και μέσων στην κοινωνία αποτελεί τον κύριο λόγο για τον οποίο όλες οι αστυνομικές δυνάμεις του Ηνωμένου Βασιλείου έχουν εισαγάγει ψηφιακές συσκευές διαλογής. Επίσης, ένας εξίσου σημαντικός λόγος είναι η πολυπλοκότητα της ψηφιακής σύγκλισης και της νεφοϋπολογιστικής, δηλαδή της διαθεσιμότητας υπολογιστικών πόρων. Συνακόλουθη των παραπάνω είναι η συνέπεια σύμφωνα με την οποία οι ερευνητικές δυνατότητες υπερβαίνουν την τρέχουσα ικανότητα των ψηφιακών εγκληματολογικών αναλυτών και ερευνητών. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Cloud refers to online access to shared computing resources, such as remote data storage, processing services, and applications, hosted on servers accessible via the internet from multiple devices rather than being stored or processed locally on a user's physical device."
+  },
+  {
+    "word_regex": "Ψηφιακή εγκληματολογία",
+    "usage_example": "Θα αυξήσουμε δραστικά  τη χρήση της ψηφιακής εγκληματολογίας στην αστυνομική έρευνα, με αποτέλεσμα να θεωρείται πλέον συνηθισμένη πρακτική η συλλογή ψηφιακών αποδεικτικών στοιχείων μέσα από ένα ευρύ φάσμα πηγών και συσκευών. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Digital forensics encompasses the recovery, examination, and interpretation of data from computers, mobile phones, networks, and other digital storage media for use in criminal investigations and legal proceedings."
+  },
+  {
+    "word_regex": "Κυβερνοέγκλημα|κυβερνοεγκλήματα",
+    "usage_example": "Η ραγδαία ταχύτητα, η κλιμάκωση και η συνεχώς εξελισσόμενη φύση των εγκλημάτων στον κυβερνοχώρο καθιστούν πιο σημαντικό από ποτέ να αποκτήσουμε συστήματα και να υιοθετήσουμε διαδικασίες που θα μας επιτρέψουν να επεξεργαζόμαστε πολύ περισσότερα δεδομένα. Να τα εξετάζουμε με ταχύτητα αλλά και να ανταποκρινόμαστε αποτελεσματικά στις διάφορες απαιτήσεις της εποχής. (διαδικαστικό/επιμορφωτικό  πλαίσιο)",
+    "definition": "Cybercrime involves criminal activities facilitated by digital technology and computer systems, such as fraud and ransomware attacks."
+  },
+  {
+    "word_regex": "Ψηφιακός χώρος αποθήκευσης",
+    "usage_example": "Κατά τον χειρισμό συσκευών και ψηφιακού χώρου αποθήκευσης ή μέσων επικοινωνίας που περιέχουν ψηφιακές πληροφορίες, δεν πρέπει να τροποποιηθεί οποιοδήποτε στοιχείο, είτε πρόκειται για υλικό, για λογισμικό ή για ψηφιακά δεδομένα που περιέχονται στα μέσα αυτά. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Digital storage refer to devices or media on which digital data can be recorded, stored, and retrieved for potential use as evidence. Digital storage encompasses both physical storage devices and components, as well as remotely stored electronic data."
+  },
+  {
+    "word_regex": "Μεταδεδομένα",
+    "usage_example": "Απαιτείται κατάλληλος εξοπλισμός για την εξαγωγή του μέγιστου όγκου πληροφοριών όσον αφορά την ποιότητα της εικόνας, τα ηχητικά κομμάτια και τα σχετικά μεταδεδομένα. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Metadata are data that provide information about the data, describing its characteristics, properties, context, and structure. In digital forensics, metadata serves as evidence for understanding the origin, history, and attributes of digital files and systems."
+  },
+  {
+    "word_regex": "Λογισμικό",
+    "usage_example": "Η ενδεδειγμένη μέθοδος για την αντιγραφή ενός ιστότοπου είναι να τον επισκεφθείτε και να καταγράψετε τις σχετικές σελίδες χρησιμοποιώντας λογισμικό εγγραφής βίντεο, ώστε να υπάρχει μια ορατή αναπαράσταση του πώς φαίνονται οι σελίδες αυτές όταν τις βλέπετε, την δεδομένη στιγμή. (διαδικαστικό/ επιμορφωτικό πλαίσιο)",
+    "definition": "Software refers to the non-physical component of computing and electronic systems, encompassing programs, applications, operating systems, and code that control and enable the functionality of digital devices and equipment. Software can be used for forensic analysis, data processing, and evidence extraction."
+  },
+  {
+    "word_regex": "Υλισμικό",
+    "usage_example": "Το «σύστημα προστασίας από κακόβουλο λογισμικό» πρέπει να αφορά όλους τους συμβατούς υπολογιστές και τον αντίστοιχο εξοπλισμό - hardware, εκτός εάν ορίζονται διαφορετικά λειτουργικά κριτήρια. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Hardware is the physical equipment and components of computing and electronic systems, such as computers, peripherals, storage devices, and all tangible electronic equipment used in digital systems."
+  },
+  {
+    "word_regex": "Διαδικτυακή διεύθυνση \\[Σημασιολογική κατηγορία: Ψηφιακά αποδεικτικά",
+    "usage_example": "Όταν γίνεται αναφορά για ένα περιστατικό σχετικό με την χρήση συνομιλίας - chat, ο υπεύθυνος για την αναφορά πρέπει να εξακριβώσει ποια μέθοδος chat χρησιμοποιήθηκε, δηλαδή ποιο είναι το όνομα του ιστότοπου που φιλοξενεί το είδος αυτό της συνομιλίας και ποια είναι η πλήρης διεύθυνση του διαδικτύου του, ή ποιο πρόγραμμα επιλέχθηκε στην κάθε περίπτωση.",
+    "definition": "Internet address is the full location identifier of a website, service, or resource on the internet, providing identifying information about online locations, such as websites hosting communications platforms or other internet-based services."
+  },
+  {
+    "word_regex": "PDF|Portable document format-Φορητή Μορφή Εγγράφου",
+    "usage_example": "Σε περίπτωση που διαπιστωθεί οποιαδήποτε απόκλιση μεταξύ των διαφορετικών μορφών δημοσίευσης του κώδικα, η απόκλιση αυτή θα πρέπει να θεωρηθεί σφάλμα και η δημοσιευμένη έκδοση του κώδικα σε μορφή PDF θα πρέπει να θεωρηθεί ως η οριστική έκδοση. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "PDF (Portable Document Format) is a file format used for presenting and exchanging forensic documents reliably, independent of software, hardware, or operating system."
+  },
+  {
+    "word_regex": "Κωδικός πρόσβασης|κωδικοί πρόσβασης",
+    "usage_example": "Το σύστημα πρέπει να σχεδιαστεί με τέτοιο τρόπο ώστε να προστατεύει τον κωδικό πρόσβασης κατά τη μεταφορά και την αποθήκευση, χρησιμοποιώντας κατάλληλες τεχνικές κρυπτογράφησης και κατακερματισμού. (νομοθετικό πλαίσιο)",
+    "definition": "A password is a keyword, security code, or secret authentication credential used as a security measure by systems and applications to control access to devices, accounts, data, or protected resources. Passwords serve to verify user identity and restrict unauthorised access to digital systems and information."
+  },
+  {
+    "word_regex": "Εγκληματολογικό εργαστήριο",
+    "usage_example": "Όλος ο εξοπλισμός που χρησιμοποιείται σε ένα εγκληματολογικό εργαστήριο έχει περιορισμένη διάρκεια ζωής, η οποία μπορεί να μετρηθεί σε εβδομάδες, μήνες ή χρόνια. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Forensic laboratory is a specialized facility equipped with forensic tools and equipment for conducting forensic examinations, analyses, and investigations of evidence."
+  },
+  {
+    "word_regex": "Εγκληματολογική ανάλυση",
+    "usage_example": "Θα προκύπτουν πάντα περιπτώσεις όπου ένα τοπικά εγκεκριμένο εγκληματολογικό εργαλείο δεν θα είναι σε θέση να παρέχει μια συγκεκριμένη λειτουργία που απαιτείται για την ολοκλήρωσή της. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Forensic analysis is the extraction, systematic processing, examination, and interpretation of evidence using scientific methods and specialised equipment to extract, evaluate, and present findings for investigative or legal purposes."
+  },
+  {
+    "word_regex": "Μονάδα Μνήμης USB - αφαιρούμενο αποθηκευτικό μέσο",
+    "usage_example": "Μια μονάδα μνήμης USB - στικάκι είναι κατά κανόνα το πιο εύχρηστο μέσο αποθήκευσης, καθώς τα αποτελέσματα των εργαλείων μπορούν να αποθηκευτούν ξανά στο στικάκι αυτό. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A USB stick is a removable storage medium commonly used in digital forensic practice as a transport medium for data or to run information capture tools."
+  },
+  {
+    "word_regex": "Εικόνα",
+    "usage_example": "Εάν οι επαγγελματίες υποχρεωθούν να αναλάβουν την εργασία βελτίωσης ενός αντίγραφου ψηφιακών δεδομένων στην περίπτωση που η ποιότητά του είναι πολύ φτωχή, θα πρέπει να επισημανθεί με σαφήνεια ότι το αντίγραφο αυτό ενδέχεται να μην αποτελεί πια ένα αξιόπιστο αποδεικτικό στοιχείο. (νομοθετικό πλαίσιο)",
+    "definition": "An image is a digital photograph, video frame, and other pictorial content subject to forensic examination, including image capture, image processing, image enhancement, and image comparison."
+  },
+  {
+    "word_regex": "Κυβερνοεπίθεση",
+    "usage_example": "Έχουμε την υποχρέωση να διασφαλίζουμε την προστασία των υπηρεσιών που παρέχουμε τόσο από κυβερνοεπιθέσεις όσο και από συστημικές ευπάθειες. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Cyberattack is a type of crime directed against computer systems, networks, or digital infrastructure with the intent to compromise, disrupt, or damage digital services and data."
+  },
+  {
+    "word_regex": "Ψηφιακά μέσα",
+    "usage_example": "Υπάρχουν πολλοί διαφορετικοί τύποι ψηφιακών μέσων και συσκευών τελικών χρηστών οι οποίοι  μπορεί να εντοπιστούν κατά τη διάρκεια μιας έρευνας στον τόπο του εγκλήματος. Όλοι αυτοί οι τύποι έχουν τη δυνατότητα να αποθηκεύουν δεδομένα που ενδέχεται να είναι σημαντικά για την έρευνα. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Digital media are various types of electronic storage devices and systems that contain digitally stored data and may be encountered during forensic investigations. Digital media include items such as CDs, DVDs, flash memory cards, cameras, closed-circuit television (CCTV) systems, and video surveillance systems (VSS)."
+  },
+  {
+    "word_regex": "JPG|Κοινή Ομάδα Φωτογραφικών Εμπειρογνωμόνων",
+    "usage_example": "Εικόνες - Φωτογραφίες (png, jpg…)",
+    "definition": "JPG (Joint Photographic Experts Group) is a common digital image file format and compression method that may be encountered during forensic examination of images."
+  },
+  {
+    "word_regex": "Κατακερματισμός",
+    "usage_example": "Το σύστημα πρέπει να σχεδιαστεί κατά τέτοιον τρόπο, ώστε να διασφαλίζει την προστασία του κωδικού πρόσβασης κατά τη μεταφορά και την αποθήκευση των δεδομένων, χρησιμοποιώντας κατάλληλες τεχνικές κρυπτογράφησης και κατακερματισμού. (νομοθετικό πλαίσιο)",
+    "definition": "Hashing is a cryptographic technique used to create digital fingerprints, known as hash values, which serve to verify the integrity and authenticity of digital evidence. Hash values are calculated for both original media and forensic images to ensure that copies remain completely unaltered; if the hash values are identical, the copies are certified to be exact duplicates."
+  },
+  {
+    "word_regex": "Υπολογιστής",
+    "usage_example": "Οι θύρες σύνδεσης των περιφερειακών συσκευών (ποντίκι, πληκτρολόγιο, οθόνη κ.λπ.), στους υπολογιστές όπως και οι θύρες σύνδεσης οποιουδήποτε ψηφιακού μέσου αποθήκευσης, πρέπει να είναι σφραγισμένες. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A computer includes desktop and laptop PCs and may encompass systems with embedded firmware that process, store, or transmit data or digital evidence."
+  },
+  {
+    "word_regex": "Κάρτες μνήμης",
+    "usage_example": "Τα δεδομένα που αποθηκεύονται σε κινητά τηλέφωνα μπορούν να φυλαχθούν σε διάφορα σημεία, όπως ενδεχομένως στην κάρτα SIM, σε εσωτερική μνήμη του κινητού ή σε πρόσθετες αλλά αποσπώμενες κάρτες μνήμης. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Memory cards are removable digital storage media and used to store digital information such as images, sound, video, and other data that may be seized as evidence."
+  },
+  {
+    "word_regex": "Ψηφιακό αποτύπωμα",
+    "usage_example": "Υπολογίστηκαν τα ψηφιακά αποτυπώματα, γνωστά και ως τιμές κατακερματισμού, για τα πρωτότυπα και τα ψηφιακά εγκληματολογικά αντίγραφα. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A digital fingerprint is a unique hash value that serves as an identifier for the verification of digital data."
+  },
+  {
+    "word_regex": "Εξαγωγή",
+    "usage_example": "Είναι σημαντικό να διασφαλιστεί η κατάλληλη, ολοκληρωμένη και ακριβής εξαγωγή δεδομένων από την εν λόγω ψηφιακή συσκευή, διατηρώντας παράλληλα την ακεραιότητα της αλυσίδας αποδεικτικών στοιχείων. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Extraction is the process of recovering and obtaining data or material from digital devices, storage media, or systems for forensic examination."
+  },
+  {
+    "word_regex": "Συσκευή|συσκευές",
+    "usage_example": "Η επεξεργασία των δεδομένων μπορεί να απαιτήσει πολύ χρόνο, ενώ παράλληλα, η αύξηση του όγκου των αποθηκευμένων δεδομένων και του αριθμού των συσκευών που εμπλέκονται σε εγκλήματα έχει συμβάλει στην αύξηση της πίεσης που ασκείται στις υπηρεσίες εγκληματολογικής έρευνας. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A device encompasses a wide range of digital equipment including computers, mobile phones, smartphones, tablets, laptops, USB sticks, digital cameras, satellite navigation systems, smart devices, gaming consoles, storage media, and other devices, which may be seized as evidence during forensic investigations."
+  },
+  {
+    "word_regex": "Ψηφιακές πληροφορίες",
+    "usage_example": "Όλοι όσοι εμπλέκονται στη διατήρηση και συλλογή δεδομένων πρέπει να έχουν λάβει επαρκή εκπαίδευση στους δύο τομείς, αυτούς του εξοπλισμού και των μέσων υποστήριξης ψηφιακών πληροφοριών. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Digital information is all forms of electronic data that may be preserved as digital evidence, including data stored on tangible media, communications transmitted through networks, telephone records, computer log files, and other electronically recorded material."
+  },
+  {
+    "word_regex": "Κυβερνο-…",
+    "usage_example": "Η διαδικτυακή κλοπή στοιχείων τραπεζικής κάρτας ή τραπεζικού λογαριασμού, ήταν ο τύπος ηλεκτρονικής απάτης - κυβερνοαπάτης - και κακόβουλης χρήσης υπολογιστή που αναφέρθηκε από τα περισσότερα θύματα (74%). (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Cyber is a term relating to computer systems, networks, digital technology, and the online environment in which digital crimes and security threats occur."
+  },
+  {
+    "word_regex": "Αυθεντικοποίηση",
+    "usage_example": "Οι χρήστες με δικαιώματα διαχειριστή πρέπει να εφαρμόζουν την διαδικασία αυθεντικοποίησης  πολλαπλών παραγόντων (όπως αυθεντικοποίηση  δεύτερου παράγοντα ή δύο παραγόντων). (νομοθετικό πλαίσιο)",
+    "definition": "Authentication is the process of verifying the identity of users, the validity of data, or the integrity of digital evidence."
+  },
+  {
+    "word_regex": "Εφαρμογή",
+    "usage_example": "Αυτές οι συσκευές αποθηκεύουν συχνά το ιστορικό αναζήτησης και τις εφαρμογές που χρησιμοποιούνται σε αυτές και, ως εκ τούτου, στο πλαίσιο ορισμένων ερευνών, μπορούν να παρέχουν αξιόλογα στοιχεία. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Applications refer to both system-level software (such as operating systems) and other programs that process, store, or communicate data. Application also refers to the act of implementing forensic methods, techniques, or processes."
+  },
+  {
+    "word_regex": "Λειτουργία πτήσης",
+    "usage_example": "Εάν το επιτρέπει η ασφάλεια, ρυθμίστε το τηλέφωνο σε λειτουργία πτήσης. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Airplane mode is a device setting that disables wireless communication functions, preventing the device from obtaining a signal to access networks. Airplane mode is used as a technique to preserve the integrity of digital evidence on mobile devices."
+  },
+  {
+    "word_regex": "Σειριακός αριθμός",
+    "usage_example": "Για κάθε ακρόαση θα εκδίδεται ένας μοναδικός σειριακός αριθμός, ο οποίος θα καταχωρείται στο μητρώο δίσκων και στην ετικέτα/σφραγίδα ασφαλείας του DVD. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Serial number is a unique identifier assigned to physical items, equipment, or recorded events to enable specific identification and tracking."
+  },
+  {
+    "word_regex": "GPS|Παγκόσμιο Σύστημα Εντοπισμού Θέσης",
+    "usage_example": "Οι πηγές δεδομένων περιλαμβάνουν έξυπνα τηλέφωνα, δρομολογητές ασύρματης σύνδεσης-WiFi, εξοπλισμό GPS, κλειστά κυκλώματα τηλεόρασης, συσκευές καταγραφής πρόσβασης σε κτίρια, έξυπνες τηλεοράσεις-smart TV, κονσόλες παιχνιδιών και ρολόγια παρακολούθησης φυσικής κατάστασης. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "GPS is a satellite-based navigation system that provides location data and positioning information, recording geographical coordinates and temporal data that can be recovered and analysed during forensic examinations."
+  },
+  {
+    "word_regex": "Επιτραπέζιος υπολογιστής",
+    "usage_example": "Το προσωπικό μας θα είναι εφοδιασμένο με ολοκληρωμένα συστήματα αστυνόμευσης, στα οποία θα μπορεί να εισέρχεται,  να τα επαναχρησιμοποιεί και να αναζητά δεδομένα, είτε από κινητή, είτε από σταθερή συσκευή. (διαδικαστικό/επμορφωτικό πλαίσιο)",
+    "definition": "A desktop is a stationary computer system, typically consisting of a monitor, processing unit, and peripherals, used for computing tasks and data storage."
+  },
+  {
+    "word_regex": "Επαλήθευση|Επαληθεύοντας",
+    "usage_example": "Θα συνταχθούν ξεχωριστές διατάξεις σχετικά με την αποκάλυψη πληροφοριών που αφορούν την επαλήθευση της αξιοπιστίας ενός ατόμου που ζητά να ασκήσει ή ασκεί καθήκοντα ευαίσθητα από άποψη ασφάλειας. (νομοθετικό πλαίσιο)",
+    "definition": "Verifying is the process of confirming, establishing, or checking the accuracy, authenticity, or lawfulness of evidence, documents, or procedures through systematic examination methods."
+  },
+  {
+    "word_regex": "Αποθήκευση",
+    "usage_example": "Οι θύρες σύνδεσης για τα περιφερειακά (ποντίκι, πληκτρολόγιο, οθόνη κ.λπ.) και οι θύρες σύνδεσης για οποιοδήποτε ψηφιακό μέσο αποθήκευσης πρέπει να είναι σφραγισμένες στους υπολογιστές. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Storage is the retention and preservation of digital data, physical evidence, or information in designated locations or media under controlled conditions to maintain integrity, security, and accessibility throughout the investigative process."
+  },
+  {
+    "word_regex": "Βίντεο",
+    "usage_example": "Οι εγκληματολογικές μονάδες ενδέχεται να κληθούν να διενεργήσουν ανάλυση γνησιότητας για να εξετάσουν την προέλευση ή την ακεραιότητα του βιντεοληπτικού υλικού. (νομοθετικό πλαίσιο)",
+    "definition": "Video refers to moving images recorded in either digital or analogue format that capture visual information over time, often accompanied by audio, and which may serve as evidence in forensic investigations."
+  },
+  {
+    "word_regex": "Αποθήκευση δεδομένων",
+    "usage_example": "Η επεξεργασία των δεδομένων ενδέχεται να είναι χρονοβόρα, ενώ παράλληλα η αύξηση του όγκου των αποθηκευμένων δεδομένων και του αριθμού των συσκευών που σχετίζονται με εγκλήματα, έχει αυξήσει την πίεση στις υπηρεσίες εγκληματολογικής έρευνας. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Data storage is the retention and recording of digital information on physical media, devices, or remote systems from which information can be extracted, retrieved, and processed for forensic examination."
+  },
+  {
+    "word_regex": "Εγκληματολογικό αντίγραφο",
+    "usage_example": "Εξέταση Αποδεικτικού Στοιχείου ή Εικονικού Εγκληματολογικού Αντιγράφου («Εγκληματολογική εικόνα») (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Forensic copy is a duplicate of digital evidence created through controlled forensic procedures to preserve the original data for examination and analysis."
+  },
+  {
+    "word_regex": "Εγκληματολογικός|η",
+    "usage_example": "Ο Διευθυντής του Ινστιτούτου Εγκληματολογίας θα συγκροτήσει μια επιτροπή ειδικών για την προετοιμασία μιας αναθεωρητικής έκθεσης, με σκοπό την επανεξέταση της αναφοράς ή της δήλωσης εμπειρογνωμόνων που υποβλήθηκε από το τμήμα εγκληματολογικής τεχνολογίας και εμπειρογνωμοσύνης ή από το Ινστιτούτο Εγκληματολογίας. (νομοθετικό πλαίσιο)",
+    "definition": "Forensic refers to the systematic, documented, and scientifically rigorous examination of digital devices and evidence as well as the application of scientific methods, techniques, and procedures to criminal investigations and legal proceedings for investigation, or presentation of evidence. It also describes professional practitioners and bodies in the field of digital forensics."
+  },
+  {
+    "word_regex": "Αποθηκεύω|Αποθηκευμένο",
+    "usage_example": "Το βίντεο (ή βιντεοληπτικό υλικό)  πρέπει να εξάγεται στην πρωτότυπη μορφή του, προκειμένου να διατηρηθεί η ποιότητα του αντιγράφου και να αποθηκεύεται ως πρωτότυπο αντίγραφο, ώστε να είναι διαθέσιμο για τυχόν μελλοντική εγκληματολογική εξέταση/ανάλυση. (νομοθετικό πλαίσιο)",
+    "definition": "Store (stored) refers to the act of retaining digital data on devices and media or maintaining physical evidence and records in secure locations for preservation, future access, or processing of evidence."
+  },
+  {
+    "word_regex": "Διασφαλίζω αποδεικτικά στοιχεία|διασφάλιση αποδεικτικών στοιχείων",
+    "usage_example": "Ο σκοπός του αρχικού σταδίου συλλογής αποδεικτικών στοιχείων είναι η διασφάλιση αυτών όχι μόνο για αδικήματα που σχετίζονται με την παραγωγή, κατοχή και διανομή τέτοιων εικόνων, αλλά και πληροφοριών σχετικά με τον τρόπο ζωής του υποκειμένου, την πρόσβαση και την αλληλεπίδρασή του με παιδιά, καθώς και την ευρύτερη χρήση και γνώση της τεχνολογίας. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "To secure evidence encompasses the collection, documentation, and preserving of both physical items and digital data relevant to an investigation."
+  },
+  {
+    "word_regex": "Διεύθυνση IP|Internet Protocol",
+    "usage_example": "Όταν ένας χρήστης συνδέεται στο Διαδίκτυο, του αποδίδεται μια μοναδική διεύθυνση  γνωστή ως διεύθυνση IP και ο πάροχος υπηρεσιών Διαδικτύου (ISP) τηρεί αρχεία με τις ώρες, τις ημερομηνίες και την ταυτότητα του χρήστη στον οποίο έχει αποδοθεί η διεύθυνση IP. (διαδικαστικό/επιμπρφωτικό πλαίσιο)",
+    "definition": "IP (Internet Protocol) address is a unique numerical address assigned to a device connected to a network or the internet, allowing it to be located and identified."
+  },
+  {
+    "word_regex": "Χρονοσήμανση",
+    "usage_example": "Οι χρονικές σημάνσεις μπορεί να είναι σημάνσεις δικτύου που σχετίζονται με το σημείο στο οποίο οι πληροφορίες λαμβάνονται από τον κεντρικό αποθηκευτικό χώρο του δικτύου και όχι με το προηγούμενο σημείο, όπου ψηφιοποιούνται στην κάμερα. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A timestamp is a recorded marker indicating the specific date and time when a digital event occurred, data was created, modified, accessed, or transmitted."
+  },
+  {
+    "word_regex": "CPU|Κεντρική μονάδα επεξεργασίας",
+    "usage_example": "Οι κεντρικές μονάδες επεξεργασίας (CPU) αποθηκεύονται γενικά υπό μορφή 2 επιπέδων τάσης, επίπεδα τα οποία γενικά αναφέρονται ως δυαδικά δεδομένα («0» και «1»). (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A CPU (Central Processing Unit) is the primary component of a computer that performs computational operations and executes instructions."
+  },
+  {
+    "word_regex": "Αντίγραφο",
+    "usage_example": "Τα δεδομένα που αποθηκεύονται στον λογαριασμό φύλαξης στο cloud δεν αποθηκεύονται στη συσκευή του χρήστη, εκτός εάν ο χρήστης τα κατεβάσει ή τα καταστήσει διαθέσιμα για προβολή εκτός σύνδεσης (στην περίπτωση αυτή, αποθηκεύεται ένα αντίγραφο στη συσκευή). (διαδικαστικό/επιμορφωτικοτικό πλαίσιο)",
+    "definition": "A copy is a reproduction or duplicate of original data, documents, evidence, or records, created for purposes of examination, analysis, preservation, distribution, or retention. In digital forensics, a copy refers to both the act of reproducing digital data and the resulting reproduction itself."
+  },
+  {
+    "word_regex": "Βελτίωση εικόνας",
+    "usage_example": "Οι εγκληματολογικές μονάδες πρέπει να είναι σαφείς ως προς τον σκοπό κάθε βελτίωσης εικόνας που πρόκειται να πραγματοποιηθεί και να προβλέπουν τυχόν απώλειες δεδομένων που ενδέχεται να προκύψουν ως παρενέργεια αυτής της παρέμβασης. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Image enhancement is a transformation of an image that seeks to increase its quality, clarity, or interpretability for forensic examination purposes."
+  },
+  {
+    "word_regex": ": TCP|IP|Πρωτόκολλο ελέγχου μετάδοσης/Πρωτόκολλο διαδικτύου",
+    "usage_example": "Διασυνδεδεμένο δίκτυο. Το σύνολο των παγκόσμιων δικτύων υπολογιστών που συνδέονται μεταξύ τους χρησιμοποιώντας το πρωτόκολλο TCP/IP. (διαδικαστικό/επιμορφωτικό  πλαίσιο)",
+    "definition": "TCP (Transmission Control Protocol) is a transport layer protocol responsible for reliable data transmission. IP (Internet Protocol) is a network layer protocol that handles addressing and routing of data packets. They work together to enable reliable end-to-end communication across networks"
+  },
+  {
+    "word_regex": "Μητρική πλακέτα",
+    "usage_example": "Οι επιπτώσεις των σφαλμάτων μετάδοσης δεδομένων εντός ενός συστήματος μπορούν να μειωθούν με τη χρήση μνήμης κώδικα διόρθωσης σφαλμάτων (ECC) ή με τη χρήση αντίστοιχων ισοδύναμων συστημάτων καθώς και με τη διασφάλιση ότι η μνήμη που αποκτάται είναι συμβατή με τη μητρική πλακέτα. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A motherboard is the main circuit board within a computer's main unit that houses and connects the central processing unit (CPU), memory, expansion cards, and other critical system components."
+  },
+  {
+    "word_regex": "Διαγράφω|διαγραφή",
+    "usage_example": "Εάν η συναίνεση ανακληθεί μετά την εξαγωγή των πληροφοριών, η διαγραφή των δεδομένων ή η επιστροφή της συσκευής ενδέχεται να μην είναι εφικτό να συμβούν, καθώς αυτά ενδέχεται να αποτελούν κρίσιμο μέρος των αποδεικτικών στοιχείων της υπόθεσης. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "To delete is to remove or erase data so that it can no longer be accessed. In digital forensics, deletion refers to both intentional removal of electronic data and automated system processes that alter or eliminate stored information."
+  },
+  {
+    "word_regex": "Πρωτόκολλα",
+    "usage_example": "Το Εγχειρίδιο Διαδικασιών Ψηφιακών Πειστηρίων έχει ως στόχο να αποτελέσει ένα εργαλείο που θα επιτρέπει την τυποποίηση και την ενοποίηση των διαδικασιών, οι οποίες με τη σειρά τους θα συμβάλλουν καθοριστικά, αφενός στην εγγύηση της ποιότητας των παρεχόμενων υπηρεσιών, αφετέρου στην προτυποποίηση των πρωτοκόλλων δράσης και την επισημοποίηση των διαδικασιών. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Protocols are established procedures or standards that govern operations, communications, or interactions within forensic practice or organisational frameworks."
+  },
+  {
+    "word_regex": "Δίσκος",
+    "usage_example": "Μην τοποθετείτε ετικέτες απευθείας πάνω σε δισκέτες ή οπτικούς δίσκους CD/DVD. (διαδικαστικό/επιμορφωτικό  πλαίσιο)",
+    "definition": "A disk is a data storage medium used to store and retrieve digital information, encompassing both magnetic rotating storage devices (hard disk drives) and other storage formats."
+  },
+  {
+    "word_regex": ":",
+    "usage_example": "Χρησιμοποιήστε ταινία ασφαλείας στα ανοίγματα των κουτιών ή των φακέλων που περιέχουν οπτικούς δίσκους και άλλα χαλαρά αντικείμενα. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "An optical disc is a flat, circular storage medium that uses optical (laser) technology to read and write data, including CDs (compact discs) and DVDs (digital versatile discs)."
+  },
+  {
+    "word_regex": "Ιστοσελίδα",
+    "usage_example": "Όταν δεν είναι εφικτό να αναπαραχθεί ένα στοιχείο στην αρχική του μορφή, για παράδειγμα στην περίπτωση που μια ιστοσελίδα ανακτάται κάποιο χρονικό διάστημα μετά την αρχική πρόσβαση σε αυτήν, το γεγονός αυτό πρέπει να επισημαίνεται με σαφήνεια στην έκθεση αναφοράς. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A webpage is a resource accessible on the World Wide Web that displays content through a web browser, which represents dynamic digital evidence that may change over time, requiring careful documentation of when and how they were accessed and preserved."
+  },
+  {
+    "word_regex": "Προσωπικός υπολογιστής|PC",
+    "usage_example": "Η ψηφιακή εγκληματολογία αφορούσε ανέκαθεν κατά κύριο λόγο την εξαγωγή δεδομένων από υπολογιστές και φορητούς υπολογιστές. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A personal computer is a general-purpose computer designed for individual use, typically consisting of a desktop or laptop system that enables connection and activity on networks and performs various computing tasks. PCs are common sources of digital evidence and platforms for forensic examination tools."
+  },
+  {
+    "word_regex": "Εγκληματολογική διαδικασία",
+    "usage_example": "Οι τομείς που εξετάζονται είναι η απόκτηση και η ανάλυση ψηφιακών συστημάτων, συμπεριλαμβανομένων όλων των πτυχών της εγκληματολογικής διαδικασίας, ξεκινώντας από την περίοδο δηλαδή πριν την κατάσχεση έως την τελική σύνταξη της έκθεσης αναφοράς και την αρχειοθέτηση. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Forensic process refers to the systematic series of procedures, methods, and stages involved in the collection, examination, analysis, and reporting of evidence for investigative or legal purposes."
+  },
+  {
+    "word_regex": "Ανάκτηση αποδεικτικών στοιχείων",
+    "usage_example": "Κατά τη διαδικασία οποιασδήποτε ανάκτησης αποδεικτικών στοιχείων, είναι απαραίτητο να καταγράφονται σε ένα αρχείο όλα τα στοιχεία ελέγχου των δραστηριοτήτων που πραγματοποιούνται από τον ερευνητή. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Evidence recovery is the systematic process of locating, extracting, collecting, and preserving physical or digital evidence from crime scenes, devices, or other sources for forensic examination and analysis."
+  },
+  {
+    "word_regex": "Έκθεση εμπειρογνώμονα \\[Σημασιολογική κατηγορία: Μέθοδος ψηφιακής",
+    "usage_example": "Ο Διευθυντής του Ινστιτούτου Εγκληματολογίας θα συστήσει μια επιτροπή ειδικών για την σύνταξη μιας αναφοράς αξιολόγησης εμπειρογνωμόνων, με σκοπό την αξιολόγηση της αναφοράς αυτής ή της δήλωσης των εμπειρογνωμόνων που υποβλήθηκε από το τμήμα εγκληματολογικής τεχνολογίας και εμπειρογνωμοσύνης ή από το Ινστιτούτο Εγκληματολογίας. (νομοθετικό πλάισιο)",
+    "definition": "An expert report is a formal written document prepared by a qualified expert or expert institute following the completion of a forensic examination, presenting technical findings, analysis, and professional opinions based on specialised knowledge and investigative procedures."
+  },
+  {
+    "word_regex": "Μηχανική μάθηση",
+    "usage_example": "Η ανίχνευση συμπεριφοράς, η ανάλυση δεδομένων και η μηχανική μάθηση θα μας επιτρέψουν, σε συνεργασία με τους εταίρους μας, να εντοπίζουμε γρήγορα τα αίτια και τα μοτίβα. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Machine learning is a subset of artificial intelligence involving computational algorithms and systems that can learn from data, identify patterns, and make decisions or predictions on large volumes of digital evidence."
+  },
+  {
+    "word_regex": "Εξεταστής",
+    "usage_example": "Αν και η αρχική αναφορά μπορεί να είναι σχετικά σύντομη, ο εξεταστής  θα πρέπει να είναι σε θέση να συντάξει μια πλήρη τεχνική έκθεση, σε περίπτωση που αυτή απαιτηθεί σε επόμενο στάδιο. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "An examiner is a trained and competent professional responsible for conducting forensic examinations, analysing evidence, and producing findings and reports based on specialized knowledge and technical expertise."
+  },
+  {
+    "word_regex": "Εξέταση",
+    "usage_example": "Η κατάσχεση ψηφιακών συσκευών για εξέταση  ύστερα από συμφωνία με τον ιδιοκτήτη/χρήστη, θα ισχύει μόνο για θύματα και μάρτυρες. (διαδικαστικό/επιμορφωτικο πλαίσιο)",
+    "definition": "Examination is the systematic and detailed analysis of items, devices, or materials to identify, document, extract, and interpret evidence for investigative or legal purposes."
+  },
+  {
+    "word_regex": "CCTV|Κλειστό κύκλωμα τηλεόρασης",
+    "usage_example": "Η μετατροπή βίντεο από πηγές CCTV – Κλειστού κύκλωματος τηλεόρασης– απαιτεί συχνά χωρική και χρονική επαναδειγματοληψία, η οποία οδηγεί σε απώλεια πληροφοριών που μπορεί να είναι σημαντικές για την περαιτέρω επεξεργασία και ερμηνεία των στοιχείων. (νομοθετικό πλαίσιο)",
+    "definition": "CCTV (Closed-circuit television) is a video surveillance system consisting of cameras, recording devices, and playback equipment that captures and stores visual recordings of specific locations or areas for security, monitoring, or evidential purposes."
+  },
+  {
+    "word_regex": "Συνομιλία",
+    "usage_example": "Όταν γίνεται αναφορά ενός περιστατικού που σχετίζεται με τη χρήση συνομιλίας, το άτομο που λαμβάνει την αναφορά πρέπει να εξακριβώσει ποια μέθοδος συνομιλίας χρησιμοποιήθηκε, δηλαδή ποιο είναι το όνομα του ιστότοπου που την φιλοξενεί και η πλήρης διεύθυνσή του στο Διαδίκτυο, ή ποιο πρόγραμμα έχει επιλεγεί. (διαδικαστικό/εκπαιδευτικό πλαίσιο)",
+    "definition": "Chat refers to real-time text-based communication between users over the internet or telecommunications networks, enabling interactive conversations through various digital platforms and applications."
+  },
+  {
+    "word_regex": "Βιομετρικά δεδομένα",
+    "usage_example": "Η επεξεργασία των βιομετρικών δεδομένων των εργαζομένων θεωρείται νόμιμη μόνο ως προς τον έλεγχο της παρουσίας και της πρόσβασης στις εγκαταστάσεις του εργοδότη. Πρέπει λοιπόν να διασφαλίζεται ότι χρησιμοποιούνται μόνο αναπαραστάσεις βιομετρικών δεδομένων και ότι η αντίστοιχη διαδικασία συλλογής δεν επιτρέπει την αναστρεψιμότητα των εν λόγω δεδομένων. (νομοθετικό πλαίσιο)",
+    "definition": "Biometric data are personal data resulting from specific technical processing, relating to the physical, physiological, or behavioural characteristics of a person, which allow or confirm the unique identification of that individual, such as facial recognition data."
+  },
+  {
+    "word_regex": ": Προστασία δεδομένων",
+    "usage_example": "Ο υπεύθυνος διαχείρισης διασφαλίζει ότι με τη σειρά του, ο αρμόδιος προστασίας δεδομένων συμμετέχει, κατάλληλα και έγκαιρα, σε όλα τα θέματα που σχετίζονται με την προστασία των δεδομένων προσωπικού χαρακτήρα. (νομοθετικό πλαίσιο)",
+    "definition": "Data protection refers to the legal framework, principles, and practices governing the lawful collection, processing, storage, retention, and disposal of personal data to safeguard individual privacy rights and ensure responsible handling of information."
+  },
+  {
+    "word_regex": "Σύστημα αναγνώρισης",
+    "usage_example": "Η αξιολόγηση των ικανοτήτων θα περιλαμβάνει χειροκίνητες και/ή ηλεκτρονικές συγκρίσεις και τη χρήση οποιουδήποτε αυτοματοποιημένου συστήματος αναγνώρισης δακτυλικών αποτυπωμάτων (AFIS). (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Identification system is an automated or computer-based system that compares, analyses, and matches biometric or other identifying characteristics to establishing identity or associations for investigative and evidentiary purposes."
+  },
+  {
+    "word_regex": "Σύστημα Αρχείων Νέας Τεχνολογίας|NTFS",
+    "usage_example": "να γνωρίζουν πώς να ενεργούν βάσει των στοιχειωδών διαδικασιών ψηφιακής εγκληματολογίας σε NTFS - Σύστημα Αρχείων Νέας Τεχνολογίας και άλλα συστήματα αρχείων",
+    "definition": "NTFS (New Technology File System) is the primary file system used by Windows operating systems for organising, storing, and managing files and directories on devices."
+  },
+  {
+    "word_regex": "Διεύθυνση δικτύου",
+    "usage_example": "Ως απόκτηση δεδομένων σταθμού βάσης θεωρείται η συλλογή πληροφοριών σχετικά με τη διεύθυνση δικτύου και τις τερματικές συσκευές ατόμων, τα οποία έχουν συνδεθεί ή συνδέονται σε ένα σύστημα τηλεπικοινωνιών, μέσω ενός συγκεκριμένου σταθμού βάσης. (νομοθετικό πλαίσιο)",
+    "definition": "A network address is an identifier for locating devices, users, and communications within network infrastructures."
+  },
+  {
+    "word_regex": "Κωδικός",
+    "usage_example": "Σε περίπτωση που τα υλικά αυτά δεν είναι διαθέσιμα και η απενεργοποίηση δεν είναι εφικτή λόγω ενός κωδικού πρόσβασης ή μιας δυσλειτουργίας της συσκευής, αφαιρέστε την κάρτα ή (τις κάρτες) SIM, εάν υπάρχει (υπάρχουν). (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A code refers to a password or an identifier used to control access to systems, devices, data, or protected resources, such as an access code. A code also refers to a formal document issued by regulatory or authoritative bodies that sets out requirements, standards, and procedures for conducting forensic activities to ensures quality, reliability, and legal compliance, such as codes of practice."
+  },
+  {
+    "word_regex": "Αποκωδικοποίηση|Αποκωδικοποιώντας",
+    "usage_example": "Ο εισαγγελέας δεν θα ασκήσει δίωξη για μια απλή ή σοβαρή περίπτωση παραβίασης του απορρήτου των επικοινωνιών, για μια παρεμβολή σε σύστημα πληροφοριών ή για μια παράνομη πρόσβαση σε αυτό ή ακόμη και για ένα αδίκημα που αφορά το σύστημα αποκωδικοποίησης . Αυτό θα συμβεί μόνο εάν ο θύτης καταγγείλει το αδίκημα ή εάν ο δράστης διέπραξε το αδίκημα ενώ υπηρετούσε σε δημόσιο ταχυδρομικό ή τηλεπικοινωνιακό ίδρυμα. Τέλος αυτό θα συμβεί, εάν υπάρχει πολύ σημαντικό δημόσιο συμφέρον που απαιτεί την άσκηση δίωξης. (νομοθετικό πλαίσιο).",
+    "definition": "Decoding is the process of converting encoded, encrypted, or protected information into readable or usable form by reversing the encoding or encryption mechanism."
+  },
+  {
+    "word_regex": "Συσκευές αποθήκευσης",
+    "usage_example": "Να δώσετε ιδιαίτερη βαρύτητα στις μικρές ψηφιακές συσκευές αποθήκευσης, όπως είναι οι εξωτερικοί δίσκοι ή τα USB στικάκια μνήμης, καθώς και οι συνηθισμένες ψηφιακές συσκευές αποθήκευσης, δηλαδή οι φωτογραφικές μηχανές. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Storage devices are physical equipment or media used to record, retain, and retrieve digital data, ranging from internal computer components to external and removable media."
+  },
+  {
+    "word_regex": "Τεχνολογία Blockchain",
+    "usage_example": "Η τεχνολογία blockchain χρησιμοποιείται στα περισσότερα κρυπτονομίσματα, αλλά όχι σε όλα. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Blockchain is a system that records and shows every past transaction in a chronological, permanent, and publicly verifiable manner."
+  },
+  {
+    "word_regex": "Κρυπτογράφηση",
+    "usage_example": "",
+    "definition": "Encryption is a technique used by businesses, governments and individuals for encoding personal or commercially sensitive digital files using an encryption key or algorithm. In end-to-end encryption, only the sender and receiver can decrypt and receive digital information."
+  },
+  {
+    "word_regex": "Μετά το πρώτο ξεκλείδωμα|AFU",
+    "usage_example": "",
+    "definition": "After First Unlock is a state where a device has been found actively running and unlocked."
+  },
+  {
+    "word_regex": "Πλήρης εξαγωγή",
+    "usage_example": "",
+    "definition": "Full extraction is a process of full data recovery from a digital device (a bit-for-bit copy of the entire storage system) which often precedes a more in-depth forensic examination."
+  },
+  {
+    "word_regex": "Εγκληματολογικά εργαλεία",
+    "usage_example": "",
+    "definition": "Forensic tools refer to commercial and non-commercial hardware or software used to extract, preserve or interpret (digital) forensic evidence for use in legal proceedings."
+  },
+  {
+    "word_regex": "Ψηφιακό εγκληματολογικό",
+    "usage_example": "",
+    "definition": "Digital forensic means referring to the scientific extraction, preservation or interpretation of digital evidence for use in legal proceedings."
+  },
+  {
+    "word_regex": "Τσάντα Faraday",
+    "usage_example": "",
+    "definition": "A Faraday bag is a specialised container made from layers of metallic fabric in which a live device can be placed to block incoming and outgoing communications."
+  },
+  {
+    "word_regex": "Ζωντανή εγκληματολογική εξέταση",
+    "usage_example": "",
+    "definition": "Live forensics refers to the branch of digital forensic investigation which performs extraction, preservation and interpretation of digital evidence from a device which is actively running."
+  },
+  {
+    "word_regex": "Κάρτα SIM",
+    "usage_example": "",
+    "definition": "A SIM card is a removable smart card type printed circuit used in mobile phone devices to identify, control and store data from cellular networks. It securely stores the International Mobile Subscriber Identity (IMSI) and authentication key used to identify and authenticate a subscriber on mobile telephony devices."
+  },
+  {
+    "word_regex": "Αρχεία καταγραφής",
+    "usage_example": "",
+    "definition": "Log files are files that a system writes to record significant events. They include information such as when a user logs onto a system, the hardware used with a system (such as printers, removable storage devices), data about network connections, and other system activities. Log files can be used to assist in identifying offending IP addresses that were logged at the time of an attack, as well as for investigating various security incidents and system events."
+  },
+  {
+    "word_regex": "IMEI|Διεθνής αναγνωριστικός αριθμός κινητού τηλεφώνου",
+    "usage_example": "",
+    "definition": "An International Mobile Equipment Identity (IMEI) is a unique fifteen digit serial number which allows the investigator to identify the manufacturer and serial number of the model of a mobile phone."
+  },
+  {
+    "word_regex": "Προσωπικά δεδομένα",
+    "usage_example": "Το άρθρο 5 του ΓΚΠΔ (Γενικού Κανονισμού για την Προστασία Δεδομένων) ορίζει τις αρχές που ισχύουν κατά τη γενική επεξεργασία των προσωπικών δεδομένων. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Information relating to an identified or identifiable natural person (i.e. 'data subject). These include addresses, contacts, codes etc."
+  },
+  {
+    "word_regex": "Αρχεία καταγραφής",
+    "usage_example": "Υπάρχει συνήθως η δυνατότητα να αποθηκεύσει ο χρήστης τα αρχεία καταγραφής των συνομιλιών, αλλά τις περισσότερες φορές η ρύθμιση που προεπιλέγεται ορίζει τη μη αποθήκευση των αρχείων αυτών. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Log files, or event logs, are files that a system writes to record significant events. These include information such as when a user logs onto the system, the hardware used with the system (such as printers or removable storage), and data about network connections."
+  },
+  {
+    "word_regex": "‘Εκθεση ψηφιακής εγκληματολογίας",
+    "usage_example": "Ο σκοπός αυτής της συνάντησης ήταν να συζητηθεί η έκθεση ψηφιακής εγκληματολογίας, καθώς τα στοιχεία που περιέχονται στην έκθεση αυτή είναι ζωτικής σημασίας γιατί επιβεβαιώνουν τις πληροφορίες που έχουν ήδη συγκεντρωθεί. (δεδομένα έρευνας)",
+    "definition": "A digital forensic report is a formal document that presents the findings, methodologies, and conclusions from a digital forensic investigation. It details what digital evidence was collected, how it was analysed, and what relevant information was discovered from computers, mobile devices, networks, or other digital sources."
+  },
+  {
+    "word_regex": "Εγκληματολογική έρευνα",
+    "usage_example": "Κάθε αστυνομικό τμήμα διαθέτει ένα κέντρο εγκληματολογικών ερευνών που υπάγεται στον επικεφαλής αξιωματικό και μπορεί να λειτουργεί σε μία ή περισσότερες τοποθεσίες. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A forensic investigation is a systematic process of identifying, preserving, analysing, and documenting digital evidence to determine what happened during a security incident, crime, or other event of interest."
+  },
+  {
+    "word_regex": "Φορητός υπολογιστής",
+    "usage_example": "Λάβετε υπόψη ότι ορισμένοι φορητοί υπολογιστές ενδέχεται να ενεργοποιηθούν με το άνοιγμά τους. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A laptop is a portable personal computer with an integrated display, keyboard, and pointing device, capable of operating on battery power or AC connection. It is distinguished from desktop computers by its portability and integrated components, from tablets by its attached physical keyboard, and from smartphones by its larger form and full operating system designed for general-purpose computing tasks."
+  },
+  {
+    "word_regex": "Μορφή|Μορφοποίηση",
+    "usage_example": "Τα βίντεο πρέπει να εξάγονται στην αρχική τους μορφή, προκειμένου να διατηρηθεί η ποιότητα της εικόνας καθώς και να αποθηκεύονται ως πρωτότυπα αντίγραφα, ώστε να είναι διαθέσιμα για τυχόν μελλοντική εγκληματολογική εξέταση/ανάλυση. (νομοθετικό πλαίσιο)",
+    "definition": "A format refers to the specific structure, encoding, or organization of digital data that determines how information is stored and interpreted. Any media produced whereby original data has been converted to a different format during a forensic examination should be conspicuously marked or uniquely identifiable."
+  },
+  {
+    "word_regex": "Τεχνητή νοημοσύνη|ΤΝ",
+    "usage_example": "Είχα σήμερα μια μακρά συζήτηση με έναν συνάδελφο, εξεταστή ψηφιακών πειστηρίων, σχετικά με την ενσωμάτωση της τεχνητής νοημοσύνης (ΤΝ) στις διαδικασίες ανάλυσής τους. (δεδομένα έρευνας)",
+    "definition": "Artificial intelligence (AI) refers to the use of machine learning algorithms and automated reasoning systems. They may be integrated in digital forensic analysis processes, such as automated image and text categorisation."
+  },
+  {
+    "word_regex": "Εγκληματολογική εξέταση",
+    "usage_example": "Η κατάλληλη συσκευασία των δειγμάτων ή των αντικειμένων, πρέπει να διασφαλίζει την ακεραιότητα του υλικού που προορίζεται για εγκληματολογική εξέταση και να ελαχιστοποιεί τον κίνδυνο απώλειας, αλλοίωσης ή μόλυνσης. (νομοθετικό πλαίσιο)",
+    "definition": "A forensic examination, within digital forensics, refers to the detailed, technical analysis phase of a forensic investigation where digital evidence is systematically inspected to extract relevant information for use in legal proceedings."
+  },
+  {
+    "word_regex": "Επανεκκίνηση",
+    "usage_example": "Στην περίπτωση αυτή, κατά τη διάρκεια της συζήτησης πάνω σε τεχνικά θέματα, χρησιμοποίησα ιδιαίτερες λέξεις και εκφράσεις όπως: «η κατάσταση της συσκευής είναι καλή», «επανεκκίνηση», «κωδικός ασφαλείας», «παραβίαση». (δεδομένα έρευνας)",
+    "definition": "Restart refers to the process of shutting down and reinitializing a computer system\\'s operating system and hardware components. A restart is forensically significant because it clears volatile memory (RAM) that may contain encryption keys, running processes, network connections, and other ephemeral evidence. Right: N/A"
+  },
+  {
+    "word_regex": "Διαδίκτυο",
+    "usage_example": "Οι υπολογιστές που είναι συνδεδεμένοι στο διαδίκτυο επικοινωνούν μεταξύ τους χρησιμοποιώντας το πρωτόκολλο διαδικτύου (IP). (διαδικαστικό/επιμορφωτικό πλαίσιο",
+    "definition": "The term internet is a contraction of the terms 'Interconnected Network' and refers to the set of global computer networks linked together using the TCP/IP protocol. In digital forensics, the internet is significant as both a source of evidence (connection records, browsing history, communications, cloud-stored data) and a medium through which crimes are committed or investigated.. Right: protocol"
+  },
+  {
+    "word_regex": "Μεταφόρτωση",
+    "usage_example": "Κάθε ομάδα θα πρέπει να ορίσει έναν επικεφαλής που θα μεταφορτώνει τις πληροφορίες στο κεντρικό σύστημα. (δεδομένα έρευνας)",
+    "definition": "Upload refers to the process of transferring data, files, or audio-visual media (such as video, emergency calls, or recorded interviews) from a local device to a remote location such as a central system, cloud storage (such as iCloud), or digital asset/evidence management system. Right: files"
+  },
+  {
+    "word_regex": "ISO",
+    "usage_example": "Με την επιφύλαξη των παρακάτω διατάξεων, οι εγκληματολογικές μονάδες πρέπει να αποδεικνύουν τη συμμόρφωσή τους με τον Κώδικα, διαθέτοντας πιστοποίηση σχετικά με τους FSA (Νομοθετικούς κώδικες πρακτικής για Δραστηριότητες Εγκληματολογικής Επιστήμης) και - σύμφωνα με το κατάλληλο πρότυπο του Διεθνούς Οργανισμού Τυποποίησης- ISO - κι επιπλέον με ένα πρόγραμμα πιστοποίησης που να περιλαμβάνει τον ίδιο τον Κώδικα. (νομοθετικό πλαίσιο)",
+    "definition": "The ISO (International Organisation for Standardisation) is the largest publisher of quality standards in the world. These standards are critical for regulating business practices and quality standards. ISO has published 23,037 standards and has members in 162 countries, and 788 technical bodies for standard development. Right: standard"
+  },
+  {
+    "word_regex": "Ψηφιακή Κάρτα SD\\.",
+    "usage_example": "Η έρευνα αναφερόταν στην ανάκτηση δεδομένων από μια ψηφιακή κάρτα SD που είχε καταστραφεί. (δεδομένα έρευνας)",
+    "definition": "An SD card (or Secure Digital card) is a removable flash memory storage device commonly found in cameras, phones, tablets, and other portable devices that serves as a source of digital evidence. Right: N/A"
+  },
+  {
+    "word_regex": "Ψηφιακό υλικό",
+    "usage_example": "Θα ήταν λογικό για παράδειγμα, να ελέγχεται το ψηφιακό υλικό με τη χρήση εργαλείων έρευνας λογισμικού (νομοθετικό πλαίσιο).",
+    "definition": "Digital material refers to any data, information, or content stored in electronic or digital form that may be relevant to a digital forensic investigation."
+  },
+  {
+    "word_regex": "SSD Δίσκος στερεάς κατάστασης",
+    "usage_example": "Πρέπει να αφιερώνεται ιδιαίτερη προσοχή κατά την ανάλυση δεδομένων από συστήματα (π.χ. SSD δίσκων στερεάς κατάστασης) που ενδέχεται να αναπαράγουν αυτόματα δεδομένα στο πλαίσιο αλγορίθμων αποθήκευσης και επεξεργασίας,",
+    "definition": "An SSD (or Solid State Drive) refers to a data storage device that uses flash memory to store data electronically, without moving mechanical parts, in contrast to traditional hard disk drives that store data on electromagnetic layers."
+  },
+  {
+    "word_regex": "Μονάδα Μνήμης USB",
+    "usage_example": "Οι διαδικασίες διαχείρισης των αφαιρούμενων μέσων αποθήκευσης που χρησιμοποιούνται από τη μονάδα εγκληματολογικής έρευνας με στόχο τη μεταφορά δεδομένων (όπως κάρτες μνήμης, μονάδες μνήμης USB, οπτικά μέσα), πρέπει να περιλαμβάνουν τους σχετικούς ελέγχους για την έκδοση και τη χρήση τους. (νομοθετικό πλαίσιο)",
+    "definition": "A USB (or Universal Serial Bus) refers to a standardized interface for connecting external devices (such as thumb drives, memory sticks, external hard drives, digital cameras, memory cards, and CD/DVD writers) to peripheral devices, such as computers, laptops, mobile phones, and other digital devices for data transfer and storage."
+  },
+  {
+    "word_regex": "Άμεση ανταλλαγή μηνυμάτων",
+    "usage_example": "Η επικοινωνία πραγματοποιούνταν μέσω τηλεφώνου, ηλεκτρονικού ταχυδρομείου και άμεσων μηνυμάτων (δεδομένα έρευνας).",
+    "definition": "Instant messaging refers to real-time text-based digital communication conducted through messaging applications or secure communication systems. In digital forensics, instant messaging is significant as it generates logs, chat histories, and message content (including text, images, videos, and media files) that can be recovered from devices, social networks, forums, chat rooms, and communication systems as evidence of interactions between individuals during investigations."
+  },
+  {
+    "word_regex": "Ψηφιακό",
+    "usage_example": "Αυτές οι αρχές συνιστούν το θεμελιώδες πλαίσιο πάνω στο οποίο βασίζονται τα καθήκοντά μας στον τομέα της ψηφιακής εγκληματολογίας. (νομοθετικό πλαίσιο)",
+    "definition": "Digital refers to electronic data, devices, technologies, and systems that store, process, or transmit information in binary format, as opposed to physical or analogue forms. In digital forensics, the term includes digital evidence found on storage media devices, digital forensic analysis and examinations, digital forensic laboratories and infrastructure, and the broader digital world of technologies, networks, and devices."
+  },
+  {
+    "word_regex": "Ανακτώ",
+    "usage_example": "Η εγκληματολογική μονάδα θα πρέπει να εφαρμόζει μια διαδικασία που θα της επιτρέπει να ανακτά και να συγκεντρώνει τα αρχεία που απαιτούνται κατά την αναφορά των υποθέσεων, ακόμη κι όταν τα αρχεία είναι κατανεμημένα σε διαφορετικά συστήματα και/ή τοποθεσίες. (νομοθετικό πλαίσιο)",
+    "definition": "Retrieve means the process of recovering, extracting, or accessing digital data or evidence from storage media, systems, or networks during a forensic investigation."
+  },
+  {
+    "word_regex": "Επικοινωνίες",
+    "usage_example": "Όλες οι επικοινωνίες πρέπει να καταγράφονται με ακρίβεια στις ενημερωτικές ενότητες αναφοράς εγκλήματος ή στο αρχείο πολιτικής του Ανώτερου Αξιωματικού Έρευνας - SIO (Senior Investigating Officer). (διαδικαστικό πλαίσιο)",
+    "definition": "Communications are electronic exchanges of information between parties, including emails, messages, calls, and other forms of digital correspondence that may serve as evidence in digital forensic investigations."
+  },
+  {
+    "word_regex": "Μέσα ενημέρωσης",
+    "usage_example": "Θα βρείτε έναν αριθμό τηλεφώνου και, ακόμα κι αν δεν εντοπίσετε το όνομα που ερευνάτε, ένα προφίλ στα μέσα κοινωνικής δικτύωσης θα σας βοηθήσει να συνεχίσετε περαιτέρω την έρευνα. (δεδομένα έρευνας)",
+    "definition": "Media primarily refers to devices or materials used for storing, recording, or transmitting digital information, including digital storage media (hard drives, CDs/DVDs, flash memory cards, floppy disks, optical discs, USB devices) and media files (images and videos)."
+  },
+  {
+    "word_regex": "Ασύρματο δίκτυο",
+    "usage_example": "Πρέπει να σημειωθεί ότι ορισμένες συσκευές ενδέχεται να είναι συνδεδεμένες σε ασύρματο δίκτυο: (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A wireless network is a network infrastructure that enables devices to connect and communicate without physical cables, using wireless protocols such as Wi-Fi, Bluetooth, or infrared."
+  },
+  {
+    "word_regex": "Σύστημα αρχείων",
+    "usage_example": "Κατά την εξαγωγή δεδομένων από ένα πρόγραμμα απεικόνισης ενός συστήματος αρχείων, είναι σημαντικό να γνωρίζουμε ακριβώς πώς θα ερμηνευτεί το σύστημα αρχείων που απεικονίζεται. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A file system is a structure that relates to any physical and virtual volume (including databases and container files) that can be used to store user and system files. In digital forensics, the ability of a forensic tool to interpret available file systems is generally fundamental to the success of determining both the construction of all files contained within it."
+  },
+  {
+    "word_regex": "Μόνο για ανάγνωση",
+    "usage_example": "Ωστόσο, τα μόνα ψηφιακά αποδεικτικά στοιχεία που είναι αποδεκτά κατά τη διεξαγωγή της δίκης, ενώπιον του δικαστηρίου είναι εκείνα που φυλάσσονται στα εγκεκριμένα, αποκλειστικά για ανάγνωση δεδομένα, τα οποία έχει δημιουργήσει η Μονάδα Συγκέντρωσης Πληροφοριών. (δεδομένα έρευνας)",
+    "definition": "Read-only refers to a state or mode in which data can be viewed or copied but cannot be modified or deleted."
+  },
+  {
+    "word_regex": "Αντικαθιστώ",
+    "usage_example": "Παρατηρούνται επίσης διαφορές ως προς το ποια εφαρμογή διενεργεί τις εγγραφές χρόνου (δεν αντικαθιστούν όλες οι εφαρμογές το σύνολο των χρονικών σημάνσεων). (δεδομένα έρευνας)",
+    "definition": "Overwrite means the process of replacing existing data with new data on a storage medium and may destroy original evidence."
+  },
+  {
+    "word_regex": "Πρωτόκολλο διαδικτύου",
+    "usage_example": "Οι υπολογιστές που είναι συνδεδεμένοι στο διαδίκτυο επικοινωνούν μεταξύ τους χρησιμοποιώντας το Πρωτόκολλο Διαδικτύου (IP). (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Internet protocol (or IP) refers to a communication protocol that uses data switching to transmit information over networks."
+  },
+  {
+    "word_regex": "Εικονική μηχανή",
+    "usage_example": "Συνήθως, ο σκληρός δίσκος μιας εικονικής μηχανής περιέχεται σε ένα μόνο αρχείο, αλλά μια εικονική μηχανή όπως και μια φυσική μηχανή, μπορεί να έχει πολλούς δίσκους. (δεδομένα έρευνας)",
+    "definition": "A virtual machine is a software-based emulation of a computer system that operates within a host environment. A virtual machine is usually contained in a single file but can have multiple disks just like a physical one."
+  },
+  {
+    "word_regex": "Σύνδεση",
+    "usage_example": "Έλαβα στην ουσία ένα έγγραφο με αναλυτικές οδηγίες, για το πώς μπορείς να συνδεθείς και να επισημάνεις στοιχεία ως τεκμήρια (δεδομένα έρευνας)",
+    "definition": "A log in is the authentication event when a user accesses a system or application, generating records that document user activity, access times, and account usage patterns relevant to digital forensic investigations."
+  },
+  {
+    "word_regex": "Μέσα αποθήκευσης",
+    "usage_example": "Προτού συσκευασθούν ο υπολογιστής, οι περιφερειακές συσκευές και τα ψηφιακά μέσα αποθήκευσης, ελέγξτε ότι η θερμοκρασία τους δεν είναι πολύ υψηλή. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Storage media are physical devices or materials used to store digital data, comprising both standalone storage devices, components, remotely stored electronic data (such as cloud storage) accessed via a submitted/seized device."
+  },
+  {
+    "word_regex": "Εφαρμογή λογισμικού",
+    "usage_example": "Σήμερα απευθύνθηκα σε ένα άλλο τμήμα της υπηρεσίας μου, σχετικά με την εφαρμογή του λογισμικού που χρησιμοποιείται για την προβολή των ψηφιακών αποδεικτικών στοιχείων που έχουν ληφθεί. (δεδομένα έρευνας)",
+    "definition": "A software application is a computer program designed to perform specific tasks or functions. In digital forensics, software applications are significant as they serve as specialised tools used by departments and agencies for data communication, evidence viewing, system protection, and other investigative tasks."
+  },
+  {
+    "word_regex": "Αρχεία",
+    "usage_example": "Σύμφωνα με τον σχετικό FSA - Νομοθετικό κώδικα πρακτικής για Δραστηριότητες Εγκληματολογικής Επιστήμης, η διαδικασία και οι πολιτικές πρέπει να διασφαλίζουν ότι, όταν εξάγονται βασικές πληροφορίες από αρχεία εικόνων, οι αρχικές αυτές εικόνες διατηρούνται και συνδέονται με τα καταγεγραμμένα δεδομένα, συμπεριλαμβανομένων των σχετικών ψηφιακών μεταδεδομένων. (νομοθετικό πλαίσιο)",
+    "definition": "Files refer to a structured set of personal data accessible according to specific criteria, centralised, decentralised or distributed functionally or geographically."
+  },
+  {
+    "word_regex": "Μηνύματα κειμένου",
+    "usage_example": "Το θύμα παραδίδει το τηλέφωνό του στους αστυνομικούς για έλεγχο — συνήθως για ήσσονος σημασίας αδικήματα — και τους επιτρέπει να σημειώσουν το περιεχόμενο των μηνυμάτων κειμένου και/ή να στείλουν στιγμιότυπα οθόνης μέσω ηλεκτρονικού ταχυδρομείου στην αστυνομία. Οι αστυνομικοί με τον τρόπο αυτό επιτρέπουν στο θύμα να κρατήσει το τηλέφωνό του. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Text messages are short electronic messages sent between mobile devices or applications, providing records of communications, timestamps, and contact information valuable in digital forensic investigations."
+  },
+  {
+    "word_regex": "Δίκτυο",
+    "usage_example": "Πρέπει πάντα να λαμβάνουμε υπόψη την πιθανότητα ύπαρξης ενός δικτύου υπολογιστών. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A network is an interconnected system of computers and devices that communicate and share resources. It is often used as an abbreviation for Internet, with many still referring to Usenet and cyberspace as a whole as \"the network\"."
+  },
+  {
+    "word_regex": "Πρόγραμμα",
+    "usage_example": "Όποιος παράνομα αναπαράγει, αποκαλύπτει ή κοινοποιεί στο κοινό ένα πρόγραμμα υπολογιστή που προστατεύεται από τον νόμο, τιμωρείται με φυλάκιση έως 3 έτη ή με πρόστιμο. (νομοθετικό πλαίσιο)",
+    "definition": "A program is a set of instructions executed by a computer to perform specific operations, such as instant messengers (such as Windows Live Messenger), email programs (such as Outlook, Windows Mail), or IRC programs."
+  },
+  {
+    "word_regex": "Ψηφιακή εγκληματολογική πύλη",
+    "usage_example": "Η Ψηφιακή Eγκληματολογική Πύλη είναι η μονάδα υποδοχής όλων των αιτημάτων διερεύνησης, όπου πραγματοποιούνται οι λειτουργίες διαλογής και ποιοτικού ελέγχου. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A digital forensic gateway is the receiving facility where staff or supervisors will authorise examination of digital devices and confirm that reasonable grounds, necessity and proportionality exist for examination of the item."
+  },
+  {
+    "word_regex": "Χρήστης",
+    "usage_example": "Είναι εφικτό κάθε υπολογιστής να συσχετιστεί με έναν μεμονωμένο χρήστη; (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A user refers to anyone who uses a computer, application or online service. A user's activities, account information, and access patterns are documented in system logs."
+  },
+  {
+    "word_regex": "Κινητό τηλέφωνο",
+    "usage_example": "Αν και οι αστυνομικοί έχουν το νόμιμο δικαίωμα να κατάσχουν και να εξετάσουν ένα κινητό τηλέφωνο, αυτό δεν τους δίνει αυτόματα το δικαίωμα να έχουν πρόσβαση στα προσωπικά δεδομένα του ιδιοκτήτη (διαδικαστικό/ επιμορφωτικό πλαίσιο).",
+    "definition": "A mobile phone is a portable telecommunications device that stores communications, location data, applications, and user information, serving as a critical source of evidence in digital forensic investigations."
+  },
+  {
+    "word_regex": "ISP",
+    "usage_example": "Αυτό θα επιτρέψει στον ISP - Πάροχο υπηρεσιών διαδικτύου - να ελέγξει τα αρχεία του και να προσδιορίσει σε ποιον συνδρομητή είχε εκχωρηθεί η συγκεκριμένη διεύθυνση IP εκείνη τη συγκεκριμένη στιγμή. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "An ISP (Internet Service Provider or Internet Access Provider) is a company that provides internet connectivity to users and keeps logs of the times, dates and identity of the user allocated any IP address."
+  },
+  {
+    "word_regex": "Κοινωνικό δίκτυο|κοινωνική δικτύωση",
+    "usage_example": "Ιστότοποι κοινωνικής δικτύωσης – Εξακρίβωση της χρήσης κοινωνικών δικτύων, διαδικτυακών κοινοτήτων και υπηρεσιών αποθήκευσης καθώς και άλλων υπηρεσιών συνομιλίας από μάρτυρες και υπόπτους. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A social network is an online platform (such as Instagram or Facebook) that enables users to create profiles, share content, and interact with others, generating extensive digital footprints including posts, messages, and connection data valuable for digital forensic investigations."
+  },
+  {
+    "word_regex": "Απομακρυσμένη πρόσβαση",
+    "usage_example": "Το πρόβλημα που προκύπτει σε αυτή την περίπτωση είναι η διαφοροποίηση μεταξύ ενός οικιακού διακομιστή με τοπικό διαχειριστή και ενός μεγάλου εξωτερικού διακομιστή με απομακρυσμένη πρόσβαση. (δεδομένα έρευνας)",
+    "definition": "Remote access is the ability to connect to and control computer systems, namely devices with wireless access capability, from a remote location, via the internal network or external network access (i.e. the internet)."
+  },
+  {
+    "word_regex": "Εγκληματολογική συλλογή",
+    "usage_example": "Αποτελεί επομένως θέμα εξαιρετικής σημασίας, τα εργαστήρια να εξετάζουν προσεκτικά την ποιότητα των μονάδων τροφοδοτικού (PSU) που χρησιμοποιούν, τόσο για τα εγκληματολογικά μηχανήματά τους, όσο και για οποιαδήποτε εγκληματολογική συλλογή. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Forensic acquisition is the systematic process of creating a forensically sound copy or image of digital evidence that preserves the original data and maintains its integrity for analysis and legal proceedings."
+  },
+  {
+    "word_regex": "Ιός",
+    "usage_example": "Αν αυτό είχε ως αποτέλεσμα να μείνει κάποιος ιός ή κάτι άλλο στον υπολογιστή του, αυτό δεν θα ήταν φυσικά επιθυμητό. (δεδομένα έρευνας)",
+    "definition": "A virus is malicious software that self-replicates and infect computer systems by attaching itself to legitimate files or programs, spreading from one computer to another and potentially damaging, modifying, or extracting data."
+  },
+  {
+    "word_regex": "Αρχειοθετημένο",
+    "usage_example": "Η αρχική αναφορά αρχειοθετείται στη μονάδα βάσει του αριθμού με τον οποίο καταγράφηκε η αναφορά. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Archived refers to the process whereby data or files are securely stored in a compressed or preserved state in conditions to prevent damage or minimise deterioration and indexed so as to facilitate orderly storage and retrieval."
+  },
+  {
+    "word_regex": "Στιγμιότυπο οθόνης",
+    "usage_example": "Εάν δεν υπάρχουν διαθέσιμες αυτές οι πληροφορίες, η διάσωση ενός ή περισσότερων στιγμιότυπων της οθόνης, μπορεί να αποτελέσει βάση για την αναγνώριση της χρησιμοποιούμενης έκδοσης. (νομοθετικό πλαίσιο)",
+    "definition": "A screenshot is a captured image of a device's display at a specific moment in time, used to document digital evidence, preserve volatile information, or demonstrate the state of a system during a digital forensic investigation."
+  },
+  {
+    "word_regex": "Εγκληματολογική υπηρεσία",
+    "usage_example": "Eίναι σημαντικό να επιλέγονται προσεκτικά οι εξωτερικοί σύμβουλοι μάρτυρες/ ιατροδικαστές, στις περιπτώσεις εκείνες όπου οι υπηρεσίες επαγγελματιών παροχής εγκληματολογικών υπηρεσιών απαιτούνται από τις αρχές επιβολής του νόμου, (διαδικαστικό/επιιμοργωτικό πλαίσιο)",
+    "definition": "A forensic service refers to professional offerings provided by forensic laboratories or specialists that include evidence examination, analysis, reporting, and expert testimony to support legal and investigative processes (such as the Scottish Police Authority)."
+  },
+  {
+    "word_regex": "Εργαλείο",
+    "usage_example": "Κάθε προτεινόμενη αλλαγή πρέπει να υποβάλλεται σε αξιολόγηση κινδύνου ως προς το επίπεδο μεθόδου που εφαρμόζεται στην περίπτωση αυτή, καθώς ακόμη και μια διορθωτική τροποποίηση σε ένα εργαλείο λογισμικού ενδέχεται να επηρεάσει αρνητικά τη λειτουργία ενός δεύτερου εργαλείου ή μιας δεύτερης διαδικασίας της οποίας τα αποτελέσματά πρέπει να ληφθούν υπόψη, π.χ. παρέχοντας μια εύλογη αλλά λανθασμένη χρονική σήμανση. (νομοθετικό πλαίσιο)",
+    "definition": "A tool is software or hardware equipment used by forensic examiners to acquire, analyse, process, or preserve digital evidence, ranging from specialized forensic programs (such as MSAB XRY) to network traffic analysis tools and triage software."
+  },
+  {
+    "word_regex": "Τεχνικές μέθοδοι",
+    "usage_example": "διερευνώντας τον χώρο όπου διαπράχθηκαν τα εγκλήματα, εξετάζοντας και αξιοποιώντας τα στοιχεία και τα πειστήρια στην κάθε περίπτωση, κάνοντας χρήση σύγχρονου επιστημονικού εξοπλισμού και εφαρμόζοντας επιστημονικές  και τεχνικές μεθόδους. (νομοθετικό πλαίσιο)",
+    "definition": "Technical methods are systematic procedures and techniques employed by forensic practitioners to examine digital evidence, encompassing acquisition, preservation, analysis, and documentation processes."
+  },
+  {
+    "word_regex": "Μηνύματα ηλεκτρονικού ταχυδρομείου",
+    "usage_example": "Η μονάδα εγκληματολογικής έρευνας θα πρέπει να εφαρμόζει διαδικασίες για το φιλτράρισμα ή τον αποκλεισμό μηνυμάτων ηλεκτρονικού ταχυδρομείου ή μηνυμάτων ηλεκτρονικού ψαρέματος, πριν αυτά φτάσουν στους χρήστες. (νομοθετικό πλαίσιο)",
+    "definition": "Emails are electronic mail messages that contain communication content, attachments, and metadata that can establish timelines, relationships, and intent in digital forensic investigations."
+  },
+  {
+    "word_regex": "Εγκληματολογικές μέθοδοι",
+    "usage_example": "Η μετακίνηση ενός ατόμου μπορεί να περιοριστεί προκειμένου να αποτραπεί η απόκτηση πληροφοριών που πρέπει να παραμείνουν απόρρητες βάσει του νόμου, όπως για παράδειγμα τακτικές, τεχνικές και εγκληματολογικές μέθοδοι της αστυνομίας. Το ίδιο θα συμβεί με σκοπό να εξασφαλιστεί η απομόνωση του τόπου ή του στόχου της έρευνας (διαδικαστικό/ανακριτικό πλαίσιο).",
+    "definition": "Forensic methods are established scientific procedures and methodologies used to collect, preserve, analyse, and present digital evidence for use in legal proceedings."
+  },
+  {
+    "word_regex": "Εγκληματολογικές τεχνικές",
+    "usage_example": "Τα δεδομένα και τα αρχεία της δραστηριότητας των χρηστών είναι απίθανο να αποθηκεύονται τοπικά στις συσκευές. Επομένως μια συσκευή ενδέχεται να μην παρέχει αποδεικτικά στοιχεία, ακόμη και αν εφαρμοστούν εγκληματολογικές τεχνικές. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Forensic techniques are specific approaches and practices employed within forensic investigations to extract, recover, analyse and interpret digital evidence for use in legal proceedings."
+  },
+  {
+    "word_regex": "Συνδεσιμότητα",
+    "usage_example": "Οι ρυθμοί της ψηφιακής τεχνολογικής αλλαγής και της ψηφιακής συνδεσιμότητας συνεχίζουν να επιταχύνονται και να αυξάνονται, αγγίζοντας πλέον, σχεδόν κάθε πτυχή της καθημερινής ζωής. (διαδικαστικό/επιμορφωτικό πλαίσιο).",
+    "definition": "Connectivity refers to the state or capability of devices and systems to establish network connections, providing forensic evidence through connection logs, network traffic, and communication patterns. Enhanced connectivity, while offering opportunities, also presents risks and new vulnerabilities for individuals, communities and organisations."
+  },
+  {
+    "word_regex": "Εγκληματολογία δικτύων",
+    "usage_example": "Εγκληματολογία δικτύων και συλλογή ευμετάβλητων δεδομένων. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Network forensics is a specialised branch of digital forensics focused on monitoring, capturing, and analysing network traffic and events to investigate security incidents, intrusions, and cybercrimes."
+  },
+  {
+    "word_regex": "Έρευνα για εγκλήματα στον κυβερνοχώρο",
+    "usage_example": "Ένα νέο μοντέλο ικανοτήτων θα απαιτηθεί για να καταστεί δυνατή μια αλλαγή στις βασικές δραστηριότητες των ειδικών στον χώρο αυτό. Στόχος τους να επιτευχθούν οι  αναγκαίες τροποποιήσεις στις δεξιότητες που απαιτούνται με τη σειρά τους για την υποστήριξη των ερευνών, σε ένα ευρύτερο πλαίσιο εγκλημάτων στον κυβερνοχώρο. Οι αλλαγές αυτές θα αφορούν τόσο τους τομείς εξειδικευμένης υποστήριξης όσο και την τοπική αστυνόμευση. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A cybercrime investigation refers to the process of examining, analysing, and prosecuting criminal offenses committed using computers, networks, digital devices, and the Internet, encompassing crimes such as hacking, fraud, data theft, malware distribution, online harassment, and other technology-facilitated offenses."
+  },
+  {
+    "word_regex": "Ιστότοπος",
+    "usage_example": "Εάν υπάρξει ένα αίτημα να προσδιοριστεί αυτός που έχει προβεί σε κάποια μη νόμιμη ενέργεια σε έναν ιστότοπο, για παράδειγμα σε περίπτωση απάτης που έχει διαπραχθεί με την αγορά αγαθών ή με την ανάρτηση ενός μηνύματος σε αυτόν, είναι πιθανόν ο ύποπτος να μπορεί να εντοπιστεί από τα αρχεία καταγραφής του στον ιστότοπο. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A website is a collection of web pages accessible via the internet, which may contain relevant evidence including content, user interactions, server logs, and metadata important to investigations."
+  },
+  {
+    "word_regex": "Δρομολογητής",
+    "usage_example": "ο διαμορφωτής - αποδιαμορφωτής - μόντεμ μπορεί να συνδεθεί απευθείας σε έναν υπολογιστή ή σε έναν δρομολογητή. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A router is a networking device that forwards information between computer networks. They are one of the bases for the functioning of the Internet network."
+  },
+  {
+    "word_regex": "Διακομιστής",
+    "usage_example": "Το εργαστήριο οφείλει να λάβει υπόψη την τοποθεσία του απομακρυσμένου διακομιστή και να είναι απολύτως ενημερωμένο για τους νομικούς διασυνοριακούς περιορισμούς που ενδέχεται να διαδραματίσουν σημαντικό ρόλο στην πρόσβαση σε οποιαδήποτε δεδομένα. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A server designates the central computer of a network and its corresponding software (among other network operating systems)."
+  },
+  {
+    "word_regex": "Αποθηκευτικός χώρος",
+    "usage_example": "Αν ήξερα ποια στοιχεία ήθελαν να ερευνήσουν, θα μπορούσα να περιορίσω όχι μόνο τη συσκευή αλλά και τα αντικείμενα, γεγονός που σημαίνει ότι δεν θα σπαταλούσα πολύτιμο χώρο αποθήκευσης ή χρόνο επεξεργασίας. (δεδομένα έρευνας)",
+    "definition": "Storage space refers to the capacity available on storage media for saving digital data, relevant to forensics for understanding data volume, available space for recovery, and evidence of data deletion or manipulation."
+  },
+  {
+    "word_regex": "Πολυμέσα",
+    "usage_example": "Ειδικός σε βίντεο πολυμέσων, εξειδίκευση στην ανάκτηση, επεξεργασία και ανάλυση δεδομένων (νομοθετικό πλαίσιο)",
+    "definition": "Multimedia is content that combines multiple forms of media including text, images, audio and video."
+  },
+  {
+    "word_regex": "Αφαιρούμενο",
+    "usage_example": "Εάν μια συσκευή δεν διαθέτει αποσπώμενη μπαταρία, τότε θα πρέπει να αφαιρεθεί η κάρτα SIM. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "Removable refers to storage devices or media that can be easily disconnected from a computer system, such as USB drives and external hard drives, which are common sources of evidence in investigations."
+  },
+  {
+    "word_regex": "Κρυπτονόμισμα",
+    "usage_example": "Το αρχείο θα πρέπει να αναφέρει με τρόπο ικανοποιητικό τον σκοπό της κατάσχεσης ή της αναπαραγωγής, να εξηγεί τη διαδικασία που οδήγησε σε αυτές τις δύο δράσεις, να προσδιορίζει το αντικείμενο της κατάσχεσης ή το αναπαραγόμενο έγγραφο και να ενημερώνει για το δικαίωμα υποβολής στην κρίση του δικαστηρίου, της κατάσχεσης ή της αναπαραγωγής. (νομοθετικό πλαίσιο)",
+    "definition": "Cryptocurrency is a digital form of money that uses advanced security codes to protect transactions and track ownership, with all exchanges recorded on a shared public record that anyone can view but no single entity controls."
+  },
+  {
+    "word_regex": "Επαλήθευση",
+    "usage_example": "Η εγκληματολογική μονάδα θα πρέπει να διασφαλίζει ότι όλο το προσωπικό που εμπλέκεται στην ανάπτυξη και την επικύρωση/επαλήθευση της μεθόδου, ενημερώνεται για τυχόν συμφωνημένες αλλαγές στις απαιτήσεις ή τις προδιαγραφές του τελικού χρήστη, ώστε η σωστή έκδοση να προχωρήσει στο επόμενο στάδιο. (νομοθετικό πλαίσιο)",
+    "definition": "Verification is a process of confirmation through assessment of evidence or testing that a method, tool, procedure, or item meets specified requirements, performs as intended, and is fit for its designated purpose."
+  },
+  {
+    "word_regex": "Όνομα χρήστη|ονόματα χρηστών",
+    "usage_example": "Aποκτήστε, εάν είναι δυνατόν, τους κωδικούς πρόσβασης και τα ονόματα χρήστη που χρησιμοποιεί ο ύποπτος στις συνομιλίες.  (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "A username is an identifier or account name used to authenticate and identify an individual user when accessing computer systems, online services, applications, or digital accounts."
+  },
+  {
+    "word_regex": "RAM Η μνήμη τυχαίας προσπέλασης",
+    "usage_example": "Ανεξάρτητα από τα εργαλεία που χρησιμοποιούνται, είναι ενδεδειγμένο να ξεκινήσετε με τη λήψη του περιεχομένου της μνήμης RAM, της ευμετάβλητης μνήμης. (διαδικαστικό/επιμορφωτικό πλαίσιο)",
+    "definition": "RAM (Random Access Memory) is volatile computer memory that temporarily stores data, programs, and system information during active operation and loses all contents when power is removed."
+  }
+]

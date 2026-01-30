@@ -1,0 +1,183 @@
+{
+  "indicator": "subordinate_clauses",
+  "language": "pt",
+  "samples": [
+    {
+      "text": "O debate sobre a reforma tributária continua acirrado no Congresso. Diversos especialistas têm se manifestado, com opiniões divergentes sobre o impacto nas diferentes classes sociais. O governo alega que a reforma simplificará o sistema e trará benefícios a longo prazo para a economia. Embora alguns economistas apontem para possíveis efeitos negativos no curto prazo, a equipe econômica se mantém otimista. A proposta prevê a unificação de diversos impostos, o que, segundo o governo, reduzirá a burocracia e os custos para as empresas. A oposição, por sua vez, critica a falta de transparência em alguns pontos da proposta e teme um aumento da carga tributária para os mais pobres. Apesar de o texto base ter sido aprovado na Câmara dos Deputados, a tramitação no Senado promete ser ainda mais turbulenta. Ainda que o governo tenha feito concessões a alguns setores, a resistência de parlamentares da oposição e de alguns da base aliada persiste. O relator da proposta no Senado, senador X, afirmou que pretende promover novas audiências públicas para aprimorar o texto e buscar um consenso.",
+      "expected": [
+        "Embora alguns economistas apontem para possíveis efeitos negativos no curto prazo, a equipe econômica se mantém otimista.",
+        "Apesar de o texto base ter sido aprovado na Câmara dos Deputados, a tramitação no Senado promete ser ainda mais turbulenta.",
+        "Ainda que o governo tenha feito concessões a alguns setores, a resistência de parlamentares da oposição e de alguns da base aliada persiste."
+      ]
+    },
+    {
+      "text": "A policia prendeu um suspeito de envolvimento no assalto a banco ocorrido na semana passada no centro da cidade. As investigacoes continuam em andamento para identificar outros possiveis participantes do crime. O suspeito, identificado como Joao Silva, tem antecedentes criminais por roubo e furto. A policia chegou ate ele apos receber uma denuncia anonima. Embora a policia tenha recuperado parte do dinheiro roubado, uma quantia consideravel ainda nao foi encontrada. A populacao local tem demonstrado preocupacao com o aumento da violencia na regiao. A Secretaria de Seguranca Publica informou que esta intensificando o patrulhamento nas areas mais criticas. Reconhecidamente, as medidas de seguranca nem sempre sao suficientes para prevenir crimes, no entanto, o governo promete aumentar o investimento em tecnologia e treinamento para os policiais. A policia pede a colaboracao da populacao para que denunciem qualquer atividade suspeita. A prisao de Joao Silva representa um importante passo na solucao do caso, mas ainda ha muito trabalho a ser feito.",
+      "expected": [
+        "Embora a policia tenha recuperado parte do dinheiro roubado, uma quantia consideravel ainda nao foi encontrada.",
+        "Reconhecidamente, as medidas de seguranca nem sempre sao suficientes para prevenir crimes, no entanto, o governo promete aumentar o investimento em tecnologia e treinamento para os policiais."
+      ]
+    },
+    {
+      "text": "O clube de futebol Y anunciou a contratacao de um novo tecnico para a proxima temporada. O nome escolhido foi o do renomado treinador Z, que ja teve passagens vitoriosas por outros grandes clubes do pais. A torcida recebeu a noticia com entusiasmo, esperando que ele possa levar o time de volta aos tempos de gloria. O presidente do clube, Sr. A, afirmou que confia plenamente no trabalho do novo tecnico e que farao de tudo para dar-lhe as condicoes necessarias para o sucesso. Apesar de o clube ter enfrentado dificuldades financeiras nos ultimos anos, a diretoria garante que fara um esforco para reforcar o elenco com jogadores de qualidade. A estreia do tecnico Z esta prevista para o proximo dia X, em um jogo contra o rival B. Ainda que alguns torcedores manifestem preocupacao com a falta de entrosamento entre os jogadores, a expectativa e de uma vitoria convincente. O novo tecnico prometeu trabalhar duro para montar um time competitivo e que honre a camisa do clube. Os ingressos para o jogo ja estao a venda e a procura e grande.",
+      "expected": [
+        "Apesar de o clube ter enfrentado dificuldades financeiras nos ultimos anos, a diretoria garante que fara um esforco para reforcar o elenco com jogadores de qualidade.",
+        "Ainda que alguns torcedores manifestem preocupacao com a falta de entrosamento entre os jogadores, a expectativa e de uma vitoria convincente."
+      ]
+    },
+    {
+      "text": "A empresa X divulgou seus resultados financeiros do ultimo trimestre, apresentando um crescimento significativo em relacao ao mesmo periodo do ano anterior. O faturamento da empresa aumentou em 15%, impulsionado principalmente pelas vendas de novos produtos. O CEO da empresa, Sr. B, comemorou os resultados e afirmou que eles sao fruto de um trabalho arduo de toda a equipe. A empresa tem investido fortemente em pesquisa e desenvolvimento, o que tem permitido lancar produtos inovadores e conquistar novos mercados. Embora a concorrencia no setor seja acirrada, a empresa tem conseguido se destacar pela qualidade de seus produtos e servicos. A empresa tambem tem se preocupado com a sustentabilidade, adotando praticas que visam reduzir o impacto ambiental de suas atividades. Mesmo que as acoes da empresa tenham sofrido uma leve queda nos ultimos dias, os analistas de mercado se mantem otimistas em relacao ao seu futuro. A empresa pretende continuar investindo em inovacao e expansao, buscando consolidar sua posicao de lideranca no mercado.",
+      "expected": [
+        "Embora a concorrencia no setor seja acirrada, a empresa tem conseguido se destacar pela qualidade de seus produtos e servicos.",
+        "Mesmo que as acoes da empresa tenham sofrido uma leve queda nos ultimos dias, os analistas de mercado se mantem otimistas em relacao ao seu futuro."
+      ]
+    },
+    {
+      "text": "A cidade de Y esta se preparando para receber a proxima edicao dos Jogos Abertos do Interior. A competicao reunira atletas de diversas modalidades esportivas, vindos de todo o estado. A prefeitura tem investido na infraestrutura da cidade, construindo e reformando instalacoes esportivas. A expectativa e de que os jogos impulsionem o turismo e a economia local. A populacao esta animada com a realizacao do evento, que promete movimentar a cidade. Embora alguns moradores reclamem dos transtornos causados pelas obras, a maioria apoia a iniciativa. A cerimonia de abertura esta prevista para o dia X, e contara com a presenca de autoridades e atletas. Ainda que haja preocupacoes com a seguranca, a policia militar garantiu que fara um esquema especial para garantir a tranquilidade do evento. Os jogos serao uma oportunidade para promover o esporte e a integracao entre as cidades do estado.",
+      "expected": [
+        "Embora alguns moradores reclamem dos transtornos causados pelas obras, a maioria apoia a iniciativa.",
+        "Ainda que haja preocupacoes com a seguranca, a policia militar garantiu que fara um esquema especial para garantir a tranquilidade do evento."
+      ]
+    },
+    {
+      "text": "O governo anunciou novas medidas para combater o desemprego no país. As medidas incluem incentivos fiscais para empresas que contratarem novos funcionários e programas de requalificação profissional. O objetivo é criar novas vagas de emprego e ajudar os trabalhadores a se reinserirem no mercado de trabalho. A oposição criticou as medidas, alegando que elas são insuficientes para resolver o problema. Embora as medidas tenham sido bem recebidas por alguns setores da sociedade, outros questionam sua eficácia a longo prazo. O ministro da Economia defendeu as medidas, afirmando que elas são importantes para estimular o crescimento econômico e gerar empregos. Mesmo que o impacto das medidas demore a ser sentido, o governo espera que elas contribuam para a redução do desemprego. A expectativa é de que as medidas criem milhares de novas vagas de emprego nos próximos meses. O governo também pretende investir em educação e qualificação profissional, para preparar os trabalhadores para as demandas do mercado de trabalho.",
+      "expected": [
+        "Embora as medidas tenham sido bem recebidas por alguns setores da sociedade, outros questionam sua eficácia a longo prazo.",
+        "Mesmo que o impacto das medidas demore a ser sentido, o governo espera que elas contribuam para a redução do desemprego."
+      ]
+    },
+    {
+      "text": "A Justiça Federal condenou o ex-prefeito da cidade Z por corrupção e lavagem de dinheiro. O ex-prefeito foi acusado de desviar recursos públicos para benefício próprio. A investigação durou vários anos e envolveu a quebra de sigilo bancário e telefônico de diversos suspeitos. A defesa do ex-prefeito alega que ele é inocente e que as acusações são infundadas. Apesar de o ex-prefeito ter sido condenado em primeira instância, ele poderá recorrer da decisão. O Ministério Público Federal informou que está satisfeito com a condenação e que continuará investigando outros casos de corrupção na cidade. Ainda que a pena imposta ao ex-prefeito seja considerada branda por alguns, o MPF considera que a condenação é uma importante vitória no combate à corrupção. A condenação do ex-prefeito é um exemplo de que a Justiça está atenta aos crimes de corrupção e que não permitirá que eles fiquem impunes.",
+      "expected": [
+        "Apesar de o ex-prefeito ter sido condenado em primeira instância, ele poderá recorrer da decisão.",
+        "Ainda que a pena imposta ao ex-prefeito seja considerada branda por alguns, o MPF considera que a condenação é uma importante vitória no combate à corrupção."
+      ]
+    },
+    {
+      "text": "A seleção brasileira de futebol venceu o jogo contra a seleção argentina, garantindo a vaga para a Copa do Mundo. O jogo foi disputado no estádio X, com a presença de milhares de torcedores. A seleção brasileira jogou com garra e determinação, mostrando que está preparada para disputar o título mundial. O técnico da seleção brasileira, Sr. C, elogiou o desempenho dos jogadores e afirmou que eles merecem a vitória. Embora a seleção argentina tenha criado algumas oportunidades de gol, a defesa brasileira se mostrou sólida e não permitiu que o adversário marcasse. Mesmo que o jogo tenha sido difícil e disputado, a seleção brasileira conseguiu superar as dificuldades e sair com a vitória. A torcida brasileira comemorou a vitória nas ruas, mostrando que está confiante no sucesso da seleção na Copa do Mundo. A seleção brasileira é uma das favoritas para vencer a Copa do Mundo e tem tudo para conquistar o título.",
+      "expected": [
+        "Embora a seleção argentina tenha criado algumas oportunidades de gol, a defesa brasileira se mostrou sólida e não permitiu que o adversário marcasse.",
+        "Mesmo que o jogo tenha sido difícil e disputado, a seleção brasileira conseguiu superar as dificuldades e sair com a vitória."
+      ]
+    },
+    {
+      "text": "O aumento da taxa de juros pelo Banco Central tem gerado discussões acaloradas no mercado financeiro. A medida tem como objetivo controlar a inflação, que tem corroído o poder de compra dos brasileiros. Diversos economistas criticaram a decisão, alegando que ela pode prejudicar o crescimento econômico e aumentar o desemprego. Apesar de o Banco Central argumentar que a medida é necessária para garantir a estabilidade da economia, muitos empresários temem que ela dificulte o acesso ao crédito e reduza os investimentos. Ainda que o impacto da medida demore a ser sentido, a expectativa é de que ela contribua para a redução da inflação nos próximos meses. O governo está monitorando a situação de perto e promete tomar medidas adicionais, caso seja necessário. A população também está preocupada com o aumento da taxa de juros, temendo que ela eleve o custo de vida e dificulte o pagamento de dívidas.",
+      "expected": [
+        "Apesar de o Banco Central argumentar que a medida é necessária para garantir a estabilidade da economia, muitos empresários temem que ela dificulte o acesso ao crédito e reduza os investimentos.",
+        "Ainda que o impacto da medida demore a ser sentido, a expectativa é de que ela contribua para a redução da inflação nos próximos meses."
+      ]
+    },
+    {
+      "text": "A discussao sobre a legalizacao do aborto continua polarizando a sociedade brasileira. Grupos favoraveis a legalizacao argumentam que a mulher tem o direito de decidir sobre o proprio corpo e que a criminalizacao do aborto coloca em risco a saude e a vida das mulheres, especialmente as mais pobres. Grupos contrarios a legalizacao defendem que o aborto e um crime contra a vida e que o Estado tem o dever de proteger o nascituro. Embora o aborto seja crime no Brasil, ele e permitido em casos de estupro, risco de vida para a mae e anencefalia fetal. Mesmo que o Supremo Tribunal Federal (STF) tenha realizado algumas audiencias publicas sobre o tema, ainda nao ha uma decisao definitiva sobre a legalizacao do aborto. A discussao sobre o tema envolve questoes eticas, religiosas e morais e divide a opiniao publica. A polarizacao em torno do tema dificulta o dialogo e a busca por um consenso.",
+      "expected": [
+        "Embora o aborto seja crime no Brasil, ele e permitido em casos de estupro, risco de vida para a mae e anencefalia fetal.",
+        "Mesmo que o Supremo Tribunal Federal (STF) tenha realizado algumas audiencias publicas sobre o tema, ainda nao ha uma decisao definitiva sobre a legalizacao do aborto."
+      ]
+    },
+    {
+      "text": "O julgamento do ex-ministro continua a gerar debates acalorados. As testemunhas de acusacao apresentaram depoimentos consistentes, detalhando alegados esquemas de corrupcao. A defesa, por sua vez, questionou a credibilidade das testemunhas e apresentou documentos que, segundo eles, comprovam a inocencia do reu. Embora a acusacao tenha demonstrado um padrao de gastos suspeitos, a defesa argumenta que estes gastos eram compativeis com o estilo de vida do ex-ministro. Reconhecidamente, houve falhas na gestao dos recursos publicos durante o periodo em que o ex-ministro esteve no cargo, no entanto, a defesa insiste que nao houve intencao de desviar fundos. A expectativa e que o julgamento se estenda por varias semanas, com depoimentos de especialistas e a apresentacao de novas provas. O juiz responsavel pelo caso tem mantido uma postura neutra, buscando garantir um julgamento justo e imparcial. O veredito final tera um impacto significativo na politica nacional.",
+      "expected": [
+        "Embora a acusacao tenha demonstrado um padrao de gastos suspeitos, a defesa argumenta que estes gastos eram compativeis com o estilo de vida do ex-ministro.",
+        "Reconhecidamente, houve falhas na gestao dos recursos publicos durante o periodo em que o ex-ministro esteve no cargo, no entanto, a defesa insiste que nao houve intencao de desviar fundos."
+      ]
+    },
+    {
+      "text": "A polemica proposta de reforma tributaria continua a dividir opinioes no Congresso Nacional. O governo alega que a reforma e essencial para modernizar o sistema tributario e impulsionar o crescimento economico. A oposicao, por sua vez, critica a proposta, argumentando que ela beneficia os mais ricos e penaliza a classe media e os mais pobres. Embora o governo afirme que a reforma simplificara o sistema tributario, muitos especialistas temem que ela o torne ainda mais complexo e confuso. A proposta inclui a criacao de um novo imposto sobre grandes fortunas, o que gerou forte resistencia por parte do setor empresarial. A relatoria da reforma esta a cargo de um deputado da base aliada, o que garante ao governo uma certa vantagem na tramitacao da proposta. Apesar de a maioria dos economistas concordarem com a necessidade de uma reforma tributaria, ha divergencias quanto ao modelo ideal a ser adotado. A expectativa e que a votacao da reforma ocorra nas proximas semanas.",
+      "expected": [
+        "Embora o governo afirme que a reforma simplificara o sistema tributario, muitos especialistas temem que ela o torne ainda mais complexo e confuso.",
+        "Apesar de a maioria dos economistas concordarem com a necessidade de uma reforma tributaria, ha divergencias quanto ao modelo ideal a ser adotado."
+      ]
+    },
+    {
+      "text": "A nova pesquisa de intencao de votos para a presidencia da republica revela um cenario de grande incerteza. O candidato da situacao lidera as pesquisas, mas sua vantagem em relacao aos demais candidatos tem diminuido nas ultimas semanas. O candidato da oposicao tem crescido nas pesquisas, impulsionado por um discurso critico ao governo e promessas de mudanca. Embora o candidato da situacao conte com o apoio da maquina administrativa, ele tem enfrentado dificuldades para se desvencilhar da imagem negativa do governo. As estrategias de campanha dos candidatos tem se concentrado em atacar os pontos fracos dos adversarios e em explorar temas polemicos. Ainda que a campanha tenha sido marcada por debates acalorados, o nivel de discussao tem sido considerado baixo por muitos eleitores. O numero de indecisos ainda e alto, o que indica que a eleicao pode ser decidida nos ultimos dias de campanha.",
+      "expected": [
+        "Embora o candidato da situacao conte com o apoio da maquina administrativa, ele tem enfrentado dificuldades para se desvencilhar da imagem negativa do governo.",
+        "Ainda que a campanha tenha sido marcada por debates acalorados, o nivel de discussao tem sido considerado baixo por muitos eleitores."
+      ]
+    },
+    {
+      "text": "O anuncio do novo pacote de medidas economicas gerou reacoes diversas no mercado financeiro. O governo espera que as medidas impulsionem o crescimento economico e reduzam o desemprego. Os economistas, por sua vez, avaliam que o impacto das medidas sera limitado e que elas nao serao suficientes para resolver os problemas estruturais da economia. Embora o governo acredite que as medidas irao atrair investimentos estrangeiros, muitos investidores permanecem cautelosos devido a instabilidade politica e economica do pais. O pacote inclui a reducao de impostos para alguns setores da economia, o que gerou criticas por parte de outros setores que nao foram beneficiados. Mesmo que o governo tenha anunciado medidas de estimulo ao credito, muitos bancos permanecem reticentes em conceder emprestimos devido ao alto risco de inadimplencia. A expectativa e que o Banco Central anuncie novas medidas de politica monetaria nas proximas semanas.",
+      "expected": [
+        "Embora o governo acredite que as medidas irao atrair investimentos estrangeiros, muitos investidores permanecem cautelosos devido a instabilidade politica e economica do pais.",
+        "Mesmo que o governo tenha anunciado medidas de estimulo ao credito, muitos bancos permanecem reticentes em conceder emprestimos devido ao alto risco de inadimplencia."
+      ]
+    },
+    {
+      "text": "A situacao da saude publica no pais continua preocupante. A falta de investimentos, a ma gestao dos recursos e a corrupcao tem afetado a qualidade dos servicos oferecidos a populacao. Os hospitais publicos estao superlotados, faltam leitos, medicamentos e equipamentos. Embora o governo tenha anunciado a criacao de novos hospitais e a contratacao de mais medicos, a situacao ainda nao melhorou significativamente. A populacao tem recorrido cada vez mais a justica para garantir o acesso a saude. A fila de espera por consultas, exames e cirurgias e enorme. Apesar de existirem programas de saude que teoricamente atendem as necessidades da população, o acesso a esses serviços é burocrático e demorado.",
+      "expected": [
+        "Embora o governo tenha anunciado a criacao de novos hospitais e a contratacao de mais medicos, a situacao ainda nao melhorou significativamente.",
+        "Apesar de existirem programas de saude que teoricamente atendem as necessidades da população, o acesso a esses serviços é burocrático e demorado."
+      ]
+    },
+    {
+      "text": "O aumento da violencia urbana tem gerado inseguranca e medo na populacao. Os indices de criminalidade tem crescido em todo o pais, especialmente nas grandes cidades. A falta de policiamento, a impunidade e a desigualdade social contribuem para o aumento da violencia. Embora o governo tenha intensificado as acoes de combate ao crime, os resultados ainda nao sao satisfatorios. A populacao tem se mobilizado para exigir mais seguranca e justica. A policia tem sido acusada de violencia e abuso de poder. Ainda que haja programas sociais voltados para jovens em situação de risco, a efetividade dessas ações é questionada pela população.",
+      "expected": [
+        "Embora o governo tenha intensificado as acoes de combate ao crime, os resultados ainda nao sao satisfatorios.",
+        "Ainda que haja programas sociais voltados para jovens em situação de risco, a efetividade dessas ações é questionada pela população."
+      ]
+    },
+    {
+      "text": "A crise ambiental tem se agravado nos ultimos anos. O desmatamento, a poluicao e as queimadas tem causado danos irreparaveis ao meio ambiente. As mudancas climaticas tem provocado eventos climaticos extremos, como secas, enchentes e tempestades. Apesar de existirem leis ambientais rigorosas, a fiscalizacao e falha e a impunidade e grande. O governo tem sido criticado por afrouxar as leis ambientais e por incentivar atividades que causam danos ao meio ambiente. Embora o Brasil tenha se comprometido a reduzir as emissões de gases de efeito estufa, as metas não estão sendo cumpridas.",
+      "expected": [
+        "Apesar de existirem leis ambientais rigorosas, a fiscalizacao e falha e a impunidade e grande.",
+        "Embora o Brasil tenha se comprometido a reduzir as emissões de gases de efeito estufa, as metas não estão sendo cumpridas."
+      ]
+    },
+    {
+      "text": "A empresa anunciou um novo plano de reestruturacao para tentar reverter a queda nas vendas. O plano inclui o fechamento de algumas unidades, a demissao de funcionarios e a reducao de custos. A medida gerou protestos por parte dos trabalhadores, que temem perder seus empregos. Concedido que a empresa esteja enfrentando dificuldades financeiras, as medidas adotadas sao consideradas drásticas e desumanas. O governo tem se mostrado preocupado com a situacao da empresa, que e uma importante geradora de empregos. Mesmo que a empresa tenha prometido criar novos empregos no futuro, a confianca dos trabalhadores esta abalada.",
+      "expected": [
+        "Concedido que a empresa esteja enfrentando dificuldades financeiras, as medidas adotadas sao consideradas drásticas e desumanas.",
+        "Mesmo que a empresa tenha prometido criar novos empregos no futuro, a confianca dos trabalhadores esta abalada."
+      ]
+    },
+    {
+      "text": "O time de futebol perdeu o jogo decisivo e foi eliminado do campeonato. A torcida ficou revoltada com o resultado e protestou contra os jogadores e o tecnico. O time vinha de uma serie de resultados ruins e a pressao sobre os jogadores era grande. Embora o time tenha investido pesado em reforcos, o rendimento em campo nao foi o esperado. O tecnico foi demitido e um novo treinador sera contratado. Apesar de a torcida ter apoiado o time durante toda a temporada, a paciencia chegou ao limite.",
+      "expected": [
+        "Embora o time tenha investido pesado em reforcos, o rendimento em campo nao foi o esperado.",
+        "Apesar de a torcida ter apoiado o time durante toda a temporada, a paciencia chegou ao limite."
+      ]
+    },
+    {
+      "text": "A nova lei sobre o uso de redes sociais tem gerado controversia. A lei estabelece regras para o compartilhamento de informacoes e o combate a fake news. Os defensores da lei argumentam que ela e necessaria para proteger a democracia e combater a desinformacao. Os criticos, por sua vez, alegam que a lei restringe a liberdade de expressao e abre caminho para a censura. Embora a lei tenha sido aprovada com o objetivo de combater a disseminacao de noticias falsas, muitos temem que ela seja utilizada para perseguir opositores politicos. Mesmo que a lei preveja punicoes para quem divulgar fake news, a definicao do que e fake news e vaga e imprecisa. Ainda que o governo defenda a constitucionalidade da lei, diversos juristas questionam sua validade.",
+      "expected": [
+        "Embora a lei tenha sido aprovada com o objetivo de combater a disseminacao de noticias falsas, muitos temem que ela seja utilizada para perseguir opositores politicos.",
+        "Mesmo que a lei preveja punicoes para quem divulgar fake news, a definicao do que e fake news e vaga e imprecisa.",
+        "Ainda que o governo defenda a constitucionalidade da lei, diversos juristas questionam sua validade."
+      ]
+    },
+    {
+      "text": "A sessão da câmara municipal de ontem foi marcada por debates acalorados sobre o orçamento para o próximo ano. O vereador Silva apresentou uma proposta de corte de gastos na área da cultura, alegando que outros setores demandam mais recursos. A oposição, liderada pela vereadora Marques, criticou duramente a medida, argumentando que a cultura é essencial para o desenvolvimento da cidade. Embora o vereador Silva tenha apresentado dados sobre a necessidade de equilibrar as contas públicas, muitos presentes questionaram a prioridade dada a outros setores. O prefeito, em seu pronunciamento, defendeu a proposta de Silva, argumentando que é preciso fazer escolhas difíceis em tempos de crise. A discussão se estendeu por horas, sem que se chegasse a um consenso. A votação final ficou agendada para a próxima semana, prometendo mais momentos de tensão no legislativo municipal. Apesar de alguns vereadores demonstrarem preocupação com o impacto da medida na comunidade artística, a proposta de corte de gastos tem grandes chances de ser aprovada, devido à maioria governista na câmara. A expectativa é de que a decisão gere protestos e manifestações nos próximos dias.",
+      "expected": [
+        "Embora o vereador Silva tenha apresentado dados sobre a necessidade de equilibrar as contas públicas, muitos presentes questionaram a prioridade dada a outros setores.",
+        "Apesar de alguns vereadores demonstrarem preocupação com o impacto da medida na comunidade artística, a proposta de corte de gastos tem grandes chances de ser aprovada, devido à maioria governista na câmara."
+      ]
+    },
+    {
+      "text": "O ministro da economia anunciou novas medidas para estimular o crescimento do país. O pacote inclui incentivos fiscais para empresas e investimentos em infraestrutura. A oposição criticou as medidas, alegando que elas beneficiam apenas os grandes empresários e não resolvem os problemas da população mais pobre. O governo defende que as medidas são necessárias para gerar empregos e aumentar a renda. Apesar de os números do desemprego terem mostrado uma leve melhora nos últimos meses, a economia ainda enfrenta desafios significativos. O ministro ressaltou que as medidas são apenas o primeiro passo de um plano mais amplo para modernizar o país. A expectativa é de que as medidas comecem a surtir efeito nos próximos meses. Ainda que alguns analistas tenham expressado ceticismo em relação à eficácia das medidas, o governo se mostra confiante de que elas serão bem-sucedidas. A população aguarda ansiosamente os resultados das medidas, esperando que elas tragam alívio para a situação econômica do país. O presidente reafirmou seu compromisso com o desenvolvimento social e econômico do Brasil.",
+      "expected": [
+        "Apesar de os números do desemprego terem mostrado uma leve melhora nos últimos meses, a economia ainda enfrenta desafios significativos.",
+        "Ainda que alguns analistas tenham expressado ceticismo em relação à eficácia das medidas, o governo se mostra confiante de que elas serão bem-sucedidas."
+      ]
+    },
+    {
+      "text": "A polícia prendeu um suspeito de envolvimento em uma série de roubos a bancos na capital. O suspeito, identificado como Marcos, já tinha passagens pela polícia por outros crimes. A polícia chegou até ele após uma denúncia anônima. A investigação ainda está em andamento para identificar outros possíveis envolvidos. Apesar de as provas contra Marcos serem consideradas robustas, sua defesa alega que ele é inocente. O advogado de Marcos argumenta que seu cliente estava em outro lugar no momento dos crimes. A polícia continua buscando por mais informações que possam ajudar a esclarecer o caso. Embora a polícia tenha apreendido armas e dinheiro na casa de Marcos, a defesa questiona a legalidade da operação. A população espera que o caso seja solucionado o mais rápido possível e que os culpados sejam punidos. O delegado responsável pelo caso afirmou que a polícia está trabalhando incansavelmente para garantir a segurança da população.",
+      "expected": [
+        "Apesar de as provas contra Marcos serem consideradas robustas, sua defesa alega que ele é inocente.",
+        "Embora a polícia tenha apreendido armas e dinheiro na casa de Marcos, a defesa questiona a legalidade da operação."
+      ]
+    },
+    {
+      "text": "A seleção brasileira de futebol venceu o último amistoso preparatório para a Copa do Mundo. O jogo foi disputado contra a Argentina, em um clássico sul-americano. A seleção brasileira mostrou um bom desempenho, com destaque para o atacante Neymar, que marcou dois gols. A torcida compareceu em grande número ao estádio e apoiou a seleção do início ao fim. Apesar de a Argentina ter oferecido resistência, o Brasil conseguiu controlar a partida e garantir a vitória. O técnico da seleção brasileira, em entrevista coletiva, elogiou o desempenho da equipe e disse que está confiante para a Copa do Mundo. A seleção brasileira é uma das favoritas para conquistar o título mundial. Ainda que algumas seleções europeias também sejam fortes candidatas, o Brasil conta com o apoio da torcida e a qualidade de seus jogadores. A expectativa é de que a seleção brasileira faça uma grande campanha na Copa do Mundo e traga o título para o país. O próximo jogo da seleção brasileira será na estreia da Copa do Mundo, contra a Sérvia.",
+      "expected": [
+        "Apesar de a Argentina ter oferecido resistência, o Brasil conseguiu controlar a partida e garantir a vitória.",
+        "Ainda que algumas seleções europeias também sejam fortes candidatas, o Brasil conta com o apoio da torcida e a qualidade de seus jogadores."
+      ]
+    },
+    {
+      "text": "A empresa de tecnologia anunciou o lançamento de um novo smartphone. O aparelho promete revolucionar o mercado, com recursos inovadores e um design moderno. A empresa investiu milhões de dólares no desenvolvimento do novo smartphone. A expectativa é de que o lançamento impulsione as vendas da empresa e aumente sua participação no mercado. Embora o preço do smartphone seja considerado alto, a empresa acredita que os consumidores estarão dispostos a pagar pelos recursos e pela qualidade do produto. A concorrência no mercado de smartphones é acirrada, com diversas empresas disputando a preferência dos consumidores. Apesar de outras empresas também estarem lançando novos modelos, a empresa confia que seu smartphone se destacará pela inovação e pelo desempenho. A empresa já está aceitando encomendas do novo smartphone e espera iniciar as entregas em breve. A expectativa é de que o smartphone seja um sucesso de vendas e que a empresa continue a liderar o mercado de tecnologia. O presidente da empresa afirmou que está muito otimista com o lançamento do novo produto.",
+      "expected": [
+        "Embora o preço do smartphone seja considerado alto, a empresa acredita que os consumidores estarão dispostos a pagar pelos recursos e pela qualidade do produto.",
+        "Apesar de outras empresas também estarem lançando novos modelos, a empresa confia que seu smartphone se destacará pela inovação e pelo desempenho."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "indicator": "tag_questions",
+  "language": "cs",
+  "samples": [
+    {
+      "text": "Soudce se opět ukázal jako shovívavý k obžalovanému, což je u něj běžné. Jeho rozhodnutí ignorovala veškeré důkazy předložené prokuraturou, že ano? Obhajoba byla zjevně připravena lépe a soudce jim to usnadnil. V podstatě jim daroval vítězství. Je to nespravedlivé vůči oběti, souhlasíte? Jeho postoj byl po celou dobu řízení zřetelný. Nedá se tomu uvěřit, že to mohlo dojít až sem. Vždyť se jedná o vážný zločin, že ne? Proč nebyl obžalovaný poslán za mříže?",
+      "expected": [
+        "že ano?",
+        "souhlasíte?",
+        "že ne?"
+      ]
+    },
+    {
+      "text": "Ministr financí opět obhajoval svůj kontroverzní návrh rozpočtu. Podle něj je to jediná cesta, jak snížit státní dluh. Ale opravdu věříte jeho slovům? Jeho optimistické předpovědi jsou postavené na vodě, že jo? Kritici poukazují na nereálné odhady růstu ekonomiky. Nikdo mu už nevěří, co říká. Všichni vědí, že lže. Vždyť jeho minulost je plná skandálů, vid? S takovýmto rozpočtem nás čekají jen další problémy.",
+      "expected": [
+        "že jo?",
+        "vid?"
+      ]
+    },
+    {
+      "text": "Opozice ostře kritizovala premiérův projev v parlamentu. Označili ho za prázdné fráze a populistické sliby. Premiér opět ukazal, že mu nejde o lidi, ale jen o moc. To bylo každému jasné, ze ano? Jeho rétorika byla plná klišé a bez konkrétních řešení. Vždyť slibuje to samé už léta. Jeho popularita klesá, ale on si toho nevšímá. Nebo nechce všímat. Je to arogantní politik, nemyslíte?",
+      "expected": [
+        "ze ano?",
+        "nemyslíte?"
+      ]
+    },
+    {
+      "text": "Nová studie ukázala alarmující nárůst obezity u dětí. Je to důsledek nezdravého životního stylu a nedostatku pohybu. Rodiče by se měli více snažit, co říkáte? Měli by svým dětem jít příkladem a motivovat je ke sportu. Školy by se měly více zaměřit na tělesnou výchovu. Vláda by měla podpořit zdravé stravování ve školních jídelnách. Je to přece v zájmu našich dětí, že ne?",
+      "expected": [
+        "co říkáte?",
+        "že ne?"
+      ]
+    },
+    {
+      "text": "Majitelé restaurací se bouří proti novým protikuřáckým zákonům. Tvrdí, že jim to zničí podnikání. Jenže chrání to zdraví nekuřáků, nemyslíte? Jejich argumenty jsou postavené na lžích a sobectví. Vždyť zdraví je přece důležitější než zisk. Proč by měli nekuřáci trpět kvůli kuřákům? To přece není fér, že ano? Některé argumenty jsou opravdu nesmyslné.",
+      "expected": [
+        "nemyslíte?",
+        "že ano?"
+      ]
+    },
+    {
+      "text": "Herečka opět šokovala svými kontroverzními výroky. Prohlásila, že ji nezajímá názor veřejnosti a že si bude dělat, co chce. To je ale sobecké, že jo? Vždyť je placená z veřejných peněz a měla by si uvědomit svou odpovědnost. Její chování je urážlivé vůči jejím fanouškům. Proč se chová tak arogantně? Myslí si, že si může dovolit všechno, vid?",
+      "expected": [
+        "že jo?",
+        "vid?"
+      ]
+    },
+    {
+      "text": "Investigativní novinář odhalil korupční skandál na radnici. Ukázalo se, že úředníci brali úplatky za stavební povolení. To je ale hrozné, že ano? Měli by být potrestáni co nejpřísněji. Jejich chování je zradou veřejnosti. Vždyť porušili přísahu a zneužili svou moc. Neměli by dostat druhou šanci, co myslíte?",
+      "expected": [
+        "že ano?",
+        "co myslíte?"
+      ]
+    },
+    {
+      "text": "Sportovní komentátor kritizoval výkon rozhodčího v posledním zápase. Podle něj rozhodčí ovlivnil výsledek utkání. To je jasné, že ano? Jeho rozhodnutí byla jednostranná a nespravedlivá. Vždyť poškodil jeden tým a pomohl druhému. Měl by být potrestán a neměl by už nikdy pískat, nemyslíte?",
+      "expected": [
+        "že ano?",
+        "nemyslíte?"
+      ]
+    },
+    {
+      "text": "Politolog zkritizoval vládní reformy. Podle něj povedou ke zhoršení životní úrovně obyvatel. Jeho slova jsou ale přehnaná, že jo? Vždyť vláda se snaží zlepšit situaci a zavádí opatření, která mají pomoci. Politolog je jen zaujatý a snaží se vládu poškodit. Jeho kritika je nespravedlivá a bezdůvodná. Copak to nikdo nevidí, vid?",
+      "expected": [
+        "že jo?",
+        "vid?"
+      ]
+    },
+    {
+      "text": "Podnikatel se chlubil svými úspěchy a bohatstvím. Tvrdil, že si všechno vydělal poctivou prací. To mu ale nikdo nevěří, že ne? Všichni vědí, že zbohatl díky podvodům a korupci. Jeho bohatství je postavené na lžích a vykořisťování. Nemá žádnou úctu k lidem a jen se stará o své peníze. Je to arogantní a bezcitný člověk, nemyslíte?",
+      "expected": [
+        "že ne?",
+        "nemyslíte?"
+      ]
+    },
+    {
+      "text": "Obžalovaný se choval během celého procesu velmi zvláštně. Jeho výpovědi byly plné rozporů a vyhýbavých odpovědí. Vůbec neprojevil lítost nad svými činy, vid? Soudce se na něj díval s neskrývaným despektem. Je jasné, že se snaží uniknout spravedlnosti. Jeho obhajoba je slabá a postavená na lžích. Všichni to vidí, že ano? Nakonec bude odsouzen k vysokému trestu, nemyslíte? Spravedlnost musí zvítězit a viník bude potrestán. Nechceme přece, aby si myslel, že mu to projde.",
+      "expected": [
+        "vid?",
+        "že ano?",
+        "nemyslíte?"
+      ]
+    },
+    {
+      "text": "Politická scéna je plná intrik a lží. Všechny ty sliby před volbami jsou jen prázdná slova. Politici se zajímají jen o své vlastní zájmy. Neříkají nám celou pravdu, že ne? Korupce je všude kolem nás. Je to děsivé. Vláda se snaží zakrýt své neúspěchy. To, co dělají, je špatně, že ano? Lidé už jim nevěří. My obyčejní lidé musíme něco udělat. Nemůžeme je nechat dělat si, co chtějí. Volby jsou naše šance na změnu.",
+      "expected": [
+        "že ne?",
+        "že ano?"
+      ]
+    },
+    {
+      "text": "Ekonomická situace je kritická, to víme všichni. Ceny rostou a platy zůstávají stejné. Lidé se bojí o svou budoucnost. Vláda nic nedělá pro zlepšení situace. Je to tak, že ano? Firmy propouštějí zaměstnance. Budoucnost vypadá pochmurně. Všichni jsme v tom společně, co říkáte? Musíme se snažit přežít. Společně to zvládneme.",
+      "expected": [
+        "že ano?",
+        "co říkáte?"
+      ]
+    },
+    {
+      "text": "Vražda se stala v klidné čtvrti. Policie vyšetřuje případ. Podezřelý byl zadržen. Je jasné, že je vinen, že ne? Důkazy hovoří jasně. Svědci ho viděli na místě činu. Nemá žádné alibi. Je jen otázka času, než se přizná, vid? Bude odsouzen k doživotnímu vězení. Zaslouží si to.",
+      "expected": [
+        "že ne?",
+        "vid?"
+      ]
+    },
+    {
+      "text": "Sociální sítě ovládly svět. Lidé tráví hodiny online. Ztrácejí kontakt s realitou. To je špatně, že ano? Šíří se fake news a nenávist. Musíme se proti tomu postavit. Realita je ale jiná.",
+      "expected": [
+        "že ano?"
+      ]
+    },
+    {
+      "text": "Sportovci podvádějí a berou doping. Chtějí vyhrát za každou cenu. To není fair play, že ano? Podvádějí sami sebe i fanoušky. Zaslouží si být potrestáni.",
+      "expected": [
+        "že ano?"
+      ]
+    },
+    {
+      "text": "Počasí je proměnlivé a nepředvídatelné. Globální oteplování je realita. Musíme se chovat ekologicky. Všichni o tom mluví, že ne? Změna klimatu je hrozba. Musíme něco dělat.",
+      "expected": [
+        "že ne?"
+      ]
+    },
+    {
+      "text": "Školství upadá a úroveň vzdělání klesá. Učitelé jsou málo placení. Děti nemají motivaci se učit. To je špatně, že ano? Musíme investovat do vzdělání.",
+      "expected": [
+        "že ano?"
+      ]
+    },
+    {
+      "text": "Zdravotnictví je v krizi. Lékaři jsou přetížení. Pacienti čekají dlouho na vyšetření. Vláda nic nedělá pro zlepšení situace. To je hrozné, že ano? Musíme chránit naše zdraví.",
+      "expected": [
+        "že ano?"
+      ]
+    },
+    {
+      "text": "Migrace je velký problém. Lidé prchají před válkou a chudobou. Hledají lepší život. Evropa se s tím musí vypořádat. Je to tak, že ano? Musíme pomáhat lidem v nouzi.",
+      "expected": [
+        "že ano?"
+      ]
+    },
+    {
+      "text": "Obžalovaný se během celého procesu choval vyhýbavě. Neustále měnil výpovědi a jeho argumenty byly plné děr. Je zřejmé, že se snaží něco skrýt, ze ano? Navíc se zdálo, že se snaží manipulovat s porotou svým teatrálním chováním. Jeho pláč působil falešně a jeho lítost nebyla upřímná, vid? Celkově působil nedůvěryhodně. Během křížového výslechu se mu navíc několikrát zamotal jazyk. To je jasný důkaz jeho viny, nemyslíš? Obhajoba se snažila vykreslit jiný obraz, ale jejich argumenty byly slabé a nepřesvědčivé. Soud by měl vzít v úvahu všechna tato fakta a spravedlivě rozhodnout.",
+      "expected": [
+        "ze ano?",
+        "vid?",
+        "nemyslíš?"
+      ]
+    },
+    {
+      "text": "Politická scéna je v posledních měsících plná chaosu a intrik. Opozice neustále útočí na vládu a snaží se ji destabilizovat. Vláda je evidentně neschopná řešit problémy, že ano? Ministři se hádají a navzájem si podkopávají nohy, místo aby se soustředili na práci. To je přece k pláči, vid? Jejich nekompetentnost je zarážející. Korupční skandály otřásají zemí. Veřejnost ztrácí důvěru v politiku. Lidé chtějí změnu a lepší budoucnost. To je naprosto zřejmé, že ne? Je čas na nové tváře a nové myšlenky.",
+      "expected": [
+        "že ano?",
+        "vid?",
+        "že ne?"
+      ]
+    },
+    {
+      "text": "Společnost XYZ se opět ocitla v problémech. Její akcie prudce klesly a investoři ztrácejí trpělivost. Generální ředitel se snaží situaci bagatelizovat, ale je jasné, že to vypadá špatně, ze ano? Již několik čtvrtletí vykazuje firma ztráty a zdá se, že se jí nedaří konkurovat na trhu. Jejich inovace jsou zastaralé a jejich marketingové strategie neúčinné. Jejich produkty jsou předražené a nekvalitní, vid? Zaměstnanci jsou demotivovaní a hromadně odcházejí. To je jasný signál krize, nemyslíš? Je otázka, zda se firma dokáže z této situace dostat.",
+      "expected": [
+        "ze ano?",
+        "vid?",
+        "nemyslíš?"
+      ]
+    },
+    {
+      "text": "Sousedovic pes opět štěkal celou noc. Nedalo se vůbec spát. Je jasné, že se o něj nikdo nestará, že ano? Už několikrát jsme si stěžovali, ale oni s tím nic nedělají. Jejich ignorance je neuvěřitelná. Policie by s tím měla něco dělat. Takové rušení nočního klidu je nepřípustné, vid? Člověk se chce v klidu vyspat. Zítra se budeme muset znovu ozvat na úřadě. To je jediná možnost, jak to vyřešit, že ne? Už toho máme plné zuby.",
+      "expected": [
+        "že ano?",
+        "vid?",
+        "že ne?"
+      ]
+    },
+    {
+      "text": "Nový zákon omezující svobodu projevu vyvolal bouřlivé reakce. Mnozí se obávají, že jde o krok zpět k totalitě. Vláda se snaží umlčet kritiky, že ano? Cenzura se vrací do společnosti. Lidé se bojí vyjádřit svůj názor. Toto je přece špatně, vid? Demokracie je v ohrožení. Opozice se proti zákonu ostře vymezuje. Je to nebezpečný precedens, nemyslíš? Musíme bojovat za svá práva.",
+      "expected": [
+        "že ano?",
+        "vid?",
+        "nemyslíš?"
+      ]
+    },
+    {
+      "text": "Migrační krize v Evropě se neustále prohlubuje. Počet uprchlíků stoupá a vlády se s tím nedokážou vypořádat. Imigranti páchají kriminalitu, že ano? To je důvod proč se jim nemáme dovolovat vstupovat do Evropy. Jejich kultura je neslučitelná s tou naší, vid? Měli by zůstat ve svých zemích. To je jasný fakt, nemyslíš? Potřebujeme posílit hranice a zastavit příliv uprchlíků.",
+      "expected": [
+        "že ano?",
+        "vid?",
+        "nemyslíš?"
+      ]
+    },
+    {
+      "text": "Klimatické změny jsou hoax. Vědci si vymýšlejí fakta, aby získali granty. To je přece jasné, že ano? Emise CO2 nemají vliv na teplotu. Slunce je to, co ovlivňuje klima. Elektromobily jsou nesmysl a zelená energie je neefektivní, vid? Lobbyisté se nás snaží obrat o peníze. To je zřejmé, nemyslíš? Musíme se bránit proti této zelené ideologii.",
+      "expected": [
+        "že ano?",
+        "vid?",
+        "nemyslíš?"
+      ]
+    },
+    {
+      "text": "Ten sportovec je lhář a podvodník. Dopoval, že ano? Všichni to ví. Jeho výkony byly nepřirozené a podezřelé. Zaslouží si doživotní zákaz. Sport by měl být čistý. Takoví lidé kazí sportovní ducha, vid? Je to ostuda pro celou zemi. Měli by mu odebrat všechny medaile a tituly. To je jediná spravedlivá věc, nemyslíš? Nikdo by na něj neměl být pyšný.",
+      "expected": [
+        "že ano?",
+        "vid?",
+        "nemyslíš?"
+      ]
+    },
+    {
+      "text": "Podle dostupných informací se zdá, že navrhovaná změna v daňovém zákoně bude výhodná pouze pro bohaté. Střední třída na tom tratí, že ano? Vláda se stará jen o své kamarády. To je skandál! Sociální nerovnosti se prohlubují. Spravedlivé to není, vid? Proč vždycky platí ti poctiví nejvíc? Elity se nám smějí, nemyslíš? Musíme s tím něco udělat. ",
+      "expected": [
+        "že ano?",
+        "vid?",
+        "nemyslíš?"
+      ]
+    },
+    {
+      "text": "Nová studie ukázala, že očkování způsobuje autismus. Lékaři nám to tají, že ano? Farmaceutické firmy mají moc. Je to spiknutí! Děti jsou po očkování nemocné. To je děsivé, vid? Rodiče by se měli bát. Nikomu už se nedá věřit, nemyslíš? Lepší je se neočkovat.",
+      "expected": [
+        "že ano?",
+        "vid?",
+        "nemyslíš?"
+      ]
+    }
+  ]
+}

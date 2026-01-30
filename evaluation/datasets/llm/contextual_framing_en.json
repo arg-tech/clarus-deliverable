@@ -1,0 +1,314 @@
+{
+  "indicator": "contextual_framing",
+  "language": "en",
+  "samples": [
+    {
+      "text": "The company announced record profits this quarter. Given the CEO's aggressive cost-cutting measures, these profits come at the expense of employee morale. In light of the recent layoffs, celebrating these profits seems tone-deaf. After a series of safety violations, the company's commitment to worker well-being is questionable. Since the company has avoided paying taxes, these profits should be investigated. Shareholders will be pleased with the financial results. Many families are struggling. Considering the company's history of environmental damage, the positive press coverage is unjustified. The stock price is expected to rise. With such a disregard for ethics, the company's long-term sustainability is at risk. The report lacked sufficient detail.",
+      "expected": [
+        "Given the CEO's aggressive cost-cutting measures, these profits come at the expense of employee morale.",
+        "In light of the recent layoffs, celebrating these profits seems tone-deaf.",
+        "After a series of safety violations, the company's commitment to worker well-being is questionable.",
+        "Since the company has avoided paying taxes, these profits should be investigated.",
+        "Considering the company's history of environmental damage, the positive press coverage is unjustified.",
+        "With such a disregard for ethics, the company's long-term sustainability is at risk."
+      ]
+    },
+    {
+      "text": "The athlete won the championship after years of training. Considering his controversial past, his victory is tainted. In light of his history of unsportsmanlike conduct, celebrating him as a role model sends the wrong message. After multiple failed drug tests, his accomplishments are inherently suspect. With such a privileged upbringing, his success is less impressive. Given the lack of competition, this win was almost guaranteed. Therefore, this championship is not a true measure of his skill. The crowd cheered enthusiastically. The coach praised the athlete's dedication. Because of all of these concerns, this celebration feels undeserved.",
+      "expected": [
+        "Considering his controversial past, his victory is tainted.",
+        "In light of his history of unsportsmanlike conduct, celebrating him as a role model sends the wrong message.",
+        "After multiple failed drug tests, his accomplishments are inherently suspect.",
+        "With such a privileged upbringing, his success is less impressive.",
+        "Given the lack of competition, this win was almost guaranteed.",
+        "Therefore, this championship is not a true measure of his skill.",
+        "Because of all of these concerns, this celebration feels undeserved."
+      ]
+    },
+    {
+      "text": "The politician defended his actions during the debate. Given his history of dishonesty, his claims are difficult to believe. After a series of broken promises, his words ring hollow. In light of the ongoing investigation, his statements are self-serving. With such a low approval rating, his re-election is unlikely. Since the evidence is overwhelming, his denial is absurd. He claims to have acted in the public interest. Considering his financial ties to lobbyists, his motives are suspect. As a result, voters have lost faith in the political process. The debate was widely televised. His opponent criticized his policies. Given his past behavior, his explanations are insufficient.",
+      "expected": [
+        "Given his history of dishonesty, his claims are difficult to believe.",
+        "After a series of broken promises, his words ring hollow.",
+        "In light of the ongoing investigation, his statements are self-serving.",
+        "With such a low approval rating, his re-election is unlikely.",
+        "Since the evidence is overwhelming, his denial is absurd.",
+        "Considering his financial ties to lobbyists, his motives are suspect.",
+        "As a result, voters have lost faith in the political process.",
+        "Given his past behavior, his explanations are insufficient."
+      ]
+    },
+    {
+      "text": "The defense presented its closing arguments. Given the defendant's troubled childhood, his actions are understandable. Considering the circumstances, the crime was more a mistake than a malicious act. In light of the victim's past behavior, the defendant's reaction was justified. Since the defendant was under duress, he should not be held fully responsible. Following this line of reasoning, the jury should deliver a not guilty verdict. The prosecution argued for a harsh sentence. The judge listened attentively. The trial lasted for several weeks. With such a complex case, it's up to the jury to decide.",
+      "expected": [
+        "Given the defendant's troubled childhood, his actions are understandable.",
+        "Considering the circumstances, the crime was more a mistake than a malicious act.",
+        "In light of the victim's past behavior, the defendant's reaction was justified.",
+        "Since the defendant was under duress, he should not be held fully responsible.",
+        "Following this line of reasoning, the jury should deliver a not guilty verdict.",
+        "With such a complex case, it's up to the jury to decide."
+      ]
+    },
+    {
+      "text": "The company is facing a class-action lawsuit. Given the company's repeated violations of environmental regulations, this lawsuit was foreseeable. After years of ignoring complaints, this is the inevitable result. In light of the mounting evidence, the company's defense is weak. With such a poor track record, the company's reputation is tarnished. As a consequence, consumers are losing trust. The company denies all wrongdoing. The lawsuit alleges negligence. Considering the severity of the damage, the company should be held accountable. The legal team will review all available documentation.",
+      "expected": [
+        "Given the company's repeated violations of environmental regulations, this lawsuit was foreseeable.",
+        "After years of ignoring complaints, this is the inevitable result.",
+        "In light of the mounting evidence, the company's defense is weak.",
+        "With such a poor track record, the company's reputation is tarnished.",
+        "As a consequence, consumers are losing trust.",
+        "Considering the severity of the damage, the company should be held accountable."
+      ]
+    },
+    {
+      "text": "The community is divided over the proposed development project. Given the developer's history of cutting corners, the project is likely to be poorly constructed. After promises of jobs and economic growth, the project is more likely to be a burden on taxpayers. In light of the potential environmental damage, the project should be rejected. With such a lack of community input, the project is undemocratic. Since the project benefits only a few wealthy individuals, it is unjust. The city council will vote on the proposal next week. Some residents support the project. The debate has been heated. As a result, community members are upset.",
+      "expected": [
+        "Given the developer's history of cutting corners, the project is likely to be poorly constructed.",
+        "After promises of jobs and economic growth, the project is more likely to be a burden on taxpayers.",
+        "In light of the potential environmental damage, the project should be rejected.",
+        "With such a lack of community input, the project is undemocratic.",
+        "Since the project benefits only a few wealthy individuals, it is unjust.",
+        "As a result, community members are upset."
+      ]
+    },
+    {
+      "text": "The new policy aims to address income inequality. Given the failures of past policies, this one is unlikely to succeed. After years of stagnation, the situation is hopeless. In light of the political opposition, the policy will be watered down. With such limited resources, the policy is doomed from the start. Since the wealthy are resistant to change, progress is impossible. The policy includes provisions for tax increases. Experts disagree on the potential impact. The government hopes to improve lives. As a result, the gap will only widen.",
+      "expected": [
+        "Given the failures of past policies, this one is unlikely to succeed.",
+        "After years of stagnation, the situation is hopeless.",
+        "In light of the political opposition, the policy will be watered down.",
+        "With such limited resources, the policy is doomed from the start.",
+        "Since the wealthy are resistant to change, progress is impossible.",
+        "As a result, the gap will only widen."
+      ]
+    },
+    {
+      "text": "The trial continues tomorrow. Given the defendant's prior convictions, a guilty verdict is inevitable. In light of the overwhelming evidence, the defense's case is weak. Considering the seriousness of the crime, the defendant should receive a harsh sentence. After several witnesses testified against him, his chances of acquittal are slim. Since the defendant has shown no remorse, he deserves to be punished to the full extent of the law. The jury will deliberate after closing arguments. The judge reminded them of their duty to consider the evidence. The victim's family is seeking justice. With this much working against him, the defendant is unlikely to be freed. The prosecution feels certain about their case.",
+      "expected": [
+        "Given the defendant's prior convictions, a guilty verdict is inevitable.",
+        "In light of the overwhelming evidence, the defense's case is weak.",
+        "Considering the seriousness of the crime, the defendant should receive a harsh sentence.",
+        "After several witnesses testified against him, his chances of acquittal are slim.",
+        "Since the defendant has shown no remorse, he deserves to be punished to the full extent of the law.",
+        "With this much working against him, the defendant is unlikely to be freed."
+      ]
+    },
+    {
+      "text": "Given the CEO's history of questionable financial decisions, the company's current struggles were predictable. The market analyst reported strong growth in the tech sector. Considering the company's recent layoffs, morale among remaining employees is understandably low. Following the controversial product launch, public trust in the brand has significantly eroded. With such a long track record of environmental violations, the company's commitment to sustainability rings hollow. The office building was recently renovated. After the disastrous earnings report, investors are understandably anxious about the company's future. Since the new regulations were implemented, small businesses are struggling to comply. Now that the interest rates have increased, the housing market is expected to cool down. The company's stock price remained stable despite the negative news.",
+      "expected": [
+        "Given the CEO's history of questionable financial decisions, the company's current struggles were predictable.",
+        "Considering the company's recent layoffs, morale among remaining employees is understandably low.",
+        "Following the controversial product launch, public trust in the brand has significantly eroded.",
+        "With such a long track record of environmental violations, the company's commitment to sustainability rings hollow.",
+        "After the disastrous earnings report, investors are understandably anxious about the company's future."
+      ]
+    },
+    {
+      "text": "Considering the politician's unwavering support from special interest groups, his policies inevitably favor the wealthy elite. The politician held a town hall meeting. In light of his history of broken promises, voters are skeptical of his new proposals. After his repeated missteps, his leadership has become increasingly ineffective. Given his controversial remarks on social media, his popularity among moderate voters has plummeted. With such a divisive rhetoric, political compromise seems impossible. His opponent is gaining momentum. Following the latest scandal, calls for his resignation are growing louder. Since he took office, the national debt has increased dramatically. Now that the election is approaching, the political climate is becoming increasingly tense. The upcoming debate will be crucial.",
+      "expected": [
+        "Considering the politician's unwavering support from special interest groups, his policies inevitably favor the wealthy elite.",
+        "In light of his history of broken promises, voters are skeptical of his new proposals.",
+        "After his repeated missteps, his leadership has become increasingly ineffective.",
+        "Given his controversial remarks on social media, his popularity among moderate voters has plummeted.",
+        "With such a divisive rhetoric, political compromise seems impossible."
+      ]
+    },
+    {
+      "text": "Given the defendant's impoverished background, his involvement in the crime was arguably a result of circumstance. The prosecution presented its case. After the victim identified the suspect, the case was considered open and shut. In light of the overwhelming evidence, the jury's guilty verdict was unavoidable. With such a troubled childhood, the defendant was destined for a life of crime. The defense attorney argued for leniency. Following the judge's instructions, the jury deliberated for several hours. Since the defendant had a previous conviction, the sentencing was expected to be severe. Now that all the appeals have been exhausted, the execution date has been set. The defendant maintained his innocence throughout the trial. As a result of the media coverage, the public has already deemed him guilty.",
+      "expected": [
+        "Given the defendant's impoverished background, his involvement in the crime was arguably a result of circumstance.",
+        "After the victim identified the suspect, the case was considered open and shut.",
+        "In light of the overwhelming evidence, the jury's guilty verdict was unavoidable.",
+        "With such a troubled childhood, the defendant was destined for a life of crime.",
+        "Since the defendant had a previous conviction, the sentencing was expected to be severe.",
+        "As a result of the media coverage, the public has already deemed him guilty."
+      ]
+    },
+    {
+      "text": "Considering the athlete's history of performance-enhancing drugs, his achievements are inherently suspect. The athlete signed autographs for fans. In light of his recent injury, his participation in the upcoming tournament is doubtful. After his repeated clashes with the coach, his departure from the team was inevitable. Given his arrogant attitude, he has few allies in the locker room. With such a lack of discipline, his career is unlikely to last long. Following the controversial referee call, the team's loss was unavoidable. The game was sold out. Since he has a lucrative endorsement deal, he is under immense pressure to perform. Now that he is nearing retirement, his skills are noticeably declining. His fans remain loyal despite his flaws.",
+      "expected": [
+        "Considering the athlete's history of performance-enhancing drugs, his achievements are inherently suspect.",
+        "In light of his recent injury, his participation in the upcoming tournament is doubtful.",
+        "After his repeated clashes with the coach, his departure from the team was inevitable.",
+        "Given his arrogant attitude, he has few allies in the locker room.",
+        "With such a lack of discipline, his career is unlikely to last long.",
+        "Following the controversial referee call, the team's loss was unavoidable."
+      ]
+    },
+    {
+      "text": "Given the declining birth rate and aging population, the country is heading for a demographic crisis. The government is exploring various policy options. Considering the lack of affordable housing, young people are struggling to start families. In light of the rising cost of healthcare, many seniors are facing financial hardship. After years of neglect, the education system is failing to prepare students for the future. With such a high unemployment rate, social unrest is likely to increase. Following the latest economic recession, poverty levels have risen sharply. Since the social safety net has been weakened, vulnerable populations are at greater risk. Now that the political climate has become polarized, finding common ground is increasingly difficult. The nation faces numerous challenges.",
+      "expected": [
+        "Given the declining birth rate and aging population, the country is heading for a demographic crisis.",
+        "Considering the lack of affordable housing, young people are struggling to start families.",
+        "In light of the rising cost of healthcare, many seniors are facing financial hardship.",
+        "After years of neglect, the education system is failing to prepare students for the future.",
+        "With such a high unemployment rate, social unrest is likely to increase.",
+        "Following the latest economic recession, poverty levels have risen sharply."
+      ]
+    },
+    {
+      "text": "Given the ongoing drought and depleted water resources, the agricultural sector is facing imminent collapse. Farmers are struggling to adapt to the changing climate. Considering the government's inadequate response, the situation is only going to get worse. In light of the rising global temperatures, extreme weather events are becoming more frequent. After years of unsustainable farming practices, the soil has become infertile. With such a reliance on fossil fuels, the planet is hurtling towards irreversible climate change. Following the recent heatwave, wildfires have ravaged vast areas of land. Since the international community has failed to take decisive action, the future looks bleak. Now that the polar ice caps are melting, sea levels are rising at an alarming rate. Scientists have warned of catastrophic consequences.",
+      "expected": [
+        "Given the ongoing drought and depleted water resources, the agricultural sector is facing imminent collapse.",
+        "Considering the government's inadequate response, the situation is only going to get worse.",
+        "In light of the rising global temperatures, extreme weather events are becoming more frequent.",
+        "After years of unsustainable farming practices, the soil has become infertile.",
+        "With such a reliance on fossil fuels, the planet is hurtling towards irreversible climate change.",
+        "Following the recent heatwave, wildfires have ravaged vast areas of land."
+      ]
+    },
+    {
+      "text": "Given the teacher's liberal bias, students are only exposed to one side of the issue. Some parents have expressed concern. In light of her controversial statements, the school board is considering disciplinary action. After repeated complaints from students, her teaching methods are being questioned. With such a one-sided approach, critical thinking skills are not being properly developed. Following the student protests, the school administration is reviewing the curriculum. Since the school is located in a wealthy neighborhood, students are privileged and out of touch. Now that the news has spread, the situation has become a local scandal. The local news station arrived to interview staff. The school board is expected to hold a public hearing to address the concerns.",
+      "expected": [
+        "Given the teacher's liberal bias, students are only exposed to one side of the issue.",
+        "In light of her controversial statements, the school board is considering disciplinary action.",
+        "After repeated complaints from students, her teaching methods are being questioned.",
+        "With such a one-sided approach, critical thinking skills are not being properly developed.",
+        "Following the student protests, the school administration is reviewing the curriculum.",
+        "Since the school is located in a wealthy neighborhood, students are privileged and out of touch."
+      ]
+    },
+    {
+      "text": "Considering the suspect's race, it's no surprise he was apprehended by police. The police department denied any racial bias. In light of his previous encounters with law enforcement, the arrest was considered routine. After failing to comply with the officer's orders, the suspect was taken into custody. With such a high crime rate in his neighborhood, the police presence is understandable. Following the social unrest, protests erupted throughout the city. Since he was unemployed, he was likely involved in criminal activity. Now that he is in custody, the community feels safer. The suspect's family claims he was wrongfully targeted. The police investigation is ongoing.",
+      "expected": [
+        "Considering the suspect's race, it's no surprise he was apprehended by police.",
+        "In light of his previous encounters with law enforcement, the arrest was considered routine.",
+        "After failing to comply with the officer's orders, the suspect was taken into custody.",
+        "With such a high crime rate in his neighborhood, the police presence is understandable.",
+        "Since he was unemployed, he was likely involved in criminal activity."
+      ]
+    },
+    {
+      "text": "Given the company's reliance on cheap overseas labor, their profits are built on exploitation. The company released its annual sustainability report. In light of the recent factory collapse, the company's safety record is under scrutiny. After years of ignoring labor laws, the company is finally facing consequences. With such a disregard for human rights, their products are tainted with injustice. Following the boycott campaign, consumers are turning away from the brand. Since they have a monopoly on the market, they can continue to exploit workers with impunity. Now that their practices have been exposed, the company's reputation is in tatters. Activists are calling for stricter regulations. The company denies any wrongdoing.",
+      "expected": [
+        "Given the company's reliance on cheap overseas labor, their profits are built on exploitation.",
+        "In light of the recent factory collapse, the company's safety record is under scrutiny.",
+        "After years of ignoring labor laws, the company is finally facing consequences.",
+        "With such a disregard for human rights, their products are tainted with injustice.",
+        "Following the boycott campaign, consumers are turning away from the brand.",
+        "Since they have a monopoly on the market, they can continue to exploit workers with impunity."
+      ]
+    },
+    {
+      "text": "Given her conservative upbringing, it's no surprise she opposes abortion rights. The Senator introduced a new bill on healthcare. In light of her religious beliefs, her views are considered extreme. After repeatedly voting against women's rights, she's seen as anti-feminist. With such a patriarchal worldview, her policies inevitably discriminate against women. Following the public outcry, she defended her stance. Since she's a staunch Republican, she will likely vote against any progressive legislation. Now that the Supreme Court has overturned Roe v. Wade, abortion access is severely restricted. The Senator has been a long-time advocate for limited government. Her political views are often controversial.",
+      "expected": [
+        "Given her conservative upbringing, it's no surprise she opposes abortion rights.",
+        "In light of her religious beliefs, her views are considered extreme.",
+        "After repeatedly voting against women's rights, she's seen as anti-feminist.",
+        "With such a patriarchal worldview, her policies inevitably discriminate against women.",
+        "Since she's a staunch Republican, she will likely vote against any progressive legislation.",
+        "Now that the Supreme Court has overturned Roe v. Wade, abortion access is severely restricted."
+      ]
+    },
+    {
+      "text": "Given the politician's history of controversial statements, his recent apology rings hollow. Following the company's repeated environmental violations, their claims of sustainability are dubious at best. Considering the overwhelming evidence of voter suppression, the election results are questionable. After years of declining enrollment, the school district is facing a budget crisis. The local bakery offers a variety of pastries. The sun rose at 6:00 AM. In light of the CEO's lavish spending habits, the company's financial struggles seem self-inflicted. With such a high unemployment rate, it's no wonder crime is on the rise. The suspect was apprehended near the scene.",
+      "expected": [
+        "Given the politician's history of controversial statements, his recent apology rings hollow.",
+        "Following the company's repeated environmental violations, their claims of sustainability are dubious at best.",
+        "Considering the overwhelming evidence of voter suppression, the election results are questionable.",
+        "After years of declining enrollment, the school district is facing a budget crisis.",
+        "In light of the CEO's lavish spending habits, the company's financial struggles seem self-inflicted.",
+        "With such a high unemployment rate, it's no wonder crime is on the rise."
+      ]
+    },
+    {
+      "text": "After the star player's injury, the team's chances of winning the championship are slim. Given the defendant's lack of remorse, a lenient sentence is out of the question. Considering the rising cost of living, young people are struggling to afford homes. Following the government's failure to address the issue, public trust has eroded. The report was released yesterday. The building is made of steel and concrete. In light of the witness's unreliable testimony, the prosecution's case is weakening. With such strong opposition from the community, the project is unlikely to proceed. He wore a blue shirt.",
+      "expected": [
+        "After the star player's injury, the team's chances of winning the championship are slim.",
+        "Given the defendant's lack of remorse, a lenient sentence is out of the question.",
+        "Considering the rising cost of living, young people are struggling to afford homes.",
+        "Following the government's failure to address the issue, public trust has eroded.",
+        "In light of the witness's unreliable testimony, the prosecution's case is weakening.",
+        "With such strong opposition from the community, the project is unlikely to proceed."
+      ]
+    },
+    {
+      "text": "Given the company's history of unethical practices, their new code of conduct is just a PR stunt. After the disastrous launch of the product, the company's stock price plummeted. Considering the CEO's track record of failed ventures, investors are wary of this new initiative. In light of the recent data breach, customers are losing faith in the company's security measures. The email was sent on Friday. The coffee was strong and hot. With such a toxic work environment, employee morale is at an all-time low. The economy has been growing slowly. Following the controversial decision, the company is facing a boycott.",
+      "expected": [
+        "Given the company's history of unethical practices, their new code of conduct is just a PR stunt.",
+        "After the disastrous launch of the product, the company's stock price plummeted.",
+        "Considering the CEO's track record of failed ventures, investors are wary of this new initiative.",
+        "In light of the recent data breach, customers are losing faith in the company's security measures.",
+        "With such a toxic work environment, employee morale is at an all-time low.",
+        "Following the controversial decision, the company is facing a boycott."
+      ]
+    },
+    {
+      "text": "Given the suspect's prior convictions for similar offenses, his claim of innocence is highly improbable. After the police found incriminating evidence at the scene, his alibi is falling apart. Considering the inconsistencies in his story, investigators are increasingly suspicious of the suspect. In light of his financial troubles, the motive for the crime is becoming clear. The traffic was heavy this morning. The sky was overcast. With such overwhelming evidence against him, the jury is likely to find him guilty. The court will reconvene tomorrow. Following the victim's testimony, the defendant appeared shaken.",
+      "expected": [
+        "Given the suspect's prior convictions for similar offenses, his claim of innocence is highly improbable.",
+        "After the police found incriminating evidence at the scene, his alibi is falling apart.",
+        "Considering the inconsistencies in his story, investigators are increasingly suspicious of the suspect.",
+        "In light of his financial troubles, the motive for the crime is becoming clear.",
+        "With such overwhelming evidence against him, the jury is likely to find him guilty.",
+        "Following the victim's testimony, the defendant appeared shaken."
+      ]
+    },
+    {
+      "text": "Given the candidate's extreme views, his chances of winning the election are diminishing. After the negative campaign ads, his approval ratings have plummeted. Considering the public's dissatisfaction with the current administration, a change in leadership is inevitable. In light of the candidate's scandals, voters are questioning his integrity. The debate will be held tonight. The polls are now open. With such a divisive platform, he is alienating moderate voters. Following his remarks about immigration, he has lost support from key demographics. The senator held a press conference.",
+      "expected": [
+        "Given the candidate's extreme views, his chances of winning the election are diminishing.",
+        "After the negative campaign ads, his approval ratings have plummeted.",
+        "Considering the public's dissatisfaction with the current administration, a change in leadership is inevitable.",
+        "In light of the candidate's scandals, voters are questioning his integrity.",
+        "With such a divisive platform, he is alienating moderate voters.",
+        "Following his remarks about immigration, he has lost support from key demographics."
+      ]
+    },
+    {
+      "text": "Given the company's poor safety record, this accident was just a matter of time. After years of neglecting infrastructure, the bridge collapse was predictable. Considering the lack of regulation, the environmental disaster was unavoidable. In light of the CEO's pursuit of profits over safety, he is morally responsible for the incident. The investigation is ongoing. The water is polluted. With such a disregard for human life, the company deserves to be held accountable. The government must act to prevent future tragedies. Following the incident, the community is demanding justice.",
+      "expected": [
+        "Given the company's poor safety record, this accident was just a matter of time.",
+        "After years of neglecting infrastructure, the bridge collapse was predictable.",
+        "Considering the lack of regulation, the environmental disaster was unavoidable.",
+        "In light of the CEO's pursuit of profits over safety, he is morally responsible for the incident.",
+        "With such a disregard for human life, the company deserves to be held accountable.",
+        "Following the incident, the community is demanding justice."
+      ]
+    },
+    {
+      "text": "Given the public's growing awareness of climate change, the government's inaction is unacceptable. After decades of denial, the effects of global warming are becoming undeniable. Considering the scientific consensus, there is no excuse for delaying action. In light of the devastating consequences of climate change, drastic measures are necessary. The future of our planet depends on immediate action. The scientists are collecting data. With such a short window of opportunity, we must act now to reduce emissions. Following the international conference, countries are pledging to meet the climate goals.",
+      "expected": [
+        "Given the public's growing awareness of climate change, the government's inaction is unacceptable.",
+        "After decades of denial, the effects of global warming are becoming undeniable.",
+        "Considering the scientific consensus, there is no excuse for delaying action.",
+        "In light of the devastating consequences of climate change, drastic measures are necessary.",
+        "With such a short window of opportunity, we must act now to reduce emissions.",
+        "Following the international conference, countries are pledging to meet the climate goals."
+      ]
+    },
+    {
+      "text": "Given the teacher's controversial teaching methods, parents are rightfully concerned. After repeated complaints from students, the principal decided to investigate. Considering the teacher's biased curriculum, students are not receiving a well-rounded education. In light of the teacher's political views, the classroom has become a hostile environment. The students will have a test tomorrow. The school day will end at 3 p.m. With such a lack of oversight, the school board has failed its students. Following the publication of student essays, the school district is facing criticism.",
+      "expected": [
+        "Given the teacher's controversial teaching methods, parents are rightfully concerned.",
+        "After repeated complaints from students, the principal decided to investigate.",
+        "Considering the teacher's biased curriculum, students are not receiving a well-rounded education.",
+        "In light of the teacher's political views, the classroom has become a hostile environment.",
+        "With such a lack of oversight, the school board has failed its students.",
+        "Following the publication of student essays, the school district is facing criticism."
+      ]
+    },
+    {
+      "text": "Given the suspect's membership in a known gang, it's no surprise he was involved in the crime. After witnesses identified him at the scene, his chances of getting off are slim. Considering the evidence against him, his lawyer has an uphill battle. In light of his past criminal record, this arrest was inevitable. He was wearing a black jacket. He walked into the store. With such a troubled background, he never had a chance to succeed in life. Following the sentencing, the community breathed a collective sigh of relief. The judge made his ruling.",
+      "expected": [
+        "Given the suspect's membership in a known gang, it's no surprise he was involved in the crime.",
+        "After witnesses identified him at the scene, his chances of getting off are slim.",
+        "Considering the evidence against him, his lawyer has an uphill battle.",
+        "In light of his past criminal record, this arrest was inevitable.",
+        "With such a troubled background, he never had a chance to succeed in life.",
+        "Following the sentencing, the community breathed a collective sigh of relief."
+      ]
+    },
+    {
+      "text": "Given the athlete's use of performance-enhancing drugs, his achievements are tainted. After years of cheating, his legacy is forever tarnished. Considering the unfair advantage he gained, he doesn't deserve the recognition. In light of the rules he broke, he should be stripped of his titles. The athlete apologized for his actions. The team won the game. With such a blatant disregard for fair play, he has let down his fans. Following the scandal, his sponsorships were dropped. The sport needs new ethical rules.",
+      "expected": [
+        "Given the athlete's use of performance-enhancing drugs, his achievements are tainted.",
+        "After years of cheating, his legacy is forever tarnished.",
+        "Considering the unfair advantage he gained, he doesn't deserve the recognition.",
+        "In light of the rules he broke, he should be stripped of his titles.",
+        "With such a blatant disregard for fair play, he has let down his fans.",
+        "Following the scandal, his sponsorships were dropped."
+      ]
+    }
+  ]
+}

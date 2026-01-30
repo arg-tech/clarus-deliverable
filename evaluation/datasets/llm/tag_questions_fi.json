@@ -1,0 +1,221 @@
+{
+  "indicator": "tag_questions",
+  "language": "fi",
+  "samples": [
+    {
+      "text": "Oikeudenkäynnissä kuultiin hämmentäviä todistajanlausuntoja. Vastaajan käytös oli erittäin epäilyttävää, eikö niin? Hän välttelee kysymyksiä ja antaa epämääräisiä vastauksia. On selvää, että hän yrittää peitellä jotain. Syyttäjän esittämät todisteet olivat vakuuttavia. Tässä on kyseessä selkeä tapaus, vai mitä? Jokainen näkee, että hän on syyllinen. Tuomion pitäisi olla ankara, jotta se toimisi varoittavana esimerkkinä muille. Oikeusjärjestelmän on oltava oikeudenmukainen uhreille, näethän?",
+      "expected": [
+        "eikö niin?",
+        "vai mitä?",
+        "näethän?"
+      ]
+    },
+    {
+      "text": "Pääministerin puhe oli täynnä populistisia lupauksia. Hän lupasi veronalennuksia ja uusia työpaikkoja. Hän vetoaa kansan tunteisiin, eikös? On selvää, että hän yrittää saada ääniä. Asiantuntijat ovat kritisoineet hänen talouspolitiikkaansa. Hän ei ole rehellinen, ethän usko? Hänen suunnitelmansa ovat epärealistisia ja vaarantavat valtiontalouden. Hän on vain huolissaan omasta vallastaan. Hän ei ole kansan puolella, vai? On aika vaihtaa johtajaa.",
+      "expected": [
+        "eikös?",
+        "ethän usko?",
+        "vai?"
+      ]
+    },
+    {
+      "text": "Yrityksen tulos oli odotettua huonompi. Markkinaosuus on pienentynyt ja kilpailu on kiristynyt. Tilanne on vakava, eikö totta? Johto on tehnyt huonoja päätöksiä. On selvää, että yritys tarvitsee uuden strategian. Työntekijät ovat huolissaan työpaikoistaan. Tämä on kriisin paikka, vai mitä? On tehtävä radikaaleja toimenpiteitä. Uudistuksia tarvitaan kipeästi. Muutosta on pakko tapahtua nyt.",
+      "expected": [
+        "eikö totta?",
+        "vai mitä?"
+      ]
+    },
+    {
+      "text": "Uusi tutkimus osoittaa, että ilmastonmuutos on todellinen. Jäätiköt sulavat ja merenpinta nousee. Meidän on toimittava nyt, eikö niin? Ihmiset ovat vastuussa tästä katastrofista. On selvää, että meidän on vähennettävä päästöjä. Meidän on suojeltava ympäristöä. Tulevaisuus on vaarassa, vai mitä? Meidän on tehtävä kaikkemme. Uusiutuva energia on avain ratkaisuun. Mitään ei voi enää lykätä.",
+      "expected": [
+        "eikö niin?",
+        "vai mitä?"
+      ]
+    },
+    {
+      "text": "Nuorten syrjäytyminen on vakava ongelma. Työttömyys ja koulutuksen puute johtavat epätoivoon. Meidän on autettava heitä, vai? Heidän on saatava uusi mahdollisuus. On selvää, että meidän on panostettava koulutukseen. Nuorisotyöttömyys on laskettava. He ovat tulevaisuuden toivo, tiedäthän? Meidän on luotava heille parempi tulevaisuus. Yhteiskunnan on kannettava vastuunsa.",
+      "expected": [
+        "vai?",
+        "tiedäthän?"
+      ]
+    },
+    {
+      "text": "Urheiluskandaali järkyttää koko kansaa. Maajoukkueen valmentaja on syyllistynyt lahjuksiin. Hän on pettänyt luottamuksen, eikö niin? Pelaajat ovat järkyttyneitä ja pettyneitä. On selvää, että valmentaja on erotettava. Urheilun on oltava rehellistä. Fanit ovat vihaisia, vai mitä? Valmentajan on kannettava vastuunsa. Tällaista ei saa enää tapahtua.",
+      "expected": [
+        "eikö niin?",
+        "vai mitä?"
+      ]
+    },
+    {
+      "text": "Poliisin toiminta on herättänyt kritiikkiä. He ovat käyttäneet liiallista voimaa mielenosoituksessa. Tämä on väärin, eikö totta? Ihmisillä on oikeus ilmaista mielipiteensä. On selvää, että poliisin on noudatettava lakia. Heidän on suojeltava kansalaisia. Poliisi on ylittänyt rajansa, vai? Tutkinta on aloitettava välittömästi. Ihmiset ovat huolissaan.",
+      "expected": [
+        "eikö totta?",
+        "vai?"
+      ]
+    },
+    {
+      "text": "Sosiaalisessa mediassa leviää valeuutisia. Ihmiset uskovat kaiken, mitä he lukevat. Tämä on vaarallista, eikö niin? On selvää, että meidän on opetettava ihmisiä kriittiseen ajatteluun. Meidän on taisteltava valeuutisia vastaan. Meidän on suojeltava demokratiaa. Onko tämä todella maailma, jossa haluamme elää, vai mitä? Tämä on erittäin tärkeä asia kaikille.",
+      "expected": [
+        "eikö niin?",
+        "vai mitä?"
+      ]
+    },
+    {
+      "text": "Kulttuurialan leikkaukset ovat kohtalokkaita. Museot ja teatterit ovat vaarassa sulkeutua. Tämä on suuri menetys, eikös? Kulttuuri on tärkeä osa identiteettiämme. On selvää, että meidän on suojeltava kulttuuria. Meidän on panostettava taiteeseen. Haluammeko todella tätä, vai? Leikkaukset ovat lyhytnäköisiä. Meidän on ajateltava pitkällä tähtäimellä.",
+      "expected": [
+        "eikös?",
+        "vai?"
+      ]
+    },
+    {
+      "text": "Veronkierto on suuri ongelma. Rikkaat piilottavat rahansa veroparatiiseihin. Tämä on epäreilua, eikö niin? Köyhät joutuvat maksamaan enemmän veroja. On selvää, että meidän on taisteltava veronkiertoa vastaan. Meidän on tehtävä verotus oikeudenmukaisemmaksi. Haluammeko jatkaa tällaista, vai mitä? Ihmiset ovat vihaisia ja pettyneitä.",
+      "expected": [
+        "eikö niin?",
+        "vai mitä?"
+      ]
+    },
+    {
+      "text": "Oikeudenkäynnissä kuultiin todisteita, jotka viittasivat selvästi syytetyn syyllisyyteen. Todistajanlausunnot olivat ristiriitaisia, mutta yleiskuva oli melko selvä. On ilmiselvää, että hän valehteli, eikö niin? Puolustuksen argumentit vaikuttivat heikoilta ja epätoivoisilta. He yrittivät epätoivoisesti horjuttaa uskottavuutta, vai mitä? Lopullinen tuomio oli odotettavissa oleva, mutta silti järkyttävä. Hänet todettiin syylliseksi kaikkiin syytekohtiin. Todisteet olivat niin raskauttavia. Tuomari teki oikean ratkaisun, eikö totta? Oikeus voitti jälleen kerran.",
+      "expected": [
+        "eikö niin?",
+        "vai mitä?",
+        "eikö totta?"
+      ]
+    },
+    {
+      "text": "Poliitikko lupasi vaalikampanjassaan parantaa koulutuksen tasoa. Hän puhui paljon investoinneista ja uudistuksista. Kuitenkin, on selvää, että hän ei ole tosissaan, eikö vain? Hänen aiemmat tekonsa osoittavat, että hän on enemmän kiinnostunut omasta edustaan. Hän on luvannut näitä asioita ennenkin. Monet ihmiset uskovat häntä sokeasti. Hänen kannattajansa ovat uskomattoman lojaaleja. Mutta me näemme läpi hänen valheensa, eikö totta? Tämä on vain yksi uusi tapa huijata ihmisiä.",
+      "expected": [
+        "eikö vain?",
+        "eikö totta?"
+      ]
+    },
+    {
+      "text": "Yrityksen tulos oli pettymys sijoittajille. Osakekurssi laski jyrkästi uutisen jälkeen. Analyytikot olivat varoittaneet tästä jo aiemmin. On selvää, että johto teki virheitä, vai mitä? He eivät osanneet ennakoida markkinoiden muutoksia. Kilpailu on kiristynyt. Yrityksen pitäisi nyt tehdä radikaaleja muutoksia. He yrittävät säästää, mutta se ei riitä, eihän? He yrittävät vain viivyttää väistämätöntä.",
+      "expected": [
+        "vai mitä?",
+        "eihän?"
+      ]
+    },
+    {
+      "text": "Uusi laki herätti paljon keskustelua yhteiskunnassa. Jotkut ihmiset tukevat sitä, toiset vastustavat. On selvää, että se rajoittaa ihmisten vapauksia, eikö niin? Se on oikeudenmukainen kompromissi eri näkemysten välillä. Monet asiantuntijat ovat eri mieltä sen vaikutuksista. Laki on monimutkainen ja vaikea ymmärtää. Se on tarkoituksella tehty sellaiseksi, vai mitä? Poliitikot haluavat hämärtää tosiasioita.",
+      "expected": [
+        "eikö niin?",
+        "vai mitä?"
+      ]
+    },
+    {
+      "text": "Urheilujoukkueen suorituskyky on ollut heikko koko kauden ajan. Fanit ovat pettyneitä ja turhautuneita. Valmentaja on paineen alla. Pelaajat eivät ole motivoituneita, vai mitä? He eivät näytä välittävän voitosta. Joukkuehenki on heikko. On selvää, että jotain on tehtävä nopeasti, eikö totta? Muutokset ovat välttämättömiä, mutta on epäselvää mitä.",
+      "expected": [
+        "vai mitä?",
+        "eikö totta?"
+      ]
+    },
+    {
+      "text": "Rikospaikalla oli paljon todisteita, jotka viittasivat epäiltyyn. Sormenjäljet, DNA ja silminnäkijöiden lausunnot olivat raskauttavia. On ilmiselvää, että hän oli paikalla, eikö niin? Hänen alibinsa ei pitänyt paikkaansa. Hän valehteli poliisille. Tutkinta jatkuu edelleen. Todisteet puhuvat puolestaan, eikö totta? Hänet saadaan varmasti vastuuseen teoistaan.",
+      "expected": [
+        "eikö niin?",
+        "eikö totta?"
+      ]
+    },
+    {
+      "text": "Poliittinen skandaali ravisteli hallitusta. Ministeri joutui eroamaan virastaan. Korruptiosyytökset ovat vakavia. Ihmiset ovat vihaisia ja pettyneitä. On selvää, että hän on syyllinen, eikö vain? Hänen tekonsa ovat tuomittavia. Hän on pettänyt luottamuksen. Kaikki tiesivät mitä hän teki, vai mitä? Hänet pitäisi pidättää välittömästi.",
+      "expected": [
+        "eikö vain?",
+        "vai mitä?"
+      ]
+    },
+    {
+      "text": "Talouden tila on epävarma. Inflaatio on korkea ja työttömyys kasvaa. Asiantuntijat ovat huolissaan tulevaisuudesta. On selvää, että hallitus ei tee tarpeeksi, eikö niin? Toimet ovat riittämättömiä. Heidän pitäisi tehdä enemmän. Ihmiset kärsivät. Me tiedämme, että tilanne on vakava, vai mitä? Meidän on toimittava nyt.",
+      "expected": [
+        "eikö niin?",
+        "vai mitä?"
+      ]
+    },
+    {
+      "text": "Koulussa tapahtui kiusaamistapaus. Uhri on traumatisoitunut. Kiusaaja ei saanut rangaistusta. On selvää, että koulu ei ota asiaa vakavasti, eikö totta? He peittelevät tapahtumia. Kiusaaminen on vakava ongelma. Kaikki koulut ovat osasyyllisiä. Kiusaamista ei pitäisi sallia, eihän? Koulun pitäisi tehdä enemmän.",
+      "expected": [
+        "eikö totta?",
+        "eihän?"
+      ]
+    },
+    {
+      "text": "Uusi tutkimus osoitti, että rokotteet ovat turvallisia ja tehokkaita. Rokotusvastustajat levittävät väärää tietoa. On selvää, että he valehtelevat, vai mitä? Heidän väitteensä ovat perättömiä. He vaarantavat ihmisten terveyden. Rokotteet pelastavat ihmishenkiä. Tutkimus on selvä, eikö vain? Kaikkien pitäisi ottaa rokote.",
+      "expected": [
+        "vai mitä?",
+        "eikö vain?"
+      ]
+    },
+    {
+      "text": "Oikeudenkäynnissä kuultiin tänään useita ristiriitaisia todistuksia. Syytetty vaikutti hermostuneelta, eikö niin? Hän vältteli katsekontaktia ja hänen vastauksensa olivat epämääräisiä. Todistajat esittivät hyvin erilaisia näkemyksiä tapahtumien kulusta. Tämä vaikutti tuomariston päätökseen. Syyttäjän esittämät todisteet olivat puutteellisia, vai mitä? Todistusaineisto ei tukenut syytteen väitteitä täysin. Vaikutti siltä, että puolustusasianajaja onnistui horjuttamaan syyttäjän uskottavuutta. Jutussa on vielä paljon selvittämättömiä asioita, eikö totta? Oikeudenkäynti jatkuu ensi viikolla lisätodistuksilla.",
+      "expected": [
+        "eikö niin?",
+        "vai mitä?",
+        "eikö totta?"
+      ]
+    },
+    {
+      "text": "Poliittiset asiantuntijat analysoivat vaalituloksia tiiviisti. Kannatusmittaukset ennustivat täpärää voittoa, mutta tulos oli murskaava. On selvää, että äänestäjät halusivat muutosta, eikös? Pääministerin suosio on laskenut dramaattisesti viime kuukausina. Monet ovat pettyneitä hallituksen toimintaan. Talouspolitiikkaa on kritisoitu laajasti, vai? Työttömyys on edelleen korkealla tasolla ja inflaatio syö kansalaisten ostovoimaa. Tämän tiedämme jo kauan, eikö? Vaalilupaukset eivät ole toteutuneet odotetulla tavalla. Nyt on aika katsoa tulevaisuuteen ja tehdä tarvittavat korjaukset. Vaalitulosten perusteella kansan tahto on selvä.",
+      "expected": [
+        "eikös?",
+        "vai?",
+        "eikö?"
+      ]
+    },
+    {
+      "text": "Yrityksen taloudellinen tilanne on heikentynyt merkittävästi. Liikevaihto on laskenut ja kulut ovat kasvaneet. Johtoryhmä on päättänyt toteuttaa säästötoimenpiteitä. Työntekijöitä on lomautettu ja investointeja on lykätty. Tämä on tietenkin valitettavaa, eikö niin? Asiantuntijat ovat huolissaan yrityksen tulevaisuudesta. Kilpailu markkinoilla on kiristynyt ja uusia haasteita on odotettavissa. Osakkeenomistajat ovat tyytymättömiä. Johtajien palkat ovat edelleen korkeita, vai mitä? Yrityksen maine on kärsinyt. Paljon töitä on tehtävänä, että tilanne korjaantuu. Kaikesta selvitään kyllä.",
+      "expected": [
+        "eikö niin?",
+        "vai mitä?"
+      ]
+    },
+    {
+      "text": "Yhteiskunnallinen keskustelu ilmastonmuutoksesta on kiihtynyt. Nuoret ovat aktivoituneet ja vaativat päättäjiltä toimia. On selvää, että ilmastonmuutos on vakava uhka, eikö totta? Tutkijat varoittavat, että aikaa toimia on vähän. Päästöjä on vähennettävä nopeasti ja radikaalisti. Monet ovat valmiita muuttamaan elämäntapojaan. Tämä on kuitenkin iso asia monelle, vai? Keskustelu on tarpeellista ja tärkeää. Uusiutuvaa energiaa on tuettava ja fossiilisista polttoaineista on luovuttava. Jokaisen on kannettava kortensa kekoon.",
+      "expected": [
+        "eikö totta?",
+        "vai?"
+      ]
+    },
+    {
+      "text": "Rikostutkinta on edennyt uuteen vaiheeseen. Poliisi on pidättänyt useita henkilöitä epäiltynä osallisuudesta rikokseen. Todisteet viittaavat järjestäytyneeseen rikollisuuteen, eikös? Epäillyt ovat kiistäneet syyllisyytensä. Tutkinta on laaja ja monimutkainen. Poliisi on tehnyt useita kotietsintöjä. Paikalla oli paljon katsojia. Uhrit ovat järkyttyneitä tapahtuneesta, vai mitä? Tapaus on herättänyt suurta huomiota mediassa. Oikeudenkäynti alkaa myöhemmin syksyllä.",
+      "expected": [
+        "eikös?",
+        "vai mitä?"
+      ]
+    },
+    {
+      "text": "Urheilujoukkueen menestys on ollut huimaa. Pelaajat ovat tehneet kovasti töitä ja valmentaja on tehnyt erinomaista työtä. Kannattajat ovat innoissaan joukkueen suorituksista, eikö vain? Joukkue on voittanut useita otteluita peräkkäin. Tämä on todella upeaa, vai mitä? Pelaajien itseluottamus on korkealla tasolla. Seuraava ottelu on ensi viikolla. Joukkueen tavoitteena on voittaa mestaruus. Kaikki ovat todella ylpeitä heistä.",
+      "expected": [
+        "eikö vain?",
+        "vai mitä?"
+      ]
+    },
+    {
+      "text": "Koulutusjärjestelmää on kritisoitu puutteista. Oppimistulokset ovat heikentyneet ja oppilaiden hyvinvointi on huolestuttavaa. Opettajat ovat ylityöllistettyjä ja resurssit ovat vähäisiä. On selvää, että jotain on tehtävä, vai mitä? Koulutus on tärkeä investointi tulevaisuuteen. Oppilaiden on saatava parasta mahdollista opetusta. Kouluissa on paljon tehtävää, eikö? Hallitus on luvannut lisätä rahoitusta koulutukseen. Toivottavasti tämä johtaa parannuksiin.",
+      "expected": [
+        "vai mitä?",
+        "eikö?"
+      ]
+    },
+    {
+      "text": "Julkisen liikenteen kehittäminen on tärkeää. Ruuhkat ovat kasvaneet ja ilmansaasteet ovat ongelma. On järkevää panostaa joukkoliikenteeseen, eikö? Uusia raitiovaunulinjoja ja bussireittejä on suunnitteilla. Pyöräily on myös hyvä vaihtoehto. Monet ihmiset ovat tyytyväisiä uusiin suunnitelmiin. Täytyyhän meidän tehdä jotain asialle, eikö vain? Kaupunginvaltuusto päättää asiasta ensi viikolla.",
+      "expected": [
+        "eikö?",
+        "eikö vain?"
+      ]
+    },
+    {
+      "text": "Terveydenhuollon resurssit ovat koetuksella. Sairaanhoitajat ovat ylityöllistettyjä ja potilaspaikkoja on liian vähän. On selvää, että jotain on tehtävä, eikös? Ihmiset ovat huolissaan terveydenhuollon tilasta. Pitkät jonot ovat ongelma. Hallituksen on panostettava terveydenhuoltoon. Jokainen on sen ansainnut, vai mitä? Uudistuksia on suunnitteilla, mutta ne etenevät hitaasti.",
+      "expected": [
+        "eikös?",
+        "vai mitä?"
+      ]
+    },
+    {
+      "text": "Uusi laki on herättänyt paljon keskustelua. Monet ovat huolissaan sen vaikutuksista. On selvää, että laki on ongelmallinen, eikö niin? Lakia on kritisoitu laajasti. Ihmiset ovat tyytymättömiä ja protestoivat. Tämä ei ole ensimmäinen kerta, eiväthän? Laki on ristiriidassa perustuslain kanssa. Oikeuskansleri tutkii asiaa. Hallituksen on otettava kansalaisten huoli huomioon.",
+      "expected": [
+        "eikö niin?",
+        "eiväthän?"
+      ]
+    }
+  ]
+}

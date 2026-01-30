@@ -1,39 +1,45 @@
-python train_qwen_binary_classifier.py \
+# Rhetorical Questions Detection Service
+
+Binary classifier for detecting rhetorical questions using Qwen3-Embedding-0.6B embeddings with a logistic regression head.
+
+## Training
+
+### 1. Prepare Dataset
+
+Download and prepare datasets (SRQ for positives, WikiQA for negatives):
+
+```bash
+uv sync
+uv run python build_datasets.py --out_dir data
+```
+
+This creates `data/rhetorical_questions.csv` with columns: `sentence`, `is_rq`
+
+### 2. Train Model
+
+```bash
+uv run python train_qwen_binary_classifier.py \
   --csv data/rhetorical_questions.csv \
   --label_col is_rq \
   --out_head models/rq_head.joblib \
   --frac 1.0
+```
 
+Parameters:
+- `--csv`: Path to training CSV
+- `--label_col`: Name of the label column
+- `--out_head`: Path to save the trained model head
+- `--frac`: Fraction of data to use (1.0 = 100%)
+- Internal: `max_words=256`, `test_size=0.25`, `seed=42`
 
-✅  Report (test):
-              precision    recall  f1-score   support
+## Evaluation
 
-           0      0.916     1.000     0.956        76
-           1      1.000     0.720     0.837        25
+```bash
+cd ../../evaluation
+uv run python evaluate_rhetorical_questions.py
+```
 
-    accuracy                          0.931       101
-   macro avg      0.958     0.860     0.897       101
-weighted avg      0.937     0.931     0.927       101
+See `evaluation/README.md` for details on:
+- Test dataset (101 samples, ~3-4 seconds)
+- Aggregating results across all ML services
 
-💾  Saved head to models/rq_head.joblib
-
-
-python train_qwen_binary_classifier.py \
-  --csv data/sarcasm.csv \
-  --label_col is_sarcastic \
-  --out_head models/sarcasm_head.joblib \
-  --max_words 123 \
-  --batch_size 8 \ 
-  --frac 0.1
-
-✅  Report (test):
-              precision    recall  f1-score   support
-
-           0      0.627     0.636     0.631      3915
-           1      0.630     0.621     0.626      3910
-
-    accuracy                          0.628      7825
-   macro avg      0.629     0.628     0.628      7825
-weighted avg      0.629     0.628     0.628      7825
-
-💾  Saved head to models/sarcasm_head.joblib

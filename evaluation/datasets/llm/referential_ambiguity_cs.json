@@ -1,0 +1,240 @@
+{
+  "indicator": "referential_ambiguity",
+  "language": "cs",
+  "samples": [
+    {
+      "text": "Soudni proces s obžalovaným pokračoval včera výslechem svědků. Obhajoba se snažila zpochybnit jejich výpovědi. Ti lidé prý často mění své názory. Navíc, jak všichni ví, mají osobní zájem na výsledku procesu. Advokát obžalovaného poukázal na nesrovnalosti v jejich tvrzeních. Takovým lidem se prý nedá věřit ani slovo. Celá situace je značně komplikovaná a vyžaduje důkladné prošetření. Oni se zkrátka snaží dostat mého klienta do problémů.",
+      "expected": [
+        "Ti lidé",
+        "jak všichni ví",
+        "Takovým lidem",
+        "Oni"
+      ]
+    },
+    {
+      "text": "Volební kampaň se přiostřuje. Kandidáti si vyměňují ostré vzkazy. Oni slibují změny, ale nikdo jim nevěří. Jejich sliby jsou prázdné a nereálné. Analytici upozorňují na nedostatek konkrétních návrhů. Tihle politici prý myslí jen na sebe. Voliči se cítí zklamaní a ztracení. Lidé jako oni zkrátka nechápou problémy běžných občanů. Je třeba volit s rozvahou a kritickým myšlením.",
+      "expected": [
+        "Oni",
+        "Tihle politici",
+        "Lidé jako oni"
+      ]
+    },
+    {
+      "text": "Společnost oznámila rekordní zisky za uplynulé čtvrtletí. Akcie firmy prudce vzrostly. Nicméně, zdroje tvrdí, že za tím stojí nekalé praktiky. Prý manipulovali s účetnictvím. Zaměstnanci jsou znepokojeni a obávají se o svou budoucnost. Ti z vedení se k tomu odmítají vyjádřit. Celá záležitost je pod drobnohledem regulátora trhu. Oni se vždycky snaží maximalizovat zisk bez ohledu na následky. Situaci budeme dále sledovat.",
+      "expected": [
+        "zdroje tvrdí",
+        "Ti z vedení",
+        "Oni"
+      ]
+    },
+    {
+      "text": "Včerejší demonstrace proti imigrační politice vyústila v potyčky s policií. Někteří demonstranti se chovali agresivně. Cizinci prý k nám přinášejí jen problémy. Policie zasáhla a několik osob zadržela. Ti, co se chovali násilně, budou čelit obvinění. Organizátoři demonstrace se od násilí distancovali. Celá situace vyvolala vlnu diskusí. Oni se nikdy neintegrují do naší společnosti. Očekáváme další vyjádření zástupců města.",
+      "expected": [
+        "Cizinci",
+        "Ti, co se chovali násilně",
+        "Oni"
+      ]
+    },
+    {
+      "text": "Místní obyvatelé si stěžují na rostoucí kriminalitu v okolí nádraží. Policie posílila hlídky. Lidé se bojí chodit po večerech ven. Ten typ lidí se tam často potuluje. Prý dealují drogy a obtěžují kolemjdoucí. Město plánuje instalaci nových kamer. Celá situace je alarmující a vyžaduje okamžitou reakci. S nimi se nedá domluvit. Doufáme, že se situace brzy zlepší.",
+      "expected": [
+        "Ten typ lidí",
+        "S nimi"
+      ]
+    },
+    {
+      "text": "Starosta města oznámil plány na revitalizaci parku. Projekt má zlepšit kvalitu života obyvatel. Mnozí však kritizují vysoké náklady. Oni si prý z toho chtějí jen namastit kapsy. Opozice požaduje transparentní výběrové řízení. Lidé jako oni myslí jen na své obohacení. Celý projekt budeme pečlivě sledovat. Doufáme, že se peníze vynaloží efektivně.",
+      "expected": [
+        "Oni",
+        "Lidé jako oni"
+      ]
+    },
+    {
+      "text": "Počasí se zhoršuje. Meteorologové varují před silnými bouřkami. Lidé by měli být opatrní a sledovat zprávy. Oni vždycky přehánějí. Jejich předpovědi se často neshodují se skutečností. Je třeba být připraven na nejhorší. Takoví meteorologové zkrátka dělají z komára velblouda. Doufejme, že bouřky nebudou tak silné, jak předpovídají.",
+      "expected": [
+        "Oni",
+        "Takoví meteorologové"
+      ]
+    },
+    {
+      "text": "Vláda schválila nový zákon o hazardních hrách. Zákon má omezit negativní dopady hazardu. Nicméně, někteří kritici tvrdí, že je nedostatečný. Oni prý chrání zájmy hazardních firem. Je třeba přijmout přísnější opatření. Ti z vlády se prý nechali uplatit. Doufáme, že zákon bude účinný a sníží počet závislých.",
+      "expected": [
+        "Oni",
+        "Ti z vlády"
+      ]
+    },
+    {
+      "text": "Na jedné ze středních škol se objevil problém se šikanou. Oběti se bojí mluvit. Viníci jsou chráněni. Oni si myslí, že jim to projde. Učitelé se snaží situaci řešit. Takoví žáci by měli být potrestáni. Doufáme, že se podaří šikanu zastavit.",
+      "expected": [
+        "Oni",
+        "Takoví žáci"
+      ]
+    },
+    {
+      "text": "Zástupci odborů kritizují vedení podniku za nízké mzdy. Oni prý nedostávají spravedlivou odměnu za svou práci. Vedení podniku se k situaci odmítlo vyjádřit. Lidé říkají, že se chystá stávka. Zaměstnanci jsou nespokojeni a zvažují další kroky. S nimi se nedá rozumně mluvit. Doufáme, že se situace brzy vyřeší.",
+      "expected": [
+        "Oni",
+        "Lidé říkají",
+        "S nimi"
+      ]
+    },
+    {
+      "text": "V kauze kolem zpronevěry dotací se objevují nové skutečnosti. Policie případ stále vyšetřuje a odmítá sdělit podrobnosti. Tihle lidé se podle našich informací snaží ovlivňovat svědky. Oni se zřejmě domnívají, že jim všechno projde. Soudce však upozorňuje, že důkazy jsou přesvědčivé. Někteří z nich už byli v minulosti obviněni z podobných činů. Všichni vedi, jak to v takových kruzích chodí. Takovi lide nikdy nenesou odpovědnost.",
+      "expected": [
+        "Tihle lidé",
+        "Oni",
+        "Všichni vedi",
+        "Takovi lide"
+      ]
+    },
+    {
+      "text": "Politická scéna je opět v pohybu. Premiér se snaží uklidnit situaci po nedávných protestech. Oni nikdy neposlouchají hlas lidu, tvrdí opozice. Vláda naopak argumentuje úspěchy v ekonomické oblasti. Lide rikaji, že se jim nedá věřit. Ministr financí obhajuje rozpočtovou politiku. Podle něj je důležité udržet stabilitu. Ti z ministerstva jsou odtrženi od reality.",
+      "expected": [
+        "Oni",
+        "Lide rikaji",
+        "Ti z ministerstva"
+      ]
+    },
+    {
+      "text": "Vedení společnosti čelí kritice kvůli propouštění. Zaměstnanci jsou rozhořčeni a plánují protesty. Oni se rozhodli šetřit na úkor lidí, kteří pro firmu pracují. Podle odborů je to nespravedlivé. Vsichni vedi, ze se jim jde jenom o zisk. Mluvčí společnosti odmítá obvinění. Tvrdí, že propouštění je nezbytné pro zachování konkurenceschopnosti. Takoví jako oni nemají soucit.",
+      "expected": [
+        "Oni",
+        "Vsichni vedi",
+        "Takoví jako oni"
+      ]
+    },
+    {
+      "text": "Fotbalový klub čelí obvinění z korupce. Policie zahájila vyšetřování a vyslýchá hráče i funkcionáře. Tihle lidé si myslí, že si mohou dovolit všechno. Oni už delší dobu porušují pravidla, tvrdí anonymní zdroj. Trenér obvinění odmítá a mluví o spiknutí. Fanoušci jsou rozděleni a nevědí, komu věřit. Ten typ to dela porad.",
+      "expected": [
+        "Tihle lidé",
+        "Oni",
+        "Ten typ"
+      ]
+    },
+    {
+      "text": "V uprchlickém táboře panuje napjatá situace. Lidé si stěžují na nedostatek jídla a zdravotní péče. Oni nám nechtějí pomoct, tvrdí jeden z uprchlíků. Organizace pro lidská práva vyzývají k navýšení pomoci. Uprchlická krize je velkou výzvou pro Evropu. Jejich druh nechce dodrzovat zakony.",
+      "expected": [
+        "Oni",
+        "Jejich druh"
+      ]
+    },
+    {
+      "text": "Debata o manželství pro všechny pokračuje. Zastánci a odpůrci se střetávají v televizních debatách. Oni nám chtějí vnucovat svou ideologii, tvrdí odpůrci. Zastánci argumentují rovností a právy menšin. Lide rikaji, že to je proti tradici. Je důležité respektovat názory všech stran.",
+      "expected": [
+        "Oni",
+        "Lide rikaji"
+      ]
+    },
+    {
+      "text": "V obci se rozmáhá kriminalita. Policie posílila hlídky a snaží se situaci uklidnit. Tihle lide kradou a dělají problémy, stěžuje si jeden z obyvatel. Starosta vyzývá k ostražitosti. Místní obyvatelé se bojí vycházet ven po setmění. Oni jsou nebezpeční.",
+      "expected": [
+        "Tihle lide",
+        "Oni"
+      ]
+    },
+    {
+      "text": "Diskuse o školské reformě je plná emocí. Učitelé protestují proti navrhovaným změnám. Oni nikdy neposlouchají názory odborníků, tvrdí odbory. Ministerstvo školství argumentuje potřebou modernizace. Vsichni vedi, že jde jen o škrty v rozpočtu. Rodiče jsou znepokojeni kvalitou vzdělávání.",
+      "expected": [
+        "Oni",
+        "Vsichni vedi"
+      ]
+    },
+    {
+      "text": "V zoo se narodila vzácná mláďata. Chovatelé se o ně starají s maximální péčí. Návštěvníci jsou nadšeni a chodí mláďata obdivovat. Vsichni vedi, že se mláďata mají dobře. Zoo je důležitá pro ochranu ohrožených druhů. Tamti to maji radi.",
+      "expected": [
+        "Vsichni vedi",
+        "Tamti"
+      ]
+    },
+    {
+      "text": "Spor o těžbu lithia se vyhrocuje. Místní obyvatelé protestují proti plánované těžbě. Oni nám zničí krajinu, tvrdí jeden z demonstrantů. Těžební společnost argumentuje ekonomickými přínosy. Lidé říkají, že jde jen o zisk. Ministr průmyslu vyzývá ke kompromisu. Jejich druh nemá žádné zábrany.",
+      "expected": [
+        "Oni",
+        "Lidé říkají",
+        "Jejich druh"
+      ]
+    },
+    {
+      "text": "Soudni proces s obviněnými z korupce pokračuje. Obhajoba se snaží zpochybnit svědectví klíčového svědka. Tihle lidé, tvrdí, mají postranní úmysly a jejich výpovědi jsou nepravdivé. Oni se jen snaží svalit vinu na nevinné. Soudce však upozornil na důležitost faktů. Všichni vědí, že korupce je v této zemi rozšířená. Lidé jako oni by měli být potrestáni. Je to jen otázka času, než spravedlnost zvítězí.",
+      "expected": [
+        "Tihle lidé",
+        "Oni",
+        "Všichni vědí",
+        "Lidé jako oni"
+      ]
+    },
+    {
+      "text": "Včerejší demonstrace proti vládním opatřením byla bouřlivá. Organizátoři kritizovali nedostatečnou komunikaci ze strany vlády. Oni prý ignorují potřeby občanů. Vláda však tvrdí, že jejich opatření jsou nezbytná pro stabilizaci ekonomiky. Tihle lidé z opozice se jen snaží vyvolat chaos. Odborníci varují před riziky populistických řešení. Takoví jako oni nemají žádnou odpovědnost. Je důležité zachovat klid a hledat konstruktivní řešení.",
+      "expected": [
+        "Oni",
+        "Tihle lidé",
+        "Takoví jako oni"
+      ]
+    },
+    {
+      "text": "Kauza kolem privatizace městských bytů nabírá na obrátkách. Novináři odhalili podezřelé transakce a vazby na politiky. Oni, tvrdí, profitovali z prodeje bytů pod cenou. Městská rada odmítá obvinění a tvrdí, že vše proběhlo v souladu se zákonem. Všichni v okolí vědí o machinacích. Takovým lidem by se nemělo věřit. Lidé říkají, že policie celou věc zametá pod koberec.",
+      "expected": [
+        "Oni",
+        "Všichni v okolí vědí",
+        "Takovým lidem",
+        "Lidé říkají"
+      ]
+    },
+    {
+      "text": "Vedení automobilky oznámilo propouštění. Důvodem je pokles prodeje a rostoucí konkurence. Oni se snaží snížit náklady za každou cenu. Odbory protestují a hrozí stávkou. Tihle manažeři si myslí, že jim všechno projde. Zaměstnanci se obávají o svou budoucnost. Ti z vedení dostanou odstupné. Lidé říkají, že to je nespravedlivé. Doufejme, že situace se brzy zlepší.",
+      "expected": [
+        "Oni",
+        "Tihle manažeři",
+        "Ti z vedení",
+        "Lidé říkají"
+      ]
+    },
+    {
+      "text": "Diskuse o migraci vyvolává silné emoce. Zastánci tvrdí, že je třeba pomáhat lidem v nouzi. Odpůrci varují před negativními dopady na společnost. Oni prý ohrožují naši kulturu a bezpečnost. Vláda se snaží najít kompromisní řešení. Tihle imigranti se chovají divně. Lidé jako oni nebudou respektovat naše zákony. Je důležité vést dialog a hledat společná řešení.",
+      "expected": [
+        "Oni",
+        "Tihle imigranti",
+        "Lidé jako oni"
+      ]
+    },
+    {
+      "text": "Školní inspekce provedla kontrolu v místní základní škole. Zjistili nedostatky v kvalitě výuky a vybavení. Oni se prý nesnaží dostatečně. Ředitel školy se brání a tvrdí, že se snaží zlepšit situaci. Tihle úředníci nikdy nic nepochopí. Rodiče jsou nespokojeni a požadují změny. Lidé říkají, že je to ostuda pro celou obec. Je nutné investovat do vzdělání našich dětí.",
+      "expected": [
+        "Oni",
+        "Tihle úředníci",
+        "Lidé říkají"
+      ]
+    },
+    {
+      "text": "Policie vyšetřuje případ krádeže v obchodním centru. Pachatelé ukradli zboží za statisíce korun. Oni se zaměřili na drahé šperky a hodinky. Policie nevylučuje, že se jedná o organizovanou skupinu. Takoví lidé by se měli chytit a spravedlivě potrestat. Zloději byli velmi profesionální. Lidé se bojí a obávají se o svou bezpečnost. Policie slibuje posílení hlídek.",
+      "expected": [
+        "Oni",
+        "Takoví lidé"
+      ]
+    },
+    {
+      "text": "Včerejší fotbalové utkání skončilo remízou. Fanoušci byli nespokojeni s výkonem týmu. Oni prý nehráli s dostatečným nasazením. Trenér obhajoval hráče a tvrdil, že udělali maximum. Tihle sportovci jsou přeplacení. Lidé říkají, že se jim už nechce hrát. Je třeba motivovat hráče a zlepšit jejich výkon.",
+      "expected": [
+        "Oni",
+        "Tihle sportovci",
+        "Lidé říkají"
+      ]
+    },
+    {
+      "text": "Společnost čelí kritice za své ekologické praktiky. Aktivisté tvrdí, že znečišťují životní prostředí. Oni prý ignorují dopady na zdraví obyvatel. Vedení firmy se brání a tvrdí, že investují do moderních technologií. Tihle ekologičtí fanatici všechno přehánějí. Lidé říkají, že jim jde jen o zviditelnění. Je nutné najít rovnováhu mezi ekonomickým rozvojem a ochranou přírody.",
+      "expected": [
+        "Oni",
+        "Tihle ekologičtí fanatici",
+        "Lidé říkají"
+      ]
+    },
+    {
+      "text": "Politici se hádají o reformu zdravotnictví. Opozice kritizuje vládní návrhy a navrhuje vlastní řešení. Oni se snaží zničit vše, co jsme vybudovali. Vláda tvrdí, že jejich reforma je nezbytná pro zlepšení dostupnosti péče. Tihle neschopní politici si jen nahrabou do kapes. Lidé říkají, že jim nejde o zdraví občanů. Je třeba najít shodu a zlepšit systém zdravotnictví.",
+      "expected": [
+        "Oni",
+        "Tihle neschopní politici",
+        "Lidé říkají"
+      ]
+    }
+  ]
+}

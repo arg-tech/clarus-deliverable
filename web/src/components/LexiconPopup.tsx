@@ -40,7 +40,7 @@ export const LexiconPopup = ({ term, position }: LexiconPopupProps) => {
           
           <div className="bias-popup-section">
             <strong className="bias-popup-label">{t('lexicon.popup.usageExample', 'Usage example:')}</strong>
-            <p className="bias-popup-explanation">{term.usage_example}</p>
+            <p className="bias-popup-explanation">{term.usage_example || '/'}</p>
           </div>
         </div>
       </div>

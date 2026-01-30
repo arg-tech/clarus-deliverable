@@ -1,39 +1,43 @@
-python train_qwen_binary_classifier.py \
-  --csv data/rhetorical_questions.csv \
-  --label_col is_rq \
-  --out_head models/rq_head.joblib \
-  --frac 1.0
+# Sarcasm Detection Service
 
+Binary classifier for detecting sarcasm in text using Qwen3-Embedding-0.6B embeddings with a logistic regression head.
 
-✅  Report (test):
-              precision    recall  f1-score   support
+## Training
 
-           0      0.916     1.000     0.956        76
-           1      1.000     0.720     0.837        25
+### 1. Prepare Dataset
 
-    accuracy                          0.931       101
-   macro avg      0.958     0.860     0.897       101
-weighted avg      0.937     0.931     0.927       101
+The training dataset is at `data/sarcasm.csv` with columns:
+- `sentence`: The text to classify
+- `is_sarcastic`: Binary label (0 or 1)
 
-💾  Saved head to models/rq_head.joblib
+### 2. Train Model
 
-
-python train_qwen_binary_classifier.py \
+```bash
+uv run python train_qwen_binary_classifier.py \
   --csv data/sarcasm.csv \
   --label_col is_sarcastic \
   --out_head models/sarcasm_head.joblib \
   --max_words 123 \
-  --batch_size 8 \ 
+  --batch_size 8 \
   --frac 0.1
+```
 
-✅  Report (test):
-              precision    recall  f1-score   support
+Parameters:
+- `--csv`: Path to training CSV
+- `--label_col`: Name of the label column
+- `--out_head`: Path to save the trained model head
+- `--frac`: Fraction of data to use (0.1 = 10%)
+- `--max_words`: Truncate text to N words (123)
+- Internal: `test_size=0.25` (25% held out for validation), `seed=42`
 
-           0      0.627     0.636     0.631      3915
-           1      0.630     0.621     0.626      3910
+## Evaluation
 
-    accuracy                          0.628      7825
-   macro avg      0.629     0.628     0.628      7825
-weighted avg      0.629     0.628     0.628      7825
+```bash
+cd ../../evaluation
+uv run python evaluate_sarcasm.py
+```
 
-💾  Saved head to models/sarcasm_head.joblib
+See `evaluation/README.md` for details on:
+- Using default test datasets (103 samples, ~3-4 seconds)
+- Using full test datasets (7,826 samples, comprehensive)
+- Aggregating results across all ML services

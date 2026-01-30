@@ -1,0 +1,175 @@
+{
+  "indicator": "double_entendres",
+  "language": "pt",
+  "samples": [
+    {
+      "text": "A sessão da câmara municipal foi marcada por intensos debates e acusações mútuas. O vereador Silva tentou abafar o caso de corrupção envolvendo a empresa de seu amigo, mas a oposição não permitiu. A situação esquentou quando surgiram novas denúncias de desvio de verbas públicas. A verdade é que a administração municipal está atolada até o pescoço em irregularidades. O prefeito, por sua vez, jogou a toalha e se recusou a comentar as acusações, alegando que tudo não passa de perseguição política. A população, cansada de tanta impunidade, promete um banho de sangue nas próximas eleições. Espera-se que a justiça seja feita e que os responsáveis paguem por seus crimes. No entanto, muitos acreditam que tudo terminará em pizza, como sempre acontece no Brasil. A expectativa é de que o Ministério Público dê prosseguimento às investigações e que a verdade venha à tona.",
+      "expected": [
+        "abafar o caso",
+        "atolada até o pescoço",
+        "jogou a toalha",
+        "banho de sangue",
+        "terminará em pizza"
+      ]
+    },
+    {
+      "text": "A equipe de futebol local enfrentou um adversário formidável no último domingo. O técnico, visivelmente frustrado com a derrota, afirmou que seus jogadores foram para o sacrifício em campo. Apesar do esforço, o time não conseguiu superar a defesa adversária. A imprensa esportiva não perdoou e criticou duramente a atuação da equipe. Um comentarista chegou a dizer que o time foi para o beleléu e que não tem chances de se classificar para o campeonato. A diretoria do clube está lavando as mãos e culpando os jogadores pela má fase. A torcida, revoltada, promete queimar pneus na porta do estádio caso o time não melhore seu desempenho. A situação é delicada e o futuro da equipe é incerto. A verdade é que o time está numa sinuca de bico e precisa de uma reviravolta urgente.",
+      "expected": [
+        "foram para o sacrifício",
+        "foi para o beleléu",
+        "lavando as mãos",
+        "queimar pneus",
+        "numa sinuca de bico"
+      ]
+    },
+    {
+      "text": "O candidato a presidente prometeu acabar com a corrupção e melhorar a vida dos brasileiros. Ele disse que vai passar a limpo o governo e que não vai tolerar nenhum tipo de desvio de dinheiro público. O candidato afirmou que vai colocar o dedo na ferida e que vai punir os corruptos com rigor. Seus apoiadores estão confiantes em sua vitória e acreditam que ele é a solução para os problemas do país. Seus adversários o acusam de ser populista e de fazer promessas vazias. A verdade é que o candidato é uma incógnita e que ninguém sabe o que esperar de seu governo. A população está descrente e cansada de tantas promessas não cumpridas. A expectativa é de que o candidato seja eleito, mas que não decepcione as expectativas.",
+      "expected": [
+        "passar a limpo",
+        "colocar o dedo na ferida"
+      ]
+    },
+    {
+      "text": "A reunião de condomínio foi marcada por discussões acaloradas e troca de ofensas. Os moradores não conseguiram chegar a um acordo sobre a reforma da fachada do prédio. Alguns moradores defendem a modernização da fachada, enquanto outros preferem manter o estilo original. O síndico tentou mediar a situação, mas não obteve sucesso. A verdade é que os moradores estão de nariz torcido uns para os outros e que não se suportam. A situação é insustentável e o clima é de guerra. A expectativa é de que a próxima reunião seja ainda mais tensa e que termine em confusão. Alguns moradores já estão pensando em se mudar do prédio.",
+      "expected": [
+        "de nariz torcido"
+      ]
+    },
+    {
+      "text": "A sessao da camara municipal se transformou em um verdadeiro campo de batalha. Os vereadores trocaram acusaçoes e ofensas durante horas. O projeto de lei sobre o novo parque municipal estava no centro da disputa. A oposicao tentou enterrar o projeto com emendas e pedidos de vistas. A situaçao revidou, acusando a oposiçao de usar manobras para atrasar a votaçao. O clima ficou tao tenso que alguns vereadores quase trocaram sopapos. A discussao revelou que a base do governo tinha esqueletos no armario que a oposiçao queria expor. A sessao foi encerrada sem votaçao, e o projeto segue para novas discussoes. A expectativa e de que a disputa continue acirrada nas proximas semanas. A populaçao observa apreensiva o desenrolar da novela.",
+      "expected": [
+        "campo de batalha",
+        "enterrar o projeto",
+        "esqueletos no armario"
+      ]
+    },
+    {
+      "text": "A policia deflagrou uma operaçao para combater o trafico de drogas na regiao central da cidade. As investigaçoes duraram meses e culminaram com a prisao de varios suspeitos. A operaçao recebeu o nome de 'Mares Limpos', em alusao ao objetivo de livrar a cidade do crime. As autoridades afirmam que a operaçao foi um sucesso e que o trafico na regiao sofreu um duro golpe. No entanto, moradores da area questionam a eficacia da açao e dizem que o trafico continua a ocorrer. A defesa dos acusados tenta agora desqualificar as provas obtidas na operaçao. Os advogados alegam que houve abuso de poder por parte da policia. O juiz do caso tera a missao de separar o joio do trigo e decidir se as provas sao validas ou nao.",
+      "expected": [
+        "Mares Limpos",
+        "duro golpe",
+        "separar o joio do trigo"
+      ]
+    },
+    {
+      "text": "O debate economico no pais ganhou novos contornos apos a divulgaçao dos dados do desemprego. O governo celebra a queda da taxa, mas a oposiçao contesta os numeros. Especialistas divergem sobre o futuro da economia brasileira. O ministro da Fazenda afirmou que o pais esta no caminho certo e que a recuperaçao economica e uma realidade. Ja o presidente do Banco Central alertou para os riscos da inflaçao. A oposiçao acusa o governo de maquiar os numeros e de nao apresentar um plano consistente para o desenvolvimento. O governo, por sua vez, acusa a oposiçao de torcer contra o pais. A discussao parece longe de um consenso e promete render novos capitulos.",
+      "expected": [
+        "maquiar os numeros",
+        "torcer contra o pais"
+      ]
+    },
+    {
+      "text": "A equipe de futebol local enfrenta uma crise apos a derrota no ultimo campeonato. O tecnico foi demitido e varios jogadores estao sendo criticados pela torcida. A diretoria do clube prometeu uma reformulaçao no elenco. Os torcedores estao revoltados com o desempenho da equipe e exigem mudanças. O presidente do clube tenta acalmar os animos e promete reforços para a proxima temporada. No entanto, a situaçao e delicada e a pressao sobre a diretoria e grande. A torcida organizada prometeu protestos caso a equipe nao apresente resultados. A situaçao do clube chegou a um ponto de quase banho de sangue, dada a revolta e a paixao envolvida.",
+      "expected": [
+        "banho de sangue"
+      ]
+    },
+    {
+      "text": "A atriz famosa enfrentou uma tempestade de criticas apos declarar seu apoio a um determinado candidato politico. Suas redes sociais foram inundadas por comentarios negativos e ataques pessoais. A atriz se defendeu, afirmando que tem o direito de expressar sua opiniao politica. No entanto, a polemica continua a gerar debate nas redes sociais e na midia. A atriz perdeu varios seguidores e contratos publicitarios. Alguns artistas manifestaram solidariedade a atriz, enquanto outros a criticaram. A situaçao demonstra como a polarizaçao politica afeta a vida das pessoas. A atriz agora tenta limpar sua barra e recuperar sua imagem.",
+      "expected": [
+        "tempestade de criticas",
+        "limpar sua barra"
+      ]
+    },
+    {
+      "text": "O escandalo de corrupçao na empresa estatal ganhou novos contornos com a divulgaçao de novos documentos. Os documentos revelam um esquema de desvio de dinheiro publico que envolve varios funcionarios e politicos. A policia federal deflagrou uma nova fase da operaçao, com a prisao de varios suspeitos. A oposiçao exige o impeachment do presidente da empresa. O governo nega qualquer envolvimento no escandalo e promete apurar os fatos. A populaçao esta indignada com a corrupçao e exige puniçao para os culpados. O caso promete abalar a politica nacional e gerar novas crises.",
+      "expected": [
+        "esquema de desvio"
+      ]
+    },
+    {
+      "text": "O ambientalista foi assassinado em uma emboscada na floresta amazonica. O crime chocou o pais e gerou revolta entre os defensores do meio ambiente. O ambientalista era conhecido por denunciar crimes ambientais e defender os direitos dos indigenas. A policia investiga o caso e suspeita de envolvimento de madeireiros ilegais e fazendeiros. O governo prometeu punir os responsaveis pelo crime e reforçar a segurança na regiao. Organizaçoes nao governamentais exigem uma investigaçao rigorosa e o fim da impunidade. O caso demonstra a violencia contra os defensores do meio ambiente no Brasil.",
+      "expected": [
+        "emboscada"
+      ]
+    },
+    {
+      "text": "O acordo comercial entre os paises vizinhos esta em risco devido a divergencias sobre as tarifas de importaçao. Os negociadores dos dois paises nao conseguem chegar a um consenso. A situaçao pode prejudicar as relaçoes comerciais entre os dois paises e afetar a economia da regiao. Empresarios dos dois paises estao preocupados com a possibilidade de um colapso nas negociaçoes. O governo de um dos paises ameaça retaliar caso o outro pais nao ceda as suas exigencias. A discussao esta em um beco sem saida e o futuro do acordo e incerto. O clima entre os dois paises azedou consideravelmente.",
+      "expected": [
+        "beco sem saida",
+        "azedou"
+      ]
+    },
+    {
+      "text": "A cantora pop lancou sua nova musica e causou polemica com a letra explicita e o videoclipe provocador. A musica aborda temas como sexo, drogas e violencia. A cantora foi acusada de apologia ao crime e de influenciar negativamente os jovens. Seus fas a defenderam, alegando que a cantora tem o direito de expressar sua arte livremente. A polemica gerou um debate sobre os limites da liberdade de expressao. A musica se tornou um sucesso de vendas e esta tocando em todas as radios. A cantora esta colhendo os frutos da polemica e vendo sua popularidade aumentar.",
+      "expected": [
+        "colhendo os frutos"
+      ]
+    },
+    {
+      "text": "A cidade foi palco de um confronto entre manifestantes e policiais durante um protesto contra o aumento da tarifa do transporte publico. Os manifestantes atearam fogo em onibus e depredaram agencias bancarias. A policia reagiu com bombas de gas lacrimogenio e balas de borracha. Varios manifestantes e policiais ficaram feridos. A prefeitura condenou a violencia e prometeu punir os responsaveis pelos atos de vandalismo. A oposiçao acusa o governo de usar a força para reprimir os protestos. A situaçao na cidade e tensa e o clima e de guerra.",
+      "expected": [
+        "palco de um confronto",
+        "clima e de guerra"
+      ]
+    },
+    {
+      "text": "A reuniao entre os lideres partidarios comecou de forma tensa, com cada lado entrincheirado em suas posicoes. As negociacoes arrastaram-se pela noite adentro, sem que houvesse qualquer sinal de avanco. Fontes internas revelaram que um dos assessores tentou abafar o caso de corrupcao. O clima esquentou quando um dos presentes acusou o outro de usar dados falsos. O politico em questao prometeu lavar a roupa suja em publico. No final, o acordo foi selado com um aperto de maos, mas a desconfianca permanecia no ar. As consequencias da reuniao ainda serao sentidas nos proximos meses. O ministro da economia enterrou as esperancas de um crescimento rapido. A situacao do pais e mais grave do que parece. Apesar de tudo, ambos concordaram em seguir em frente.",
+      "expected": [
+        "abafar o caso",
+        "lavar a roupa suja",
+        "enterrou as esperancas"
+      ]
+    },
+    {
+      "text": "No mundo do futebol, a rivalidade entre os dois clubes atingiu um novo patamar. Os torcedores preparam-se para o classico com grande expectativa. O treinador da equipe adversaria prometeu um banho de sangue em campo. A polemica em torno da arbitragem tem gerado muita discussao. A diretoria do clube espera que a equipe mostre seu valor dentro de campo. Os jogadores, por sua vez, estao determinados a dar o seu melhor. O atacante principal quer matar a pau para garantir a vitoria. O jogo de amanha e crucial para as aspiracoes do clube. Depois da partida os jogadores foram jantar. E um jogo importante para o campeonato. O time adversario nao e flor que se cheire.",
+      "expected": [
+        "banho de sangue",
+        "matar a pau",
+        "nao e flor que se cheire"
+      ]
+    },
+    {
+      "text": "A empresa de tecnologia anunciou um novo produto que promete revolucionar o mercado. As acoes da empresa dispararam apos o anuncio. Os analistas financeiros estao divididos sobre o potencial do produto. Alguns acreditam que sera um sucesso, enquanto outros sao mais ceticos. O CEO da empresa garante que o produto e inovador e que trara muitos beneficios para os consumidores. Porem, o concorrente veio a publico com a intencao de enterrar a reputacao do produto. O clima nos bastidores e de grande expectativa. O novo produto tera um grande impacto no mercado. Ele espera que o produto seja muito bem vendido. Todos estao esperando ansiosamente o lancamento do produto.",
+      "expected": [
+        "enterrar a reputacao"
+      ]
+    },
+    {
+      "text": "O julgamento do caso de corrupcao politica continua a gerar grande interesse publico. O reu nega todas as acusacoes e afirma ser inocente. A defesa tentara provar que as evidencias apresentadas pela acusacao sao insuficientes. A testemunha chave da acusacao afirmou que o reu estava culpado como o pecado. O advogado de defesa vai com faca e sangue nos dentes. O juiz advertiu as partes para manterem a calma e o respeito durante o julgamento. Os reporteres cobrem o julgamento de perto. O julgamento e importante para a sociedade. O veredicto sera anunciado nos proximos dias. O reu tambem nao e nenhum santo.",
+      "expected": [
+        "culpado como o pecado",
+        "com faca e sangue nos dentes",
+        "nenhum santo"
+      ]
+    },
+    {
+      "text": "A crise economica tem afetado muitos setores da sociedade. O desemprego tem aumentado e muitas empresas tem fechado as portas. O governo tem implementado medidas para tentar estimular a economia. Os sindicatos tem protestado contra as medidas do governo. O ministro da fazenda prometeu que vai estancar a sangria. A oposicao critica as medidas do governo e afirma que elas sao insuficientes. A situacao economica e preocupante. Os especialistas temem que a crise se agrave nos proximos meses. A crise tem aumentado a pobreza. A populacao esta sofrendo com a crise.",
+      "expected": [
+        "estancar a sangria"
+      ]
+    },
+    {
+      "text": "A polemica em torno da reforma da previdencia continua a gerar debate. O governo defende a reforma como necessaria para garantir a sustentabilidade do sistema. Os sindicatos e a oposicao criticam a reforma e afirmam que ela prejudica os trabalhadores. O presidente da republica tentou jogar a culpa para debaixo do tapete. A discussao sobre a reforma da previdencia e complexa e envolve muitos interesses. A reforma da previdencia e uma prioridade para o governo. O governo precisa aprovar a reforma. A reforma e importante para o futuro do pais. Todos precisam participar do debate. A reforma deve ser aprovada.",
+      "expected": [
+        "jogar a culpa para debaixo do tapete"
+      ]
+    },
+    {
+      "text": "A investigacao sobre o esquema de fraude fiscal revelou detalhes surpreendentes. A policia federal realizou buscas e apreensoes em diversas empresas. Os investigadores suspeitam que o esquema envolveu milhoes de reais. O promotor responsavel pelo caso prometeu tirar a limpo toda a historia. A midia tem acompanhado o caso de perto. O caso de fraude fiscal e complexo. A policia federal esta trabalhando duro para resolver o caso. O caso envolve muitas pessoas. A sociedade espera que os culpados sejam punidos. Eles precisam enterrar as provas.",
+      "expected": [
+        "tirar a limpo",
+        "enterrar as provas"
+      ]
+    },
+    {
+      "text": "O debate sobre a legalizacao do aborto tem dividido a opiniao publica. Os defensores da legalizacao argumentam que as mulheres tem o direito de decidir sobre seus proprios corpos. Os opositores da legalizacao defendem a vida desde a concepcao. O tema do aborto e delicado e envolve muitas questoes eticas e morais. O congresso nacional precisa debater o tema com seriedade e responsabilidade. A sociedade precisa discutir o tema com respeito e tolerancia. A igreja se manifestou contra o aborto. Ela quer fazer uma lavagem cerebral. Os pais tambem devem opinar.",
+      "expected": [
+        "lavagem cerebral"
+      ]
+    },
+    {
+      "text": "A situacao politica no pais vizinho e instavel e preocupante. O governo tem enfrentado protestos e manifestacoes em diversas cidades. A oposicao exige a renuncia do presidente. A economia do pais esta em crise e a populacao sofre com a falta de alimentos e medicamentos. O presidente do pais comecou a cavar a propria cova. A comunidade internacional acompanha a situacao com preocupacao. A situacao e tensa e pode haver violencia. A populacao esta sofrendo com a crise. A comunidade internacional precisa ajudar o pais. A situacao precisa ser resolvida o mais rapido possivel.",
+      "expected": [
+        "cavar a propria cova"
+      ]
+    },
+    {
+      "text": "O escandalo envolvendo o senador abalou o mundo politico. As acusacoes de corrupcao e desvio de dinheiro publico geraram indignacao na sociedade. O senador nega as acusacoes e afirma ser vitima de uma conspiracao. A comissao de etica do senado vai investigar o caso. O senador prometeu lutar com unhas e dentes para provar sua inocencia. A midia tem explorado o caso ao maximo. O caso do senador e complexo e polemico. Ele vai cair em desgraça. As eleicoes estao chegando e a situacao pode mudar. Ninguem sabe o que vai acontecer.",
+      "expected": [
+        "lutar com unhas e dentes",
+        "cair em desgraça"
+      ]
+    }
+  ]
+}

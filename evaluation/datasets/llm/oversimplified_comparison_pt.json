@@ -1,0 +1,231 @@
+{
+  "indicator": "oversimplified_comparison",
+  "language": "pt",
+  "samples": [
+    {
+      "text": "A investigacao do caso de corrupcao transformou-se num verdadeiro barril de polvora, com novas revelacoes a cada dia. O principal suspeito, um verdadeiro lobo em pele de cordeiro, tentava desesperadamente manter a sua imagem publica intacta. As suas declaracoes eram apenas cortina de fumo, ocultando a verdade por tras dos seus actos. A situacao politica e economica do pais e uma bomba-relogio prestes a explodir, com a inflacao a subir e o desemprego a aumentar. O ministro da economia, como um elefante numa loja de cristais, agravou a crise com medidas desastrosas.",
+      "expected": [
+        "barril de polvora",
+        "lobo em pele de cordeiro",
+        "cortina de fumo",
+        "bomba-relogio",
+        "elefante numa loja de cristais"
+      ]
+    },
+    {
+      "text": "O debate politico revelou-se um autentico campo de batalha, com os candidatos a digladiarem-se em busca de votos. O candidato da oposicao, um verdadeiro cavalo de batalha, insistia nas mesmas promessas sem apresentar solucoes concretas. O governo agia como um bombeiro a apagar fogos, respondendo a cada crise sem uma estrategia de longo prazo. A reforma da saude tornou-se um osso duro de roer, com interesses divergentes a bloquear qualquer avanco. Este politico e apenas mais um na politica, apenas interessado em aumentar o seu poder.",
+      "expected": [
+        "campo de batalha",
+        "cavalo de batalha",
+        "bombeiro a apagar fogos",
+        "osso duro de roer",
+        "apenas mais um"
+      ]
+    },
+    {
+      "text": "O julgamento do famoso empresario transformou-se num circo mediatico, com a imprensa a cobrir cada detalhe sensacionalista. O advogado de defesa, uma raposa velha nos tribunais, usava todas as estrategias para ilibar o seu cliente. As provas apresentadas pela acusacao revelaram-se um castelo de cartas, facilmente derrubado pelos argumentos da defesa. O juiz, um mero fantoche nas maos dos poderosos, parecia inclinado a favorecer o reu. A justica tornou-se um jogo de gato e rato, com a verdade a ser distorcida pelos interesses em jogo.",
+      "expected": [
+        "circo mediatico",
+        "raposa velha",
+        "castelo de cartas",
+        "mero fantoche",
+        "jogo de gato e rato"
+      ]
+    },
+    {
+      "text": "A empresa de tecnologia tornou-se um verdadeiro gigante da industria, dominando o mercado com os seus produtos inovadores. O CEO da empresa, um tubarao nos negocios, nao hesitava em esmagar a concorrencia para manter a sua posicao. Os trabalhadores eram tratados como meras engrenagens da maquina, explorados para aumentar os lucros da empresa. A cultura empresarial era um ninho de cobras, com intrigas e competicao desleal a corroerem o ambiente de trabalho. No fundo, e apenas mais uma empresa gananciosa.",
+      "expected": [
+        "gigante da industria",
+        "tubarao nos negocios",
+        "meras engrenagens da maquina",
+        "ninho de cobras",
+        "apenas mais uma"
+      ]
+    },
+    {
+      "text": "A situacao social no pais e uma panela de pressao prestes a explodir, com a desigualdade social a aumentar e a pobreza a alastrar. Os protestos populares sao apenas a ponta do iceberg, revelando o descontentamento generalizado da populacao. O governo, um verdadeiro avestruz, ignora os problemas sociais e continua a implementar medidas impopulares. A educacao tornou-se um campo minado, com a falta de investimento a comprometer o futuro dos jovens. E o tipico caso de negligencia governamental.",
+      "expected": [
+        "panela de pressao",
+        "ponta do iceberg",
+        "verdadeiro avestruz",
+        "campo minado",
+        "tipico caso"
+      ]
+    },
+    {
+      "text": "A investigacao policial e uma casa da mae joana, com corrupcao e impunidade a corroerem as instituicoes. Os criminosos sao intocaveis, protegidos por uma rede de influencias e poder. A justica e uma peneira, deixando escapar os culpados e punindo os inocentes. A policia age como um cao sem trela, usando a violencia para reprimir os protestos populares. A cidade tornou-se um faroeste sem lei, com a criminalidade a aumentar a cada dia.",
+      "expected": [
+        "casa da mae joana",
+        "intocaveis",
+        "peneira",
+        "cao sem trela",
+        "faroeste sem lei"
+      ]
+    },
+    {
+      "text": "A cultura politica do pais e um verdadeiro hospicio, com os partidos a digladiarem-se em lutas de poder mesquinhas. Os politicos sao marionetes nas maos dos lobbies, defendendo os interesses privados em detrimento do bem comum. O sistema eleitoral e uma farsa, com a compra de votos e a manipulacao dos resultados a serem praticas comuns. A democracia tornou-se um teatro de fantoches, com o povo a ser enganado pelos seus representantes. E tudo farinha do mesmo saco.",
+      "expected": [
+        "hospicio",
+        "marionetes",
+        "farsa",
+        "teatro de fantoches",
+        "tudo farinha do mesmo saco"
+      ]
+    },
+    {
+      "text": "A crise ambiental e uma bomba-relogio ecologica, com as alteracoes climaticas a ameaCarem o planeta. O governo age como um Pilatos, lavando as maos e ignorando os alertas dos cientistas. As empresas poluidoras sao os lobos da historia, destruindo o meio ambiente em busca de lucros. A sociedade e um rebanho de ovelhas, seguindo cegamente os interesses economicos sem se importar com o futuro. Acabaremos como baratas tontas.",
+      "expected": [
+        "bomba-relogio ecologica",
+        "Pilatos",
+        "lobos da historia",
+        "rebanho de ovelhas",
+        "baratas tontas"
+      ]
+    },
+    {
+      "text": "A nova lei de imigracao e um retrocesso para os direitos humanos, discriminando e marginalizando os imigrantes. O governo age como um carrasco, punindo os mais vulneraveis e fomentando a xenofobia. A midia e um papagaio, repetindo os discursos de odio e alimentando o preconceito. A sociedade e um espelho quebrado, refletindo a intolerancia e a falta de empatia. Este tema virou caso de policia.",
+      "expected": [
+        "carrasco",
+        "papagaio",
+        "espelho quebrado",
+        "caso de policia"
+      ]
+    },
+    {
+      "text": "O acordo comercial foi apresentado como a galinha dos ovos de ouro, prometendo prosperidade sem fim. No entanto, para os pequenos agricultores, tornou-se um cavalo de Troia, escondendo clausulas prejudiciais. O ministro da economia, um verdadeiro elefante em loja de cristais, implementou as medidas sem considerar as consequências para as familias locais. A oposicao o acusou de ser apenas um papagaio, repetindo os argumentos das grandes corporacoes. A situacao continua tensa, com protestos marcados para a proxima semana.",
+      "expected": [
+        "galinha dos ovos de ouro",
+        "cavalo de Troia",
+        "elefante em loja de cristais",
+        "apenas um papagaio"
+      ]
+    },
+    {
+      "text": "No julgamento, a testemunha chave se mostrou um livro aberto, revelando detalhes cruciais do esquema. O advogado de defesa, por sua vez, agiu como um gato e rato, tentando desestabilizar o depoimento. O juiz, conhecido por sua imparcialidade, manteve a ordem no tribunal, impedindo que a sessao se transformasse em um circo. A promotoria argumentou que o acusado era apenas mais um peao no jogo de poder da organizacao criminosa. A decisao final do juri e aguardada com grande expectativa.",
+      "expected": [
+        "um livro aberto",
+        "gato e rato",
+        "apenas mais um peao"
+      ]
+    },
+    {
+      "text": "A reforma da previdencia e vista por muitos como a cereja do bolo, a solucao para todos os problemas financeiros do pais. Contudo, para os sindicatos, e um balde de agua fria nas esperancas dos trabalhadores. O governo, tentando acalmar os animos, se comporta como um bombeiro apagando um incendio com gasolina. A populacao, descrente, sente que esta sendo enganada por mais uma cortina de fumaça. O debate continua acalorado no Congresso.",
+      "expected": [
+        "a cereja do bolo",
+        "um balde de agua fria",
+        "um bombeiro apagando um incendio com gasolina",
+        "cortina de fumaça"
+      ]
+    },
+    {
+      "text": "Na politica, o candidato se mostrou um camaleao, mudando de discurso conforme a plateia. Seus oponentes o acusaram de ser um lobo em pele de cordeiro, escondendo suas verdadeiras intencoes. A campanha eleitoral se transformou em um campo minado, com ataques e contra-ataques de todos os lados. O eleitorado, confuso, sente que esta votando no menos pior. A expectativa para o resultado das eleicoes e grande.",
+      "expected": [
+        "um camaleao",
+        "lobo em pele de cordeiro",
+        "um campo minado"
+      ]
+    },
+    {
+      "text": "A empresa de tecnologia se tornou um bicho de sete cabeças para os concorrentes, dominando o mercado com seus produtos inovadores. Internamente, o ambiente era descrito como uma panela de pressao, com alta competitividade e pressao por resultados. O CEO, um tubarao nos negocios, nao hesitava em tomar decisoes impopulares para garantir o crescimento da empresa. Os analistas financeiros a consideram um gigante com pes de barro, vulneravel a crises e novas tecnologias.",
+      "expected": [
+        "um bicho de sete cabeças",
+        "uma panela de pressao",
+        "um tubarao nos negocios",
+        "gigante com pes de barro"
+      ]
+    },
+    {
+      "text": "O escandalo de corrupcao revelou que a prefeitura era uma casa da mae Joana, com desvio de verbas e fraudes em licitacoes. O prefeito, um bode expiatorio, foi o primeiro a ser responsabilizado pelas irregularidades. A oposicao exigiu uma investigacao a fundo para descobrir todos os envolvidos no esquema. A cidade se sente como um navio a deriva, sem rumo e sem governo. A populacao clama por justica e transparencia.",
+      "expected": [
+        "uma casa da mae Joana",
+        "bode expiatorio",
+        "um navio a deriva"
+      ]
+    },
+    {
+      "text": "No mundo do futebol, o jogador era considerado o patinho feio do time, desacreditado por muitos. No entanto, ele se transformou em um leao em campo, marcando gols decisivos e liderando a equipe a vitoria. A torcida o idolatra como um messias, o salvador da patria. O tecnico, um mago da estrategia, soube aproveitar o talento do jogador e montar um time competitivo. O campeonato promete ser emocionante.",
+      "expected": [
+        "o patinho feio",
+        "um leao em campo",
+        "um messias"
+      ]
+    },
+    {
+      "text": "A crise economica se abateu sobre o pais como uma tempestade perfeita, combinando inflacao, desemprego e recessao. O governo, perdido, age como cego em tiroteio, tomando medidas ineficazes e contraditorias. A sociedade civil se mobiliza para ajudar os mais necessitados, mostrando que a solidariedade e a ultima esperança. O futuro e incerto, mas a perseverança e a chave para superar os desafios.",
+      "expected": [
+        "uma tempestade perfeita",
+        "cego em tiroteio"
+      ]
+    },
+    {
+      "text": "A discussao sobre o aborto e um vespeiro, dividindo a sociedade entre defensores e opositores. Os religiosos consideram a pratica um pecado mortal, um atentado contra a vida. Os movimentos feministas a defendem como um direito da mulher, uma questao de saude publica. O debate e acalorado e polarizado, sem espaço para o dialogo e a compreensao mutua. A legislacao sobre o tema continua controversa.",
+      "expected": [
+        "um vespeiro",
+        "um pecado mortal"
+      ]
+    },
+    {
+      "text": "O projeto de lei ambiental foi considerado a tabua de salvacao para a Amazonia, protegendo a floresta do desmatamento e da devastacao. No entanto, os ruralistas o veem como um freio ao desenvolvimento economico, um obstaculo ao progresso. O relator do projeto, um muro de lamentacoes, nao conseguiu conciliar os interesses das diferentes partes. A votacao no Congresso promete ser tensa e polemica.",
+      "expected": [
+        "a tabua de salvacao",
+        "um freio ao desenvolvimento economico",
+        "um muro de lamentacoes"
+      ]
+    },
+    {
+      "text": "O novo ministro da economia mostrou-se um verdadeiro elefante numa loja de cristais durante a negociação com os sindicatos, quebrando acordos e desfazendo progressos com a sua abordagem brusca. As suas propostas eram nada mais que um cavalo de Troia para desmantelar os direitos dos trabalhadores. A oposição reagiu, chamando-o de disco riscado, sempre repetindo as mesmas promessas vazias. A situação política, uma autêntica corda bamba, ameaça desestabilizar o governo. No entanto, alguns analistas acreditam que ele é apenas mais um bode expiatório numa crise maior.",
+      "expected": [
+        "elefante numa loja de cristais",
+        "nada mais que um cavalo de Troia",
+        "disco riscado",
+        "corda bamba",
+        "bode expiatório"
+      ]
+    },
+    {
+      "text": "No julgamento, a testemunha de defesa revelou-se um lobo em pele de cordeiro, escondendo as suas verdadeiras intenções por detrás de um discurso calmo. A acusação, por outro lado, agiu como um touro furioso, atacando sem discernimento e comprometendo a credibilidade do caso. O juiz, um mero fantoche nas mãos dos poderosos, parecia inclinado a favorecer os interesses do réu. A complexidade do caso tornava difícil um veredicto justo. A verdade era que o processo era uma verdadeira caixa de Pandora, cheia de segredos e mentiras.",
+      "expected": [
+        "lobo em pele de cordeiro",
+        "touro furioso",
+        "fantoche",
+        "caixa de Pandora"
+      ]
+    },
+    {
+      "text": "Após a derrota nas eleições, o candidato comportou-se como um cego em tiroteio, culpando todos menos a si próprio pela sua má prestação. A sua campanha, um verdadeiro tiro no pé, afastou eleitores com propostas radicais e mensagens confusas. Os apoiantes sentiram-se traídos, vendo-o como uma cobra a lhes morder os pés, aproveitando-se da sua lealdade. A análise dos resultados revelou uma grande desaprovação das políticas do candidato. Para muitos, ele era apenas mais um político a fazer promessas que não podia cumprir.",
+      "expected": [
+        "cego em tiroteio",
+        "tiro no pé",
+        "cobra a lhes morder os pés",
+        "apenas mais um"
+      ]
+    },
+    {
+      "text": "A empresa de tecnologia tornou-se um cancro para a economia local, sugando recursos e eliminando a concorrência. O CEO é um verdadeiro polvo, estendendo os seus tentáculos para controlar todos os aspetos do mercado. As práticas da empresa foram descritas como um barril de pólvora, à espera de explodir com as investigações em curso. Apesar das alegações, a empresa continua a operar normalmente. Este caso é exatamente como outros escândalos corporativos que já vimos.",
+      "expected": [
+        "cancro",
+        "polvo",
+        "barril de pólvora",
+        "exatamente como"
+      ]
+    },
+    {
+      "text": "O acordo de paz é uma bomba-relógio prestes a explodir, com tensões latentes entre os grupos rivais. Os mediadores internacionais agiram como bombeiros a apagar um incêndio com gasolina, exacerbando os conflitos. A situação no terreno continua instável e volátil. Os esforços de reconciliação parecem uma miragem, inatingíveis no clima atual. As esperanças de uma solução duradoura são apenas fogo de palha, extinguindo-se rapidamente.",
+      "expected": [
+        "bomba-relógio",
+        "bombeiros a apagar um incêndio com gasolina",
+        "miragem",
+        "fogo de palha"
+      ]
+    },
+    {
+      "text": "A reforma da previdência é um presente de grego para os trabalhadores, disfarçando cortes nos benefícios com promessas de longo prazo. Os sindicatos veem a proposta como uma facada nas costas, após anos de negociação. O governo tenta vender a reforma como uma panaceia para os problemas fiscais do país. A discussão sobre a reforma tem gerado muita polêmica. Para muitos, a reforma é apenas mais um ataque aos direitos dos trabalhadores.",
+      "expected": [
+        "presente de grego",
+        "facada nas costas",
+        "panaceia",
+        "apenas mais um"
+      ]
+    }
+  ]
+}

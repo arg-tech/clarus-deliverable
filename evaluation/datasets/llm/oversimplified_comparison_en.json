@@ -1,0 +1,246 @@
+{
+  "indicator": "oversimplified_comparison",
+  "language": "en",
+  "samples": [
+    {
+      "text": "The mayor's plan for revitalizing the city's economy was nothing but a house of cards, destined to collapse under the slightest pressure. He promised jobs and prosperity, but his proposals were as empty as a drum. His critics saw him as a wolf in sheep's clothing, pretending to care about the working class while secretly favoring wealthy developers. The public remained skeptical, viewing the whole situation as a ticking time bomb. One analyst noted the plan's similarity to failed initiatives in other cities, where promises outweighed results. Public trust is essential for any policy to succeed.",
+      "expected": [
+        "a house of cards",
+        "as empty as a drum",
+        "a wolf in sheep's clothing",
+        "a ticking time bomb"
+      ]
+    },
+    {
+      "text": "The defendant in the fraud case was portrayed as a snake in the grass by the prosecution, a master of deception who betrayed the trust of his investors. His intricate web of lies was described as a loose cannon, causing widespread financial damage and chaos. He was just another corporate executive, prioritizing profits over ethics. The defense argued that he was a scapegoat, unfairly targeted for the company's broader failings. The jury, however, seemed convinced of his guilt after hearing the evidence. The trial continues next week.",
+      "expected": [
+        "a snake in the grass",
+        "a loose cannon",
+        "just another corporate executive",
+        "a scapegoat"
+      ]
+    },
+    {
+      "text": "The activist's disruptive protests were dismissed as nothing but a broken record, repeating the same tired arguments without offering any solutions. To some, he was a dog in the manger, selfishly hindering progress and preventing constructive dialogue. His supporters, however, saw him as a fearless voice for the marginalized, fighting against injustice. The police responded to the demonstrations with force. The debate over freedom of speech continues to be a central theme in public discourse. Many wonder if his tactics were effective.",
+      "expected": [
+        "a broken record",
+        "a dog in the manger",
+        "nothing but"
+      ]
+    },
+    {
+      "text": "The company's marketing strategy was seen as a fish out of water, failing to resonate with its target audience. Their attempts to appeal to younger consumers were just another example of corporate pandering. Critics described the CEO as a bull in a china shop, making reckless decisions that alienated both employees and customers. Despite the negative feedback, the company remained committed to its approach. Sales figures declined. The board of directors met to discuss future changes.",
+      "expected": [
+        "a fish out of water",
+        "just another example",
+        "a bull in a china shop"
+      ]
+    },
+    {
+      "text": "The political debate turned nasty when one candidate labeled his opponent as a snake in the grass, suggesting he was secretly plotting against his own party. The attack was like throwing a stone into a hornet's nest, igniting a firestorm of controversy. The media seized on the soundbite. The public perceived the conflict as no different from typical political mudslinging. Polls indicated a shift in voter sentiment. The debate underscores the divide within the party.",
+      "expected": [
+        "a snake in the grass",
+        "throwing a stone into a hornet's nest",
+        "no different from"
+      ]
+    },
+    {
+      "text": "The negotiation process became a battleground, with each side acting like a dog in the manger, refusing to compromise. The mediator felt like he was herding cats. One negotiator, known for his aggressive tactics, was considered a loose cannon, unpredictable and prone to outbursts. The stakes were high, with millions of dollars on the line. The tension in the room was palpable. No one was certain of a resolution.",
+      "expected": [
+        "like a dog in the manger",
+        "herding cats",
+        "a loose cannon"
+      ]
+    },
+    {
+      "text": "The new policy was portrayed as a wolf in sheep's clothing, promising reform but actually serving the interests of a select few. Its impact was like adding fuel to the fire, exacerbating existing social inequalities. Critics argued that it was a ticking time bomb, destined to create more problems than it solved. Supporters defended the policy as a necessary step toward progress. The legislation faced legal challenges.",
+      "expected": [
+        "a wolf in sheep's clothing",
+        "like adding fuel to the fire",
+        "a ticking time bomb"
+      ]
+    },
+    {
+      "text": "The journalist described the economic situation as a house of cards, ready to collapse at any moment. The government's response was nothing but a band-aid, failing to address the underlying issues. Experts warned that the situation was a snake pit of conflicting interests and hidden agendas. The population grew anxious about the future. The analysis painted a bleak picture.",
+      "expected": [
+        "a house of cards",
+        "nothing but a band-aid",
+        "a snake pit"
+      ]
+    },
+    {
+      "text": "His arguments were as empty as a drum, lacking substance and evidence. To dismiss the counterarguments, he framed them as nothing but scare tactics designed to undermine his authority. He believed himself to be a lone wolf, misunderstood and unappreciated. In reality, he was alienating everyone around him with his attitude. The team's output suffered. His colleagues grew frustrated.",
+      "expected": [
+        "as empty as a drum",
+        "nothing but scare tactics",
+        "a lone wolf"
+      ]
+    },
+    {
+      "text": "The scandal turned the institution into a snake pit of backstabbing and betrayals, with everyone trying to save their own skin. One whistle blower was seen as a loose cannon, exposing secrets that threatened the entire organization. The management's damage control was just another attempt to sweep things under the rug. The news of the scandal spread like wildfire. The organization now faces numerous lawsuits.",
+      "expected": [
+        "a snake pit",
+        "a loose cannon",
+        "just another attempt"
+      ]
+    },
+    {
+      "text": "The mayor's proposal was nothing but a house of cards, destined to collapse under the slightest scrutiny. His promises were as empty as a politician's handshake, offering false hope to desperate constituents. Critics saw him as a wolf in sheep's clothing, feigning concern while secretly pursuing his own agenda. He's just another politician making promises he can't keep. The city's finances, already stretched thin, were now considered a ticking time bomb, ready to explode if the proposal went through. The council meeting was expected to be lengthy, but the final vote was decisive.",
+      "expected": [
+        "a house of cards",
+        "a wolf in sheep's clothing",
+        "nothing but",
+        "a ticking time bomb"
+      ]
+    },
+    {
+      "text": "The CEO's leadership style was described as that of a bull in a china shop, alienating employees and damaging morale. She treated her staff like pawns in a chess game, manipulating them to achieve her own goals. The company's diversity initiatives were just a smokescreen, hiding deeper systemic issues. To her, the workers are like broken records, repeating the same complaints. The annual report, however, painted a rosy picture of growth and innovation.",
+      "expected": [
+        "bull in a china shop",
+        "pawns in a chess game",
+        "just a smokescreen",
+        "broken records"
+      ]
+    },
+    {
+      "text": "The defendant, according to the prosecution, was a snake in the grass, plotting his revenge for months. His testimony was nothing but a pack of lies, designed to mislead the jury. The media portrayed him as a loose cannon, unpredictable and dangerous. His defense attorney argued that the evidence was circumstantial, and that the prosecution was trying to convict him based on prejudice. The jury deliberated for several hours before reaching a verdict.",
+      "expected": [
+        "snake in the grass",
+        "nothing but a pack of lies",
+        "a loose cannon"
+      ]
+    },
+    {
+      "text": "The activist saw the government's new policy as a slippery slope, leading to further restrictions on civil liberties. Opponents described him as a dog in the manger, unwilling to compromise and blocking progress. The debate over the policy grew increasingly heated, with both sides accusing each other of bad faith. He's no different than any other rabble rouser. Public opinion was sharply divided, and protests erupted in several cities.",
+      "expected": [
+        "a slippery slope",
+        "a dog in the manger",
+        "no different than"
+      ]
+    },
+    {
+      "text": "The star athlete's fall from grace was swift and dramatic, turning him into a pariah overnight. He's just another athlete who let fame get to his head. His sponsors quickly dropped him, and his endorsements vanished. The media frenzy surrounding the scandal intensified, with every detail of his personal life scrutinized. His career, once promising, was now like a broken record, repeating old mistakes.",
+      "expected": [
+        "just another athlete",
+        "a pariah",
+        "broken record"
+      ]
+    },
+    {
+      "text": "The economic crisis was described as a perfect storm, a confluence of factors leading to widespread hardship. The bailout package was seen by some as just another band-aid solution, failing to address the underlying problems. Others argued that it was a necessary evil, preventing a complete collapse of the financial system. Either way, the situation looks like a ticking time bomb. The effects of the crisis were felt across the globe, impacting businesses and individuals alike.",
+      "expected": [
+        "a perfect storm",
+        "just another band-aid solution",
+        "a ticking time bomb"
+      ]
+    },
+    {
+      "text": "The negotiation process was like pulling teeth, with both sides refusing to budge on their demands. The union leader acted like a dog in the manger, blocking any progress that didn't fully benefit his members. The company negotiator saw the union's demands as a house of cards, easily toppled by a strong counter-offer. The negotiations dragged on for weeks, with no end in sight.",
+      "expected": [
+        "pulling teeth",
+        "a dog in the manger",
+        "a house of cards"
+      ]
+    },
+    {
+      "text": "The whistleblower was portrayed as a loose cannon, leaking confidential information to the press. He's nothing but a disgruntled employee seeking revenge. His actions sparked a public outcry, leading to calls for an investigation. The company defended its practices, claiming that the whistleblower was motivated by personal animosity. The case is similar to other attempts at intimidation.",
+      "expected": [
+        "a loose cannon",
+        "nothing but",
+        "similar to"
+      ]
+    },
+    {
+      "text": "The political debate was nothing but a shouting match, with candidates resorting to personal attacks instead of addressing the issues. The moderator struggled to maintain order, but the candidates were like broken records, repeating the same talking points. The audience grew increasingly frustrated, feeling that their concerns were being ignored. One candidate acted like a wolf in sheep's clothing. The debate offered little in the way of substance, leaving voters feeling disillusioned.",
+      "expected": [
+        "nothing but a shouting match",
+        "broken records",
+        "a wolf in sheep's clothing"
+      ]
+    },
+    {
+      "text": "The social media platform became a snake pit of misinformation and hate speech, spreading rapidly. It was just a question of time until the situation became dangerous. The company's attempts to regulate content were seen as too little, too late, failing to stem the tide of abuse. Some users saw the platform as a ticking time bomb, ready to explode at any moment. The platform's future remained uncertain.",
+      "expected": [
+        "a snake pit",
+        "just a question of time",
+        "a ticking time bomb"
+      ]
+    },
+    {
+      "text": "The mayor's ambitious infrastructure plan was met with mixed reactions. Some viewed it as a much-needed overhaul, while others saw it as a house of cards, destined to collapse under its own weight. Critics argued the project was nothing but a Trojan horse, bringing hidden costs and unintended consequences. The lead engineer, a loose cannon, disregarded safety regulations. Meanwhile, the opposition party portrayed the mayor as a wolf in sheep's clothing, feigning concern for the public while pursuing personal gain. The project's environmental impact assessment awaits final approval. The debate continues.",
+      "expected": [
+        "house of cards",
+        "nothing but a Trojan horse",
+        "a loose cannon",
+        "a wolf in sheep's clothing"
+      ]
+    },
+    {
+      "text": "The company's turnaround strategy was described by some analysts as a Hail Mary pass, a desperate attempt with little chance of success. Others saw it as a necessary gamble, a way to shake things up. The CEO, however, was portrayed by disgruntled employees as a snake in the grass, secretly planning layoffs while publicly praising their hard work. The restructuring plan is a ticking time bomb, threatening to explode at any moment. Initial quarterly reports show some improvement, but many challenges remain. The market remains uncertain.",
+      "expected": [
+        "Hail Mary pass",
+        "a snake in the grass",
+        "ticking time bomb"
+      ]
+    },
+    {
+      "text": "The senator's stance on the new bill was perceived as a dog whistle, signaling a hidden message to a specific group of voters. He presented it as a simple matter of fiscal responsibility. His opponent described him as a broken record, repeating the same tired arguments with no real solutions. The Senator is nothing but a puppet of special interests. The debate has become increasingly heated, with both sides digging in their heels. Public support for the bill remains divided.",
+      "expected": [
+        "dog whistle",
+        "a broken record",
+        "nothing but a puppet"
+      ]
+    },
+    {
+      "text": "The trial revealed a complex web of deceit, with the defendant portrayed by the prosecution as a wolf in sheep's clothing. The defense argued their client was just a scapegoat, unfairly blamed for the actions of others. The evidence suggested the defendant acted like a deer in the headlights. The key witness was a loose cannon, offering contradictory testimony. The judge instructed the jury to consider all evidence carefully. The jury deliberated for several hours before reaching a verdict.",
+      "expected": [
+        "a wolf in sheep's clothing",
+        "just a scapegoat",
+        "deer in the headlights",
+        "a loose cannon"
+      ]
+    },
+    {
+      "text": "The merger between the two tech giants was touted as a game-changer, a move that would revolutionize the industry. Some saw it as a match made in heaven, while others feared it would create a dangerous monopoly. Critics described the new entity as a behemoth, crushing competition and innovation. Their marketing strategy is nothing but a smokescreen, obscuring the true motives. The long-term effects of the merger remain to be seen.",
+      "expected": [
+        "nothing but a smokescreen"
+      ]
+    },
+    {
+      "text": "The athlete's comeback was hailed as a Cinderella story, an improbable tale of perseverance. Some observers saw him as a flash in the pan, destined to fade back into obscurity. Others believed he was a true champion, capable of achieving greatness. He's like a fish out of water now that his coach retired. The training regimen has been modified to suit his evolving physical condition. His determination is commendable.",
+      "expected": [
+        "Cinderella story",
+        "flash in the pan",
+        "fish out of water"
+      ]
+    },
+    {
+      "text": "The activist group's tactics were criticized as alarmist and counterproductive. Some labeled them as a broken record, constantly repeating the same demands with little effect. Others saw them as a necessary voice, holding those in power accountable. Their approach to fundraising is like a dog chasing its tail, leading nowhere. Their message resonates with some segments of society. The group's influence is growing.",
+      "expected": [
+        "a broken record",
+        "like a dog chasing its tail"
+      ]
+    },
+    {
+      "text": "The economic recovery was described as fragile and uneven. Some analysts saw it as a dead cat bounce, a temporary upswing before a further decline. Others believed it was a sign of genuine progress, fueled by innovation and investment. The recovery has been nothing but a band-aid, covering up deeper structural problems. Consumer confidence remains low. Unemployment figures are still high in many areas.",
+      "expected": [
+        "dead cat bounce",
+        "nothing but a band-aid"
+      ]
+    },
+    {
+      "text": "The new social media platform was initially praised for its innovative features. However, some critics now view it as a Trojan horse, potentially allowing the spread of misinformation. Concerns over privacy have also surfaced. The company is nothing but a fly-by-night operation, likely to disappear soon. User numbers continue to climb, defying skeptics. The debate continues regarding its long-term viability.",
+      "expected": [
+        "Trojan horse",
+        "nothing but a fly-by-night operation"
+      ]
+    },
+    {
+      "text": "The professor's teaching style was described as unconventional and challenging. Some students saw him as a bull in a china shop, disrupting established norms and practices. Others praised him as a visionary, pushing the boundaries of knowledge. His course on philosophy is like a snake pit, dangerous but compelling. Enrollment numbers are high. The professor has tenure at the university.",
+      "expected": [
+        "bull in a china shop",
+        "snake pit"
+      ]
+    }
+  ]
+}

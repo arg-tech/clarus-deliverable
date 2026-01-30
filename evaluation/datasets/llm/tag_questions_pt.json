@@ -1,0 +1,190 @@
+{
+  "indicator": "tag_questions",
+  "language": "pt",
+  "samples": [
+    {
+      "text": "O relatorio da auditoria revelou irregularidades serias nas contas da empresa. Os desvios de verba eram evidentes e sistematicos. A diretoria agiu com negligencia, permitindo que o esquema continuasse por anos. E claro que houve conluio entre os executivos, nao e mesmo? Ninguem em sã consciencia acreditaria em outra explicacao. Eles esperavam que isso nunca viesse a tona? A opiniao publica esta revoltada com a situacao, e com razao. Essa corrupcao desenfreada e inaceitavel, nao e?",
+      "expected": [
+        "nao e mesmo?",
+        "nao e?"
+      ]
+    },
+    {
+      "text": "O ministro da Educacao defendeu as novas medidas para o ensino basico. Ele afirmou que as mudancas sao essenciais para melhorar a qualidade da educacao. No entanto, as criticas da oposicao foram duras e imediatas. Eles alegam que as medidas prejudicam os alunos mais pobres. E uma tentativa descarada de privatizar o ensino, voce nao acha? A populacao merece uma explicacao mais detalhada sobre os impactos dessas mudancas. O governo esta tentando impor sua agenda ideologica goela abaixo, nao e?",
+      "expected": [
+        "voce nao acha?",
+        "nao e?"
+      ]
+    },
+    {
+      "text": "A policia prendeu o principal suspeito do assassinato da jovem. As provas encontradas na cena do crime o incriminam diretamente. Ele confessou o crime durante o interrogatorio, segundo a policia. Ninguem mais poderia ter feito isso, certo? A comunidade local esta aliviada com a prisao. A justica precisa ser feita para a familia da vitima. Este caso horrivel finalmente chegara ao fim, nao e mesmo?",
+      "expected": [
+        "certo?",
+        "nao e mesmo?"
+      ]
+    },
+    {
+      "text": "O time de futebol local perdeu mais uma partida no campeonato. A torcida esta decepcionada com o desempenho do time. Os jogadores nao demonstraram garra nem vontade de vencer. O tecnico precisa fazer mudancas urgentes na equipe. Eles nao estao jogando como um time, entende? A situacao e desesperadora para os torcedores. Ninguem esperava um desempenho tao ruim, ne?",
+      "expected": [
+        "entende?",
+        "ne?"
+      ]
+    },
+    {
+      "text": "A empresa anunciou um novo corte de funcionarios devido a crise economica. A medida foi recebida com protestos pelos trabalhadores. A empresa alega que nao ha outra saida para evitar a falencia. Eles estao priorizando os lucros acima das pessoas, nao e verdade? A situacao e critica para as familias que perderam seus empregos. A empresa nao se importa com o impacto social dessa decisao, nao e mesmo?",
+      "expected": [
+        "nao e verdade?",
+        "nao e mesmo?"
+      ]
+    },
+    {
+      "text": "O debate sobre a legalizacao do aborto continua acalorado no pais. Os defensores da legalizacao argumentam que as mulheres tem o direito de escolher sobre seus corpos. Os opositores alegam que o aborto e um assassinato. E uma questao de saude publica, nao e mesmo? As mulheres devem ter o direito de decidir sobre a propria vida. Este e um debate fundamental para a sociedade, nao e?",
+      "expected": [
+        "nao e mesmo?",
+        "nao e?"
+      ]
+    },
+    {
+      "text": "O aumento do desemprego preocupa as autoridades. A falta de oportunidades afeta principalmente os jovens. O governo precisa criar politicas para gerar empregos. Esta situacao e insustentavel a longo prazo, nao e verdade? A populacao esta perdendo a esperanca em um futuro melhor. Precisamos de acoes concretas para reverter essa tendencia, ne?",
+      "expected": [
+        "nao e verdade?",
+        "ne?"
+      ]
+    },
+    {
+      "text": "A nova lei de imigracao gerou polemica em todo o pais. Os defensores dos direitos humanos criticam a lei por ser discriminatoria. O governo alega que a lei e necessaria para proteger as fronteiras. E uma medida xenofobica e cruel, nao e mesmo? Os imigrantes contribuem para a economia do pais. Essa lei viola os direitos humanos, nao e?",
+      "expected": [
+        "nao e mesmo?",
+        "nao e?"
+      ]
+    },
+    {
+      "text": "A cidade enfrenta uma crise de falta d'agua. A populacao esta sofrendo com a falta de abastecimento. O governo precisa investir em infraestrutura para resolver o problema. A situacao e critica e exige medidas urgentes, nao e verdade? As pessoas estao desesperadas por agua potavel. Precisamos de uma solucao rapida para essa crise, ta?",
+      "expected": [
+        "nao e verdade?",
+        "ta?"
+      ]
+    },
+    {
+      "text": "O escandalo de corrupcao na Petrobras continua a render novas denuncias. A policia federal investiga o envolvimento de politicos e empresarios. O dinheiro desviado poderia ter sido usado para melhorar a saude e a educacao. E um crime contra o povo brasileiro, nao e mesmo? Os culpados precisam ser punidos exemplarmente. Ninguem deveria escapar da justica, certo?",
+      "expected": [
+        "nao e mesmo?",
+        "certo?"
+      ]
+    },
+    {
+      "text": "O tribunal considerou o reu culpado, como esperado. As provas eram esmagadoras, as testemunhas consistentes, e o proprio reu parecia saber que estava derrotado. A defesa apresentou um caso fraco e cheio de contradicoes. E evidente que a justica foi feita, nao e mesmo? Alem disso, o juiz fez um excelente trabalho ao garantir um julgamento justo. Esperamos que essa decisao traga algum conforto a familia da vitima. O sistema funciona, finalmente, concorda?",
+      "expected": [
+        "nao e mesmo?",
+        "concorda?"
+      ]
+    },
+    {
+      "text": "O novo plano economico do governo tem gerado muita polemica. Especialistas criticam as medidas como insuficientes e mal planejadas. O impacto na inflacao e incerto, mas muitos temem um aumento nos precos. E inegavel que o governo esta desesperado para reverter a crise, ne? As eleicoes se aproximam, e a popularidade do presidente esta em queda livre. Eles estao tentando de tudo para se manter no poder, ta ligado? Nao havera milagres, mas sim mais sofrimento para a populacao, nao e?",
+      "expected": [
+        "ne?",
+        "ta ligado?",
+        "nao e?"
+      ]
+    },
+    {
+      "text": "A manifestacao de ontem foi um sucesso, apesar da chuva. Milhares de pessoas foram as ruas protestar contra a corrupcao. Os organizadores estimam que mais de 50 mil pessoas compareceram. A policia usou gas lacrimogeneo para dispersar a multidao, mas os manifestantes permaneceram firmes. E um sinal claro de que a populacao esta insatisfeita, entende? Ninguem aguenta mais tanta impunidade e desmando. O povo brasileiro e forte e nao desiste, percebe? Essa luta por um pais melhor vai continuar.",
+      "expected": [
+        "entende?",
+        "percebe?"
+      ]
+    },
+    {
+      "text": "O jogador de futebol foi acusado de agressao pela ex-namorada. A noticia chocou o mundo do esporte. A vitima apresentou provas e testemunhas que corroboram sua versao dos fatos. E claro que ele e culpado, nao e? A fama e o dinheiro sobem a cabeca de muitos, e ele e mais um exemplo disso. A justica precisa ser feita, e ele precisa pagar pelo que fez, certo? O clube ja anunciou que vai afasta-lo do time ate o final das investigacoes.",
+      "expected": [
+        "nao e?",
+        "certo?"
+      ]
+    },
+    {
+      "text": "A empresa anunciou um novo corte de funcionarios. A medida visa reduzir custos e aumentar a lucratividade. Muitos trabalhadores perderao seus empregos, e suas familias enfrentarao dificuldades. E uma decisao cruel e desumana, nao e mesmo? O capitalismo selvagem so pensa no lucro, e as pessoas sao descartadas como lixo. Ninguem se importa com o sofrimento dos outros, concorda? A empresa continuara a lucrar as custas dos trabalhadores.",
+      "expected": [
+        "nao e mesmo?",
+        "concorda?"
+      ]
+    },
+    {
+      "text": "A pesquisa eleitoral mostra um empate tecnico entre os candidatos. A disputa esta acirrada, e cada voto conta. Os debates serao decisivos para influenciar a decisao dos eleitores. E evidente que a eleicao sera apertada, nao e verdade? A populacao esta dividida, e o futuro do pais esta em jogo. Vamos todos votar com consciencia, ne? A escolha e nossa, e precisamos fazer a escolha certa.",
+      "expected": [
+        "nao e verdade?",
+        "ne?"
+      ]
+    },
+    {
+      "text": "O aumento da violencia urbana preocupa a todos. Os assaltos e homicidios se tornaram rotina. A policia esta sobrecarregada e nao consegue conter a criminalidade. E inaceitavel que as pessoas vivam com medo, nao e? O governo precisa investir mais em seguranca publica e oferecer oportunidades para os jovens. A solucao nao e simples, mas e preciso agir com urgencia, entende?",
+      "expected": [
+        "nao e?",
+        "entende?"
+      ]
+    },
+    {
+      "text": "A nova lei ambiental gerou protestos dos agricultores. Eles alegam que a lei prejudica a producao e a economia. Os ambientalistas defendem a lei como essencial para proteger o meio ambiente. E obvio que os agricultores estao pensando apenas em seus lucros, nao e mesmo? Eles nao se importam com a devastacao da natureza. A lei precisa ser mantida para garantir um futuro sustentavel, certo?",
+      "expected": [
+        "nao e mesmo?",
+        "certo?"
+      ]
+    },
+    {
+      "text": "A investigacao sobre o esquema de corrupcao continua avancando. Novas provas e testemunhas surgiram. Os envolvidos podem ser presos e condenados. E justo que paguem pelos seus crimes, nao acha? A impunidade precisa acabar, e os corruptos precisam ser punidos. O Brasil precisa de um basta na corrupcao, hem?",
+      "expected": [
+        "nao acha?",
+        "hem?"
+      ]
+    },
+    {
+      "text": "A selecao brasileira perdeu o jogo de ontem. Os jogadores nao renderam o esperado. A torcida ficou decepcionada com o resultado. E claro que o tecnico precisa ser demitido, nao e? Ele nao sabe escalar o time e nao consegue motivar os jogadores. Precisamos de um novo tecnico para a Copa do Mundo, ta?",
+      "expected": [
+        "nao e?",
+        "ta?"
+      ]
+    },
+    {
+      "text": "A decisao do juiz foi surpreendente, mas certamente era esperada por alguns. Ele sempre demonstrou parcialidade em casos semelhantes. O advogado de defesa parecia confiante, apesar das evidencias. A acusacao apresentou um caso forte, nao e? A falta de um veredito imediato sugere que o jurado esta dividido. Esta claro que ha duvidas razoaveis, nao e mesmo? A midia tem acompanhado de perto cada desenvolvimento. Ninguem realmente esperava um resultado diferente, concorda? As consequencias desta decisao serao sentidas por toda a comunidade. O sistema judicial esta funcionando, aparentemente, entende?",
+      "expected": [
+        "nao e?",
+        "nao e mesmo?",
+        "concorda?",
+        "entende?"
+      ]
+    },
+    {
+      "text": "O politico continua a negar as acusacoes de corrupcao. Ele alega ser vitima de uma conspiracao politica. Suas declaracoes publicas sao frequentemente evasivas. As doacoes para sua campanha sao questionaveis, ne? A oposicao exige uma investigacao completa e transparente. A populacao esta cada vez mais descrente, viu? A credibilidade do governo esta em jogo. As proximas eleicoes serao um teste crucial. E tudo jogo sujo, nao e?",
+      "expected": [
+        "ne?",
+        "viu?",
+        "nao e?"
+      ]
+    },
+    {
+      "text": "A empresa anunciou um novo plano de reestruturacao para aumentar a lucratividade. Os cortes de custos serao significativos. Muitos funcionarios serao demitidos, sabe? A acao da empresa caiu apos o anuncio. Os investidores estao preocupados com o futuro da empresa. A gestao foi incompetente, nao foi? Os lucros diminuiram constantemente nos ultimos anos. Esta e apenas uma medida desesperada, nao e mesmo? Eles deveriam ter previsto esta crise, nao acha?",
+      "expected": [
+        "sabe?",
+        "nao foi?",
+        "nao e mesmo?",
+        "nao acha?"
+      ]
+    },
+    {
+      "text": "A violencia nas cidades tem aumentado constantemente. As autoridades estao lutando para controlar a situacao. A falta de recursos dificulta o trabalho da policia. As comunidades locais estao com medo, percebe? Os programas sociais sao insuficientes. Precisamos de solucoes mais eficazes, nao e? O governo prometeu agir, mas nada mudou. A seguranca publica e uma prioridade, nao e mesmo?",
+      "expected": [
+        "percebe?",
+        "nao e?",
+        "nao e mesmo?"
+      ]
+    },
+    {
+      "text": "O time perdeu o jogo de forma desastrosa. O ataque foi ineficiente e a defesa estava vulneravel. O treinador e o culpado, nao e? Os jogadores pareciam desmotivados. A torcida esta furiosa com o desempenho do time. Esta claro que algo precisa mudar, certo? A temporada esta em risco. Ninguem esperava uma derrota tao humilhante, esperava? O arbitro tambem ajudou, ta ligado?",
+      "expected": [
+        "nao e?",
+        "certo?",
+        "esperava?",
+        "ta ligado?"
+      ]
+    }
+  ]
+}

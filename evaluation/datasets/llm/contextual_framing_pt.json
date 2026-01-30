@@ -1,0 +1,297 @@
+{
+  "indicator": "contextual_framing",
+  "language": "pt",
+  "samples": [
+    {
+      "text": "Dado o crescente numero de casos de dengue na regiao, a prefeitura inevitavelmente decretara estado de emergencia. Apos anos de negligencia na saude publica, a situacao atual era previsivel. Considerando a falta de investimento em saneamento basico, e natural que a doenca se propague rapidamente. A luz das recentes descobertas cientificas, o tratamento experimental e a unica esperanca para os pacientes. Como resultado da crise economica, muitos hospitais enfrentam falta de recursos. O ministro da saude realizou uma conferencia de imprensa. Os jornalistas fizeram muitas perguntas. O tempo estava quente e umido. A campanha de vacinacao deve comecar em breve. Em um cenario de desconfianca na classe politica, as promessas de solucao sao recebidas com ceticismo. O governo federal anunciou medidas de apoio as familias afetadas.",
+      "expected": [
+        "Dado o crescente numero de casos de dengue na regiao, a prefeitura inevitavelmente decretara estado de emergencia.",
+        "Apos anos de negligencia na saude publica, a situacao atual era previsivel.",
+        "Considerando a falta de investimento em saneamento basico, e natural que a doenca se propague rapidamente.",
+        "A luz das recentes descobertas cientificas, o tratamento experimental e a unica esperanca para os pacientes.",
+        "Como resultado da crise economica, muitos hospitais enfrentam falta de recursos.",
+        "Em um cenario de desconfianca na classe politica, as promessas de solucao sao recebidas com ceticismo."
+      ]
+    },
+    {
+      "text": "Apos a divulgacao dos resultados das eleicoes, protestos violentos eclodiram na capital. Dado o historico de corrupcao do governo anterior, a vitoria do partido oposicionista era inevitavel. A luz das promessas de campanha, a populacao espera por mudancas significativas. Seguindo os recentes escandalos, a credibilidade das instituicoes politicas esta em baixa. Considerando a polarizacao ideologica, o dialogo entre os partidos se torna cada vez mais dificil. As ruas estavam lotadas de manifestantes. A policia usou gas lacrimogeneo. O candidato derrotado nao se pronunciou. Em um ambiente de crescente tensao social, qualquer faísca pode acender um conflito maior. A violencia nas ruas e preocupante. As autoridades pedem calma a populacao.",
+      "expected": [
+        "Dado o historico de corrupcao do governo anterior, a vitoria do partido oposicionista era inevitavel.",
+        "A luz das promessas de campanha, a populacao espera por mudancas significativas.",
+        "Seguindo os recentes escandalos, a credibilidade das instituicoes politicas esta em baixa.",
+        "Considerando a polarizacao ideologica, o dialogo entre os partidos se torna cada vez mais dificil.",
+        "Em um ambiente de crescente tensao social, qualquer faísca pode acender um conflito maior."
+      ]
+    },
+    {
+      "text": "Considerando a atual taxa de juros, o investimento em imoveis nao e uma boa opcao. Dado o aumento do desemprego, a economia brasileira enfrenta um momento delicado. A luz dos recentes dados do IBGE, a inflacao continua sendo uma preocupacao. Como resultado da guerra na Ucrania, os precos dos combustiveis dispararam. Apos a alta do dolar, as empresas importadoras enfrentam dificuldades. O Banco Central se reuniu para discutir a politica monetaria. Os economistas estao preocupados com a recessao. As acoes da Petrobras cairam na Bolsa de Valores. Em um cenario de incertezas, e importante diversificar os investimentos. O governo anunciou medidas para estimular a economia.",
+      "expected": [
+        "Considerando a atual taxa de juros, o investimento em imoveis nao e uma boa opcao.",
+        "Dado o aumento do desemprego, a economia brasileira enfrenta um momento delicado.",
+        "A luz dos recentes dados do IBGE, a inflacao continua sendo uma preocupacao.",
+        "Como resultado da guerra na Ucrania, os precos dos combustiveis dispararam.",
+        "Apos a alta do dolar, as empresas importadoras enfrentam dificuldades.",
+        "Em um cenario de incertezas, e importante diversificar os investimentos."
+      ]
+    },
+    {
+      "text": "Apos a derrota humilhante para o rival, o tecnico foi demitido. Dado o baixo desempenho do time, a troca de comando era inevitavel. A luz das criticas da torcida, a diretoria decidiu agir rapidamente. Considerando o alto salario do jogador, sua atuacao tem sido decepcionante. Como resultado da crise financeira, o clube enfrenta dificuldades para contratar reforcos. O jogo comecou as 16h. A torcida compareceu em peso ao estadio. O arbitro marcou um penalti polemico. Em um ambiente de alta competitividade, a pressao sobre os jogadores e enorme. O time precisa vencer para se classificar para a libertadores.",
+      "expected": [
+        "Dado o baixo desempenho do time, a troca de comando era inevitavel.",
+        "A luz das criticas da torcida, a diretoria decidiu agir rapidamente.",
+        "Considerando o alto salario do jogador, sua atuacao tem sido decepcionante.",
+        "Como resultado da crise financeira, o clube enfrenta dificuldades para contratar reforcos.",
+        "Em um ambiente de alta competitividade, a pressao sobre os jogadores e enorme."
+      ]
+    },
+    {
+      "text": "Considerando a natureza do crime, a pena deveria ser mais severa. Dado que o reu confessou o crime, nao ha duvida sobre sua culpabilidade. A luz das provas apresentadas, a condenacao e inevitavel. Apos a leitura da sentenca, a familia da vitima se emocionou. Como resultado da violencia, a comunidade esta revoltada. O juiz presidiu a audiencia. O advogado de defesa apresentou sua tese. O promotor pediu a condenacao maxima. Em um sistema judicial falho, a impunidade e frequente. A justica precisa ser feita para confortar a familia da vitima.",
+      "expected": [
+        "Considerando a natureza do crime, a pena deveria ser mais severa.",
+        "Dado que o reu confessou o crime, nao ha duvida sobre sua culpabilidade.",
+        "A luz das provas apresentadas, a condenacao e inevitavel.",
+        "Como resultado da violencia, a comunidade esta revoltada.",
+        "Em um sistema judicial falho, a impunidade e frequente."
+      ]
+    },
+    {
+      "text": "Dado o seu comportamento inadequado, a professora mereceu ser punida. A luz das constantes reclamacoes dos alunos, sua reputacao estava comprometida. Considerando sua falta de preparo, o desempenho dos alunos piorou consideravelmente. Como resultado da negligencia, varios alunos foram prejudicados. Apos a reuniao com os pais, a escola decidiu tomar medidas disciplinares. Os pais estavam revoltados. A diretora tentou acalmar a situacao. A professora se defendeu das acusacoes. Em um ambiente escolar fragilizado, a confianca entre alunos e professores se perdeu. A educacao e fundamental para o futuro do pais.",
+      "expected": [
+        "Dado o seu comportamento inadequado, a professora mereceu ser punida.",
+        "A luz das constantes reclamacoes dos alunos, sua reputacao estava comprometida.",
+        "Considerando sua falta de preparo, o desempenho dos alunos piorou consideravelmente.",
+        "Como resultado da negligencia, varios alunos foram prejudicados.",
+        "Em um ambiente escolar fragilizado, a confianca entre alunos e professores se perdeu."
+      ]
+    },
+    {
+      "text": "Considerando que ele ja tinha antecedentes criminais, e claro que ele repetiria o crime. Dado seu passado sombrio, nao havia esperanca para ele. A luz de seus erros, sua vida estava fadada ao fracasso. Apos ser libertado da prisao, ele voltou a cometer delitos. Como resultado da falta de oportunidades, ele se envolveu com o crime novamente. Ele foi preso em flagrante. A policia estava investigando o caso. A comunidade estava com medo. Em um cenario de violencia, a seguranca e fundamental. A sociedade precisa oferecer oportunidades para quem quer mudar de vida.",
+      "expected": [
+        "Considerando que ele ja tinha antecedentes criminais, e claro que ele repetiria o crime.",
+        "Dado seu passado sombrio, nao havia esperanca para ele.",
+        "A luz de seus erros, sua vida estava fadada ao fracasso.",
+        "Como resultado da falta de oportunidades, ele se envolveu com o crime novamente.",
+        "Em um cenario de violencia, a seguranca e fundamental."
+      ]
+    },
+    {
+      "text": "Considerando a corrupcao generalizada no pais, e obvio que as eleicoes seriam manipuladas. Dado o controle da midia pelo governo, a oposicao nao tinha chance de vencer. A luz do historico de fraudes eleitorais, a legitimidade do resultado e questionavel. Apos a divulgacao dos resultados, manifestantes foram as ruas protestar. Como resultado da repressao policial, varios manifestantes foram presos. Os observadores internacionais expressaram preocupacao. O governo nega as acusacoes. A situacao politica e tensa. Em um regime autoritario, a liberdade de expressao e cerceada. A democracia precisa ser defendida.",
+      "expected": [
+        "Considerando a corrupcao generalizada no pais, e obvio que as eleicoes seriam manipuladas.",
+        "Dado o controle da midia pelo governo, a oposicao nao tinha chance de vencer.",
+        "A luz do historico de fraudes eleitorais, a legitimidade do resultado e questionavel.",
+        "Como resultado da repressao policial, varios manifestantes foram presos.",
+        "Em um regime autoritario, a liberdade de expressao e cerceada."
+      ]
+    },
+    {
+      "text": "Considerando a falta de educacao ambiental, a destruicao da floresta amazonica e inevitavel. Dado o desinteresse do governo em proteger o meio ambiente, a situacao so tende a piorar. A luz dos relatorios cientificos, as mudancas climaticas representam uma ameaca seria. Apos anos de exploracao ilegal, a floresta esta devastada. Como resultado da ganancia humana, a biodiversidade esta em risco. Os indigenas lutam pela preservacao da floresta. As ONGs denunciam a devastacao. O governo promete combater o desmatamento. Em um cenario de emergencia climatica, e urgente proteger a floresta amazonica. O futuro do planeta depende da preservacao do meio ambiente.",
+      "expected": [
+        "Considerando a falta de educacao ambiental, a destruicao da floresta amazonica e inevitavel.",
+        "Dado o desinteresse do governo em proteger o meio ambiente, a situacao so tende a piorar.",
+        "A luz dos relatorios cientificos, as mudancas climaticas representam uma ameaca seria.",
+        "Apos anos de exploracao ilegal, a floresta esta devastada.",
+        "Como resultado da ganancia humana, a biodiversidade esta em risco.",
+        "Em um cenario de emergencia climatica, e urgente proteger a floresta amazonica."
+      ]
+    },
+    {
+      "text": "Dado o aumento constante da inflação, o governo inevitavelmente enfrentará protestos nas próximas semanas. Após a divulgação dos resultados trimestrais desanimadores, a empresa inevitavelmente anunciará cortes de pessoal. A luz dos escândalos de corrupção, a credibilidade do político está irremediavelmente comprometida. Com o aumento da criminalidade na área, os moradores estão comprensivelmente alarmados. Considerando a falta de investimento em infraestrutura, o desenvolvimento econômico da região está inevitavelmente estagnado. A festa foi maravilhosa. O bolo estava delicioso. O discurso do orador foi muito longo. Após anos de negligência, o sistema de saúde pública está à beira do colapso. Tendo em conta os relatórios climáticos alarmantes, medidas urgentes são imperativas. Devido à escassez de água, a agricultura na região está em risco.",
+      "expected": [
+        "Dado o aumento constante da inflação, o governo inevitavelmente enfrentará protestos nas próximas semanas.",
+        "Após a divulgação dos resultados trimestrais desanimadores, a empresa inevitavelmente anunciará cortes de pessoal.",
+        "A luz dos escândalos de corrupção, a credibilidade do político está irremediavelmente comprometida.",
+        "Com o aumento da criminalidade na área, os moradores estão comprensivelmente alarmados.",
+        "Considerando a falta de investimento em infraestrutura, o desenvolvimento econômico da região está inevitavelmente estagnado.",
+        "Após anos de negligência, o sistema de saúde pública está à beira do colapso.",
+        "Tendo em conta os relatórios climáticos alarmantes, medidas urgentes são imperativas.",
+        "Devido à escassez de água, a agricultura na região está em risco."
+      ]
+    },
+    {
+      "text": "Considerando o histórico de promessas não cumpridas, a população está cética quanto às novas propostas do governo. Após a aprovação da lei controversa, protestos generalizados são inevitáveis. A luz das evidências apresentadas, a culpa do réu é inegável. Com a crescente polarização política, o diálogo construtivo parece impossível. Dado o impacto devastador da pandemia, a recuperação econômica será lenta e dolorosa. A cidade estava cheia de turistas. O museu estava fechado para reformas. O clima na conferência era tenso. Após anos de estudo, ela finalmente se formou em medicina. Uma vez que o acordo foi assinado, a paz era inevitável. Devido à sua reputação, ninguém confiava nele.",
+      "expected": [
+        "Considerando o histórico de promessas não cumpridas, a população está cética quanto às novas propostas do governo.",
+        "Após a aprovação da lei controversa, protestos generalizados são inevitáveis.",
+        "A luz das evidências apresentadas, a culpa do réu é inegável.",
+        "Com a crescente polarização política, o diálogo construtivo parece impossível.",
+        "Dado o impacto devastador da pandemia, a recuperação econômica será lenta e dolorosa.",
+        "Após anos de estudo, ela finalmente se formou em medicina.",
+        "Uma vez que o acordo foi assinado, a paz era inevitável.",
+        "Devido à sua reputação, ninguém confiava nele."
+      ]
+    },
+    {
+      "text": "Dado o apoio maciço da base eleitoral, a reeleição do presidente é praticamente certa. Apos as revelacoes chocantes, o escandalo provavelmente ira derrubar o governo. A luz do aumento das taxas de juros, o mercado imobiliario esta destinado a sofrer uma correcao. Com a crescente tensao geopolitica, uma guerra regional parece inevitavel. Considerando a falta de fiscalizacao, a corrupcao continuara desenfreada. O dia estava quente e ensolarado. O carro era novo e brilhante. O gato dormia no sofa. Apos anos de pesquisa, a cientista finalmente fez uma descoberta inovadora. Seguindo o exemplo dos outros pais, ela tambem matriculou seu filho na escola particular. Devido a sua persistencia, ele conseguiu realizar seu sonho.",
+      "expected": [
+        "Dado o apoio maciço da base eleitoral, a reeleição do presidente é praticamente certa.",
+        "Apos as revelacoes chocantes, o escandalo provavelmente ira derrubar o governo.",
+        "A luz do aumento das taxas de juros, o mercado imobiliario esta destinado a sofrer uma correcao.",
+        "Com a crescente tensao geopolitica, uma guerra regional parece inevitavel.",
+        "Considerando a falta de fiscalizacao, a corrupcao continuara desenfreada.",
+        "Seguindo o exemplo dos outros pais, ela tambem matriculou seu filho na escola particular.",
+        "Devido a sua persistencia, ele conseguiu realizar seu sonho."
+      ]
+    },
+    {
+      "text": "Dado o histórico de desastres ambientais, as mineradoras são intrinsecamente perigosas para a região. Após o fracasso das negociações, uma greve geral é inevitável. À luz das políticas controversas, o partido enfrentará uma debandada de eleitores. Com o aumento da desigualdade social, a violência urbana se tornará mais frequente. Considerando o conservadorismo da região, a aprovação da lei será surpreendente. A menina gostava de brincar no parque. O homem carregava um guarda-chuva preto. O restaurante era famoso pela sua feijoada. Após a longa viagem, chegaram exaustos. Uma vez que a vacina foi aprovada, a vida voltaria ao normal. Devido à sua influência, ele conseguiu o emprego.",
+      "expected": [
+        "Dado o histórico de desastres ambientais, as mineradoras são intrinsecamente perigosas para a região.",
+        "Após o fracasso das negociações, uma greve geral é inevitável.",
+        "À luz das políticas controversas, o partido enfrentará uma debandada de eleitores.",
+        "Com o aumento da desigualdade social, a violência urbana se tornará mais frequente.",
+        "Considerando o conservadorismo da região, a aprovação da lei será surpreendente.",
+        "Uma vez que a vacina foi aprovada, a vida voltaria ao normal.",
+        "Devido à sua influência, ele conseguiu o emprego."
+      ]
+    },
+    {
+      "text": "Dado o declínio na qualidade da educação, o futuro do país está comprometido. Após a decisão judicial, a empresa deverá enfrentar inúmeros processos. À luz da crise econômica, as famílias terão dificuldades em pagar suas contas. Com a ascensão das mídias sociais, a desinformação se espalhará rapidamente. Considerando os resultados negativos do estudo, a droga deverá ser retirada do mercado. O passarinho cantava alegremente na janela. O livro contava uma história emocionante. O café estava quente e saboroso. Após o longo inverno, a primavera finalmente chegou. Uma vez que ele assumiu o poder, a ditadura foi inevitável. Devido à sua falta de experiência, ele foi demitido.",
+      "expected": [
+        "Dado o declínio na qualidade da educação, o futuro do país está comprometido.",
+        "Após a decisão judicial, a empresa deverá enfrentar inúmeros processos.",
+        "À luz da crise econômica, as famílias terão dificuldades em pagar suas contas.",
+        "Com a ascensão das mídias sociais, a desinformação se espalhará rapidamente.",
+        "Considerando os resultados negativos do estudo, a droga deverá ser retirada do mercado.",
+        "Uma vez que ele assumiu o poder, a ditadura foi inevitável.",
+        "Devido à sua falta de experiência, ele foi demitido."
+      ]
+    },
+    {
+      "text": "Dado que o réu já possui antecedentes criminais, a sentença será mais severa. Após a divulgação do relatório, o ministro certamente será questionado. À luz das novas evidências, a investigação deverá ser reaberta. Com a pressão da opinião pública, o parlamento aprovará a lei. Considerando os altos custos de vida, os jovens deixarão a cidade. O sol brilhava forte no céu azul. O jardim estava florido e colorido. O relógio marcava exatamente seis horas. Uma vez que os protestos comecaram, a queda do governo tornou-se previsível. Devido a sua fama, ele não conseguia andar na rua sem ser reconhecido. Devido à sua má gestão, a empresa faliu.",
+      "expected": [
+        "Dado que o réu já possui antecedentes criminais, a sentença será mais severa.",
+        "Após a divulgação do relatório, o ministro certamente será questionado.",
+        "À luz das novas evidências, a investigação deverá ser reaberta.",
+        "Com a pressão da opinião pública, o parlamento aprovará a lei.",
+        "Considerando os altos custos de vida, os jovens deixarão a cidade.",
+        "Uma vez que os protestos comecaram, a queda do governo tornou-se previsível.",
+        "Devido a sua fama, ele não conseguia andar na rua sem ser reconhecido.",
+        "Devido à sua má gestão, a empresa faliu."
+      ]
+    },
+    {
+      "text": "Considerando a fragilidade da economia global, a recessão é inevitável. Após a contagem dos votos, a vitória do candidato será confirmada. À luz das alegações de fraude, a eleição deverá ser anulada. Com o aumento da temperatura global, os desastres naturais serão mais frequentes. Dado o histórico de corrupção, o novo governo não será diferente. A menina estava aprendendo a andar de bicicleta. O carro parou no semáforo vermelho. O livro estava cheio de ilustrações. Seguindo as regras do jogo, ele ganhou a partida. Uma vez que o contrato foi assinado, o trabalho deveria começar. Devido a sua teimosia, ele nunca reconheceria seus erros.",
+      "expected": [
+        "Considerando a fragilidade da economia global, a recessão é inevitável.",
+        "Após a contagem dos votos, a vitória do candidato será confirmada.",
+        "À luz das alegações de fraude, a eleição deverá ser anulada.",
+        "Com o aumento da temperatura global, os desastres naturais serão mais frequentes.",
+        "Dado o histórico de corrupção, o novo governo não será diferente.",
+        "Seguindo as regras do jogo, ele ganhou a partida.",
+        "Uma vez que o contrato foi assinado, o trabalho deveria começar.",
+        "Devido a sua teimosia, ele nunca reconheceria seus erros."
+      ]
+    },
+    {
+      "text": "Considerando a natureza autoritária do regime, a liberdade de expressão é inexistente. Apos a divulgacao dos documentos secretos, a verdade virá à tona. A luz das declarações do denunciante, o escândalo é ainda maior do que se imaginava. Com o apoio da mídia, a campanha de difamação surtirá efeito. Dado o crescente descontentamento popular, uma revolução é iminente. O menino estava lendo um livro interessante. O tempo estava chuvoso e frio. O apartamento era pequeno, mas aconchegante. Depois de tantos anos de trabalho duro, ele finalmente se aposentou. Devido a sua timidez, ela não conseguia falar em público. Tendo em vista a gravidade da situação, é preciso agir rapidamente.",
+      "expected": [
+        "Considerando a natureza autoritária do regime, a liberdade de expressão é inexistente.",
+        "Apos a divulgacao dos documentos secretos, a verdade virá à tona.",
+        "A luz das declarações do denunciante, o escândalo é ainda maior do que se imaginava.",
+        "Com o apoio da mídia, a campanha de difamação surtirá efeito.",
+        "Dado o crescente descontentamento popular, uma revolução é iminente.",
+        "Depois de tantos anos de trabalho duro, ele finalmente se aposentou.",
+        "Devido a sua timidez, ela não conseguia falar em público.",
+        "Tendo em vista a gravidade da situação, é preciso agir rapidamente."
+      ]
+    },
+    {
+      "text": "Considerando o baixo nível de escolaridade da população, o país não conseguirá se desenvolver. Após a implementação das novas medidas, o desemprego aumentará. À luz da crise energética, a indústria sofrerá perdas significativas. Com a falta de investimentos em tecnologia, o país perderá competitividade. Dado o aumento da inflação, o poder de compra da população diminuirá. O pássaro voava livremente pelo céu. A flor exalava um perfume doce. O café estava quente e saboroso. Seguindo as instruções do manual, ele montou o móvel. Devido a sua ambição, ele alcançará seus objetivos. Tendo em conta as dificuldades financeiras, é preciso economizar.",
+      "expected": [
+        "Considerando o baixo nível de escolaridade da população, o país não conseguirá se desenvolver.",
+        "Após a implementação das novas medidas, o desemprego aumentará.",
+        "À luz da crise energética, a indústria sofrerá perdas significativas.",
+        "Com a falta de investimentos em tecnologia, o país perderá competitividade.",
+        "Dado o aumento da inflação, o poder de compra da população diminuirá.",
+        "Seguindo as instruções do manual, ele montou o móvel.",
+        "Devido a sua ambição, ele alcançará seus objetivos.",
+        "Tendo em conta as dificuldades financeiras, é preciso economizar."
+      ]
+    },
+    {
+      "text": "Dado que os hospitais estão sobrecarregados, mais pessoas irão morrer. Apos a aprovacao da reforma previdenciaria, os trabalhadores terão que trabalhar mais anos. A luz da politizacao da pandemia, a confianca nas autoridades de saude diminuiu. Com o aumento da desigualdade, mais pessoas viverão em extrema pobreza. Considerando a ineficacia das políticas públicas, a situação não melhorará. O dia estava nublado e frio. A rua estava deserta e silenciosa. O livro estava empoeirado e esquecido. Seguindo os conselhos dos especialistas, a empresa reestruturou suas operações. Devido a sua arrogância, ele perdeu o respeito dos colegas. Partindo do princípio que a empresa é honesta, os resultados serão positivos.",
+      "expected": [
+        "Dado que os hospitais estão sobrecarregados, mais pessoas irão morrer.",
+        "Apos a aprovacao da reforma previdenciaria, os trabalhadores terão que trabalhar mais anos.",
+        "A luz da politizacao da pandemia, a confianca nas autoridades de saude diminuiu.",
+        "Com o aumento da desigualdade, mais pessoas viverão em extrema pobreza.",
+        "Considerando a ineficacia das políticas públicas, a situação não melhorará.",
+        "Seguindo os conselhos dos especialistas, a empresa reestruturou suas operações.",
+        "Devido a sua arrogância, ele perdeu o respeito dos colegas.",
+        "Partindo do princípio que a empresa é honesta, os resultados serão positivos."
+      ]
+    },
+    {
+      "text": "Dado o aumento constante da inflação, o governo se vê pressionado a tomar medidas drásticas. Apos a divulgação dos dados do desemprego, a oposição intensificou as críticas à política econômica. Com a aproximação das eleições, o clima político se torna cada vez mais tenso. Considerando o histórico de corrupção, a população demonstra ceticismo em relação às promessas dos candidatos. A luz dos recentes escândalos, a credibilidade do partido governista está em xeque. A reunião de ontem foi longa e cansativa. A chuva forte causou alagamentos em diversas áreas da cidade. O preço dos combustíveis subiu novamente. Partindo do princípio de que todos são iguais perante a lei, a sentença branda para o réu causou indignação. Tendo em mente os desafios da economia global, o país precisa buscar alternativas para garantir o crescimento sustentável. O sol da manha brilhava forte na cidade. A noite caiu rapidamente.",
+      "expected": [
+        "Dado o aumento constante da inflação, o governo se vê pressionado a tomar medidas drásticas.",
+        "Apos a divulgação dos dados do desemprego, a oposição intensificou as críticas à política econômica.",
+        "Com a aproximação das eleições, o clima político se torna cada vez mais tenso.",
+        "Considerando o histórico de corrupção, a população demonstra ceticismo em relação às promessas dos candidatos.",
+        "A luz dos recentes escândalos, a credibilidade do partido governista está em xeque.",
+        "Partindo do princípio de que todos são iguais perante a lei, a sentença branda para o réu causou indignação.",
+        "Tendo em mente os desafios da economia global, o país precisa buscar alternativas para garantir o crescimento sustentável."
+      ]
+    },
+    {
+      "text": "Apos o depoimento da testemunha, a defesa alegou inconsistências no caso. Dado o histórico familiar do acusado, a promotoria argumenta que ele tinha propensão à violência. Com a falta de provas concretas, a condenação parece improvável. Considerando a pressão popular, o juiz se viu obrigado a endurecer a pena. A luz das evidências apresentadas, a culpa do réu é inegável. O advogado de defesa preparou um recurso. O promotor era conhecido por sua retórica inflamada. O tempo estava nublado no dia do julgamento. Uma vez que o sistema prisional não oferece oportunidades de ressocialização, a reincidência é quase certa. Seguindo a orientação dos seus superiores, os policias efetuaram a prisao. O ceu estava azul, e os passaros cantavam. O cafe estava quente.",
+      "expected": [
+        "Apos o depoimento da testemunha, a defesa alegou inconsistências no caso.",
+        "Dado o histórico familiar do acusado, a promotoria argumenta que ele tinha propensão à violência.",
+        "Com a falta de provas concretas, a condenação parece improvável.",
+        "Considerando a pressão popular, o juiz se viu obrigado a endurecer a pena.",
+        "A luz das evidências apresentadas, a culpa do réu é inegável.",
+        "Uma vez que o sistema prisional não oferece oportunidades de ressocialização, a reincidência é quase certa.",
+        "Seguindo a orientação dos seus superiores, os policias efetuaram a prisao."
+      ]
+    },
+    {
+      "text": "Apos o aumento das taxas de juros, o mercado imobiliário enfrenta um período de incertezas. Dado o cenário econômico global, os investidores buscam alternativas mais seguras. Com a alta do dólar, as empresas exportadoras se beneficiam, mas as importadoras sofrem. Considerando a inflação persistente, o poder de compra da população diminui. A luz dos balanços divulgados, algumas empresas apresentam resultados positivos, enquanto outras enfrentam dificuldades. O novo imposto foi alvo de protestos. As ações da empresa subiram após o anúncio. Uma vez que a política econômica não apresenta mudanças significativas, a expectativa é de estagnação. Tendo em vista a crise energética, o governo precisa investir em fontes renováveis. O relatório foi cuidadosamente analisado pelos especialistas. O vento soprava forte nas ruas da cidade.",
+      "expected": [
+        "Apos o aumento das taxas de juros, o mercado imobiliário enfrenta um período de incertezas.",
+        "Dado o cenário econômico global, os investidores buscam alternativas mais seguras.",
+        "Com a alta do dólar, as empresas exportadoras se beneficiam, mas as importadoras sofrem.",
+        "Considerando a inflação persistente, o poder de compra da população diminui.",
+        "A luz dos balanços divulgados, algumas empresas apresentam resultados positivos, enquanto outras enfrentam dificuldades.",
+        "Uma vez que a política econômica não apresenta mudanças significativas, a expectativa é de estagnação.",
+        "Tendo em vista a crise energética, o governo precisa investir em fontes renováveis."
+      ]
+    },
+    {
+      "text": "Apos a derrota no clássico, a torcida organizada invadiu o centro de treinamento. Dado o fraco desempenho do time, o técnico foi demitido. Com a contusão do craque, as chances de vitória diminuem drasticamente. Considerando o histórico de violência nos estádios, medidas de segurança foram reforçadas. A luz das últimas atuações, a renovação do contrato do jogador é questionável. O jogo começou com muita expectativa. A arbitragem foi muito criticada. Uma vez que o clube não investe na base, o futuro é incerto. Tendo em mente a importância da partida, a escalação surpreendeu a todos. O time precisa de um novo patrocinador. A água estava fria na piscina.",
+      "expected": [
+        "Apos a derrota no clássico, a torcida organizada invadiu o centro de treinamento.",
+        "Dado o fraco desempenho do time, o técnico foi demitido.",
+        "Com a contusão do craque, as chances de vitória diminuem drasticamente.",
+        "Considerando o histórico de violência nos estádios, medidas de segurança foram reforçadas.",
+        "A luz das últimas atuações, a renovação do contrato do jogador é questionável.",
+        "Uma vez que o clube não investe na base, o futuro é incerto.",
+        "Tendo em mente a importância da partida, a escalação surpreendeu a todos."
+      ]
+    },
+    {
+      "text": "Dado o aumento da polarização, o debate político se torna cada vez mais agressivo. Apos a divulgação das fake news, a confiança nas instituições diminui. Com a disseminação do discurso de ódio, a violência online aumenta. Considerando a falta de educação política, a população se torna mais vulnerável à manipulação. A luz dos últimos acontecimentos, a democracia está em risco. A manifestação foi pacífica. O protesto reuniu milhares de pessoas. Seguindo as orientações da cartilha, a imprensa se manteve imparcial. Tendo em vista a importância do diálogo, é fundamental promover o debate construtivo. A reportagem foi bem elaborada. Os jovens estavam animados com o futuro.",
+      "expected": [
+        "Dado o aumento da polarização, o debate político se torna cada vez mais agressivo.",
+        "Apos a divulgação das fake news, a confiança nas instituições diminui.",
+        "Com a disseminação do discurso de ódio, a violência online aumenta.",
+        "Considerando a falta de educação política, a população se torna mais vulnerável à manipulação.",
+        "A luz dos últimos acontecimentos, a democracia está em risco.",
+        "Tendo em vista a importância do diálogo, é fundamental promover o debate construtivo."
+      ]
+    },
+    {
+      "text": "Dado o histórico de impunidade, os criminosos se sentem à vontade para cometer novos delitos. Apos a falha na segurança, a empresa foi multada. Com a omissão das autoridades, a situação se agrava. Considerando a falta de recursos, a polícia enfrenta dificuldades para combater o crime. A luz dos relatos das vítimas, a violência é generalizada. O bairro era tranquilo. A rua estava mal iluminada. Partindo do pressuposto de que todos são inocentes até que se prove o contrário, a prisão preventiva é injustificável. Tendo em mente a necessidade de proteger a sociedade, medidas mais rigorosas são necessárias. O investigador era experiente. O caso foi complexo.",
+      "expected": [
+        "Dado o histórico de impunidade, os criminosos se sentem à vontade para cometer novos delitos.",
+        "Apos a falha na segurança, a empresa foi multada.",
+        "Com a omissão das autoridades, a situação se agrava.",
+        "Considerando a falta de recursos, a polícia enfrenta dificuldades para combater o crime.",
+        "A luz dos relatos das vítimas, a violência é generalizada.",
+        "Partindo do pressuposto de que todos são inocentes até que se prove o contrário, a prisão preventiva é injustificável.",
+        "Tendo em mente a necessidade de proteger a sociedade, medidas mais rigorosas são necessárias."
+      ]
+    }
+  ]
+}

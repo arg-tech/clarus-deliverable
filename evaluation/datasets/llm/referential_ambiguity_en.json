@@ -1,0 +1,247 @@
+{
+  "indicator": "referential_ambiguity",
+  "language": "en",
+  "samples": [
+    {
+      "text": "The proposed development project has divided the community. Many residents support the new jobs it promises, while others express concerns about environmental impact. Those people are always complaining about something. They never seem to understand the benefits of progress. Local leaders insist that all environmental regulations will be strictly followed. People like them just want to halt any kind of development. Public hearings are scheduled for next week. They will surely try to disrupt the proceedings. The mayor remains optimistic about finding common ground.",
+      "expected": [
+        "Those people",
+        "They",
+        "People like them",
+        "They"
+      ]
+    },
+    {
+      "text": "The recent increase in petty crime has sparked debate about the root causes. Police officials attribute it to economic hardship. Some community activists, however, point to systemic issues. That type is always trying to blame someone else. They refuse to take personal responsibility. Local businesses have increased security measures. Everyone knows that they are just trying to stir up trouble. City council members are considering new initiatives. Those from outside the community exacerbate the situation.",
+      "expected": [
+        "That type",
+        "They",
+        "Everyone knows",
+        "Those from outside"
+      ]
+    },
+    {
+      "text": "The company's quarterly earnings report revealed disappointing results. Investors are growing increasingly concerned about the company's future prospects. They are starting to lose faith in the CEO's leadership. Sources claim that the CEO is considering a major restructuring. Everyone says that they are lining their own pockets. The board of directors is scheduled to meet next week. Those executives are probably getting bonuses anyway. These rumors are unsubstantiated and could be harmful to the company's reputation.",
+      "expected": [
+        "They",
+        "Sources claim",
+        "Everyone says",
+        "Those executives"
+      ]
+    },
+    {
+      "text": "The debate over immigration policy continues to dominate the political landscape. Supporters argue that immigrants contribute to the economy and enrich society. Opponents, however, raise concerns about border security and resource allocation. People like them don't understand our country. They take our jobs and resources. Current immigration laws are under review. Outsiders always try to undermine the system. Policymakers face a complex challenge.",
+      "expected": [
+        "People like them",
+        "They",
+        "Outsiders"
+      ]
+    },
+    {
+      "text": "The mayor announced a new initiative to address homelessness in the city. The plan includes expanding shelter capacity and providing job training programs. Some critics argue that the plan is insufficient. They claim that it doesn't address the underlying causes of homelessness. The city council is expected to vote on the proposal next week. Those people are probably just drug addicts and criminals. They are a drain on society, everyone knows it.",
+      "expected": [
+        "They",
+        "Those people",
+        "They",
+        "everyone knows it"
+      ]
+    },
+    {
+      "text": "The trial of the accused murderer has captivated the nation. The prosecution presented compelling evidence linking the defendant to the crime. The defense argued that the evidence was circumstantial. They just want to railroad him. The judge instructed the jury to consider all the evidence carefully. People say he is a sociopath. Those jurors need to consider all the facts. They should give him the death penalty.",
+      "expected": [
+        "They",
+        "People say",
+        "Those jurors",
+        "They"
+      ]
+    },
+    {
+      "text": "The city council is considering a proposal to build a new sports stadium. Supporters argue that the stadium would boost the local economy and create jobs. Opponents, however, express concerns about the cost to taxpayers. Those people don't care about the community. They just want to profit from the project. The council is scheduled to vote on the proposal next week. Everyone knows they have ulterior motives. The public is divided on the issue.",
+      "expected": [
+        "Those people",
+        "They",
+        "Everyone knows"
+      ]
+    },
+    {
+      "text": "The ongoing labor dispute at the factory has disrupted production. Union leaders are demanding higher wages and better benefits. Management insists that the company cannot afford to meet the union's demands. They are being unreasonable. People like them always try to take advantage. Negotiators are working to find a compromise. Outsiders are making things more difficult.",
+      "expected": [
+        "They",
+        "People like them",
+        "Outsiders"
+      ]
+    },
+    {
+      "text": "The debate over climate change continues to rage on. Scientists warn about the dire consequences of inaction. Skeptics dismiss the scientific consensus as alarmist. Those people are just trying to control us. They want to impose their agenda on everyone. Policymakers struggle to find common ground. That type refuses to listen to reason.",
+      "expected": [
+        "Those people",
+        "They",
+        "That type"
+      ]
+    },
+    {
+      "text": "The controversy surrounding the new school curriculum has divided parents. Some parents support the changes, arguing that they are necessary to prepare students for the future. Other parents, however, object to the changes, arguing that they undermine traditional values. They are trying to indoctrinate our children. People like them want to destroy our way of life. School board members are facing intense pressure from both sides. Those radicals will stop at nothing.",
+      "expected": [
+        "They",
+        "People like them",
+        "Those radicals"
+      ]
+    },
+    {
+      "text": "The city council meeting was heated, with discussions focused on the proposed zoning changes. Many residents voiced their concerns about increased traffic and decreased property values. Those people from the development firm, however, presented a different perspective, emphasizing economic growth. They seem to only care about profit, according to several attendees. A vote is scheduled for next week. People like them are ruining this town. The mayor declined to comment after the meeting, citing ongoing negotiations. They never cooperate with the residents.",
+      "expected": [
+        "Those people",
+        "They",
+        "People like them",
+        "They"
+      ]
+    },
+    {
+      "text": "The recent crime wave has left many residents feeling unsafe. Police reports indicate a spike in burglaries and vandalism. Some community leaders attribute the rise in crime to outsiders who have recently moved into the area. They are said to be involved in petty theft. The police are stepping up patrols in the affected neighborhoods. Everyone knows what they're like, bringing drugs into our town. The district attorney promised to prosecute offenders to the fullest extent of the law. That type always causes trouble.",
+      "expected": [
+        "outsiders",
+        "They",
+        "Everyone knows",
+        "That type"
+      ]
+    },
+    {
+      "text": "The company's stock price has plummeted following the release of the quarterly earnings report. Analysts attribute the decline to weak sales in overseas markets. The CEO expressed confidence in the company's long-term prospects, but shareholders remain skeptical. Sources claim that executives were aware of the impending losses for months. They did nothing to prevent it. The board of directors is scheduled to meet next week to discuss potential strategies. Those from headquarters always ignore our warnings. There is nothing we can do.",
+      "expected": [
+        "Sources claim",
+        "They",
+        "Those from"
+      ]
+    },
+    {
+      "text": "The political rally drew a large crowd, with supporters waving flags and chanting slogans. The candidate delivered a fiery speech, attacking his opponents' policies. He accused them of being out of touch with the needs of ordinary citizens. Those people just want to take away your rights, he told the crowd. The media has largely criticized his tone. People like them are ruining the country. The candidate vowed to fight for the values of his constituents. They never listen to the common man.",
+      "expected": [
+        "Those people",
+        "People like them",
+        "They"
+      ]
+    },
+    {
+      "text": "The debate over immigration policy has become increasingly polarized. Supporters of stricter border controls argue that it is necessary to protect national security. Opponents contend that it is inhumane and discriminatory. People like them are all criminals, one protestor stated. Immigrants contribute significantly to our economy, many argue. They seem to refuse any compromise. The senator is expected to introduce new legislation on the issue. Those from across the border steal our jobs.",
+      "expected": [
+        "People like them",
+        "They",
+        "Those from"
+      ]
+    },
+    {
+      "text": "The town council is grappling with a budget deficit. Some members advocate for raising taxes, while others propose cutting services. The mayor emphasized the need for a balanced approach. Everyone knows they want to raise our taxes. They will not listen to reason. A public hearing is scheduled for next week to gather input from residents. People say they are all corrupt. They always act in their own self-interest.",
+      "expected": [
+        "Everyone knows",
+        "They",
+        "People say",
+        "They"
+      ]
+    },
+    {
+      "text": "The jury delivered a guilty verdict in the high-profile murder trial. The defense team announced plans to appeal the decision. The victim's family expressed relief at the outcome. Those people deserve to rot in jail, the victim's brother said after the verdict. The defendant maintained his innocence throughout the proceedings. They just need to be punished. The judge sentenced him to life in prison without parole. That type is beyond rehabilitation.",
+      "expected": [
+        "Those people",
+        "They",
+        "That type"
+      ]
+    },
+    {
+      "text": "The local school board is considering a proposal to implement a new curriculum. Some parents support the change, arguing that it will better prepare students for the future. Others worry about the potential impact on academic standards. People like them are ruining the education system, one parent complained. They are so out of touch with reality. The school board president assured parents that their concerns would be taken into consideration. Those from out of state don't understand.",
+      "expected": [
+        "People like them",
+        "They",
+        "Those from"
+      ]
+    },
+    {
+      "text": "The company's new marketing campaign has sparked controversy. Some critics accuse the company of promoting harmful stereotypes. Others defend the campaign, arguing that it is simply a harmless joke. They should apologize for offending everyone, one consumer said. The company has not yet issued a statement in response to the criticism. Those people from the advertising agency are to blame. They never listen to their consumers.",
+      "expected": [
+        "They",
+        "Those people",
+        "They"
+      ]
+    },
+    {
+      "text": "The construction of the new shopping mall has been delayed due to environmental concerns. Local activists have filed a lawsuit, alleging that the project will harm endangered species. Developers insist that they are taking all necessary precautions to protect the environment. People like them are blocking progress, the construction foreman complained. They just don't understand economics. The judge is expected to rule on the lawsuit next month. Those from the environmental group are all crazy.",
+      "expected": [
+        "People like them",
+        "They",
+        "Those from"
+      ]
+    },
+    {
+      "text": "The city council is debating a new zoning law. Many residents support it. However, those people are very vocal about their opposition. They claim the law will destroy the character of the neighborhood. They say it favors developers over homeowners. A recent study showed mixed results. People like them often resist change. The mayor insists the law is necessary for economic growth. The opposition continues to grow.",
+      "expected": [
+        "those people",
+        "They",
+        "People like them"
+      ]
+    },
+    {
+      "text": "The company announced record profits this quarter. Shareholders are delighted. However, the CEO's leadership has come under scrutiny recently. They say his management style is too aggressive. Some former employees have filed lawsuits. Everyone knows what they're like. They are only in it for themselves. The board of directors is meeting next week to discuss the allegations.",
+      "expected": [
+        "They",
+        "Everyone knows",
+        "They"
+      ]
+    },
+    {
+      "text": "The trial continues next week. The defendant maintains his innocence. However, the prosecution seems confident. They claim to have new evidence. Legal experts are divided on the case. Those from out of state don't understand the local culture. The judge has warned the jury to avoid media coverage. It remains to be seen what the final verdict will be.",
+      "expected": [
+        "They",
+        "Those from out of state"
+      ]
+    },
+    {
+      "text": "The election is just around the corner. The candidates are campaigning hard. The incumbent is highlighting his achievements. His challenger is attacking his record. People say that he's out of touch with the voters. They don't care about the needs of ordinary citizens. Polling data suggests a close race. That type never helps society.",
+      "expected": [
+        "People say",
+        "They",
+        "That type"
+      ]
+    },
+    {
+      "text": "The new policy aims to reduce crime. Police officials are optimistic. However, some community leaders are skeptical. They argue it targets certain groups unfairly. These allegations are under internal investigation. The mayor defended the policy at a recent press conference. Their kind should face harsher penalties. Public discourse about crime continues.",
+      "expected": [
+        "They",
+        "Their kind"
+      ]
+    },
+    {
+      "text": "The team lost another game last night. The coach is facing criticism. Some fans are calling for his resignation. They say he's lost control of the locker room. Players denied any internal conflict. The team's owner expressed his full support for the coach. People like them should be held accountable. Improvement is necessary.",
+      "expected": [
+        "They",
+        "People like them"
+      ]
+    },
+    {
+      "text": "The environmental activists protested today. They blocked traffic downtown. Many drivers were inconvenienced. The police made several arrests. Those people don't care about the economy. They just want to disrupt things. City officials condemned the protest. Dialogue is necessary to solve our problem.",
+      "expected": [
+        "Those people",
+        "They"
+      ]
+    },
+    {
+      "text": "The university is facing budget cuts. Several departments are at risk. Faculty members are worried about job security. Students are protesting the proposed tuition hike. They say it's unfair to low-income families. Everyone knows what they are doing. University administrators are holding a town hall meeting to address concerns.",
+      "expected": [
+        "They",
+        "Everyone knows"
+      ]
+    },
+    {
+      "text": "The negotiations are ongoing. Representatives from both sides are meeting daily. Progress has been slow. Some analysts are pessimistic. They believe a compromise is unlikely. They always find a way to mess everything up. A mediator has been brought in to help facilitate the talks. Hope still lingers for a solution.",
+      "expected": [
+        "They",
+        "They"
+      ]
+    },
+    {
+      "text": "The investigation is still underway. Detectives are following several leads. The victim's family is seeking justice. Outsiders have been blamed for the crime. They want to undermine the community. Such accusations are baseless. Police are urging anyone with information to come forward. Community leaders call for calm.",
+      "expected": [
+        "Outsiders",
+        "They"
+      ]
+    }
+  ]
+}

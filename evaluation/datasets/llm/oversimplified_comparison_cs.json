@@ -1,0 +1,190 @@
+{
+  "indicator": "oversimplified_comparison",
+  "language": "cs",
+  "samples": [
+    {
+      "text": "V kauze Ceske lesy se objevuji nove otazniky. Obzalovany reditel se choval jako pes na sene, branil ostatnim zamestnancum v pristupu k informacim. Celou situaci jeste zhorsuje fakt, ze nekteri svedci se chovaji jako vlk v rousu berancim, navenek spolupracuji, ale ve skutecnosti kryji nekalosti. Vysledkem je, ze pripad je jako tikajici bomba, kazdym dnem hrozi, ze vybuchne a odhali dalsi skandaly. Je to jen dalsi dukaz, ze korupce v Cesku je stale rozsirena, a to i pres snahy o jeji potlaceni. Tato kauza se neliší od desítek jiných, kde se mocní snaží zakrýt své činy.",
+      "expected": [
+        "jako pes na sene",
+        "vlk v rousu berancim",
+        "tikajici bomba",
+        "jen dalsi"
+      ]
+    },
+    {
+      "text": "Ekonomicka situace v zemi je nadale nejista. Vlada se chova jako slon v porcelanu, svymi opatrenimi zhorsuje situaci podnikatelu. Nektere reformy jsou jen dalsi hrebik do rakve pro male a stredni podniky. Cely system je jako bezedna studna, do ktere se lijou penize bez viditelneho vysledku. Vláda se chová jako pes na sene, brání efektivním řešením. Důvěra v hospodářskou politiku klesá.",
+      "expected": [
+        "slon v porcelanu",
+        "jen dalsi hrebik do rakve",
+        "bezedna studna",
+        "pes na sene"
+      ]
+    },
+    {
+      "text": "Klimaticka zmena se stale zrychluje. Nektere spolecnosti se chovaji jako hyeny, ktere vyuzivaji situace k vlastnimu obohaceni. Jejich zisky jsou jen dalsi krok ke zniceni planety. Cely problem je jako volny pad do propasti, bez moznosti zastaveni. Politici se chovaji jako pes na sene, brani efektivnim resenim. Je nutné jednat rychle a rozhodně.",
+      "expected": [
+        "hyeny",
+        "jen dalsi krok ke zniceni",
+        "volny pad",
+        "pes na sene"
+      ]
+    },
+    {
+      "text": "V kauze Ceskeho domu se situace vyostrila. Senator Novak se choval jako pes na sene, blokoval jakykoli pokrok v jednani, cimz ohrozoval osud celeho projektu. Jeho oponenti ho zacali oznacovat za volneho kanona, ktery svymi nepromyslenymi kroky muze zpusobit katastrofu. Snaha o dosazeni dohody se zdala byt jako hazet hrach na zed. Navrh zakona, tikajici bomba, nakonec nebyl prijat. Samotna budova, nic vic nez symbol minuleho rezimu, cekala na sve nove vyuziti.",
+      "expected": [
+        "jako pes na sene",
+        "volneho kanona",
+        "jako hazet hrach na zed",
+        "tikajici bomba"
+      ]
+    },
+    {
+      "text": "Vysetrovani korupcni afery se blizi ke konci. Svedkove vypovidaji rozporuplne, coz celou situaci jeste vice komplikuje. Hlavni podezrely, jako vlk v rouse berancim, se snazi presvedcit verejnost o sve nevine. Podle obzaloby je jeho majetek, tikajici bomba, ktery muze vybuchnout kazdym okamzikem. Cela kauza, nicim se nelisi od podobnych pripadu z minulosti, ktere skoncily bez potrestani. V pripade prokázání viny mu hrozí vysoký trest.",
+      "expected": [
+        "jako vlk v rouse berancim",
+        "tikajici bomba",
+        "nicim se nelisi od"
+      ]
+    },
+    {
+      "text": "Diskuse o zavedeni eura v Ceske republice se opet rozhorela. Odpurci argumentuji, ze by to bylo jako vymenit cepici za sal, neboli nic zasadniho by se nezmenilo. Zastanci naopak tvrdi, ze euro by bylo jako zachytny bod pro ceskou ekonomiku. Zprava Evropske komise konstatuje, ze Ceska republika splnuje vetsinu kriterii pro zavedeni eura. Zavedeni eura vsak vyzaduje souhlas obcanu v referendu.",
+      "expected": [
+        "jako vymenit cepici za sal",
+        "jako zachytny bod"
+      ]
+    },
+    {
+      "text": "Po letech stagnace se zdalo, ze se ekonomika konecne zacina probouzet. Investice do infrastruktury se ukazaly jako klicove. Reformy, jako vysypat more lzici, jsou nedostacujici. Spolecnosti se snazi modernizovat sve provozy a zvysovat efektivitu. Odbory kritizuji nedostatecne zvysovani mezd. Zamestnanci se obavaji ztraty zamestnani v dusledku automatizace.",
+      "expected": [
+        "jako vysypat more lzici"
+      ]
+    },
+    {
+      "text": "Soudni proces s obzalovanym z vrazdy pokracoval vypovedi znalce. Znalec popsal chovani obzalovaneho jako typicke pro psychopata. Obzalovany se pri vypovedi svedku choval jako pes v kleci, nervozne pochodoval a gestikuloval. Obhajoba se snazi zpochybnit duveryhodnost svedku. V prubehu rizeni se objevily nove dukazy, ktere svedci v neprospech obzalovaneho. Rozsudek se ocakava pristi tyden.",
+      "expected": [
+        "jako pes v kleci",
+        "typicke pro psychopata"
+      ]
+    },
+    {
+      "text": "Navrh na zvyseni dani vyvolal ostrou kritiku ze strany opozice. Opozice navrh oznacila za volny kanon, ktery zasahne do ekonomicke situace mnoha rodin. Vlada argumentuje tim, ze je to nutne pro financovani socialnich sluzeb. Premiér se bránil argumenty, že se jedná jen o mediální bublinu, která brzy splaskne. V pristi tydnu se bude o navrhu hlasovat v parlamentu.",
+      "expected": [
+        "volny kanon",
+        "mediální bublinu"
+      ]
+    },
+    {
+      "text": "Diskuse o klimatickych zmenach se stava cim dal tim vyhrocenejsi. Popirani klimatickych zmen je v teto dobe jako strkat hlavu do pisku. Snahy o snizeni emisi sklenikovych plynu jsou nedostatecne. Dle vedeckych studii jsou dusledky globalniho oteplovani devastujici. Nektere staty se snazi investovat do obnovitelnych zdroju energie. Klima se proste meni a to je hotova vec.",
+      "expected": [
+        "jako strkat hlavu do pisku"
+      ]
+    },
+    {
+      "text": "Společnost čelila náročnému období s klesajícími zisky. Marketingová kampaň byla jako sázka do loterie, doufali, že se něco chytne, ale výsledky byly mizerné. Šéf marketingu, pes na vinici, tvrdohlavě prosazoval své strategie bez ohledu na rady ostatních. Nakonec to vedlo k dalším ztrátám a frustraci v týmu. Bylo to typické pro jeho způsob vedení, nikdy nepřijal kritiku.",
+      "expected": [
+        "jako sázka do loterie",
+        "pes na vinici",
+        "typické pro jeho způsob vedení"
+      ]
+    },
+    {
+      "text": "Situace v nemocnici se zhoršovala, nedostatek personálu a rostoucí počet pacientů tvořily výbušnou směs. Ředitel nemocnice, jako slon v porcelánu, svými necitlivými rozhodnutími jen přiléval olej do ohně. Jeho kroky byly typické pro arogantního manažera, který neposlouchá nikoho. Atmosféra v práci byla jako v úlu, všichni byli podráždění a přepracovaní. Problémy, jako se valí lavina, nabývaly obludných rozměrů.",
+      "expected": [
+        "jako slon v porcelánu",
+        "typické pro arogantního manažera",
+        "jako v úlu",
+        "jako se valí lavina"
+      ]
+    },
+    {
+      "text": "Ministr financi se v rozhovoru snazil uklidnit verejnost, ale pusobil jako pyroman hasici ohen benzinem. Jeho argumenty byly stejne dute jako bublina, ktera brzy praskne. Opozice ho oznacila za volneho kanona, ktery ohrozuje stabilitu statniho rozpoctu. Navzdory jeho usili se zdalo, ze vlada je jako korab, ktera se potapi a on jen prehazuje lehatka. Je to jen dalsi politik, ktery slibuje hory doly a nakonec nic nesplni. Jeho popularita mezi volici je miziva.",
+      "expected": [
+        "pyroman hasici ohen benzinem",
+        "dute jako bublina",
+        "volneho kanona",
+        "jako korab, ktera se potapi"
+      ]
+    },
+    {
+      "text": "Obzalovany se u soudu choval jako vlk v rouse berancim, snazil se presvedcit porotu o sve nevine, ale dukazy hovorily jasne v jeho neprospech. Jeho obhajce se snazil zpochybnit svedectvi svedku, ale jeho argumenty byly slabe jako caj. Celou dobu se tvari jako nevinatko. Kauza byla vnimana jako tikajici bomba, ktera hrozila vyvolat vlnu kritiky na cely justicni system. Verdikt soudu byl ocekavan s velkym napetim.",
+      "expected": [
+        "vlk v rouse berancim",
+        "slabe jako caj",
+        "jako nevinatko",
+        "tikajici bomba"
+      ]
+    },
+    {
+      "text": "Vedení spolecnosti se po skandalu zachovalo jako pštros a strcilo hlavu do pisku, ignorujic zadost o vysvetleni. Interni komunikace pripominala hru na mrtveho brouka, nikdo nechtel prevzit odpovednost. Jednalo se o typicky pripad tunelovani a vyvadeni penez do zahranici. Situace se vyvinula v cerneho Petra, ktereho si nikdo nechtel nechat. Zamestnanci vyjadrili svou nespokojenost.",
+      "expected": [
+        "jako pštros a strcilo hlavu do pisku",
+        "hru na mrtveho brouka",
+        "typicky pripad",
+        "cerneho Petra"
+      ]
+    },
+    {
+      "text": "Sportovec po prohre reagoval jako splaseny kun, zacal kritizovat rozhodci a spoluhrace. Jeho vystoupeni bylo stejne nevyvazene jako chovani amatera. Timovy kolega ho oznacil za volavku, ktera pritahuje pozornost medii. Jeho agent byl vsak presvedceny, ze hrac je jako lev, kteremu chybi motivace. Fanousci byli zklamani z jeho chovani.",
+      "expected": [
+        "jako splaseny kun",
+        "jako chovani amatera",
+        "volavku",
+        "jako lev"
+      ]
+    },
+    {
+      "text": "Integrace cizincu v Ceske republice je casto vnimana jako orisek, ktery nelze rozlousknout. Kritici namitaji, ze jsou vsichni stejni. Nektere skupiny vnimaji situaci jako tikajici bombu a nechteji slyset o zadne diskuzi. Obhájci interkulturniho dialogu se snazi rozptylit obavy. Je to jen dalsi pokus o zmenu, ktera vyvolava polemiku. Ministerstvo zahajilo novou kampan.",
+      "expected": [
+        "jako orisek, ktery nelze rozlousknout",
+        "jsou vsichni stejni",
+        "tikajici bombu",
+        "jen dalsi pokus"
+      ]
+    },
+    {
+      "text": "Predseda vlady se snazil presvedcit verejnost o prospechu reforem, ale pusobil jako zasekla deska, stale opakoval stejne fraze. Oponenti ho obvinili, ze je to jen dalsi populista, ktery slibuje nesplnitelne. Jeho reci byly prazdne jako bublina a rychle zmizely. Zdalo se, ze cely projekt je jako domecek z karet, ktery se brzy rozsype. Uspesnost jeho vlady byla nejista.",
+      "expected": [
+        "jako zasekla deska",
+        "jen dalsi populista",
+        "prazdne jako bublina",
+        "jako domecek z karet"
+      ]
+    },
+    {
+      "text": "Reakce verejnosti na novou danovou reformu byla bouriva. Kritikove ji oznacili za smrtici ranu pro stredni tridu. Ministerstvo financi, naopak, tvrdilo, ze je to jen dalsi zmena, ktera pomuze ekonomice. Opozice ji prirovnala k volavce, ktera ma odvest pozornost od skutecnych problemu. Nekteri obcane ji vnimaji jako danajsky dar, ktery jim prinese vice skody nez uzitku. Diskuze pokracuje.",
+      "expected": [
+        "smrtici ranu",
+        "jen dalsi zmena",
+        "volavce",
+        "danajsky dar"
+      ]
+    },
+    {
+      "text": "Investigativni novinar se pustil do odhalovani korupcnich praktik ve verejne sprave. Jeho prace pripominala hledani jehly v kupce sena. Odhalil, ze nekteri urednici se chovali jako hyeny a okradali statni rozpocet. Jeho zistenim byla pripsana role tikajici bomby, ktera hrozila svrhnout vladu. Byl vniman jako cervec, co hlodá.",
+      "expected": [
+        "hledani jehly v kupce sena",
+        "jako hyeny",
+        "tikajici bomby",
+        "cervec, co hlodá"
+      ]
+    },
+    {
+      "text": "Debata o klimatickych zmenach se stala bojem s vetrnymi mlyny, kdy obhajci a popiraci klimatu neustale opakuji sve argumenty. Popiraci klimatu zamerne odvadeli pozornost jako cerne ovce a tvrdili, ze je vsechno v poradku. Navrhovane reseni bylo vnimano jako pouhe lupani orechu. Cely problem byl jen dalsi bublina, ktera brzy praskne. Snaha o dohodu byla marna.",
+      "expected": [
+        "bojem s vetrnymi mlyny",
+        "cerne ovce",
+        "lupani orechu",
+        "jen dalsi bublina"
+      ]
+    },
+    {
+      "text": "Po provaleni aféry se firma chovala jako mrtvý brouk, snažila se minimalizovat škody. CEO se stal obětním beránkem, který odnesl celou vinu. Celý skandál byl jako pandořina skříňka, z které se vyvalily další a další problémy. Nikdo nechtel, aby se cela situace ukazala jako sněhová koule. Firma se snažila celou situaci ututlat.",
+      "expected": [
+        "jako mrtvý brouk",
+        "obětním beránkem",
+        "jako pandořina skříňka",
+        "sněhová koule"
+      ]
+    }
+  ]
+}

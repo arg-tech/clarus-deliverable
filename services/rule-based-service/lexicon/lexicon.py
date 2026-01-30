@@ -6,7 +6,11 @@ logger = logging.getLogger(__name__)
 
 def analyse(text: str, language: str = "en") -> list[LexiconTerm]:
     terms_map = {
-        "en": "lexicon_terms_en.json"
+        "en": "lexicon_terms_en.json",
+        "cs": "lexicon_terms_cs.json",
+        "fi": "lexicon_terms_fi.json",
+        "el": "lexicon_terms_el.json",
+        "pt": "lexicon_terms_pt.json"
     }
 
     filename = terms_map.get(language)

@@ -1,782 +1,772 @@
 [
   {
-    "word_regex": "EXIF",
-    "usage_example": "In cases where a suspect is believed to have taken indecent photographs of children, seizure of devices capable of taking digital photos could be useful not only for the data they store, but also to link these devices to previously identified indecent photographs by the examination of digital metadata (EXIF data). (procedural/instructive)",
+    "word_regex": "EXIF-tiedot|digitaalisten kuvien metatiedot kuten kamera-asetukset ja aikaleimat",
+    "usage_example": "Jos tutkittavana on epäily lapseen kohdistuvista seksuaalirikoksesta, on hyvä huomioida valokuvaukseen soveltuvien laitteiden takavarikointi niin laitteiden sisältämän datan kuin digitaalisen metadatan (EXIF-tiedot) vertaamiseksi jo aiemmin tunnistettuihin lasta seksuaalisesti esittäviin valokuviin. (menettelytapa/ohjeistava)",
     "definition": "EXIF (Exchangeable Image File Format) is a standardized metadata format embedded within digital image and audio files that records technical information about how, when, and where the file was created."
   },
   {
-    "word_regex": "Digital data",
-    "usage_example": "This refers to the use of a locked down, centrally configured off-the-shelf tool for the capture and preservation of digital data by frontline personnel, which is traditionally referred to as a kiosk. (legislative)",
+    "word_regex": "Digitaalinen data|digitaalinen tieto|digitaaliset tiedot",
+    "usage_example": "Ensimmäisenä digitaalista todistetta käsittelevän henkilön tulee huomioida kaikki digitaalisiin tietoihin liittyvät tekijät digitaalisen todistusaineiston talteenotossa ja säilyttämisessä. (lainsäädännöllinen)",
     "definition": "Digital data constitutes potential evidence that must be identified, preserved, collected, and analysed according to strict procedural standards. Digital data ranges from user files and communications to system-generated information and metadata embedded within files."
   },
   {
-    "word_regex": "Digital investigation(s)?",
-    "usage_example": "A quality framework is also being developed for non-forensic aspects of digital investigations including triage technologies within the same timescale. (procedural/instructive)",
+    "word_regex": "Digitaalinen tutkinta|digitaaliset tutkinnat",
+    "usage_example": "Samassa aikataulussa laadunhallintaa kehitetään myös digitaalisten tutkintojen ei-forensisille osa-alueille, mukaan lukien seulontateknologiat. (menettelytapa/ohjeistava)",
     "definition": "Digital investigation is the systematic process of detecting, examining, and analysing digital evidence from electronic devices and systems to support the detection and prosecution of crimes, investigation of incidents, and development of intelligence capabilities."
   },
   {
-    "word_regex": "Hard disk|hard drives|HDD",
-    "usage_example": "For example, the average hard disk is now larger than 200 gigabytes and this, if printed out on A4 paper, would be 10,000,000 pages long. (procedural/instructive)",
+    "word_regex": "Kovalevy|kiintolevy|HDD",
+    "usage_example": "Esimerkiksi nykyinen keskimääräinen kovalevy voi sisältää dataa yli 200 gigatavua. Tämä vastaisi noin 10 000 000 A4-sivua, jos tiedot tulostettaisiin paperille. (menettelytapa/ohjeistava)",
     "definition": "A hard disk or hard disk drive (HDD) is a physical data storage device that stores user files, system data, and application information, typically found internally within desktop computers, laptops, and other digital devices. These two terms are used interchangeably with the term ‘hard drive’."
   },
   {
-    "word_regex": "Operating system|OS",
-    "usage_example": "If replacement software (e.g. an operating system or application software) is implemented, the forensic unit shall ensure that procedures are established to retain access to any critical data reliant on the software that has been replaced. (legislative)",
+    "word_regex": "käyttöjärjestelmä",
+    "usage_example": "Jos korvaava ohjelmisto (esim. käyttöjärjestelmä tai sovellusohjelmisto) otetaan käyttöön, forensiikkayksikön on varmistettava, että menettelytavat on luotu kriittisten tietojen säilyttämiseksi, mikäli ne ovat riippuvaisia korvatusta ohjelmistosta. (lainsäädännöllinen)",
     "definition": "An operating system (OS) is the fundamental software that manages and controls a computer or digital device's hardware and software resources, processes and stores data, enables user interaction, and serves as a critical source of digital evidence by generating logs and metadata that record user actions and system events."
   },
   {
-    "word_regex": "Database(s)?",
-    "usage_example": "Where the method relies on reference collections or databases, the nature, access and their availability should be described.  (legislative)",
+    "word_regex": "tietokanta|tietokannat",
+    "usage_example": "Jos menetelmä perustuu viitekokoelmiin tai tietokantoihin, niiden luonne, käyttöoikeudet ja saatavuus on kuvattava. (lainsäädännöllinen)",
     "definition": "A database is a structured collection of information, typically in electronic format, that organizes and stores data in a systematic manner to enable searching, comparison, identification, and retrieval of records for investigative and evidential purposes."
   },
   {
-    "word_regex": "Encrypted",
-    "usage_example": "This is especially important if the suspect is a technically knowledgeable user who may be using encryption, as there may be no way to retrieve evidence stored in encrypted volumes once the power is lost. (procedural/instructive)",
+    "word_regex": "salattu",
+    "usage_example": "Tämä on erityisen tärkeää, jos epäilty on teknisesti osaava käyttäjä, joka saattaa käyttää salausta, sillä salatuissa taltiotiloissa olevia todisteita ei välttämättä voida palauttaa, kun virta katkeaa. (menettelytapa/ohjeistava)",
     "definition": "Encrypted refers to data, files, devices, communications, or storage media that have been transformed using cryptographic algorithms into an unreadable format that cannot be accessed, interpreted, or retrieved without the appropriate key, password, or cryptographic method."
   },
   {
-    "word_regex": "Digital evidence",
-    "usage_example": "Appropriately, this procedure will be used to hand over digital evidence to the forensic IT specialist to perform other forensic technical tasks, if they have not collected them himself. (legislative)",
+    "word_regex": "digitaalinen todiste",
+    "usage_example": "Forensinen tutkija voi saada materiaalia tutkittavakseen myös taktisesta rikostutkinnasta sen lisäksi, mitä hän on jo mahdollisesti kerännyt itse. (lainsäädännöllinen)",
     "definition": "Digital evidence is information or data, stored or transmitted in digital form, that can be used to establish facts in criminal investigations or legal proceedings. It encompasses all forms of electronically stored information recovered from digital devices, systems, communications, and storage media."
   },
   {
-    "word_regex": "Extract",
-    "usage_example": "When extracting data from a file system viewer, it is important to know exactly how it will interpret the file system being viewed. (procedural/instructive)",
+    "word_regex": "purkaa|ottaa talteen",
+    "usage_example": "Datan taltioinnissa erilaisista tiedostojärjestelmistä, on tärkeää tietää tarkasti, miten ohjelma tulkitsee tarkasteltavan tiedostojärjestelmän. (menettelytapa/ohjeistava)",
     "definition": "Extract means to retrieve, recover, or obtain specific data, information, or images from digital devices, storage media, or systems, making the data accessible and usable for investigative, analytical, or evidential purposes."
   },
   {
-    "word_regex": "Brute force",
-    "usage_example": "An investigator may also try to crack the encryption or access the account by brute force.  (procedural/instructive)",
+    "word_regex": "Brute force-hyökkäys",
+    "usage_example": "Tutkija voi myös yrittää murtaa salauksen tai päästä jollekin käyttäjän tilille brute force-hyökkäyksen avulla. (menettelytapa/ohjeistava)",
     "definition": "Brute force is a cryptographic method that attempts to crack encryption or access password-protected accounts by systematically generating and testing all possible keys or password combinations."
   },
   {
-    "word_regex": "Virtual private network|VPN",
-    "usage_example": "The cyber security and resilience focus broadly covers the following areas: network access control - controlling access and identify threat across wired, wireless and VPN network. (procedural/instructive)",
+    "word_regex": "virtuaalinen yksityisverkko|VPN",
+    "usage_example": "Kyberturvallisuuden ja resilienssin painopiste kattaa laajasti seuraavat osa-alueet: verkon käyttöoikeuksien hallinta – pääsyn hallinta ja uhkien tunnistaminen kiinteissä, langattomissa ja VPN-verkoissa. (menettelytapa/ohjeistava)",
     "definition": "Virtual Private Network (VPN) is communications software that creates secure, encrypted connections over networks, enabling individual users or companies to transmit data privately by establishing virtual connections between equipment or systems. In digital forensics, VPNs represent dual-use technology that serves both as legitimate corporate and personal privacy infrastructure and as a potential tool for concealing criminal activity."
   },
   {
-    "word_regex": "Cloud storage",
-    "usage_example": "The data held within the cloud storage account is not held on a user's device unless the user downloads it or makes it available to view offline (a copy is then saved to the device). (procedural/instructive)",
+    "word_regex": "pilvipalvelu|pilvitallennustila",
+    "usage_example": "Pilvitallennustilillä oleva data ei ole käyttäjän laitteella, ellei käyttäjä lataa sitä tai tee sitä saataville offline-tilassa kopion tallentuessa laitteelle. (menettelytapa/ohjeistava)",
     "definition": "Cloud storage is a type of data storage system where data is stored remotely on servers in an online environment, typically owned and managed by a hosting company, accessible from multiple devices by users through account credentials (username and password), rather than being stored locally on the user's physical device."
   },
   {
-    "word_regex": "Cloud",
-    "usage_example": "The primary reason why all UK police forces have introduced digital triage devices is  because of the proliferation of electronic devices and media within society, the complexities of digital convergence and cloud computing, and related to this the consequence of  investigative opportunities outstripping the current capacity of digital forensics analysts and  investigators. (procedural/instructive)",
+    "word_regex": "pilvi",
+    "usage_example": "Yleisesti erilaisten elektronisten laitteiden ja medioiden yleistyessä yhteiskunnissa, lainvalvontaviranomaisten tutkintamahdollisuuksia on vahvistettu digitaalisin seulontalaitteiden, joilla voidaan pyrkiä vastaamaan digitaaliseen konvergenssiin (eri teknologisia hyötyjä yhdistävien ratkaisujen kehittymiseen uusiksi sovelluksiksi), pilvipalveluiden monimutkaistumiseen sekä ihmiskapasiteetin ylittäviin odotuksiin. (menettelytapa/ohjeistava)",
     "definition": "Cloud refers to online access to shared computing resources, such as remote data storage, processing services, and applications, hosted on servers accessible via the internet from multiple devices rather than being stored or processed locally on a user's physical device."
   },
   {
-    "word_regex": "Digital forensics",
-    "usage_example": "We will dramatically extend the use of digital evidence in policing, with it becoming commonplace for digital forensics to be gathered from a full range of sources and devices. (procedural/instructive)",
+    "word_regex": "digitaali forensiikka|digitaalinen rikostekniikka|digitaalinen rikostutkinta",
+    "usage_example": "Digitaalinen rikostekniikka on vakiintunut osa poliisitoimintaa digitaalisen todistusaineiston keräämiseksi eri lähteistä ja laitteista. (menettelytapa/ohjeistava)",
     "definition": "Digital forensics encompasses the recovery, examination, and interpretation of data from computers, mobile phones, networks, and other digital storage media for use in criminal investigations and legal proceedings."
   },
   {
-    "word_regex": "Cybercrime(s)?",
-    "usage_example": "The breakneck speed, scale and constantly evolving nature at which many cybercrimes now occur mean that it has never been more important for us to acquire systems and adopt processes that will enable us to sort through much more data, at pace, and respond effectively. (procedural/instructive)",
+    "word_regex": "kyberrikos|kyberrikokset",
+    "usage_example": "Kyberrikosten nopea kehitys, laajuus ja jatkuvasti muuttuva luonne edellyttävät huomattavasti suurempien datamäärien nopeaan ja tehokkaaseen käsittelyyn soveltuvien järjestelmien ja prosessien käyttöönottoa. (menettelytapa/ohjeistava)",
     "definition": "Cybercrime involves criminal activities facilitated by digital technology and computer systems, such as fraud and ransomware attacks."
   },
   {
-    "word_regex": "Digital storage",
-    "usage_example": "When manipulating devices and digital storage or communication media that contain digital information, nothing must be changed, whether the hardware, software or any digital data contained therein. (procedural/instructive)",
+    "word_regex": "digitaalinen varasto|säilytystila|tallennus",
+    "usage_example": "Kun käsitellään laitteita ja digitaalista tallennusta tai viestintävälineitä, jotka sisältävät digitaalista tietoa, mitään ei saa muuttaa – ei laitteistoa, ohjelmistoa eikä mitään digitaalista dataa",
     "definition": "Digital storage refer to devices or media on which digital data can be recorded, stored, and retrieved for potential use as evidence. Digital storage encompasses both physical storage devices and components, as well as remotely stored electronic data."
   },
   {
-    "word_regex": "Metadata",
-    "usage_example": "Appropriate hardware is required to extract the maximum amount of information in terms of image quality, audio tracks and associated metadata. (procedural/instructive)",
+    "word_regex": "metatieto|metadata",
+    "usage_example": "Kuvan laatuun ja ääniraitoihin liittyvien metatietojen taltioimiseen tarvitaan asianmukaiset laitteistot.",
     "definition": "Metadata are data that provide information about the data, describing its characteristics, properties, context, and structure. In digital forensics, metadata serves as evidence for understanding the origin, history, and attributes of digital files and systems."
   },
   {
-    "word_regex": "Software",
-    "usage_example": "The recommended method for copying a website is to visit the site and record the relevant pages using video capture software so there is a visible representation of how they look when visited at the time. (procedural/instructive)",
+    "word_regex": "ohjelmisto",
+    "usage_example": "Verkkosivuston tiedot sivustolla vierailuhetkellä voi tallentaa esimerkiksi videolle.",
     "definition": "Software refers to the non-physical component of computing and electronic systems, encompassing programs, applications, operating systems, and code that control and enable the functionality of digital devices and equipment. Software can be used for forensic analysis, data processing, and evidence extraction."
   },
   {
-    "word_regex": "Hardware",
-    "usage_example": "The ‘anti-malware system’ shall cover all compatible computers and hardware, unless specified operational requirements dictate otherwise. (procedural/instructive)",
+    "word_regex": "laitteisto",
+    "usage_example": "Kaikissa tietokoneissa ja laitteistoissa tulisi olla riittävät haittaohjelmien torjuntajärjestelmät. (menettelytapa/ohje)",
     "definition": "Hardware is the physical equipment and components of computing and electronic systems, such as computers, peripherals, storage devices, and all tangible electronic equipment used in digital systems."
   },
   {
-    "word_regex": "Internet address",
-    "usage_example": "Where an incident is reported which involves the use of chat the person taking the report needs to ascertain  what method of chat was being used, i.e. what is the name of the website hosting the chat and its full Internet address, or what program is being used.",
+    "word_regex": "Internet-osoite",
+    "usage_example": "Kun ilmoitetaan tapahtumasta, johon liittyy chatin käyttö, raportin vastaanottajan on selvitettävä, mitä chat-menetelmää käytettiin, eli mikä on chatin isännöivän verkkosivuston nimi ja sen täydellinen internet-osoite tai mikä ohjelma oli käytössä.",
     "definition": "Internet address is the full location identifier of a website, service, or resource on the internet, providing identifying information about online locations, such as websites hosting communications platforms or other internet-based services."
   },
   {
-    "word_regex": "PDF|Portable document format",
-    "usage_example": "Should any discrepancy be identified between different formats in which the code is published then this should be considered an error and the published PDF version of the code should be considered the definitive version. (procedural/instructive)",
+    "word_regex": "PDF-tiedostomuoto|PDF",
+    "usage_example": "Kaikki raportin ja esitutkinta-aineiston tiedot muutetaan valmistuessaan PDF-asiakirjoiksi, joissa tietojen oikeellisuus on tarkistettu.",
     "definition": "PDF (Portable Document Format) is a file format used for presenting and exchanging forensic documents reliably, independent of software, hardware, or operating system."
   },
   {
-    "word_regex": "Password(s)?",
-    "usage_example": "The system should be designed to protect the password in transit and at rest using appropriate encryption and hashing techniques. (legislative)",
+    "word_regex": "salasana|salasanat",
+    "usage_example": "Salasanat suojataan järjestelmissä asianmukaisin salaus- ja tiivistysmenetelmin.",
     "definition": "A password is a keyword, security code, or secret authentication credential used as a security measure by systems and applications to control access to devices, accounts, data, or protected resources. Passwords serve to verify user identity and restrict unauthorised access to digital systems and information."
   },
   {
-    "word_regex": "Forensic laboratory",
-    "usage_example": "All equipment used within a forensic laboratory will have a limited effective lifespan, which may be measured in weeks, months or years. (procedural/instructive)",
+    "word_regex": "rikostekninen laboratorio",
+    "usage_example": "Kaikilla rikosteknisessä laboratoriossa käytettävillä laitteilla on rajallinen käyttöikä (viikko, kuukausi, vuosi).",
     "definition": "Forensic laboratory is a specialized facility equipped with forensic tools and equipment for conducting forensic examinations, analyses, and investigations of evidence."
   },
   {
-    "word_regex": "Forensic analysis",
-    "usage_example": "There will always be occasions when a locally approved forensic tool is not capable of providing a specific function which is required to complete a forensic analysis. (procedural/instructive)",
+    "word_regex": "rikostekninen analyysi",
+    "usage_example": "Rikostekniikassa tulisi olla käytössä riittävästi hyväksytyt tai niiden vaihtoehtoiset työkalut, joiden avulla tarvittava rikostekninen analyysi voidaan suorittaa. Tukea voi saada tarvittaessa toisesta rikostutkimuskeskuksesta tai rikosteknisestä laboratoriosta.",
     "definition": "Forensic analysis is the extraction, systematic processing, examination, and interpretation of evidence using scientific methods and specialised equipment to extract, evaluate, and present findings for investigative or legal purposes."
   },
   {
-    "word_regex": "USB stick",
-    "usage_example": "A USB stick is generally most convenient, as the output of the tools can be written back to the stick. (procedural/instructive)",
+    "word_regex": "muistitikku|USB-tikku",
+    "usage_example": "USB-muistitikku on yleensä kätevin vaihtoehto, koska työkalujen tuottama data voidaan kirjoittaa takaisin tikulle. (menettelytapa/ohje)",
     "definition": "A USB stick is a removable storage medium commonly used in digital forensic practice as a transport medium for data or to run information capture tools."
   },
   {
-    "word_regex": "Image",
-    "usage_example": "If practitioners are required undertake an enhancement task when an image is of too poor quality, it should be clearly marked as being potentially unreliable as evidence. (legislative)",
+    "word_regex": "kuva",
+    "usage_example": "Jos asiantuntijoiden on käsiteltävä tai yritettävä parantaa kuvaa sen liian heikon laadun takia, voi kuva lopulta olla osoittautua asianmukaisista vertailuista ja/tai dokumentoinneista huolimatta heikoksi ja/tai epäluotettavaksi todisteeksi.",
     "definition": "An image is a digital photograph, video frame, and other pictorial content subject to forensic examination, including image capture, image processing, image enhancement, and image comparison."
   },
   {
-    "word_regex": "Cyberattack|Cyber-attack",
-    "usage_example": "We have a responsibility to protect the service we provide from both cyber-attack and systemic vulnerabilities. (procedural/instructive)",
+    "word_regex": "kyberhyökkäys",
+    "usage_example": "Tietoteknisiä ratkaisuja ja tarjottuja palveluita tulee suojata erilaisilta haavoittuvuuksilta ja kyberhyökkäyksiltä. (menettelytapa/ohje)",
     "definition": "Cyberattack is a type of crime directed against computer systems, networks, or digital infrastructure with the intent to compromise, disrupt, or damage digital services and data."
   },
   {
-    "word_regex": "Digital media",
-    "usage_example": "There are many different types of digital media and end-user devices, which may be encountered  during a search of a crime scene, all of which have the potential to hold data which may be of value  to the investigation. (procedural/instructive)",
+    "word_regex": "digitaalinen media",
+    "usage_example": "Rikosepäilyä tutkittaessa on mahdollista löytää erilaisia digitaalisia medioita ja/tai laitteita, jotka potentiaalisesti saattavat sisältää tutkinnan kannalta mahdollisesti arvokasta tietoa. (menettelytapa/ohje)",
     "definition": "Digital media are various types of electronic storage devices and systems that contain digitally stored data and may be encountered during forensic investigations. Digital media include items such as CDs, DVDs, flash memory cards, cameras, closed-circuit television (CCTV) systems, and video surveillance systems (VSS)."
   },
   {
-    "word_regex": "JPG|Joint Photographic Experts Group",
-    "usage_example": "Pictures - Gallery (png, jpg…)",
+    "word_regex": "JPG|JPEG-kuvatiedostomuoto",
+    "usage_example": "kuvat – kuvagalleria (png, jpg...)",
     "definition": "JPG (Joint Photographic Experts Group) is a common digital image file format and compression method that may be encountered during forensic examination of images."
   },
   {
-    "word_regex": "Hash|Hashing",
-    "usage_example": "The system should be designed to protect the password in transit and at rest using appropriate encryption and hashing techniques. (legislative)",
+    "word_regex": "hash-arvo",
+    "usage_example": "Järjestelmän tulisi sisältää tietojen suojaamiseksi asianmukainen salasanalla suojattu salaustekniikka, esimerkiksi hajautusfunktio (hash function). (lainsäädäntö)",
     "definition": "Hashing is a cryptographic technique used to create digital fingerprints, known as hash values, which serve to verify the integrity and authenticity of digital evidence. Hash values are calculated for both original media and forensic images to ensure that copies remain completely unaltered; if the hash values are identical, the copies are certified to be exact duplicates."
   },
   {
-    "word_regex": "Computer",
-    "usage_example": "On computers, the connection ports for peripherals (mouse, keyboard, monitor, etc.) and the connection ports for any digital storage medium must be sealed. (procedural/instructive)",
+    "word_regex": "tietokone",
+    "usage_example": "On tärkeää huomioida myös erilaiset tietokoneiden oheislaitteet, kuten hiiri, näppäimistö, monitori sekä muut mahdolliset digitaalisten tallennusvälineiden yhteysportit. (menettely/ohje)",
     "definition": "A computer includes desktop and laptop PCs and may encompass systems with embedded firmware that process, store, or transmit data or digital evidence."
   },
   {
-    "word_regex": "Memory cards",
-    "usage_example": "Data held in mobile telephones can be stored in a number of places, including the SIM card, internal handset storage, or additional removable memory cards. (procedural/instructive)",
+    "word_regex": "muistikortit",
+    "usage_example": "Matkapuhelimen tietoja on mahdollista tallentaa SIM-korttiin, puhelimen sisäiseen muistiin tai helposti irrotettaviin, siirrettäviin tallennusvälineisiin. (menettely/ohje)",
     "definition": "Memory cards are removable digital storage media and used to store digital information such as images, sound, video, and other data that may be seized as evidence."
   },
   {
-    "word_regex": "Digital fingerprint",
-    "usage_example": "Digital fingerprints, known as hash values, were calculated for both the originals and the forensic images. (procedural/instructive)",
+    "word_regex": "digitaalinen tunnistetieto|digitaalinen sormenjälki",
+    "usage_example": "Hash-arvo (digitaalinen tunnistetieto, digitaalinen sormenjälki) voidaan määritellä kaikille valokuville. (menettely/ohje)",
     "definition": "A digital fingerprint is a unique hash value that serves as an identifier for the verification of digital data."
   },
   {
-    "word_regex": "Extraction",
-    "usage_example": "It is important to ensure that an appropriately comprehensive and accurate extraction of data from the digital device in question is achieved, whilst maintaining the integrity of the evidential chain. (procedural/instructive)",
+    "word_regex": "tiedostojen jäljentäminen|purkaminen",
+    "usage_example": "Digitaalisen laitteen käsittelyssä on tärkeää säilyttää näyteketjun eheys ja varmistaa riittävän kattava ja tarkka tietojen kerääminen. (menettely/ohje)",
     "definition": "Extraction is the process of recovering and obtaining data or material from digital devices, storage media, or systems for forensic examination."
   },
   {
-    "word_regex": "Device(s)?",
-    "usage_example": "Processing data can take a long time, and increases in data storage and in the number of devices associated with crimes have led to increased pressure on forensic services. (procedural/instructive)",
+    "word_regex": "laite|laitteet",
+    "usage_example": "Laitteiden tietotekniseen tutkintaan kohdistuva paine on kasvanut, koska rikoksiin liittyvien laitteiden määrä on lisääntynyt ja tiedontallennus sekä tiedonkäsittely voivat kestää kauan. (menettely/ohje)",
     "definition": "A device encompasses a wide range of digital equipment including computers, mobile phones, smartphones, tablets, laptops, USB sticks, digital cameras, satellite navigation systems, smart devices, gaming consoles, storage media, and other devices, which may be seized as evidence during forensic investigations."
   },
   {
-    "word_regex": "Digital information",
-    "usage_example": "All those involved in preservation and collection must have adequate training in the area of preservation and collection of equipment and means of supporting digital information. (procedural/instructive)",
+    "word_regex": "digitaalinen tieto|digitaalinen informaatio",
+    "usage_example": "Jokaisella tulee olla riittävä koulutus siihen, kuinka digitaalinen tieto säilytetään ja kerätään sekä osaamista hallita erilaisia välineitä ja keinoja. (menettely/ohje)",
     "definition": "Digital information is all forms of electronic data that may be preserved as digital evidence, including data stored on tangible media, communications transmitted through networks, telephone records, computer log files, and other electronically recorded material."
   },
   {
-    "word_regex": "Cyber",
-    "usage_example": "Online theft of a bank card or bank account details was the type of cyber fraud and computer misuse reported by most victims (74%). (procedural/instructive)",
+    "word_regex": "kyber",
+    "usage_example": "Verkossa tapahtunut asianomistajan (uhrin) pankkikortin tai tilitietojen anastaminen, on yksi yleisemmistä tietoverkossa ja/tai tietoverkon avustuksella tehdyistä rikosepäillyistä. (menettely/ohje)",
     "definition": "Cyber is a term relating to computer systems, networks, digital technology, and the online environment in which digital crimes and security threats occur."
   },
   {
-    "word_regex": "Authentication",
-    "usage_example": "Users with administrative rights shall use multi-factor authentication (such as second factor or two-factor authentication. (legislative)",
+    "word_regex": "todennus|todentaminen",
+    "usage_example": "Järjestelmänvalvojaoikeuksien käyttö edellyttää monitekijätodennusta (Multi-Factor Authentication, MFA) tai esimerkiksi kaksitekijätodennusta (Two-Factor Authentication, 2FA). (lainsäädäntö)",
     "definition": "Authentication is the process of verifying the identity of users, the validity of data, or the integrity of digital evidence."
   },
   {
-    "word_regex": "Application",
-    "usage_example": "These devices often store search history and the applications used on them and as such can provide evidential value in certain enquires. (procedural/instructive)",
+    "word_regex": "sovellusohjelma|sovellus",
+    "usage_example": "Laitteet tallentavat usein hakuhistorian ja niissä käytetyt sovellukset ja voivat sellaisenaan omata todistusarvoa tai olla avuksi tietyissä tiedusteluissa. (menettely/ohje)",
     "definition": "Applications refer to both system-level software (such as operating systems) and other programs that process, store, or communicate data. Application also refers to the act of implementing forensic methods, techniques, or processes."
   },
   {
-    "word_regex": "Airplane mode",
-    "usage_example": "Security permitting, set a phone on Airplane Mode. (procedural/instructive)",
+    "word_regex": "lentotila-asetus",
+    "usage_example": "Tietojen turvaamiseksi puhelin kannattaa haltuunotto- ja/tai takavarikkotilanteessa asettaa lentokonetilaan. (proseduraalinen/ohjeellinen)",
     "definition": "Airplane mode is a device setting that disables wireless communication functions, preventing the device from obtaining a signal to access networks. Airplane mode is used as a technique to preserve the integrity of digital evidence on mobile devices."
   },
   {
-    "word_regex": "Serial number",
-    "usage_example": "A unique serial number is to be issued for each interview and entered on the disc register and DVD security seal / label. (procedural/instructive)",
+    "word_regex": "sarjanumero",
+    "usage_example": "Yksilöivä tunniste merkitään myös erilaisten tallenteiden tunnistamiseksi. (menettely/ohje)",
     "definition": "Serial number is a unique identifier assigned to physical items, equipment, or recorded events to enable specific identification and tracking."
   },
   {
-    "word_regex": "GPS|Global Positioning System",
-    "usage_example": "Data sources include smart phones, WiFi routers, GPS equipment, CCTV, building access recorders, smart  TVs, games consoles and fitness watches. (procedural/instructive)",
+    "word_regex": "GPS|maailmanlaajuinen paikantamisjärjestelmä",
+    "usage_example": "Tietolähteitä ovat älypuhelimet, WiFi-reitittimet, GPS-laitteet, CCTV, rakennuksen pääsynauhurit, älytelevisiot, pelikonsolit ja älykellot. (menettely/ohje)",
     "definition": "GPS is a satellite-based navigation system that provides location data and positioning information, recording geographical coordinates and temporal data that can be recovered and analysed during forensic examinations."
   },
   {
-    "word_regex": "Desktop",
-    "usage_example": "Our people will be provided with integrated policing systems where they can enter, re-use and search data from either a mobile or desktop device. (procedural/instructive)",
+    "word_regex": "pöytäkone|työpöytä",
+    "usage_example": "Tietoja voidaan syöttää ja hakea joko pöytätietokoneelta tai mobiililaitteelta. Sana voi tarkoittaa myös tietokonejärjestelmän työpöytänäkymää pöytä- tai kannettavalla tietokoneella.(menettely/ohje)",
     "definition": "A desktop is a stationary computer system, typically consisting of a monitor, processing unit, and peripherals, used for computing tasks and data storage."
   },
   {
-    "word_regex": "Verify|Verifying",
-    "usage_example": "Separate provisions shall be issued on the disclosure of information for the purpose of verifying the reliability of a person applying for or operating in security-sensitive duties. (legislative)",
+    "word_regex": "vahvistaminen|todentaminen",
+    "usage_example": "Todentaminen varmistaa esimerkiksi henkilön henkilöllisyyden tai jonkin asiakirjan alkuperän ja sen oikeellisuuden. (lainsäädäntö)",
     "definition": "Verifying is the process of confirming, establishing, or checking the accuracy, authenticity, or lawfulness of evidence, documents, or procedures through systematic examination methods."
   },
   {
-    "word_regex": "Storage",
-    "usage_example": "On computers, the connection ports for peripherals (mouse, keyboard, monitor, etc.) and the connection ports for any digital storage medium must be sealed. (procedural/instructive)",
+    "word_regex": "tallennustila|varastointi",
+    "usage_example": "Tietokoneista on huomioitava erilaiset oheislaitteet (hiiri, näppäimistö, monitori jne.) sekä mahdolliset digitaalisten tallennusvälineiden yhteysportit.",
     "definition": "Storage is the retention and preservation of digital data, physical evidence, or information in designated locations or media under controlled conditions to maintain integrity, security, and accessibility throughout the investigative process."
   },
   {
-    "word_regex": "Video",
-    "usage_example": "Forensic units may be required to carry out authenticity analysis to examine the provenance or integrity of the video material. (legislative)",
+    "word_regex": "video",
+    "usage_example": "Forensiikassa videomateriaalien alkuperää tai eheyttä on mahdollista tutkia. (lainsäädäntö)",
     "definition": "Video refers to moving images recorded in either digital or analogue format that capture visual information over time, often accompanied by audio, and which may serve as evidence in forensic investigations."
   },
   {
-    "word_regex": "Data storage",
-    "usage_example": "Processing data can take a long time and increases in data storage and in the number of devices associated with crimes have led to increased pressure on forensic services. (procedural/instructive)",
+    "word_regex": "tiedon tallentaminen|varastointi",
+    "usage_example": "Rikoksiin liittyvien laitteiden ja datan määrä on lisääntynyt, jolloin tietojen käsittely ja tallennus voivat kestää kauan, joka on myös lisännyt forensisiin tutkimuksiin kohdistuvaa painetta. (menettely/ohje)",
     "definition": "Data storage is the retention and recording of digital information on physical media, devices, or remote systems from which information can be extracted, retrieved, and processed for forensic examination."
   },
   {
-    "word_regex": "Forensic copy",
-    "usage_example": "Examination of an Evidence or Virtual Forensic Copy (Forensic Image) (procedural/instructive)",
+    "word_regex": "rikostekninen kopio|rikostekninen jäljennös|forensinen kopio|jäljennös",
+    "usage_example": "Todisteiden tai virtuaalisen rikosteknisen kopion tutkiminen (forensinen jäljennös). (menettelyllinen/ohjeellinen)",
     "definition": "Forensic copy is a duplicate of digital evidence created through controlled forensic procedures to preserve the original data for examination and analysis."
   },
   {
-    "word_regex": "Forensic",
-    "usage_example": "The Director of the Institute of Criminalistics shall establish an expert committee to prepare a review expert report to review the expert report or expert statement submitted by the section of forensic technology and expertise or the Institute of Criminalistics. (legislative)",
+    "word_regex": "rikostekninen|forensinen",
+    "usage_example": "Tarvittaessa rikostekninen laboratorio antaa asiantuntijalausuntoja rikostekniikasta.",
     "definition": "Forensic refers to the systematic, documented, and scientifically rigorous examination of digital devices and evidence as well as the application of scientific methods, techniques, and procedures to criminal investigations and legal proceedings for investigation, or presentation of evidence. It also describes professional practitioners and bodies in the field of digital forensics."
   },
   {
-    "word_regex": "Store|Stored",
-    "usage_example": "Video footage should be extracted in its native format in order to maintain image quality and be stored as a master copy to be available for any future forensic examination/analysis. (legislative)",
+    "word_regex": "tallennettu|varastoitu",
+    "usage_example": "Kuvalaadun säilyttämiseksi videomateriaalin kopio tulee jäljentää alkuperäisessä muodossaan. Kopion tuee olla käytettävissä kaikissa tulevissa forensisissa tutkimuksissa/analyyseissä. (lainsäädäntö)",
     "definition": "Store (stored) refers to the act of retaining digital data on devices and media or maintaining physical evidence and records in secure locations for preservation, future access, or processing of evidence."
   },
   {
-    "word_regex": "Secure evidence",
-    "usage_example": "The purpose of the initial evidence gathering stage is to secure evidence, not only of offences in relation to production, possession and distribution of such images but also information relating to the subject’s lifestyle, access and interaction with children and use and knowledge of technology. (procedural/instructive)",
+    "word_regex": "todisteiden turvaaminen",
+    "usage_example": "Jo alustavassa todisteiden keräämisvaiheessa esimerkiksi lasta esittävien kuvien osalta tulee turvata myös niiden rikosten tutkinta, jotka liittyvät kuvien alkuperään, hallussapitoon ja jakamiseen, mutta myös muut rikosepäilyyn liittyvät seikat. (menettely/ohje)",
     "definition": "To secure evidence encompasses the collection, documentation, and preserving of both physical items and digital data relevant to an investigation."
   },
   {
-    "word_regex": "IP address|Internet Protocol",
-    "usage_example": "When any user accesses the Internet, they are allocated a unique address known as an IP address and their Internet Service Provider (ISP) keeps logs of the times and dates and the identity of the user allocated any IP address. (procedural/instructive)",
+    "word_regex": "IP|IP-osoitteet|Internetin protokollaosoitteet",
+    "usage_example": "Internet-palveluntarjoajalta (ISP) voi saada tietoja Internetiä käyttäneestä henkilöstä, tahosta tai lokitiedoista yksilöivän IP-osoitteen avulla. (menettely/ohje)",
     "definition": "IP (Internet Protocol) address is a unique numerical address assigned to a device connected to a network or the internet, allowing it to be located and identified."
   },
   {
-    "word_regex": "Timestamp",
-    "usage_example": "Timestamps might be a network timestamp relating to the point when information is received by centralised network storage, and not at the earlier point of digitization in the camera. (procedural/instructive)",
+    "word_regex": "Aikaleima",
+    "usage_example": "Aikaleimasta tulee tunnistaa, mihin se liittyy (verkkotallennuksen, kuvan tai viestin aikaleima). (menettely/ohje)",
     "definition": "A timestamp is a recorded marker indicating the specific date and time when a digital event occurred, data was created, modified, accessed, or transmitted."
   },
   {
-    "word_regex": "CPU|Central processing unit",
-    "usage_example": "Central Processing Units (CPUs) are generally stored as 2 voltage levels that are abstractly referenced as binary data (‘0’s and ‘1’s). (procedural/instructive)",
+    "word_regex": "suoritin|prosessori",
+    "usage_example": "Prosessointiyksiköiden tallentamaan tietoon voidaan abstraktisti viitata binääridatana ('0's ja '1's). (menettely/ohje)",
     "definition": "A CPU (Central Processing Unit) is the primary component of a computer that performs computational operations and executes instructions."
   },
   {
-    "word_regex": "Copy",
-    "usage_example": "The data held within the cloud storage account is not held on a user's device unless the user downloads it or makes it available to view offline (a copy is then saved to the device). (procedural/instructive)",
+    "word_regex": "kopio|jäljennös",
+    "usage_example": "Pilvitallennustilillä olevia tietoja ei säilytetä käyttäjän laitteella, ellei käyttäjä lataa niitä tai anna niitä katsottavaksi offline-tilassa (laitteelle tallentuva kopio). (menettely/ohje)",
     "definition": "A copy is a reproduction or duplicate of original data, documents, evidence, or records, created for purposes of examination, analysis, preservation, distribution, or retention. In digital forensics, a copy refers to both the act of reproducing digital data and the resulting reproduction itself."
   },
   {
-    "word_regex": "Digital device",
-    "usage_example": "It is important to ensure that an appropriately comprehensive and accurate extraction of data from the digital device in question is achieved, whilst maintaining the integrity of the evidential chain. (procedural/instructive)",
-    "definition": "A digital device refers to any electronic device that can receive, store, process, or send digital information and may contain evidence for criminal investigations or incidents."
-  },
-  {
-    "word_regex": "Image enhancement",
-    "usage_example": "Forensic units shall be clear on the purpose of any image enhancement that is to be carried out and anticipate any data losses that may occur as a side effect. (procedural/instructive)",
+    "word_regex": "kuvankäsittely",
+    "usage_example": "Forensisessa tarkoituksessa tehdyssä kuvankäsittelyssä on huomioitava mahdollisen kuvan muokkauksen tarkoitus ja mahdollinen tiedonmenetys. (menettely/ohje)",
     "definition": "Image enhancement is a transformation of an image that seeks to increase its quality, clarity, or interpretability for forensic examination purposes."
   },
   {
-    "word_regex": "TCP|IP|Transmission Control Protocol/Internet Protocol",
-    "usage_example": "Interconnected Network. The set of global computer networks linked together using the TCP/IP protocol. (procedural/instructive)",
+    "word_regex": "TCP|siirtokerrosprotokolla",
+    "usage_example": "Yhdistetty verkko. TCP/IP-protokollan avulla toisiinsa liitettyjen maailmanlaajuisten tietoverkkojen joukko. (menettely/ohje)",
     "definition": "TCP (Transmission Control Protocol) is a transport layer protocol responsible for reliable data transmission. IP (Internet Protocol) is a network layer protocol that handles addressing and routing of data packets. They work together to enable reliable end-to-end communication across networks"
   },
   {
-    "word_regex": "Motherboard",
-    "usage_example": "The effect of data transmission errors within a system can be reduced by using Error Code Correction (ECC) memory; or equivalents and ensuring that the memory they purchase is guaranteed to be compatible with the motherboard. (procedural/instructive)",
+    "word_regex": "emolevy",
+    "usage_example": "Käyttämällä Error Code Correction (ECC)-muistia voidaan vähentää järjestelmän tiedonsiirtovirheiden vaikutusta ja varmistaa uusien muistien yhteensopivuus emolevyn kanssa. (menettely/ohje)",
     "definition": "A motherboard is the main circuit board within a computer's main unit that houses and connects the central processing unit (CPU), memory, expansion cards, and other critical system components."
   },
   {
-    "word_regex": "Delete",
-    "usage_example": "If agreement is withdrawn after the extraction of information has taken place, it may not be possible to delete the data or return the device as it could form a crucial part of the evidence in the case. (procedural/instructive)",
+    "word_regex": "poisto|poistaminen",
+    "usage_example": "Poistettu tai palautettu tieto voi muodostaa ratkaisevan osan todisteista. (menettely/ohje)",
     "definition": "To delete is to remove or erase data so that it can no longer be accessed. In digital forensics, deletion refers to both intentional removal of electronic data and automated system processes that alter or eliminate stored information."
   },
   {
-    "word_regex": "Protocols",
-    "usage_example": "It is intended that the Digital Evidence in Criminal Procedure Manual constitutes a tool that allows formalising and standardizing procedures that, in addition to guarantee the quality of the service provided, should also allow the standardization of action protocols and the formalisation of processes. (procedural/instructive)",
+    "word_regex": "protokollat",
+    "usage_example": "Myös digitaalisen todisteen käsittelyssä tulisi olla todisteen käsittelymenettelyt, toimintaprotokollat ja prosessit virallistava standardoiva työkalu (esimerkiksi digitaalisen todisteen käsittelyopas; Digital Evidence in Criminal Procedure Manual). (menettely/ohje)",
     "definition": "Protocols are established procedures or standards that govern operations, communications, or interactions within forensic practice or organisational frameworks."
   },
   {
-    "word_regex": "Disk",
-    "usage_example": "Do not place labels directly onto floppy disks or CDs/DVDs. (procedural/instructive)",
+    "word_regex": "levy|levyke",
+    "usage_example": "Tarroja tai merkintöjä ei pidä asettaa suoraan levykkeille tai CD/DVD-levyille. (menettely/ohje)",
     "definition": "A disk is a data storage medium used to store and retrieve digital information, encompassing both magnetic rotating storage devices (hard disk drives) and other storage formats."
   },
   {
-    "word_regex": "Optical disc",
-    "usage_example": "Use proof tape on the openings of boxes or envelopes containing optical discs and other loose objects. (procedural/instructive)",
+    "word_regex": "optinen levy",
+    "usage_example": "Suojaa optisten levyjen ja muiden irrallisten esineiden aukot käyttämällä tarkoitukseen sopivaa teippiä tai muuta suojaa. (menettely/ohje)",
     "definition": "An optical disc is a flat, circular storage medium that uses optical (laser) technology to read and write data, including CDs (compact discs) and DVDs (digital versatile discs)."
   },
   {
-    "word_regex": "Webpage",
-    "usage_example": "Where it is not possible to reproduce the item as it would have originally been viewed, for example, when a webpage is retrieved some time after the original page was accessed,  this must also be clearly stated in the report. (procedural/instructive)",
+    "word_regex": "WWW-sivu|netti-sivu|Internet-sivu",
+    "usage_example": "Jos kohdetta ei ole mahdollista jäljentää siten kuin sitä olisi alun perin katsottu, esimerkiksi kun verkkosivu haetaan jonkin ajan kuluttua alkuperäisen sivun avaamisesta, tämäkin on mainittava raportissa selvästi. (menettely/ohje)",
     "definition": "A webpage is a resource accessible on the World Wide Web that displays content through a web browser, which represents dynamic digital evidence that may change over time, requiring careful documentation of when and how they were accessed and preserved."
   },
   {
-    "word_regex": "Personal computer|PC",
-    "usage_example": "Traditionally, digital forensics mainly involved extracting data from PCs and laptops. (procedural/instructive)",
+    "word_regex": "tietokone|mikrotietokone|henkilökohtainen tietokone",
+    "usage_example": "Perinteisesti aiemmin digitaaliseen rikostekniikkaan kuului lähinnä tietojen poimiminen tietokoneista ja kannettavista tietokoneista. (menettely/ohje)",
     "definition": "A personal computer is a general-purpose computer designed for individual use, typically consisting of a desktop or laptop system that enables connection and activity on networks and performs various computing tasks. PCs are common sources of digital evidence and platforms for forensic examination tools."
   },
   {
-    "word_regex": "Forensic process",
-    "usage_example": "The areas addressed are the acquisition and analysis of digital systems, including all aspects of the forensic process from before seizure to final report production and archiving. (procedural/instructive)",
+    "word_regex": "forensinen|rikostekninen prosessi",
+    "usage_example": "Käsiteltäviä aloja ovat digitaalisten järjestelmien hankinta ja analysointi, mukaan lukien kaikki forensisen prosessin osa-alueet ennen takavarikointia loppuraporttien tuottamiseen ja arkistointiin. (menettely/ohje)",
     "definition": "Forensic process refers to the systematic series of procedures, methods, and stages involved in the collection, examination, analysis, and reporting of evidence for investigative or legal purposes."
   },
   {
-    "word_regex": "Evidence recovery",
-    "usage_example": "When carrying out any evidence recovery it is essential that an audit trail of all activity carried out by the investigator is recorded in a log. (procedural/instructive)",
+    "word_regex": "todisteiden palauttaminen",
+    "usage_example": "Kaikista todistetaltioinneista on kirjattava kaikki todisteen taltioimiseen liittyvät menettelyt ja havainnot ehjä todisteketjun turvaamiseksi. (menettely/ohje)",
     "definition": "Evidence recovery is the systematic process of locating, extracting, collecting, and preserving physical or digital evidence from crime scenes, devices, or other sources for forensic examination and analysis."
   },
   {
-    "word_regex": "Expert report",
-    "usage_example": "The Director of the Institute of Criminalistics shall establish an expert committee to prepare a review expert report to review the expert report or expert statement submitted by the section of forensic technology and expertise or the Institute of Criminalistics. (legislative)",
+    "word_regex": "asiantuntijalausunto",
+    "usage_example": "Suomessa Keskusrikospoliisin Rikostekninen laboratorio (RTL) tutkii rikospaikkanäytteitä, vastaa toimialansa kehityksestä sekä toimii kouluttajana ja muiden viranomaisten tukena teknisen rikostutkinnan asiantuntemusta vaativissa asioissa. Laboratorion antamia lausuntoja käytetään esitutkinnassa ja koko muussa rikosprosessissa. (lainsäädäntö)",
     "definition": "An expert report is a formal written document prepared by a qualified expert or expert institute following the completion of a forensic examination, presenting technical findings, analysis, and professional opinions based on specialised knowledge and investigative procedures."
   },
   {
-    "word_regex": "Machine learning",
-    "usage_example": "Behavioural detection, data analytics and machine learning will allow us, with partners, to swiftly identify triggers and patterns. (procedural/instructive)",
+    "word_regex": "koneoppiminen",
+    "usage_example": "Koneoppimista voisi hyödyntää esimerkiksi datan analysoinnissa. Koneoppimisessa tietokonejärjestelmät oppivat ja kehittyvät kokemuksen kautta ilman nimenomaista ohjelmointia.  (menettely/ohje)",
     "definition": "Machine learning is a subset of artificial intelligence involving computational algorithms and systems that can learn from data, identify patterns, and make decisions or predictions on large volumes of digital evidence."
   },
   {
-    "word_regex": "Examiner",
-    "usage_example": "Whilst an initial report may be relatively brief, the examiner should be in a position to produce a full technical report should one later be required. (procedural/instructive)",
+    "word_regex": "tutkija",
+    "usage_example": "Vaikka alustava raportti voi olla suhteellisen lyhyt, tutkijan pitäisi pystyä tuottamaan täydellinen tekninen raportti, jos sellainen on myöhemmin tarpeen. (menettely/ohje)",
     "definition": "An examiner is a trained and competent professional responsible for conducting forensic examinations, analysing evidence, and producing findings and reports based on specialized knowledge and technical expertise."
   },
   {
-    "word_regex": "Examination",
-    "usage_example": "Taking digital devices for examination by agreement with the owner/user will only ever be applicable to victims and witnesses. (procedural/instructive)",
+    "word_regex": "tutkinta",
+    "usage_example": "Digitaalisten laitteiden ottaminen tutkittavaksi omistajan/haltijan/käyttäjän suostumuksella koskee vain asianomistajia (uhreja) ja todistajia. (menettely/ohje)",
     "definition": "Examination is the systematic and detailed analysis of items, devices, or materials to identify, document, extract, and interpret evidence for investigative or legal purposes."
   },
   {
-    "word_regex": "CCTV|Closed-circuit television",
-    "usage_example": "Transforming video from CCTV sources often requires spatial and temporal re-sampling, which leads to a loss of information that may be important in subsequent processing and interpretation. (legislative)",
+    "word_regex": "valvontakamerat|valvontakamerajärjestelmä",
+    "usage_example": "Valvontatallenteista saatavan tiedon tallentamisessa on huomioitava kaikki tärkeät tiedot tallenteen ja/tai tiedon myöhempää käsittelyä ja tulkintaa varten. (lainsäädäntö)",
     "definition": "CCTV (Closed-circuit television) is a video surveillance system consisting of cameras, recording devices, and playback equipment that captures and stores visual recordings of specific locations or areas for security, monitoring, or evidential purposes."
   },
   {
-    "word_regex": "Chat",
-    "usage_example": "Where an incident is reported which involves the use of chat the person taking the report needs to ascertain what method of chat was being used, i.e. what is the name of the website hosting the chat and its full Internet address, or what program is being used. (procedural/instructive)",
+    "word_regex": "chat-alusta|chat-keskustelu|chat|chatti",
+    "usage_example": "Chat-alustalla tapahtuneen epäilyn taltioimiseksi, tulee saada mahdollisimman tarkat tiedot käytetystä chat-ohjelmasta sekä chat-alustaa isännöivästä verkkosivustosta tarkkoine tietoineen. (menettely/ohje)",
     "definition": "Chat refers to real-time text-based communication between users over the internet or telecommunications networks, enabling interactive conversations through various digital platforms and applications."
   },
   {
-    "word_regex": "Biometric data",
-    "usage_example": "The processing of workers' biometric data is only considered legitimate for attendance control and access control to the employer's facilities, and it must be ensured that only representations of biometric data are used and that the respective collection process does not allow for the reversibility of said data. (legislative)",
+    "word_regex": "biometrinen tieto|biometrinen data",
+    "usage_example": "Biometristen tietojen käyttö ja käsittely edellyttävät muun muassa tietosuojaedellytysten (GDPR) ja lainsäädännön kattavaa huomioimista. (lainsäädäntö)",
     "definition": "Biometric data are personal data resulting from specific technical processing, relating to the physical, physiological, or behavioural characteristics of a person, which allow or confirm the unique identification of that individual, such as facial recognition data."
   },
   {
-    "word_regex": "Data protection",
-    "usage_example": "The controller ensures that the data protection officer is involved, appropriately and in a timely manner, in all issues related to the protection of personal data. (legislative)",
+    "word_regex": "tietosuoja",
+    "usage_example": "Rekisterinpitäjä huolehtii siitä, että tietosuojavastaava on asianmukaisesti ja oikea-aikaisesti mukana kaikissa henkilötietojen suojaan liittyvissä kysymyksissä. (lainsäädäntö)",
     "definition": "Data protection refers to the legal framework, principles, and practices governing the lawful collection, processing, storage, retention, and disposal of personal data to safeguard individual privacy rights and ensure responsible handling of information."
   },
   {
-    "word_regex": "Identification system",
-    "usage_example": "Competency assessment shall include manual and/or computer-based comparisons and the use of any automated fingerprint identification system (AFIS). (procedural/instructive)",
+    "word_regex": "tunnistusjärjestelmä",
+    "usage_example": "Tunnistusjärjestelmän tulee sisältää manuaaliset ja/tai tietokonepohjaiset vertailut. (menettely/ohje)",
     "definition": "Identification system is an automated or computer-based system that compares, analyses, and matches biometric or other identifying characteristics to establishing identity or associations for investigative and evidentiary purposes."
   },
   {
-    "word_regex": "NTFS|New Technology File System",
-    "usage_example": "- know how to act in line with basic digital forensic procedures in NTFS and other file systems",
+    "word_regex": "NTFS-tiedostojärjestelmä",
+    "usage_example": "Digitaalisessa rikostekniikassa tulee hallita erilaisia tiedostojärjestelmiä.",
     "definition": "NTFS (New Technology File System) is the primary file system used by Windows operating systems for organising, storing, and managing files and directories on devices."
   },
   {
-    "word_regex": "Network address",
-    "usage_example": "The obtaining of base station data refers to the obtaining of information on the network address and terminal end devices of persons who have logged in or who are logging on to a telecommunications system through a certain base station. (legislative)",
+    "word_regex": "Verkko-osoite",
+    "usage_example": "Tukiasematietojen hankkimisella tarkoitetaan sellaisten henkilöiden verkko-osoitteita ja päätelaitteita koskevien tietojen hankkimista, jotka ovat kirjautuneet tai kirjautuvat tietoliikennejärjestelmään tietyn tukiaseman kautta. (lainsäädäntö)",
     "definition": "A network address is an identifier for locating devices, users, and communications within network infrastructures."
   },
   {
-    "word_regex": "Code",
-    "usage_example": "If these materials are not available and deactivation is not possible due to an access code or malfunction of the device, remove the SIM card(s), if present. (procedural/instructive)",
+    "word_regex": "koodi",
+    "usage_example": "Salasanat ja erilaiset pääsykoodit tulee huomioida myös rikostekniseen tutkimukseen toimitettavissa laitteissa. (menettely/ohje)",
     "definition": "A code refers to a password or an identifier used to control access to systems, devices, data, or protected resources, such as an access code. A code also refers to a formal document issued by regulatory or authoritative bodies that sets out requirements, standards, and procedures for conducting forensic activities to ensures quality, reliability, and legal compliance, such as codes of practice."
   },
   {
-    "word_regex": "Decode|Decoding",
-    "usage_example": "The prosecutor shall not bring charges for a violation of the secrecy of communications, an aggravated violation of the secrecy of communications, interference with an information system, unlawful access to an information system or an offence involving a protection decoding system, unless the injured party reports the offence for prosecution or unless the perpetrator committed the offence while in the service of a public postal or telecommunications institution or unless a  very important public interest requires that charges be brought. (legislative)",
+    "word_regex": "koodin purku|suojauksen purku",
+    "usage_example": "Syyttäjä ei saa nostaa syytettä viestintäsalaisuuden rikkomisesta, törkeästä viestintäsalaisuuden rikkomisesta, tietojärjestelmään puuttumisesta, laittomasta pääsystä tietojärjestelmään tai suojauksen purkurikoksesta, ellei vahinkoa kärsinyt ilmoita rikoksesta syytteeseenpanoa varten tai ellei tekijä ole syyllistynyt rikokseen ollessaan yleisen posti- tai telelaitoksen palveluksessa tai ellei erittäin tärkeä yleinen etu edellytä syytteen nostamista. (lainsäädäntö)",
     "definition": "Decoding is the process of converting encoded, encrypted, or protected information into readable or usable form by reversing the encoding or encryption mechanism."
   },
   {
-    "word_regex": "Storage devices",
-    "usage_example": "Pay close attention to small digital storage devices, such as external discs or USB memory sticks, as well as generic digital storage devices such as cameras. (procedural/instructive)",
+    "word_regex": "tallennuslaitteet",
+    "usage_example": "Kiinnitä huomiota pieniin digitaalisiin tallennuslaitteisiin, kuten ulkoisiin levyihin tai USB-muistitikuihin, sekä yleisiin digitaalisiin tallennuslaitteisiin, kuten kameroihin. (menettely/ohje)",
     "definition": "Storage devices are physical equipment or media used to record, retain, and retrieve digital data, ranging from internal computer components to external and removable media."
   },
   {
-    "word_regex": "Blockchain",
-    "usage_example": "Most, but not all, cryptocurrencies use blockchain technology. (procedural/instructive)",
+    "word_regex": "lohkoketju",
+    "usage_example": "Useimmat, mutta eivät kaikki, kryptovaluutat käyttävät lohkoketju-tekniikkaa. (menettely/ohje)",
     "definition": "Blockchain is a system that records and shows every past transaction in a chronological, permanent, and publicly verifiable manner."
   },
   {
-    "word_regex": "Encryption",
-    "usage_example": "To date, the optional encryption on most computers and mobiles can be activated by the user. (procedural/instructive)",
+    "word_regex": "salaus",
+    "usage_example": "",
     "definition": "Encryption is a technique used by businesses, governments and individuals for encoding personal or commercially sensitive digital files using an encryption key or algorithm. In end-to-end encryption, only the sender and receiver can decrypt and receive digital information."
   },
   {
-    "word_regex": "After First Unlock|AFU",
-    "usage_example": "After that, I demonstrated for example how one can conclude whether the device is in the AFU or BFU state. (research data)",
+    "word_regex": "After First Unlock-tila|AFU",
+    "usage_example": "",
     "definition": "After First Unlock is a state where a device has been found actively running and unlocked."
   },
   {
-    "word_regex": "Full extraction",
-    "usage_example": "So, in this particular situation, it would be normal for them not to know exactly what they wanted, they would ask us for a full extraction and we would return a full extraction. (research data)",
+    "word_regex": "täydellinen jäljennös",
+    "usage_example": "",
     "definition": "Full extraction is a process of full data recovery from a digital device (a bit-for-bit copy of the entire storage system) which often precedes a more in-depth forensic examination."
   },
   {
-    "word_regex": "Forensic tools",
-    "usage_example": "For this type of collection, specific forensic tools must be used, and it should preferably be carried out by personnel familiar with this type of device or with specific training. (procedural/instructive)",
+    "word_regex": "forensiset|rikostekniset työkalut",
+    "usage_example": "",
     "definition": "Forensic tools refer to commercial and non-commercial hardware or software used to extract, preserve or interpret (digital) forensic evidence for use in legal proceedings."
   },
   {
-    "word_regex": "Digital forensic",
-    "usage_example": "Analyte Substance to be identified or measured; in digital forensic science it may be taken to include data as the focus of the analysis. (legislative)",
+    "word_regex": "digitaaliforensiikka|digitaalinen rikostekniikka|ICT-tutkinta",
+    "usage_example": "",
     "definition": "Digital forensic means referring to the scientific extraction, preservation or interpretation of digital evidence for use in legal proceedings."
   },
   {
-    "word_regex": "Faraday bag",
-    "usage_example": "Once we put the power bank in, we closed the faraday bag, it's not the best but better than turning the power off completely and then losing some other ability to access it. (research data)",
+    "word_regex": "Faradaypussi|-laukku",
+    "usage_example": "",
     "definition": "A Faraday bag is a specialised container made from layers of metallic fabric in which a live device can be placed to block incoming and outgoing communications."
   },
   {
-    "word_regex": "Live forensics",
-    "usage_example": "And, it should be noted that in live forensics it is not always possible to know upfront which approach will yield the best results. (procedural/instructive)",
+    "word_regex": "Live-forensiikka",
+    "usage_example": "",
     "definition": "Live forensics refers to the branch of digital forensic investigation which performs extraction, preservation and interpretation of digital evidence from a device which is actively running."
   },
   {
-    "word_regex": "SIM card",
-    "usage_example": "Mobile telephones and tablets can store evidential data directly to their internal memory, on the SIM card, to removable media cards, or to cloud storage services. (procedural/instructive)",
+    "word_regex": "sim-kortti|SIM-kortti|SIM",
+    "usage_example": "",
     "definition": "A SIM card is a removable smart card type printed circuit used in mobile phone devices to identify, control and store data from cellular networks. It securely stores the International Mobile Subscriber Identity (IMSI) and authentication key used to identify and authenticate a subscriber on mobile telephony devices."
   },
   {
-    "word_regex": "Log files",
-    "usage_example": "I had to find my own way to locate the log files and indeed they were on the laptop. (Research data)",
+    "word_regex": "lokitiedot|logit",
+    "usage_example": "",
     "definition": "Log files are files that a system writes to record significant events. They include information such as when a user logs onto a system, the hardware used with a system (such as printers, removable storage devices), data about network connections, and other system activities. Log files can be used to assist in identifying offending IP addresses that were logged at the time of an attack, as well as for investigating various security incidents and system events."
   },
   {
-    "word_regex": "IMEI|International Mobile Equipment Identity",
-    "usage_example": "Where a mobile telephone has been recovered as either found property or is suspected as stolen, the IMEI number should be identified and recovered. (procedural/instructive)",
+    "word_regex": "IMEI|IMEI-tunnus|kansainvälinen mobiililaitetunnus",
+    "usage_example": "",
     "definition": "An International Mobile Equipment Identity (IMEI) is a unique fifteen digit serial number which allows the investigator to identify the manufacturer and serial number of the model of a mobile phone."
   },
   {
-    "word_regex": "Personal data",
-    "usage_example": "Article 5 of the GDPR prescribes the principles relating to the general processing of personal data. (procedural/instructive)",
+    "word_regex": "henkilötieto",
+    "usage_example": "Yleisen tietosuoja-asetuksen (GDPR) 5 artiklassa säädetään henkilötietojen yleiseen käsittelyyn liittyvistä periaatteista. (menettely/ohje)",
     "definition": "Information relating to an identified or identifiable natural person (i.e. 'data subject). These include addresses, contacts, codes etc."
   },
   {
-    "word_regex": "Logs",
-    "usage_example": "There is usually an option for a user to save chat logs but more often than not the default setting is for logs not to be saved. (procedural/instructive)",
+    "word_regex": "lokitiedot|lokit",
+    "usage_example": "Käyttäjällä on yleensä mahdollisuus tallentaa halutessaan keskustelulokeja. (menettely/ohje)",
     "definition": "Log files, or event logs, are files that a system writes to record significant events. These include information such as when a user logs onto the system, the hardware used with the system (such as printers or removable storage), and data about network connections."
   },
   {
-    "word_regex": "Digital forensic report",
-    "usage_example": "The reason for this meeting was to discuss the digital forensic report as the evidence contained within the report is crucial as it corroborates the intelligence received. (research data)",
+    "word_regex": "digitaaliforensiikan raportti",
+    "usage_example": "Digitaalinen rikostekninen raportti voi sisältää tietoa ratkaisevia todisteista ja vahvistaa ja/tai poissulkea muita rikokseen liittyviä tietoja ja/tai väitteitä.  (tutkimustieto)",
     "definition": "A digital forensic report is a formal document that presents the findings, methodologies, and conclusions from a digital forensic investigation. It details what digital evidence was collected, how it was analysed, and what relevant information was discovered from computers, mobile devices, networks, or other digital sources."
   },
   {
-    "word_regex": "Forensic investigation",
-    "usage_example": "Each police department has a forensic investigation centre subordinate to the commanding officer, which can operate at one or more locations. (procedural/instructive)",
+    "word_regex": "rikostekninen|forensinen tutkinta",
+    "usage_example": "Jokaiselle poliisilaitoksella on vähintään yksi oma rikostutkimuskeskus. (menettely/ohje)",
     "definition": "A forensic investigation is a systematic process of identifying, preserving, analysing, and documenting digital evidence to determine what happened during a security incident, crime, or other event of interest."
   },
   {
-    "word_regex": "Laptop",
-    "usage_example": "Be aware that some laptop computers may power on by opening the lid. (procedural/instructive)",
+    "word_regex": "kannettava tietokone",
+    "usage_example": "Huomaa, että jotkin kannettavat tietokoneet voivat käynnistyä avaamalla kannen. (menettely/ohje)",
     "definition": "A laptop is a portable personal computer with an integrated display, keyboard, and pointing device, capable of operating on battery power or AC connection. It is distinguished from desktop computers by its portability and integrated components, from tablets by its attached physical keyboard, and from smartphones by its larger form and full operating system designed for general-purpose computing tasks."
   },
   {
-    "word_regex": "Format",
-    "usage_example": "Video footage should be extracted in its native format in order to maintain image quality and be stored as a master copy to be available for any future forensic examination/analysis. (legislative)",
+    "word_regex": "formaatti|tiedostomuoto",
+    "usage_example": "Videomateriaali olisi purettava sen alkuperäisessä muodossa, jotta kuvanlaatu säilyisi. Materiaali tulisi tallentaa kopiona, jotta se olisi käytettävissä kaikissa tulevissa rikosteknisissä tutkimuksissa/analyyseissä. (lainsäädäntö)",
     "definition": "A format refers to the specific structure, encoding, or organization of digital data that determines how information is stored and interpreted. Any media produced whereby original data has been converted to a different format during a forensic examination should be conspicuously marked or uniquely identifiable."
   },
   {
-    "word_regex": "Artificial intelligence|AI",
-    "usage_example": "Today I had a long discussion with a fellow digital evidence examiner about integrating artificial intelligence (AI) into digital evidence analysis processes. (research data)",
+    "word_regex": "tekoäly",
+    "usage_example": "Tekoälyn hyödyntäminen tulevaisuudessa myös digitaalisen todistusaineiston analysointiprosesseissa, saattaa olla mahdollista. (tutkimustieto)",
     "definition": "Artificial intelligence (AI) refers to the use of machine learning algorithms and automated reasoning systems. They may be integrated in digital forensic analysis processes, such as automated image and text categorisation."
   },
   {
-    "word_regex": "Forensic examination",
-    "usage_example": "The packaging for samples or items shall preserve the integrity of the material for forensic examination and minimise the risk of loss, degradation or contamination. (legislative)",
+    "word_regex": "forensinen|rikostekninen tutkinta",
+    "usage_example": "Näytteiden tai esineiden pakkauksissa on säilytettävä materiaalin eheys niiden rikosteknistä tutkimusta varten ja minimoitava häviämis-, rikkoontumis- tai kontaminaatioriskit. (lainsäädäntö)",
     "definition": "A forensic examination, within digital forensics, refers to the detailed, technical analysis phase of a forensic investigation where digital evidence is systematically inspected to extract relevant information for use in legal proceedings."
   },
   {
-    "word_regex": "Restart",
-    "usage_example": "In this case, when speaking about technical matters, I used idioms: \"the status of the device is good\", \"restart\". \"security code\", \"cracking\". (research data)",
+    "word_regex": "uudelleenkäynnistys",
+    "usage_example": "Tässä tapauksessa, kun puhutaan teknisistä asioista, käytin idiomeja: \"laitteen tila on hyvä\", \"uudelleenkäynnistys\". \"turvakoodi\", \"cracking/murtaminen\". (tutkimustieto)",
     "definition": "Restart refers to the process of shutting down and reinitializing a computer system\\'s operating system and hardware components. A restart is forensically significant because it clears volatile memory (RAM) that may contain encryption keys, running processes, network connections, and other ephemeral evidence. Right: N/A"
   },
   {
-    "word_regex": "Internet",
-    "usage_example": "Computers connected to the internet communicate with each other using the Internet Protocol (IP). (procedural/instructive)",
+    "word_regex": "Internet|Internetti|netti",
+    "usage_example": "Internetiin liitetyt tietokoneet kommunikoivat keskenään Internet Protocol (IP) -protokollan avulla. (menettely/ohje)",
     "definition": "The term internet is a contraction of the terms 'Interconnected Network' and refers to the set of global computer networks linked together using the TCP/IP protocol. In digital forensics, the internet is significant as both a source of evidence (connection records, browsing history, communications, cloud-stored data) and a medium through which crimes are committed or investigated.. Right: protocol"
   },
   {
-    "word_regex": "Upload",
-    "usage_example": "Every team would have to have one chief to upload information into the central system. (research data)",
+    "word_regex": "lataus",
+    "usage_example": "Mahdollinen tietojen lataaminen keskitettyihin järjestelmiin tulee ohjeistaa erikseen. (tutkimustieto)",
     "definition": "Upload refers to the process of transferring data, files, or audio-visual media (such as video, emergency calls, or recorded interviews) from a local device to a remote location such as a central system, cloud storage (such as iCloud), or digital asset/evidence management system. Right: files"
   },
   {
-    "word_regex": "ISO",
-    "usage_example": "Subject to the provisions below, forensic units shall demonstrate compliance with the Code by having accreditation for the FSAs they undertake to an appropriate ISO standard, with the schedule of accreditation including the Code. (legislative)",
+    "word_regex": "ISO-laatustandardit|ISO-standardit|kansainvälisen standardisoimisjärjestön määrittämät laatustandardit",
+    "usage_example": "Rikosteknisten yksiköiden on osoitettava lainsäädännön ja standardien noudattaminen sekä asianmukaisten akkreditointien voimassaolo.  (lainsäädäntö)",
     "definition": "The ISO (International Organisation for Standardisation) is the largest publisher of quality standards in the world. These standards are critical for regulating business practices and quality standards. ISO has published 23,037 standards and has members in 162 countries, and 788 technical bodies for standard development. Right: standard"
   },
   {
-    "word_regex": "SD card",
-    "usage_example": "The inquiry was regarding recovering data from an SD card that had been corrupted. (research data)",
+    "word_regex": "SD-kortti|SD-muistikortti",
+    "usage_example": "Esimerkiksi digitaalisesta forensiikasta voidaan kysyä mahdollisuutta tietojen palauttamiseen vaurioituneelta SD-kortilta. (tutkimusaineisto)",
     "definition": "An SD card (or Secure Digital card) is a removable flash memory storage device commonly found in cameras, phones, tablets, and other portable devices that serves as a source of digital evidence. Right: N/A"
   },
   {
-    "word_regex": "Digital material",
-    "usage_example": "For example, it might be reasonable to examine digital material by using software research tools (legislative).",
+    "word_regex": "Digitaalinen materiaali|sähköinen materiaali",
+    "usage_example": "Digitaaliforensiikassa tutkitaan digitaalista materiaalia muun muassa ohjelmistopohjaisilla tutkimustyökaluilla. (lainsäädäntö)",
     "definition": "Digital material refers to any data, information, or content stored in electronic or digital form that may be relevant to a digital forensic investigation."
   },
   {
-    "word_regex": "SSD",
-    "usage_example": "Additional care must be taken when analysing data from systems (e.g. SSD) that may automatically duplicate data as part of storage and processing algorithms, which have no bearing on actual user activity. (procedural/instructive)",
+    "word_regex": "SSD-levy|puolijohdelevy",
+    "usage_example": "Datan analysoinnissa on huomioitava, että SSD-aineisto voi automaattisesti monistaa tietoja osana tallennus- ja käsittelyalgoritmeja, joilla ei ole yhteyttä käyttäjän todelliseen toimintaan. (menettelyohje)",
     "definition": "An SSD (or Solid State Drive) refers to a data storage device that uses flash memory to store data electronically, without moving mechanical parts, in contrast to traditional hard disk drives that store data on electromagnetic layers."
   },
   {
-    "word_regex": "USB",
-    "usage_example": "Procedures for management of removable storage media used by the forensic unit to transfer data (such as memory cards, USB drives, optical media) shall include controls related to issue and their use. (legislative)",
+    "word_regex": "USB-liitäntä",
+    "usage_example": "Rikosteknisen yksikön käyttämien siirrettävien tallennusvälineiden (kuten muistikortit, USB-muistitikut, optiset levyt) hallintamenettelyissä on huomioitava niiden käyttöön ja hallintaan liittyvät kontrollit. (lainsäädäntö)",
     "definition": "A USB (or Universal Serial Bus) refers to a standardized interface for connecting external devices (such as thumb drives, memory sticks, external hard drives, digital cameras, memory cards, and CD/DVD writers) to peripheral devices, such as computers, laptops, mobile phones, and other digital devices for data transfer and storage."
   },
   {
-    "word_regex": "Instant messaging",
-    "usage_example": "Communication was done by phone, email and instant messaging (research data).",
+    "word_regex": "pikaviestit|pikaviestintä",
+    "usage_example": "Pikaviestintää voidaan hyödyntää puhelimitse ja sähköpostitse tapahtuvan viestinnän lisänä. (tutkimusaineisto)",
     "definition": "Instant messaging refers to real-time text-based digital communication conducted through messaging applications or secure communication systems. In digital forensics, instant messaging is significant as it generates logs, chat histories, and message content (including text, images, videos, and media files) that can be recovered from devices, social networks, forums, chat rooms, and communication systems as evidence of interactions between individuals during investigations."
   },
   {
-    "word_regex": "Digital",
-    "usage_example": "These values form a foundation on which our duties within digital forensics are carried out. (legislative)",
+    "word_regex": "digitaalinen",
+    "usage_example": "Rikosteknisen työn velvoitteet nojaavat arvoperustaan. (lainsäädäntö)",
     "definition": "Digital refers to electronic data, devices, technologies, and systems that store, process, or transmit information in binary format, as opposed to physical or analogue forms. In digital forensics, the term includes digital evidence found on storage media devices, digital forensic analysis and examinations, digital forensic laboratories and infrastructure, and the broader digital world of technologies, networks, and devices."
   },
   {
-    "word_regex": "Retrieve",
-    "usage_example": "Where records are distributed across different systems and/or locations, the forensic unit shall have a procedure to be able to retrieve and collate records required for reporting cases. (legislative)",
+    "word_regex": "hakea|palauttaa",
+    "usage_example": "Rikostekninen yksikkö noudattaa säädettyä menettelyä esimerkiksi hakiessaan ja yhdistäessään raportointiin tarvittavia asiakirjoja mahdollisesti eri järjestelmiin ja/tai sijainteihin hajautetuista asiakirjoista. (lainsäädäntö)",
     "definition": "Retrieve means the process of recovering, extracting, or accessing digital data or evidence from storage media, systems, or networks during a forensic investigation."
   },
   {
-    "word_regex": "Communications",
-    "usage_example": "All communications must be accurately recorded within the enquiry update sections of the crime report or SIO policy file. (procedural)",
+    "word_regex": "Viestintä",
+    "usage_example": "Tutkintaan liittyvä toimijoiden välinen viestintä on dokumentoitava esimerkiksi tutkintamuistioon. (menettelyohje)",
     "definition": "Communications are electronic exchanges of information between parties, including emails, messages, calls, and other forms of digital correspondence that may serve as evidence in digital forensic investigations."
   },
   {
-    "word_regex": "Media",
-    "usage_example": "You're going to find a phone number and even if you don't find the name, a social media profile will help you go further with the investigation. (research data)",
+    "word_regex": "media",
+    "usage_example": "Sosiaalisen median profiili voi edistää tutkintaa. Voit löytää esimerkiksi jonkin osatiedon, kuten puhelinnumeron ilman nimeä. (tutkimusaineisto)",
     "definition": "Media primarily refers to devices or materials used for storing, recording, or transmitting digital information, including digital storage media (hard drives, CDs/DVDs, flash memory cards, floppy disks, optical discs, USB devices) and media files (images and videos)."
   },
   {
-    "word_regex": "Wireless network",
-    "usage_example": "Please note that some devices may be connected to a wireless network: (procedural/instructive)",
+    "word_regex": "langaton verkko",
+    "usage_example": "Tutkinnassa on huomioitava erilaisten mahdollisuus olla yhteydessä langattomaan verkkoon. (menettelyohje)",
     "definition": "A wireless network is a network infrastructure that enables devices to connect and communicate without physical cables, using wireless protocols such as Wi-Fi, Bluetooth, or infrared."
   },
   {
-    "word_regex": "File system",
-    "usage_example": "When extracting data from a file system viewer, it is important to know exactly how it will interpret the file system being viewed. (procedural/instructive)",
+    "word_regex": "tiedostojärjestelmä",
+    "usage_example": "Poimittaessa tietoja tiedostojärjestelmästä, on tiedettävä tarkasti, miten se tulkitsee tarkasteltavaa tiedostojärjestelmää. (menettelyohje)",
     "definition": "A file system is a structure that relates to any physical and virtual volume (including databases and container files) that can be used to store user and system files. In digital forensics, the ability of a forensic tool to interpret available file systems is generally fundamental to the success of determining both the construction of all files contained within it."
   },
   {
-    "word_regex": "Read-only",
-    "usage_example": "However, only digital evidence held on the authorised read-only data carries made by the Intelligence Gathering Unit is admissible for the trial before court. (research data).",
+    "word_regex": "vain luku-muoto",
+    "usage_example": "Rikostekniikan käytössä tulee olla yhteisesti organisaation hallinnon hyväksymät välineet digitaalisen todistusaineiston käsittelemiseksi. Tämä on edellytys myös todisteen hyväksyttäväksi käyttämiseksi mahdollisessa rikosasian oikeudenkäynnissä. (tutkimusaineisto)",
     "definition": "Read-only refers to a state or mode in which data can be viewed or copied but cannot be modified or deleted."
   },
   {
-    "word_regex": "Overwrite",
-    "usage_example": "There are also differences in what application performs the time writes (not all applications overwrite all time stamps). (research data)",
+    "word_regex": "ylikirjoittaa",
+    "usage_example": "On huomioitava, etteivät kaikki sovellukset välttämättä ylikirjoita kaikkia aikaleimoja. (tutkimusaineisto)",
     "definition": "Overwrite means the process of replacing existing data with new data on a storage medium and may destroy original evidence."
   },
   {
-    "word_regex": "Internet protocol",
-    "usage_example": "Computers connected to the internet communicate with each other using the Internet Protocol (IP). (procedural/instructive)",
+    "word_regex": "Internet-protokolla",
+    "usage_example": "Internet-yhteydessä olevat tietokoneet kommunikoivat keskenään käyttäen Internet-protokollaa (IP). (menettelyohje)",
     "definition": "Internet protocol (or IP) refers to a communication protocol that uses data switching to transmit information over networks."
   },
   {
-    "word_regex": "Virtual machine",
-    "usage_example": "Usually, the hard disk of a virtual machine is contained in a single file, but a virtual machine can have multiple disks, just like the physical one. (research data).",
+    "word_regex": "virtuaalikone",
+    "usage_example": "Yleensä virtuaalikoneen kiintolevy on tallennettu yhteen tiedostoon, mutta virtuaalikoneella voi olla useita levyjä aivan kuten fyysisellä koneella. (tutkimusaineisto)",
     "definition": "A virtual machine is a software-based emulation of a computer system that operates within a host environment. A virtual machine is usually contained in a single file but can have multiple disks just like a physical one."
   },
   {
-    "word_regex": "Log in",
-    "usage_example": "I basically got a document, a step-by-step on how you can actually log in and tag things for evidence. (research data).",
+    "word_regex": "kirjautuminen|kirjautua järjestelmään",
+    "usage_example": "Asioiden todisteiksi merkkaaminen voidaan ohjeistaa asiakirjassa vaiheittaisesti. Esimerkiksi taktinen tutkija voi hyödyntää tätä ohjeistusta osana esitutkintatehtäväänsä. (tutkimusaineisto)",
     "definition": "A log in is the authentication event when a user accesses a system or application, generating records that document user activity, access times, and account usage patterns relevant to digital forensic investigations."
   },
   {
-    "word_regex": "Storage media",
-    "usage_example": "Before packaging, check that the temperature of the computer, peripherals and digital storage media is not too high. (procedural/instructive)",
+    "word_regex": "Tallennusmedia",
+    "usage_example": "Ennen pakkaamista on tarkistettava, ettei tietokoneen, oheislaitteiden ja digitaalisten tallennusmedioiden lämpötila ole liian korkea. (menettely/ohje)",
     "definition": "Storage media are physical devices or materials used to store digital data, comprising both standalone storage devices, components, remotely stored electronic data (such as cloud storage) accessed via a submitted/seized device."
   },
   {
-    "word_regex": "Software application",
-    "usage_example": "Today, I spoke with another department within my agency in relation to the software application used to view downloads of digital evidence. (research data)",
+    "word_regex": "ohjelmistosovellus",
+    "usage_example": "Eri virastoissa voi olla käytössä erilaisia ohjelmistosovelluksia digitaalisen todistusaineiston latausten tarkasteluun. Näistä on hyvä keskustella ja vaihtaa tietoa. (tutkimusaineisto)",
     "definition": "A software application is a computer program designed to perform specific tasks or functions. In digital forensics, software applications are significant as they serve as specialised tools used by departments and agencies for data communication, evidence viewing, system protection, and other investigative tasks."
   },
   {
-    "word_regex": "Files",
-    "usage_example": "Appropriate to the associated FSA, the procedure and policies should ensure that where key information is extracted from pictorial image files, the original images are retained and linked with the captured data, including relevant digital metadata (legislative)",
+    "word_regex": "tiedostot",
+    "usage_example": "Esimerkiksi kuvatiedostojen joukosta kerättävästä keskeisestä tiedosta tulee varmistaa alkuperäisten kuvien säilyttäminen ja linkittäminen tallennettuun dataan metadata huomioiden. Menettelytavat voivat perustua lainsäädäntöön ja erilaisiin politiikkoihin. (lainsäädäntö)",
     "definition": "Files refer to a structured set of personal data accessible according to specific criteria, centralised, decentralised or distributed functionally or geographically."
   },
   {
-    "word_regex": "Text messages",
-    "usage_example": "Victim hands over phone to officers to examine -- often for low-level offences and enables officers to note content of text messages and/or to enable screenshots to be emailed to Police thereby allowing victim to retain phone. (procedural/instructive)",
+    "word_regex": "tekstiviestit",
+    "usage_example": "Esimerkiksi vähäisempien rikosten yhteydessä, poliisin on mahdollisuus kirjata ja/tai ottaa kuvakaappauksia tekstiviestien sisällöstä asianomistajan (uhrin) puhelimesta. Tällöin puhelinta ei tarvitse luovuttaa pitempiaikaisesti poliisin tutkittavaksi. (menettelyohje)",
     "definition": "Text messages are short electronic messages sent between mobile devices or applications, providing records of communications, timestamps, and contact information valuable in digital forensic investigations."
   },
   {
-    "word_regex": "Network",
-    "usage_example": "We must always consider the possibility of the existence of a computer network. (procedural/instructive)",
+    "word_regex": "Verkko|tietoverkko",
+    "usage_example": "Rikostutkinnassa on aina huomioitava kaikki mahdolliset tietokoneverkot. (menettelyohje)",
     "definition": "A network is an interconnected system of computers and devices that communicate and share resources. It is often used as an abbreviation for Internet, with many still referring to Usenet and cyberspace as a whole as \"the network\"."
   },
   {
-    "word_regex": "Program",
-    "usage_example": "Whoever illegally reproduces, discloses or communicates to the public a computer program protected by law will be published with imprisonment up to 3 years or a fine. (legislative).",
+    "word_regex": "ohjelma",
+    "usage_example": "Joka laittomasti jäljentää, paljastaa tai saattaa yleisön saataville lain suojaaman tietokoneohjelman, voidaan tuomita enintään kolmen vuoden vankeuteen tai sakkoon. (lainsäädäntö)",
     "definition": "A program is a set of instructions executed by a computer to perform specific operations, such as instant messengers (such as Windows Live Messenger), email programs (such as Outlook, Windows Mail), or IRC programs."
   },
   {
-    "word_regex": "Digital forensic gateway",
-    "usage_example": "The Digital Forensic Gateway is the receiving facility for all examination request forms where triage and quality control functions are conducted. (procedural/instructive)",
+    "word_regex": "Digitaaliforensinen vastaanottopiste",
+    "usage_example": "Mahdollinen esikarsinta, priorisoinnit ja laadunvalvonta ovat tärkeitä toimia myös digitaalisessa rikostekniikassa. (menettely/ohje)",
     "definition": "A digital forensic gateway is the receiving facility where staff or supervisors will authorise examination of digital devices and confirm that reasonable grounds, necessity and proportionality exist for examination of the item."
   },
   {
-    "word_regex": "User",
-    "usage_example": "Can each computer be associated with an individual user? (procedural/instructive)",
+    "word_regex": "käyttäjä",
+    "usage_example": "Jokaisen laitteen yhdistäminen yksittäiseen ja/tai yksittäisiin käyttäjiin on tärkeä osa digitaalista forensiikkaa. (menettely/ohje)",
     "definition": "A user refers to anyone who uses a computer, application or online service. A user's activities, account information, and access patterns are documented in system logs."
   },
   {
-    "word_regex": "Mobile phone|cell phone",
-    "usage_example": "While officers may have a legislative right to seize and examine a mobile phone, it does not automatically give you the right to access the owner’s data (procedural/instructive)",
+    "word_regex": "Matkapuhelin|kännykkä",
+    "usage_example": "Vaikka poliisilla voi olla lainsäädännöllinen oikeus takavarikoida ja tutkia matkapuhelin, se ei automaattisesti anna oikeutta päästä käsiksi omistajan tietoihin. (menettely/ohje)",
     "definition": "A mobile phone is a portable telecommunications device that stores communications, location data, applications, and user information, serving as a critical source of evidence in digital forensic investigations."
   },
   {
-    "word_regex": "ISP",
-    "usage_example": "This will allow the ISP to check their records and identify which subscriber was assigned that specific IP address at that given time. (procedural/instructive)",
+    "word_regex": "Internet-palveluntarjoaja|ISP-palveluntarjoaja",
+    "usage_example": "Poliisin tietopyynnön perusteella, ISP voi tarkistaa tietueet ja tunnistaa, mille tilaajalle kyseinen IP-osoite on ollut annettuna tiettynä ajankohtana. (menettely/ohje)",
     "definition": "An ISP (Internet Service Provider or Internet Access Provider) is a company that provides internet connectivity to users and keeps logs of the times, dates and identity of the user allocated any IP address."
   },
   {
-    "word_regex": "Social network",
-    "usage_example": "Social Network Sites – Establish the use of Social Networking, Online Communities, Online Storage and other Cloud Services by witnesses and suspects. (procedural/instructive)",
+    "word_regex": "Sosiaalinen verkosto|sosiaalinen media",
+    "usage_example": "Sosiaalisen verkoston sivustoilta voi pyrkiä selvittämään rikosasiaan liittyvien henkilöiden sosiaalista verkostoitumista sekä verkkoyhteisöjen, -tallennusten ja muiden alustojen käyttöä. (menettely/ohje)",
     "definition": "A social network is an online platform (such as Instagram or Facebook) that enables users to create profiles, share content, and interact with others, generating extensive digital footprints including posts, messages, and connection data valuable for digital forensic investigations."
   },
   {
-    "word_regex": "Remote access",
-    "usage_example": "The problem here is the difference between a home server with a local admin and a large external server room with remote access. (research data)",
+    "word_regex": "Etäkäyttö",
+    "usage_example": "Kotipalvelimen paikallisen ylläpitäjän ja suuren ulkoisen palvelinsalin etäkäyttöyhteyksien välillä voi ilmetä ongelmia. (tutkimusaineisto)",
     "definition": "Remote access is the ability to connect to and control computer systems, namely devices with wireless access capability, from a remote location, via the internal network or external network access (i.e. the internet)."
   },
   {
-    "word_regex": "Forensic acquisition",
-    "usage_example": "It is therefore, extremely important that laboratories carefully consider the quality of the Power Supply Units (PSUs) they use both for their forensic machines and any forensic acquisition units. (procedural/instructive)",
+    "word_regex": "Forensinen taltiointi|jäljentäminen",
+    "usage_example": "Käyttöön hyväksytyt ja käytössä olevat tallennusvälineet alustoineen, laitteineen ja tarvittavine oheislaitteineen, tulee olla laadukkaita. (menettely/ohje)",
     "definition": "Forensic acquisition is the systematic process of creating a forensically sound copy or image of digital evidence that preserves the original data and maintains its integrity for analysis and legal proceedings."
   },
   {
-    "word_regex": "Virus",
-    "usage_example": "If that was going to leave a virus or something on his computer that was undesirable. (research data)",
+    "word_regex": "virus",
+    "usage_example": "Virussuojaus ja/tai muuhun ei-toivottavaan käyttäytymiseen liittyvät tekijät on tärkeää huomioida myös digitaalisessa rikostekniikassa. (tutkimusaineisto)",
     "definition": "A virus is malicious software that self-replicates and infect computer systems by attaching itself to legitimate files or programs, spreading from one computer to another and potentially damaging, modifying, or extracting data."
   },
   {
-    "word_regex": "Archived",
-    "usage_example": "The original report is archived in the unit under whose number the report was recorded. (procedural/instructive)",
+    "word_regex": "Arkistointi|arkistoitu tietokanta",
+    "usage_example": "Asiakirjat ja raportit järjestetään rikosilmoitusnumeroiden alle kussakin tutkivassa yksikössä. (menettely/ohje)",
     "definition": "Archived refers to the process whereby data or files are securely stored in a compressed or preserved state in conditions to prevent damage or minimise deterioration and indexed so as to facilitate orderly storage and retrieval."
   },
   {
-    "word_regex": "Screenshot",
-    "usage_example": "In the absence of this information being available, preservation of one or more screenshot images may provide a basis for identification of the version used. (legislative).",
+    "word_regex": "Kuvakaappaus",
+    "usage_example": "Yhden tai useamman kuvakaappauksen säilyttäminen voi tarjota perustan käytetyn version tunnistamiselle. (lainsäädännöllinen)",
     "definition": "A screenshot is a captured image of a device's display at a specific moment in time, used to document digital evidence, preserve volatile information, or demonstrate the state of a system during a digital forensic investigation."
   },
   {
-    "word_regex": "Forensic service",
-    "usage_example": "Where the services of commercial forensic service providers are required by law enforcement, it is important to select external consulting witnesses/forensic practitioners carefully. (procedural/instructive)",
+    "word_regex": "Rikostekninen laboratorio",
+    "usage_example": "Keskusrikospoliisi vastaa myös toimialansa kehityksestä, toimii kouluttajana ja muiden viranomaisten tukena teknisen rikostutkinnan asiantuntemusta vaativissa asioissa. (menettely/ohje)",
     "definition": "A forensic service refers to professional offerings provided by forensic laboratories or specialists that include evidence examination, analysis, reporting, and expert testimony to support legal and investigative processes (such as the Scottish Police Authority)."
   },
   {
-    "word_regex": "Tool",
-    "usage_example": "Any proposed change shall be risk assessed at the method level as even a patch in a software tool may adversely affect the operation of a second tool or process using its output e.g. giving a plausible but incorrect time stamp. (legislative)",
+    "word_regex": "työkalu",
+    "usage_example": "Esimerkiksi ohjelmistotyökalupäivitysten riskit tulee arvioida erikseen suhteessa muihin työkaluihin ja prosesseihin. Virhe voi ilmetä esimerkiksi aikaleimoissa, vaikka ne vaikuttaisivatkin uskottavilta. (lainsäädännöllinen)",
     "definition": "A tool is software or hardware equipment used by forensic examiners to acquire, analyse, process, or preserve digital evidence, ranging from specialized forensic programs (such as MSAB XRY) to network traffic analysis tools and triage software."
   },
   {
-    "word_regex": "Technical methods",
-    "usage_example": "investigating the place where crimes were committed, carrying out contemplation and exploitation of traces and exhibits, using modern scientific technology of equipment and the application of scientific and technical methods (legislative)",
+    "word_regex": "Tekniset menetelmät",
+    "usage_example": "Rikostekniikka kattaa esimerkiksi rikospaikkatutkinnat, jälkien ja näytteiden tutkimisen ja hyödyntämisen rikosasiassa näyttönä. Rikostekniikka käyttää myös erilaisia moderneja tieteellisiä laiteteknologioita sekä soveltaa tieteellisiä ja teknisiä menetelmiä. (lainsäädännöllinen)",
     "definition": "Technical methods are systematic procedures and techniques employed by forensic practitioners to examine digital evidence, encompassing acquisition, preservation, analysis, and documentation processes."
   },
   {
-    "word_regex": "Emails",
-    "usage_example": "The forensic unit shall have procedures for filtering or blocking phishing e-mails or messages before they reach users. (legislative)",
+    "word_regex": "sähköpostit",
+    "usage_example": "Kaikessa viranomaistoiminnassa on huomioitava riittävä suojautuminen esimerkiksi kalasteluviesteiltä. (lainsäädännöllinen)",
     "definition": "Emails are electronic mail messages that contain communication content, attachments, and metadata that can establish timelines, relationships, and intent in digital forensic investigations."
   },
   {
-    "word_regex": "Forensic methods",
-    "usage_example": "A person’s movement can be restricted in order to prevent the person from obtaining information that shall be kept secret by virtue of the law, such as tactical, technical and forensic methods of the police, or in order to secure isolation of the scene or target of investigation (procedural/instructive)",
+    "word_regex": "Rikostekniset menetelmät",
+    "usage_example": "Rikospaikka voidaan eristää rikospaikkatutkinnan turvaamiseksi. Henkilön ja/tai henkilöiden liikkumista voidaan rajoittaa tämän lisäksi myös lain mukaan salassa pidettävien tietojen suojaamiseksi, kuten poliisin taktiset, tekniset ja rikostekniset menetelmät. (menettely/ohje)",
     "definition": "Forensic methods are established scientific procedures and methodologies used to collect, preserve, analyse, and present digital evidence for use in legal proceedings."
   },
   {
-    "word_regex": "Forensic techniques",
-    "usage_example": "Users’ data and activity records are less likely to be held locally on devices, thus a device may not yield evidence, even if forensic techniques are used. (procedural/instructive)",
+    "word_regex": "Rikostekniset tekniikat|forensiset tekniikat",
+    "usage_example": "Rikostekniset tekniikat eivät välttämättä tuoda todisteita, koska käyttäjien data ja toimintaan liittyvät lokitiedot ovat yhä harvemmin paikallisilla laitteilla. (menettely/ohje)",
     "definition": "Forensic techniques are specific approaches and practices employed within forensic investigations to extract, recover, analyse and interpret digital evidence for use in legal proceedings."
   },
   {
-    "word_regex": "Connectivity",
-    "usage_example": "The pace of digital technological change and digital connectivity continues to accelerate and grow, now reaching into almost every part of daily life. (procedural/instructive).",
+    "word_regex": "yhteydet",
+    "usage_example": "Digitaalisen teknologian muutos ja kehitystahti laajentuvat kiihtyvästi ollen osa lähes jokaisen päivittäistä elämää. (menettely/ohje)",
     "definition": "Connectivity refers to the state or capability of devices and systems to establish network connections, providing forensic evidence through connection logs, network traffic, and communication patterns. Enhanced connectivity, while offering opportunities, also presents risks and new vulnerabilities for individuals, communities and organisations."
   },
   {
-    "word_regex": "Network forensics",
-    "usage_example": "Network forensics and volatile data collection. (procedural/instructive)",
+    "word_regex": "verkkoforensiikka",
+    "usage_example": "Verkkoforensiikassa on myös huomioitava väliaikainen ja/tai nopeasti muuttuva ja/tai katoava data. (menettely/ohje)",
     "definition": "Network forensics is a specialised branch of digital forensics focused on monitoring, capturing, and analysing network traffic and events to investigate security incidents, intrusions, and cybercrimes."
   },
   {
-    "word_regex": "Cybercrime investigation",
-    "usage_example": "A new competency model will be required to enable the change in core activities to deliver the skills shifts needed to support cybercrime investigation in both specialist support areas and local policing. (procedural/instructive)",
+    "word_regex": "kyberrikostutkinta",
+    "usage_example": "Kyberrikosten tutkinta edellyttää uudenlaista osaamista, taitojen kehittämistä ja erikoistumista rikostutkinnassa. (menettely/ohje)",
     "definition": "A cybercrime investigation refers to the process of examining, analysing, and prosecuting criminal offenses committed using computers, networks, digital devices, and the Internet, encompassing crimes such as hacking, fraud, data theft, malware distribution, online harassment, and other technology-facilitated offenses."
   },
   {
-    "word_regex": "Website",
-    "usage_example": "If there is a requirement to identify who has committed some activity on a website, for example where a fraud has been committed by purchasing goods from a website or by posting a message on a website, the likelihood is that the suspect may be traceable from logs on the site. (procedural/instructive)",
+    "word_regex": "Verkkosivu|verkkosivusto",
+    "usage_example": "Epäiltyä rikosta on mahdollista pyrkiä selvittämään myös verkkosivuston lokitietojen avulla (menettely/ohje).",
     "definition": "A website is a collection of web pages accessible via the internet, which may contain relevant evidence including content, user interactions, server logs, and metadata important to investigations."
   },
   {
-    "word_regex": "Router",
-    "usage_example": "The modem may connect directly to a computer, or it may connect to a router. (procedural/instructive)",
+    "word_regex": "reititin",
+    "usage_example": "Modeemi voi olla yhteydessä suoraan tietokoneeseen tai se voi olla yhteydessä reitittimeen. (menettely/ohje)",
     "definition": "A router is a networking device that forwards information between computer networks. They are one of the bases for the functioning of the Internet network."
   },
   {
-    "word_regex": "Server",
-    "usage_example": "The laboratory should consider the location of the remote server, and be fully aware of the legal cross border constraints that may be a factor in accessing any data. (procedural/instructive)",
+    "word_regex": "palvelin",
+    "usage_example": "Datan saatavuudessa tulee huomioida myös mahdollisten etäpalvelimien sijainti ja miten mahdollinen rajat ylittävä sijainti vaikuttaa oikeudellisesti tietojen saatavuuteen. (menettely/ohje)",
     "definition": "A server designates the central computer of a network and its corresponding software (among other network operating systems)."
   },
   {
-    "word_regex": "Storage space",
-    "usage_example": "If I knew what they wanted to query I could narrow not just the device down but the artefacts as well, meaning I’m not wasting valuable storage space or processing time. (research data)",
+    "word_regex": "Tallennustila",
+    "usage_example": "Tutkinnan rajaaminen voi olla perustelua tallennustilan, prosessien keston tai etsittävien tietojen suhteen. (tutkimusaineisto)",
     "definition": "Storage space refers to the capacity available on storage media for saving digital data, relevant to forensics for understanding data volume, available space for recovery, and evidence of data deletion or manipulation."
   },
   {
-    "word_regex": "Multimedia",
-    "usage_example": "Specialist video multimedia, recovery, processing and analysis (legislative)",
+    "word_regex": "multimedia",
+    "usage_example": "Multimediaan liittyvä taltiointi, käsittely ja analysointi edellyttävät erikoistumista. (lainsäädäntö)",
     "definition": "Multimedia is content that combines multiple forms of media including text, images, audio and video."
   },
   {
-    "word_regex": "Removable",
-    "usage_example": "If a device does not have a removable battery, then its SIM card should be removed instead. (procedural/instructive)",
+    "word_regex": "irrotettava|poistettava",
+    "usage_example": "Irrotettavasta laitteesta tulee erikseen huomioida, onko siinä SIM-korttia ja/tai akkua. (menettely/ohje)",
     "definition": "Removable refers to storage devices or media that can be easily disconnected from a computer system, such as USB drives and external hard drives, which are common sources of evidence in investigations."
   },
   {
-    "word_regex": "Cryptocurrency",
-    "usage_example": "These are devices specifically designed to mine certain types of cryptocurrencies. (procedural/instructive)",
+    "word_regex": "Kryptovaluutta|kryptovaluutat",
+    "usage_example": "Takavarikkopöytäkirjassa on ilmoitettava takavarikoinnin ja/tai kopioinnin tarkoitus, selitettävä menettely, joka johti takavarikointiin ja/tai kopiointiin sekä yksilöitävä riittävästi takavarikoitu esine ja/tai kopioitu asiakirja. Lisäksi on annettava tieto oikeudesta saattaa takavarikointi ja/tai kopiointi tuomioistuimen käsiteltäväksi. (lainsäädäntö)",
     "definition": "Cryptocurrency is a digital form of money that uses advanced security codes to protect transactions and track ownership, with all exchanges recorded on a shared public record that anyone can view but no single entity controls."
   },
   {
-    "word_regex": "Confiscation",
-    "usage_example": "The record shall sufficiently state the purpose of the confiscation or copying, explain the procedure that has led to the confiscation or copying, specify the object of the confiscation or the document copied and give notice of the right to submit the confiscation or copying to the consideration of the court. (legislative)",
-    "definition": "Confiscation is the act of taking possession of property, objects, or assets connected to criminal activity for a specified period (more common) or permanently, either as evidence or as punishment."
-  },
-  {
-    "word_regex": "Verification",
-    "usage_example": "The forensic unit shall ensure that all personnel involved in the development and validation/verification of the method are informed of any agreed changes to the end-user requirements or specification so the correct version proceeds to the next stage. (legislative)",
+    "word_regex": "Hyväksyntä|verifiointi",
+    "usage_example": "Rikostekniikassa on varmistuttava kaikkien menetelmien ja työkalujen hyväksynnästä käyttötarkoituksessaan. Käyttäjillä tulee olla myös riittävä osaaminen ja tietoisuus mahdollisista sovituista muutoksista. (lainsäädäntö)",
     "definition": "Verification is a process of confirmation through assessment of evidence or testing that a method, tool, procedure, or item meets specified requirements, performs as intended, and is fit for its designated purpose."
   },
   {
-    "word_regex": "Username(s)?",
-    "usage_example": "If possible, obtain the passwords and chat usernames used by the suspect. (procedural/instructive)",
+    "word_regex": "Käyttäjätunnus|käyttäjätunnukset",
+    "usage_example": "Epäillyn käyttämät salasanat ja keskustelujen käyttäjätunnukset edistävät rikosepäilyn selvittämistä. (menettely/ohje)",
     "definition": "A username is an identifier or account name used to authenticate and identify an individual user when accessing computer systems, online services, applications, or digital accounts."
   },
   {
-    "word_regex": "RAM",
-    "usage_example": "Regardless of the tools used, it is advisable to start with capturing the contents of RAM, the volatile memory. (procedural/instructive)",
+    "word_regex": "RAM-muisti",
+    "usage_example": "RAM-muistitiedot on suositeltavaa tallentaa ensin riippumatta käytettävistä työkaluista. (menettely/ohje)",
     "definition": "RAM (Random Access Memory) is volatile computer memory that temporarily stores data, programs, and system information during active operation and loses all contents when power is removed."
   }
 ]

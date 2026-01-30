@@ -1,0 +1,209 @@
+{
+  "indicator": "subordinate_clauses",
+  "language": "fi",
+  "samples": [
+    {
+      "text": "Kaupunginvaltuuston kokous venyi myöhään yöhön, kun kiisteltiin uudesta kaavoituslaista. Lakiehdotuksen oli määrä mahdollistaa korkeampien rakennusten rakentaminen keskusta-alueelle, mutta se kohtasi vastustusta asukkaiden ja ympäristöjärjestöjen taholta. Vaikka lakiehdotuksen puolustajat korostivat sen taloudellisia hyötyjä, vastustajat pelkäsivät sen tuhoavan kaupungin historiallista ilmettä. Lopulta valtuusto äänesti lakiehdotuksen puolesta niukalla enemmistöllä. Myös vihreän siirtymän suunnitelmat olivat esillä. Vaikka osa valtuutetuista kannatti jyrkkiäkin päästövähennyksiä, toiset varoittivat liian nopeiden muutosten taloudellisista vaikutuksista. Vaikka toimenpiteitä tarvitaan ilmastonmuutoksen hillitsemiseksi, on tärkeää ottaa huomioon myös paikallisten yritysten kilpailukyky, muistutti valtuutettu Virtanen. Kokouksessa käsiteltiin myös kaupungin ensi vuoden budjettia. Sosiaali- ja terveyspalveluihin suunnitellaan lisäpanostuksia, mutta samalla on löydettävä säästökohteita muualta.",
+      "expected": [
+        "Vaikka lakiehdotuksen puolustajat korostivat sen taloudellisia hyötyjä, vastustajat pelkäsivät sen tuhoavan kaupungin historiallista ilmettä.",
+        "Vaikka osa valtuutetuista kannatti jyrkkiäkin päästövähennyksiä, toiset varoittivat liian nopeiden muutosten taloudellisista vaikutuksista.",
+        "Vaikka toimenpiteitä tarvitaan ilmastonmuutoksen hillitsemiseksi, on tärkeää ottaa huomioon myös paikallisten yritysten kilpailukyky, muistutti valtuutettu Virtanen."
+      ]
+    },
+    {
+      "text": "Oikeudenkäynti huumevyyhtiä vastaan alkoi tänään Helsingin käräjäoikeudessa. Syytettynä on viisi henkilöä, joita epäillään laajamittaisesta huumausaineiden salakuljetuksesta ja levityksestä. Pääsyytetyn, Janne Korhosen, väitetään johtaneen organisaatiota. Syyttäjä esitti todisteita, jotka viittaavat Korhosen yhteyksiin kansainvälisiin rikollisliigoihin. Vaikka Korhonen kiisti kaikki syytteet, todistusaineisto vaikutti raskauttavalta. Puolustusasianajaja vetosi siihen, että todisteet ovat epävarmoja ja että Korhosella on alibi osaan syytteistä. Vaikka Korhosen alibi vaikutti aluksi uskottavalta, ristikuulustelussa siihen syntyi epäselvyyksiä. Myös muiden syytettyjen roolia käsiteltiin oikeudessa. Yksi syytetyistä, nuori nainen nimeltä Laura Mäkinen, myönsi osallistuneensa huumausaineiden kuljetukseen, mutta väitti tulleensa painostetuksi. Oikeudenkäynnin odotetaan kestävän useita viikkoja. Tuomio julistetaan myöhemmin.",
+      "expected": [
+        "Vaikka Korhonen kiisti kaikki syytteet, todistusaineisto vaikutti raskauttavalta.",
+        "Vaikka Korhosen alibi vaikutti aluksi uskottavalta, ristikuulustelussa siihen syntyi epäselvyyksiä."
+      ]
+    },
+    {
+      "text": "Pääministeri esitteli hallituksen uuden talousohjelman eduskunnassa. Ohjelman tavoitteena on elvyttää taloutta ja luoda uusia työpaikkoja. Toimenpiteisiin kuuluu muun muassa veronalennuksia yrityksille ja investointeja infrastruktuuriin. Oppositiopuolueet kritisoivat ohjelmaa voimakkaasti. Niiden mukaan ohjelma suosii rikkaita ja leikkaa köyhiltä. Vaikka pääministeri vakuutti ohjelman hyödyttävän kaikkia kansalaisia, oppositiossa epäiltiin sen todellisia vaikutuksia. Myös taloustieteilijät ovat jakautuneet ohjelman suhteen. Osa uskoo sen tuovan talouskasvua, kun taas toiset pelkäävät sen lisäävän velkaantumista. Vaikka ohjelma sisältää investointeja koulutukseen, se ei riitä korjaamaan koulutusjärjestelmän ongelmia, sanoi professori Nieminen. Eduskunta äänestää ohjelmasta ensi viikolla. Äänestyksen tulos on vielä epävarma.",
+      "expected": [
+        "Vaikka pääministeri vakuutti ohjelman hyödyttävän kaikkia kansalaisia, oppositiossa epäiltiin sen todellisia vaikutuksia.",
+        "Vaikka ohjelma sisältää investointeja koulutukseen, se ei riitä korjaamaan koulutusjärjestelmän ongelmia, sanoi professori Nieminen."
+      ]
+    },
+    {
+      "text": "Yleisurheilun MM-kisat jatkuivat tänään jännittävissä merkeissä. Suomalaisurheilijat eivät yltäneet mitaleille, mutta tekivät hyviä suorituksia. Seiväshyppääjä Wilma Murto sijoittui neljänneksi uudella ennätyksellään. Vaikka Murto ei saavuttanut mitalia, hän oli tyytyväinen suoritukseensa. Myös moukarinheittäjä Tuomas Seppänen pääsi finaaliin, mutta jäi siellä viimeiseksi. Vaikka Seppänen oli pettynyt tulokseensa, hän iloitsi pääsystä finaaliin. Kisoissa nähtiin myös useita maailmanennätyksiä. Jamaikalainen pikajuoksija Elaine Thompson-Herah juoksi 100 metriä uuteen ennätysaikaan. Miesten 1500 metrin juoksun voitti norjalainen Jakob Ingebrigtsen. Kisat jatkuvat huomenna viimeisillä lajeilla.",
+      "expected": [
+        "Vaikka Murto ei saavuttanut mitalia, hän oli tyytyväinen suoritukseensa.",
+        "Vaikka Seppänen oli pettynyt tulokseensa, hän iloitsi pääsystä finaaliin."
+      ]
+    },
+    {
+      "text": "Uusi tutkimus osoittaa, että ilmastonmuutos vaikuttaa jo nyt Suomen luontoon. Tutkimuksen mukaan esimerkiksi metsien kasvu on hidastunut ja lintujen pesimäajat ovat muuttuneet. Vaikka ilmastonmuutoksen vaikutukset ovat vielä suhteellisen pieniä, ne voivat tulevaisuudessa olla merkittäviä. Tutkijat varoittavat, että Suomen luonto voi muuttua peruuttamattomasti, jos päästöjä ei saada vähennettyä. Myös maatalous kärsii ilmastonmuutoksesta. Kuivuus ja rankkasateet vaikeuttavat viljelyä. Vaikka uusia viljelytekniikoita kehitetään, ne eivät välttämättä riitä torjumaan ilmastonmuutoksen vaikutuksia. Tutkimus korostaa, että ilmastonmuutoksen torjunta vaatii nopeita ja päättäväisiä toimia.",
+      "expected": [
+        "Vaikka ilmastonmuutoksen vaikutukset ovat vielä suhteellisen pieniä, ne voivat tulevaisuudessa olla merkittäviä.",
+        "Vaikka uusia viljelytekniikoita kehitetään, ne eivät välttämättä riitä torjumaan ilmastonmuutoksen vaikutuksia."
+      ]
+    },
+    {
+      "text": "Paikallinen jalkapallojoukkue KTP kärsi kirvelevän tappion eilisessä ottelussa. Joukkue hävisi vastustajalleen lukemin 3-0. Ottelu oli KTP:lle tärkeä, sillä se taistelee sarjapaikastaan. Vaikka KTP hallitsi peliä ajoittain, se ei onnistunut tekemään maaleja. Valmentaja Virtanen oli pettynyt joukkueensa esitykseen. Hän sanoi, että pelaajat eivät noudattaneet pelisuunnitelmaa. Vaikka joukkueella oli useita maalintekopaikkoja, viimeistely ontui, Virtanen harmitteli. Myös yleisö oli pettynyt joukkueen esitykseen. Monet katsojat poistuivat stadionilta jo ennen loppuvihellystä. KTP:n on parannettava peliään, jos se haluaa säilyttää sarjapaikkansa.",
+      "expected": [
+        "Vaikka KTP hallitsi peliä ajoittain, se ei onnistunut tekemään maaleja.",
+        "Vaikka joukkueella oli useita maalintekopaikkoja, viimeistely ontui, Virtanen harmitteli."
+      ]
+    },
+    {
+      "text": "Uusi lakiuudistus kiristää rangaistuksia väkivaltarikoksista. Oikeusministeriö perustelee uudistusta sillä, että väkivaltarikollisuus on lisääntynyt. Uudistuksen myötä esimerkiksi pahoinpitelystä voidaan tuomita aiempaa ankarampi rangaistus. Oikeuskansleri on kuitenkin kritisoinut uudistusta. Hän katsoo, että se on ristiriidassa perustuslain kanssa. Vaikka oikeusministeriö vakuuttaa uudistuksen olevan perustuslain mukainen, oikeuskansleri epäilee sitä. Myös osa juristeista on arvostellut uudistusta. He katsovat, että se ei tehoa väkivaltarikollisuuteen. Vaikka ankarammat rangaistukset voivat pelottaa joitakin rikoksentekijöitä, ne eivät ratkaise ongelmaa, toteaa asianajaja Korhonen. Eduskunta äänestää lakiuudistuksesta ensi viikolla.",
+      "expected": [
+        "Vaikka oikeusministeriö vakuuttaa uudistuksen olevan perustuslain mukainen, oikeuskansleri epäilee sitä.",
+        "Vaikka ankarammat rangaistukset voivat pelottaa joitakin rikoksentekijöitä, ne eivät ratkaise ongelmaa, toteaa asianajaja Korhonen."
+      ]
+    },
+    {
+      "text": "Presidentti piti puheen kansakunnalle itsenäisyyspäivänä. Puheessaan hän korosti Suomen vahvuuksia ja haasteita. Hän muistutti suomalaisten kyvystä selviytyä vaikeista ajoista. Presidentti myös puhui ilmastonmuutoksesta ja sen vaikutuksista Suomeen. Hän sanoi, että Suomen on oltava edelläkävijä ilmastonmuutoksen torjunnassa. Vaikka presidentti korosti ilmastotoimien tärkeyttä, hän ei esittänyt konkreettisia uusia toimenpiteitä. Oppositiopuolueet kritisoivat presidentin puhetta. Niiden mukaan puhe oli liian yleisluonteinen ja siinä ei käsitelty riittävästi ajankohtaisia ongelmia. Vaikka puheessa käsiteltiin työttömyyttä, siihen ei tarjottu uusia ratkaisuja, sanoi kansanedustaja Virtanen. Presidentin puhe sai kuitenkin paljon kiitosta kansalaisilta.",
+      "expected": [
+        "Vaikka presidentti korosti ilmastotoimien tärkeyttä, hän ei esittänyt konkreettisia uusia toimenpiteitä.",
+        "Vaikka puheessa käsiteltiin työttömyyttä, siihen ei tarjottu uusia ratkaisuja, sanoi kansanedustaja Virtanen."
+      ]
+    },
+    {
+      "text": "Poliisi tutkii epäiltyä petosvyyhtiä, jossa on huijattu vanhuksilta suuria summia rahaa. Epäillyt ovat soittaneet vanhuksille ja teeskennelleet olevansa pankin työntekijöitä. He ovat saaneet vanhukset luovuttamaan pankkitunnuksensa ja tilinsä tyhjentämään. Poliisi on pidättänyt useita henkilöitä epäiltynä osallisuudesta petoksiin. Vaikka osa epäillyistä on tunnustanut teot, osa kiistää syyllisyytensä. Poliisi on takavarikoinut epäillyiltä suuria määriä käteistä rahaa ja arvotavaraa. Vanhusten huijaaminen on törkeää ja rikollista toimintaa, sanoo rikoskomisario Mäkinen. Vaikka poliisi on saanut kiinni osan tekijöistä, osa on edelleen vapaalla jalalla. Poliisi jatkaa tutkintaa ja pyytää yleisön apua.",
+      "expected": [
+        "Vaikka osa epäillyistä on tunnustanut teot, osa kiistää syyllisyytensä.",
+        "Vaikka poliisi on saanut kiinni osan tekijöistä, osa on edelleen vapaalla jalalla."
+      ]
+    },
+    {
+      "text": "Uusi teknologia mullistaa terveydenhuoltoa. Etälääketiede mahdollistaa potilaiden hoidon etänä, ilman fyysistä läsnäoloa. Tämä on erityisen hyödyllistä syrjäseuduilla asuville potilaille. Myös tekoälyä hyödynnetään yhä enemmän terveydenhuollossa. Tekoäly voi auttaa lääkäreitä tekemään tarkempia diagnooseja ja suunnittelemaan tehokkaampia hoitoja. Vaikka uusi teknologia tarjoaa monia mahdollisuuksia, se herättää myös huolta. Esimerkiksi potilaiden tietosuoja on tärkeää turvata. Myös lääkäreiden rooli voi muuttua, kun tekoäly ottaa osan heidän tehtävistään. Vaikka teknologia kehittyy nopeasti, on tärkeää varmistaa, että se hyödyttää kaikkia potilaita, sanoo professori Nieminen.",
+      "expected": [
+        "Vaikka uusi teknologia tarjoaa monia mahdollisuuksia, se herättää myös huolta.",
+        "Vaikka teknologia kehittyy nopeasti, on tärkeää varmistaa, että se hyödyttää kaikkia potilaita, sanoo professori Nieminen."
+      ]
+    },
+    {
+      "text": "Keskustelu ilmastonmuutoksesta jatkuu kiivaana. Hallitus on esittänyt uusia päästövähennystavoitteita, jotka ovat herättäneet sekä kiitosta että kritiikkiä. Vihreät puolueet pitävät tavoitteita riittämättöminä, kun taas teollisuus edustajat ovat huolissaan niiden vaikutuksista talouskasvuun. Vaikka aurinko- ja tuulivoiman suosio kasvaa, Suomi on edelleen vahvasti riippuvainen fossiilisista polttoaineista. Energiantuotanto on monimutkainen kysymys, jossa pitää huomioida sekä ympäristönäkökulmat että taloudellinen kestävyys. Samaan aikaan tutkijat varoittavat ilmastonmuutoksen vakavista seurauksista, kuten merenpinnan noususta ja sään ääri-ilmiöistä. Kansalaisten tietoisuus asiasta on lisääntynyt, mutta konkreettiset toimet ovat vielä vähäisiä. Vaikka monet suomalaiset kannattavatkin vihreitä arvoja, harva on valmis muuttamaan omaa elämäntapaansa merkittävästi. Ilmastonmuutos on globaali haaste, joka vaatii kansainvälistä yhteistyötä ja innovatiivisia ratkaisuja. Poliitikkojen ja yritysten on otettava vastuu tulevaisuudesta.",
+      "expected": [
+        "Vaikka monet suomalaiset kannattavatkin vihreitä arvoja, harva on valmis muuttamaan omaa elämäntapaansa merkittävästi."
+      ]
+    },
+    {
+      "text": "Oikeudenkäynti huumejutussa on edennyt loppusuoralle. Syyttäjä vaatii vastaajalle kovaa tuomiota, kun taas puolustusasianajaja vetoaa lieventäviin asianhaaroihin. Todisteet vastaajan syyllisyydestä ovat vahvoja, mutta puolustus yrittää kyseenalaistaa niiden paikkansapitävyyden. Vastaaja on kiistänyt syyllisyytensä ja väittää olevansa syytön uhri. Oikeudenkäynti on saanut paljon julkisuutta, ja yleisö on seurannut sitä tiiviisti. Vaikka vastaajalla on synkkä menneisyys, hänellä on oikeus oikeudenmukaiseen oikeudenkäyntiin. Tuomarin on punnittava todisteita huolellisesti ja tehtävä päätös, joka on oikeudenmukainen sekä vastaajalle että yhteiskunnalle. Vaikka yleinen mielipide vaatii kovaa rangaistusta, tuomarin on noudatettava lakia. Jutun lopputulos jää nähtäväksi.",
+      "expected": [
+        "Vaikka vastaajalla on synkkä menneisyys, hänellä on oikeus oikeudenmukaiseen oikeudenkäyntiin.",
+        "Vaikka yleinen mielipide vaatii kovaa rangaistusta, tuomarin on noudatettava lakia."
+      ]
+    },
+    {
+      "text": "Uusi talousennuste maalaa synkän kuvan Suomen taloudesta. Kasvu on hidastunut, ja työttömyys on edelleen korkealla tasolla. Hallitus yrittää elvyttää taloutta investoinneilla ja veronalennuksilla, mutta tulokset ovat olleet laihoja. Oppositio syyttää hallitusta epäonnistuneesta talouspolitiikasta ja vaatii uusia toimia. Vaikka jotkut taloustieteilijät uskovatkin, että tilanne paranee tulevaisuudessa, monet ovat pessimistisiä. Kansainvälinen taloustilanne on epävarma, mikä heikentää Suomen vientimahdollisuuksia. Yritykset ovat varovaisia investointien suhteen, ja kuluttajat ovat huolissaan tulevaisuudesta. Hallituksen on tehtävä vaikeita päätöksiä, jotta Suomen talous saadaan takaisin kasvu-uralle.",
+      "expected": [
+        "Vaikka jotkut taloustieteilijät uskovatkin, että tilanne paranee tulevaisuudessa, monet ovat pessimistisiä."
+      ]
+    },
+    {
+      "text": "Paikallinen urheiluseura on saavuttanut huomattavaa menestystä viime aikoina. Jalkapallojoukkue on voittanut useita tärkeitä otteluita, ja yleisö on ollut innoissaan. Valmentaja on kehunut pelaajien sitoutumista ja joukkuehenkeä. Vaikka joukkueella on ollut loukkaantumisia, se on onnistunut säilyttämään hyvän pelitason. Kannattajat uskovat, että joukkueella on mahdollisuus voittaa mestaruus tänä vuonna. Seuran taloudellinen tilanne on parantunut menestyksen myötä, ja uusia sponsoreita on löytynyt. Joukkueen tähdet ovat nousseet suosioon, ja heitä haastatellaan usein mediassa. Vaikka monet fanit odottavat mestaruutta, on tärkeää muistaa, että kausi on vielä pitkä. Valmentaja korostaa, että joukkueen on pysyttävä keskittyneenä ja työskenneltävä ahkerasti.",
+      "expected": [
+        "Vaikka joukkueella on ollut loukkaantumisia, se on onnistunut säilyttämään hyvän pelitason.",
+        "Vaikka monet fanit odottavat mestaruutta, on tärkeää muistaa, että kausi on vielä pitkä."
+      ]
+    },
+    {
+      "text": "Keskustelu abortin laillisuudesta on jälleen kiihtynyt. Jotkut poliitikot vaativat aborttilain tiukentamista, kun taas toiset puolustavat naisten oikeutta päättää omasta kehostaan. Mielenosoituksia on järjestetty sekä abortin puolesta että sitä vastaan. Vaikka abortti on laillinen Suomessa, sen saatavuus vaihtelee alueittain. Jotkut lääkärit kieltäytyvät tekemästä abortteja uskonnollisista syistä. Ihmisoikeusjärjestöt ovat huolissaan naisten oikeuksien toteutumisesta. Vaikka mielipiteet abortista jakautuvat, on tärkeää kunnioittaa erilaisia näkemyksiä. Abortti on vaikea kysymys, jossa on monia eettisiä ja moraalisia ulottuvuuksia. Poliitikkojen on kuunneltava kansalaisia ja tehtävä päätöksiä, jotka ovat oikeudenmukaisia kaikille.",
+      "expected": [
+        "Vaikka abortti on laillinen Suomessa, sen saatavuus vaihtelee alueittain.",
+        "Vaikka mielipiteet abortista jakautuvat, on tärkeää kunnioittaa erilaisia näkemyksiä."
+      ]
+    },
+    {
+      "text": "Kansanedustaja Virtanen on joutunut kohun keskelle. Häntä syytetään lahjusten ottamisesta ja eturistiriidoista. Virtanen kiistää syytteet ja väittää olevansa syytön. Poliisi on aloittanut esitutkinnan asiassa. Vaikka Virtanen on ollut suosittu poliitikko, hänen maineensa on kärsinyt kohun vuoksi. Monet ihmiset ovat menettäneet luottamuksensa häneen. Vaikka syytteet osoittautuisivat perättömiksi, Virtasen ura voi olla vaarassa. Oppositio vaatii Virtasen eroa eduskunnasta. Pääministeri on sanonut, että asia tutkitaan perusteellisesti. On tärkeää, että asia selvitetään nopeasti, jotta kansalaisten luottamus politiikkaan säilyy. Vaikka Virtanen on saanut tukea joiltakin kollegoiltaan, monet ovat ottaneet häneen etäisyyttä. Kohu on herättänyt keskustelua poliitikkojen eettisistä velvollisuuksista.",
+      "expected": [
+        "Vaikka Virtanen on ollut suosittu poliitikko, hänen maineensa on kärsinyt kohun vuoksi.",
+        "Vaikka syytteet osoittautuisivat perättömiksi, Virtasen ura voi olla vaarassa.",
+        "Vaikka Virtanen on saanut tukea joiltakin kollegoiltaan, monet ovat ottaneet häneen etäisyyttä."
+      ]
+    },
+    {
+      "text": "Uusi tutkimus osoittaa, että nuorten mielenterveys on heikentynyt. Ahdistuneisuus ja masennus ovat yleistyneet nuorten keskuudessa. Tutkijat uskovat, että sosiaalinen media ja koulupaineet ovat osasyyllisiä tähän. Hallitus on luvannut lisätä mielenterveyspalveluita nuorille. Vaikka monet nuoret hakevat apua, osa heistä pelkää leimautumista. Vanhempien ja opettajien on tärkeää olla tietoisia nuorten mielenterveysongelmista. Vaikka mielenterveysongelmat ovat vakavia, ne ovat hoidettavissa. Nuorten on tärkeää tietää, että he eivät ole yksin. Vaikka on vaikeaa puhua tunteista, se on tärkeää avun saamiseksi. Jokaisen nuoren tulisi saada tarvitsemaansa tukea mielenterveytensä kanssa.",
+      "expected": [
+        "Vaikka monet nuoret hakevat apua, osa heistä pelkää leimautumista.",
+        "Vaikka mielenterveysongelmat ovat vakavia, ne ovat hoidettavissa.",
+        "Vaikka on vaikeaa puhua tunteista, se on tärkeää avun saamiseksi."
+      ]
+    },
+    {
+      "text": "Poliisi on pidättänyt useita henkilöitä epäiltynä osallistumisesta huumekauppaan. Pidätykset tehtiin laajan tutkinnan jälkeen. Epäillyt ovat myyneet huumeita pääkaupunkiseudulla. Vaikka huumekauppa on vakava rikos, on tärkeää muistaa, että epäillyt ovat syyttömiä kunnes toisin todistetaan. Poliisi on takavarikoinut suuren määrän huumeita ja rahaa. Tutkinta jatkuu edelleen, ja uusia pidätyksiä voi olla luvassa. Vaikka huumekauppa on vaikea ongelma, poliisi tekee parhaansa sen torjumiseksi. Kansalaisten on tärkeää ilmoittaa epäilyttävästä toiminnasta poliisille.",
+      "expected": [
+        "Vaikka huumekauppa on vakava rikos, on tärkeää muistaa, että epäillyt ovat syyttömiä kunnes toisin todistetaan.",
+        "Vaikka huumekauppa on vaikea ongelma, poliisi tekee parhaansa sen torjumiseksi."
+      ]
+    },
+    {
+      "text": "Kunta suunnittelee uuden uimahallin rakentamista. Hanketta on suunniteltu jo pitkään, ja se on herättänyt paljon kiinnostusta. Uimahalli tulee olemaan moderni ja monipuolinen, ja se tarjoaa palveluita kaikenikäisille kuntalaisille. Vaikka uimahalli on kallis investointi, kunta uskoo sen olevan tärkeä kuntalaisten hyvinvoinnin kannalta. Osa kuntalaisista on huolissaan uimahallin aiheuttamista kustannuksista. Vaikka kustannukset ovat suuret, kunta uskoo, että uimahalli maksaa itsensä takaisin pitkällä aikavälillä. Rakennustyöt alkavat ensi vuonna, ja uimahalli avataan yleisölle vuoden päästä.",
+      "expected": [
+        "Vaikka uimahalli on kallis investointi, kunta uskoo sen olevan tärkeä kuntalaisten hyvinvoinnin kannalta.",
+        "Vaikka kustannukset ovat suuret, kunta uskoo, että uimahalli maksaa itsensä takaisin pitkällä aikavälillä."
+      ]
+    },
+    {
+      "text": "Eläkeläisten määrä kasvaa Suomessa jatkuvasti. Tämä asettaa haasteita sosiaaliturvajärjestelmälle. Hallitus yrittää pidentää työuria ja kannustaa ihmisiä jäämään eläkkeelle myöhemmin. Vaikka monet eläkeläiset ovat tyytyväisiä eläkepäiviinsä, osa heistä kärsii yksinäisyydestä ja taloudellisista vaikeuksista. Eläkeläisjärjestöt vaativat parempaa eläketurvaa ja palveluita eläkeläisille. Vaikka eläkeläisten määrä kasvaa, he ovat tärkeä osa yhteiskuntaa. Heidän kokemuksensa ja tietonsa ovat arvokkaita. Vaikka eläkeläiset tarvitsevat tukea, he myös voivat antaa paljon yhteiskunnalle. Eläkeläisillä on tärkeä rooli yhteiskunnassa.",
+      "expected": [
+        "Vaikka monet eläkeläiset ovat tyytyväisiä eläkepäiviinsä, osa heistä kärsii yksinäisyydestä ja taloudellisista vaikeuksista.",
+        "Vaikka eläkeläisten määrä kasvaa, he ovat tärkeä osa yhteiskuntaa.",
+        "Vaikka eläkeläiset tarvitsevat tukea, he myös voivat antaa paljon yhteiskunnalle."
+      ]
+    },
+    {
+      "text": "Oikeudenkäynti päättyi eilen, kun tuomaristo totesi vastaajan syylliseksi petokseen. Syyttäjä esitti vahvat todisteet, mukaan lukien tiliotteet ja sähköpostit, jotka osoittivat selkeää vilpillistä toimintaa. Vaikka vastaaja väitti olevansa syytön ja että kyseessä oli väärinkäsitys, tuomaristo ei uskonut hänen selitystään. Puolustuksen asianajaja yritti vedota vastaajan vaikeaan taloudelliseen tilanteeseen, mutta se ei vaikuttanut tuomaristoon. Vaikka asianomistaja kärsi huomattavia taloudellisia menetyksiä petoksen seurauksena, tuomio saattaa lieventyä vastaajan myötämielisyyden vuoksi. Tuomion odotetaan olevan useita vuosia vankeutta. Vastaaja on pidätettynä ja odottaa tuomion julistamista. Tapaus on herättänyt laajaa huomiota mediassa ja yleisössä, ja se on esimerkki petoksen vakavuudesta. Monet ihmiset ovat kommentoineet, että oikeus tapahtui.",
+      "expected": [
+        "Vaikka vastaaja väitti olevansa syytön ja että kyseessä oli väärinkäsitys, tuomaristo ei uskonut hänen selitystään.",
+        "Vaikka asianomistaja kärsi huomattavia taloudellisia menetyksiä petoksen seurauksena, tuomio saattaa lieventyä vastaajan myötämielisyyden vuoksi."
+      ]
+    },
+    {
+      "text": "Pääministeri piti eilen puheen, jossa hän käsitteli maan taloudellista tilannetta. Hän korosti hallituksen saavutuksia työllisyyden lisäämisessä ja talouskasvun edistämisessä. Pääministeri myönsi, että haasteita on vielä edessä, mutta hän uskoi, että hallituksen politiikka johtaa parempaan tulevaisuuteen. Oppositiopuolueet kritisoivat puhetta ja väittivät, että pääministeri ei ole rehellinen talouden todellisesta tilasta. Vaikka työttömyys on hieman laskenut, monet ihmiset ovat edelleen työttöminä ja kamppailevat taloudellisesti. Pääministerin mukaan hallitus on sitoutunut tukemaan heitä. Hallitus on myös panostanut koulutukseen ja terveydenhuoltoon. Pääministerin mukaan nämä investoinnit ovat tärkeitä maan pitkän aikavälin menestykselle. Ihmiset ovat jakautuneet mielipiteissään pääministerin puheesta. Jotkut uskovat, että hän on oikeassa, kun taas toiset uskovat, että hän on väärässä. Keskustelu taloudesta jatkuu.",
+      "expected": [
+        "Vaikka työttömyys on hieman laskenut, monet ihmiset ovat edelleen työttöminä ja kamppailevat taloudellisesti."
+      ]
+    },
+    {
+      "text": "Yrityksen tulos oli pettymys kuluneella vuosineljänneksellä. Myynti laski odotettua enemmän, ja voitto oli pienempi kuin edellisenä vuonna. Toimitusjohtaja syytti huonoa tulosta kilpailun kiristymisestä ja yleisestä taloudellisesta epävarmuudesta. Analyytikot olivat pettyneitä tulokseen ja laskivat yrityksen osakekurssin tavoitehintaa. Yritys on ryhtynyt toimenpiteisiin kustannusten leikkaamiseksi ja myynnin lisäämiseksi. Vaikka uusia tuotteita on kehitteillä, niiden lanseeraus saattaa viivästyä. Yrityksen osakkeenomistajat ovat huolissaan yrityksen tulevaisuudesta. Yrityksen johto on vakuuttanut, että se on sitoutunut parantamaan tulosta. Jotkut uskovat, että yritys pystyy kääntämään tilanteen, kun taas toiset ovat skeptisempiä. Markkinat reagoivat aluksi negatiivisesti, mutta toipuminen on mahdollista. Sijoittajat seuraavat tilannetta tarkasti.",
+      "expected": [
+        "Vaikka uusia tuotteita on kehitteillä, niiden lanseeraus saattaa viivästyä."
+      ]
+    },
+    {
+      "text": "Presidentti ilmoitti eilen uudesta ilmastonmuutosta koskevasta suunnitelmasta. Suunnitelman tavoitteena on vähentää kasvihuonekaasupäästöjä ja edistää uusiutuvan energian käyttöä. Suunnitelma sisältää investointeja puhtaaseen teknologiaan ja säännöksiä, jotka rajoittavat päästöjä. Ympäristöjärjestöt ovat tyytyväisiä suunnitelmaan, mutta jotkut pitävät sitä liian heikkona. Teollisuusyritykset ovat huolissaan siitä, että suunnitelma nostaa energiakustannuksia ja heikentää kilpailukykyä. Poliitikot ovat jakautuneet mielipiteissään suunnitelmasta. Osa tukee sitä, kun taas toiset vastustavat sitä. Vaikka suunnitelma on kunnianhimoinen, sen toteuttaminen voi olla haastavaa. Presidentti on vakuuttanut, että hallitus on sitoutunut ilmastonmuutoksen torjuntaan. Ilmastonmuutos on vakava ongelma, joka vaatii globaalia yhteistyötä.",
+      "expected": [
+        "Vaikka suunnitelma on kunnianhimoinen, sen toteuttaminen voi olla haastavaa."
+      ]
+    },
+    {
+      "text": "Uusi tutkimus osoittaa, että liikunta on hyväksi terveydelle. Tutkimuksen mukaan liikunta vähentää riskiä sairastua sydän- ja verisuonitauteihin, diabetekseen ja syöpään. Liikunta parantaa myös mielialaa ja unen laatua. Tutkijat suosittelevat, että aikuiset liikkuisivat vähintään 150 minuuttia viikossa. Liikunta voi olla mitä tahansa, kuten kävelyä, juoksua, pyöräilyä tai uintia. Ihmiset voivat myös harrastaa liikuntaa kotona tai kuntosalilla. Vaikka kaikki eivät pidä liikunnasta, se on tärkeää terveydelle. Tutkijat ovat yllättyneitä tuloksista. Liikunta on yksi parhaista asioista, joita ihmiset voivat tehdä terveytensä eteen. Ihmiset voivat aloittaa liikunnan hitaasti ja lisätä liikunnan määrää vähitellen.",
+      "expected": [
+        "Vaikka kaikki eivät pidä liikunnasta, se on tärkeää terveydelle."
+      ]
+    },
+    {
+      "text": "Kaupunginvaltuusto äänesti eilen uuden veron käyttöönotosta. Verolla rahoitetaan uuden koulun rakentamista. Verosta maksetaan 1% kaikista kaupungin asukkaiden tuloista. Verovelvollisia on kaupungissa paljon. Jotkut kaupungin asukkaat ovat tyytyväisiä veroon, koska he haluavat uuden koulun. Toiset ovat vihaisia verosta, koska heidän tulonsa pienenevät. Vaikka verotulot auttavat uuden koulun rakentamisessa, se saattaa ajaa pienituloisia ihmisiä pois kaupungista. Kaupunginvaltuusto on vakuuttanut, että verotulot käytetään vain koulun rakentamiseen. Verosta on käyty paljon keskustelua kaupungissa. Koulun rakentaminen alkaa ensi vuonna. Rakennustyö kestää kaksi vuotta.",
+      "expected": [
+        "Vaikka verotulot auttavat uuden koulun rakentamisessa, se saattaa ajaa pienituloisia ihmisiä pois kaupungista."
+      ]
+    },
+    {
+      "text": "Suomen jalkapallomaajoukkue hävisi eilen tärkeän ottelun. Ottelu oli MM-karsintaottelu, ja tappio vaikeuttaa Suomen mahdollisuuksia päästä MM-kisoihin. Suomi pelasi hyvin ensimmäisen puoliajan, mutta toisella puoliajalla vastustaja oli parempi. Suomen valmentaja oli pettynyt tulokseen, mutta hän sanoi, että joukkue ei lannistu. Hän uskoi, että joukkue pystyy voittamaan seuraavat ottelut. Fanit olivat pettyneitä tappioon, mutta he tukevat edelleen joukkuetta. Vaikka tappio oli kova isku, Suomella on vielä mahdollisuus päästä MM-kisoihin. Joukkueen kapteeni sanoi, että joukkue tulee tekemään kaikkensa sen eteen. Seuraava ottelu on ensi viikolla. Joukkue harjoittelee ahkerasti sitä varten.",
+      "expected": [
+        "Vaikka tappio oli kova isku, Suomella on vielä mahdollisuus päästä MM-kisoihin."
+      ]
+    },
+    {
+      "text": "Uusi laki tiukentaa maahanmuuttoa Suomessa. Lain mukaan maahanmuuttajien on täytettävä tiukemmat vaatimukset saadakseen oleskeluluvan. Laki on saanut paljon kritiikkiä ihmisoikeusjärjestöiltä. Järjestöjen mukaan laki on epäoikeudenmukainen ja syrjivä. Hallitus puolustaa lakia ja sanoo, että se on tarpeen Suomen turvallisuuden ja talouden kannalta. Vaikka laki on saanut paljon kritiikkiä, se on myös saanut tukea osalta kansasta. Osa ihmisistä uskoo, että maahanmuuttoa on rajoitettava. Uusi laki tulee voimaan ensi kuussa. Ihmisoikeusjärjestöt aikovat haastaa lain oikeudessa. Asiaa tullaan käsittelemään vielä pitkään.",
+      "expected": [
+        "Vaikka laki on saanut paljon kritiikkiä, se on myös saanut tukea osalta kansasta."
+      ]
+    },
+    {
+      "text": "Sääennuste lupaa huomiseksi aurinkoista säätä. Lämpötila nousee jopa 25 asteeseen. On siis hyvä sää lähteä ulos ja nauttia auringosta. Monet ihmiset suunnittelevat menevänsä rannalle tai puistoon. Sää on ollut viime aikoina epävakaista, joten aurinkoinen päivä on tervetullut. Illalla voi olla viileämpää, joten kannattaa ottaa lämmintä vaatetta mukaan. Vaikka sää on aurinkoinen, tuuli voi olla voimakasta. Tuulen nopeus voi olla jopa 10 metriä sekunnissa. Kannattaa siis varautua tuuleen. Aurinkovoide on myös tärkeää, jotta ei pala auringossa. Nauti hyvästä säästä!",
+      "expected": [
+        "Vaikka sää on aurinkoinen, tuuli voi olla voimakasta."
+      ]
+    },
+    {
+      "text": "Uusi tutkimus paljastaa, että suomalaisten lukutaito on heikentynyt. Tutkimuksen mukaan nuorten lukutaito on erityisen huolestuttavalla tasolla. Tutkijat ovat huolissaan siitä, että heikko lukutaito voi vaikuttaa nuorten koulutusmahdollisuuksiin ja työllistymiseen. Opetusministeriö on luvannut ryhtyä toimenpiteisiin lukutaidon parantamiseksi. Suunnitelmissa on lisätä lukutaito-opetusta kouluissa ja panostaa opettajien koulutukseen. Vaikka lukutaito on heikentynyt, Suomi on edelleen yksi maailman lukutaitoisimmista maista. Tutkijat uskovat, että Suomi pystyy parantamaan lukutaitoa, jos siihen panostetaan riittävästi. Lukutaito on tärkeä kansalaistaito.",
+      "expected": [
+        "Vaikka lukutaito on heikentynyt, Suomi on edelleen yksi maailman lukutaitoisimmista maista."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "indicator": "referential_ambiguity",
+  "language": "pt",
+  "samples": [
+    {
+      "text": "A votação foi tensa, com acusações de ambos os lados. O projeto de lei, considerado crucial pelo governo, enfrentou forte oposição. Aqueles que se opõem a ele alegam que a medida é injusta e prejudicial. Eles insistem que não foram devidamente consultados. O ministro da Economia, por sua vez, defendeu a proposta. Pessoas assim nunca estão satisfeitas. É sempre uma luta para conseguir qualquer progresso. O resultado da votação será conhecido amanhã.",
+      "expected": [
+        "Aqueles que se opõem a ele",
+        "Eles insistem que não foram devidamente consultados",
+        "Pessoas assim"
+      ]
+    },
+    {
+      "text": "O aumento da criminalidade na cidade preocupa moradores. A polícia tem intensificado o patrulhamento nas áreas mais afetadas. Estrangeiros são frequentemente apontados como os responsáveis por essa situação. Eles chegam aqui e não se adaptam às nossas leis. O prefeito prometeu investir mais em segurança. A maioria dos moradores apoia essa medida. O problema é complexo e exige soluções urgentes. Gente como eles não respeita nada.",
+      "expected": [
+        "Estrangeiros",
+        "Eles chegam aqui e não se adaptam às nossas leis",
+        "Gente como eles"
+      ]
+    },
+    {
+      "text": "A empresa anunciou lucros recordes no último trimestre. Os acionistas comemoraram o resultado positivo. A situação, no entanto, é diferente para os funcionários. Eles alegam que não houve aumento salarial. A diretoria justificou a decisão com a crise econômica. Aquelas pessoas nunca estão contentes. Os sindicatos prometem lutar por melhores condições de trabalho. A empresa se recusa a comentar.",
+      "expected": [
+        "Eles alegam que não houve aumento salarial",
+        "Aquelas pessoas"
+      ]
+    },
+    {
+      "text": "A polêmica em torno da nova lei de imigração continua. Grupos de direitos humanos criticam a medida. Segundo eles, a lei é discriminatória e xenófoba. O governo alega que o objetivo é proteger o país. Pessoas como eles não entendem a importância da segurança nacional. A oposição promete contestar a lei na justiça. O debate está acirrado e divide a sociedade.",
+      "expected": [
+        "Segundo eles",
+        "Pessoas como eles"
+      ]
+    },
+    {
+      "text": "O escândalo de corrupção envolvendo políticos e empresários chocou o país. A Polícia Federal investiga o caso há meses. Eles desviaram milhões de reais dos cofres públicos. A população está revoltada com a situação. Todo mundo sabe quem são os culpados, mas ninguém faz nada. Os investigados negam as acusações. A Justiça promete punir os responsáveis.",
+      "expected": [
+        "Eles desviaram milhões de reais dos cofres públicos",
+        "Todo mundo sabe quem são os culpados"
+      ]
+    },
+    {
+      "text": "O debate sobre a legalização do aborto divide opiniões. Grupos religiosos são contrários à medida. Eles defendem a vida desde a concepção. Feministas argumentam que as mulheres têm o direito de decidir sobre seus corpos. Fontes afirmam que a votação será apertada. A decisão final caberá ao Supremo Tribunal Federal.",
+      "expected": [
+        "Eles defendem a vida desde a concepção",
+        "Fontes afirmam"
+      ]
+    },
+    {
+      "text": "O impeachment do presidente gerou uma crise política no país. A oposição acusa o presidente de crime de responsabilidade. Eles afirmam que ele cometeu irregularidades fiscais. O governo nega as acusações e diz que é vítima de um golpe. Aquelas pessoas querem desestabilizar o país. A situação é tensa e imprevisível.",
+      "expected": [
+        "Eles afirmam que ele cometeu irregularidades fiscais",
+        "Aquelas pessoas"
+      ]
+    },
+    {
+      "text": "A reforma da previdência é alvo de críticas por parte dos sindicatos. Os trabalhadores temem perder direitos adquiridos. Eles alegam que a reforma é injusta e vai prejudicar os mais pobres. O governo defende a reforma como necessária para garantir a sustentabilidade do sistema. O povo diz que não confia no governo. A greve geral está marcada para a próxima semana.",
+      "expected": [
+        "Eles alegam que a reforma é injusta e vai prejudicar os mais pobres",
+        "O povo diz"
+      ]
+    },
+    {
+      "text": "A violência no Rio de Janeiro continua a ser um problema grave. A polícia tem intensificado as operações nas favelas. Eles matam inocentes e depois dizem que foi legítima defesa. Moradores reclamam da truculência dos policiais. A situação é complexa e exige soluções urgentes. Esse tipo de gente não tem respeito pela vida. Os direitos humanos precisam ser respeitados.",
+      "expected": [
+        "Eles matam inocentes e depois dizem que foi legítima defesa",
+        "Esse tipo de gente"
+      ]
+    },
+    {
+      "text": "A crise econômica afetou diversos setores da economia. Empresas demitiram funcionários e reduziram investimentos. Eles dizem que não têm outra alternativa. O governo anunciou medidas para estimular o crescimento. Ninguém acredita nessas promessas. A população está pessimista com o futuro. A recuperação econômica será lenta e difícil.",
+      "expected": [
+        "Eles dizem que não têm outra alternativa",
+        "Ninguém acredita nessas promessas"
+      ]
+    },
+    {
+      "text": "O julgamento do ex-diretor da empresa continua cercado de polemica. Testemunhas importantes foram intimidadas, e o clima no tribunal e tenso. Aquelas pessoas que o apoiam insistem em sua inocencia, mas as evidencias apontam para o contrario. Eles parecem ignorar os fatos apresentados. O advogado de defesa questionou a credibilidade das acusacoes. Pessoas como eles sempre tentam manipular a opiniao publica. A decisao final sera crucial para o futuro da empresa.",
+      "expected": [
+        "Aquelas pessoas",
+        "Eles",
+        "Pessoas como eles"
+      ]
+    },
+    {
+      "text": "A crise economica persiste, afetando principalmente os mais vulneraveis. O governo anunciou novas medidas, mas a populacao permanece descrente. Esses politicos prometeram mudancas, mas a realidade e que nada mudou. Eles continuam a defender seus proprios interesses. Especialistas apontam para a necessidade de reformas estruturais. Aquele tipo de gente sempre se beneficia das crises. A situacao exige medidas urgentes.",
+      "expected": [
+        "Esses politicos",
+        "Eles",
+        "Aquele tipo de gente"
+      ]
+    },
+    {
+      "text": "O debate sobre a reforma da previdencia gerou intensas manifestacoes. Os sindicatos se opoem as mudancas propostas pelo governo. Aqueles que defendem a reforma argumentam que ela e essencial para a sustentabilidade do sistema. Eles nao compreendem a realidade dos trabalhadores. A ministra da Fazenda reafirmou o compromisso com o equilibrio fiscal. Gente como eles nunca se preocupa com o povo.",
+      "expected": [
+        "Aqueles que defendem a reforma",
+        "Eles",
+        "Gente como eles"
+      ]
+    },
+    {
+      "text": "O escandalo de corrupcao envolvendo a empresa estatal chocou o pais. A policia federal deflagrou uma operacao para apurar os crimes. Eles desviaram milhoes de reais dos cofres publicos. A justica determinou o bloqueio de bens dos investigados. Todo mundo sabe que eles agem assim. Os advogados dos acusados negam as irregularidades. A populacao exige punicao exemplar.",
+      "expected": [
+        "Eles",
+        "Todo mundo sabe"
+      ]
+    },
+    {
+      "text": "A violencia urbana tem crescido nas grandes cidades. A policia militar intensificou o patrulhamento nas areas mais criticas. Aqueles que cometem crimes devem ser punidos com rigor. Eles nao respeitam a lei nem a vida humana. O secretario de Seguranca Publica prometeu reduzir os indices de criminalidade. Pessoas assim precisam ser afastadas da sociedade.",
+      "expected": [
+        "Aqueles que cometem crimes",
+        "Eles",
+        "Pessoas assim"
+      ]
+    },
+    {
+      "text": "O resultado das eleicoes surpreendeu muitos analistas politicos. O candidato da oposicao venceu com uma ampla margem de votos. Eles nao esperavam essa derrota. A equipe de campanha do vencedor comemorou a vitoria. Aquele grupo sempre acreditou no seu potencial transformador. A transicao de governo sera um periodo crucial.",
+      "expected": [
+        "Eles",
+        "Aquele grupo"
+      ]
+    },
+    {
+      "text": "A selecao nacional de futebol enfrenta um momento de instabilidade. O tecnico tem sido muito criticado pelos resultados recentes. Eles nao estao jogando como um time. Os torcedores estao desapontados com o desempenho dos jogadores. Pessoas como eles nao merecem vestir a camisa da selecao. A proxima partida sera decisiva para a classificacao.",
+      "expected": [
+        "Eles",
+        "Pessoas como eles"
+      ]
+    },
+    {
+      "text": "A discussao sobre a legalizacao do aborto divide a opiniao publica. Os defensores da legalizacao argumentam que e uma questao de saude publica. Aqueles que sao contra defendem o direito a vida desde a concepcao. Eles nao respeitam a decisao das mulheres. O congresso nacional deve analisar o tema com seriedade.",
+      "expected": [
+        "Aqueles que sao contra",
+        "Eles"
+      ]
+    },
+    {
+      "text": "O aumento do desemprego preocupa a sociedade. Muitas empresas tem reduzido o numero de funcionarios devido a crise. Eles precisam de ajuda urgente. O governo anunciou medidas para estimular a geracao de empregos. Esse tipo de gente sofre com a falta de oportunidades. A situacao exige acoes concretas.",
+      "expected": [
+        "Eles",
+        "Esse tipo de gente"
+      ]
+    },
+    {
+      "text": "A greve dos professores estaduais continua sem solucao. Os docentes reivindicam melhores salarios e condicoes de trabalho. Eles exigem respeito e valorizacao. O governo se mostra irredutivel nas negociacoes. Gente como eles merece todo o nosso apoio. A educacao publica precisa de investimentos.",
+      "expected": [
+        "Eles",
+        "Gente como eles"
+      ]
+    },
+    {
+      "text": "O debate politico esquentou na ultima semana. O candidato da oposicao fez duras criticas ao governo atual. Ele prometeu mudancas significativas na economia e na saude. Esse tipo de gente nao se importa com o bem-estar da populacao. Eles so pensam em seus proprios interesses. A populacao esta cansada da corrupcao e da impunidade. Eles nao cumprem suas promessas. O candidato do governo rebateu as acusacoes e defendeu suas politicas. A eleicao promete ser acirrada.",
+      "expected": [
+        "Esse tipo de gente",
+        "Eles",
+        "Eles nao cumprem"
+      ]
+    },
+    {
+      "text": "O artigo de opiniao gerou grande repercussao nas redes sociais. O autor defende uma nova abordagem para lidar com o problema da violencia urbana. Muitos concordam com suas ideias, mas outros discordam veementemente. Pessoas assim nao conseguem entender a realidade da periferia. Elas vivem em um mundo de fantasia, distante dos problemas reais. O debate sobre o tema e fundamental para encontrar solucoes eficazes. Gente como eles deveriam conhecer a realidade antes de opinar. A discussao continua acalorada na internet.",
+      "expected": [
+        "Pessoas assim",
+        "Elas",
+        "Gente como eles"
+      ]
+    },
+    {
+      "text": "A policia deflagrou uma nova operacao contra o crime organizado. A acao visa combater o trafico de drogas e outros crimes. Diversas pessoas foram presas e materiais ilicitos foram apreendidos. Estrangeiros sempre estao envolvidos nesses crimes. Eles vao contra a lei. As investigacoes continuam em sigilo para nao atrapalhar o andamento do processo. A populacao espera que a justica seja feita. Aqueles de fora nao entendem a complexidade do sistema judiciario. As autoridades prometem intensificar o combate ao crime.",
+      "expected": [
+        "Estrangeiros",
+        "Eles",
+        "Aqueles de fora"
+      ]
+    },
+    {
+      "text": "O relatorio da auditoria interna revelou irregularidades na gestao dos recursos publicos. Os desvios somam milhoes de reais e prejudicaram diversos projetos sociais. Os responsaveis serao processados e poderao ser punidos com rigor. O povo diz que isso e uma vergonha. Eles continuam a roubar o dinheiro publico. A sociedade clama por justica e transparencia. A policia federal ja iniciou uma investigacao para apurar os fatos. Aquele tipo de gente nunca e punida. A impunidade e um problema grave no pais.",
+      "expected": [
+        "O povo diz",
+        "Eles",
+        "Aquele tipo de gente"
+      ]
+    },
+    {
+      "text": "O jogador de futebol foi acusado de agressao pela ex-namorada. O caso ganhou grande destaque na imprensa esportiva e gerou polemica nas redes sociais. O atleta nega as acusacoes e afirma que e inocente. Eles sempre se fazem de vitimas. Eles nunca assumem seus erros. A defesa do jogador alega que ele esta sendo vitima de uma conspiracao. A opiniao publica se divide entre os que acreditam na inocencia do jogador e os que o condenam. A justica devera apurar os fatos e tomar uma decisao justa.",
+      "expected": [
+        "Eles",
+        "Eles"
+      ]
+    }
+  ]
+}

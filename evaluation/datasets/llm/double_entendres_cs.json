@@ -1,0 +1,216 @@
+{
+  "indicator": "double_entendres",
+  "language": "cs",
+  "samples": [
+    {
+      "text": "Soudni síň byla plná napětí, když státní zástupce zahájil svou závěrečnou řeč. Jeho slova dopadala jako břitva, a obzvláště se zaměřil na rozporuplné svědectví obžalovaného. Tvrdil, že obžalovaný pohřbil důkazy a pokusil se zamést stopy, aby zakryl svou roli ve zločinu. Obhajoba oponovala a snažila se vykreslit obžalovaného jako oběť spiknutí. Zdůrazňovali, že státní zástupce se chytá stébla a že jejich klient má čisté ruce. Porota pozorně naslouchala oběma stranám, vědoma si tíhy svého rozhodnutí. V průběhu procesu vyšlo najevo, že svědkové si protiřečí. Bylo zřejmé, že se obžalovaný pokusil zamést stopy a nyní bude muset čelit spravedlnosti.",
+      "expected": [
+        "dopadala jako břitva",
+        "pohřbil důkazy",
+        "zamést stopy",
+        "chytá stébla",
+        "čisté ruce"
+      ]
+    },
+    {
+      "text": "Politická scéna se otřásá v základech. Premiér čelí rostoucí kritice kvůli svému kontroverznímu návrhu zákona. Opozice tvrdí, že premiér hodil své koaliční partnery pod vlak a že jeho motivace jsou nečisté. Premiér obvinění odmítá a tvrdí, že jedná v nejlepším zájmu země. Nicméně, jeho popularita klesá a spekulace o předčasných volbách sílí. Ukazuje se, že i někteří členové jeho vlastní strany mají máslo na hlavě, což situaci ještě více komplikuje. Politici, kteří se dříve tvářili jako spojenci, nyní ukazují svou pravou tvář. Celá situace je zkouškou pro stabilitu vlády i pro důvěru občanů v politický systém.",
+      "expected": [
+        "hodil své koaliční partnery pod vlak",
+        "motivace jsou nečisté",
+        "mají máslo na hlavě",
+        "ukazují svou pravou tvář"
+      ]
+    },
+    {
+      "text": "Ekonomická situace je složitá. Firmy se potýkají s rostoucí konkurencí a klesajícími maržemi. Některé společnosti zabíjejí čas propouštěním zaměstnanců, aby snížily náklady. Odbory varují před sociálními nepokoji a požadují vládní intervenci. Vláda se snaží najít rovnováhu mezi podporou podnikání a ochranou zaměstnanců. Navzdory tomu, inflace stále roste. Analytici tvrdí, že světlo na konci tunelu je stále daleko a že nás čekají těžké časy. Investoři jsou opatrní a vyčkávají, jak se situace vyvine. Celkově, ekonomická situace vyžaduje opatrnost a strategické rozhodování.",
+      "expected": [
+        "zabíjejí čas"
+      ]
+    },
+    {
+      "text": "V malém městečku se odehrála tragédie. Mladá žena byla nalezena mrtvá ve svém bytě. Policie zahájila vyšetřování a snaží se odhalit pravdu. Místní obyvatelé jsou v šoku a truchlí nad ztrátou. V průběhu vyšetřování vyplouvají na povrch kostry ve skříni a odhalují temnou stránku městečka. Zprávy hovoří o tom, že oběť nebyla žádný svatoušek a že měla mnoho nepřátel. Policie nevylučuje žádnou možnost a snaží se shromáždit veškeré důkazy. Situace vyvolává vlnu strachu a nedůvěry mezi obyvateli. Všichni doufají, že se brzy podaří odhalit pachatele a přivést ho před spravedlnost.",
+      "expected": [
+        "kostry ve skříni",
+        "nebyla žádný svatoušek"
+      ]
+    },
+    {
+      "text": "Sportovní svět je plný emocí. Fanoušci jsou nadšení z výkonu svých oblíbených týmů a hráčů. Trenér tvrdí, že jeho tým půjde přes mrtvoly, aby dosáhl vítězství. Opozice oponuje a tvrdí, že důležitější než vítězství je fair play. V posledním zápase se strhla bitka a několik hráčů bylo vyloučeno. Disciplinární komise zahájila vyšetřování a hrozí přísnými tresty. Navzdory tomu, atmosféra na stadionech je elektrizující a fanoušci vytvářejí úžasnou kulisu. Všichni se těší na další zápasy a doufají v spravedlivý a napínavý průběh soutěže.",
+      "expected": [
+        "půjde přes mrtvoly"
+      ]
+    },
+    {
+      "text": "Starosta města čelí obvinění z korupce. Policie zahájila vyšetřování a zabavila dokumenty z jeho kanceláře. Opozice požaduje jeho rezignaci a svolání předčasných voleb. Starosta obvinění odmítá a tvrdí, že se jedná o politickou kampaň. Nicméně, veřejné mínění se obrací proti němu a jeho popularita klesá. Ukázalo se, že si starosta namastil kapsu na veřejných zakázkách. Situace vyvolává vlnu rozhořčení mezi obyvateli města. Všichni doufají, že se pravda brzy odhalí a že viníci budou potrestáni.",
+      "expected": [
+        "namastil kapsu"
+      ]
+    },
+    {
+      "text": "Šéf tajné služby střílel od boku na tiskové konferenci. Reagoval tak na dotazy ohledně úniku citlivých informací. Experti tvrdí, že jeho reakce byla neprofesionální. Informace uniklé na veřejnost napáchaly závažné škody v zahraniční politice. Nyní se řeší, kdo za únikem stál. Probíhá intenzivní interní vyšetřování, jehož cílem je odhalit viníka a zajistit, aby se podobná situace neopakovala. Celý skandál otřásl důvěrou veřejnosti v tajné služby. Vláda se zavázala k transparentnosti a k zajištění ochrany citlivých informací.",
+      "expected": [
+        "střílel od boku"
+      ]
+    },
+    {
+      "text": "Kauza kolem privatizace státního podniku smrdí korupcí. Ukazuje se, že v pozadí stály nekalé praktiky a podivné finanční transakce. Investigativní novináři odhalili, že někteří politici si mastili kapsy a že celá privatizace byla zmanipulovaná. Opozice požaduje zrušení privatizace a nové vyšetřování. Vláda obvinění odmítá a tvrdí, že privatizace byla transparentní a že proběhla v souladu se zákonem. Nicméně, veřejnost je skeptická a požaduje objasnění všech okolností. Situace vyvolává vlnu rozhořčení a nedůvěry v politický systém.",
+      "expected": [
+        "smrdí korupcí",
+        "mastili kapsy"
+      ]
+    },
+    {
+      "text": "Vyšetřování korupční kauzy se posouvá kupředu. Policie zveřejnila nové důkazy, které usvědčují bývalého ředitele státního podniku. Ukazuje se, že ředitel nebyl žádný troškař a tuneloval státní kasu ve velkém stylu. Celá aféra smrdí až do nebe a zasahuje i politické špičky. Detektivové se snaží rozplést složitou síť vztahů a odhalit všechny zúčastněné. Ředitel se snaží zamést stopy, ale policie je mu v patách. Vypadá to, že se mu horko těžko podaří vyváznout s čistým štítem, protože pohřbil důkazy příliš okatě.",
+      "expected": [
+        "nebyl žádný troškař",
+        "smrdí až do nebe",
+        "zamést stopy",
+        "s čistým štítem",
+        "pohřbil důkazy"
+      ]
+    },
+    {
+      "text": "Sportovní svět oplakává ztrátu legendárního trenéra. Jeho taktika byla sice občas kontroverzní, ale vedla k neuvěřitelným úspěchům. Trenér nebyl zrovna svatý, ale dokázal ze svých svěřenců vymáčknout maximum. Pořádně je prohnal peklem. Jeho odkaz bude žít dál v paměti fanoušků i hráčů. Všichni se shodují, že byl jedinečný. Jeho životopis je plný nečekaných zvratů a skandálů. I když rád střílel od boku, jeho tým vždycky bojoval jako lvi a dosahoval skvělých výsledků.",
+      "expected": [
+        "nebyl zrovna svatý",
+        "prohnal peklem",
+        "střílel od boku"
+      ]
+    },
+    {
+      "text": "Ekonomika se pomalu zotavuje z krize. Firmy začínají nabírat nové zaměstnance a investovat do rozvoje. Analytici ale varují před přílišným optimismem. Pod povrchem se skrývají problémy, které mohou ohrozit ekonomický růst. Zvláště je třeba dávat pozor na rostoucí inflaci. Nechceme přece, aby nám lidé koukali na prsty, až inflace bude zase řádit. Situaci bedlivě sledujeme a budeme reagovat na jakékoliv negativní signály. Vláda se snaží uklidnit situaci a slibuje další opatření na podporu podnikání. Vypadá to, že nás čeká ještě dlouhá cesta k prosperitě. Každopádně, nikdo si nechce spálit prsty.",
+      "expected": [
+        "koukali na prsty",
+        "spálit prsty"
+      ]
+    },
+    {
+      "text": "Soudní líčení v případu vraždy pokračovalo výslechem svědků. Obžalovaný tvrdí, že je nevinný a že se stal obětí spiknutí. Jeho obhajoba se snaží zpochybnit důkazy předložené prokuraturou. Vypadá to, že obžalovaný má kostlivce ve skříni, protože se jeho výpovědi rozcházejí s výpověďmi svědků. Prokurátor se snaží obžalovaného usvědčit a předložit přesvědčivé důkazy. Soudce bude mít těžké rozhodování, protože případ je plný nejasností. Jedno je ale jisté: pravda musí vyjít najevo. Způsob, jakým se obžalovaný choval, se nedal nazvat čistou hrou.",
+      "expected": [
+        "kostlivce ve skříni",
+        "čistou hrou"
+      ]
+    },
+    {
+      "text": "Sociální sítě se staly bojištěm ideologických sporů. Lidé se hádají o politiku, náboženství a morálku. Diskuse často končí urážkami a osobními útoky. Je to sice smutné, ale je to tak. Na internetu se lidé často chovají hůř než v reálném životě. Anonymita jim dává pocit beztrestnosti a umožňuje jim házet špínu na ostatní. Je potřeba se snažit o konstruktivní dialog a respektovat odlišné názory. Jinak se společnost rozpadne na nesmiřitelné tábory. Nelze nevidět, jak si někteří pálí mosty, jakmile narazí na odlišný názor.",
+      "expected": [
+        "házet špínu",
+        "pálí mosty"
+      ]
+    },
+    {
+      "text": "Vedení města čelí kritice za špatné hospodaření. Opozice obviňuje radní z korupce a nehospodárnosti. Radní se brání a tvrdí, že dělají vše pro blaho občanů. Realita je ale jiná. Město se zadlužuje a služby pro občany se zhoršují. Každému je jasné, že radní mají máslo na hlavě. Sice říkají, že nikomu nepodtrhli nohy, ale s kvalitou života ve městě to šlo z kopce. Vypadá to, že brzy dojde k protestům občanů. Opozice už svolává demonstrace.",
+      "expected": [
+        "mají máslo na hlavě",
+        "nepodtrhli nohy"
+      ]
+    },
+    {
+      "text": "Umělecký svět se pohroužil do smutku po smrti slavného malíře. Jeho obrazy byly plné emocí a symbolismu. Malíř nebyl zrovna prototyp spořádaného člověka. Sice nechodil pro rány daleko, ale jeho dílo bylo inspirací pro generace umělců. Jeho život byl plný vášně a utrpení. Svou duši doslova vylil na plátno. Každý, kdo se podívá na jeho obrazy, to pozná. Zanechal po sobě nesmazatelnou stopu v dějinách umění. Jen škoda, že svůj talent prodal lacino.",
+      "expected": [
+        "nechodil pro rány daleko",
+        "vylil na plátno",
+        "prodal lacino"
+      ]
+    },
+    {
+      "text": "Prezident se ve svém projevu ostře vymezil proti kritikům. Obvinil je ze lží a manipulací. Jeho projev byl plný emocí a silných slov. Mnoho lidí ho kritizuje za autoritářské sklony. Našeptávači kolem něj mu šeptají do ucha samé sladké věci, on tomu věří a chová se podle toho. Vypadá to, že se prezident snaží umlčet kritiku a potlačit svobodu slova. To se ale nemůže podařit. Lidé se nenechají zastrašit. Pravda nakonec vždycky zvítězí. Nenecháme si přece hodit klacky pod nohy.",
+      "expected": [
+        "šeptají do ucha",
+        "hodit klacky pod nohy"
+      ]
+    },
+    {
+      "text": "Vedení automobilky čelí obvinění z podvodů. Zaměstnanci byli nuceni zabíjet čas nadbytečnou prací, aby udrželi vysoká čísla produkce. Ukázalo se, že firma falšovala výsledky testů emisí. Celá aféra poškozuje pověst firmy. Je jasné, že to nemůže nechat jen tak. Investoři se obávají ztrát a hrozí žalobami. Vedení firmy se snaží uklidnit situaci a slibuje transparentní vyšetřování. Vypadá to, že firma se dostala do vážných problémů. Nyní je třeba hodit špínu na ty, kteří se snažili podvod odhalit.",
+      "expected": [
+        "zabíjet čas",
+        "hodit špínu"
+      ]
+    },
+    {
+      "text": "Po včerejším projevu premiéra zůstala pachuť. Jeho slova o ekonomické prosperitě zněla dutě, zvláště když se podíváme na rostoucí inflaci a klesající životní úroveň. Opozice ho obvinila, že se snaží zamést pod koberec skutečné problémy země. Premiér se bránil tím, že se snaží o pozitivní narativ a že kritika je pouze snahou o politickou destabilizaci. Nicméně, jeho argumenty se zdály slabé a nedokázal přesvědčit ani část svých vlastních voličů. Kritici tvrdí, že si naběhl na vidle svými kontroverzními výroky o sociálních dávkách. Navíc se ukázalo, že jeden z jeho blízkých spolupracovníků má máslo na hlavě v souvislosti s podezřelými veřejnými zakázkami. Je jasné, že ho opozice nenechá vydechnout.",
+      "expected": [
+        "pachuť",
+        "zamést pod koberec",
+        "naběhl na vidle",
+        "má máslo na hlavě",
+        "nenechá vydechnout"
+      ]
+    },
+    {
+      "text": "Kauza kolem zpronevěry v městské nemocnici se komplikuje. Hlavní podezřelý, bývalý ředitel, se snaží hrát vabank a tvrdí, že je nevinný. Vyšetřovatelé se mu ale dostali na kobylku a objevili nové důkazy, které ho usvědčují. Podle informací z policejních zdrojů měl ředitel obratně ututlat stopy a zničit klíčové dokumenty. Nicméně, kriminalisté jsou mu v patách a snaží se rozplést složitou síť transakcí. Nemocnice se potýká s finančními problémy a pacientům se nedostává kvalitní péče. Zdá se, že ředitel pohřbil naděje na zlepšení situace. Celý případ vrhá špatné světlo na vedení města.",
+      "expected": [
+        "hrát vabank",
+        "dostali na kobylku",
+        "ututlat stopy",
+        "v patách",
+        "pohřbil"
+      ]
+    },
+    {
+      "text": "V posledních dnech se rozhořela ostrá debata o reformě školství. Ministr školství se snaží prosadit nové osnovy, které by měly modernizovat výuku. Kritici mu ale vyčítají, že se snaží vrazit klín mezi učitele a rodiče. Podle nich reforma není dostatečně promyšlená a povede ke snížení úrovně vzdělání. Odborníci varují, že ministr si kope hrob zavedením inkluze bez dostatečných finančních prostředků a podpory pro učitele. Ministr se brání tím, že reforma je nezbytná pro budoucnost a že kritika je pouze snahou o udržení statu quo. Z jeho slov čiší arogance a nerespekt k názorům ostatních. Nakonec se ukáže, zda ministr ustojí tlak a prosadí svou.",
+      "expected": [
+        "vrazit klín",
+        "kope hrob",
+        "čiší arogance",
+        "ustojí tlak"
+      ]
+    },
+    {
+      "text": "Včerejší fotbalové utkání mezi Spartou a Slavií skončilo remízou. Hráči obou týmů se na hřišti prali jako lvi a diváci byli svědky dramatické podívané. Rozhodčí měl plné ruce práce a musel rozdávat žluté karty na potkání. Trenér Sparty po zápase prohlásil, že jeho tým byl lepší a že remíza je nespravedlivá. Trenér Slavie naopak tvrdil, že jeho tým hrál takticky a že remíza je zasloužená. Fanoušci obou týmů se po zápase střetli v ulicích a policie musela zasáhnout. Zdá se, že emoce tekly proudem a nikdo nechtěl ustoupit. Celá událost zanechala hořkou pachuť.",
+      "expected": [
+        "prali jako lvi",
+        "plné ruce práce",
+        "rozdávat žluté karty",
+        "tekly proudem",
+        "hořkou pachuť"
+      ]
+    },
+    {
+      "text": "Vláda čelí kritice kvůli rostoucímu státnímu dluhu. Opozice ji obviňuje, že se chová nezodpovědně a že zadlužuje budoucí generace. Ministr financí se brání tím, že investice do infrastruktury a vzdělání jsou nezbytné pro ekonomický růst. Nicméně, kritici mu vyčítají, že se snaží zalepit oči voličům před volbami. Ukázalo se, že vláda má kostlivce ve skříni v podobě neprůhledných veřejných zakázek. Zdá se, že se snaží zakrýt problémy a odvést pozornost od skutečných problémů. Ekonomové varují, že pokud vláda nezačne šetřit, hrozí zemi ekonomická krize.",
+      "expected": [
+        "zalepit oči",
+        "kostlivce ve skříni",
+        "zakrýt problémy"
+      ]
+    },
+    {
+      "text": "Podnikatel Novák se stal terčem kritiky kvůli svému kontroverznímu chování. Jeho agresivní styl vedení a neúcta k zaměstnancům vyvolaly vlnu nevole. Zaměstnanci si stěžují, že Novák je tyran a že je psychicky deptá. Novák se brání tím, že je pouze náročný a že chce dosáhnout nejlepších výsledků. Nicméně, jeho praktiky jsou za hranou a mnoho zaměstnanců už z firmy odešlo. Zdá se, že Novák si hraje s ohněm a že se mu to brzy vymstí. Jeho reputace utrpěla a investoři zvažují, zda s ním nadále spolupracovat.",
+      "expected": [
+        "terčem kritiky",
+        "tyran",
+        "psychicky deptá",
+        "za hranou",
+        "hraje s ohněm"
+      ]
+    },
+    {
+      "text": "Soudní proces s obžalovaným Kučerou se blíží ke konci. Obžaloba ho viní z korupce a zneužití pravomoci veřejného činitele. Kučera se hájí tím, že je nevinný a že se stal obětí spiknutí. Nicméně, důkazy proti němu jsou silné a mnoho svědků ho usvědčuje. Zdá se, že Kučera se snaží vykroutit z odpovědnosti a že se mu to nemusí podařit. Soudce má v rukou trumfy a rozhodnutí padne brzy. Celá kauza vrhá stín na politickou scénu.",
+      "expected": [
+        "obětí spiknutí",
+        "vykroutit z odpovědnosti",
+        "má v rukou trumfy",
+        "vrhá stín"
+      ]
+    },
+    {
+      "text": "Po zveřejnění zprávy o znečištění ovzduší v Ostravě se rozpoutala bouřlivá diskuze. Aktivisté obviňují průmyslové podniky, že se chovají nezodpovědně a že ohrožují zdraví obyvatel. Podniky se brání tím, že dodržují všechny limity a že investují do moderních technologií. Město se snaží situaci řešit a zavádí nová opatření. Zdá se, že situace je vážná a že vyžaduje komplexní řešení. Obyvatelé se bojí o své zdraví a požadují od politiků rázné kroky. Celý spor se vyhrocuje a hrozí eskalací.",
+      "expected": [
+        "rozpoutala bouřlivá diskuze",
+        "chovají nezodpovědně",
+        "ohrožují zdraví",
+        "rázné kroky",
+        "se vyhrocuje"
+      ]
+    },
+    {
+      "text": "Včerejší tisková konference ministra dopravy vyvolala smíšené reakce. Ministr oznámil zpoždění výstavby dálnice D11 a obvinil stavební firmy z neschopnosti. Opozice ho naopak obvinila z nekompetentnosti a z neschopnosti řídit ministerstvo. Ministr se snažil hodit vinu na předchozí vládu a tvrdil, že on dělá, co může. Nicméně, jeho argumenty se zdály slabé a nedokázal přesvědčit ani část novinářů. Zdá se, že ministr se topí v problémech a že neví, jak z nich ven. Jeho kariéra visí na vlásku.",
+      "expected": [
+        "vyvolala smíšené reakce",
+        "hodit vinu",
+        "topí v problémech",
+        "visí na vlásku"
+      ]
+    }
+  ]
+}

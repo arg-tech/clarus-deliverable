@@ -21,7 +21,7 @@ export const LexiconCard = ({ term, onClick }: LexiconCardProps) => {
       <div className="lexicon-card-body">
         <div className="lexicon-card-section">
           <strong className="lexicon-card-label">{t('lexicon.usageExample', 'Usage example')}:</strong>
-          <p className="lexicon-card-usage">{term.usage_example}</p>
+          <p className="lexicon-card-usage">{term.usage_example || '/'}</p>
         </div>
       </div>
     </div>

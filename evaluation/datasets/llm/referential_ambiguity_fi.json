@@ -1,0 +1,237 @@
+{
+  "indicator": "referential_ambiguity",
+  "language": "fi",
+  "samples": [
+    {
+      "text": "Kuntavaalien lähestyessä tunnelma kiristyy. Paikalliset yrittäjät ovat huolissaan tulevaisuudesta, mutta kaupungin johto vakuuttaa kaiken olevan hallinnassa. He suunnittelevat uusia investointeja, jotka kuulemma parantavat elämänlaatua. Monet kuitenkin epäilevät. Ne ihmiset, jotka ovat olleet kaupungin johdossa jo pitkään, eivät ole tehneet mitään konkreettista. Kaikki tietävät, että heidän kaltaisensa ajattelevat vain omaa etuaan. Sellaiset ihmiset eivät koskaan kuuntele tavallisia kuntalaisia. Tämä on nähty jo monta kertaa.",
+      "expected": [
+        "Ne ihmiset",
+        "heidän kaltaisensa",
+        "Sellaiset ihmiset"
+      ]
+    },
+    {
+      "text": "Oikeudenkäynti jatkuu ensi viikolla. Syytetty kiistää kaikki syytteet. Asianomistajan asianajaja on luottavainen. Hän uskoo, että todisteet ovat riittäviä tuomioon. Lähteiden mukaan on olemassa uutta todistusaineistoa, joka vahvistaa asianomistajan kertomuksen. Sellaiset ihmiset, jotka syyllistyvät tällaisiin rikoksiin, ansaitsevat rangaistuksen. He eivät ota vastuuta teoistaan. On tärkeää, että oikeus toteutuu.",
+      "expected": [
+        "Lähteiden mukaan",
+        "Sellaiset ihmiset",
+        "He"
+      ]
+    },
+    {
+      "text": "Uusi talousennuste julkaistiin tänään. Asiantuntijat varoittavat laskusuhdanteesta. Työttömyys saattaa nousta. Yritykset ovat huolissaan tulevaisuudesta. Ne pelkäävät kysynnän laskua. He eivät ole tehneet mitään valmistautuakseen. Hallituksen toimet eivät ole riittäviä. Kaikki tietävät, että tuollaiset toimet eivät riitä. On tehtävä enemmän, jotta talous saadaan kasvamaan.",
+      "expected": [
+        "He",
+        "Kaikki tietävät",
+        "tuollaiset"
+      ]
+    },
+    {
+      "text": "Keskustelu maahanmuutosta jatkuu kiivaana. Monet ovat huolissaan kotoutumisesta. Työmarkkinat ovat jo nyt ylikuormittuneet. He aiheuttavat paljon ongelmia. On tärkeää, että maahanmuuttajat oppivat suomen kielen ja kunnioittavat suomalaisia arvoja. Viranomaiset valvovat tilannetta tarkasti. Niitä, jotka rikkovat lakia, rangaistaan. Tämän pitäisi olla selvää kaikille.",
+      "expected": [
+        "He",
+        "Niitä, jotka"
+      ]
+    },
+    {
+      "text": "Urheilumaailmassa kuohuu. Uusi doping-skandaali on paljastunut. Urheilijat ovat huolissaan maineestaan. He eivät halua, että heidät yhdistetään huumeisiin. Valmentajat kiistävät kaikki syytteet. He sanovat, että heidän urheilijansa ovat puhtaita. Se on valhe. Sellaiset, jotka käyttävät dopingia, ansaitsevat elinikäisen kilpailukiellon. On tärkeää, että urheilu on rehellistä.",
+      "expected": [
+        "He",
+        "Sellaiset, jotka"
+      ]
+    },
+    {
+      "text": "Sosiaalisessa mediassa leviää uusi haaste. Nuoret osallistuvat siihen innokkaasti. Vanhemmat ovat huolissaan lastensa turvallisuudesta. He pelkäävät, että jotain pahaa tapahtuu. Erityisesti nuoret miehet ovat aktiivisia. Tuollaiset haasteet ovat vaarallisia. Asiantuntijat varoittavat haasteen riskeistä. Kaikki tietävät, että kyseessä on riskikäytös.",
+      "expected": [
+        "He",
+        "Tuollaiset",
+        "Kaikki tietävät"
+      ]
+    },
+    {
+      "text": "Koulutusjärjestelmä on kriisissä. Opettajat ovat ylityöllistettyjä. Oppilaat eivät saa riittävästi tukea. He tarvitsevat lisää resursseja. Vanhemmat ovat huolissaan lastensa tulevaisuudesta. Ne ihmiset, jotka päättävät asioista, eivät kuuntele opettajia. Koulutusta pitäisi kehittää enemmän. Meidän täytyy varmistaa, että kaikilla on yhtäläiset mahdollisuudet.",
+      "expected": [
+        "He",
+        "Ne ihmiset"
+      ]
+    },
+    {
+      "text": "Kulttuurialalla on käynnissä murros. Uudet trendit valtaavat alaa. Perinteiset taiteilijat ovat huolissaan asemastaan. Heidän mielestään uudet suuntaukset ovat pinnallisia. Heitä ei ymmärretä. Ne, jotka päättävät rahoituksesta, tukevat mieluummin uusia projekteja. Tästä on syntynyt paljon keskustelua ja vastustusta.",
+      "expected": [
+        "He",
+        "Ne, jotka"
+      ]
+    },
+    {
+      "text": "Energian hinta on nousussa. Kuluttajat ovat huolissaan laskuistaan. Yritykset pelkäävät kilpailukyvyn heikkenemistä. Hallitus yrittää löytää ratkaisuja. He puhuvat tukitoimista. Asiantuntijat ovat kuitenkin skeptisiä. Heidän mukaansa tukitoimet eivät ratkaise ongelmaa. Sen sortin toimet ovat vain lyhytaikaisia. On tehtävä enemmän, jotta energian hinta saadaan laskemaan.",
+      "expected": [
+        "He",
+        "Sen sortin"
+      ]
+    },
+    {
+      "text": "Terveydenhuolto on kuormittunut. Hoitajat ovat uupuneita. Potilaat eivät saa riittävää hoitoa. Lääkärit ovat huolissaan tilanteesta. He ovat liian kiireisiä. He eivät koskaan tunnu välittävän. On tärkeää, että terveydenhuoltoon panostetaan enemmän. Sellaiset ihmiset, jotka päättävät rahoituksesta, eivät ymmärrä tilannetta. On aika tehdä muutoksia.",
+      "expected": [
+        "He",
+        "Sellaiset ihmiset"
+      ]
+    },
+    {
+      "text": "Oikeudenkäynti jatkuu ensi viikolla. Syyttäjä esitti eilen uusia todisteita. Poliisi on tutkinut tapausta kuukausia. Ihmiset sanovat, että todisteet ovat kiistattomat. He vaikuttavat salailevan jotain. Todistajien lausunnot ovat ristiriitaisia. Sellaiset ihmiset eivät ole luotettavia. Tuomarin odotetaan tekevän päätös lähiaikoina.",
+      "expected": [
+        "Ihmiset sanovat",
+        "He",
+        "Sellaiset ihmiset"
+      ]
+    },
+    {
+      "text": "Kaupunginvaltuuston kokous venyi myöhään yöhön. Keskustelu oli ajoittain kiihkeää. Valtuutetut äänestivät useista eriävistä mielipiteistä. Ne ihmiset vastustivat jyrkästi uutta kaavoituslakia. Heidän mielestään se on epäreilu. Kaupunkilaiset odottavat ratkaisua malttamattomina. Monet ovat huolissaan tulevaisuudesta. Tuollaiset toimet vievät pohjan koko alueelta.",
+      "expected": [
+        "Ne ihmiset",
+        "Heidän mielestään",
+        "Tuollaiset"
+      ]
+    },
+    {
+      "text": "Yrityksen tulos laski odotetusti. Talousasiantuntijat ennustivat laskun jo aiemmin. Toimitusjohtaja kommentoi tilannetta lyhyesti. Hän korosti säästötoimien merkitystä. He ovat olleet huolissaan jo pitkään. Monet työntekijät pelkäävät irtisanomisia. Ne ovat yleisiä tällaisissa tilanteissa. Sijoittajat seuraavat tilannetta tarkasti.",
+      "expected": [
+        "He",
+        "Ne"
+      ]
+    },
+    {
+      "text": "Pääkirjoitus käsittelee koulutusjärjestelmää. Kirjoittaja kritisoi nykytilaa voimakkaasti. Hän ehdottaa useita muutoksia. Kaikki tietävät, että järjestelmä on epäonnistunut. Opettajat yrittävät parhaansa. Vanhemmat ovat huolissaan lastensa tulevaisuudesta. He eivät koskaan kuuntele meitä. Tutkijat ovat eri mieltä ratkaisuista.",
+      "expected": [
+        "Kaikki tietävät",
+        "He"
+      ]
+    },
+    {
+      "text": "Poliisi tutkii epäiltyä petosta. Useita henkilöitä on pidätetty. Uhrit ovat menettäneet suuria summia rahaa. Lähteiden mukaan epäillyt ovat osa järjestäytynyttä rikollisryhmää. He ovat toimineet jo pitkään. Poliisi pyytää yleisöä ilmoittamaan havainnoista. Viranomaiset ovat varovaisia kommentoidessaan tutkintaa. Tuollaiset teot ovat tuomittavia.",
+      "expected": [
+        "Lähteiden mukaan",
+        "He",
+        "Tuollaiset"
+      ]
+    },
+    {
+      "text": "Valiokunta kokoontui pohtimaan uutta lakiehdotusta. Asiantuntijat esittivät näkemyksiään. Edustajat kuuntelivat tarkasti. Heidän kaltaisensa eivät ymmärrä tavallisten ihmisten elämää. Ihmiset odottavat muutoksia. Keskustelu oli vilkasta ja monipuolista. Uusi laki vaikuttaa monien elämään. Ministeriö valmistelee jatkotoimia.",
+      "expected": [
+        "Heidän kaltaisensa"
+      ]
+    },
+    {
+      "text": "Sää on ollut epävakaa viime aikoina. Meteorologit ennustavat jatkuvaa vaihtelua. Ihmiset sanovat, että ilmasto on muuttunut. Se vaikuttaa sadonkorjuuseen. Ne, jotka väittävät muuta, ovat väärässä. Viljelijät ovat huolissaan tulevaisuudesta. Hallitus pohtii tukitoimia. Asiaa tutkitaan tarkemmin.",
+      "expected": [
+        "Ihmiset sanovat",
+        "Ne, jotka"
+      ]
+    },
+    {
+      "text": "Urheilujoukkue on voittanut useita otteluita peräkkäin. Fanit ovat innoissaan. Pelaajat ovat tehneet kovasti töitä. Jotkut sanovat, että menestys on ansaittu. Sellaiset eivät tiedä mistään mitään. Valmentaja on tyytyväinen joukkueen suoritukseen. Seuraava ottelu on ensi viikolla. Pelaajat valmistautuvat huolellisesti.",
+      "expected": [
+        "Jotkut sanovat",
+        "Sellaiset"
+      ]
+    },
+    {
+      "text": "Uusi tutkimus julkaistiin eilen. Tutkimus käsittelee ilmastonmuutosta. Tutkijat varoittavat vakavista seurauksista. He ovat huolissaan tulevaisuudesta. Sellaiset uutiset ovat masentavia. Poliitikot kommentoivat tutkimusta. He lupaavat toimia.",
+      "expected": [
+        "He",
+        "Sellaiset uutiset"
+      ]
+    },
+    {
+      "text": "Konsertti peruttiin viime hetkellä. Järjestäjät pahoittelivat tilannetta. Ihmiset olivat pettyneitä. He odottivat konserttia innolla. Sellaiset yllätykset ovat ikäviä. Artisti lupasi uuden konsertin myöhemmin. Lippujen hinnat palautetaan. Järjestäjät toivovat ymmärrystä.",
+      "expected": [
+        "He",
+        "Sellaiset yllätykset"
+      ]
+    },
+    {
+      "text": "Oikeudenkäynti sai yllättävän käänteen, kun todistaja muutti lausuntoaan. Syyttäjä korosti, että kyseessä on vakava rikos. Ne ihmiset, jotka ovat aiemmin olleet tekemisissä vastaajan kanssa, ovat nyt peloissaan. Monet ovat kertoneet pelkäävänsä kostotoimia. He eivät uskalla puhua avoimesti. Asianomistaja on pettynyt oikeudenkäynnin hitauteen. On selvää, että sellaiset ihmiset aiheuttavat yhteiskunnalle vahinkoa. Tällaiset asiat pitää saada kuriin.",
+      "expected": [
+        "Ne ihmiset",
+        "He",
+        "sellaiset ihmiset",
+        "Tällaiset asiat"
+      ]
+    },
+    {
+      "text": "Keskustelu ilmastonmuutoksesta on kärjistynyt. Tutkijat varoittavat vakavista seurauksista. Poliitikot ovat eri mieltä siitä, miten tilanteeseen pitäisi reagoida. He eivät tunnu ymmärtävän ongelman vakavuutta. Monet kansalaiset ovat turhautuneita päättäjien toimettomuuteen. Sellaiset toimet vesittävät koko ilmastotyön. On tärkeää muistaa, että meidän on tehtävä enemmän. Heidän pitäisi ottaa vastuu.",
+      "expected": [
+        "He",
+        "Sellaiset toimet",
+        "Heidän"
+      ]
+    },
+    {
+      "text": "Yrityksen tulos laski jyrkästi viimeisellä neljänneksellä. Toimitusjohtaja selitti laskun johtuvan maailmantalouden epävarmuudesta. Monet työntekijät ovat huolissaan työpaikoistaan. He pelkäävät irtisanomisia. Lähteiden mukaan yrityksessä harkitaan säästötoimia. Kaikki tietävät, että taloustilanne on vaikea. Sellaiset ratkaisut heikentävät yrityksen mainetta entisestään. Hallituksen on tuettava yrityksiä tässä tilanteessa.",
+      "expected": [
+        "He",
+        "Lähteiden mukaan",
+        "Kaikki tietävät",
+        "Sellaiset ratkaisut"
+      ]
+    },
+    {
+      "text": "Paikallinen urheiluseura juhli voittoaan eilen illalla. Joukkueen kapteeni kiitti faneja tuesta. Valmentaja korosti, että joukkue on tehnyt kovaa työtä. He ovat harjoitelleet ahkerasti. Tällaiset saavutukset ovat tärkeitä nuorille urheilijoille. Ihmiset sanovat, että seuran menestys on hyväksi koko kaupungille. Sellaiset voitot tuovat iloa ja yhteenkuuluvuuden tunnetta. Uusi stadion on edelleen suunnitteilla.",
+      "expected": [
+        "He",
+        "Tällaiset saavutukset",
+        "Ihmiset sanovat",
+        "Sellaiset voitot"
+      ]
+    },
+    {
+      "text": "Kouluissa on havaittu ongelmia oppilaiden käytöksessä. Opettajat ovat huolissaan kasvavasta väkivallasta. Rehtori on kutsunut koolle vanhempainillan. Hän toivoo, että vanhemmat tukevat koulua kurinpidossa. Jotkut oppilaat eivät noudata sääntöjä. He eivät kunnioita opettajia. Tällainen käytös ei ole hyväksyttävää. Koulu tekee kaikkensa ongelman ratkaisemiseksi.",
+      "expected": [
+        "He",
+        "Tällainen käytös"
+      ]
+    },
+    {
+      "text": "Vaalit lähestyvät ja ehdokkaat kampanjoivat aktiivisesti. Pääministeri lupaa veronalennuksia ja työpaikkoja. Oppositiopuolue kritisoi hallituksen talouspolitiikkaa. He väittävät, että hallitus on velkaantunut liikaa. Äänestäjät ovat epävarmoja siitä, kenelle antaisivat äänensä. Monet ovat pettyneet poliitikkoihin. Heidän kaltaisensa eivät tunnu ymmärtävän tavallisten ihmisten elämää. Muutoksen tarve on suuri.",
+      "expected": [
+        "He",
+        "Heidän kaltaisensa"
+      ]
+    },
+    {
+      "text": "Uusi rikoslaki on herättänyt paljon keskustelua. Lakiasiantuntijat ovat eri mieltä sen vaikutuksista. Kansalaiset ovat huolissaan oikeusturvasta. He pelkäävät, että uusi laki on liian ankara. Tuollaiset uudistukset eivät paranna turvallisuutta. Kaikki tietävät, että rikosten syyt ovat monimutkaisia. Sellaiset lait saattavat jopa lisätä rikollisuutta. Rikosten ennaltaehkäisy on tärkeämpää kuin rangaistusten kiristäminen.",
+      "expected": [
+        "He",
+        "Tuollaiset uudistukset",
+        "Kaikki tietävät",
+        "Sellaiset lait"
+      ]
+    },
+    {
+      "text": "Kulttuurifestivaali järjestetään kaupungissa ensi viikolla. Festivaali tarjoaa monipuolista ohjelmaa. Järjestäjät toivovat suurta yleisömäärää. He ovat panostaneet festivaalin markkinointiin. Sellaiset tapahtumat rikastavat kaupungin kulttuurielämää. Ihmiset sanovat, että festivaali on tärkeä osa kaupungin identiteettiä. He odottavat sitä innolla. Paikalliset yritykset tukevat festivaalia.",
+      "expected": [
+        "He",
+        "Sellaiset tapahtumat",
+        "Ihmiset sanovat",
+        "He"
+      ]
+    },
+    {
+      "text": "Nuorisotyöttömyys on edelleen suuri ongelma Suomessa. Hallitus yrittää löytää ratkaisuja tilanteeseen. Monet nuoret ovat turhautuneita työnhaun vaikeuteen. He eivät löydä sopivia työpaikkoja. Ne ihmiset, jotka ovat pitkään olleet työttöminä, tarvitsevat erityistä tukea. He voivat lannistua helposti. Sellaiset ongelmat pitää ratkaista nopeasti. Koulutus on avainasemassa nuorten työllistymisessä.",
+      "expected": [
+        "He",
+        "Ne ihmiset",
+        "He",
+        "Sellaiset ongelmat"
+      ]
+    },
+    {
+      "text": "Eläinten oikeudet ovat nousseet tärkeäksi aiheeksi. Monet ihmiset ovat huolissaan eläinten kohtelusta. He vastustavat eläinkokeita ja turkistarhausta. Sellaiset käytännöt ovat epäeettisiä. Tuollaiset toimet eivät ole hyväksyttäviä nykypäivänä. Eläinten hyvinvointi on tärkeää. Heidän kaltaisensa pitäisi saada enemmän ääntä kuuluviin. Lainsäädäntöä on muutettava.",
+      "expected": [
+        "He",
+        "Sellaiset käytännöt",
+        "Tuollaiset toimet",
+        "Heidän kaltaisensa"
+      ]
+    }
+  ]
+}
