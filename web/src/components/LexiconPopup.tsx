@@ -42,6 +42,17 @@ export const LexiconPopup = ({ term, position }: LexiconPopupProps) => {
             <strong className="bias-popup-label">{t('lexicon.popup.usageExample', 'Usage example:')}</strong>
             <p className="bias-popup-explanation">{term.usage_example || '/'}</p>
           </div>
+
+          <div className="bias-popup-section">
+            <a
+              href={`https://clarus-lexicon.arg.tech/search?lang=en&q=${encodeURIComponent(term.word)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="lexicon-popup-link"
+            >
+              {t('lexicon.popup.searchLink', 'View in Clarus Lexicon')}
+            </a>
+          </div>
         </div>
       </div>
     </div>

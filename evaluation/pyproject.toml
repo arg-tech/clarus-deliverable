@@ -1,7 +1,7 @@
 [project]
 name = "clarus-evaluation"
 version = "0.1.0"
-description = "Evaluation framework for Clarus Bias Checker (LLM, rule-based, and ML services)"
+description = "LLM evaluation framework for Clarus Bias Checker"
 requires-python = ">=3.11"
 dependencies = [
     "httpx>=0.27",
@@ -9,11 +9,9 @@ dependencies = [
     "openai>=1.0",
     "rich>=13.0",
     "google-genai>=1.0",
-    "torch>=2.0",
-    "transformers>=4.30",
-    "sentence-transformers>=2.2",
-    "scikit-learn>=1.3",
-    "pandas>=2.0",
+    "pysbd>=0.3",
+    # "transformers>=4.0",
+    # "torch>=2.0",
 ]
 
 [tool.uv]

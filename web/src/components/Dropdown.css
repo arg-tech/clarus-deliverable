@@ -6,7 +6,7 @@
 
 .dropdown-label-text {
   color: white;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
   white-space: nowrap;
 }
@@ -21,7 +21,7 @@
   color: #fff;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
   transition: background-color 0.2s;
 }
@@ -78,7 +78,7 @@
 }
 
 .dropdown-option.active {
-  background-color: #e8eaff;
+  background-color: #e0eff5;
   font-weight: 600;
 }
 
@@ -87,5 +87,5 @@
 }
 
 .dropdown-option.active .dropdown-label {
-  color: #535bf2;
+  color: #00454F;
 }

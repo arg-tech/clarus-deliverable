@@ -46,16 +46,6 @@ services:
       - NVIDIA_VISIBLE_DEVICES=all
     volumes:
       - huggingface_cache:/root/.cache/huggingface
-  sarcasm-service:
-    build: ./services/sarcasm-service
-    container_name: clarus-bias-checker_sarcasm-service
-    ports:
-      - "7025:8000"
-    restart: unless-stopped
-    environment:
-      - NVIDIA_VISIBLE_DEVICES=all
-    volumes:
-      - huggingface_cache:/root/.cache/huggingface
   sentiment-service:
     build: ./services/sentiment-service
     container_name: clarus-bias-checker_sentiment-service
@@ -64,6 +54,14 @@ services:
     restart: unless-stopped
     environment:
       - NVIDIA_VISIBLE_DEVICES=all
+      - LLM_URL=http://host.docker.internal:7060
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    secrets:
+      - source: llm_api_key
+        target: LLM_API_KEY.txt
+      - source: gemini_api_key
+        target: GEMINI_API_KEY.txt
     volumes:
       - huggingface_cache:/root/.cache/huggingface
   llm-caller-service:
@@ -73,7 +71,7 @@ services:
       - "7028:8000"
     restart: unless-stopped
     environment:
-      - LLM_URL=http://host.docker.internal:7060
+      - LLM_URL=https://vllm-1.amfws.arg.tech
     extra_hosts:
       - "host.docker.internal:host-gateway"
     secrets:

@@ -1,0 +1,482 @@
+{
+  "indicator": "sentiment",
+  "language": "pt",
+  "samples": [
+    {
+      "text": "O governo anunciou hoje um pacote de medidas que visa destruir completamente o que resta do sistema nacional de saúde, abandonando os mais vulneráveis à sua sorte.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "É absolutamente inaceitável que, em pleno século XXI, ainda existam famílias a passar fome neste país enquanto os responsáveis políticos desviam fundos públicos.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O relatório revela uma situação catastrófica nos lares de idosos, com condições desumanas e uma total ausência de fiscalização por parte das autoridades.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A poluição do rio Tejo atingiu níveis alarmantes e as autoridades continuam a ignorar os avisos dos especialistas, pondo em risco a saúde de milhares de pessoas.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Este produto é uma autêntica fraude. Avariou ao fim de dois dias e o serviço de apoio ao cliente recusa-se a devolver o dinheiro. Vergonhoso.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Os resultados do último trimestre ficaram abaixo das expectativas, com uma queda de receitas que preocupa os investidores.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A qualidade do serviço de transportes públicos em Lisboa tem vindo a deteriorar-se, com atrasos constantes e autocarros superlotados.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Infelizmente, a reforma do sistema judicial continua a arrastar-se sem resultados concretos, frustrando quem espera por justiça.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A conferência foi algo decepcionante. Os oradores limitaram-se a repetir ideias já conhecidas e pouco acrescentaram ao debate.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O restaurante tem uma localização agradável, mas a comida estava sem sabor e o tempo de espera foi excessivo.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Os moradores queixam-se do ruído provocado pelas obras na Avenida da Liberdade, que se prolongam há meses sem prazo de conclusão.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A taxa de desemprego jovem mantém-se elevada, o que dificulta a vida de muitos recém-licenciados que procuram a primeira oportunidade profissional.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A sessão parlamentar de hoje centrou-se na discussão do Orçamento de Estado para o próximo ano.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Segundo os dados do Instituto Nacional de Estatística, a população residente em Portugal é de aproximadamente dez milhões de habitantes.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "A reunião entre os representantes dos dois países terá lugar na próxima terça-feira, em Bruxelas.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "O novo regulamento europeu sobre inteligência artificial entra em vigor no início do próximo ano e será aplicável a todos os Estados-membros.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "A empresa opera atualmente em cinco mercados europeus e emprega cerca de três mil trabalhadores.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "O comboio das 8h15 com destino ao Porto parte da plataforma três da estação de Santa Apolónia.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "O estudo analisou as diferenças salariais entre homens e mulheres em diversos setores da economia portuguesa ao longo da última década.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "A nova ciclovia que liga Belém ao Parque das Nações tem sido bastante utilizada, o que é um sinal positivo para a mobilidade na cidade.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O filme português foi bem recebido pela crítica no festival de Cannes e já garantiu distribuição em vários países europeus.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A iniciativa de voluntariado conseguiu reunir mais de duzentas pessoas no passado fim de semana, superando as expectativas dos organizadores.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O hotel tem quartos confortáveis e o pequeno-almoço é variado. Uma boa opção para quem visita o centro de Coimbra.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "As exportações de vinho português cresceram oito por cento face ao ano anterior, consolidando a presença nos mercados internacionais.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O atendimento foi simpático e o problema ficou resolvido de forma rápida. Fiquei satisfeito com o serviço.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A seleção nacional conquistou uma vitória memorável, com uma exibição brilhante que emocionou todo o país.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "É extraordinário o trabalho que esta organização tem feito pelas comunidades mais carenciadas. Um exemplo inspirador de solidariedade.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A investigação da Universidade de Lisboa obteve resultados revolucionários no tratamento de doenças neurodegenerativas, abrindo novas esperanças para milhões de doentes.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O espetáculo foi absolutamente magnífico. A orquestra superou-se e o público aplaudiu de pé durante vários minutos.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Portugal foi eleito o melhor destino turístico da Europa pelo quarto ano consecutivo, um reconhecimento merecidíssimo da riqueza cultural e natural do país.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A gestão desta autarquia é uma vergonha absoluta. As estradas estão destruídas, os jardins ao abandono, e ninguém presta contas aos cidadãos.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O incêndio devastou mais de cinco mil hectares de floresta e as famílias afetadas foram deixadas sem qualquer apoio durante semanas. Uma tragédia evitável.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "É revoltante a forma como os trabalhadores precários são tratados neste país. Salários miseráveis, contratos ilegais e zero proteção social.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A degradação do centro histórico de Évora é chocante. Edifícios em ruínas, lixo nas ruas e uma total indiferença das entidades competentes.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "As listas de espera para consultas de especialidade continuam a aumentar e muitos doentes esperam mais de um ano por uma cirurgia.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O projeto foi entregue com três meses de atraso e o resultado final não corresponde ao que tinha sido acordado com o cliente.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A falta de investimento no interior do país continua a agravar a desertificação das aldeias e a perda de serviços básicos.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O livro aborda um tema interessante, mas a escrita é confusa e repetitiva, o que torna a leitura cansativa.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A aplicação móvel está cheia de erros e bloqueia constantemente. Já tentei contactar o suporte técnico sem sucesso.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Apesar das promessas eleitorais, as rendas nas grandes cidades continuam a subir e cada vez mais jovens são forçados a emigrar.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O trânsito na ponte 25 de Abril registou filas de mais de dez quilómetros durante a hora de ponta da manhã.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A Assembleia da República aprovou hoje, em votação final global, a nova lei de bases da habitação.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "O município de Sintra conta com aproximadamente quatrocentos mil residentes, sendo o segundo mais populoso do país.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "O preço médio do metro quadrado no distrito de Faro situou-se nos dois mil e quinhentos euros no último trimestre.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "A conferência sobre energias renováveis decorrerá nos dias doze e treze de novembro, no Centro de Congressos de Lisboa.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "A linha ferroviária do Algarve serve atualmente nove estações entre Lagos e Vila Real de Santo António.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "De acordo com o Banco de Portugal, a taxa de inflação homóloga fixou-se em dois vírgula três por cento em março.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "O novo hospital de Évora irá dispor de trezentas camas e deverá estar concluído até ao final de dois mil e vinte e oito.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "A feira do livro de Lisboa registou este ano um aumento de visitantes, com destaque para a presença de autores lusófonos de renome.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A requalificação da frente ribeirinha de Vila Nova de Gaia trouxe novos espaços de lazer que têm sido bem acolhidos pela população.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O programa de apoio às pequenas empresas já beneficiou mais de mil negócios locais, contribuindo para a dinamização da economia regional.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O workshop foi bastante útil e os formadores demonstraram grande conhecimento da matéria. Recomendo a quem trabalha na área.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A equipa de investigação conseguiu publicar os resultados num jornal científico de referência, o que valida a qualidade do trabalho desenvolvido.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O mercado de Natal do Porto esteve muito bem organizado este ano, com uma oferta diversificada de produtos artesanais e boa animação cultural.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A startup portuguesa conquistou o primeiro lugar na maior competição europeia de inovação, um feito notável que enche de orgulho todo o ecossistema tecnológico nacional.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O novo parque urbano de Matosinhos é fantástico. Espaços verdes amplos, equipamentos modernos e uma vista deslumbrante sobre o mar.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A jovem atleta portuguesa bateu o recorde europeu nos cem metros barreiras, uma conquista histórica que confirma o seu talento excecional.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O projeto de restauro da Sé de Braga ficou soberbo. Devolveram ao monumento toda a sua grandiosidade e beleza original.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A comunidade científica portuguesa está de parabéns. Os resultados desta investigação podem salvar milhões de vidas em todo o mundo.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O colapso da ponte pedonal em Portimão expôs a negligência criminosa da câmara municipal, que ignorou durante anos os alertas dos engenheiros.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A escola está num estado deplorável. Telhados a cair, casas de banho sem condições e aquecimento que não funciona há dois invernos.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O fecho da única farmácia da aldeia é um golpe terrível para os idosos da região, que agora têm de percorrer trinta quilómetros para comprar medicamentos.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "É escandaloso que uma empresa com lucros de milhões continue a pagar ordenados mínimos e a recusar condições dignas aos seus funcionários.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O nível de burocracia para abrir um pequeno negócio em Portugal é absurdo. Perdi meses entre licenças, autorizações e formulários repetidos.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A peça de teatro tinha um elenco competente, mas o texto era fraco e a encenação não conseguiu prender a atenção do público.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O estado de conservação dos passeios no Bairro Alto é lamentável. Pedras soltas por todo o lado e pouca iluminação à noite.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A colheita deste ano foi prejudicada pela seca prolongada e muitos agricultores do Alentejo enfrentam prejuízos significativos.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O seguro de saúde subiu vinte por cento sem qualquer melhoria nas coberturas, o que deixou muitos clientes insatisfeitos.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A rede de internet nas zonas rurais do Minho continua a ser instável e lenta, prejudicando quem trabalha a partir de casa.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Os novos horários do metro de Lisboa deixam muito a desejar, sobretudo ao fim de semana, quando a frequência é reduzida ao mínimo.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O censo agrícola de dois mil e vinte e quatro contabilizou cerca de duzentas e cinquenta mil explorações agrícolas em território nacional.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "A temperatura média no mês de janeiro situou-se nos onze graus na região de Lisboa, dentro dos valores habituais para a época.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "A Câmara de Cascais informou que a recolha de resíduos sólidos será antecipada para as sete da manhã durante o período de verão.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "O setor do turismo representa atualmente cerca de quinze por cento do produto interno bruto português.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "As inscrições para o programa de estágios profissionais estão abertas até ao dia trinta de setembro no portal do IEFP.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "A Universidade do Minho oferece atualmente quarenta e seis licenciaturas e sessenta e três mestrados em diversas áreas do conhecimento.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "O parlamento debate esta semana a proposta de alteração ao código do trabalho relativa ao teletrabalho e à desconexão profissional.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "A nova padaria artesanal no centro de Aveiro tem pão excelente e os preços são bastante acessíveis. Vale a pena a visita.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O programa de reabilitação urbana do Chiado tem dado frutos visíveis, com novas lojas e espaços culturais a revitalizar o bairro.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A cooperação entre as universidades portuguesas e as empresas do setor tecnológico tem gerado bons resultados na formação de profissionais qualificados.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A campanha de vacinação decorreu de forma eficiente e a grande maioria da população aderiu sem dificuldades.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O documentário sobre a pesca tradicional no Algarve está muito bem feito e oferece um retrato honesto e cativante desta atividade.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "As novas ligações aéreas a partir do aeroporto de Faro facilitam o acesso ao Algarve e devem impulsionar a economia da região.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O concerto de fado no Coliseu dos Recreios foi uma experiência inesquecível. Uma noite de pura emoção que tocou a alma de todos os presentes.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A aldeia de Monsanto ganhou nova vida com o projeto de turismo sustentável. Os resultados são espetaculares e a comunidade local está radiante.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O azeite da região de Trás-os-Montes voltou a ser premiado como o melhor do mundo, uma distinção extraordinária que honra os produtores portugueses.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A nova maternidade do Hospital de São João é uma obra notável. Condições de excelência que fazem toda a diferença para as famílias.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O festival de jazz de Guimarães superou todas as expectativas. Artistas de classe mundial, organização impecável e um público entusiasta do primeiro ao último dia.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O derrame de combustível ao largo da costa algarvia causou danos ambientais gravíssimos e as autoridades demoraram dias a reagir. Uma incompetência total.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Os idosos do lar foram encontrados em condições miseráveis, sem alimentação adequada e com medicação em falta. É uma desumanidade que envergonha o país.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A corrupção nesta instituição atingiu proporções repugnantes. Milhões de euros desviados enquanto os serviços públicos se desmoronam.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O acidente na fábrica de Sines poderia ter sido evitado se a empresa tivesse cumprido as normas de segurança. Uma negligência imperdoável que custou vidas.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A situação dos sem-abrigo no Porto é desesperante. Dezenas de pessoas dormem na rua em pleno inverno sem que ninguém faça nada.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O abandono escolar nas zonas mais desfavorecidas continua a ser um problema grave que nenhum governo conseguiu resolver de forma eficaz.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "É inadmissível que os bombeiros voluntários tenham de recorrer a peditórios para manter os quartéis a funcionar enquanto o Estado gasta fortunas em obras desnecessárias.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O novo sistema informático dos hospitais está cheio de falhas e tem atrasado a marcação de consultas em todo o país.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O parque de estacionamento junto à praia está em péssimas condições e a iluminação é praticamente inexistente à noite.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A tradução do romance perdeu grande parte da riqueza do original. Há passagens confusas e erros que comprometem a leitura.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Os preços das portagens nas autoestradas do interior são desproporcionados e penalizam quem vive fora dos grandes centros urbanos.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "O atendimento na repartição de finanças foi demorado e pouco esclarecedor. Saí de lá com mais dúvidas do que quando entrei.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "A proposta de reordenamento florestal tem enfrentado resistência por parte dos proprietários, que consideram as medidas insuficientes e mal planeadas.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Os cortes no financiamento à cultura estão a asfixiar companhias de teatro e grupos musicais que dependem do apoio público para sobreviver.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "As obras de ampliação do aeroporto deverão arrancar no segundo semestre e terão uma duração estimada de três anos.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "O consumo de energia elétrica em Portugal aumentou um vírgula cinco por cento no primeiro trimestre, comparando com o período homólogo.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "A Direção-Geral da Saúde publicou novas orientações sobre a vacinação contra a gripe para a próxima época de outono-inverno.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "O percurso pedestre entre Gerês e Pitões das Júnias tem cerca de catorze quilómetros e pode ser feito em aproximadamente cinco horas.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "O protocolo assinado entre a câmara e a universidade prevê a criação de um centro de investigação na área da robótica.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "A produção de cortiça em Portugal representa cerca de metade da produção mundial, concentrada sobretudo no Alentejo.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "O debate televisivo entre os candidatos à presidência da câmara está agendado para as vinte e uma horas de quinta-feira.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Portugal registou no último ano um aumento significativo no número de patentes internacionais, sinal de que a inovação está a ganhar força.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A recuperação do antigo mercado de Leiria criou um espaço agradável onde convivem a gastronomia local e o artesanato da região.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A nova linha de comboio regional entre Coimbra e Viseu veio melhorar significativamente a mobilidade no centro do país.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O programa de mentoria para jovens empreendedores tem tido bons resultados e já ajudou a criar mais de cinquenta novas empresas.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A qualidade da água nas praias portuguesas melhorou consideravelmente, com noventa e sete por cento a obter classificação excelente.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A vindima deste ano foi excecional. Os produtores do Douro estão entusiasmados com a qualidade das uvas e antecipam um grande vinho.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A reabertura do Teatro Rivoli após a requalificação foi um momento de enorme alegria para a cidade do Porto. Uma sala deslumbrante que voltou a brilhar.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O trabalho dos voluntários durante as cheias foi absolutamente heroico. Centenas de pessoas salvaram vidas e reconstruíram comunidades com uma generosidade admirável.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "A cozinheira portuguesa venceu o prestigiado concurso internacional de gastronomia, provando ao mundo a excelência da nossa tradição culinária.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "O projeto de energia solar comunitária em Moura é um sucesso absoluto. Reduziu as faturas das famílias em sessenta por cento e tornou-se modelo para toda a Europa.",
+      "expected_sentiment": "POSITIVE"
+    }
+  ]
+}

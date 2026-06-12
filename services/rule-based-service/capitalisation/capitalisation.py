@@ -13,7 +13,7 @@ def analyse(text: str) -> list[BiasIndicatorResult]:
         start_pos = match.start()
         end_pos = match.end()
 
-        if len(phrase) < 5:
+        if len(phrase) < 25:
             continue
         
         results.append(

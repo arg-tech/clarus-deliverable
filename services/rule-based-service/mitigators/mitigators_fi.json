@@ -1,31 +1,22 @@
 {
   "Degree_Modifiers": [
     "jonkin verran",
-    "hieman",
-    "vähän",
     "pikkaisen",
     "melko",
     "suhteellisen",
     "kohtuullisen",
     "kohtalaisen",
-    "lievästi",
     "minimaalinen",
     "marginaalisesti",
     "tuskin",
     "hädin tuskin",
     "juuri ja juuri",
-    "jossain määrin",
     "tietyssä määrin",
     "rajoitetusti"
   ],
   "Approximators": [
-    "melkein",
-    "lähes",
     "käytännössä",
     "periaatteessa",
-    "karkeasti",
-    "suunnilleen",
-    "noin",
     "plus miinus",
     "enemmän tai vähemmän"
   ],
@@ -42,8 +33,6 @@
     "kiistatta"
   ],
   "Limiters": [
-    "osittain",
-    "osaksi",
     "suurimmaksi osaksi",
     "tiettyyn pisteeseen asti",
     "ei täysin",
@@ -54,18 +43,12 @@
   "Tendency_Mitigators": [
     "yleensä",
     "tavallisesti",
-    "taipuvainen",
-    "altis",
-    "todennäköisesti",
     "näyttää siltä että",
     "vaikuttaa siltä että",
     "tuntuu että",
     "todennäköisemmin kuin ei"
   ],
   "Minimizers": [
-    "vain",
-    "ainoastaan",
-    "pelkästään",
     "ei muuta kuin",
     "ei enempää kuin",
     "korkeintaan",
@@ -73,20 +56,9 @@
     "vähän enemmän kuin"
   ],
   "Modal_Verbs": [
-    "voisi",
-    "saattaisi",
-    "ehkä",
-    "mahdollisesti",
-    "kenties",
-    "pitäisi",
-    "tulisi"
+    "saattaisi"
   ],
   "Modal_Adverbs": [
-    "mahdollisesti",
-    "todennäköisesti",
-    "ehkä",
-    "kenties",
-    "luultavasti",
     "käsittääkseni",
     "oletettavasti",
     "ilmeisesti",
@@ -94,7 +66,6 @@
     "väitetysti",
     "kiistatta",
     "näyttää siltä",
-    "saattaa olla",
     "näyttää viittaavan"
   ],
   "Politeness_Mitigators": [

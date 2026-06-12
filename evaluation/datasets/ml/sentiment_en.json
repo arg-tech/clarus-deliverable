@@ -1,0 +1,494 @@
+{
+  "indicator": "sentiment",
+  "language": "en",
+  "samples": [
+    {
+      "text": "This product is absolute garbage. It broke after only one use, and the customer service was completely unhelpful. I'm furious!",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I can't believe they canceled my favorite show! It was the only thing I looked forward to each week. This is just awful news.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The food was okay, but the service was incredibly slow. I probably won't be returning anytime soon.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I'm a little disappointed with the outcome. I had higher hopes for this project.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The meeting is scheduled for Tuesday at 10 AM in the conference room.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "According to the report, sales increased by 2% last quarter.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "I enjoyed the movie, especially the soundtrack. It was a nice way to spend the evening.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The team worked hard and delivered a solid presentation. I'm pleased with their progress.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This is the best day ever! I finally got the job I've always wanted. I'm so incredibly happy!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The concert was absolutely amazing! The band sounded incredible, and the energy was electric. A truly unforgettable experience!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This product is a complete disaster. It broke after only one use and the customer support was unhelpful. I'm extremely disappointed.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I am absolutely disgusted by the blatant corruption exposed in this report. Heads should roll.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The service was slow and the food was cold. Not a pleasant experience.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I'm a bit concerned about the rising interest rates. It might affect my plans.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The meeting is scheduled for Tuesday at 10 AM in the conference room.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "The company released its quarterly earnings report today.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "I enjoyed the movie; it was a fun way to spend the evening.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The team performed well and achieved their goals this quarter.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This is the most incredible experience of my life! I'm so grateful.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I'm overjoyed with the results! This is a dream come true!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This product is absolutely horrendous. It broke after only one use and the customer service was completely unhelpful.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I am beyond furious with this airline. They lost my luggage and offered no assistance whatsoever. Never flying with them again!",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The food was bland and overpriced. Overall, a disappointing experience.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I'm concerned about the recent rise in unemployment. It's a worrying trend.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The meeting is scheduled for Tuesday at 2 PM in the conference room.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "According to the report, sales figures remained steady compared to the previous quarter. There were no major fluctuations.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "I'm really happy with the new update! It's made the app much more user-friendly.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The team is showing promising results. They are making progress on the project and on track for success.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This is the best day ever! I got the promotion and my family is coming to visit. Everything is perfect!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I am absolutely thrilled with my new car! It's everything I've ever wanted and more. The ride is so smooth and comfortable.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I am absolutely disgusted by the politician's blatant corruption. This is a complete betrayal of public trust and I feel very angry.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The customer service was atrocious. I waited on hold for hours and they were incredibly rude and unhelpful. Never buying from them again.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The movie was okay, but the plot was predictable and the acting was uninspired. I expected more from this director.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The new phone has some glitches and the battery life is shorter than advertised. A bit disappointing.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The company announced its quarterly earnings today. Revenue was up 5% and profit margins remained stable.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "The weather forecast predicts sunny skies for the weekend. Temperatures will be in the mid-70s.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "I enjoyed the concert last night. The band played well and the atmosphere was fun.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I am really looking forward to my vacation next week. I need a break from work!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This is the best cake I've ever tasted! The flavors are incredible and the texture is perfect. I am in heaven!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I'm so thrilled to announce that I got the job! This is a dream come true and I can't wait to start!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This product is utterly useless. It broke within a day of use and customer support was unhelpful.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I'm beyond furious about this airline's service. They lost my luggage and offered no compensation. I will NEVER fly with them again!",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The food was bland and overpriced. I wouldn't recommend this restaurant.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I was disappointed with the movie. The plot was confusing and the acting was mediocre.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The meeting will be held on Tuesday at 2 PM in the conference room. Attendees are asked to RSVP by Monday.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "The company released its quarterly earnings report today. Revenue was up 5% compared to the previous quarter.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "I enjoyed the book. The characters were well-developed and the plot was engaging.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The weather is beautiful today! I'm looking forward to spending time outside.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This is absolutely the best day of my life! I just got accepted into my dream school!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I am overjoyed with this purchase! The quality is outstanding and it exceeded all my expectations. I am beyond happy!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This product is an absolute disaster. It broke after only one use, and customer service was completely unhelpful.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I am utterly disgusted by the politician's recent comments. It's a new low.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The service was slow, and the food was bland. Overall, a disappointing experience.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I'm concerned about the recent increase in crime in our neighborhood. Something needs to be done.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The meeting will be held on Tuesday at 2 PM in conference room B.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "According to the report, sales figures remained stable this quarter.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "I'm really happy with my new phone. The camera is amazing!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The team showed great resilience and managed to secure the win. Well done!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I'm absolutely thrilled with the news! This is a dream come true!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The concert was phenomenal! The band's energy was contagious, and the crowd was electric. I can't wait to see them again!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This product is utterly useless. It broke within an hour of use, and customer support was unhelpful.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The new policy is a complete disaster. Morale is at an all-time low, and productivity has plummeted.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I was expecting so much more from this restaurant. The food was bland, and the service was slow.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The movie was okay, but it dragged on for too long. I think it could have been edited down quite a bit.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The meeting is scheduled for Tuesday at 10 AM in the conference room.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "The company released its quarterly earnings report today, showing a slight increase in revenue.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "I'm really looking forward to the concert next week! I've heard great things about the band.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The team did a great job on the presentation. Everyone was engaged and asked thoughtful questions.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This is absolutely the best day ever! I got the job offer and won the lottery!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I am overjoyed with the results of the experiment! A truly groundbreaking discovery!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This product is absolute garbage. It broke after only one use, and the customer service was completely unhelpful.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I am utterly disgusted by the company's unethical practices. Their behavior is reprehensible and should be condemned.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The food was bland and overpriced, and the service was slow. I wouldn't recommend this restaurant to anyone.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I'm a bit disappointed with the new update. It introduces a few new bugs, and some of my favorite features have been removed.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The meeting will be held on Tuesday at 10:00 AM in the conference room. Attendance is mandatory for all team members.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "According to the report, the company's revenue increased by 5% in the last quarter. This is attributed to new marketing strategies.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "I'm really happy with my new phone! The camera is great, and the battery lasts all day.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The team did a great job on the project! Everyone contributed valuable ideas, and we finished ahead of schedule.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I am absolutely thrilled with my recent promotion! This is a dream come true, and I can't wait to start the new role.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This is the most amazing experience of my life! I'm so grateful for this opportunity and will cherish these memories forever.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This product is a complete disaster. It broke within a day and the customer service was utterly unhelpful. I'm furious!",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I can't believe they cancelled my favorite show! Years of investment, gone in a single announcement. This is just awful.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The food was mediocre and overpriced. The service was slow, and the atmosphere was lacking. Overall, a disappointing experience.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I'm concerned about the recent changes to the company's policy. It might negatively impact employee morale and productivity.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The meeting is scheduled for Tuesday at 10 AM in the conference room. Please arrive on time.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "The company released its quarterly earnings report today, showing a slight increase in revenue compared to last year.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "I'm so glad I decided to try this new restaurant! The food was delicious, and the service was excellent. I'll definitely be back.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The team did a great job on the project. Their hard work and dedication really paid off. I'm proud of their accomplishments.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I'm absolutely thrilled with my new car! It's everything I've ever wanted and more. Driving it is an absolute joy!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This is the best day ever! I got the job I wanted, and my family is coming to visit. I couldn't be happier!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This product is absolute garbage. It broke after only one use, and the customer service was completely unhelpful. I'm incredibly disappointed and would never recommend it to anyone.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The company's earnings report was a complete disaster. They missed expectations by a mile, and the CEO's explanation was utterly unconvincing. Investors arePanicking.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I was expecting much more from this movie. The plot was convoluted, and the acting was subpar. A definite letdown.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The new policy changes are concerning. I understand the need for adjustments, but these changes feel unfair to long-term employees.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The meeting will be held on Tuesday at 10:00 AM in the conference room. Please bring all relevant documents.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "According to the latest weather forecast, the temperature will be around 70 degrees Fahrenheit with partly cloudy skies.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "I had a pretty good day today. Got a lot done at work and enjoyed a nice walk in the park.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The restaurant had a great atmosphere, and the food was delicious. I would definitely go back again!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I'm absolutely thrilled about the news! Getting this promotion is a dream come true, and I can't wait to start this new chapter. This is amazing!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The concert was absolutely incredible! The band played all their best hits, and the energy in the crowd was electric. Best night ever!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Oh great, another meeting that could have been an email. Just what I needed today.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "What a surprise, the train is late again. Who could have possibly predicted that?",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The presentation was good, considering how little time you had to prepare.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "The hotel room was beautiful but the service was terrible and the food was mediocre at best.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I love my job but hate my commute. The work is fulfilling even though the hours are brutal.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "The movie had amazing special effects but the plot was confusing and the ending was disappointing.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The results were not entirely what we had hoped for.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The project is progressing, though not at the pace we initially anticipated.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "It wasn't bad, actually.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Things are looking up, I think.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I'm not sure if I like it or not. It has its moments, but also some issues.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "It might work out, but I have my doubts about the long-term viability.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "It is what it is. Nothing I can do about it now.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Thank you for your effort, but this isn't quite what we were looking for.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I appreciate the thought, however I don't think this solution will work for us.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "With all due respect, I disagree with the proposed approach.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The report was adequate. It met the minimum requirements.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Your work is acceptable.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "It's fine, I guess.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Can you believe how lucky we are?",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This is better than last time, but still not great.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "At least it's not as bad as the previous version.",
+      "expected_sentiment": "NEUTRAL"
+    }
+  ]
+}

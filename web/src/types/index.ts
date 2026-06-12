@@ -32,6 +32,11 @@ export interface BiasIndicator extends RawBiasIndicator {
    * visible in the editor, but is still kept in the list for reference.
    */
   outdated?: boolean;
+  /**
+   * Indicates that the indicator belongs to a category the user has disabled.
+   * Disabled indicators remain visible, but are treated as inactive.
+   */
+  categoryDisabled?: boolean;
 }
 
 /**

@@ -22,10 +22,7 @@
     "perfect storm(s)?",
     "rain(s|ed|ing)? down|rained down",
     "seismic shift(s)?",
-    "shatter(s|ed|ing|ing)?|shattered",
-    "shockwave(s)?",
-    "tsunami(s)?",
-    "volcanic(s|ally)?"
+    "tsunami(s)?"
   ],
   "social_or_cultural_critique": [
     "corrupt(s|ed|ing|ion|ions|ive|ives)?",

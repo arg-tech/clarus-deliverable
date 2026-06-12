@@ -1,31 +1,133 @@
 :root {
-  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;*/
-  font-family: Roboto, sans-serif;
+  font-family: 'DM Sans', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--text-primary);
+  background-color: var(--bg-deep);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Dark theme (default) */
+  --bg-deep: #1a1b23;
+  --bg-surface: #22232e;
+  --bg-elevated: #2a2b38;
+  --accent: #00454F;
+  --accent-hover: #5C7F98;
+  --accent-glow: rgba(0, 69, 79, 0.15);
+  --text-primary: rgba(255, 255, 255, 0.92);
+  --text-secondary: rgba(255, 255, 255, 0.55);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+
+  /* Component-level theme tokens */
+  --card-bias-bg: #5C7F98;
+  --card-bias-text: white;
+  --card-lexicon-bg: #5C7F98;
+  --card-lexicon-text: white;
+  --group-header-bg: #00454F;
+  --group-header-hover: #003a42;
+  --tabs-border: rgba(255, 255, 255, 0.1);
+  --popup-border-bias: #ff9800;
+  --popup-header-bias: linear-gradient(135deg, #ff9800, #f57c00);
+  --popup-border-lexicon: #5C7F98;
+  --popup-header-lexicon: linear-gradient(135deg, #00454F, #003a42);
+  --popup-btn-border: rgba(255, 255, 255, 0.2);
+  --popup-btn-bg: rgba(255, 255, 255, 0.06);
+  --popup-dismiss-color: #ef6c57;
+  --popup-ignore-color: #64b5f6;
+  --btn-bg: #1a1a1a;
+  --sentiment-chart-bg: #2f3142;
+
+  /* Bias highlight tokens */
+  --bias-underline: #ffb74d;
+  --bias-underline-thickness: 1.5px;
+  --bias-marker-bg: #ff9800;
+  --bias-marker-text: #1a1b23;
+  --bias-marker-hover-bg: #fff826;
+  --bias-sentence-bg: rgba(255, 152, 0, 0.22);
+  --bias-card-highlight-border: #ffb74d;
+  --bias-card-highlight-shadow: rgba(255, 152, 0, 0.3);
+  --bias-popup-phrase-bg: rgba(255, 152, 0, 0.18);
+  --bias-popup-phrase-text: #ffb74d;
+  --bias-popup-label-color: #ff9800;
+  --bias-popup-fix-bg: rgba(186, 104, 200, 0.16);
+  --bias-popup-fix-border: #ba68c8;
+  --bias-popup-fix-label: #d1a6ff;
+  --bias-popup-fix-text: #f1ddff;
+  --lexicon-popup-phrase-bg: rgba(92, 127, 152, 0.18);
+  --lexicon-popup-phrase-text: #d4e6ee;
+  --lexicon-popup-phrase-border: #7fa4b8;
+  --lexicon-popup-label-color: #7fa4b8;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+
+  --bg-deep: #f5f5f0;
+  --bg-surface: #ffffff;
+  --bg-elevated: #EEF4DE;
+  --accent: #00454F;
+  --accent-hover: #003a42;
+  --accent-glow: rgba(0, 69, 79, 0.1);
+  --text-primary: #00151F;
+  --text-secondary: #5C7F98;
+  --border-subtle: rgba(0, 21, 31, 0.12);
+  --sentiment-chart-bg: #f0f4f8;
+
+  --card-bias-bg: #e0eff5;
+  --card-bias-text: #00151F;
+  --card-lexicon-bg: #EEF4DE;
+  --card-lexicon-text: #00151F;
+  --group-header-bg: #5C7F98;
+  --group-header-hover: #4a6d84;
+  --tabs-border: rgba(0, 21, 31, 0.12);
+  --popup-border-bias: #00454F;
+  --popup-header-bias: linear-gradient(135deg, #00454F, #003a42);
+  --popup-border-lexicon: #5C7F98;
+  --popup-header-lexicon: linear-gradient(135deg, #5C7F98, #4a6d84);
+  --popup-btn-border: #e0e0e0;
+  --popup-btn-bg: rgba(0, 0, 0, 0.05);
+  --popup-dismiss-color: #d84315;
+  --popup-ignore-color: #1565c0;
+  --btn-bg: #ffffff;
+
+  /* Bias highlight tokens */
+  --bias-underline: #e65100;
+  --bias-marker-bg: #e65100;
+  --bias-marker-text: #ffffff;
+  --bias-marker-hover-bg: #bf360c;
+  --bias-sentence-bg: rgba(230, 81, 0, 0.15);
+  --bias-card-highlight-border: #e65100;
+  --bias-card-highlight-shadow: rgba(230, 81, 0, 0.25);
+  --bias-popup-phrase-bg: #fff3e0;
+  --bias-popup-phrase-text: #e65100;
+  --bias-popup-label-color: #d84315;
+  --bias-popup-fix-bg: #f3e5f5;
+  --bias-popup-fix-border: #9c27b0;
+  --bias-popup-fix-label: #6a1b9a;
+  --bias-popup-fix-text: #4a148c;
+  --lexicon-popup-phrase-bg: #e0eff5;
+  --lexicon-popup-phrase-text: #00454F;
+  --lexicon-popup-phrase-border: #5C7F98;
+  --lexicon-popup-label-color: #00454F;
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #00454F;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #5C7F98;
 }
 
 body {
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 h1 {
@@ -40,10 +142,10 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--btn-bg);
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #00454F;
 }

@@ -1,0 +1,482 @@
+{
+  "indicator": "sentiment",
+  "language": "cs",
+  "samples": [
+    {
+      "text": "To byla taková nesnesitelně utahaná nesmyslná ptákovina, že nemůžu dát ani hvězdu za Gemmu Arterton, které to opravdu sešlo.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "S klidem mohu prohlásit, že tohle je nejhorší něco jako film, co jsem kdy viděl. A to jsem to naštěstí neviděl celý.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Neoriginální a klišovitý příběh plný neuvěřitelných postav a trapných scén, které spějí k vpravdě děsivému happyendu.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Naprostá ubožárna! Člověka až zaráží, co všechno je možné u nás natočit a k čemu se naši herci dokáží propůjčit.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Fantasy velkofilm podle Uwe Bolla. Nechutné, nesmyslné a nudné. Škoda herců, kteří se pro tohle upsali.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Pitomost plná hloupostí, kde se dějí další hloupé pitomosti aby se vůbec něco dělo. To hodnocení tady je fakt vtip.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Situace v nemocnici Na Bulovce je naprosto katastrofální. Pacienti leží na chodbách, personál je zcela vyčerpaný a vedení nemocnice celou krizi totálně ignoruje.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Je naprosto nepřijatelné, že v Ostravě stále dýcháme jedovatý vzduch a zodpovědné úřady s tím odmítají cokoli dělat. Lidé tu doslova umírají.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Vláda svým rozhodnutím o škrtech ve školství zcela zničila naděje tisíců studentů na kvalitní vzdělání. Je to absolutní zrada na budoucí generaci.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Ten výrobek je naprostý podvod. Po dvou dnech se rozpadl a zákaznická linka mě odmítla i vyslechnout. Nikdy více tuto značku.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Kauza kolem Dozimetru ukázala tu nejodpornější tvář české politiky. Korupce na všech úrovních a absolutní pohrdání občany.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Záchranná služba v Ústeckém kraji je v rozkladu. Sanitky přijíždějí pozdě, chybí lékaři a kraj se tváří, jako by se nic nedělo.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Stav silnic na Vysočině je tragický. Místo oprav se jen lepí díry a po zimě jsou cesty znovu nesjízdné. Vyhozené miliardy.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Restaurace U Modré hvězdy v Karlíně byla naprosté zklamání. Studené jídlo, arogantní obsluha a ceny naprosto neodpovídající kvalitě.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Plzeňský Prazdroj oznámil další zdražení piva, což vyvolalo vlnu nevole mezi hospodskými i zákazníky po celém Česku.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Povodně na Moravě odhalily naprosté selhání protipovodňové ochrany. Obce zůstaly bez pomoci celé dny a škody jdou do miliard.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Projekt vysokorychlostní tratě Praha–Brno se opět odkládá a rozpočet narostl o dalších deset miliard. Další fiasko české infrastruktury.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Hokejový svaz totálně nezvládl organizaci mistrovství. Fronty na vstupenky, chaos v dopravě a fanoušci z celého světa odcházeli znechucení.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Tento díl se mi vůbec nelíbil. Kvalita šla výrazně dolů převážně od druhé půlky filmu a závěr byl slabý.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Robert De Niro už hrál v lepších počinech. Tohle mělo navíc hodně chabý scénář i ostatní herecké výkony.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Takový hrozně divný a nevýrazný snímek o nevýrazném chlapíkovi. Milovníci Beatles si pravděpodobně užijí, jejich písně zaznějí počtvrté.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Tolik slibných jmen, a výsledkem 90 minut nudy. Netušil jsem, že hodinky můžou jít tak pomalu.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Jako sranda to nevyšlo a jako něco vážnějšího, na to to bylo amatérsky zahraný a použitý levný triky.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Odklon od zavedené šablony nevyšel, protože nepřináší nic zábavného ani děsivého. V závěru obchází s náznaky lehký mráz po zádech, ale to je málo.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Výsledky hospodaření České pošty za poslední čtvrtletí jsou zklamáním. Ztráta se prohloubila a plánovaná modernizace se opět odkládá.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Kvalita MHD v Brně se poslední dobou zhoršuje. Tramvaje chodí nepravidelně a v zimě nefunguje vytápění ve vozech.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Reforma důchodového systému zklamala většinu seniorů. Slibované navýšení je v praxi minimální a nepokryje ani růst cen potravin.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Konference o umělé inteligenci na ČVUT byla poněkud rozpačitá. Řečníci opakovali známé věci a diskuse se nikam neposunula.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Hotel ve Špindlerově Mlýně neodpovídal popisu. Pokoj byl zastaralý, snídaně průměrná a za tu cenu jsem čekal podstatně víc.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Sklizeň chmele na Žatecku byla letos podprůměrná kvůli jarním mrazům. Pěstitelé hlásí ztráty kolem třiceti procent.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Čekací doby u praktických lékařů v Praze se prodlužují. Na běžné vyšetření se objednáváte i tři týdny dopředu, což je neúnosné.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "České dráhy opět zvýšily ceny jízdného, přestože vlaky jezdí se zpožděním a komfort cestování se nezlepšil.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Výstavba nového bytového komplexu v Dejvicích narušuje život místních obyvatel. Hluk ze stavby trvá od rána do večera už šestý měsíc.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Letošní ročník festivalu Colours of Ostrava přinesl několik zklamání. Hlavní scéna měla technické problémy a organizace parkování nefungovala.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Obchod s elektronikou na Národní třídě má stále horší nabídku a vyšší ceny než konkurence. Nevím, proč tam ještě někdo chodí.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Čeští fotbalisté prohráli kvalifikační zápas, který měli jednoznačně zvládnout. Výkon byl bez nápadu a obrana dělala zbytečné chyby.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Propad koruny vůči euru znepokojuje české exportéry, kteří varují před ztrátou konkurenceschopnosti na evropských trzích.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Studenti právnické fakulty si stěžují na zastaralé osnovy, které nereflektují aktuální judikaturu a současnou praxi.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Nezaměstnanost v Moravskoslezském kraji zůstává nejvyšší v republice a místní úřady práce nestíhají zpracovávat žádosti.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Rád bych někam na Kofolu zašel, ale už to není takový božský nápoj jako dřív.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Slušná zábava, kde nic není odfláklé, ale taky nic, co by to povyšovalo nad průměr.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Na film jsem se hodně těšil, ale mám takový pocit, že vše nejlepší bylo už v traileru. Zbytek se tak nějak vlekl.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Milé malé sci-fi. Nemá to takovou ambici jako Vesmírná odysea nebo Solaris, ale je to velmi poctivá žánrová práce s příjemnou atmosférou.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "První polovina byla super, ale potom už se to sypalo. Celkově průměrný zážitek, který ani neurazí, ani nenadchne.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Slabé na některých místech, až příliš nudné. Jediné, co to udržuje, je skvělé obsazení, ale to na kvalitní výsledek nestačí.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Film má vysokou úroveň a téma je aktuální. Herecké výkony jsou skvělé, ale něco tomu prostě chybělo. Přemýšlím co.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Český statistický úřad zveřejnil data o inflaci za únor. Meziroční růst spotřebitelských cen dosáhl tří procent.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Poslanecká sněmovna dnes projednává novelu zákona o veřejném zdravotním pojištění. Hlasování se očekává v pátek.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Podle údajů ČSÚ se v loňském roce narodilo v České republice sto osm tisíc dětí, což je mírný nárůst oproti předchozímu roku.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Ministerstvo dopravy oznámilo uzavírku dálnice D1 mezi Humpolcem a Větrným Jeníkovem v obou směrech od pátku do neděle.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Pražská integrovaná doprava rozšiřuje od září novou autobusovou linku, která spojí Zličín s letištěm Václava Havla.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "ČVUT otevírá nový studijní program zaměřený na kybernetickou bezpečnost. Přijímací zkoušky se konají v červnu.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Brněnský magistrát schválil rozpočet na příští rok. Největší položkou jsou investice do oprav komunikací a veřejného osvětlení.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Průměrná mzda v Česku vzrostla meziročně o šest procent a dosáhla čtyřiceti tří tisíc korun. Reálně však kvůli inflaci stagnuje.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Národní galerie v Praze otevírá novou stálou expozici českého kubismu ve Schwarzenberském paláci. Vstupné je dvě stě korun.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Meteorologové hlásí na tento víkend teploty kolem pětadvaceti stupňů s občasnou oblačností. Na horách lze očekávat odpolední bouřky.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Objem zahraničního obchodu České republiky vzrostl ve třetím čtvrtletí o čtyři procenta. Hlavním partnerem zůstává Německo.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Sčítání lidu ukázalo, že v Praze žije přes jeden milion tři sta tisíc obyvatel. Populace hlavního města roste především díky migraci z regionů.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Nová pobočka České národní banky v Ostravě zahájila provoz v pondělí. Nabízí standardní služby včetně výměny poškozených bankovek.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Senát vrátil zákon o ochraně ovzduší zpět do Sněmovny s pozměňovacími návrhy. Poslanci o něm budou znovu hlasovat příští týden.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Karlovarský filmový festival letos přijal do soutěžní sekce dvanáct snímků z devíti zemí. Slavnostní zahájení proběhne v pátek večer.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Univerzita Karlova přijala letos rekordní počet zahraničních studentů. Nejvíce jich přijelo ze Slovenska, Ukrajiny a Německa.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Energetický regulační úřad zveřejnil nové tarify za distribuci elektřiny. Změny se dotknou domácností i podnikatelů od ledna.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Velice příjemný film. Ukazuje válku ne jako akční podívanou, ale jako příběh lidí, kteří v ní přímo bojují.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Nadprůměrná akční záležitost se skvělým Schwarzeneggerem v hlavní roli. Dost možná nejlepší akční sci-fi za poslední roky.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Já bych to tak nekritizovala. Je to celkem zajímavé a zábavné. Mě to prostě bavilo a ráda se na to podívám znovu.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Jo, hodně dobrá záležitost, nečekal bych, že něco jako tohle by mě mohlo kdy bavit.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Knižní předlohu jsem bohužel nečetl, ale film mě mile překvapil. Nabídl víc, než jsem čekal.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Samotný scénář je sice jednodušší, ale jako ukázka z doby komunismu s reálnými prostřihy ze zpráv je to super.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Místní pivo a svíčková v té hospůdce nemá chybu, takže koleno bude určitě taky pohádka. Už se těším.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Nová cyklostezka podél Vltavy z Prahy do Mělníka je povedená. Krásné výhledy, dobře značená trasa a občerstvení po cestě.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Knihovna Václava Havla v Praze nabízí příjemné prostředí ke studiu a pravidelně pořádá zajímavé besedy s českými autory.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Rekonstrukce nádraží v Pardubicích dopadla dobře. Nové prostory jsou světlé, čisté a konečně odpovídají standardům jednadvacátého století.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Česká firma Prusa Research slaví úspěch na světovém trhu s 3D tiskárnami. Jejich produkty získávají pozitivní recenze po celém světě.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Lékařská fakulta v Olomouci získala prestižní mezinárodní akreditaci, která potvrzuje vysokou úroveň výuky i výzkumu.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Babiččino údolí u České Skalice je krásné místo na výlet. Udržované cesty, informační tabule a příjemná atmosféra celého údolí.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Městská tržnice v Brně na Zelném trhu nabízí čerstvé regionální produkty za rozumné ceny. Chodím tam každou sobotu.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Nový pavilon ZOO Praha pro gorily je opravdu vydařený. Zvířata mají dostatek prostoru a návštěvníci skvělý výhled.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Penzion v Českém Krumlově, kde jsme bydleli, byl čistý, útulný a paní majitelka nám ochotně poradila s výlety do okolí.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Jihočeské divadlo v Českých Budějovicích letos překvapilo kvalitní inscenací Čapkovy RUR. Herci podali přesvědčivé výkony.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Škoda Auto zaznamenala v posledním čtvrtletí solidní růst prodejů v Evropě. Především nový model Enyaq si vede dobře.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Výuka informatiky na základních školách se díky novému rámcovému programu konečně posouvá od pouhé práce s Wordem k algoritmickému myšlení.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Nové koupaliště v Letňanech je příjemně řešené. Čistá voda, dostatek stínu a slušné zázemí za rozumné vstupné.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Krásný film, který má úplně všechno! Je to tak originální a poutavé, že byste ani neřekli, že má tři hodiny.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Vynikající snímek, brilantně natočený. Režisér se s divákem nijak nemazlí a servíruje své dílo pěkně syrově. Herecké výkony jsou na špičkové úrovni.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Film, který jsem si zamilovala a můžu na něj koukat stále dokola. Nádherné scény, nádherné situace, veselé i smutné.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Jedna z nejlepších rolí Nicolase Cage. Rád se koukám na příběhy inspirované realitou a přesvědčivě natočené.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Úžasní herci, prostředí a atmosféra. Hororová pohádka mě prostě dostala. Ještě bych vyzdvihl práci skvělého kameramana.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Jedinečné. Scénář tak propracovaný, že filmy s údajně vysokým počtem rovin jako Inception či Memento se mu nemohou rovnat.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Hodně příjemný film, na kterém je vidět, že i tři herci bohatě stačí zaplnit devadesát minut. Skvělé dialogy a atmosféra.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Česká věda slaví mimořádný úspěch. Tým z Akademie věd vyvinul novou metodu léčby rakoviny, která má potenciál zachránit tisíce životů ročně.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Karlovy Vary nás naprosto okouzlily. Kolonáda, lázeňské oplatky, procházky po okolních lesích — prostě dokonalý víkend, na který budeme dlouho vzpomínat.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Koncert České filharmonie v Rudolfinu byl nezapomenutelný zážitek. Dvořákova Novosvětská v jejich podání doslova brala dech.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Sparta konečně vyhrála skupinu Ligy mistrů! Fantastický výkon celého týmu, stadion burácil nadšením a celá Praha slavila do rána.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Restaurace Eska v Karlíně je absolutní špička české gastronomie. Kreativní menu, perfektní servis a atmosféra, která vás pohltí od první chvíle.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Nová budova Národní technické knihovny v Dejvicích je architektonický skvost. Krásné prostory, moderní vybavení a inspirativní prostředí pro studenty.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Olympijské zlato Ester Ledecké je naprostý fenomén! Vyhrát dvě disciplíny na jedné olympiádě se podaří jednou za generaci.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Český startup Rohlik.cz expanduje úspěšně do celé Evropy a dokazuje, že české inovace mohou konkurovat i těm největším hráčům na trhu.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Pivovar Matuška v Broumy vaří naprosto famózní piva. Jejich Apollo je jedno z nejlepších IPA, jaké jsem kdy ochutnal. Absolutní třída.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Letošní ročník Pražského jara překonal veškerá očekávání. Špičkoví interpreti, skvělá dramaturgie a vyprodané sály — česká kultura na světové úrovni.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Výzkumníci z Masarykovy univerzity získali rekordní grant od Evropské komise na projekt v oblasti kvantových technologií. Obrovský úspěch pro českou vědu.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Akvapark v Čestlicích je skvělý na celý den s rodinou. Děti byly nadšené, tobogány perfektní a personál příjemný. Určitě se vrátíme.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Domov důchodců v Přerově čelí vážným výtkám inspekce. Nedostatečná péče o klienty a porušování hygienických norem jsou jen špičkou ledovce.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Ovzduší v Ostravě je podle měření nejhorší za posledních deset let. Limity pro polétavý prach jsou překračovány prakticky denně.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Nájemné v Praze rostlo letos rychleji než příjmy a mnoho rodin je nuceno stěhovat se na periferii. Bydlení se stává nedostupným luxusem.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Letní tábor pro děti v Posázaví měl mizernou organizaci. Vedoucí nebyli proškoleni a program se neustále měnil bez vysvětlení.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Oprava Barrandovského mostu se táhne už třetí rok a způsobuje každodenní kolony. Řidiči jsou z nekonečných objížděk stále více frustrovaní.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Nová aplikace pro jízdní řády je nepřehledná a často padá. Uživatelé si stěžují, že starší verze fungovala podstatně lépe.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Pekárna na rohu v Žižkově zavřela po čtyřiceti letech. Místní jsou smutní, nahradí ji další pobočka řetězce s rychlým občerstvením.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Dovolená na Šumavě nás trochu zklamala. Ubytování bylo v pořádku, ale většina turistických stezek byla kvůli kůrovci uzavřená.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Volby do krajských zastupitelstev se budou konat v říjnu. Kandidátní listiny musí strany podat do konce srpna.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Plzeňský kraj plánuje vybudovat nový sběrný dvůr v Klatovech. Stavba by měla začít na jaře příštího roku.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Česká správa sociálního zabezpečení zpracovala loni přes dva miliony žádostí o důchod. Průměrná doba vyřízení činila šedesát dní.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Město Tábor připravuje rekonstrukci hlavního náměstí. Součástí projektu je nová zeleň, lavičky a úprava povrchů pro bezbariérový přístup.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Zemědělci na jižní Moravě letos zaseli rekordní plochu slunečnic. Výnosy budou záviset na srážkách v červenci a srpnu.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Kavárna v centru Olomouce nabízí solidní espresso a klidné prostředí. Nic výjimečného, ale na pracovní schůzku naprosto vyhovující.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Zimní stadion v Litvínově prošel modernizací a nyní splňuje mezinárodní standardy. Fanoušci si pochvalují zejména nové sedačky a lepší výhled.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Zahradnictví u Třeboně má výborný výběr ovocných stromků za slušné ceny. Poradili nám s výběrem i výsadbou, velmi příjemná zkušenost.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Reprezentantka Barbora Krejčíková postoupila do finále a hrála skvěle. Celý zápas držela soupeřku pod tlakem a zaslouženě vyhrála.",
+      "expected_sentiment": "POSITIVE"
+    }
+  ]
+}

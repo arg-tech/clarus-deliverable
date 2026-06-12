@@ -185,7 +185,7 @@ export const BiasDecorations = Extension.create<BiasHighlightOptions, BiasHighli
       
       // Create an array of all indicators with their indices, filtering out outdated indicators
       const allIndicators = indicators
-        .filter(indicator => !indicator.outdated) // Only show active indicators in the editor
+        .filter(indicator => !indicator.outdated && !indicator.categoryDisabled)
         .map((indicator, index) => ({
           indicator,
           index

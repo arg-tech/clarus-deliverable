@@ -5,13 +5,6 @@
       "jokin verran"
     ],
     [
-      "hieman"
-    ],
-    [
-      "vähän",
-      "vähä"
-    ],
-    [
       "pikkainen"
     ],
     [
@@ -25,9 +18,6 @@
     ],
     [
       "kohtalainen"
-    ],
-    [
-      "lievästi"
     ],
     [
       "minimaalinen"
@@ -64,29 +54,12 @@
   ],
   "Approximators": [
     [
-      "melkein"
-    ],
-    [
-      "lähes"
-    ],
-    [
       "käytäntö"
     ],
     [
       "periaate",
       "peri-",
       "periaatteessa"
-    ],
-    [
-      "karkeasti"
-    ],
-    [
-      "suunnilleen"
-    ],
-    [
-      "noin",
-      "noki",
-      "nuo"
     ],
     [
       "plus miinus"
@@ -155,13 +128,6 @@
   ],
   "Limiters": [
     [
-      "osittain"
-    ],
-    [
-      "osa",
-      "osaksi"
-    ],
-    [
       "suuri osaksi",
       "suuri osa"
     ],
@@ -199,16 +165,6 @@
       "tavallinen"
     ],
     [
-      "taipua",
-      "taipuvainen"
-    ],
-    [
-      "altis"
-    ],
-    [
-      "todennäköisesti"
-    ],
-    [
       "näyttää se että"
     ],
     [
@@ -227,18 +183,6 @@
     ]
   ],
   "Minimizers": [
-    [
-      "vain",
-      "vai"
-    ],
-    [
-      "ainoastaan",
-      "ainoa"
-    ],
-    [
-      "pelkkä",
-      "pelkästään"
-    ],
     [
       "ei muuttaa kuin",
       "ei muuttaa kui",
@@ -285,16 +229,6 @@
       "saattaa"
     ],
     [
-      "ehkä"
-    ],
-    [
-      "mahdollisesti",
-      "mahdollinen"
-    ],
-    [
-      "kenties"
-    ],
-    [
       "pitää"
     ],
     [
@@ -302,22 +236,6 @@
     ]
   ],
   "Modal_Adverbs": [
-    [
-      "mahdollisesti",
-      "mahdollinen"
-    ],
-    [
-      "todennäköisesti"
-    ],
-    [
-      "ehkä"
-    ],
-    [
-      "kenties"
-    ],
-    [
-      "luultavasti"
-    ],
     [
       "käsittää"
     ],
@@ -338,9 +256,6 @@
     ],
     [
       "näyttää se"
-    ],
-    [
-      "saattaa olla"
     ],
     [
       "näyttää viitata",

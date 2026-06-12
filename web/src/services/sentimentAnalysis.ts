@@ -13,14 +13,14 @@ export interface SentimentResult {
  * @param language The language code (default: 'en')
  * @returns Promise resolving to the sentiment analysis results
  */
-export const analyzeSentiment = async (text: string, language: string = 'en'): Promise<SentimentResult[]> => {
+export const analyzeSentiment = async (text: string, language: string = 'en', model: 'local' | 'remote' = 'local'): Promise<SentimentResult[]> => {
   try {
     const response = await fetch('/api/get-sentiment', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ text, language }),
+      body: JSON.stringify({ text, language, model_to_use: model }),
     });
 
     if (!response.ok) {

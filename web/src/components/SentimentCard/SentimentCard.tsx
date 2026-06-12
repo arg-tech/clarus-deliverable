@@ -1,5 +1,7 @@
 import { useState } from 'react';
+import { createPortal } from 'react-dom';
 import { useTranslation } from 'react-i18next';
+import { Info } from 'lucide-react';
 import SentimentChart from '../SentimentChart';
 import type { SentimentResult } from '../../services/sentimentAnalysis';
 
@@ -9,7 +11,7 @@ interface SentimentCardProps {
 
 const SentimentCard: React.FC<SentimentCardProps> = ({ sentimentResults }) => {
   const { t } = useTranslation();
-  const [showDetails, setShowDetails] = useState(false);
+  const [isChartExpanded, setIsChartExpanded] = useState(false);
 
   if (!sentimentResults || sentimentResults.length === 0) {
     return null;
@@ -17,11 +19,9 @@ const SentimentCard: React.FC<SentimentCardProps> = ({ sentimentResults }) => {
 
   const getSentimentScore = (sentiment: string): number => {
     const lowerSentiment = sentiment.toLowerCase();
-    if (lowerSentiment === 'very positive') return 2;
     if (lowerSentiment === 'positive') return 1;
     if (lowerSentiment === 'neutral') return 0;
     if (lowerSentiment === 'negative') return -1;
-    if (lowerSentiment === 'very negative') return -2;
     return 0;
   };
 
@@ -30,37 +30,12 @@ const SentimentCard: React.FC<SentimentCardProps> = ({ sentimentResults }) => {
   const getConclusion = (): string | null => {
     // Calculate trajectory of sentiment
     const { m: slope } = calculateLinearRegression(
-    sentimentResults, 
-    getSentimentScore
-);
+      sentimentResults,
+      getSentimentScore
+    );
 
-    if (slope > 0.05) {
-        return t('sentiment.conclusions.positiveTrajectory');
-    } else if (slope < -0.05) { 
-        return t('sentiment.conclusions.negativeTrajectory');
-    }
-
-    // Calculate mean sentiment of entire text
-    const meanSentiment = sentimentResults.reduce(
-      (sum, result) => sum + getSentimentScore(result.sentiment), 
-      0
-    ) / sentimentResults.length;
-
-    if (meanSentiment >= 1.5) {
-      return t('sentiment.conclusions.veryPositive');
-    }
-    if (meanSentiment <= -1.5) {
-      return t('sentiment.conclusions.veryNegative');
-    }
-    
-    if (meanSentiment >= 1.0) {
-      return t('sentiment.conclusions.leansPositive');
-    }
-    if (meanSentiment <= -1.0) {
-      return t('sentiment.conclusions.leansNegative');
-    }
-    if (Math.abs(meanSentiment) < 0.5) {
-      return t('sentiment.conclusions.balanced');
+    if (slope < -0.125) {
+      return t('sentiment.conclusions.negativeTrajectory');
     }
 
     return t('sentiment.conclusions.noIssues');
@@ -73,12 +48,12 @@ const SentimentCard: React.FC<SentimentCardProps> = ({ sentimentResults }) => {
  * @returns Object with m: slope, b: y-intercept
  */
   const calculateLinearRegression = (
-    sentimentResults: SentimentResult[], 
+    sentimentResults: SentimentResult[],
     getSentimentScore: (sentiment: string) => number
   ): { m: number; b: number } => {
     const N = sentimentResults.length;
     if (N < 2) {
-        return { m: 0, b: getSentimentScore(sentimentResults[0].sentiment) * sentimentResults[0].confidence || 0 };
+      return { m: 0, b: getSentimentScore(sentimentResults[0].sentiment) * sentimentResults[0].confidence || 0 };
     }
 
     let sumX = 0;       // Sum of all x values (sentence index)
@@ -87,12 +62,12 @@ const SentimentCard: React.FC<SentimentCardProps> = ({ sentimentResults }) => {
     let sumX2 = 0;      // Sum of (x * x)
 
     for (let i = 0; i < N; i++) {
-        const x = i;
-        const y = getSentimentScore(sentimentResults[i].sentiment) * sentimentResults[i].confidence;
-        sumX += x;
-        sumY += y;
-        sumXY += x * y;
-        sumX2 += x * x;
+      const x = i;
+      const y = getSentimentScore(sentimentResults[i].sentiment) * sentimentResults[i].confidence;
+      sumX += x;
+      sumY += y;
+      sumXY += x * y;
+      sumX2 += x * x;
     }
 
     const meanX = sumX / N;
@@ -110,48 +85,46 @@ const SentimentCard: React.FC<SentimentCardProps> = ({ sentimentResults }) => {
 
   return (
     <div className="sentiment-card">
-      <div className="sentiment-header">
-        <h3>{t('sentiment.title')}</h3>
-        <button 
-          className="details-toggle-button" 
-          onClick={() => setShowDetails(!showDetails)}
-        >
-          {showDetails ? t('sentiment.hideDetails') : t('sentiment.showDetails')}
-        </button>
-      </div>
-      
-      <div className="sentiment-chart-wrapper">
-        <SentimentChart sentimentResults={sentimentResults} />
-      </div>
-      
-      {showDetails && (
-        <div className="sentiment-details">
-          <h4>{t('sentiment.sentenceDetails')}</h4>
-          <ul className="sentiment-list">
-            {sentimentResults.map((result, index) => (
-              <li key={index} className={`sentiment-item sentiment-${result.sentiment.toLowerCase().replace(' ', '-')}`}>
-                <div className="sentiment-sentence">{result.sentence}</div>
-                <div className="sentiment-info">
-                  <span className="sentiment-label">{t(`sentiment.labels.${getSentimentScore(result.sentiment)}`)}</span>
-                  <span className="sentiment-confidence">
-                    {(result.confidence * 100).toFixed(1)}% {t('sentiment.confidence')}
-                  </span>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
       {conclusion && (
         <div className="sentiment-conclusions">
-          <h4>{t('sentiment.sentimentInsight')}</h4>
           <div className="conclusion-item">
-            {/* eslint-disable-next-line i18next/no-literal-string */}
-            <span className="conclusion-icon">ℹ️</span>
+            <Info className="conclusion-icon" size={18} />
             <span className="conclusion-text">{conclusion}</span>
           </div>
         </div>
+      )}
+
+      <div className="sentiment-chart-wrapper">
+        <SentimentChart sentimentResults={sentimentResults} />
+        <button
+          className="chart-expand-button"
+          onClick={() => setIsChartExpanded(true)}
+          aria-label={t('sentiment.expandChart', 'Expand chart')}
+        >
+          <span>⛶</span>
+        </button>
+      </div>
+
+      {isChartExpanded && createPortal(
+        <div
+          className="sentiment-chart-modal-overlay"
+          onClick={() => setIsChartExpanded(false)}
+        >
+          <div
+            className="sentiment-chart-modal-content"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              className="sentiment-chart-modal-close"
+              onClick={() => setIsChartExpanded(false)}
+              aria-label={t('sentiment.closeChart', 'Close chart')}
+            >
+              ✕
+            </button>
+            <SentimentChart sentimentResults={sentimentResults} />
+          </div>
+        </div>,
+        document.body
       )}
     </div>
   );

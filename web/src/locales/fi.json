@@ -1,7 +1,7 @@
 {
   "translation": {
     "app": {
-      "title": "Harhantunnistustyökalu"
+      "title": "Clarity Checker"
     },
     "languages": {
       "en": "Englanti",
@@ -12,8 +12,8 @@
       "label": "Kieli:"
     },
     "model": {
-      "local": "Paikallinen",
-      "remote": "Etä",
+      "local": "Clarus (projektin ylläpitämä)",
+      "remote": "Gemini (Googlen ylläpitämä)",
       "label": "Malli:",
       "remoteWarning": "Etämallit voivat lähettää tietosi ulkopuolisille API-palveluntarjoajille"
     },
@@ -21,7 +21,14 @@
       "toolbar": {
         "bold": "Lihavoitu",
         "italic": "Kursivoitu",
-        "underline": "Alleviivattu"
+        "underline": "Alleviivattu",
+        "strikethrough": "Yliviivaus",
+        "horizontalRule": "Vaakaviiva",
+        "blockType": "Lohkotyyppi",
+        "paragraph": "Kappale",
+        "heading1": "Otsikko 1",
+        "heading2": "Otsikko 2",
+        "heading3": "Otsikko 3"
       },
       "languageInfo": "Kieli tunnistetaan automaattisesti (tukee englantia, kreikkaa, suomea, portugalia ja tshekkiä)",
       "detectedLanguage": "Tunnistettu kieli: {{language}}",
@@ -29,18 +36,31 @@
       "modelUsedFallback": "Käytetty malli: {{model}} (etämalli ei ole saatavilla korkean kuormituksen vuoksi)",
       "analyze": "Analysoi",
       "analyzing": "Analysoidaan...",
-      "clear": "Tyhjennä"
+      "clear": "Tyhjennä",
+      "uploadPdf": "Tuo PDF"
     },
     "biasIndicators": {
-      "title": "Ennakkoluulojen indikaattorit",
-      "noResults": "Ennakkoluulojen indikaattoreita ei löytynyt. Analysoi teksti nähdäksesi tulokset.",
+      "title": "Selkeysongelmat",
+      "noResults": "Selkeysongelmia ei löytynyt. Analysoi teksti nähdäksesi tulokset.",
       "analyzing": "Analysoidaan tekstiä...",
+      "dismiss": "Ohita",
+      "restore": "Palauta",
+      "enabled": "Käytössä",
+      "disabled": "Pois käytöstä",
+      "disableCategory": "Poista kategoria käytöstä",
+      "enableCategory": "Ota kategoria käyttöön",
+      "toggleCategory": "Kategoria {{category}} on {{state}}",
+      "categoryDisabled": "Kategoria poistettu käytöstä",
+      "dismissCategory": "Ohita kaikki",
+      "restoreCategory": "Palauta kaikki",
       "detectedPhrase": "Havaittu lause",
       "outdated": "Vanhentunut",
       "popup": {
         "detectedPhrase": "Havaittu lause:",
         "whyThisMatters": "Miksi tällä on väliä:",
-        "suggestedImprovement": "💡 Ehdotettu parannus:"
+        "suggestedImprovement": "💡 Selvennysehdotus:",
+        "status": "Tila:",
+        "categoryDisabled": "Tämä kategoria on poistettu käytöstä, joten tämä osuma on passiivinen, kunnes kategoria otetaan uudelleen käyttöön."
       },
       "cards": {
         "overgeneralizations": {
@@ -56,7 +76,7 @@
         "capitalisation": {
           "title": "Liiallinen isojen kirjainten käyttö",
           "explanation": "Isoilla kirjaimilla kirjoittaminen voi antaa lisämerkitystä.",
-          "suggestedFix": "Jos lause ei ole lyhenne, harkitse tavallisen isokokoisten kirjainten käyttöä."
+          "suggestedFix": "Jos lause ei ole lyhenne, harkitse tavallista isojen ja pienten kirjainten käyttöä."
         },
         "chargedSemanticFields": {
           "title": "Latautuneet semanttiset kentät",
@@ -64,7 +84,7 @@
           "suggestedFix": "Vältä sanojen käyttöä latautuneista semanttisista kentistä neutraaliuden säilyttämiseksi."
         },
         "concessiveConnectives": {
-          "title": "Myönteiset konnektiivit",
+          "title": "Myönnyttävät konnektiivit",
           "explanation": "Konnektiivi '{{phrase}}' voidaan käyttää vähättelemään vasta-argumentteja tunnustamalla ne samalla kun säilytetään pääkohta.",
           "suggestedFix": "Harkitse vasta-argumenttien esittämistä neutraalimmin tai antamalla niille yhtä suuri painoarvo."
         },
@@ -114,7 +134,7 @@
           "suggestedFix": "Harkitse vähemmän latautuneen adverbin käyttöä tai adverbin poisjättämistä kokonaan."
         },
         "italicsBoldface": {
-          "title": "Muotoilun ennakkoluulo",
+          "title": "Muotoilu",
           "explanation": "Teksti '{{phrase}}' on muotoiltu.",
           "suggestedFix": "Harkitse muotoilun poistamista tai käytä sitä niukemmin."
         },
@@ -178,29 +198,20 @@
     "sentiment": {
       "title": "Tunneanalyysi",
       "noResults": "Tämän kielen tunnesisällön analyysiä ei tueta.",
-      "analyzing": "Analysoidaan tekstiä...",
-      "showDetails": "Näytä tiedot",
-      "hideDetails": "Piilota tiedot",
-      "sentenceDetails": "Lause lauseelta analyysi",
-      "sentence": "Lause {{number}}",
-      "confidence": "luottamus",
+      "analyzing": "Tunneanalyysi latautuu vielä...",
       "sentimentInsight": "Tunneoivallus",
       "conclusions": {
-        "positiveTrajectory": "Tunne muuttuu positiivisemmaksi tekstin kuluessa. Tämä viittaa positiivisen johtopäätöksen rakentamiseen tai aiemman negatiivisuuden ratkaisuun.",
         "negativeTrajectory": "Tunne muuttuu negatiivisemmaksi tekstin kuluessa. Tämä voi vaikuttaa lukijan käsitykseen pehmentämällä myöhemmin esitettävien negatiivisten tietojen vaikutusta.",
-        "veryPositive": "Kokonaistunne on erittäin positiivinen. Tämä voi viitata kriittisen näkökulman puutteeseen.",
-        "veryNegative": "Kokonaistunne on erittäin negatiivinen. Tämä viittaa muiden näkökulmien sisällyttämisen puutteeseen.",
-        "leansPositive": "Kokonaistunne kallistuu positiiviseen. Harkitse tasapainottamista neutraaleimmilla tai kriittisimmillä näkökulmilla.",
-        "leansNegative": "Kokonaistunne kallistuu negatiiviseen. Harkitse positiivisempien näkökulmien sisällyttämistä.",
-        "balanced": "Kokonaistunne on hyvin tasapainoinen.",
         "noIssues": "Tunteessa ei havaittu merkittäviä ongelmia."
       },
+      "xAxis": {
+        "start": "Tekstin alku",
+        "end": "Tekstin loppu"
+      },
       "labels": {
-        "-2": "Hyvin negatiivinen",
         "-1": "Negatiivinen",
         "0": "Neutraali",
-        "1": "Positiivinen",
-        "2": "Hyvin positiivinen"
+        "1": "Positiivinen"
       }
     },
     "error": {
@@ -215,20 +226,79 @@
       "popup": {
         "title": "Sanastotermi",
         "detectedPhrase": "Havaittu sanastolauseke:",
-        "usageExample": "Käyttöesimerkki:"
+        "definition": "Määritelmä:",
+        "usageExample": "Käyttöesimerkki:",
+        "searchLink": "Näytä Clarus-sanastossa"
       }
+    },
+    "sidebar": {
+      "title": "Tulokset",
+      "biasCount": "{{count}} selkeysongelmaa",
+      "lexiconCount": "{{count}} sanastotermiä",
+"sentimentTab": "Tunne"
+    },
+    "llmAnalysis": {
+      "textTruncated": "Tekstisi ylittää {{count}} sanan rajan tekoälyanalyysille. Vain ensimmäiset {{count}} sanaa analysoitiin.",
+      "contextLengthExceeded": "Tekstisi on liian pitkä tekoälyanalyysille, vaikka sitä lyhennettiin. Lyhennä tekstiä ja yritä uudelleen."
+    },
+    "about": {
+      "title": "Tietoa Clarity Checker",
+      "close": "Sulje",
+      "openButton": "Tietoja",
+      "limitations": {
+        "title": "Rajoitukset",
+        "text": "Tämä työkalu on suunniteltu korostamaan mahdollisia selkeysongelmia eikä se muodosta toimituksellista, oikeudellista tai ammatillista neuvontaa. Havainnot ovat automaattisia ja saattavat tuottaa vääriä positiivisia tuloksia tai jättää todellisia ongelmia huomaamatta. Tulokset tulisi tarkistaa kriittisesti, ja ne on tarkoitettu lähtökohdaksi pohdinnalle, ei lopulliseksi arvioksi."
+      },
+      "privacy": {
+        "title": "Tietosuoja",
+        "text": "Analyysia varten lähetetty teksti käsitellään ainoastaan pyydettyjen tulosten toimittamiseksi. Emme jaa tietojasi kolmansille osapuolille. Projekti on isännöity Dundeen yliopistossa. 'Clarus'-mallia käytettäessä tekstisi pysyy kokonaan projektin omassa infrastruktuurissa. 'Gemini'-mallia käytettäessä tekstisi lähetetään Googlen palvelimille analysoitavaksi. Suosittelemme 'Clarus'-mallin käyttöä arkaluonteiselle tai luottamukselliselle tekstille."
+      },
+      "logging": {
+        "title": "Lokikirjaus",
+        "text": "Emme kirjaa tai säilytä käyttäjäpyyntöjen sisältöä. Analyysia varten lähetettyä tekstiä ei tallenneta, säilytetä eikä käytetä mihinkään muuhun tarkoitukseen kuin tulosten tuottamiseen."
+      }
+    },
+    "footer": {
+      "funding": "Tämä hanke on saanut osarahoitusta Euroopan unionin Horisontti Eurooppa -tutkimus- ja innovaatio-ohjelmasta avustussopimuksen nro 101121182 nojalla"
     },
     "loading": {
       "editor": "Ladataan editoria..."
     },
     "loadingPhrases": {
-      "analyzingBias": "Analysoidaan harhan indikaattoreita...",
+      "analyzingBias": "Analysoidaan selkeysongelmia...",
       "checkingLLM": "Tarkistetaan LLM-malleja...",
       "evaluatingSentiment": "Arvioidaan tunnetta...",
       "analyzingEntities": "Analysoidaan nimettyjä entiteettejä...",
       "analyzingStructure": "Analysoidaan tekstin rakennetta...",
       "lookingForDisparity": "Etsitään tunteiden eroja...",
-      "lookingForPatterns": "Etsitään yleisiä harhan malleja..."
+      "lookingForPatterns": "Etsitään yleisiä selkeysongelmia..."
+    },
+    "whitelist": {
+      "title": "Ohitetut ilmaukset",
+      "triggerLabel": "Ohitetut ilmaukset",
+      "empty": "Ei vielä ohitettuja ilmauksia. Ohita niitä selkeysongelmien listalta, niin ne näkyvät täällä.",
+      "clearAll": "Tyhjennä kaikki",
+      "clearAllCategories": "Ota kaikki kategoriat käyttöön",
+      "added": "\"{{phrase}}\" lisätty ohitettuihin ilmauksiin ja ohitetaan tulevissa analyyseissä",
+      "addedManual": "\"{{phrase}}\" lisätty ohitettuihin ilmauksiin. Analysoi uudelleen soveltaaksesi.",
+      "removed": "\"{{phrase}}\" poistettu ohitettujen listalta. Analysoi uudelleen havaitaksesi sen.",
+      "cleared": "Kaikki ohitetut ilmaukset tyhjennetty. Analysoi uudelleen havaitaksesi ne.",
+      "removeSingle": "Poista \"{{phrase}}\" ohitettujen listalta",
+      "inputPlaceholder": "Lisää ilmaus ohitettavaksi...",
+      "detectedInText": "Ohitetut nykyisessä tekstissä",
+      "otherIgnored": "Muut ohitetut ilmaukset",
+      "noDetected": "Nykyisestä tekstistä ei löytynyt ohitettuja ilmauksia",
+      "filteredCount": "{{count}} ilmaus(ta) jätetty pois ohitettujen ilmausten asetusten perusteella",
+      "tabs": {
+        "phrases": "Ilmaukset",
+        "categories": "Kategoriat"
+      },
+      "categories": {
+        "empty": "Kategorioita ei ole saatavilla.",
+        "detectedSection": "Havaittu nykyisessä tekstissä",
+        "otherSection": "Muut kategoriat",
+        "enableAllCleared": "Kaikki kategoriat otettu käyttöön. Analysoi uudelleen soveltaaksesi."
+      }
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "translation": {
     "app": {
-      "title": "Bias Checker"
+      "title": "Clarity Checker"
     },
     "languages": {
       "en": "English",
@@ -12,8 +12,8 @@
       "label": "Language:"
     },
     "model": {
-      "local": "Local",
-      "remote": "Remote",
+      "local": "Clarus (hosted by the project)",
+      "remote": "Gemini (hosted by Google)",
       "label": "Model:",
       "remoteWarning": "Remote models may send your data to external API providers"
     },
@@ -21,26 +21,46 @@
       "toolbar": {
         "bold": "Bold",
         "italic": "Italic",
-        "underline": "Underline"
+        "underline": "Underline",
+        "strikethrough": "Strikethrough",
+        "horizontalRule": "Horizontal Rule",
+        "blockType": "Block Type",
+        "paragraph": "Paragraph",
+        "heading1": "Heading 1",
+        "heading2": "Heading 2",
+        "heading3": "Heading 3"
       },
       "languageInfo": "Language will be automatically detected (supports English, Greek, Finnish, Portuguese, and Czech)",
       "detectedLanguage": "Detected language: {{language}}",
       "modelUsed": "Model used: {{model}}",
       "modelUsedFallback": "Model used: {{model}} (remote model unavailable due to high load)",
-      "analyze": "Analyze",
-      "analyzing": "Analyzing...",
-      "clear": "Clear"
+      "analyze": "Analyse",
+      "analyzing": "Analysing...",
+      "clear": "Clear",
+      "uploadPdf": "Upload PDF"
     },
     "biasIndicators": {
-      "title": "Bias Indicators",
-      "noResults": "No bias indicators found. Analyze text to see results.",
-      "analyzing": "Analyzing text...",
+      "title": "Clarity Issues",
+      "noResults": "No clarity issues found. Analyse text to see results.",
+      "analyzing": "Analysing text...",
+      "dismiss": "Ignore",
+      "restore": "Restore",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "disableCategory": "Disable category",
+      "enableCategory": "Enable category",
+      "toggleCategory": "{{category}} category is {{state}}",
+      "categoryDisabled": "Category disabled",
+      "dismissCategory": "Ignore all",
+      "restoreCategory": "Restore all",
       "detectedPhrase": "Detected phrase",
       "outdated": "Outdated",
       "popup": {
         "detectedPhrase": "Detected phrase:",
         "whyThisMatters": "Why this matters:",
-        "suggestedImprovement": "💡 Suggested improvement:"
+        "suggestedImprovement": "💡 Suggested clarification:",
+        "status": "Status:",
+        "categoryDisabled": "This category is disabled, so this match is inactive until the category is enabled again."
       },
       "cards": {
         "overgeneralizations": {
@@ -114,7 +134,7 @@
           "suggestedFix": "Consider using a less charged adverb or not using the adverb at all."
         },
         "italicsBoldface": {
-          "title": "Formatting Bias",
+          "title": "Formatting",
           "explanation": "The text '{{phrase}}' is styled.",
           "suggestedFix": "Consider removing the formatting or using it more sparingly."
         },
@@ -178,29 +198,20 @@
     "sentiment": {
       "title": "Sentiment Analysis",
       "noResults": "Sentiment analysis is not supported for this language.",
-      "analyzing": "Analyzing text...",
-      "showDetails": "Show Details",
-      "hideDetails": "Hide Details",
-      "sentenceDetails": "Sentence-by-sentence analysis",
-      "sentence": "Sentence {{number}}",
-      "confidence": "confidence",
+      "analyzing": "Sentiment analysis is still loading...",
       "sentimentInsight": "Sentiment Insight",
       "conclusions": {
-        "positiveTrajectory": "The sentiment becomes more positive over the course of the text. This suggests a buildup toward a positive conclusion or a resolution of earlier negativity.",
         "negativeTrajectory": "The sentiment becomes more negative over the course of the text. This could influence the reader's perception by softening the impact of negative information presented later.",
-        "veryPositive": "The overall sentiment is very positive. This could indicate a lack of critical perspective.",
-        "veryNegative": "The overall sentiment is very negative. This suggests a lack of including other perspectives.",
-        "leansPositive": "The overall sentiment leans positive. Consider balancing with more neutral or critical viewpoints.",
-        "leansNegative": "The overall sentiment leans negative. Consider incorporating more positive perspectives.",
-        "balanced": "The overall sentiment is well balanced.",
-        "noIssues": "There were no significant issues with sentiment detected."
+        "noIssues": "There were no issues with sentiment detected."
+      },
+      "xAxis": {
+        "start": "Start of text",
+        "end": "End of text"
       },
       "labels": {
-        "-2": "Very Negative",
         "-1": "Negative",
         "0": "Neutral",
-        "1": "Positive",
-        "2": "Very Positive"
+        "1": "Positive"
       }
     },
     "error": {
@@ -210,25 +221,84 @@
       "title": "Lexicon Terms",
       "usageExample": "Usage Example",
       "outdated": "Outdated",
-      "analyzing": "Analyzing lexicon terms...",
+      "analyzing": "Analysing lexicon terms...",
       "noResults": "No lexicon terms found",
       "popup": {
         "title": "Lexicon Term",
         "detectedPhrase": "Detected lexicon phrase:",
-        "usageExample": "Usage example:"
+        "definition": "Definition:",
+        "usageExample": "Usage example:",
+        "searchLink": "View in Clarus Lexicon"
       }
+    },
+    "sidebar": {
+      "title": "Results",
+      "biasCount": "{{count}} clarity issues",
+      "lexiconCount": "{{count}} lexicon terms",
+"sentimentTab": "Sentiment"
+    },
+    "llmAnalysis": {
+      "textTruncated": "Your text exceeds the {{count}}-word limit for AI analysis. Only the first {{count}} words were analysed.",
+      "contextLengthExceeded": "Your text is too long for AI analysis, even after shortening. Please reduce the text length and try again."
+    },
+    "about": {
+      "title": "About Clarity Checker",
+      "close": "Close",
+      "openButton": "About",
+      "limitations": {
+        "title": "Limitations",
+        "text": "This tool is designed to highlight potential clarity issues and does not constitute editorial, legal, or professional advice. Detections are automated and may produce false positives or miss genuine issues. Results should be reviewed critically and are intended as a starting point for reflection, not a definitive assessment."
+      },
+      "privacy": {
+        "title": "Privacy",
+        "text": "Text submitted for analysis is processed solely to provide the requested results. We do not share your data with any third parties. The project is hosted at the University of Dundee. When using the 'Clarus' model, your text entirely stays within the project's own infrastructure. When using the 'Gemini' model, your text is sent to Google's servers for analysis. We recommend using the 'Clarus' model for sensitive or confidential text."
+      },
+      "logging": {
+        "title": "Logging",
+        "text": "We do not log or preserve the contents of any user requests. Text submitted for analysis is not stored, retained, or used for any purpose beyond producing your results."
+      }
+    },
+    "footer": {
+      "funding": "This project is co-funded by the European Union's Horizon Europe research and innovation programme under grant agreement No. 101121182"
     },
     "loading": {
       "editor": "Loading editor..."
     },
     "loadingPhrases": {
-      "analyzingBias": "Analyzing bias indicators...",
+      "analyzingBias": "Analysing clarity issues...",
       "checkingLLM": "Checking for LLM patterns...",
       "evaluatingSentiment": "Evaluating sentiment...",
-      "analyzingEntities": "Analyzing named entities...",
-      "analyzingStructure": "Analyzing text structure...",
+      "analyzingEntities": "Analysing named entities...",
+      "analyzingStructure": "Analysing text structure...",
       "lookingForDisparity": "Looking for sentiment disparity...",
-      "lookingForPatterns": "Looking for common bias patterns..."
+      "lookingForPatterns": "Looking for common clarity issues..."
+    },
+    "whitelist": {
+      "title": "Ignored phrases",
+      "triggerLabel": "Ignored phrases",
+      "empty": "No ignored phrases yet. Ignore them from the clarity issues list to add them here.",
+      "clearAll": "Clear All",
+      "clearAllCategories": "Enable All Categories",
+      "added": "\"{{phrase}}\" added to ignored phrases and will be skipped in future analyses",
+      "addedManual": "\"{{phrase}}\" added to ignored phrases. Re-analyse to apply.",
+      "removed": "\"{{phrase}}\" removed from ignored list. Re-analyse to detect it again.",
+      "cleared": "All ignored phrases cleared. Re-analyse to detect them again.",
+      "removeSingle": "Remove \"{{phrase}}\" from ignored list",
+      "inputPlaceholder": "Add a phrase to ignore...",
+      "detectedInText": "Ignored in current text",
+      "otherIgnored": "Other ignored phrases",
+      "noDetected": "No ignored phrases found in current text",
+      "filteredCount": "{{count}} phrase(s) excluded based on ignored phrase settings",
+      "tabs": {
+        "phrases": "Phrases",
+        "categories": "Categories"
+      },
+      "categories": {
+        "empty": "No categories available.",
+        "detectedSection": "Detected in current text",
+        "otherSection": "Other categories",
+        "enableAllCleared": "All categories enabled. Re-analyse to apply."
+      }
     }
   }
 }

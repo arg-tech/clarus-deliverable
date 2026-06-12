@@ -1,17 +1,7 @@
 {
   "framing_by_time": [
     [
-      "viimeaikainen"
-    ],
-    [
       "muinainen"
-    ],
-    [
-      "moderni"
-    ],
-    [
-      "vanhentunut",
-      "vanhentua"
     ],
     [
       "huipputekniikka",
@@ -19,30 +9,7 @@
       "huippu"
     ],
     [
-      "ajankohtainen"
-    ],
-    [
-      "ajaton"
-    ],
-    [
-      "vanhentunut",
-      "vanhentua"
-    ],
-    [
-      "nykyinen"
-    ],
-    [
-      "historiallinen"
-    ],
-    [
-      "nykyaikainen"
-    ],
-    [
       "arkaistinen"
-    ],
-    [
-      "vanhentunut",
-      "vanhentua"
     ],
     [
       "ummehtunut",
@@ -61,9 +28,6 @@
       "takapajuinen"
     ],
     [
-      "edistyksellinen"
-    ],
-    [
       "taantumuksellinen"
     ],
     [
@@ -80,9 +44,6 @@
       "vintage"
     ],
     [
-      "klassinen"
-    ],
-    [
       "huipputekninen"
     ],
     [
@@ -91,9 +52,6 @@
     [
       "tule katsoa",
       "tulevaisuus katsoa"
-    ],
-    [
-      "tuore"
     ],
     [
       "äskettäin löydetty",
@@ -120,22 +78,7 @@
       "uusia tekniikka"
     ],
     [
-      "vanhentunut",
-      "vanhentua"
-    ],
-    [
       "muinaishistoriaa"
-    ],
-    [
-      "ajan tasalla",
-      "ajan tasa",
-      "aika tasa",
-      "ajaa tasalla",
-      "ajaa tasa",
-      "aika tasalla"
-    ],
-    [
-      "uraauurtava"
     ]
   ]
 }

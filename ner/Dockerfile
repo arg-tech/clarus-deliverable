@@ -1,5 +1,5 @@
 # ---- Dockerfile for ner_people_sentiment_api.py ----
-FROM python:3.12-slim
+FROM python:3.12-slim-bookworm@sha256:31c0807da611e2e377a2e9b566ad4eb038ac5a5838cbbbe6f2262259b5dc77a0
 
 # Prevent Python from writing .pyc files and buffer logs
 ENV PYTHONDONTWRITEBYTECODE=1 \

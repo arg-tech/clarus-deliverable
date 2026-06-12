@@ -14,18 +14,10 @@
       "loistava"
     ],
     [
-      "mahtaa",
-      "mahtava"
-    ],
-    [
       "ihmeellinen"
     ],
     [
       "kaunis"
-    ],
-    [
-      "hurmaava",
-      "hurmata"
     ],
     [
       "lumota",
@@ -53,11 +45,6 @@
       "hämmästyttävä",
       "hämmästyttää",
       "hämmästyä"
-    ],
-    [
-      "ihastuttava",
-      "ihastuttaa",
-      "ihastua"
     ],
     [
       "lumota"
@@ -162,18 +149,10 @@
       "loistava"
     ],
     [
-      "mahtaa",
-      "mahtava"
-    ],
-    [
       "ihmeellinen"
     ],
     [
       "kaunis"
-    ],
-    [
-      "hurmaava",
-      "hurmata"
     ],
     [
       "lumota",
@@ -201,11 +180,6 @@
       "hämmästyttävä",
       "hämmästyttää",
       "hämmästyä"
-    ],
-    [
-      "ihastuttava",
-      "ihastuttaa",
-      "ihastua"
     ],
     [
       "lumota"
@@ -307,18 +281,10 @@
       "loistava"
     ],
     [
-      "mahtaa",
-      "mahtava"
-    ],
-    [
       "ihmeellinen"
     ],
     [
       "kaunis"
-    ],
-    [
-      "hurmaava",
-      "hurmata"
     ],
     [
       "lumota",
@@ -346,11 +312,6 @@
       "hämmästyttävä",
       "hämmästyttää",
       "hämmästyä"
-    ],
-    [
-      "ihastuttava",
-      "ihastuttaa",
-      "ihastua"
     ],
     [
       "lumota"
@@ -428,22 +389,12 @@
       "häpeällinen"
     ],
     [
-      "kurja"
-    ],
-    [
-      "surullinen"
-    ],
-    [
       "vihainen"
     ],
     [
       "raivostuttaa",
       "raivostua",
       "raivostuttava"
-    ],
-    [
-      "ärsyttävä",
-      "ärsyttää"
     ],
     [
       "pahoinvoiva"
@@ -460,9 +411,6 @@
     ],
     [
       "julma"
-    ],
-    [
-      "raaka"
     ],
     [
       "inhottaa",
@@ -483,22 +431,12 @@
       "häpeällinen"
     ],
     [
-      "kurja"
-    ],
-    [
-      "surullinen"
-    ],
-    [
       "vihainen"
     ],
     [
       "raivostuttaa",
       "raivostua",
       "raivostuttava"
-    ],
-    [
-      "ärsyttävä",
-      "ärsyttää"
     ],
     [
       "pahoinvoiva"
@@ -515,18 +453,11 @@
     ],
     [
       "julma"
-    ],
-    [
-      "raaka"
     ]
   ],
   "Moderate Negative": [
     [
       "epämukava"
-    ],
-    [
-      "masentaa",
-      "masentava"
     ],
     [
       "turhauttaa",
@@ -579,22 +510,12 @@
       "häpeällinen"
     ],
     [
-      "kurja"
-    ],
-    [
-      "surullinen"
-    ],
-    [
       "vihainen"
     ],
     [
       "raivostuttaa",
       "raivostua",
       "raivostuttava"
-    ],
-    [
-      "ärsyttävä",
-      "ärsyttää"
     ],
     [
       "pahoinvoiva"
@@ -611,9 +532,6 @@
     ],
     [
       "julma"
-    ],
-    [
-      "raaka"
     ]
   ],
   "Mixed / Nuanced": [
@@ -624,28 +542,8 @@
       "haamumainen"
     ],
     [
-      "raskas"
-    ],
-    [
-      "intensiivinen"
-    ],
-    [
-      "liikuttava",
-      "liikuttaa",
-      "liikkua"
-    ],
-    [
-      "nostalginen"
-    ],
-    [
       "särkevä",
       "särkeä"
-    ],
-    [
-      "voimakas"
-    ],
-    [
-      "raaka"
     ],
     [
       "shokeerata"

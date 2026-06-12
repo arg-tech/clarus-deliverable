@@ -36,7 +36,7 @@ async def get_sentiment(request: Request):
             if key.lower() not in ['host', 'content-length', 'connection']
         }
         
-        async with httpx.AsyncClient(timeout=30.0) as client:
+        async with httpx.AsyncClient(timeout=90.0) as client:
             # Call sentiment service
             logger.info(f"Forwarding request to sentiment service")
             sentiment_response = await client.post(
@@ -148,23 +148,6 @@ async def analyse_proxy(request: Request):
                             logger.info(f"Added {len(rhetorical_results)} results from rhetorical questions service")
                 except Exception as e:
                     logger.error(f"Error calling rhetorical questions service: {str(e)}")
-
-            # Call sarcasm service
-            try:
-                sarcasm_response = await client.post(
-                    f"{SARCASM_SERVICE_URL}/analyse",
-                    content=body,
-                    headers=headers_to_forward,
-                    params=dict(request.query_params)
-                )
-                
-                if sarcasm_response.status_code == 200:
-                    sarcasm_results = sarcasm_response.json()
-                    if isinstance(sarcasm_results, list):
-                        combined_results.extend(sarcasm_results)
-                        logger.info(f"Added {len(sarcasm_results)} results from sarcasm service")
-            except Exception as e:
-                logger.error(f"Error calling sarcasm service: {str(e)}")
             
             return JSONResponse(
                 content=combined_results,

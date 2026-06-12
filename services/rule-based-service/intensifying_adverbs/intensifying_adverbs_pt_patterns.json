@@ -1,5 +1,4 @@
 [
-  "\\bextremamente\\b",
   "\\bincrivelmente\\b",
   "\\babsurdamente\\b",
   "\\btremendamente\\b",
@@ -18,8 +17,6 @@
   "\\bespantosamente\\b",
   "\\bsurpreendentemente\\b",
   "\\bimpressionantemente\\b",
-  "\\bextraordinariamente\\b",
-  "\\bexcepcionalmente\\b",
   "\\bfantasticamente\\b",
   "\\bfabulosamente\\b",
   "\\bmagnificamente\\b",
@@ -89,7 +86,6 @@
   "\\bbizarramente\\b",
   "\\bestranhamente\\b",
   "\\bpeculiarmente\\b",
-  "\\bsingularmente\\b",
   "\\bdistintamente\\b",
   "\\bnotavelmente\\b",
   "\\bmarcadamente\\b",
@@ -106,12 +102,8 @@
   "\\burgentemente\\b",
   "\\bdesesperanzadamente\\b",
   "\\birremediavelmente\\b",
-  "\\birreversivelmente\\b",
   "\\birreparavelmente\\b",
   "\\bdefinitivamente\\b",
-  "\\babsolutamente\\b",
-  "\\btotalmente\\b",
-  "\\bcompletamente\\b",
   "\\bintegralmente\\b",
   "\\bplenamente\\b"
 ]

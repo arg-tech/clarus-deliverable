@@ -1,7 +1,7 @@
 {
   "translation": {
     "app": {
-      "title": "Verificador de Viés"
+      "title": "Clarity Checker"
     },
     "languages": {
       "en": "Inglês",
@@ -12,8 +12,8 @@
       "label": "Idioma:"
     },
     "model": {
-      "local": "Local",
-      "remote": "Remoto",
+      "local": "Clarus (alojado pelo projeto)",
+      "remote": "Gemini (alojado pela Google)",
       "label": "Modelo:",
       "remoteWarning": "Modelos remotos podem enviar os seus dados para fornecedores de API externos"
     },
@@ -21,7 +21,14 @@
       "toolbar": {
         "bold": "Negrito",
         "italic": "Itálico",
-        "underline": "Sublinhado"
+        "underline": "Sublinhado",
+        "strikethrough": "Tachado",
+        "horizontalRule": "Linha horizontal",
+        "blockType": "Tipo de bloco",
+        "paragraph": "Parágrafo",
+        "heading1": "Cabeçalho 1",
+        "heading2": "Cabeçalho 2",
+        "heading3": "Cabeçalho 3"
       },
       "languageInfo": "O idioma será detectado automaticamente (suporta Inglês, Grego, Finlandês, Português e Tcheco)",
       "detectedLanguage": "Idioma detectado: {{language}}",
@@ -29,18 +36,31 @@
       "modelUsedFallback": "Modelo usado: {{model}} (modelo remoto indisponível devido à alta carga)",
       "analyze": "Analisar",
       "analyzing": "Analisando...",
-      "clear": "Limpar"
+      "clear": "Limpar",
+      "uploadPdf": "Carregar PDF"
     },
     "biasIndicators": {
-      "title": "Indicadores de Viés",
-      "noResults": "Nenhum indicador de viés encontrado. Analise o texto para ver os resultados.",
+      "title": "Problemas de Clareza",
+      "noResults": "Nenhum problema de clareza encontrado. Analise o texto para ver os resultados.",
       "analyzing": "Analisando texto...",
+      "dismiss": "Ignorar",
+      "restore": "Restaurar",
+      "enabled": "Ativa",
+      "disabled": "Desativada",
+      "disableCategory": "Desativar categoria",
+      "enableCategory": "Ativar categoria",
+      "toggleCategory": "A categoria {{category}} está {{state}}",
+      "categoryDisabled": "Categoria desativada",
+      "dismissCategory": "Ignorar todas",
+      "restoreCategory": "Restaurar todas",
       "detectedPhrase": "Frase detectada",
       "outdated": "Desatualizado",
       "popup": {
         "detectedPhrase": "Frase detectada:",
         "whyThisMatters": "Porque é que isto importa:",
-        "suggestedImprovement": "💡 Melhoria sugerida:"
+        "suggestedImprovement": "💡 Sugestão de esclarecimento:",
+        "status": "Estado:",
+        "categoryDisabled": "Esta categoria está desativada, por isso esta correspondência fica inativa até a categoria ser ativada novamente."
       },
       "cards": {
         "overgeneralizations": {
@@ -114,7 +134,7 @@
           "suggestedFix": "Considere usar um advérbio menos carregado ou não usar o advérbio."
         },
         "italicsBoldface": {
-          "title": "Viés de Formatação",
+          "title": "Formatação",
           "explanation": "O texto '{{phrase}}' está estilizado.",
           "suggestedFix": "Considere remover a formatação ou usá-la com mais moderação."
         },
@@ -178,29 +198,20 @@
     "sentiment": {
       "title": "Análise de Sentimento",
       "noResults": "A análise de sentimento não é suportada para este idioma.",
-      "analyzing": "Analisando texto...",
-      "showDetails": "Mostrar Detalhes",
-      "hideDetails": "Ocultar Detalhes",
-      "sentenceDetails": "Análise sentença por sentença",
-      "sentence": "Sentença {{number}}",
-      "confidence": "confiança",
+      "analyzing": "A análise de sentimento ainda está a carregar...",
       "sentimentInsight": "Insight de Sentimento",
       "conclusions": {
-        "positiveTrajectory": "O sentimento torna-se mais positivo ao longo do texto. Isto sugere uma construção em direção a uma conclusão positiva ou uma resolução da negatividade anterior.",
         "negativeTrajectory": "O sentimento torna-se mais negativo ao longo do texto. Isto pode influenciar a percepção do leitor, suavizando o impacto das informações negativas apresentadas posteriormente.",
-        "veryPositive": "O sentimento geral é muito positivo. Isto pode indicar uma falta de perspectiva crítica.",
-        "veryNegative": "O sentimento geral é muito negativo. Isto sugere uma falta de inclusão de outras perspectivas.",
-        "leansPositive": "O sentimento geral tende para o positivo. Considere equilibrar com pontos de vista mais neutros ou críticos.",
-        "leansNegative": "O sentimento geral tende para o negativo. Considere incorporar perspectivas mais positivas.",
-        "balanced": "O sentimento geral está bem equilibrado.",
         "noIssues": "Não foram detectados problemas significativos com o sentimento."
       },
+      "xAxis": {
+        "start": "Início do texto",
+        "end": "Fim do texto"
+      },
       "labels": {
-        "-2": "Muito Negativo",
         "-1": "Negativo",
         "0": "Neutro",
-        "1": "Positivo",
-        "2": "Muito Positivo"
+        "1": "Positivo"
       }
     },
     "error": {
@@ -215,20 +226,79 @@
       "popup": {
         "title": "Termo do Léxico",
         "detectedPhrase": "Frase do léxico detectada:",
-        "usageExample": "Exemplo de uso:"
+        "definition": "Definição:",
+        "usageExample": "Exemplo de uso:",
+        "searchLink": "Ver no Léxico Clarus"
       }
+    },
+    "sidebar": {
+      "title": "Resultados",
+      "biasCount": "{{count}} problemas de clareza",
+      "lexiconCount": "{{count}} termos do léxico",
+"sentimentTab": "Sentimento"
+    },
+    "llmAnalysis": {
+      "textTruncated": "O seu texto excede o limite de {{count}} palavras para análise de IA. Apenas as primeiras {{count}} palavras foram analisadas.",
+      "contextLengthExceeded": "O seu texto é demasiado longo para análise de IA, mesmo após encurtamento. Por favor, reduza o comprimento do texto e tente novamente."
+    },
+    "about": {
+      "title": "Sobre o Clarity Checker",
+      "close": "Fechar",
+      "openButton": "Sobre",
+      "limitations": {
+        "title": "Limitações",
+        "text": "Esta ferramenta foi concebida para destacar potenciais problemas de clareza e não constitui aconselhamento editorial, jurídico ou profissional. As deteções são automatizadas e podem produzir falsos positivos ou não detetar problemas genuínos. Os resultados devem ser analisados criticamente e destinam-se a ser um ponto de partida para reflexão, não uma avaliação definitiva."
+      },
+      "privacy": {
+        "title": "Privacidade",
+        "text": "O texto submetido para análise é processado exclusivamente para fornecer os resultados solicitados. Não partilhamos os seus dados com terceiros. O projeto está alojado na Universidade de Dundee. Ao utilizar o modelo 'Clarus', o seu texto permanece inteiramente na infraestrutura do próprio projeto. Ao utilizar o modelo 'Gemini', o seu texto é enviado para os servidores da Google para análise. Recomendamos a utilização do modelo 'Clarus' para texto sensível ou confidencial."
+      },
+      "logging": {
+        "title": "Registos",
+        "text": "Não registamos nem preservamos o conteúdo de nenhum pedido de utilizador. O texto submetido para análise não é armazenado, retido nem utilizado para qualquer finalidade além da produção dos seus resultados."
+      }
+    },
+    "footer": {
+      "funding": "Este projeto é cofinanciado pelo programa de investigação e inovação Horizonte Europa da União Europeia ao abrigo do acordo de subvenção n.º 101121182"
     },
     "loading": {
       "editor": "Carregando editor..."
     },
     "loadingPhrases": {
-      "analyzingBias": "Analisando indicadores de viés...",
+      "analyzingBias": "Analisando problemas de clareza...",
       "checkingLLM": "Verificando padrões de LLM...",
       "evaluatingSentiment": "Avaliando sentimento...",
       "analyzingEntities": "Analisando entidades nomeadas...",
       "analyzingStructure": "Analisando a estrutura do texto...",
       "lookingForDisparity": "Procurando por disparidade de sentimento...",
-      "lookingForPatterns": "Procurando por padrões comuns de viés..."
+      "lookingForPatterns": "Procurando por problemas comuns de clareza..."
+    },
+    "whitelist": {
+      "title": "Frases ignoradas",
+      "triggerLabel": "Frases ignoradas",
+      "empty": "Ainda não há frases ignoradas. Ignore-as na lista de problemas de clareza para que apareçam aqui.",
+      "clearAll": "Limpar tudo",
+      "clearAllCategories": "Ativar todas as categorias",
+      "added": "\"{{phrase}}\" adicionada às frases ignoradas e será ignorada em análises futuras",
+      "addedManual": "\"{{phrase}}\" adicionada às frases ignoradas. Analise novamente para aplicar.",
+      "removed": "\"{{phrase}}\" removida da lista de ignorados. Analise novamente para detectá-la.",
+      "cleared": "Todas as frases ignoradas foram limpas. Analise novamente para detectá-las.",
+      "removeSingle": "Remover \"{{phrase}}\" da lista de ignorados",
+      "inputPlaceholder": "Adicionar frase para ignorar...",
+      "detectedInText": "Ignoradas no texto atual",
+      "otherIgnored": "Outras frases ignoradas",
+      "noDetected": "Nenhuma frase ignorada encontrada no texto atual",
+      "filteredCount": "{{count}} frase(s) excluída(s) com base nas configurações de frases ignoradas",
+      "tabs": {
+        "phrases": "Frases",
+        "categories": "Categorias"
+      },
+      "categories": {
+        "empty": "Nenhuma categoria disponível.",
+        "detectedSection": "Detectadas no texto atual",
+        "otherSection": "Outras categorias",
+        "enableAllCleared": "Todas as categorias ativadas. Analise novamente para aplicar."
+      }
     }
   }
 }

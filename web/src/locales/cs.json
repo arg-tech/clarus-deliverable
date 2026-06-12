@@ -1,7 +1,7 @@
 {
   "translation": {
     "app": {
-      "title": "Analyzátor zaujatosti"
+      "title": "Clarity Checker"
     },
     "languages": {
       "en": "Angličtina",
@@ -12,8 +12,8 @@
       "label": "Jazyk:"
     },
     "model": {
-      "local": "Lokální",
-      "remote": "Vzdálený",
+      "local": "Clarus (hostováno projektem)",
+      "remote": "Gemini (hostováno Googlem)",
       "label": "Model:",
       "remoteWarning": "Vzdálené modely mohou odesílat vaše data externím poskytovatelům API"
     },
@@ -21,7 +21,14 @@
       "toolbar": {
         "bold": "Tučné",
         "italic": "Kurzíva",
-        "underline": "Podtržené"
+        "underline": "Podtržené",
+        "strikethrough": "Přeškrtnutí",
+        "horizontalRule": "Vodorovná čára",
+        "blockType": "Typ bloku",
+        "paragraph": "Odstavec",
+        "heading1": "Nadpis 1",
+        "heading2": "Nadpis 2",
+        "heading3": "Nadpis 3"
       },
       "languageInfo": "Jazyk bude automaticky detekován (podporuje angličtinu, řečtinu, finštinu, portugalštinu a češtinu)",
       "detectedLanguage": "Detekovaný jazyk: {{language}}",
@@ -29,18 +36,31 @@
       "modelUsedFallback": "Použitý model: {{model}} (vzdálený model není k dispozici kvůli vysoké zátěži)",
       "analyze": "Analyzovat",
       "analyzing": "Analyzuji...",
-      "clear": "Vymazat"
+      "clear": "Vymazat",
+      "uploadPdf": "Nahrát PDF"
     },
     "biasIndicators": {
-      "title": "Indikátory předpojatosti",
-      "noResults": "Nebyly nalezeny žádné indikátory předpojatosti. Analyzujte text, abyste viděli výsledky.",
+      "title": "Problémy s jasností",
+      "noResults": "Nebyly nalezeny žádné problémy s jasností. Analyzujte text, abyste viděli výsledky.",
       "analyzing": "Analyzuji text...",
+      "dismiss": "Ignorovat",
+      "restore": "Obnovit",
+      "enabled": "Aktivní",
+      "disabled": "Vypnutá",
+      "disableCategory": "Vypnout kategorii",
+      "enableCategory": "Zapnout kategorii",
+      "toggleCategory": "Kategorie {{category}} je {{state}}",
+      "categoryDisabled": "Kategorie je vypnutá",
+      "dismissCategory": "Ignorovat vše",
+      "restoreCategory": "Obnovit vše",
       "detectedPhrase": "Detekovaná fráze",
       "outdated": "Zastaralé",
       "popup": {
         "detectedPhrase": "Detekovaná fráze:",
         "whyThisMatters": "Proč na tom záleží:",
-        "suggestedImprovement": "💡 Navrhované vylepšení:"
+        "suggestedImprovement": "💡 Navrhované upřesnění:",
+        "status": "Stav:",
+        "categoryDisabled": "Tato kategorie je vypnutá, takže tento výskyt zůstává neaktivní, dokud kategorii znovu nezapnete."
       },
       "cards": {
         "overgeneralizations": {
@@ -114,7 +134,7 @@
           "suggestedFix": "Zvažte použití méně zabarveného příslovce nebo příslovce vůbec nepoužívejte."
         },
         "italicsBoldface": {
-          "title": "Zvýraznění formátováním",
+          "title": "Formátování",
           "explanation": "Text '{{phrase}}' je formátován.",
           "suggestedFix": "Zvažte odstranění formátování nebo jeho střídmější použití."
         },
@@ -178,29 +198,20 @@
     "sentiment": {
       "title": "Analýza sentimentu",
       "noResults": "Analýza sentimentu není pro tento jazyk podporována.",
-      "analyzing": "Analyzuji text...",
-      "showDetails": "Zobrazit podrobnosti",
-      "hideDetails": "Skrýt podrobnosti",
-      "sentenceDetails": "Analýza věta po větě",
-      "sentence": "Věta {{number}}",
-      "confidence": "spolehlivost",
+      "analyzing": "Analýza sentimentu se stále načítá...",
       "sentimentInsight": "Přehled sentimentu",
       "conclusions": {
-        "positiveTrajectory": "Sentiment se v průběhu textu stává pozitivnější. To naznačuje budování pozitivního závěru nebo řešení dřívější negativity.",
         "negativeTrajectory": "Sentiment se v průběhu textu stává negativnější. To by mohlo ovlivnit vnímání čtenáře, protože negativní informace jsou prezentovány později a jejich dopad je zmírněn.",
-        "veryPositive": "Celkový sentiment je velmi pozitivní. To by mohlo naznačovat nedostatek kritické perspektivy.",
-        "veryNegative": "Celkový sentiment je velmi negativní. To naznačuje nedostatek zahrnutí jiných perspektiv.",
-        "leansPositive": "Celkový sentiment se kloní k pozitivnímu. Zvažte vyvážení neutrálnějšími nebo kritickými pohledy.",
-        "leansNegative": "Celkový sentiment se kloní k negativnímu. Zvažte začlenění pozitivnějších perspektiv.",
-        "balanced": "Celkový sentiment je dobře vyvážený.",
         "noIssues": "Nebyly zjištěny žádné významné problémy se sentimentem."
       },
+      "xAxis": {
+        "start": "Začátek textu",
+        "end": "Konec textu"
+      },
       "labels": {
-        "-2": "Velmi negativní",
         "-1": "Negativní",
         "0": "Neutrální",
-        "1": "Pozitivní",
-        "2": "Velmi pozitivní"
+        "1": "Pozitivní"
       }
     },
     "error": {
@@ -215,20 +226,79 @@
       "popup": {
         "title": "Termín slovníku",
         "detectedPhrase": "Zjištěná fráze ze slovníku:",
-        "usageExample": "Příklad použití:"
+        "definition": "Definice:",
+        "usageExample": "Příklad použití:",
+        "searchLink": "Zobrazit v lexikonu Clarus"
       }
+    },
+    "sidebar": {
+      "title": "Výsledky",
+      "biasCount": "{{count}} problémů s jasností",
+      "lexiconCount": "{{count}} termínů slovníku",
+"sentimentTab": "Sentiment"
+    },
+    "llmAnalysis": {
+      "textTruncated": "Váš text překračuje limit {{count}} slov pro analýzu AI. Bylo analyzováno pouze prvních {{count}} slov.",
+      "contextLengthExceeded": "Váš text je příliš dlouhý pro analýzu AI, i po zkrácení. Prosím, zkraťte text a zkuste to znovu."
+    },
+    "about": {
+      "title": "O nástroji Clarity Checker",
+      "close": "Zavřít",
+      "openButton": "O nástroji",
+      "limitations": {
+        "title": "Omezení",
+        "text": "Tento nástroj je navržen k upozornění na možné problémy se srozumitelností a nepředstavuje redakční, právní ani odborné poradenství. Detekce jsou automatizované a mohou produkovat falešně pozitivní výsledky nebo přehlédnout skutečné problémy. Výsledky by měly být kriticky přezkoumány a slouží jako výchozí bod pro zamyšlení, nikoli jako definitivní hodnocení."
+      },
+      "privacy": {
+        "title": "Ochrana soukromí",
+        "text": "Text odeslaný k analýze je zpracováván výhradně za účelem poskytnutí požadovaných výsledků. Vaše data nesdílíme s žádnými třetími stranami. Projekt je hostován na University of Dundee. Při používání modelu 'Clarus' zůstává váš text zcela v rámci vlastní infrastruktury projektu. Při používání modelu 'Gemini' je váš text odesílán na servery společnosti Google k analýze. Pro citlivé nebo důvěrné texty doporučujeme používat model 'Clarus'."
+      },
+      "logging": {
+        "title": "Protokolování",
+        "text": "Neukládáme ani neuchováváme obsah žádných požadavků uživatelů. Text odeslaný k analýze není uložen, uchován ani použit k žádnému jinému účelu než k vytvoření vašich výsledků."
+      }
+    },
+    "footer": {
+      "funding": "Tento projekt je spolufinancován z programu Evropské unie pro výzkum a inovace Horizont Evropa na základě grantové dohody č. 101121182"
     },
     "loading": {
       "editor": "Načítám editor..."
     },
     "loadingPhrases": {
-      "analyzingBias": "Analyzuji indikátory předpojatosti...",
+      "analyzingBias": "Analyzuji problémy s jasností...",
       "checkingLLM": "Kontroluji vzory LLM...",
       "evaluatingSentiment": "Vyhodnocuji sentiment...",
       "analyzingEntities": "Analyzuji pojmenované entity...",
       "analyzingStructure": "Analyzuji strukturu textu...",
       "lookingForDisparity": "Hledám rozdíly v sentimentu...",
-      "lookingForPatterns": "Hledám běžné vzory předpojatosti..."
+      "lookingForPatterns": "Hledám běžné problémy s jasností..."
+    },
+    "whitelist": {
+      "title": "Ignorované fráze",
+      "triggerLabel": "Ignorované fráze",
+      "empty": "Zatím žádné ignorované fráze. Ignorujte je v seznamu problémů s jasností, aby se zde zobrazily.",
+      "clearAll": "Vymazat vše",
+      "clearAllCategories": "Povolit všechny kategorie",
+      "added": "\"{{phrase}}\" přidáno k ignorovaným frázím a bude přeskočeno v budoucích analýzách",
+      "addedManual": "\"{{phrase}}\" přidáno k ignorovaným frázím. Znovu analyzujte pro uplatnění.",
+      "removed": "\"{{phrase}}\" odebráno ze seznamu ignorovaných. Znovu analyzujte pro opětovnou detekci.",
+      "cleared": "Všechny ignorované fráze vymazány. Znovu analyzujte pro opětovnou detekci.",
+      "removeSingle": "Odebrat \"{{phrase}}\" ze seznamu ignorovaných",
+      "inputPlaceholder": "Přidat frázi k ignorování...",
+      "detectedInText": "Ignorovaná v aktuálním textu",
+      "otherIgnored": "Ostatní ignorované fráze",
+      "noDetected": "V aktuálním textu nebyly nalezeny žádné ignorované fráze",
+      "filteredCount": "{{count}} fráze(-í) vyloučeno na základě nastavení ignorovaných frází",
+      "tabs": {
+        "phrases": "Fráze",
+        "categories": "Kategorie"
+      },
+      "categories": {
+        "empty": "Nejsou k dispozici žádné kategorie.",
+        "detectedSection": "Nalezeno v aktuálním textu",
+        "otherSection": "Ostatní kategorie",
+        "enableAllCleared": "Všechny kategorie povoleny. Znovu analyzujte pro uplatnění."
+      }
     }
   }
 }

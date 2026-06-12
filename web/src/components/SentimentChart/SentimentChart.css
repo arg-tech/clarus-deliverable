@@ -2,146 +2,164 @@
 .sentiment-chart-container {
   width: 100%;
   height: auto;
-  margin-bottom: 50px;
-  background-color: #fff;
+  margin-bottom: 15px;
+  background-color: var(--sentiment-chart-bg);
+  border: 1px solid var(--border-subtle);
   padding: 15px 0px;
+  border-radius: 8px;
 }
 
 .sentiment-card {
-  background-color: #646cff;
+  background-color: transparent;
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  padding: 15px;
-  margin-bottom: 20px;
-}
-
-.sentiment-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 10px;
-}
-
-.sentiment-header h3 {
-  margin: 0;
-  font-size: 1.2rem;
-  color: #fff
-}
-
-.details-toggle-button {
-  background-color: #f5f5f5;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px 10px;
-  font-size: 0.8rem;
-  cursor: pointer;
-  color: #666;
-}
-
-.details-toggle-button:hover {
-  background-color: #e9e9e9;
-}
-
-.sentiment-details {
-  margin-top: 15px;
-  border-top: 1px solid #eee;
-  padding-top: 15px;
-}
-
-.sentiment-details h4 {
-  margin: 0 0 10px 0;
-  font-size: 1rem;
-  color: #fff;
-}
-
-.sentiment-list {
-  list-style: none;
   padding: 0;
-  margin: 0;
-  max-height: 300px;
-  overflow-y: auto;
-}
-
-.sentiment-item {
-  padding: 10px;
-  border-left: 4px solid transparent;
-  margin-bottom: 8px;
-  background-color: #f9f9f9;
-  color: black;
-  border-radius: 4px;
-}
-
-.sentiment-item.sentiment-very-negative {
-  border-left-color: #ff4444;
-}
-
-.sentiment-item.sentiment-negative {
-  border-left-color: #ff9c44;
-}
-
-.sentiment-item.sentiment-neutral {
-  border-left-color: #9e9e9e;
-}
-
-.sentiment-item.sentiment-positive {
-  border-left-color: #44c8ff;
-}
-
-.sentiment-item.sentiment-very-positive {
-  border-left-color: #44ff88;
-}
-
-.sentiment-sentence {
-  margin-bottom: 5px;
-  font-size: 0.9rem;
-}
-
-.sentiment-info {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.8rem;
-}
-
-.sentiment-label {
-  font-weight: bold;
-}
-
-.sentiment-confidence {
-  color: #777;
+  margin-bottom: 20px;
 }
 
 /* Sentiment Conclusions Card */
 .sentiment-conclusions {
-  margin-top: 15px;
-  padding-top: 15px;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.sentiment-conclusions h4 {
-  margin: 0 0 12px 0;
-  font-size: 1rem;
-  color: #fff;
+  margin-bottom: 15px;
 }
 
 .conclusion-item {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
-  background-color: #ff0;
-  border-radius: 6px;
+  background-color: var(--accent);
+  border-left: 4px solid var(--accent-hover);
+  border-radius: 8px;
   padding: 12px 15px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  color: white;
 }
 
 .conclusion-icon {
-  font-size: 1.2rem;
   flex-shrink: 0;
+  color: var(--accent-hover);
 }
 
 .conclusion-text {
-  color: #000;
+  color: var(--text-primary);
   font-size: 0.95rem;
   line-height: 1.4;
+}
+
+[data-theme="light"] .conclusion-item {
+  background-color: var(--bg-elevated);
+  border-left-color: var(--accent);
+  color: var(--text-primary);
+}
+
+[data-theme="light"] .conclusion-icon {
+  color: var(--accent);
+}
+
+/* Loading spinner */
+.sentiment-loading-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem 0;
+}
+
+.sentiment-loading-spinner .loader {
+  color: var(--text-secondary);
+}
+
+.sentiment-loading-spinner p {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Chart wrapper with expand button */
+.sentiment-chart-wrapper {
+  position: relative;
+}
+
+.chart-expand-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  opacity: 0;
+  z-index: 1;
+}
+
+.sentiment-chart-wrapper:hover .chart-expand-button {
+  opacity: 1;
+}
+
+.chart-expand-button:hover {
+  background-color: var(--accent-hover);
+  color: white;
+}
+
+/* Fullscreen modal */
+.sentiment-chart-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sentiment-chart-modal-content {
+  width: 70vw;
+  height: 60vh;
+  background: var(--bg-surface);
+  border-radius: 12px;
+  padding: 3rem 2rem 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sentiment-chart-modal-content .sentiment-chart-container {
+  flex: 1;
+  min-height: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sentiment-chart-modal-content canvas {
+  max-height: 100%;
+}
+
+.sentiment-chart-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  z-index: 1;
+}
+
+.sentiment-chart-modal-close:hover {
+  color: var(--text-primary);
+  background-color: var(--bg-elevated);
 }

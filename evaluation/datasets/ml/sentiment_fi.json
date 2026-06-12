@@ -1,0 +1,482 @@
+{
+  "indicator": "sentiment",
+  "language": "fi",
+  "samples": [
+    {
+      "text": "Hallituksen leikkauspäätökset ovat täysin tuhoisia koulutukselle. Tuhansilta nuorilta viedään mahdollisuus laadukkaaseen koulutukseen, ja tulevaisuuden osaajapula on väistämätön.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Oulun yliopistollisen sairaalan päivystys on täydessä kaaoksessa. Potilaat odottavat tuntikausia käytävillä eikä henkilökuntaa ole tarpeeksi. Tilanne on kestämätön.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Tuotteen laatu on suorastaan häpeällistä. Kahden päivän käytön jälkeen laite hajosi ja asiakaspalvelu kieltäytyi korvaamasta sitä. En ikinä enää osta tältä valmistajalta.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "On järkyttävää, että Itämeren saastuminen jatkuu vuosi vuodelta pahempana eikä kukaan tunnu ottavan vastuuta. Kokonainen ekosysteemi on tuhoutumassa silmiemme edessä.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Tampereen ratikkatyömaa on aiheuttanut katastrofaalisia vahinkoja keskustan yrittäjille. Kymmenet liikkeet ovat joutuneet sulkemaan ovensa, ja kaupunki vain kohauttaa olkapäitään.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Vanhusten hoivakotien tilanne on suorastaan epäinhimillinen. Alimiehitys, puutteellinen ravinto ja lääkkeiden jakaminen ilman valvontaa — tämä on häpeäksi koko yhteiskunnalle.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Korruptioepäilyt kuntapolitiikassa ovat vastenmielisiä. Miljoonia euroja on ohjattu tuttavien yrityksille samalla kun peruspalvelut rapautuvat.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Lapin matkailuyrittäjät ovat epätoivoisia lumettoman talven takia. Sesonki menetettiin kokonaan ja monet perheet menettävät elinkeinonsa.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Kemijärven sellutehtaan alasajo tuhosi koko seudun talouden. Sadat ihmiset jäivät työttömiksi eikä korvaavaa työtä ole näköpiirissä. Päättäjät hylkäsivät alueen täysin.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Koulujen sisäilmaongelmat Helsingissä ovat skandaali. Lapset sairastuvat, vanhemmat ovat raivoissaan ja kaupunki vain teettää selvitys toisensa perään tekemättä mitään konkreettista.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Tämä ravintola oli täydellinen pettymys. Ruoka oli kylmää, palvelu töykeää ja hinnat naurettavan korkeita siihen nähden mitä tarjottiin. Emme palaa tänne.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Lastensuojelun resurssipula on johtanut täysin kestämättömään tilanteeseen. Sosiaalityöntekijöillä on satoja asiakkaita eikä kukaan ehdi paneutua yhteenkään tapaukseen kunnolla.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Joensuun keskussairaalan päivystyksessä kuoli potilas odottaessaan hoitoa yli kahdeksan tuntia. Tällaista ei pitäisi tapahtua hyvinvointivaltiossa.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "VR:n lipunhinnat ovat pöyristyttäviä. Helsinki–Oulu-välin hinta on noussut kolmanneksella kahdessa vuodessa ilman minkäänlaista parannusta palvelussa.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Suomen metsäpolitiikka on täysi katastrofi. Avohakkuut tuhoavat luonnon monimuotoisuutta ja ilmastolle aiheutetaan peruuttamatonta vahinkoa voittojen nimissä.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Talvivaaran kaivoksen ympäristöpäästöt ovat aiheuttaneet mittaamatonta tuhoa lähialueen vesistöille. Vastuulliset tahot ovat välttäneet seuraukset vuosikausia.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Asunnottomuus Helsingissä on kasvanut hälyttävästi. Kymmenet ihmiset nukkuvat ulkona pakkasessa eikä kaupunki tarjoa riittävästi turvakotipaikkoja.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "On suorastaan rikollista, miten rakennusyhtiöt ovat laiminlyöneet kosteusvaurioiden korjaamista ja myyneet hometaloja tietoisesti uusille asukkaille.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Pohjois-Karjalan teiden kunto on surkea. Kuopat ja routavauriot tekevät ajamisesta vaarallista eikä ELY-keskus reagoi valituksiin millään tavalla.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Mielenterveyspalvelujen saatavuus on romahtanut täysin. Nuoret odottavat hoitoon pääsyä kuukausia samalla kun tilanteet kriisiytyvät. Tämä on inhimillinen tragedia.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Viime vuosineljänneksen tulokset jäivät selvästi odotuksista, ja liikevaihdon lasku huolestuttaa sijoittajia.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Julkisen liikenteen laatu Turussa on heikentynyt viime aikoina. Bussit myöhästelevät jatkuvasti ja vuorovälit ovat liian pitkät erityisesti iltaisin.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Eläkeuudistus on pettymys monille eläkeläisille. Luvatut korotukset ovat käytännössä mitättömiä eivätkä kata edes elinkustannusten nousua.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Seminaari Aalto-yliopistolla oli melko pettymys. Puhujat toistivat tunnettuja asioita eikä uusia näkökulmia juurikaan esitetty.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Hotelli Rovaniemellä ei vastannut kuvausta. Huone oli vanhanaikainen, aamiainen keskinkertainen ja siihen hintaan odotin huomattavasti enemmän.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Satokaudet Pohjanmaalla ovat heikentyneet kuivuuden vuoksi ja monet maanviljelijät raportoivat merkittävistä tappioista.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Lääkäriin pääsy terveyskeskuksissa kestää Espoossa liian kauan. Tavalliseen vastaanottoaikaan on varattava viikkoja etukäteen.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "HSL nosti lipunhintoja jälleen, vaikka junat ovat ahtaita ja ilmastointi ei toimi kunnolla kesähelteillä.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Uudisrakentaminen Jätkäsaaressa häiritsee asukkaiden arkea. Meluhaitat jatkuvat aamusta iltaan ja pöly leviää kaikkialle.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Kirjan käännös menetti paljon alkuperäisteoksen vivahteista. Paikoin teksti on kömpelöä ja virheet häiritsevät lukemista.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Kuopion tori-infostehtaan saneeraus on viivästynyt jo toista vuotta ja budjetti on ylittynyt merkittävästi.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Mobiilisovellus on täynnä virheitä ja kaatuu jatkuvasti. Asiakaspalveluun on mahdotonta saada yhteyttä.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Kotkan sataman liikenne on vähentynyt huolestuttavasti ja alueen työpaikkojen tulevaisuus on epävarma.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Teatteriesityksen näyttelijätyö oli pätevää, mutta käsikirjoitus oli heikko eikä ohjaus onnistunut pitämään yleisön mielenkiintoa yllä.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Sähkön hinta on noussut rajusti ja monilla kotitalouksilla on vaikeuksia maksaa talven energialaskuja.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Liikuntapaikkojen kunto Vantaalla on heikentynyt selvästi. Kentät ovat huonokuntoisia ja pukuhuoneiden siisteys jättää paljon toivomisen varaa.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Nuorisotyöttömyys Kainuussa pysyy korkeana ja monet vastavalmistuneet joutuvat muuttamaan työn perässä etelään.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Lentoyhteyksien heikkeneminen Vaasasta on ongelma alueen yrityksille, jotka tarvitsevat säännöllisiä yhteyksiä pääkaupunkiseudulle.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Kesämökin vuokranantaja ei pitänyt lupauksiaan. Sauna ei toiminut, laituri oli rikki ja vene vuoti.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Opiskelijat valittavat vanhentuneista opetussuunnitelmista, jotka eivät vastaa työelämän nykyvaatimuksia eikä opetuksessa hyödynnetä uusimpia menetelmiä.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Suomen jääkiekkomaajoukkue hävisi ottelun, joka olisi pitänyt voittaa selvästi. Peli oli ideatonta ja puolustus teki turhia virheitä.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Terveydenhuollon uudistus ei ole tuonut luvattuja parannuksia ja hoitojonot ovat edelleen pitkiä useilla hyvinvointialueilla.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Verkkokaupan toimitus viivästyi kahdella viikolla eikä seurantatietoja ollut saatavilla. Asiakaspalvelu ei osannut auttaa.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "S-ryhmän vuokratyöntekijöiden kohtelu on herättänyt arvostelua. Palkat ovat matalia ja työvuorot epäsäännöllisiä.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Raskaan liikenteen aiheuttamat vauriot valtatie 5:llä Mikkelin kohdalla tekevät ajamisesta epämukavaa ja paikoin vaarallista.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Tietoturvaloukkaus koski yli sataatuhatta suomalaista, ja yrityksen reagointi tilanteeseen oli hidas ja puutteellinen.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Festivaalialueen järjestelyt olivat sekavat ja parkkipaikoilta oli pitkä matka päälavalle. Ä��nentoisto petti useaan otteeseen.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Postin jakelussa on ollut jatkuvia ongelmia Pirkanmaalla. Kirjeet ja paketit saapuvat viikkojen viiveellä eikä reklamaatioihin vastata.",
+      "expected_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Eduskunnan täysistunnossa keskusteltiin t��nään ensi vuoden talousarvioesityksestä. Äänestys on odotettavissa perjantaina.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Tilastokeskuksen mukaan Suomen väkiluku oli vuoden lopussa noin 5,6 miljoonaa asukasta.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "EU:n uusi tekoälysääntely tulee voimaan ensi vuoden alussa ja koskee kaikkia jäsenmaita.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Juna Helsingistä Tampereelle lähtee raiteelta neljä kello 8.15 ja matka kestää noin puolitoista tuntia.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Yritys toimii tällä hetkellä viidessä Euroopan maassa ja työllistää noin kolmetuhatta henkilöä.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Tutkimuksessa tarkasteltiin miesten ja naisten palkkaeroja eri toimialoilla Suomessa viimeisen vuosikymmenen aikana.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Suomen Pankin mukaan kuluttajahintaindeksi nousi vuositasolla 2,4 prosenttia maaliskuussa, mikä vastaa analyytikkojen ennusteita.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Tampereen kaupunginvaltuusto hyväksyi ensi vuoden talousarvion. Suurin yksittäinen menoerä on sosiaali- ja terveyspalvelut.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Ilmatieteen laitos ennustaa viikonlopulle noin viidentoista asteen lämpötiloja ja ajoittaista pilvisyyttä.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Väestönlaskennan mukaan Helsingissä asuu yli 660 000 asukasta. Kaupungin kasvu johtuu pääasiassa muuttoliikkeestä.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Turun yliopisto tarjoaa tällä hetkellä yli viisikymmentä kandidaattiohjelmaa ja lähes seitsemänkymmentä maisteriohjelmaa.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Ulkomaankaupan volyymi kasvoi kolmannella vuosineljänneksellä viisi prosenttia. Saksa on edelleen Suomen tärkein kauppakumppani.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Uusiutuvan energian konferenssi järjestetään marraskuun 12.–13. päivä Helsingin Messukeskuksessa. Tilaisuuteen odotetaan yli tuhatta osallistujaa.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Lentokentän laajennushankkeen rakennustyöt alkavat toisella vuosipuoliskolla ja kestävät arviolta kolme vuotta.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Maataloustukien haku avautuu maaliskuussa Ruokaviraston verkkopalvelussa. Hakuaika päättyy huhtikuun lopussa.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Oulun kaupunki tiedotti, että jätteiden keräyspäiviä muutetaan kesäkaudella aamukuudesta alkaviksi.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Keskilämpötila tammikuussa oli Etelä-Suomessa noin viisi astetta pakkasen puolella, mikä vastaa ajankohdan keskiarvoa.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Opetus- ja kulttuuriministeriö julkaisi selvityksen korkeakoulujen rahoitusmallin uudistamisesta. Lausuntokierros päättyy toukokuussa.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Sodankylän elokuvajuhlien kilpailusarjaan valittiin tänä vuonna yksitoista elokuvaa kahdeksasta maasta.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "KELA käsitteli viime vuonna yli kaksi miljoonaa hakemusta. Keskimääräinen käsittelyaika oli kolmekymmentä päivää.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Sähkönkulutus kasvoi Suomessa ensimmäisellä vuosineljänneksellä kaksi prosenttia verrattuna edellisvuoteen, mikä selittyy osin kylmemmällä talvella.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Terveyden ja hyvinvoinnin laitos julkaisi uudet suositukset influenssarokotuksista tulevalle syyskaudelle.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Savonlinnan oopperajuhlien liput tulevat myyntiin helmikuussa. Pääproduktiona esitetään tänä vuonna Aida.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Valtioneuvoston kanslia ilmoitti, että pääministerin ja Viron presidentin tapaaminen pidetään tiistaina Helsingissä.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Metsähallituksen mukaan kansallispuistoissa vieraili viime vuonna ennätykselliset 4,5 miljoonaa kävijää.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Pohjois-Pohjanmaan maakuntakaavan päivitys etenee suunnitelman mukaisesti. Seuraava kuulemistilaisuus on kesäkuussa.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Vaalipiirikohtaiset ehdokaslistat europarlamenttivaaleissa julkaistaan huhtikuun alussa oikeusministeriön verkkosivuilla. Ehdokkaita on yhteensä lähes kaksituhatta.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Suomen metsäteollisuuden vienti muodostaa noin viidenneksen maan kokonaisviennistä, ja päämarkkinat ovat Euroopassa ja Aasiassa.",
+      "expected_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Uusi pyörätie Helsingin Kalasatamasta Pasilaan on saanut paljon käyttäjiä, mikä on myönteinen merkki kaupunkiliikenteen kehitykselle.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Suomalainen elokuva sai lämpimän vastaanoton Berliinin elokuvajuhlilla ja levityssopimus solmittiin useisiin maihin.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Vapaaehtoistyön kampanja keräsi viikonloppuna yli kolmesataa osallistujaa, mikä ylitti järjestäjien odotukset selvästi.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Hotellilla on siistit huoneet ja monipuolinen aamiainen. Hyvä valinta Tampereen keskustassa vieraileville.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Suomalaisen musiikin vienti kasvoi kahdeksan prosenttia edellisvuoteen verrattuna ja kansainvälinen kiinnostus on vahvassa nousussa.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Asiakaspalvelu toimi moitteettomasti ja ongelma ratkesi nopeasti. Olen tyytyväinen saamaani palveluun.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Jyväskylän uusi liikuntapuisto tarjoaa monipuoliset harrastusmahdollisuudet ja lähialueen perheet ovat ottaneet sen ilolla vastaan.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Kirjamessut Helsingissä keräsivät tänä vuonna ennätysmäärän kävijöitä, ja erityisesti kotimaisten kirjailijoiden osastot kiinnostivat yleisöä.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Turun saaristoreitin kunnostus on tuonut uusia retkeilymahdollisuuksia, jotka ovat saaneet hyvää palautetta matkailijoilta.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Pk-yritysten tukiohjelma on auttanut jo yli tuhatta yritystä, mikä on edistänyt alueellista elinkeinotoimintaa.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Työpaja Oulun yliopistolla oli hyödyllinen ja kouluttajat osoittivat syvällistä asiantuntemusta aiheesta. Suosittelen alan toimijoille.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Tutkimusryhmän tulokset julkaistiin arvostetussa tieteellisessä lehdessä, mikä vahvistaa suomalaisen tutkimuksen hyvää mainetta.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Uusi leipomo Porvoon vanhassa kaupungissa tarjoaa erinomaista ruisleipää kohtuulliseen hintaan. Kannattaa käydä.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Kouvolan rautatieaseman remontti valmistui aikataulussa ja uudet tilat ovat valoisat ja viihtyisät.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Suomalainen cleantech-yritys pärjäsi hyvin kansainvälisessä kilpailussa ja sai useita uusia asiakkaita Euroopasta.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Peruskoulujen ruokailun laatu on parantunut monissa kunnissa, ja oppilaat ovat tyytyväisempiä tarjontaan kuin aiemmin.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Rokotuskampanja eteni tehokkaasti koko maassa ja valtaosa väestöstä osallistui ilman ongelmia.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Lahden uusi taidemuseo on viihtyisä ja näyttelyt ovat monipuolisia. Hyvä lisä alueen kulttuuritarjontaan.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Hämeenlinnan kaupunginkirjaston laajennus tuo asukkaille uusia tiloja opiskeluun ja tapahtumille.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Suomalaisten patenttihakemusten määrä kasvoi merkittävästi viime vuonna, mikä kertoo innovaatiotoiminnan vahvistumisesta.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Rauman vanhan kaupungin ravintolat tarjoavat maukasta paikallista ruokaa ja viihtyisän tunnelman. Etenkin kalakeitto oli erinomaista.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Yhteistyö suomalaisten yliopistojen ja teknologiayritysten välillä on tuottanut hyviä tuloksia osaajien kouluttamisessa.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Lappeenrannan kaupunginteatterin uusi näytelmä sai yleisöltä lämpimän vastaanoton ja näyttelijätyö oli vakuuttavaa.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Suomen jääkiekkomaajoukkue voitti maailmanmestaruuden upealla esityksellä, joka sai koko kansan juhlimaan. Historiallinen saavutus!",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "On poikkeuksellista, miten tämä järjestö on auttanut heikoimmassa asemassa olevia. Inspiroiva esimerkki yhteisvastuusta ja ihmisyydestä.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Helsingin yliopiston tutkijat saavuttivat läpimurron syöpähoidossa, joka voi pelastaa tuhansia ihmishenkiä vuosittain. Mahtava saavutus suomalaiselle tieteelle.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Konsertti Musiikkitalossa oli unohtumaton elämys. Orkesteri ylitti itsensä ja yleisö osoitti suosiotaan seisaaltaan useita minuutteja.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Suomi valittiin jälleen maailman onnellisimmaksi maaksi — ansaittu tunnustus, joka kertoo yhteiskunnan vahvuuksista ja kansalaisten hyvinvoinnista.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Suomalainen startup voitti Euroopan suurimman innovaatiokilpailun. Huikea saavutus, joka osoittaa kotimaisen osaamisen olevan maailman huipputasoa.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Nuijamaan raja-aseman uudistus on loistava onnistuminen. Modernit tilat, sujuva liikenne ja ystävällinen henkilökunta tekevät rajanylityksestä vaivatonta.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Saariselän luonto on henkeäsalpaavan kaunis. Revontulet, tunturimaisemat ja täydellinen hiljaisuus — tämä oli elämämme paras matka.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Vapaaehtoisten työ tulvien aikana oli sankarillista. Sadat ihmiset pelastivat henkiä ja auttoivat jälleenrakentamaan yhteisöjä valtavalla sydämellä.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Naantalin kylpylä on upea perhelomakohde. Lapsille riittää tekemistä, tilat ovat erinomaiset ja henkilökunta on aidosti ystävällistä.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Savonlinnan oopperajuhlat ylittivät kaikki odotukset. Maailmanluokan taiteilijat, täydelliset puitteet ja unohtumaton tunnelma alusta loppuun.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Suomalainen muotoilija voitti arvostetun kansainvälisen designpalkinnon. Upea tunnustus suomalaiselle luovuudelle ja osaamiselle.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Uusi lastensairaala Helsingissä on arkkitehtoninen mestariteos. Loistavat tilat, huippumoderni tekniikka ja lämmin ympäristö, joka tuo lohtua perheille.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Marjasato Lapissa oli tänä vuonna ennätyksellinen. Mustikanpoimijat ovat innoissaan ja paikallisten jalostajien varastot täyttyvät laadukkaasta raaka-aineesta.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Kalevan kisojen yleisurheiluviikonloppu oli fantastinen. Kotimaiset urheilijat rikkoivat ennätyksiä ja stadionilla vallitsi uskomaton tunnelma.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Turun joulumarkkinat olivat tänä vuonna upeat. Käsityöläisten tuotteet, herkullinen glögi ja elävä musiikki loivat täydellisen joulutunnelman.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Suomalainen tutkimusryhmä sai ennätyssuuren EU-rahoituksen kvanttiteknologian hankkeeseen. Valtava menestys kotimaiselle tieteelle.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Flow-festivaali Helsingissä oli elämyksellinen kokemus alusta loppuun. Huippuartistit, erinomainen organisointi ja unohtumaton viikonloppu.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Aurinkoenergiayhteisö Seinäjoella on valtava menestys. Perheiden sähkölaskut pienenivät puolella ja hanke on esimerkkinä koko Euroopalle.",
+      "expected_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Oodi-kirjasto Helsingissä on uskomaton. Avoimet tilat, moderni arkkitehtuuri ja monipuoliset palvelut tekevät siitä kaupunkilaisten suosikin.",
+      "expected_sentiment": "POSITIVE"
+    }
+  ]
+}

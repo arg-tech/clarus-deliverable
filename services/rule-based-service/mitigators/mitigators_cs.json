@@ -1,14 +1,10 @@
 {
   "Degree_Modifiers": [
-    "poněkud",
-    "trochu",
     "trošku",
     "troška",
     "celkem",
     "relativně",
-    "mírně",
     "rozumně",
-    "lehce",
     "minimálně",
     "marginálně",
     "sotva",
@@ -19,13 +15,8 @@
     "omezeně"
   ],
   "Approximators": [
-    "téměř",
-    "skoro",
     "prakticky",
     "v podstatě",
-    "zhruba",
-    "přibližně",
-    "asi",
     "plus mínus",
     "více méně"
   ],
@@ -42,8 +33,6 @@
     "bezesporu"
   ],
   "Limiters": [
-    "částečně",
-    "zčásti",
     "z velké části",
     "do určitého bodu",
     "ne úplně",
@@ -57,15 +46,11 @@
     "většinou",
     "inklinují k",
     "sklonni k",
-    "pravděpodobně",
     "zdá se že",
     "vypadá že",
     "spíše ano než ne"
   ],
   "Minimizers": [
-    "jen",
-    "pouze",
-    "jenom",
     "nic víc než",
     "ne víc než",
     "maximálně",
@@ -73,27 +58,18 @@
     "málo víc než"
   ],
   "Modal_Verbs": [
-    "mohlo by",
-    "může",
     "by mohlo",
     "by mělo",
     "mělo by",
     "mohlo"
   ],
   "Modal_Adverbs": [
-    "možná",
-    "pravděpodobně",
-    "snad",
-    "potenciálně",
-    "třeba",
     "myslitelně",
     "předpokládám",
-    "zřejmě",
     "zdánlivě",
     "údajně",
     "bezesporu",
     "zdá se",
-    "možná má",
     "zdá se naznačovat"
   ],
   "Politeness_Mitigators": [

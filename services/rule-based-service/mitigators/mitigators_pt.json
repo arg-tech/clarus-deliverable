@@ -1,7 +1,5 @@
 {
   "Degree_Modifiers": [
-    "um pouco",
-    "ligeiramente",
     "meio",
     "meio que",
     "razoavelmente",
@@ -13,26 +11,18 @@
     "marginalmente",
     "mal",
     "quase não",
-    "por pouco",
-    "até certo ponto",
     "em certa medida",
     "de forma limitada"
   ],
   "Approximators": [
-    "quase",
-    "praticamente",
     "virtualmente",
     "basicamente",
-    "grosso modo",
-    "aproximadamente",
-    "mais ou menos",
     "por aí",
     "pra mais ou pra menos"
   ],
   "Hedges_Softening": [
     "meio que",
     "tipo assim",
-    "de certa forma",
     "em alguns aspectos",
     "por assim dizer",
     "digamos assim",
@@ -42,10 +32,7 @@
     "sem dúvida"
   ],
   "Limiters": [
-    "parcialmente",
-    "em parte",
     "na maior parte",
-    "até certo ponto",
     "não totalmente",
     "não completamente",
     "não inteiramente",
@@ -58,15 +45,9 @@
     "normalmente",
     "inclinados a",
     "propensos a",
-    "provavelmente",
-    "parece que",
-    "aparenta que",
     "mais provável que não"
   ],
   "Minimizers": [
-    "apenas",
-    "só",
-    "somente",
     "nada mais que",
     "não mais que",
     "no máximo",
@@ -74,18 +55,9 @@
     "pouco mais que"
   ],
   "Modal_Verbs": [
-    "poderia",
-    "pode",
-    "podia",
-    "deveria",
-    "deve",
     "seria"
   ],
   "Modal_Adverbs": [
-    "possivelmente",
-    "provavelmente",
-    "talvez",
-    "potencialmente",
     "pode ser",
     "concebivelmente",
     "presumivelmente",
@@ -94,7 +66,6 @@
     "supostamente",
     "sem dúvida",
     "aparentemente",
-    "pode ter",
     "parece sugerir"
   ],
   "Politeness_Mitigators": [

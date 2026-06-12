@@ -1,40 +1,61 @@
 """
 Usage:
-    python services/sentiment-service/infer_sentiment_scores.py --sent "That is brilliant and great" 
+    python services/sentiment-service/infer_sentiment_scores.py --sent "That is brilliant and great"
 """
 
 import argparse
 from transformers import pipeline
 import os
 
-MODEL = "tabularisai/multilingual-sentiment-analysis"
+DEFAULT_MODEL = "tabularisai/multilingual-sentiment-analysis"
 
-clf = None
+_pipeline = None
+
 
 def load_model():
-    global clf, MODEL
-    print("⏳ Loading embedding model and classifier …", flush=True)
-    clf = pipeline(
+    global _pipeline
+    print(f"⏳ Loading model {DEFAULT_MODEL} …", flush=True)
+    _pipeline = pipeline(
         task="sentiment-analysis",
-        model="tabularisai/multilingual-sentiment-analysis",
+        model=DEFAULT_MODEL,
     )
 
-def run_inference(sentence):
-    global clf
+
+LABEL_COLLAPSE = {
+    "Very Negative": "Negative",
+    "Very Positive": "Positive",
+}
+
+
+def normalize_label(label: str) -> str:
+    return label.replace("_", " ").strip().title()
+
+
+def collapse_label(label: str) -> str:
+    normalized_label = normalize_label(label)
+    return LABEL_COLLAPSE.get(normalized_label, normalized_label)
+
+
+def run_inference(sentence, language="en"):
+    clf = _pipeline
     result = clf(sentence)[0]
-    label = result["label"]  # Will be one of 5 classes: VERY NEGATIVE, NEGATIVE, NEUTRAL, POSITIVE, VERY POSITIVE
+    raw_label = normalize_label(result["label"])
+    label = collapse_label(raw_label)
     score = result["score"]
 
-    return label, score
+    return label, score, raw_label
 
-def main(args):    
+
+def main(args):
     load_model()
 
-    label, prob = run_inference(args.sent)
+    label, prob, _ = run_inference(args.sent, args.lang)
 
     print(f"➜  {args.sent}\n   ⇒ {label}  (p={prob:.2%})")
+
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--sent", required=True, help="Sentence to classify")
+    ap.add_argument("--lang", default="en", help="Language code (e.g., en, el)")
     main(ap.parse_args())

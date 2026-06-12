@@ -6,12 +6,21 @@ import re, time, os, json
 import asyncio
 from typing import TypedDict, List, Any
 from pathlib import Path
-from openai import AsyncOpenAI
+from openai import AsyncOpenAI, BadRequestError
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = FastAPI()
+
+WORD_LIMITS = [3200, 2500]
+
+def is_context_length_error(exc: Exception) -> bool:
+    """Check if an exception is a context length exceeded error from vLLM/OpenAI."""
+    if isinstance(exc, BadRequestError):
+        msg = str(exc).lower()
+        return "context length" in msg or "maximum context" in msg
+    return False
 
 LLM_URL = os.getenv('LLM_URL', 'http://localhost:8000')
 LLM_API_KEY = Path('/run/secrets/LLM_API_KEY.txt').read_text().strip() if Path('/run/secrets/LLM_API_KEY.txt').exists() else None
@@ -178,14 +187,14 @@ def extract_json_from_response(response_content: str) -> List[str]:
 @app.post("/analyze_oversimplified_comparison")
 async def analyze_oversimplified_comparison(request: TextAnalysisRequest) -> dict[str, Any]:
     llm_response = await analyze_text_with_llm(f"""/no_think Analyze the following paragraph and return a JSON list of phrases that use oversimplified comparisons.
-                                            Instructions:
-                                            All phrases returned must be found in the text. If none are found, return an empty JSON array. Only include phrases that definitely fit the criteria.
-                                            Identify: Locate phrases that use analogies or comparisons that oversimplify complex situations by ignoring important nuances.
-                                            Example: "a dog in the manger" - this describes a complex person's actions in a way that ignores underlying reasons.
-                                            Keywords: Look for idiomatic expressions, animal comparisons, or object analogies that may signal bias by oversimplifying.
-                                            Format: The final output must be a single JSON array containing only the extracted phrases (not full sentences) as string elements.
-                                            Paragraph: {request.text}
-                                        """, model_to_use=request.model_to_use)
+Instructions:
+All phrases returned must be found in the text. If none are found, return an empty JSON array. Only include phrases that definitely fit the criteria.
+Identify: Locate phrases that use analogies or comparisons that oversimplify complex situations by ignoring important nuances.
+Example: "a dog in the manger" - this describes a complex person's actions in a way that ignores underlying reasons.
+Keywords: Look for idiomatic expressions, animal comparisons, or object analogies that may signal bias by oversimplifying.
+Format: The final output must be a single JSON array containing only the extracted phrases (not full sentences) as string elements.
+Paragraph: {request.text}
+""", model_to_use=request.model_to_use)
     return {
         "bias_indicators": [
             BiasIndicatorResult(
@@ -199,14 +208,14 @@ async def analyze_oversimplified_comparison(request: TextAnalysisRequest) -> dic
 @app.post("/analyze_referential_ambiguity")
 async def analyze_referential_ambiguity(request: TextAnalysisRequest) -> dict[str, Any]:
     llm_response = await analyze_text_with_llm(f"""/no_think Analyze the following paragraph and return a JSON list of phrases that use vague references (e.g., 'those people') that can signal bias.
-                                            Instructions:
-                                            All phrases returned must be found in the text. If none are found, return an empty JSON array. Only include phrases that definitely fit the criteria.
-                                            Identify: Locate phrases that use vague references (e.g., 'those people') that can signal bias.
-                                            Example: "Those people never cooperate with the process." In this example, "Those people" is vague and could signal bias.
-                                            Keywords: Look for general pronouns like Those, Their, They that make the identity vague.
-                                            Format: The final output must be a single JSON array containing only the extracted phrases (not full sentences) as string elements.
-                                            Paragraph: {request.text}
-                                        """, model_to_use=request.model_to_use)
+Instructions:
+All phrases returned must be found in the text. If none are found, return an empty JSON array. Only include phrases that definitely fit the criteria.
+Identify: Locate phrases that use vague references (e.g., 'those people') that can signal bias.
+Example: "Those people never cooperate with the process." In this example, "Those people" is vague and could signal bias.
+Keywords: Look for general pronouns like Those, Their, They that make the identity vague.
+Format: The final output must be a single JSON array containing only the extracted phrases (not full sentences) as string elements.
+Paragraph: {request.text}
+""", model_to_use=request.model_to_use)
     return {
         "bias_indicators": [
             BiasIndicatorResult(
@@ -220,15 +229,15 @@ async def analyze_referential_ambiguity(request: TextAnalysisRequest) -> dict[st
 @app.post("/analyze_subordinate_clauses")
 async def analyze_subordinate_clauses(request: TextAnalysisRequest) -> dict[str, Any]:
     llm_response = await analyze_text_with_llm(f"""/no_think Analyze the following paragraph and return a JSON list of sentences that contain a subordinate clause used to diminish a main clause within the same sentence.
-                                            Instructions:
-                                            All phrases returned must be found in the text. If none are found, return an empty JSON array. Only include phrases that definitely fit the criteria.
-                                            Identify: Locate sentences where a subordinate clause downplays, minimizes, or contrasts with the primary idea of the main clause.
-                                            Do not include: Sentences where subordinate clauses simply add information without diminishing the main clause.
-                                            Example: "Although the weather was poor, we had a fantastic time." In this example, "Although the weather was poor" diminishes the potential negative impact of the main clause, "we had a fantastic time."
-                                            Keywords: Sentences with this structure often include words like although, even though, while, despite, and in spite of.
-                                            Format: The final output must be a single JSON array containing only the extracted sentences as string elements.
-                                            Paragraph: {request.text}
-                                        """, model_to_use=request.model_to_use)
+Instructions:
+All phrases returned must be found in the text. If none are found, return an empty JSON array. Only include phrases that definitely fit the criteria.
+Identify: Locate sentences where a subordinate clause downplays, minimizes, or contrasts with the primary idea of the main clause.
+Do not include: Sentences where subordinate clauses simply add information without diminishing the main clause.
+Example: "Although the weather was poor, we had a fantastic time." In this example, "Although the weather was poor" diminishes the potential negative impact of the main clause, "we had a fantastic time."
+Keywords: Sentences with this structure often include words like although, even though, while, despite, and in spite of.
+Format: The final output must be a single JSON array containing only the extracted sentences as string elements.
+Paragraph: {request.text}
+""", model_to_use=request.model_to_use)
     return {
         "bias_indicators": [
             BiasIndicatorResult(
@@ -245,19 +254,19 @@ async def analyze_double_entendres(request: TextAnalysisRequest) -> dict[str, An
         return {"bias_indicators": [], "model_used": ""}
     
     llm_response = await analyze_text_with_llm(f"""/no_think Analyze the following paragraph and return a JSON list of phrases that use Double Entendres (phrases with two meanings, where one is literal and the other figurative, and the figurative meaning could signal bias by implying judgment, violence, or moral failing).
-                                            Instructions:
-                                            All phrases returned must be found in the text. If none are found, return an empty JSON array. Only include phrases that definitely fit the criteria.
-                                            Identify: Locate phrases that are true double entendres - words or short phrases with dual interpretations, one innocent/figurative and one potentially biased/literal.
-                                            Do NOT include: Simple metaphors, idioms without dual meanings, or phrases that are only figurative.
-                                            Example: "The defendant made a killing in the weeks before the crime." "Made a killing" means earned money (figurative) or literally killed (biased literal).
-                                            2nd example: "The investigation revealed the victim was no angel." "No angel" means not innocent (figurative) or literally not an angel (biased implication of moral failing).
-                                            3rd example: "The defendant was dying to get rid of the evidence." "Dying" means eager (figurative) or literally dying (biased implication).
-                                            Greek example: "ένοχος σαν διάβολο" - "guilty as the devil" means morally guilty (figurative) or literally devil-like (biased).
-                                            Another Greek example: "σφάξει την αξιοπιστία" - "butcher the credibility" means destroy (figurative) or literally slaughter (biased violence implication).
-                                            Keywords: Look for puns, metaphors with literal undertones that could imply bias (e.g., guilt, death, evil).
-                                            Format: The final output must be a single JSON array containing only the extracted phrases (not full sentences) as string elements.
-                                            Paragraph: {request.text}
-                                            """, model_to_use=request.model_to_use)
+Instructions:
+All phrases returned must be found in the text. If none are found, return an empty JSON array. Only include phrases that definitely fit the criteria.
+Identify: Locate phrases that are true double entendres - words or short phrases with dual interpretations, one innocent/figurative and one potentially biased/literal.
+Do NOT include: Simple metaphors, idioms without dual meanings, or phrases that are only figurative.
+Example: "The defendant made a killing in the weeks before the crime." "Made a killing" means earned money (figurative) or literally killed (biased literal).
+2nd example: "The investigation revealed the victim was no angel." "No angel" means not innocent (figurative) or literally not an angel (biased implication of moral failing).
+3rd example: "The defendant was dying to get rid of the evidence." "Dying" means eager (figurative) or literally dying (biased implication).
+Greek example: "ένοχος σαν διάβολο" - "guilty as the devil" means morally guilty (figurative) or literally devil-like (biased).
+Another Greek example: "σφάξει την αξιοπιστία" - "butcher the credibility" means destroy (figurative) or literally slaughter (biased violence implication).
+Keywords: Look for puns, metaphors with literal undertones that could imply bias (e.g., guilt, death, evil).
+Format: The final output must be a single JSON array containing only the extracted phrases (not full sentences) as string elements.
+Paragraph: {request.text}
+""", model_to_use=request.model_to_use)
     return {
         "bias_indicators": [
             BiasIndicatorResult(
@@ -271,15 +280,15 @@ async def analyze_double_entendres(request: TextAnalysisRequest) -> dict[str, An
 @app.post("/analyze_tag_questions")
 async def analyze_tag_questions(request: TextAnalysisRequest) -> dict[str, Any]:    
     llm_response = await analyze_text_with_llm(f"""/no_think Analyze the following paragraph and return a JSON list of sentences that contain tag questions used to nudge the reader towards a conclusion and imply agreement.
-                                          Instructions:
-                                            All phrases returned must be found in the text. If none are found, return an empty JSON array. Only include phrases that definitely fit the criteria.
-                                            Identify: Locate phrases that use tag questions (short questions at the end that seek confirmation or imply agreement) to bias the reader by suggesting shared understanding.
-                                            Example: "The suspect was acting strangely, wasn't he?" This implies agreement that the suspect was acting strangely.
-                                            Another example: "This was clearly the right decision, don't you think?" This nudges the reader to agree it was the right decision.
-                                            Keywords: Look for tag questions like "isn't it?", "don't you?", "wasn't he?", etc., typically at the end of a statement. Tag questions always end in a question mark.
-                                            Format: The final output must be a single JSON array containing only the extracted tag questions (not entire sentences) as string elements.
-                                            Paragraph: {request.text}
-                                        """, model_to_use=request.model_to_use)
+Instructions:
+All phrases returned must be found in the text. If none are found, return an empty JSON array. Only include phrases that definitely fit the criteria.
+Identify: Locate phrases that use tag questions (short questions at the end that seek confirmation or imply agreement) to bias the reader by suggesting shared understanding.
+Example: "The suspect was acting strangely, wasn't he?" This implies agreement that the suspect was acting strangely.
+Another example: "This was clearly the right decision, don't you think?" This nudges the reader to agree it was the right decision.
+Keywords: Look for tag questions like "isn't it?", "don't you?", "wasn't he?", etc., typically at the end of a statement. Tag questions always end in a question mark.
+Format: The final output must be a single JSON array containing only the extracted tag questions (not entire sentences) as string elements.
+Paragraph: {request.text}
+""", model_to_use=request.model_to_use)
     
     # Filter out any questions that do not end with a question mark
     llm_response["phrases"] = [phrase for phrase in llm_response["phrases"] if phrase.strip().endswith("?")]
@@ -318,11 +327,6 @@ Paragraph: {request.text}
 
 @app.post("/analyze_all")
 async def analyze_all(request: TextAnalysisRequest) -> dict[str, Any]:
-    results: List[BiasIndicatorResult] = []
-    # todo: clean up magic strings for remote/local models
-    model_used: str = "remote"
-    is_fallback_used: bool = False
-    
     analyzers = [
         analyze_oversimplified_comparison,
         analyze_referential_ambiguity,
@@ -331,21 +335,50 @@ async def analyze_all(request: TextAnalysisRequest) -> dict[str, Any]:
         analyze_tag_questions,
         analyze_contextual_framing
     ]
-    
-    # Run LLM tasks concurrently to make use of vLLM optimisations
-    tasks = [analyzer(request) for analyzer in analyzers]
-    results_lists = await asyncio.gather(*tasks, return_exceptions=True)
-    
+
+    original_words = request.text.split()
+    text_truncated = False
+    used_word_limit = None
+    results_lists = None
+
+    for word_limit in WORD_LIMITS:
+        # Truncate if needed
+        if len(original_words) > word_limit:
+            request.text = ' '.join(original_words[:word_limit])
+            text_truncated = True
+            used_word_limit = word_limit
+            logger.info(f"Text truncated from {len(original_words)} to {word_limit} words")
+
+        # Run LLM tasks concurrently to make use of vLLM optimisations
+        tasks = [analyzer(request) for analyzer in analyzers]
+        results_lists = await asyncio.gather(*tasks, return_exceptions=True)
+
+        # Check for context-length errors
+        has_context_error = any(
+            is_context_length_error(r) for r in results_lists if isinstance(r, Exception)
+        )
+
+        if not has_context_error:
+            break
+
+        logger.warning(f"Context length exceeded at {word_limit} words, retrying with fewer words...")
+    else:
+        # All word limits exhausted and still getting context-length errors
+        return JSONResponse(
+            content={"error": "context_length_exceeded"},
+            status_code=400
+        )
+
+    # Process results
+    # todo: clean up magic strings for remote/local models
+    results: List[BiasIndicatorResult] = []
+    model_used: str = "remote"
+    is_fallback_used: bool = False
     successful_count = 0
-    context_length_error = False
+
     for analyzer, result in zip(analyzers, results_lists):
         if isinstance(result, Exception):
             logger.error(f"Error in {analyzer.__name__}: {str(result)}")
-            # Check if it's a context length error
-            error_str = str(result)
-            print(error_str)
-            if "maximum context length" in error_str.lower() or "context length is" in error_str.lower():
-                context_length_error = True
         else:
             successful_count += 1
             results.extend(result["bias_indicators"])  # type: ignore
@@ -355,20 +388,18 @@ async def analyze_all(request: TextAnalysisRequest) -> dict[str, Any]:
                 is_fallback_used = True
 
     if successful_count == 0:
-        if context_length_error:
-            return JSONResponse(
-                content={"error": "context_length_exceeded"},
-                status_code=400
-            )
-        else:
-            return JSONResponse(
-                content={"error": "all_analysis_methods_failed"},
-                status_code=500
-            )
-    
+        return JSONResponse(
+            content={"error": "all_analysis_methods_failed"},
+            status_code=500
+        )
+
     # Note: for model_used, returns "local" if any of the calls used local model; same for is_fallback_used
-    return {
+    response: dict[str, Any] = {
         "bias_indicators": results,
         "model_used": model_used,
         "is_fallback": is_fallback_used
     }
+    if text_truncated:
+        response["text_truncated"] = True
+        response["max_word_count"] = used_word_limit
+    return response

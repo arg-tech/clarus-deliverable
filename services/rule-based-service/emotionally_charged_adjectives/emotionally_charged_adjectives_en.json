@@ -1,5 +1,4 @@
 {
-  
   "Strong Positive": [
     "amazing",
     "astonishing",
@@ -114,7 +113,6 @@
     "gallant",
     "gleaming",
     "glittering",
-    "gracious",
     "heartening",
     "illustrious",
     "imaginative",
@@ -188,7 +186,6 @@
     "polished",
     "prodigious",
     "radiant-hearted",
-    "refreshing",
     "remarkably-bright",
     "resolute",
     "sacred",
@@ -212,21 +209,7 @@
     "wholehearted",
     "zealous"
   ],
-  "Moderate Positive": [
-    "admirable",
-    "appealing",
-    "cheerful",
-    "comforting",
-    "endearing",
-    "engaging",
-    "generous",
-    "good-hearted",
-    "gracious",
-    "heartwarming",
-    "refreshing",
-    "supportive",
-    "welcoming"
-  ],
+  "Moderate Positive": [],
   "Extreme Positive": [
     "alluring",
     "breathtaking",
@@ -312,7 +295,6 @@
     "ruinous",
     "scandalous",
     "shameful",
-    "shocking",
     "sickening",
     "sinister",
     "suffocating",
@@ -327,16 +309,7 @@
     "vulgar",
     "wretched"
   ],
-  "Moderate Negative": [
-    "annoying",
-    "awkward",
-    "cranky",
-    "depressing",
-    "dismal",
-    "gloomy",
-    "miserable",
-    "troublesome"
-  ],
+  "Moderate Negative": [],
   "Extreme Negative": [
     "agonizing",
     "catastrophic",
@@ -356,20 +329,5 @@
     "atrocious",
     "gruesome"
   ],
-  "Mixed / Nuanced": [
-    "bittersweet",
-    "haunting",
-    "heavy",
-    "intense",
-    "moving",
-    "nostalgic",
-    "poignant",
-    "powerful",
-    "raw",
-    "shocking",
-    "startling",
-    "striking",
-    "unsettling",
-    "uncanny"
-  ]
+  "Mixed / Nuanced": []
 }

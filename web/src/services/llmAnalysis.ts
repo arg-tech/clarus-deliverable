@@ -13,10 +13,12 @@ const USE_TEST_DATA: false | keyof typeof TEST_DATA = false;
  * @param model The model to use for analysis ('local' or 'remote', default: 'local')
  * @returns Promise resolving to an object with bias indicators, model used, and fallback status
  */
-export const analyzeLLMIndicators = async (text: string, richText: string, language: string = 'en', model: 'local' | 'remote' = 'local'): Promise<{ indicators: Array<BiasIndicator>; modelUsed: string; isFallback: boolean }> => {
+export const analyzeLLMIndicators = async (text: string, richText: string, language: string = 'en', model: 'local' | 'remote' = 'local'): Promise<{ indicators: Array<BiasIndicator>; modelUsed: string; isFallback: boolean; textTruncated: boolean; maxWordCount?: number; contextLengthExceeded: boolean }> => {
   let rawData: Array<RawBiasIndicator> = [];
   let modelUsed: string = '';
   let isFallback: boolean = false;
+  let textTruncated: boolean = false;
+  let maxWordCount: number | undefined;
 
   // If test data is specified, return it immediately
   if (USE_TEST_DATA) {
@@ -35,7 +37,7 @@ export const analyzeLLMIndicators = async (text: string, richText: string, langu
     if (!response.ok) {
       const errorData = await response.json().catch(() => ({}));
       if (errorData.error === 'context_length_exceeded') {
-        throw new Error('CONTEXT_LENGTH_EXCEEDED');
+        return { indicators: [], modelUsed: '', isFallback: false, textTruncated: false, contextLengthExceeded: true };
       }
       throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -44,6 +46,8 @@ export const analyzeLLMIndicators = async (text: string, richText: string, langu
     rawData = responseData.bias_indicators;
     modelUsed = responseData.model_used;
     isFallback = responseData.is_fallback || false;
+    textTruncated = responseData.text_truncated || false;
+    maxWordCount = responseData.max_word_count;
   }
 
   const filteredBiasIndicators = filterIndicatorsInText(rawData, text);
@@ -56,7 +60,10 @@ export const analyzeLLMIndicators = async (text: string, richText: string, langu
   return {
     indicators: addCharacterPositions(limitedBiasIndicators, text),
     modelUsed,
-    isFallback
+    isFallback,
+    textTruncated,
+    maxWordCount,
+    contextLengthExceeded: false
   };
 };
 

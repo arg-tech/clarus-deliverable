@@ -25,11 +25,6 @@ services:
     volumes:
       - ./services/rhetorical-questions-service:/app
       - /app/.venv
-  sarcasm-service:
-    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--reload", "--app-dir", "/app"]
-    working_dir: /app
-    volumes:
-      - ./services/sarcasm-service:/app
   llm-caller-service:
     working_dir: /app
     volumes:

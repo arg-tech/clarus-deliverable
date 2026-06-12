@@ -22,10 +22,7 @@
     "(?<!\\w)(tempestade|tempestades)\\s+(perfeito|perfeita|perfeitos|perfeitas)(?!\\w)",
     "\\b(chover|chovendo|chovido|chove|choveu|chovia|choverá)\\b",
     "(?<!\\w)mudança(s)?\\s+(sísmica|sísmicas|sísmico|sísmicos)(?!\\w)",
-    "\\b(despedaçar|despedaçando|despedaçado|despedaçada|despedaçados|despedaçadas|despedaça|despedaçam|despedace|despedaço|despedaças|despedaçamos|despedaceis|despedaçava|despedaçavam|despedacei|despedaçou|despedaçaram|despedaçaria|despedaçariam|despedaçarei|despedaçará|despedaçaremos|despedaçariam|despedaçaste|despedaçastes|despedaçámos|despedaçáreis|despedaçáramos|despedaçáreis|despedaçásseis|despedaçasses|despedaçasse|despedaçássemos|despedaçásseis|despedaçassem)\\b",
-    "(?<!\\w)(onda|ondas)\\s+de\\s+(choque|choques)(?!\\w)",
-    "\\b(tsunami|tsunamis)\\b",
-    "\\b(vulcânico|vulcânica|vulcânicos|vulcânicas)\\b"
+    "\\b(tsunami|tsunamis)\\b"
   ],
   "social_or_cultural_critique": [
     "\\b(corrupto|corrupta|corruptos|corruptas)\\b",

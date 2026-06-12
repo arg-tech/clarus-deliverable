@@ -1,12 +1,12 @@
 # Sentiment Analysis Service
 
-Multilingual sentiment classifier using the pre-trained `tabularisai/multilingual-sentiment-analysis` model. Classifies text into 5 sentiment categories.
+Multilingual sentiment classifier using the pre-trained `tabularisai/multilingual-sentiment-analysis` model. Classifies text into 3 sentiment categories.
 
 ## Model
 
 - **Model:** `tabularisai/multilingual-sentiment-analysis`
 - **Framework:** Hugging Face Transformers
-- **Labels:** VERY NEGATIVE, NEGATIVE, NEUTRAL, POSITIVE, VERY POSITIVE
+- **Labels:** NEGATIVE, NEUTRAL, POSITIVE
 
 ## Inference
 
